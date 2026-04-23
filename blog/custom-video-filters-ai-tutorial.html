@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Create Custom Video Filters Using AI — ByteWave</title>
+<meta name="description" content="Step-by-step tutorial: view shader code behind any ByteWave filter, use AI to create custom effects, and apply subject masking for cinematic results.">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#050508;--surface:#0c0c12;--text:#e8e6f0;--text-dim:#8a879e;--text-muted:#56536a;--accent:#00e5a0;--accent2:#00c8ff;--accent3:#a855f7}
+html{font-size:16px}body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;line-height:1.8}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 2rem;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(20px);background:rgba(5,5,8,0.7);border-bottom:1px solid rgba(255,255,255,0.04)}
+.logo{font-family:'Space Mono',monospace;font-weight:700;font-size:1.3rem;letter-spacing:-0.5px}
+.logo span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-links{display:flex;gap:2rem;align-items:center;font-size:.9rem;color:var(--text-dim)}
+.nav-links a{color:var(--text-dim)}.nav-links a:hover{color:var(--text);text-decoration:none}
+.nav-cta{background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem}
+article{max-width:720px;margin:0 auto;padding:8rem 2rem 4rem}
+.tag{font-family:'Space Mono',monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:3px;color:var(--accent);margin-bottom:1rem;display:block}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;letter-spacing:-1px;line-height:1.15;margin-bottom:1.5rem}
+.meta{color:var(--text-muted);font-size:.85rem;margin-bottom:3rem;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,0.06)}
+h2{font-size:1.4rem;font-weight:700;margin:2.5rem 0 1rem;letter-spacing:-0.5px}
+h3{font-size:1.1rem;font-weight:600;margin:2rem 0 .8rem;color:var(--accent2)}
+p{color:var(--text-dim);margin-bottom:1.5rem;font-size:1.05rem}
+strong{color:var(--text)}
+.step{background:var(--surface);border-left:3px solid var(--accent);padding:1.2rem 1.5rem;margin:1.5rem 0;border-radius:0 8px 8px 0}
+.step p{margin-bottom:0}
+.ideas{background:var(--surface);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1.5rem 2rem;margin:2rem 0}
+.ideas p{margin-bottom:.6rem;font-size:.95rem}
+.ideas p:last-child{margin-bottom:0}
+.cta-box{background:var(--surface);border:1px solid rgba(0,229,160,0.15);border-radius:12px;padding:2rem;text-align:center;margin:3rem 0}
+.cta-box h3{font-size:1.3rem;margin-bottom:.5rem;color:var(--text)}
+.cta-box p{color:var(--text-dim);margin-bottom:1.2rem;font-size:.95rem}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg);padding:.75rem 2rem;border-radius:8px;font-weight:700;font-size:1rem;text-decoration:none}
+.btn:hover{text-decoration:none}
+footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:center;color:var(--text-muted);font-size:.8rem;margin-top:4rem}
+@media(max-width:768px){.nav-links{display:none}}
+</style>
+</head>
+<body>
+<nav><a href="/" class="logo"><span>ByteWave</span></a><div class="nav-links"><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Blog</a><a href="/#download" class="nav-cta">Download Free</a></div></nav>
+
+<article>
+  <span class="tag">Tutorial</span>
+  <h1>How to Create Custom Video Filters Using AI and Shader Code</h1>
+  <div class="meta">Updated April 2026 · 5 min read</div>
+
+  <p>What if you could look at the code behind a video filter, describe what you want to change in plain English, and have AI rewrite it for you? That's exactly how ByteWave's hackable filter system works — and it opens up creative possibilities that no preset library can match.</p>
+
+  <h2>How ByteWave filters work</h2>
+
+  <p>Every filter in ByteWave is a Metal shader — a small program that runs on your device's GPU and processes each frame of your video. Unlike traditional editors where filters are opaque presets you can only adjust with sliders, ByteWave lets you view the actual shader source code.</p>
+
+  <h2>Step-by-step: Creating a custom filter with AI</h2>
+
+  <div class="step">
+    <p><strong>Step 1: Open any existing filter.</strong> Start with one that's close to what you want. Tap the code icon to reveal its shader source.</p>
+  </div>
+
+  <div class="step">
+    <p><strong>Step 2: Copy the shader reference.</strong> ByteWave gives you a copyable version of the filter's key parameters and structure.</p>
+  </div>
+
+  <div class="step">
+    <p><strong>Step 3: Describe your vision to an AI assistant.</strong> Paste the shader reference into ChatGPT, Claude, or any AI assistant and describe what you want. For example: "Make this look like a faded 1970s Kodachrome film with warmer highlights and crushed shadows."</p>
+  </div>
+
+  <div class="step">
+    <p><strong>Step 4: Paste the result back into ByteWave.</strong> Copy the AI-generated shader code, paste it into ByteWave's filter editor, and hit preview. Iterate until it's perfect.</p>
+  </div>
+
+  <div class="step">
+    <p><strong>Step 5: Save and apply.</strong> Save your custom filter and apply it to any project. You can even share your filters with other ByteWave users.</p>
+  </div>
+
+  <h2>Advanced: Subject masking with custom filters</h2>
+
+  <p>ByteWave lets you extract a subject mask and pass it to your filter. This means you can apply your custom effect to only the background (impressionist painting, blur, color shift) while keeping the subject untouched — or vice versa. It's the kind of selective effect that traditionally required rotoscoping in After Effects.</p>
+
+  <h2>Filter ideas to try</h2>
+
+  <div class="ideas">
+    <p>🎨 <strong>"Wes Anderson"</strong> — symmetrical pastel color grading with boosted yellows and pinks</p>
+    <p>🕵️ <strong>"Noir detective"</strong> — high contrast black and white with dramatic vignette</p>
+    <p>🌊 <strong>"Underwater"</strong> — blue-green color shift with subtle caustic light patterns</p>
+    <p>📼 <strong>"VHS glitch"</strong> — scan lines, color bleeding, and tracking distortion</p>
+    <p>🌅 <strong>"Golden hour"</strong> — warm amber highlights with soft diffusion</p>
+  </div>
+
+  <p>The beauty of this system is that you're not limited to what a design team decided to include. If you can describe it, you can build it.</p>
+
+  <div class="cta-box">
+    <h3>Your filters. Your rules.</h3>
+    <p>ByteWave is the only editor that lets you hack the code behind every filter — for free.</p>
+    <a href="/#download" class="btn">Download Free</a>
+  </div>
+
+  <p>Also read: <a href="/blog/free-capcut-alternative-2026.html">Best Free CapCut Alternative</a> · <a href="/blog/video-editing-app-comparison-2026.html">Full Editor Comparison</a></p>
+</article>
+
+<footer><p>&copy; 2026 ByteWave. Video editing should be free. Always.</p></footer>
+</body>
+</html>
