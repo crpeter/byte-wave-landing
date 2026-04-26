@@ -1,140 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ByteWave — Video Editing Should Be Free</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --bg:#050508;--surface:#0c0c12;--surface2:#12121c;
-  --text:#e8e6f0;--text-dim:#8a879e;--text-muted:#56536a;
-  --accent:#00e5a0;--accent2:#00c8ff;--accent3:#a855f7;
-  --danger:#ff4466;
-  --gradient:linear-gradient(135deg,var(--accent),var(--accent2));
-  --gradient2:linear-gradient(135deg,var(--accent2),var(--accent3));
-}
-html{scroll-behavior:smooth;font-size:16px}
-body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;overflow-x:hidden;line-height:1.6}
-a{color:inherit;text-decoration:none}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ByteWave — Free GPU-Powered Video Editor for iPhone, iPad & Mac</title>
+  <meta name="description" content="ByteWave is a free video editor for iPhone, iPad, and Mac. No watermarks, no subscriptions. Custom Metal shaders, motion blur, super resolution, and more — all processed on your device. Your footage never leaves your phone.">
+  <meta name="keywords" content="free video editor, video editor no watermark, capcut alternative, ios video editor, metal shaders, gpu video editor, video editor no subscription, privacy video editor, free video editor iphone">
+  <link rel="canonical" href="https://bytewaveai.com/">
 
-/* NOISE OVERLAY */
-body::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;
-  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
-  pointer-events:none;z-index:9999}
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ByteWave — Free GPU-Powered Video Editor for iOS">
+  <meta property="og:description" content="No watermarks. No subscriptions. No uploads. A free video editor built on Metal that runs entirely on your device.">
+  <meta property="og:url" content="https://bytewaveai.com/">
+  <meta property="og:site_name" content="ByteWave">
+  <!-- <meta property="og:image" content="https://bytewaveai.com/og-image.png"> -->
 
-/* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 2rem;
-  display:flex;align-items:center;justify-content:space-between;
-  backdrop-filter:blur(20px);background:rgba(5,5,8,0.7);border-bottom:1px solid rgba(255,255,255,0.04)}
-.logo{font-family:'Space Mono',monospace;font-weight:700;font-size:1.3rem;letter-spacing:-0.5px}
-.logo span{background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.nav-links{display:flex;gap:2rem;align-items:center;font-size:.9rem;color:var(--text-dim)}
-.nav-links a:hover{color:var(--text)}
-.nav-cta{background:var(--gradient);color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem;transition:transform .2s,box-shadow .2s}
-.nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,229,160,0.3)}
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ByteWave — Free GPU-Powered Video Editor for iOS">
+  <meta name="twitter:description" content="No watermarks. No subscriptions. No uploads. Built on Metal. Your footage never leaves your phone.">
+  <!-- <meta name="twitter:image" content="https://bytewaveai.com/og-image.png"> -->
 
-/* HERO */
-.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:8rem 2rem 4rem;position:relative}
-.hero::before{content:'';position:absolute;top:-20%;left:50%;transform:translateX(-50%);width:800px;height:800px;
-  background:radial-gradient(circle,rgba(0,229,160,0.08) 0%,rgba(0,200,255,0.04) 40%,transparent 70%);pointer-events:none}
-.hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.4rem 1rem;border-radius:99px;
-  background:rgba(0,229,160,0.08);border:1px solid rgba(0,229,160,0.15);color:var(--accent);
-  font-size:.8rem;font-weight:500;margin-bottom:2rem;letter-spacing:.5px;
-  animation:fadeUp .8s ease both}
-.hero-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-.hero h1{font-size:clamp(2.8rem,7vw,5.5rem);font-weight:900;line-height:1.05;letter-spacing:-2px;
-  max-width:900px;animation:fadeUp .8s ease .1s both}
-.hero h1 em{font-style:normal;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.hero-sub{font-size:clamp(1rem,2vw,1.3rem);color:var(--text-dim);max-width:600px;margin-top:1.5rem;
-  font-weight:300;animation:fadeUp .8s ease .2s both}
-.hero-actions{display:flex;gap:1rem;margin-top:2.5rem;flex-wrap:wrap;justify-content:center;animation:fadeUp .8s ease .3s both}
-.btn-primary{background:var(--gradient);color:var(--bg);padding:.85rem 2.2rem;border-radius:8px;font-weight:700;font-size:1rem;
-  transition:transform .2s,box-shadow .2s;border:none;cursor:pointer}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,229,160,0.25)}
-.btn-secondary{background:transparent;color:var(--text);padding:.85rem 2.2rem;border-radius:8px;font-weight:500;font-size:1rem;
-  border:1px solid rgba(255,255,255,0.12);transition:all .2s}
-.btn-secondary:hover{border-color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.03)}
-.hero-platforms{margin-top:1.5rem;font-size:.8rem;color:var(--text-muted);animation:fadeUp .8s ease .4s both}
-@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ByteWave",
+      "operatingSystem": "iOS, iPadOS, macOS",
+      "applicationCategory": "MultimediaApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "A free, GPU-powered video editor for iOS. Trim and stitch clips, layer unlimited audio tracks, and apply real-time Metal-powered effects — all processed on your device. No watermarks, no subscriptions.",
+      "url": "https://bytewaveai.com/",
+      "downloadUrl": "https://apps.apple.com/us/app/bytewave/id6752225642",
+      "author": {
+        "@type": "Person",
+        "name": "Cody Peter"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "ratingCount": "5",
+        "bestRating": "5"
+      },
+      "featureList": "Custom Metal Shader Editor, Super Resolution Upscaling, Motion Blur, Temporal Noise Reduction, Community Filters, Unlimited Audio Tracks, On-Device Processing"
+    }
+  </script>
 
-/* SLOGAN MARQUEE */
-.marquee-wrap{overflow:hidden;padding:2rem 0;border-top:1px solid rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.04)}
-.marquee{display:flex;gap:3rem;animation:scroll 20s linear infinite;width:max-content}
-.marquee span{font-family:'Space Mono',monospace;font-size:.85rem;color:var(--text-muted);white-space:nowrap;text-transform:uppercase;letter-spacing:2px}
-.marquee span em{font-style:normal;color:var(--accent)}
-@keyframes scroll{to{transform:translateX(-50%)}}
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{
+      --bg:#050508;--surface:#0c0c12;--surface2:#12121c;
+      --text:#e8e6f0;--text-dim:#8a879e;--text-muted:#56536a;
+      --accent:#00e5a0;--accent2:#00c8ff;--accent3:#a855f7;
+      --danger:#ff4466;
+      --gradient:linear-gradient(135deg,var(--accent),var(--accent2));
+      --gradient2:linear-gradient(135deg,var(--accent2),var(--accent3));
+    }
+    html{scroll-behavior:smooth;font-size:16px}
+    body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;overflow-x:hidden;line-height:1.6}
+    a{color:inherit;text-decoration:none}
 
-/* COMPARISON TABLE */
-.section{padding:6rem 2rem}
-.section-label{font-family:'Space Mono',monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:3px;color:var(--accent);margin-bottom:1rem}
-.section-title{font-size:clamp(2rem,4vw,3rem);font-weight:800;letter-spacing:-1px;margin-bottom:1rem}
-.section-sub{color:var(--text-dim);font-size:1.1rem;max-width:600px;font-weight:300}
-.comparison{max-width:900px;margin:3rem auto 0}
-.comp-header{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;margin-bottom:2px}
-.comp-header div{padding:1.2rem;text-align:center;font-weight:700;font-size:.95rem;background:var(--surface)}
-.comp-header div:first-child{text-align:left;color:var(--text-dim);font-weight:400;font-size:.85rem}
-.comp-header div:nth-child(2){color:var(--accent);border-top:2px solid var(--accent)}
-.comp-header div:nth-child(3){color:var(--text-muted)}
-.comp-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;margin-bottom:1px}
-.comp-row div{padding:1rem 1.2rem;background:var(--surface);font-size:.9rem}
-.comp-row div:first-child{color:var(--text-dim);font-weight:500}
-.comp-row div:nth-child(2){text-align:center}
-.comp-row div:nth-child(3){text-align:center;color:var(--text-muted)}
-.check{color:var(--accent)}
-.cross{color:var(--danger);opacity:.6}
-.price-tag{background:rgba(0,229,160,0.1);color:var(--accent);padding:.2rem .6rem;border-radius:4px;font-weight:600;font-family:'Space Mono',monospace;font-size:.85rem}
-.price-bad{background:rgba(255,68,102,0.1);color:var(--danger)}
+    /* NOISE OVERLAY */
+    body::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;
+      background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events:none;z-index:9999}
 
-/* FEATURES */
-.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;max-width:1100px;margin:3rem auto 0}
-.feature-card{background:var(--surface);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:2rem;
-  transition:all .3s;position:relative;overflow:hidden}
-.feature-card:hover{border-color:rgba(0,229,160,0.15);transform:translateY(-2px);box-shadow:0 8px 40px rgba(0,0,0,0.3)}
-.feature-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gradient);opacity:0;transition:opacity .3s}
-.feature-card:hover::before{opacity:1}
-.feature-icon{font-size:1.8rem;margin-bottom:1rem}
-.feature-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
-.feature-card p{color:var(--text-dim);font-size:.9rem;line-height:1.6}
+    /* NAV */
+    nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 2rem;
+      display:flex;align-items:center;justify-content:space-between;
+      backdrop-filter:blur(20px);background:rgba(5,5,8,0.7);border-bottom:1px solid rgba(255,255,255,0.04)}
+    .logo{font-family:'Space Mono',monospace;font-weight:700;font-size:1.3rem;letter-spacing:-0.5px}
+    .logo span{background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .nav-links{display:flex;gap:2rem;align-items:center;font-size:.9rem;color:var(--text-dim)}
+    .nav-links a:hover{color:var(--text)}
+    .nav-cta{background:var(--gradient);color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem;transition:transform .2s,box-shadow .2s}
+    .nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,229,160,0.3)}
 
-/* PRIVACY */
-.privacy-block{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid rgba(0,229,160,0.1);border-radius:16px;padding:3rem;display:flex;gap:2.5rem;align-items:center}
-.privacy-icon{font-size:4rem;flex-shrink:0}
-.privacy-block h3{font-size:1.5rem;font-weight:700;margin-bottom:.5rem}
-.privacy-block p{color:var(--text-dim);font-size:1rem;line-height:1.7}
-.privacy-block strong{color:var(--accent)}
+    /* HERO */
+    .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:8rem 2rem 4rem;position:relative}
+    .hero::before{content:'';position:absolute;top:-20%;left:50%;transform:translateX(-50%);width:800px;height:800px;
+      background:radial-gradient(circle,rgba(0,229,160,0.08) 0%,rgba(0,200,255,0.04) 40%,transparent 70%);pointer-events:none}
+    .hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.4rem 1rem;border-radius:99px;
+      background:rgba(0,229,160,0.08);border:1px solid rgba(0,229,160,0.15);color:var(--accent);
+      font-size:.8rem;font-weight:500;margin-bottom:2rem;letter-spacing:.5px;
+      animation:fadeUp .8s ease both}
+    .hero-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+    .hero h1{font-size:clamp(2.8rem,7vw,5.5rem);font-weight:900;line-height:1.05;letter-spacing:-2px;
+      max-width:900px;animation:fadeUp .8s ease .1s both}
+    .hero h1 em{font-style:normal;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .hero-sub{font-size:clamp(1rem,2vw,1.3rem);color:var(--text-dim);max-width:600px;margin-top:1.5rem;
+      font-weight:300;animation:fadeUp .8s ease .2s both}
+    .hero-actions{display:flex;gap:1rem;margin-top:2.5rem;flex-wrap:wrap;justify-content:center;animation:fadeUp .8s ease .3s both}
+    .btn-primary{background:var(--gradient);color:var(--bg);padding:.85rem 2.2rem;border-radius:8px;font-weight:700;font-size:1rem;
+      transition:transform .2s,box-shadow .2s;border:none;cursor:pointer}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,229,160,0.25)}
+    .btn-secondary{background:transparent;color:var(--text);padding:.85rem 2.2rem;border-radius:8px;font-weight:500;font-size:1rem;
+      border:1px solid rgba(255,255,255,0.12);transition:all .2s}
+    .btn-secondary:hover{border-color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.03)}
+    .hero-platforms{margin-top:1.5rem;font-size:.8rem;color:var(--text-muted);animation:fadeUp .8s ease .4s both}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 
-/* SHADER */
-.shader-section{max-width:900px;margin:0 auto;text-align:center}
-.shader-code{background:var(--surface);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:2rem;margin-top:2rem;text-align:left;
-  font-family:'Space Mono',monospace;font-size:.8rem;color:var(--text-dim);line-height:1.8;overflow-x:auto}
-.shader-code .kw{color:var(--accent2)}
-.shader-code .fn{color:var(--accent)}
-.shader-code .cm{color:var(--text-muted)}
-.shader-code .st{color:var(--accent3)}
+    /* SLOGAN MARQUEE */
+    .marquee-wrap{overflow:hidden;padding:2rem 0;border-top:1px solid rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.04)}
+    .marquee{display:flex;gap:3rem;animation:scroll 20s linear infinite;width:max-content}
+    .marquee span{font-family:'Space Mono',monospace;font-size:.85rem;color:var(--text-muted);white-space:nowrap;text-transform:uppercase;letter-spacing:2px}
+    .marquee span em{font-style:normal;color:var(--accent)}
+    @keyframes scroll{to{transform:translateX(-50%)}}
 
-/* CTA */
-.cta-section{text-align:center;padding:8rem 2rem;position:relative}
-.cta-section::before{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:600px;height:400px;
-  background:radial-gradient(circle,rgba(0,229,160,0.06) 0%,transparent 70%);pointer-events:none}
-.cta-section h2{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;letter-spacing:-1.5px;margin-bottom:1rem}
-.cta-section h2 em{font-style:normal;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.cta-section p{color:var(--text-dim);font-size:1.1rem;margin-bottom:2.5rem;max-width:500px;margin-left:auto;margin-right:auto}
+    /* COMPARISON TABLE */
+    .section{padding:6rem 2rem}
+    .section-label{font-family:'Space Mono',monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:3px;color:var(--accent);margin-bottom:1rem}
+    .section-title{font-size:clamp(2rem,4vw,3rem);font-weight:800;letter-spacing:-1px;margin-bottom:1rem}
+    .section-sub{color:var(--text-dim);font-size:1.1rem;max-width:600px;font-weight:300}
+    .comparison{max-width:900px;margin:3rem auto 0}
+    .comp-header{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;margin-bottom:2px}
+    .comp-header div{padding:1.2rem;text-align:center;font-weight:700;font-size:.95rem;background:var(--surface)}
+    .comp-header div:first-child{text-align:left;color:var(--text-dim);font-weight:400;font-size:.85rem}
+    .comp-header div:nth-child(2){color:var(--accent);border-top:2px solid var(--accent)}
+    .comp-header div:nth-child(3){color:var(--text-muted)}
+    .comp-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;margin-bottom:1px}
+    .comp-row div{padding:1rem 1.2rem;background:var(--surface);font-size:.9rem}
+    .comp-row div:first-child{color:var(--text-dim);font-weight:500}
+    .comp-row div:nth-child(2){text-align:center}
+    .comp-row div:nth-child(3){text-align:center;color:var(--text-muted)}
+    .check{color:var(--accent)}
+    .cross{color:var(--danger);opacity:.6}
+    .price-tag{background:rgba(0,229,160,0.1);color:var(--accent);padding:.2rem .6rem;border-radius:4px;font-weight:600;font-family:'Space Mono',monospace;font-size:.85rem}
+    .price-bad{background:rgba(255,68,102,0.1);color:var(--danger)}
 
-/* FOOTER */
-footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:center;color:var(--text-muted);font-size:.8rem}
-footer a{color:var(--text-dim)}
+    /* FEATURES */
+    .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;max-width:1100px;margin:3rem auto 0}
+    .feature-card{background:var(--surface);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:2rem;
+      transition:all .3s;position:relative;overflow:hidden}
+    .feature-card:hover{border-color:rgba(0,229,160,0.15);transform:translateY(-2px);box-shadow:0 8px 40px rgba(0,0,0,0.3)}
+    .feature-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gradient);opacity:0;transition:opacity .3s}
+    .feature-card:hover::before{opacity:1}
+    .feature-icon{font-size:1.8rem;margin-bottom:1rem}
+    .feature-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
+    .feature-card p{color:var(--text-dim);font-size:.9rem;line-height:1.6}
 
-/* RESPONSIVE */
-@media(max-width:768px){
-  .nav-links{display:none}
-  .comp-row div,.comp-header div{padding:.7rem;font-size:.75rem}
-  .privacy-block{flex-direction:column;text-align:center;gap:1rem}
-  .features-grid{grid-template-columns:1fr}
-}
-</style>
+    /* PRIVACY */
+    .privacy-block{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid rgba(0,229,160,0.1);border-radius:16px;padding:3rem;display:flex;gap:2.5rem;align-items:center}
+    .privacy-icon{font-size:4rem;flex-shrink:0}
+    .privacy-block h3{font-size:1.5rem;font-weight:700;margin-bottom:.5rem}
+    .privacy-block p{color:var(--text-dim);font-size:1rem;line-height:1.7}
+    .privacy-block strong{color:var(--accent)}
+
+    /* SHADER */
+    .shader-section{max-width:900px;margin:0 auto;text-align:center}
+    .shader-code{background:var(--surface);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:2rem;margin-top:2rem;text-align:left;
+      font-family:'Space Mono',monospace;font-size:.8rem;color:var(--text-dim);line-height:1.8;overflow-x:auto}
+    .shader-code .kw{color:var(--accent2)}
+    .shader-code .fn{color:var(--accent)}
+    .shader-code .cm{color:var(--text-muted)}
+    .shader-code .st{color:var(--accent3)}
+
+    /* CTA */
+    .cta-section{text-align:center;padding:8rem 2rem;position:relative}
+    .cta-section::before{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:600px;height:400px;
+      background:radial-gradient(circle,rgba(0,229,160,0.06) 0%,transparent 70%);pointer-events:none}
+    .cta-section h2{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;letter-spacing:-1.5px;margin-bottom:1rem}
+    .cta-section h2 em{font-style:normal;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .cta-section p{color:var(--text-dim);font-size:1.1rem;margin-bottom:2.5rem;max-width:500px;margin-left:auto;margin-right:auto}
+
+    /* FOOTER */
+    footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:center;color:var(--text-muted);font-size:.8rem}
+    footer a{color:var(--text-dim)}
+
+    /* RESPONSIVE */
+    @media(max-width:768px){
+      .nav-links{display:none}
+      .comp-row div,.comp-header div{padding:.7rem;font-size:.75rem}
+      .privacy-block{flex-direction:column;text-align:center;gap:1rem}
+      .features-grid{grid-template-columns:1fr}
+    }
+  </style>
 </head>
 <body>
 
@@ -199,6 +247,7 @@ footer a{color:var(--text-dim)}
     <div class="comp-row"><div>Auto captions</div><div class="check">✓ Free</div><div class="check" style="opacity:.6">✓ Pro only</div></div>
     <div class="comp-row"><div>Hackable filters / shaders</div><div class="check">✓ See &amp; edit code</div><div class="cross">✗ Black box</div></div>
     <div class="comp-row"><div>Subject mask for filters</div><div class="check">✓ Built-in</div><div class="cross">✗ No</div></div>
+    <div class="comp-row"><div>Community filters</div><div class="check">✓ Share &amp; discover</div><div class="cross">✗ No</div></div>
     <div class="comp-row"><div>Data privacy</div><div class="check">✓ Never leaves device</div><div class="cross">✗ Uploaded to servers</div></div>
   </div>
 </section>
@@ -231,6 +280,11 @@ footer a{color:var(--text-dim)}
       <div class="feature-icon">🔧</div>
       <h3>Hackable Shader Filters</h3>
       <p>See the code behind every filter. Edit it. Copy the shader reference, describe what you want to ChatGPT, paste it back. Your filters, your rules.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌐</div>
+      <h3>Community Filters</h3>
+      <p>Publish your custom filters for the world to use, or browse and grab filters made by other creators. One tap to add to your library.</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">🎭</div>
