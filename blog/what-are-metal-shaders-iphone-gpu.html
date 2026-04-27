@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU - ByteWave</title>
+<meta name="description" content="Metal shaders are programs that run on your iPhone's GPU. Learn how ByteWave uses Apple's Metal framework to process video effects in real time, entirely on-device.">
+<link rel="canonical" href="https://bytewaveai.com/blog/what-are-metal-shaders-iphone-gpu.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU - ByteWave">
+<meta property="og:description" content="Metal shaders are programs that run on your iPhone's GPU. How ByteWave uses Apple's Metal framework to process video effects in real time.">
+<meta property="og:url" content="https://bytewaveai.com/blog/what-are-metal-shaders-iphone-gpu.html">
+<meta property="og:site_name" content="ByteWave">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="What Are Metal Shaders? - ByteWave">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#050508;--surface:#0c0c12;--text:#e8e6f0;--text-dim:#8a879e;--text-muted:#56536a;--accent:#00e5a0;--accent2:#00c8ff;--accent3:#a855f7}
+html{font-size:16px}body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;line-height:1.8}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 2rem;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(20px);background:rgba(5,5,8,0.7);border-bottom:1px solid rgba(255,255,255,0.04)}
+.logo{font-family:'Space Mono',monospace;font-weight:700;font-size:1.3rem;letter-spacing:-0.5px}
+.logo span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-links{display:flex;gap:2rem;align-items:center;font-size:.9rem;color:var(--text-dim)}
+.nav-links a{color:var(--text-dim)}.nav-links a:hover{color:var(--text);text-decoration:none}
+.nav-cta{background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem}
+article{max-width:720px;margin:0 auto;padding:8rem 2rem 4rem}
+.tag{font-family:'Space Mono',monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:3px;color:var(--accent);margin-bottom:1rem;display:block}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;letter-spacing:-1px;line-height:1.15;margin-bottom:1.5rem}
+.meta{color:var(--text-muted);font-size:.85rem;margin-bottom:3rem;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,0.06)}
+h2{font-size:1.4rem;font-weight:700;margin:2.5rem 0 1rem;letter-spacing:-0.5px}
+p{color:var(--text-dim);margin-bottom:1.5rem;font-size:1.05rem}
+strong{color:var(--text)}
+code{font-family:'Space Mono',monospace;background:var(--surface);padding:.15rem .4rem;border-radius:4px;font-size:.9rem;color:var(--accent2)}
+.code-block{background:var(--surface);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1.5rem 2rem;margin:1.5rem 0;font-family:'Space Mono',monospace;font-size:.8rem;color:var(--text-dim);line-height:1.8;overflow-x:auto}
+.code-block .kw{color:var(--accent2)}
+.code-block .fn{color:var(--accent)}
+.code-block .cm{color:var(--text-muted)}
+.code-block .st{color:var(--accent3)}
+.cta-box{background:var(--surface);border:1px solid rgba(0,229,160,0.15);border-radius:12px;padding:2rem;text-align:center;margin:3rem 0}
+.cta-box h3{font-size:1.3rem;margin-bottom:.5rem;color:var(--text)}
+.cta-box p{color:var(--text-dim);margin-bottom:1.2rem;font-size:.95rem}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg);padding:.75rem 2rem;border-radius:8px;font-weight:700;font-size:1rem;text-decoration:none}
+.btn:hover{text-decoration:none}
+footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:center;color:var(--text-muted);font-size:.8rem;margin-top:4rem}
+@media(max-width:768px){.nav-links{display:none}}
+</style>
+</head>
+<body>
+<nav><a href="/" class="logo"><span>ByteWave</span></a><div class="nav-links"><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Blog</a><a href="/#download" class="nav-cta">Download Free</a></div></nav>
+
+<article>
+  <span class="tag">Technical</span>
+  <h1>What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU</h1>
+  <div class="meta">April 2026 · 5 min read</div>
+
+  <p>When you apply a filter in most video editors, something happens behind the scenes that you never see. The app takes each frame of your video, processes it through some algorithm, and gives you the result. In most apps, that algorithm is a black box. In ByteWave, it's a Metal shader you can actually read and edit.</p>
+
+  <h2>What is Metal?</h2>
+
+  <p>Metal is Apple's low-level GPU programming framework. It lets developers write code that runs directly on the graphics processor in your iPhone, iPad, or Mac. The GPU is designed to process massive amounts of data in parallel, which makes it perfect for video. While your CPU handles one thing at a time really fast, your GPU handles millions of things at once. A 4K video frame has over 8 million pixels; the GPU processes all of them simultaneously.</p>
+
+  <p>Metal replaced OpenGL on Apple platforms and gives developers much more direct control over the hardware. It's the same framework that powers high-end games and professional creative tools on Apple devices.</p>
+
+  <h2>What is a shader?</h2>
+
+  <p>A shader is a small program that runs on the GPU. In the context of video editing, a shader takes a pixel's color as input and outputs a new color. That's it at the most basic level. A grayscale shader reads the red, green, and blue values of a pixel and averages them into a single gray value. A color tint shader shifts the hue. A blur shader samples neighboring pixels and blends them together.</p>
+
+  <p>Here's what a simple grayscale shader looks like in concept:</p>
+
+  <div class="code-block">
+    <span class="cm">// Take the input pixel color</span><br>
+    <span class="kw">vec4</span> color = <span class="fn">texture</span>(inputImage, uv);<br><br>
+    <span class="cm">// Average the RGB channels</span><br>
+    <span class="kw">float</span> gray = (color.r + color.g + color.b) / <span class="st">3.0</span>;<br><br>
+    <span class="cm">// Output the grayscale pixel</span><br>
+    <span class="kw">return</span> <span class="kw">vec4</span>(gray, gray, gray, color.a);
+  </div>
+
+  <p>This runs for every single pixel in every single frame. On a modern iPhone, that's billions of operations per second, and the GPU handles it in real time.</p>
+
+  <h2>Why this matters for video editing</h2>
+
+  <p>Most mobile video editors apply filters using pre-compiled code that you can't see or change. You get a "Vintage" filter or a "Warm" preset, and you can maybe adjust its intensity with a slider. That's it. You have no idea what the filter is actually doing, and you can't modify the underlying logic.</p>
+
+  <p>ByteWave takes a different approach. Every filter exposes its shader source code. You can open the code view and see exactly what the grayscale filter, the impressionist filter, or any other effect is doing at the pixel level. More importantly, you can change it.</p>
+
+  <h2>How ByteWave makes shaders accessible</h2>
+
+  <p>You don't need to be a graphics programmer to use this. ByteWave's workflow is designed around copying the shader reference and pasting it into an AI assistant like ChatGPT or Claude. You describe what you want in plain English, like "make this look like faded Kodachrome film with crushed shadows," and the AI writes the shader code. Paste it back into ByteWave, preview it on your footage, and iterate.</p>
+
+  <p>This is also how <a href="/blog/community-filters-bytewave.html">community filters</a> work. When someone publishes a filter, they're sharing the shader code. You can use it as-is, or open the code and use it as a starting point for something new.</p>
+
+  <h2>Subject-aware shaders</h2>
+
+  <p>ByteWave goes a step further by letting shaders access Vision framework data. The app can detect the subject in your video and pass a mask to the shader, which means you can write effects that treat the subject and background differently. An impressionist painting effect on the background while the subject stays sharp. A color grade on the subject while the background is desaturated. A blur that only affects everything except the face. These are effects that traditionally required manual rotoscoping in After Effects.</p>
+
+  <h2>The technical stack</h2>
+
+  <p>For the technically curious: ByteWave renders video through a Metal compute pipeline. Each filter is a compute kernel that gets dispatched to the GPU with the current frame as a texture input. The shader reads from this texture, applies its logic per-pixel, and writes to an output texture. Multiple shaders can be chained together in a pipeline. The Vision framework runs on the Neural Engine to generate subject masks, which are passed to shaders as additional texture inputs. All of this happens per-frame in real time during preview, and at full resolution during export.</p>
+
+  <p>Because everything runs on the local GPU and Neural Engine, there's no network latency, no upload step, and no dependency on a cloud service. The quality and speed of your effects depends entirely on your hardware, and modern Apple Silicon handles it effortlessly.</p>
+
+  <div class="cta-box">
+    <h3>See the code. Change the code. Make it yours.</h3>
+    <p>ByteWave is the only mobile editor that lets you hack the GPU pipeline.</p>
+    <a href="/#download" class="btn">Download Free</a>
+  </div>
+
+  <p>Also read: <a href="/blog/custom-video-filters-ai-tutorial.html">Create Custom Filters with AI</a> · <a href="/blog/community-filters-bytewave.html">Community Filters</a></p>
+</article>
+
+<footer><p>&copy; 2026 ByteWave. Video editing should be free. Always.</p></footer>
+</body>
+</html>
