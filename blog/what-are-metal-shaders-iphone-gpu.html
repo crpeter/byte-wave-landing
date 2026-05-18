@@ -45,6 +45,16 @@ code{font-family:'Space Mono',monospace;background:var(--surface);padding:.15rem
 .btn:hover{text-decoration:none}
 footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:center;color:var(--text-muted);font-size:.8rem;margin-top:4rem}
 @media(max-width:768px){.nav-links{display:none}}
+.llm-disclosure{
+  margin:-1.5rem 0 2.5rem;
+  padding:1rem 1.1rem;
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:10px;
+  background:rgba(255,255,255,0.04);
+  color:var(--text-dim);
+  font-size:.95rem;
+  line-height:1.5;
+}
 </style>
 </head>
 <body>
@@ -54,6 +64,9 @@ footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:
   <span class="tag">Technical</span>
   <h1>What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU</h1>
   <div class="meta">April 2026 · 5 min read</div>
+  <div class="llm-disclosure">
+    Written with help from an LLM for SEO. This is a marketing roundup, not an independent review.
+  </div>
 
   <p>When you apply a filter in most video editors, something happens behind the scenes that you never see. The app takes each frame of your video, processes it through some algorithm, and gives you the result. In most apps, that algorithm is a black box. In ByteWave, it's a Metal shader you can actually read and edit.</p>
 
