@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["M6L6LG387J.com.bytewave.app"],
+        "components": [{ "/": "/v/*" }]
+      }
+    ]
+  }
+}
