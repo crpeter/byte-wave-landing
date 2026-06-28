@@ -61,7 +61,7 @@
       "ratingCount": "5",
       "bestRating": "5"
     },
-    "featureList": "Custom Metal Shader Editor, Super Resolution Upscaling, Motion Blur, Temporal Noise Reduction, Community Filters, Unlimited Audio Tracks, On-Device Processing"
+    "featureList": "Custom Metal Shader Editor, Super Resolution Upscaling, Motion Blur, Temporal Noise Reduction, Community Filters, Unlimited Audio Tracks, On-Device Processing, Cryptographic Video Provenance"
   }
   </script>
 
@@ -412,6 +412,9 @@
   <p>
     ByteWave processes everything locally on Apple Silicon. <strong>No server uploads. No analytics on your content. No account required.</strong> The app doesn't have the ability to send your videos anywhere; there's no upload endpoint to phone home to.
   </p>
+  <p>
+    Every export is cryptographically signed with provenance metadata, so anyone can verify that a video was created with ByteWave and hasn't been tampered with. <strong>In a world full of deepfakes, your footage carries proof that it's real.</strong>
+  </p>
 </section>
 
 <hr class="divider">
@@ -448,6 +451,11 @@
         <td>Data collection</td>
         <td class="yes">None</td>
         <td class="no">Extensive</td>
+      </tr>
+      <tr>
+        <td>Video provenance</td>
+        <td class="yes">Cryptographic signing</td>
+        <td class="no">&#10007;</td>
       </tr>
       <tr>
         <td>Slow motion</td>
@@ -509,6 +517,11 @@
   <h2>What you get</h2>
 
   <div class="feature-list">
+    <div class="feature-item">
+      <h3>Video provenance</h3>
+      <p>Every export is cryptographically signed on-device so viewers can verify your video is authentic and unaltered. Proof it's real, baked right into the file.</p>
+    </div>
+
     <div class="feature-item">
       <h3>Slow motion & motion blur</h3>
       <p>Frame interpolation, motion blur, and temporal noise reduction; all running on the GPU in real time.</p>
