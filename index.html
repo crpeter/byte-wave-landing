@@ -10,25 +10,21 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ByteWave - Free GPU-Powered Video Editor for iOS">
-  <meta property="og:description" content="No watermarks. No subscriptions. No uploads. A free video editor built on Metal that runs entirely on your device.">
+  <meta property="og:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
+  <meta property="og:description" content="No watermarks. No subscriptions. No data collection. A free video editor that runs entirely on your device.">
   <meta property="og:url" content="https://bytewaveai.com/">
   <meta property="og:site_name" content="ByteWave">
-  <!-- <meta property="og:image" content="https://bytewaveai.com/og-image.png"> -->
+  <meta property="og:image" content="https://bytewaveai.com/preview.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ByteWave - Free GPU-Powered Video Editor for iOS">
-  <meta name="twitter:description" content="No watermarks. No subscriptions. No uploads. Built on Metal. Your footage never leaves your phone.">
-  <!-- <meta name="twitter:image" content="https://bytewaveai.com/og-image.png"> -->
+  <meta name="twitter:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
+  <meta name="twitter:description" content="No watermarks. No subscriptions. No data collection. Runs entirely on your device.">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-  <!-- OG Image -->
-  <meta property="og:image" content="https://bytewaveai.com/preview.jpg">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -40,176 +36,355 @@
     "logo": "https://bytewaveai.com/logo.png"
   }
   </script>
-
-  <!-- Structured Data -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "ByteWave",
-      "operatingSystem": "iOS, iPadOS, macOS",
-      "applicationCategory": "MultimediaApplication",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "description": "A free, GPU-powered video editor for iOS. Trim and stitch clips, layer unlimited audio tracks, and apply real-time Metal-powered effects - all processed on your device. No watermarks, no subscriptions.",
-      "url": "https://bytewaveai.com/",
-      "downloadUrl": "https://apps.apple.com/us/app/bytewave/id6752225642",
-      "author": {
-        "@type": "Person",
-        "name": "Cody Peter"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "ratingCount": "5",
-        "bestRating": "5"
-      },
-      "featureList": "Custom Metal Shader Editor, Super Resolution Upscaling, Motion Blur, Temporal Noise Reduction, Community Filters, Unlimited Audio Tracks, On-Device Processing"
-    }
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ByteWave",
+    "operatingSystem": "iOS, iPadOS, macOS",
+    "applicationCategory": "MultimediaApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "A free, GPU-powered video editor for iOS. Trim and stitch clips, layer unlimited audio tracks, and apply real-time Metal-powered effects; all processed on your device. No watermarks, no subscriptions.",
+    "url": "https://bytewaveai.com/",
+    "downloadUrl": "https://apps.apple.com/us/app/bytewave/id6752225642",
+    "author": {
+      "@type": "Person",
+      "name": "Cody Peter"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "ratingCount": "5",
+      "bestRating": "5"
+    },
+    "featureList": "Custom Metal Shader Editor, Super Resolution Upscaling, Motion Blur, Temporal Noise Reduction, Community Filters, Unlimited Audio Tracks, On-Device Processing"
+  }
   </script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-    :root{
-      --bg:#050508;--surface:#0c0c12;--surface2:#12121c;
-      --text:#e8e6f0;--text-dim:#8a879e;--text-muted:#56536a;
-      --accent:#00e5a0;--accent2:#00c8ff;--accent3:#a855f7;
-      --danger:#ff4466;
-      --gradient:linear-gradient(135deg,var(--accent),var(--accent2));
-      --gradient2:linear-gradient(135deg,var(--accent2),var(--accent3));
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0a0a0f;
+      --surface: #111118;
+      --border: rgba(255,255,255,0.07);
+      --text: #dddbe6;
+      --text-dim: #8d8a9c;
+      --text-muted: #504d63;
+      --accent: #0ea5c9;
+      --accent-dim: rgba(14,165,201,0.12);
+      --positive: #5ec78a;
+      --positive-dim: rgba(94,199,138,0.1);
+      --negative: #e05572;
+      --negative-dim: rgba(224,85,114,0.1);
     }
-    html{scroll-behavior:smooth;font-size:16px}
-    body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;overflow-x:hidden;line-height:1.6}
-    a{color:inherit;text-decoration:none}
 
-    /* NOISE OVERLAY */
-    body::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;
-      background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
-      pointer-events:none;z-index:9999}
+    html { scroll-behavior: smooth; font-size: 16px; }
 
-    /* NAV */
-    nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 2rem;
-      display:flex;align-items:center;justify-content:space-between;
-      backdrop-filter:blur(20px);background:rgba(5,5,8,0.7);border-bottom:1px solid rgba(255,255,255,0.04)}
-    .logo{font-family:'Space Mono',monospace;font-weight:700;font-size:1.3rem;letter-spacing:-0.5px}
-    .logo span{background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-    .nav-links{display:flex;gap:2rem;align-items:center;font-size:.9rem;color:var(--text-dim)}
-    .nav-links a:hover{color:var(--text)}
-    .nav-cta{background:var(--gradient);color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem;transition:transform .2s,box-shadow .2s}
-    .nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,229,160,0.3)}
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Sora', -apple-system, system-ui, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
 
-    /* HERO */
-    .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:8rem 2rem 4rem;position:relative}
-    .hero::before{content:'';position:absolute;top:-20%;left:50%;transform:translateX(-50%);width:800px;height:800px;
-      background:radial-gradient(circle,rgba(0,229,160,0.08) 0%,rgba(0,200,255,0.04) 40%,transparent 70%);pointer-events:none}
-    .hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.4rem 1rem;border-radius:99px;
-      background:rgba(0,229,160,0.08);border:1px solid rgba(0,229,160,0.15);color:var(--accent);
-      font-size:.8rem;font-weight:500;margin-bottom:2rem;letter-spacing:.5px;
-      animation:fadeUp .8s ease both}
-    .hero-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
-    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-    .hero h1{font-size:clamp(2.8rem,7vw,5.5rem);font-weight:900;line-height:1.05;letter-spacing:-2px;
-      max-width:900px;animation:fadeUp .8s ease .1s both}
-    .hero h1 em{font-style:normal;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-    .hero-sub{font-size:clamp(1rem,2vw,1.3rem);color:var(--text-dim);max-width:600px;margin-top:1.5rem;
-      font-weight:300;animation:fadeUp .8s ease .2s both}
-    .hero-actions{display:flex;gap:1rem;margin-top:2.5rem;flex-wrap:wrap;justify-content:center;animation:fadeUp .8s ease .3s both}
-    .btn-primary{background:var(--gradient);color:var(--bg);padding:.85rem 2.2rem;border-radius:8px;font-weight:700;font-size:1rem;
-      transition:transform .2s,box-shadow .2s;border:none;cursor:pointer}
-    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,229,160,0.25)}
-    .btn-secondary{background:transparent;color:var(--text);padding:.85rem 2.2rem;border-radius:8px;font-weight:500;font-size:1rem;
-      border:1px solid rgba(255,255,255,0.12);transition:all .2s}
-    .btn-secondary:hover{border-color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.03)}
-    .hero-platforms{margin-top:1.5rem;font-size:.8rem;color:var(--text-muted);animation:fadeUp .8s ease .4s both}
-    @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+    a { color: inherit; text-decoration: none; }
 
-    /* SLOGAN MARQUEE */
-    .marquee-wrap{overflow:hidden;padding:2rem 0;border-top:1px solid rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.04)}
-    .marquee{display:flex;gap:3rem;animation:scroll 20s linear infinite;width:max-content}
-    .marquee span{font-family:'Space Mono',monospace;font-size:.85rem;color:var(--text-muted);white-space:nowrap;text-transform:uppercase;letter-spacing:2px}
-    .marquee span em{font-style:normal;color:var(--accent)}
-    @keyframes scroll{to{transform:translateX(-50%)}}
+    /* --- NAV --- */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 1rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      backdrop-filter: blur(16px);
+      background: rgba(10,10,15,0.85);
+      border-bottom: 1px solid var(--border);
+    }
+    .logo {
+      font-weight: 700; font-size: 1.15rem;
+      letter-spacing: -0.5px;
+    }
+    .nav-links {
+      display: flex; gap: 1.8rem; align-items: center;
+      font-size: .85rem; color: var(--text-dim);
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      background: var(--text); color: var(--bg);
+      padding: .45rem 1.2rem; border-radius: 6px;
+      font-weight: 600; font-size: .82rem;
+      transition: opacity .2s;
+    }
+    .nav-cta:hover { opacity: .8; }
 
-    /* COMPARISON TABLE */
-    .section{padding:6rem 2rem}
-    .section-label{font-family:'Space Mono',monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:3px;color:var(--accent);margin-bottom:1rem}
-    .section-title{font-size:clamp(2rem,4vw,3rem);font-weight:800;letter-spacing:-1px;margin-bottom:1rem}
-    .section-sub{color:var(--text-dim);font-size:1.1rem;max-width:600px;font-weight:300}
-    .comparison{max-width:900px;margin:3rem auto 0}
-    .comp-header{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;margin-bottom:2px}
-    .comp-header div{padding:1.2rem;text-align:center;font-weight:700;font-size:.95rem;background:var(--surface)}
-    .comp-header div:first-child{text-align:left;color:var(--text-dim);font-weight:400;font-size:.85rem}
-    .comp-header div:nth-child(2){color:var(--accent);border-top:2px solid var(--accent)}
-    .comp-header div:nth-child(3){color:var(--text-muted)}
-    .comp-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;margin-bottom:1px}
-    .comp-row div{padding:1rem 1.2rem;background:var(--surface);font-size:.9rem}
-    .comp-row div:first-child{color:var(--text-dim);font-weight:500}
-    .comp-row div:nth-child(2){text-align:center}
-    .comp-row div:nth-child(3){text-align:center;color:var(--text-muted)}
-    .check{color:var(--accent)}
-    .cross{color:var(--danger);opacity:.6}
-    .price-tag{background:rgba(0,229,160,0.1);color:var(--accent);padding:.2rem .6rem;border-radius:4px;font-weight:600;font-family:'Space Mono',monospace;font-size:.85rem}
-    .price-bad{background:rgba(255,68,102,0.1);color:var(--danger)}
+    /* --- HERO --- */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 8rem 2rem 4rem;
+    }
+    .hero h1 {
+      font-size: clamp(2.2rem, 5.5vw, 3.8rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -2px;
+    }
+    .hero h1 span {
+      color: var(--accent);
+    }
+    .hero-body {
+      margin-top: 1.5rem;
+      font-size: 1.05rem;
+      color: var(--text-dim);
+      max-width: 560px;
+      font-weight: 300;
+      line-height: 1.75;
+    }
+    .hero-actions {
+      display: flex; gap: 1rem; margin-top: 2.5rem;
+      flex-wrap: wrap; align-items: center;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--text); color: var(--bg);
+      padding: .75rem 1.8rem; border-radius: 8px;
+      font-weight: 600; font-size: .95rem;
+      font-family: 'Sora', sans-serif;
+      transition: opacity .2s;
+      border: none; cursor: pointer;
+    }
+    .btn-primary:hover { opacity: .8; }
+    .hero-note {
+      font-size: .8rem; color: var(--text-muted);
+      margin-top: 1rem;
+      letter-spacing: 0.2px;
+    }
 
-    /* FEATURES */
-    .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;max-width:1100px;margin:3rem auto 0}
-    .feature-card{background:var(--surface);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:2rem;
-      transition:all .3s;position:relative;overflow:hidden}
-    .feature-card:hover{border-color:rgba(0,229,160,0.15);transform:translateY(-2px);box-shadow:0 8px 40px rgba(0,0,0,0.3)}
-    .feature-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gradient);opacity:0;transition:opacity .3s}
-    .feature-card:hover::before{opacity:1}
-    .feature-icon{font-size:1.8rem;margin-bottom:1rem}
-    .feature-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
-    .feature-card p{color:var(--text-dim);font-size:.9rem;line-height:1.6}
+    /* --- DIVIDER --- */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0;
+    }
 
-    /* PRIVACY */
-    .privacy-block{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid rgba(0,229,160,0.1);border-radius:16px;padding:3rem;display:flex;gap:2.5rem;align-items:center}
-    .privacy-icon{font-size:4rem;flex-shrink:0}
-    .privacy-block h3{font-size:1.5rem;font-weight:700;margin-bottom:.5rem}
-    .privacy-block p{color:var(--text-dim);font-size:1rem;line-height:1.7}
-    .privacy-block strong{color:var(--accent)}
+    /* --- PROSE SECTIONS --- */
+    .prose-section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+    }
+    .prose-section h2 {
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      margin-bottom: 1.2rem;
+    }
+    .prose-section p {
+      font-size: 1rem;
+      color: var(--text-dim);
+      line-height: 1.8;
+      max-width: 620px;
+    }
+    .prose-section p + p { margin-top: 1rem; }
+    .prose-section strong {
+      color: var(--text);
+      font-weight: 500;
+    }
 
-    /* SHADER */
-    .shader-section{max-width:900px;margin:0 auto;text-align:center}
-    .shader-code{background:var(--surface);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:2rem;margin-top:2rem;text-align:left;
-      font-family:'Space Mono',monospace;font-size:.8rem;color:var(--text-dim);line-height:1.8;overflow-x:auto}
-    .shader-code .kw{color:var(--accent2)}
-    .shader-code .fn{color:var(--accent)}
-    .shader-code .cm{color:var(--text-muted)}
-    .shader-code .st{color:var(--accent3)}
+    /* --- COMPARISON --- */
+    .compare-section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+    }
+    .compare-section h2 {
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      margin-bottom: .5rem;
+    }
+    .compare-intro {
+      color: var(--text-dim);
+      font-size: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .comp-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .comp-table thead th {
+      padding: .9rem 1rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: .85rem;
+      border-bottom: 1px solid var(--border);
+      letter-spacing: -0.3px;
+    }
+    .comp-table thead th:first-child {
+      text-align: left;
+      font-weight: 400;
+      color: var(--text-muted);
+      font-size: .8rem;
+    }
+    .comp-table thead th:nth-child(2) { color: var(--accent); }
+    .comp-table thead th:nth-child(3) { color: var(--text-muted); }
+    .comp-table td {
+      padding: .75rem 1rem;
+      font-size: .85rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .comp-table td:first-child {
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+    .comp-table td:nth-child(2),
+    .comp-table td:nth-child(3) { text-align: center; }
+    .comp-table .yes { color: var(--positive); }
+    .comp-table .no { color: var(--negative); opacity: .8; }
+    .price-free {
+      background: var(--positive-dim);
+      color: var(--positive);
+      padding: .15rem .5rem; border-radius: 4px;
+      font-weight: 600; font-size: .8rem;
+    }
+    .price-paid {
+      background: var(--negative-dim);
+      color: var(--negative);
+      padding: .15rem .5rem; border-radius: 4px;
+      font-weight: 600; font-size: .8rem;
+    }
 
-    /* CTA */
-    .cta-section{text-align:center;padding:8rem 2rem;position:relative}
-    .cta-section::before{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:600px;height:400px;
-      background:radial-gradient(circle,rgba(0,229,160,0.06) 0%,transparent 70%);pointer-events:none}
-    .cta-section h2{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;letter-spacing:-1.5px;margin-bottom:1rem}
-    .cta-section h2 em{font-style:normal;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-    .cta-section p{color:var(--text-dim);font-size:1.1rem;margin-bottom:2.5rem;max-width:500px;margin-left:auto;margin-right:auto}
+    /* --- FEATURES --- */
+    .features-section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+    }
+    .features-section h2 {
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      margin-bottom: 2.5rem;
+    }
+    .feature-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.2rem 3.5rem;
+    }
+    .feature-item h3 {
+      font-size: .95rem;
+      font-weight: 600;
+      margin-bottom: .3rem;
+      letter-spacing: -0.3px;
+    }
+    .feature-item p {
+      font-size: .88rem;
+      color: var(--text-dim);
+      line-height: 1.65;
+      font-weight: 300;
+    }
 
-    /* FOOTER */
-    footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:center;color:var(--text-muted);font-size:.8rem}
-    footer a{color:var(--text-dim)}
+    /* --- FILTERS CODE --- */
+    .filters-section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+    }
+    .filters-section h2 {
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: .5rem;
+    }
+    .filters-section > p {
+      color: var(--text-dim);
+      font-size: .92rem;
+      margin-bottom: 1.5rem;
+      max-width: 560px;
+      line-height: 1.7;
+      font-weight: 300;
+    }
+    .code-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .75rem;
+      color: var(--text-dim);
+      line-height: 1.9;
+      overflow-x: auto;
+    }
+    .code-block .kw { color: var(--accent); }
+    .code-block .fn { color: var(--positive); }
+    .code-block .cm { color: var(--text-muted); }
+    .code-block .val { color: #c4a7e7; }
 
-    /* RESPONSIVE */
-    @media(max-width:768px){
-      .nav-links{display:none}
-      .comp-row div,.comp-header div{padding:.7rem;font-size:.75rem}
-      .privacy-block{flex-direction:column;text-align:center;gap:1rem}
-      .features-grid{grid-template-columns:1fr}
+    /* --- CTA --- */
+    .cta-section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 6rem 2rem 8rem;
+    }
+    .cta-section h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: -1px;
+      margin-bottom: .7rem;
+    }
+    .cta-section p {
+      color: var(--text-dim);
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: .78rem;
+    }
+    footer a { color: var(--text-dim); }
+    footer .tagline {
+      margin-top: .3rem;
+      font-size: .72rem;
+      letter-spacing: 0.3px;
+    }
+
+    /* --- MOBILE --- */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .feature-list { grid-template-columns: 1fr; gap: 1.5rem; }
+      .comp-table td,
+      .comp-table thead th { padding: .6rem .45rem; font-size: .76rem; }
+      .hero { padding: 7rem 1.5rem 3rem; }
+      .prose-section,
+      .compare-section,
+      .features-section,
+      .filters-section,
+      .cta-section { padding: 3.5rem 1.5rem; }
     }
   </style>
 </head>
 <body>
 
 <nav>
-  <div class="logo"><span>ByteWave</span></div>
+  <div class="logo">ByteWave</div>
   <div class="nav-links">
-    <a href="#features">Features</a>
     <a href="#compare">Compare</a>
+    <a href="#features">Features</a>
     <a href="/privacy">Privacy</a>
     <a href="/blog/">Blog</a>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
@@ -217,141 +392,195 @@
 </nav>
 
 <section class="hero">
-  <div class="hero-badge"><span>100% Free. No catch. No paywall. Ever.</span></div>
-  <h1>Video editing<br>should be <em>free</em></h1>
-  <p class="hero-sub">Pro-grade editing that runs entirely on your device. No uploads, no subscriptions, no watermarks. Just your creativity, unleashed.</p>
+  <h1>A video editor that doesn't want your money <span>or your data</span></h1>
+  <p class="hero-body">
+    ByteWave is a full video editor for iPhone, iPad, and Mac. It's free; not freemium, not "free with watermarks," not "free for 7 days." Free. And nothing you edit ever leaves your device.
+  </p>
   <div class="hero-actions">
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary">Download for Apple</a>
-    <a href="#compare" class="btn-secondary">See how we compare</a>
   </div>
-  <p class="hero-platforms">Available on iPhone · iPad · Mac - anything with Apple Silicon</p>
+  <p class="hero-note">iPhone · iPad · Mac · Requires Apple Silicon</p>
 </section>
 
-<div class="marquee-wrap">
-  <div class="marquee">
-    <span><em>✦</em> Video editing should be free</span>
-    <span><em>✦</em> No watermarks</span>
-    <span><em>✦</em> No uploads</span>
-    <span><em>✦</em> No subscriptions</span>
-    <span><em>✦</em> 100% on-device</span>
-    <span><em>✦</em> Pro features for everyone</span>
-    <span><em>✦</em> Video editing should be free</span>
-    <span><em>✦</em> No watermarks</span>
-    <span><em>✦</em> No uploads</span>
-    <span><em>✦</em> No subscriptions</span>
-    <span><em>✦</em> 100% on-device</span>
-    <span><em>✦</em> Pro features for everyone</span>
-  </div>
-</div>
+<hr class="divider">
 
-<section class="section" id="compare" style="text-align:center">
-  <div class="section-label">The Honest Comparison</div>
-  <h2 class="section-title">ByteWave vs CapCut</h2>
-  <p class="section-sub" style="margin:0 auto">They went from free to $20/month. We went the other direction.</p>
-  <div class="comparison">
-    <div class="comp-header">
-      <div>Feature</div>
-      <div>ByteWave</div>
-      <div>CapCut Pro</div>
+<section class="prose-section">
+  <h2>Your videos stay on your device</h2>
+  <p>
+    Every other video editor either charges you or collects your data. Most do both. CapCut uploads your footage to ByteDance's servers. Adobe wants $22/month. InShot locks basic features behind a paywall.
+  </p>
+  <p>
+    ByteWave processes everything locally on Apple Silicon. <strong>No server uploads. No analytics on your content. No account required.</strong> The app doesn't have the ability to send your videos anywhere; there's no upload endpoint to phone home to.
+  </p>
+</section>
+
+<hr class="divider">
+
+<section class="compare-section" id="compare">
+  <h2>ByteWave vs. CapCut</h2>
+  <p class="compare-intro">CapCut went from free to $9.99/month. We went the other direction.</p>
+
+  <table class="comp-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>ByteWave</th>
+        <th>CapCut Pro</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Price</td>
+        <td><span class="price-free">$0</span></td>
+        <td><span class="price-paid">$9.99/mo</span></td>
+      </tr>
+      <tr>
+        <td>Watermarks</td>
+        <td class="yes">None</td>
+        <td class="no">On free tier</td>
+      </tr>
+      <tr>
+        <td>On-device processing</td>
+        <td class="yes">100% local</td>
+        <td class="no">Uploads to servers</td>
+      </tr>
+      <tr>
+        <td>Data collection</td>
+        <td class="yes">None</td>
+        <td class="no">Extensive</td>
+      </tr>
+      <tr>
+        <td>Slow motion</td>
+        <td class="yes">&#10003;</td>
+        <td class="yes" style="opacity:.45">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Motion blur</td>
+        <td class="yes">&#10003;</td>
+        <td class="no">&#10007;</td>
+      </tr>
+      <tr>
+        <td>Noise reduction</td>
+        <td class="yes">&#10003;</td>
+        <td class="no">&#10007;</td>
+      </tr>
+      <tr>
+        <td>AI upscaling</td>
+        <td class="yes">On-device</td>
+        <td class="yes" style="opacity:.45">Cloud-based</td>
+      </tr>
+      <tr>
+        <td>Unlimited audio tracks</td>
+        <td class="yes">&#10003;</td>
+        <td class="no">Limited</td>
+      </tr>
+      <tr>
+        <td>Text to speech</td>
+        <td class="yes">Free</td>
+        <td class="yes" style="opacity:.45">Pro only</td>
+      </tr>
+      <tr>
+        <td>Auto captions</td>
+        <td class="yes">Free</td>
+        <td class="yes" style="opacity:.45">Pro only</td>
+      </tr>
+      <tr>
+        <td>Editable filter source code</td>
+        <td class="yes">&#10003;</td>
+        <td class="no">&#10007;</td>
+      </tr>
+      <tr>
+        <td>Community filters</td>
+        <td class="yes">&#10003;</td>
+        <td class="no">&#10007;</td>
+      </tr>
+      <tr>
+        <td>Subject isolation for filters</td>
+        <td class="yes">&#10003;</td>
+        <td class="no">&#10007;</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<hr class="divider">
+
+<section class="features-section" id="features">
+  <h2>What you get</h2>
+
+  <div class="feature-list">
+    <div class="feature-item">
+      <h3>Slow motion & motion blur</h3>
+      <p>Frame interpolation, motion blur, and temporal noise reduction; all running on the GPU in real time.</p>
     </div>
-    <div class="comp-row"><div>Price</div><div><span class="price-tag">$0 forever</span></div><div><span class="price-tag price-bad">$19.99/mo</span></div></div>
-    <div class="comp-row"><div>Watermarks</div><div class="check">✓ None</div><div class="cross">✗ Free tier has them</div></div>
-    <div class="comp-row"><div>On-device processing</div><div class="check">✓ 100% local</div><div class="cross">✗ Uploads to servers</div></div>
-    <div class="comp-row"><div>Slow motion / frame interpolation</div><div class="check">✓ Video Toolbox</div><div class="check" style="opacity:.6">✓ Basic</div></div>
-    <div class="comp-row"><div>Motion blur</div><div class="check">✓ Built-in</div><div class="cross">✗ No</div></div>
-    <div class="comp-row"><div>Temporal noise reduction</div><div class="check">✓ Built-in</div><div class="cross">✗ No</div></div>
-    <div class="comp-row"><div>Resolution super scaler</div><div class="check">✓ On-device AI</div><div class="check" style="opacity:.6">✓ Cloud-based</div></div>
-    <div class="comp-row"><div>Unlimited audio tracks</div><div class="check">✓ Unlimited</div><div class="cross">✗ Limited</div></div>
-    <div class="comp-row"><div>Voice synthesis</div><div class="check">✓ Any text</div><div class="check" style="opacity:.6">✓ Pro only</div></div>
-    <div class="comp-row"><div>Auto captions</div><div class="check">✓ Free</div><div class="check" style="opacity:.6">✓ Pro only</div></div>
-    <div class="comp-row"><div>Hackable filters / shaders</div><div class="check">✓ See &amp; edit code</div><div class="cross">✗ Black box</div></div>
-    <div class="comp-row"><div>Subject mask for filters</div><div class="check">✓ Built-in</div><div class="cross">✗ No</div></div>
-    <div class="comp-row"><div>Community filters</div><div class="check">✓ Share &amp; discover</div><div class="cross">✗ No</div></div>
-    <div class="comp-row"><div>Data privacy</div><div class="check">✓ Never leaves device</div><div class="cross">✗ Uploaded to servers</div></div>
+
+    <div class="feature-item">
+      <h3>AI upscaling</h3>
+      <p>Upscale resolution on-device. No cloud processing, no waiting for a server.</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Unlimited audio tracks</h3>
+      <p>Layer as many audio clips as you need on a visual timeline. Built-in sound effects. No track limits.</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Text to speech</h3>
+      <p>Type text, get a natural voice. Generate captions from spoken audio. All processed locally.</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Text effects</h3>
+      <p>Sparkle, glitch, neon, and more. Animated text that doesn't require a motion graphics background.</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Subject isolation</h3>
+      <p>Separate subjects from backgrounds and apply filters to each independently. Blur the background, keep the subject sharp; one tap.</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Custom filters with source code</h3>
+      <p>Every filter shows you the shader code behind it. Edit it directly, or copy the code and ask ChatGPT to make something new.</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Community filters</h3>
+      <p>Publish filters you've made. Browse and grab filters from other creators. One tap to add to your library.</p>
+    </div>
   </div>
 </section>
 
-<section class="section" id="features" style="text-align:center">
-  <div class="section-label">Built Different</div>
-  <h2 class="section-title">Everything you need. Nothing you don't.</h2>
-  <div class="features-grid">
-    <div class="feature-card">
-      <div class="feature-icon">🎬</div>
-      <h3>Video Toolbox</h3>
-      <p>Frame rate conversion, motion blur, temporal noise reduction, and resolution super scaling - all powered by Apple Silicon, all on your device.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🎵</div>
-      <h3>Unlimited Audio Graph</h3>
-      <p>Layer as many audio clips as you want on a visual audio graph. Built-in sound effects library. No track limits, ever.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🗣️</div>
-      <h3>Voice Synthesis</h3>
-      <p>Type any text, get natural-sounding voice. Auto-generate captions from your audio. All processed locally.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">✨</div>
-      <h3>Custom Text Effects</h3>
-      <p>Sparkle, glitch, solar system, and more. Animated text effects that make your content pop without a motion graphics degree.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🔧</div>
-      <h3>Hackable Shader Filters</h3>
-      <p>See the code behind every filter. Edit it. Copy the shader reference, describe what you want to ChatGPT, paste it back. Your filters, your rules.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🌐</div>
-      <h3>Community Filters</h3>
-      <p>Publish your custom filters for the world to use, or browse and grab filters made by other creators. One tap to add to your library.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🎭</div>
-      <h3>Subject Masking</h3>
-      <p>Extract subjects and pass masks to filters. Impressionist background with a sharp subject? Blur everything but a face? One tap.</p>
-    </div>
+<hr class="divider">
+
+<section class="filters-section">
+  <h2>Filters you can actually edit</h2>
+  <p>Most editors treat filters as a black box. ByteWave shows you the code. Change it, learn from it, or copy it and describe what you want to an AI; paste the result back in.</p>
+  <div class="code-block">
+    <span class="cm">// Impressionist background, sharp subject</span><br>
+    <span class="kw">uniform</span> sampler2D inputImage;<br>
+    <span class="kw">uniform</span> sampler2D subjectMask;<br>
+    <span class="kw">uniform float</span> brushSize = <span class="val">4.0</span>;<br>
+    <br>
+    <span class="kw">vec4</span> <span class="fn">main</span>(vec2 uv) {<br>
+    &nbsp;&nbsp;<span class="kw">float</span> mask = <span class="fn">texture</span>(subjectMask, uv).r;<br>
+    &nbsp;&nbsp;<span class="kw">vec4</span> color = <span class="fn">impressionist</span>(inputImage, uv, brushSize);<br>
+    &nbsp;&nbsp;<span class="kw">return</span> <span class="fn">mix</span>(color, <span class="fn">texture</span>(inputImage, uv), mask);<br>
+    }
   </div>
 </section>
 
-<section class="section" id="privacy">
-  <div class="privacy-block">
-    <div class="privacy-icon">🔒</div>
-    <div>
-      <h3>Your videos never leave your device</h3>
-      <p>The first step in a CapCut edit is uploading your video to their servers. The first step in a ByteWave edit is... editing. <strong>Everything runs locally on Apple Silicon.</strong> Your memories, your content, your data - it stays yours. Period.</p>
-    </div>
-  </div>
-</section>
+<hr class="divider">
 
-<section class="section" style="text-align:center">
-  <div class="section-label">For the Curious</div>
-  <h2 class="section-title">Filters you can actually understand</h2>
-  <p class="section-sub" style="margin:0 auto">Every filter in ByteWave shows you its shader code. Edit it directly, or copy the reference and use AI to create something entirely new.</p>
-  <div class="shader-section">
-    <div class="shader-code">
-      <span class="cm">// 🎨 Impressionist background filter</span><br>
-      <span class="cm">// Copy this to ChatGPT: "Make it more like Monet with warmer tones"</span><br><br>
-      <span class="kw">uniform</span> sampler2D inputImage;<br>
-      <span class="kw">uniform</span> sampler2D subjectMask;<br>
-      <span class="kw">uniform</span> <span class="kw">float</span> brushSize = <span class="st">4.0</span>;<br><br>
-      <span class="kw">vec4</span> <span class="fn">main</span>(vec2 uv) {<br>
-      &nbsp;&nbsp;<span class="kw">float</span> mask = <span class="fn">texture</span>(subjectMask, uv).r;<br>
-      &nbsp;&nbsp;<span class="kw">vec4</span> color = <span class="fn">impressionist</span>(inputImage, uv, brushSize);<br>
-      &nbsp;&nbsp;<span class="kw">return</span> <span class="fn">mix</span>(color, <span class="fn">texture</span>(inputImage, uv), mask);<br>
-      }
-    </div>
-  </div>
-</section>
-
-<section class="cta-section" id="download">
-  <h2>Ready to edit <em>without limits?</em></h2>
-  <p>Download ByteWave for free. No account required. No credit card. No strings attached.</p>
-  <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary" style="font-size:1.1rem;padding:1rem 3rem">Download for Apple</a>
-  <p class="hero-platforms" style="margin-top:1.5rem">Requires Apple Silicon · iOS 26+ · macOS</p>
+<section class="cta-section">
+  <h2>Download ByteWave</h2>
+  <p>Free. No account. No credit card. No catch.</p>
+  <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary" style="padding:.85rem 2.2rem">Download for Apple</a>
 </section>
 
 <footer>
-  <p>&copy; 2026 Cody Works LLC. Video editing should be free.</p>
+  <p>&copy; 2026 <a href="/">Cody Works LLC</a></p>
+  <p class="tagline">Video editing should be free.</p>
 </footer>
 
 </body>
