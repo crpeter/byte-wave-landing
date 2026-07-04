@@ -4,23 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog - ByteWave</title>
-<meta name="description" content="Guides, comparisons, and tutorials from ByteWave - the free GPU-powered video editor for iOS. Tips on custom filters, privacy, and switching from CapCut.">
+<meta name="description" content="Guides, comparisons, and perspectives from ByteWave - the free video editor for iPhone, iPad, and Mac. Privacy, provenance, and the case for free creative tools.">
 <link rel="canonical" href="https://bytewaveai.com/blog/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Blog - ByteWave">
-<meta property="og:description" content="Guides, comparisons, and tutorials from ByteWave - the free GPU-powered video editor for iOS.">
+<meta property="og:description" content="Guides, comparisons, and perspectives from ByteWave - the free video editor for iPhone, iPad, and Mac.">
 <meta property="og:url" content="https://bytewaveai.com/blog/">
 <meta property="og:site_name" content="ByteWave">
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<!-- Favicon -->
+<meta property="og:image" content="https://bytewaveai.com/preview.jpg">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-<!-- OG Image -->
-<meta property="og:image" content="https://bytewaveai.com/preview.jpg">
-
-<!-- Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -30,44 +24,131 @@
   "logo": "https://bytewaveai.com/logo.png"
 }
 </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#050508;--surface:#0c0c12;--text:#e8e6f0;--text-dim:#8a879e;--text-muted:#56536a;--accent:#00e5a0;--accent2:#00c8ff}
-html{font-size:16px}body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;line-height:1.6}
+:root{
+  --bg:#08080c;
+  --surface:#101016;
+  --border:rgba(255,255,255,0.06);
+  --text:#d8d6e1;
+  --text-dim:#9390a5;
+  --text-muted:#5c5970;
+  --accent:#0ea5c9;
+  --accent-dim:rgba(14,165,201,0.08);
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  line-height:1.6;-webkit-font-smoothing:antialiased;
+}
 a{color:inherit;text-decoration:none}
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 2rem;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(20px);background:rgba(5,5,8,0.7);border-bottom:1px solid rgba(255,255,255,0.04)}
-.logo{font-family:'Space Mono',monospace;font-weight:700;font-size:1.3rem;letter-spacing:-0.5px}
-.logo span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.nav-links{display:flex;gap:2rem;align-items:center;font-size:.9rem;color:var(--text-dim)}
+
+/* --- NAV --- */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;
+  backdrop-filter:blur(16px);background:rgba(8,8,12,0.85);
+  border-bottom:1px solid var(--border);
+}
+.logo{font-weight:700;font-size:1.1rem;letter-spacing:-0.4px;color:var(--text)}
+.nav-links{display:flex;gap:1.8rem;align-items:center;font-size:.84rem;color:var(--text-dim)}
 .nav-links a:hover{color:var(--text)}
-.nav-cta{background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem}
-.container{max-width:800px;margin:0 auto;padding:8rem 2rem 4rem}
-h1{font-size:2.5rem;font-weight:800;letter-spacing:-1px;margin-bottom:1rem}
-h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.subtitle{color:var(--text-dim);font-size:1.1rem;margin-bottom:3rem}
-.post-card{display:block;background:var(--surface);border:1px solid rgba(255,255,255,0.04);border-radius:12px;padding:2rem;margin-bottom:1.5rem;transition:all .3s}
-.post-card:hover{border-color:rgba(0,229,160,0.15);transform:translateY(-2px)}
-.post-card h2{font-size:1.2rem;font-weight:700;margin-bottom:.5rem}
-.post-card p{color:var(--text-dim);font-size:.9rem;line-height:1.6}
-.post-card .tag{display:inline-block;font-family:'Space Mono',monospace;font-size:.7rem;color:var(--accent);background:rgba(0,229,160,0.08);padding:.2rem .6rem;border-radius:4px;margin-bottom:.8rem}
-footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:center;color:var(--text-muted);font-size:.8rem;margin-top:4rem}
-@media(max-width:768px){.nav-links{display:none}h1{font-size:1.8rem}}
+.nav-cta{
+  background:var(--text);color:var(--bg);
+  padding:.42rem 1.1rem;border-radius:5px;
+  font-weight:600;font-size:.8rem;transition:opacity .2s;
+}
+.nav-cta:hover{opacity:.8}
+
+/* --- PAGE --- */
+.container{max-width:720px;margin:0 auto;padding:8rem 2rem 4rem}
+
+h1{
+  font-size:clamp(1.8rem,4vw,2.4rem);
+  font-weight:800;letter-spacing:-1.2px;
+  margin-bottom:.6rem;color:#efeff4;
+}
+.subtitle{color:var(--text-dim);font-size:.95rem;margin-bottom:3rem;font-weight:400}
+
+/* --- CARDS --- */
+.post-card{
+  display:block;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:1.6rem 1.8rem;
+  margin-bottom:1.1rem;
+  transition:border-color .25s, transform .25s;
+}
+.post-card:hover{
+  border-color:rgba(14,165,201,0.2);
+  transform:translateY(-1px);
+}
+.post-card .tag{
+  display:inline-block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.65rem;font-weight:500;
+  text-transform:uppercase;letter-spacing:1.5px;
+  color:var(--accent);
+  background:var(--accent-dim);
+  padding:.2rem .55rem;border-radius:4px;
+  margin-bottom:.7rem;
+}
+.post-card h2{
+  font-size:1.05rem;font-weight:700;
+  letter-spacing:-0.3px;margin-bottom:.35rem;
+  color:var(--text);line-height:1.35;
+}
+.post-card p{
+  color:var(--text-dim);font-size:.86rem;
+  line-height:1.6;font-weight:400;
+}
+
+/* --- FOOTER --- */
+footer{
+  border-top:1px solid var(--border);
+  padding:2.5rem 2rem;text-align:center;
+  color:var(--text-muted);font-size:.76rem;
+  margin-top:3rem;
+}
+footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
+
+@media(max-width:768px){
+  .nav-links{display:none}
+  .container{padding:7rem 1.5rem 3rem}
+  h1{font-size:1.7rem}
+}
 </style>
 </head>
 <body>
+
 <nav>
-  <a href="/" class="logo"><span>ByteWave</span></a>
+  <a href="/" class="logo">ByteWave</a>
   <div class="nav-links">
-    <a href="/#features">Features</a>
     <a href="/#compare">Compare</a>
+    <a href="/#features">Features</a>
     <a href="/blog/">Blog</a>
-    <a href="/#download" class="nav-cta">Download Free</a>
+    <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
   </div>
 </nav>
 
 <div class="container">
-  <h1>The <em>ByteWave</em> Blog</h1>
+  <h1>Blog</h1>
   <p class="subtitle">Guides, comparisons, and the case for free creative tools.</p>
+
+  <a href="/blog/provenance.html" class="post-card">
+    <span class="tag">Provenance</span>
+    <h2>Provenance, Not Prominence</h2>
+    <p>Europe wants to fix misinformation by promoting approved publishers. Cryptographic content provenance is a better answer.</p>
+  </a>
+
+  <a href="/blog/your-feed.html" class="post-card">
+    <span class="tag">Perspective</span>
+    <h2>Your Feed Belongs to You</h2>
+    <p>Governments want to control what appears in your video feed. We think your content and your attention belong to you.</p>
+  </a>
 
   <a href="/blog/community-filters-bytewave.html" class="post-card">
     <span class="tag">New Feature</span>
@@ -136,6 +217,10 @@ footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:
   </a>
 </div>
 
-<footer><p>&copy; 2026 Cody Works LLC. Video editing should be free.</p></footer>
+<footer>
+  <p>&copy; 2026 Cody Works LLC</p>
+  <p class="tagline">Video editing should be free.</p>
+</footer>
+
 </body>
 </html>
