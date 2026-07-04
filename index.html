@@ -65,17 +65,17 @@
   }
   </script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
-      --bg: #0a0a0f;
-      --surface: #111118;
-      --border: rgba(255,255,255,0.07);
-      --text: #dddbe6;
-      --text-dim: #8d8a9c;
-      --text-muted: #504d63;
+      --bg: #08080c;
+      --surface: #101016;
+      --border: rgba(255,255,255,0.06);
+      --text: #d8d6e1;
+      --text-dim: #9390a5;
+      --text-muted: #5c5970;
       --accent: #0ea5c9;
       --accent-dim: rgba(14,165,201,0.12);
       --positive: #5ec78a;
@@ -89,7 +89,7 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: 'Sora', -apple-system, system-ui, sans-serif;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
       line-height: 1.6;
       overflow-x: hidden;
       -webkit-font-smoothing: antialiased;
@@ -103,22 +103,22 @@
       padding: 1rem 2rem;
       display: flex; align-items: center; justify-content: space-between;
       backdrop-filter: blur(16px);
-      background: rgba(10,10,15,0.85);
+      background: rgba(8,8,12,0.85);
       border-bottom: 1px solid var(--border);
     }
     .logo {
-      font-weight: 700; font-size: 1.15rem;
-      letter-spacing: -0.5px;
+      font-weight: 700; font-size: 1.1rem;
+      letter-spacing: -0.4px;
     }
     .nav-links {
       display: flex; gap: 1.8rem; align-items: center;
-      font-size: .85rem; color: var(--text-dim);
+      font-size: .84rem; color: var(--text-dim);
     }
     .nav-links a:hover { color: var(--text); }
     .nav-cta {
       background: var(--text); color: var(--bg);
-      padding: .45rem 1.2rem; border-radius: 6px;
-      font-weight: 600; font-size: .82rem;
+      padding: .42rem 1.1rem; border-radius: 5px;
+      font-weight: 600; font-size: .8rem;
       transition: opacity .2s;
     }
     .nav-cta:hover { opacity: .8; }
@@ -133,20 +133,21 @@
       padding: 8rem 2rem 4rem;
     }
     .hero h1 {
-      font-size: clamp(2.2rem, 5.5vw, 3.8rem);
+      font-size: clamp(2.2rem, 5.5vw, 3.6rem);
       font-weight: 800;
       line-height: 1.1;
       letter-spacing: -2px;
+      color: #efeff4;
     }
     .hero h1 span {
       color: var(--accent);
     }
     .hero-body {
       margin-top: 1.5rem;
-      font-size: 1.05rem;
+      font-size: 1.02rem;
       color: var(--text-dim);
       max-width: 560px;
-      font-weight: 300;
+      font-weight: 400;
       line-height: 1.75;
     }
     .hero-actions {
@@ -156,15 +157,15 @@
     .btn-primary {
       display: inline-block;
       background: var(--text); color: var(--bg);
-      padding: .75rem 1.8rem; border-radius: 8px;
-      font-weight: 600; font-size: .95rem;
-      font-family: 'Sora', sans-serif;
+      padding: .75rem 1.8rem; border-radius: 6px;
+      font-weight: 600; font-size: .92rem;
+      font-family: 'Inter', system-ui, sans-serif;
       transition: opacity .2s;
       border: none; cursor: pointer;
     }
     .btn-primary:hover { opacity: .8; }
     .hero-note {
-      font-size: .8rem; color: var(--text-muted);
+      font-size: .78rem; color: var(--text-muted);
       margin-top: 1rem;
       letter-spacing: 0.2px;
     }
@@ -183,13 +184,14 @@
       padding: 5rem 2rem;
     }
     .prose-section h2 {
-      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
       font-weight: 700;
       letter-spacing: -0.8px;
       margin-bottom: 1.2rem;
+      color: #efeff4;
     }
     .prose-section p {
-      font-size: 1rem;
+      font-size: .98rem;
       color: var(--text-dim);
       line-height: 1.8;
       max-width: 620px;
@@ -197,7 +199,7 @@
     .prose-section p + p { margin-top: 1rem; }
     .prose-section strong {
       color: var(--text);
-      font-weight: 500;
+      font-weight: 600;
     }
 
     /* --- COMPARISON --- */
@@ -207,14 +209,15 @@
       padding: 5rem 2rem;
     }
     .compare-section h2 {
-      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
       font-weight: 700;
       letter-spacing: -0.8px;
       margin-bottom: .5rem;
+      color: #efeff4;
     }
     .compare-intro {
       color: var(--text-dim);
-      font-size: 1rem;
+      font-size: .98rem;
       margin-bottom: 2.5rem;
     }
     .comp-table {
@@ -225,7 +228,7 @@
       padding: .9rem 1rem;
       text-align: center;
       font-weight: 600;
-      font-size: .85rem;
+      font-size: .84rem;
       border-bottom: 1px solid var(--border);
       letter-spacing: -0.3px;
     }
@@ -239,7 +242,7 @@
     .comp-table thead th:nth-child(3) { color: var(--text-muted); }
     .comp-table td {
       padding: .75rem 1rem;
-      font-size: .85rem;
+      font-size: .84rem;
       border-bottom: 1px solid var(--border);
     }
     .comp-table td:first-child {
@@ -270,10 +273,11 @@
       padding: 5rem 2rem;
     }
     .features-section h2 {
-      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
       font-weight: 700;
       letter-spacing: -0.8px;
       margin-bottom: 2.5rem;
+      color: #efeff4;
     }
     .feature-list {
       display: grid;
@@ -281,16 +285,17 @@
       gap: 2.2rem 3.5rem;
     }
     .feature-item h3 {
-      font-size: .95rem;
+      font-size: .92rem;
       font-weight: 600;
       margin-bottom: .3rem;
-      letter-spacing: -0.3px;
+      letter-spacing: -0.2px;
+      color: var(--text);
     }
     .feature-item p {
-      font-size: .88rem;
+      font-size: .86rem;
       color: var(--text-dim);
       line-height: 1.65;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     /* --- FILTERS CODE --- */
@@ -300,10 +305,11 @@
       padding: 5rem 2rem;
     }
     .filters-section h2 {
-      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+      font-size: clamp(1.2rem, 2.5vw, 1.45rem);
       font-weight: 700;
       letter-spacing: -0.5px;
       margin-bottom: .5rem;
+      color: #efeff4;
     }
     .filters-section > p {
       color: var(--text-dim);
@@ -311,7 +317,7 @@
       margin-bottom: 1.5rem;
       max-width: 560px;
       line-height: 1.7;
-      font-weight: 300;
+      font-weight: 400;
     }
     .code-block {
       background: var(--surface);
@@ -336,16 +342,17 @@
       padding: 6rem 2rem 8rem;
     }
     .cta-section h2 {
-      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-size: clamp(1.6rem, 3.5vw, 2.3rem);
       font-weight: 800;
       letter-spacing: -1px;
       margin-bottom: .7rem;
+      color: #efeff4;
     }
     .cta-section p {
       color: var(--text-dim);
-      font-size: 1rem;
+      font-size: .98rem;
       margin-bottom: 2rem;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     /* --- FOOTER --- */
@@ -354,12 +361,12 @@
       padding: 2.5rem 2rem;
       text-align: center;
       color: var(--text-muted);
-      font-size: .78rem;
+      font-size: .76rem;
     }
     footer a { color: var(--text-dim); }
     footer .tagline {
       margin-top: .3rem;
-      font-size: .72rem;
+      font-size: .7rem;
       letter-spacing: 0.3px;
     }
 
@@ -381,7 +388,7 @@
 <body>
 
 <nav>
-  <div class="logo">ByteWave</div>
+  <a href="/" class="logo">ByteWave</a>
   <div class="nav-links">
     <a href="#compare">Compare</a>
     <a href="#features">Features</a>
@@ -394,7 +401,7 @@
 <section class="hero">
   <h1>A video editor that doesn't want your money <span>or your data</span></h1>
   <p class="hero-body">
-    ByteWave is a full video editor for iPhone, iPad, and Mac. It's free; not freemium, not "free with watermarks," not "free for 7 days." Free. And nothing you edit ever leaves your device.
+    ByteWave is a full video editor for iPhone, iPad, and Mac. It's free; not freemium, not "free with watermarks," not "free for 7 days." Free. And no data is collected.
   </p>
   <div class="hero-actions">
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary">Download for Apple</a>
