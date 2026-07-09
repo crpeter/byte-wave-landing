@@ -335,6 +335,73 @@
     .code-block .cm { color: var(--text-muted); }
     .code-block .val { color: #c4a7e7; }
 
+    /* --- GEAR --- */
+    .gear-section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+    }
+    .gear-section h2 {
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      margin-bottom: 1.2rem;
+      color: #efeff4;
+    }
+    .gear-section p {
+      font-size: .98rem;
+      color: var(--text-dim);
+      line-height: 1.8;
+      max-width: 620px;
+    }
+    .gear-section p + p { margin-top: 1rem; }
+    .gear-section strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .gear-categories {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.2rem;
+      margin-top: 2rem;
+    }
+    .gear-cat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.3rem 1.2rem;
+    }
+    .gear-cat-icon {
+      font-size: 1.3rem;
+      margin-bottom: .5rem;
+    }
+    .gear-cat h3 {
+      font-size: .88rem;
+      font-weight: 600;
+      letter-spacing: -0.2px;
+      color: var(--text);
+      margin-bottom: .25rem;
+    }
+    .gear-cat p {
+      font-size: .8rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+    .gear-badge {
+      display: inline-block;
+      margin-top: 1.8rem;
+      font-size: .75rem;
+      color: var(--accent);
+      background: var(--accent-dim);
+      padding: .3rem .75rem;
+      border-radius: 4px;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+    @media (max-width: 768px) {
+      .gear-categories { grid-template-columns: 1fr; }
+    }
+
     /* --- CTA --- */
     .cta-section {
       max-width: 780px;
@@ -392,6 +459,7 @@
   <div class="nav-links">
     <a href="#compare">Compare</a>
     <a href="#features">Features</a>
+    <a href="#gear">Creator Gear</a>
     <a href="/privacy">Privacy</a>
     <a href="/blog/">Blog</a>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
@@ -587,6 +655,43 @@
     &nbsp;&nbsp;<span class="kw">vec4</span> color = <span class="fn">impressionist</span>(inputImage, uv, brushSize);<br>
     &nbsp;&nbsp;<span class="kw">return</span> <span class="fn">mix</span>(color, <span class="fn">texture</span>(inputImage, uv), mask);<br>
     }
+  </div>
+</section>
+
+<hr class="divider">
+
+<section class="gear-section" id="gear">
+  <h2>Creator Gear</h2>
+  <p>
+    Great videos start with great tools. ByteWave connects creators with recommended cameras, mics, lighting, and accessories from trusted retailers; directly inside the app. Browse curated gear, tap to learn more, and purchase from partners you already know.
+  </p>
+  <p>
+    <strong>No tracking. No ad networks. No data brokers.</strong> When you buy through a recommendation, ByteWave earns a small commission from the retailer; that's how a free app stays free without selling your data. A portion of every commission goes to charitable causes through <strong>ByteWave Causes</strong>.
+  </p>
+
+  <div class="gear-categories">
+    <div class="gear-cat">
+      <div class="gear-cat-icon">🎥</div>
+      <h3>Cameras</h3>
+      <p>Mirrorless, action cams, and cinema rigs for every budget.</p>
+    </div>
+    <div class="gear-cat">
+      <div class="gear-cat-icon">🎙️</div>
+      <h3>Audio</h3>
+      <p>Shotgun mics, lavs, and wireless systems for clean capture.</p>
+    </div>
+    <div class="gear-cat">
+      <div class="gear-cat-icon">💡</div>
+      <h3>Lighting</h3>
+      <p>LED panels, ring lights, and portable setups that travel light.</p>
+    </div>
+  </div>
+
+  <!-- COMING SOON — remove this badge when the Shop tab is live -->
+  <span class="gear-badge">Coming Soon</span>
+  <!-- /COMING SOON -->
+  <div style="margin-top:1.5rem">
+    <a href="/shop/" style="font-size:.88rem;color:var(--accent);font-weight:500">Browse all gear &rarr;</a>
   </div>
 </section>
 
