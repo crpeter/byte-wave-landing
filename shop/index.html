@@ -3,76 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ByteWave - Free GPU-Powered Video Editor for iPhone, iPad & Mac</title>
-  <meta name="description" content="ByteWave is a free video editor for iPhone, iPad, and Mac. No watermarks, no subscriptions. Custom Metal shaders, motion blur, super resolution, and more - all processed on your device. Your footage never leaves your phone.">
-  <meta name="keywords" content="free video editor, video editor no watermark, capcut alternative, ios video editor, metal shaders, gpu video editor, video editor no subscription, privacy video editor, free video editor iphone">
-  <link rel="canonical" href="https://bytewaveai.com/">
+  <title>Creator Gear — ByteWave</title>
+  <meta name="description" content="Discover cameras, microphones, lighting, and accessories recommended for video creators. Browse curated gear inside ByteWave — no tracking, no ad networks.">
+  <link rel="canonical" href="https://bytewaveai.com/shop/">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
-  <meta property="og:description" content="No watermarks. No subscriptions. No data collection. A free video editor that runs entirely on your device.">
-  <meta property="og:url" content="https://bytewaveai.com/">
+  <meta property="og:title" content="Creator Gear — ByteWave">
+  <meta property="og:description" content="Curated gear for video creators. Cameras, mics, lighting, and more — recommended inside the app, with no tracking.">
+  <meta property="og:url" content="https://bytewaveai.com/shop/">
   <meta property="og:site_name" content="ByteWave">
   <meta property="og:image" content="https://bytewaveai.com/preview.jpg">
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
-  <meta name="twitter:description" content="No watermarks. No subscriptions. No data collection. Runs entirely on your device.">
+  <meta name="twitter:title" content="Creator Gear — ByteWave">
+  <meta name="twitter:description" content="Curated gear for video creators. No tracking, no ad networks.">
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
   <link rel="icon" type="image/svg+xml" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "ByteWave",
-    "url": "https://bytewaveai.com",
-    "logo": "https://bytewaveai.com/logo.png"
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "ByteWave",
-    "operatingSystem": "iOS, iPadOS, macOS",
-    "applicationCategory": "MultimediaApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "description": "A free, GPU-powered video editor for iOS. Trim and stitch clips, layer unlimited audio tracks, and apply real-time Metal-powered effects; all processed on your device. No watermarks, no subscriptions.",
-    "url": "https://bytewaveai.com/",
-    "downloadUrl": "https://apps.apple.com/us/app/bytewave/id6752225642",
-    "author": {
-      "@type": "Person",
-      "name": "Cody Peter"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "ratingCount": "5",
-      "bestRating": "5"
-    },
-    "featureList": "Custom Metal Shader Editor, Super Resolution Upscaling, Motion Blur, Temporal Noise Reduction, Community Filters, Unlimited Audio Tracks, On-Device Processing, Cryptographic Video Provenance"
-  }
-  </script>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
       --bg: #08080c;
       --surface: #101016;
+      --surface-raised: #16161e;
       --border: rgba(255,255,255,0.06);
+      --border-hover: rgba(255,255,255,0.12);
       --text: #d8d6e1;
       --text-dim: #9390a5;
       --text-muted: #5c5970;
@@ -80,8 +39,6 @@
       --accent-dim: rgba(14,165,201,0.12);
       --positive: #5ec78a;
       --positive-dim: rgba(94,199,138,0.1);
-      --negative: #e05572;
-      --negative-dim: rgba(224,85,114,0.1);
     }
 
     html { scroll-behavior: smooth; font-size: 16px; }
@@ -115,6 +72,7 @@
       font-size: .84rem; color: var(--text-dim);
     }
     .nav-links a:hover { color: var(--text); }
+    .nav-links .active { color: var(--text); }
     .nav-cta {
       background: var(--text); color: var(--bg);
       padding: .42rem 1.1rem; border-radius: 5px;
@@ -124,302 +82,237 @@
     .nav-cta:hover { opacity: .8; }
 
     /* --- HERO --- */
-    .hero {
-      min-height: 100vh;
-      display: flex; flex-direction: column;
-      justify-content: center;
+    .shop-hero {
       max-width: 780px;
       margin: 0 auto;
       padding: 8rem 2rem 4rem;
     }
-    .hero h1 {
-      font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+    .shop-hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
       font-weight: 800;
       line-height: 1.1;
-      letter-spacing: -2px;
+      letter-spacing: -1.5px;
       color: #efeff4;
     }
-    .hero h1 span {
-      color: var(--accent);
-    }
-    .hero-body {
-      margin-top: 1.5rem;
+    .shop-hero .subtitle {
+      margin-top: 1.2rem;
       font-size: 1.02rem;
       color: var(--text-dim);
       max-width: 560px;
-      font-weight: 400;
       line-height: 1.75;
     }
-    .hero-actions {
-      display: flex; gap: 1rem; margin-top: 2.5rem;
-      flex-wrap: wrap; align-items: center;
-    }
-    .btn-primary {
-      display: inline-block;
-      background: var(--text); color: var(--bg);
-      padding: .75rem 1.8rem; border-radius: 6px;
-      font-weight: 600; font-size: .92rem;
-      font-family: 'Inter', system-ui, sans-serif;
-      transition: opacity .2s;
-      border: none; cursor: pointer;
-    }
-    .btn-primary:hover { opacity: .8; }
-    .hero-note {
-      font-size: .78rem; color: var(--text-muted);
-      margin-top: 1rem;
-      letter-spacing: 0.2px;
-    }
 
-    /* --- DIVIDER --- */
     .divider {
       border: none;
       border-top: 1px solid var(--border);
       margin: 0;
     }
 
-    /* --- PROSE SECTIONS --- */
-    .prose-section {
+    /* --- HOW IT WORKS --- */
+    .how-section {
       max-width: 780px;
       margin: 0 auto;
-      padding: 5rem 2rem;
+      padding: 4rem 2rem;
     }
-    .prose-section h2 {
-      font-size: clamp(1.4rem, 3vw, 1.85rem);
+    .how-section h2 {
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
       font-weight: 700;
-      letter-spacing: -0.8px;
-      margin-bottom: 1.2rem;
+      letter-spacing: -0.6px;
+      margin-bottom: 2rem;
       color: #efeff4;
     }
-    .prose-section p {
-      font-size: .98rem;
-      color: var(--text-dim);
-      line-height: 1.8;
-      max-width: 620px;
+    .how-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.5rem;
     }
-    .prose-section p + p { margin-top: 1rem; }
-    .prose-section strong {
+    .how-step {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 1.3rem;
+    }
+    .how-step-num {
+      font-size: .7rem;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: .6rem;
+    }
+    .how-step h3 {
+      font-size: .9rem;
+      font-weight: 600;
       color: var(--text);
-      font-weight: 600;
+      margin-bottom: .35rem;
+    }
+    .how-step p {
+      font-size: .82rem;
+      color: var(--text-dim);
+      line-height: 1.6;
     }
 
-    /* --- COMPARISON --- */
-    .compare-section {
+    /* --- CATEGORIES --- */
+    .cat-section {
       max-width: 780px;
       margin: 0 auto;
-      padding: 5rem 2rem;
+      padding: 4rem 2rem;
     }
-    .compare-section h2 {
-      font-size: clamp(1.4rem, 3vw, 1.85rem);
+    .cat-section h2 {
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
       font-weight: 700;
-      letter-spacing: -0.8px;
-      margin-bottom: .5rem;
+      letter-spacing: -0.6px;
+      margin-bottom: .4rem;
       color: #efeff4;
     }
-    .compare-intro {
+    .cat-section > p {
+      font-size: .9rem;
       color: var(--text-dim);
-      font-size: .98rem;
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
+      line-height: 1.7;
     }
-    .comp-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    .comp-table thead th {
-      padding: .9rem 1rem;
-      text-align: center;
-      font-weight: 600;
-      font-size: .84rem;
-      border-bottom: 1px solid var(--border);
-      letter-spacing: -0.3px;
-    }
-    .comp-table thead th:first-child {
-      text-align: left;
-      font-weight: 400;
-      color: var(--text-muted);
-      font-size: .8rem;
-    }
-    .comp-table thead th:nth-child(2) { color: var(--accent); }
-    .comp-table thead th:nth-child(3) { color: var(--text-muted); }
-    .comp-table td {
-      padding: .75rem 1rem;
-      font-size: .84rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .comp-table td:first-child {
-      color: var(--text-dim);
-      font-weight: 500;
-    }
-    .comp-table td:nth-child(2),
-    .comp-table td:nth-child(3) { text-align: center; }
-    .comp-table .yes { color: var(--positive); }
-    .comp-table .no { color: var(--negative); opacity: .8; }
-    .price-free {
-      background: var(--positive-dim);
-      color: var(--positive);
-      padding: .15rem .5rem; border-radius: 4px;
-      font-weight: 600; font-size: .8rem;
-    }
-    .price-paid {
-      background: var(--negative-dim);
-      color: var(--negative);
-      padding: .15rem .5rem; border-radius: 4px;
-      font-weight: 600; font-size: .8rem;
-    }
-
-    /* --- FEATURES --- */
-    .features-section {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 5rem 2rem;
-    }
-    .features-section h2 {
-      font-size: clamp(1.4rem, 3vw, 1.85rem);
-      font-weight: 700;
-      letter-spacing: -0.8px;
-      margin-bottom: 2.5rem;
-      color: #efeff4;
-    }
-    .feature-list {
+    .cat-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 2.2rem 3.5rem;
+      gap: 1.2rem;
     }
-    .feature-item h3 {
-      font-size: .92rem;
+    .cat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.8rem 1.5rem;
+      transition: border-color .2s;
+    }
+    .cat-card:hover {
+      border-color: var(--border-hover);
+    }
+    .cat-icon {
+      font-size: 1.6rem;
+      margin-bottom: .8rem;
+    }
+    .cat-card h3 {
+      font-size: 1rem;
       font-weight: 600;
-      margin-bottom: .3rem;
-      letter-spacing: -0.2px;
       color: var(--text);
+      margin-bottom: .4rem;
     }
-    .feature-item p {
-      font-size: .86rem;
+    .cat-card p {
+      font-size: .84rem;
       color: var(--text-dim);
       line-height: 1.65;
-      font-weight: 400;
+    }
+    .cat-card .item-list {
+      margin-top: .8rem;
+      font-size: .78rem;
+      color: var(--text-muted);
+      line-height: 1.7;
     }
 
-    /* --- FILTERS CODE --- */
-    .filters-section {
+    /* --- COMING SOON PRODUCT GRID --- */
+    .products-section {
       max-width: 780px;
       margin: 0 auto;
-      padding: 5rem 2rem;
+      padding: 4rem 2rem;
     }
-    .filters-section h2 {
+    .products-section h2 {
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+      font-weight: 700;
+      letter-spacing: -0.6px;
+      margin-bottom: .4rem;
+      color: #efeff4;
+    }
+    .products-section > p {
+      font-size: .9rem;
+      color: var(--text-dim);
+      margin-bottom: 2rem;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+    }
+    .product-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .product-thumb {
+      width: 100%;
+      aspect-ratio: 1;
+      background: var(--surface-raised);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .product-info {
+      padding: 1rem 1.1rem;
+    }
+    .product-info h4 {
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: .2rem;
+    }
+    .product-info .product-type {
+      font-size: .72rem;
+      color: var(--text-muted);
+      margin-bottom: .5rem;
+    }
+    .product-info .product-cta {
+      display: inline-block;
+      font-size: .72rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    /* --- CAUSES --- */
+    .causes-section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    .causes-card {
+      background: var(--positive-dim);
+      border: 1px solid rgba(94,199,138,0.15);
+      border-radius: 10px;
+      padding: 2.2rem 2rem;
+    }
+    .causes-card h2 {
       font-size: clamp(1.2rem, 2.5vw, 1.45rem);
       font-weight: 700;
       letter-spacing: -0.5px;
-      margin-bottom: .5rem;
-      color: #efeff4;
+      color: var(--positive);
+      margin-bottom: .8rem;
     }
-    .filters-section > p {
-      color: var(--text-dim);
+    .causes-card p {
       font-size: .92rem;
-      margin-bottom: 1.5rem;
-      max-width: 560px;
-      line-height: 1.7;
-      font-weight: 400;
-    }
-    .code-block {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.5rem;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: .75rem;
-      color: var(--text-dim);
-      line-height: 1.9;
-      overflow-x: auto;
-    }
-    .code-block .kw { color: var(--accent); }
-    .code-block .fn { color: var(--positive); }
-    .code-block .cm { color: var(--text-muted); }
-    .code-block .val { color: #c4a7e7; }
-
-    /* --- GEAR --- */
-    .gear-section {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 5rem 2rem;
-    }
-    .gear-section h2 {
-      font-size: clamp(1.4rem, 3vw, 1.85rem);
-      font-weight: 700;
-      letter-spacing: -0.8px;
-      margin-bottom: 1.2rem;
-      color: #efeff4;
-    }
-    .gear-section p {
-      font-size: .98rem;
       color: var(--text-dim);
       line-height: 1.8;
-      max-width: 620px;
+      max-width: 580px;
     }
-    .gear-section p + p { margin-top: 1rem; }
-    .gear-section strong {
+    .causes-card p + p {
+      margin-top: .8rem;
+    }
+    .causes-card strong {
       color: var(--text);
       font-weight: 600;
-    }
-    .gear-categories {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 1.2rem;
-      margin-top: 2rem;
-    }
-    .gear-cat {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.3rem 1.2rem;
-    }
-    .gear-cat-icon {
-      font-size: 1.3rem;
-      margin-bottom: .5rem;
-    }
-    .gear-cat h3 {
-      font-size: .88rem;
-      font-weight: 600;
-      letter-spacing: -0.2px;
-      color: var(--text);
-      margin-bottom: .25rem;
-    }
-    .gear-cat p {
-      font-size: .8rem;
-      color: var(--text-muted);
-      line-height: 1.55;
-    }
-    .gear-badge {
-      display: inline-block;
-      margin-top: 1.8rem;
-      font-size: .75rem;
-      color: var(--accent);
-      background: var(--accent-dim);
-      padding: .3rem .75rem;
-      border-radius: 4px;
-      font-weight: 500;
-      letter-spacing: 0.3px;
-    }
-    @media (max-width: 768px) {
-      .gear-categories { grid-template-columns: 1fr; }
     }
 
-    /* --- CTA --- */
-    .cta-section {
+    /* --- DISCLOSURE --- */
+    .disclosure {
       max-width: 780px;
       margin: 0 auto;
-      padding: 6rem 2rem 8rem;
+      padding: 2rem 2rem 5rem;
     }
-    .cta-section h2 {
-      font-size: clamp(1.6rem, 3.5vw, 2.3rem);
-      font-weight: 800;
-      letter-spacing: -1px;
-      margin-bottom: .7rem;
-      color: #efeff4;
-    }
-    .cta-section p {
-      color: var(--text-dim);
-      font-size: .98rem;
-      margin-bottom: 2rem;
-      font-weight: 400;
+    .disclosure p {
+      font-size: .72rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      max-width: 620px;
     }
 
     /* --- FOOTER --- */
@@ -440,15 +333,18 @@
     /* --- MOBILE --- */
     @media (max-width: 768px) {
       .nav-links { display: none; }
-      .feature-list { grid-template-columns: 1fr; gap: 1.5rem; }
-      .comp-table td,
-      .comp-table thead th { padding: .6rem .45rem; font-size: .76rem; }
-      .hero { padding: 7rem 1.5rem 3rem; }
-      .prose-section,
-      .compare-section,
-      .features-section,
-      .filters-section,
-      .cta-section { padding: 3.5rem 1.5rem; }
+      .how-grid { grid-template-columns: 1fr; }
+      .cat-grid { grid-template-columns: 1fr; }
+      .product-grid { grid-template-columns: 1fr 1fr; }
+      .shop-hero { padding: 7rem 1.5rem 3rem; }
+      .how-section,
+      .cat-section,
+      .products-section,
+      .causes-section,
+      .disclosure { padding-left: 1.5rem; padding-right: 1.5rem; }
+    }
+    @media (max-width: 480px) {
+      .product-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -457,250 +353,157 @@
 <nav>
   <a href="/" class="logo">ByteWave</a>
   <div class="nav-links">
-    <a href="#compare">Compare</a>
-    <a href="#features">Features</a>
-    <a href="#gear">Creator Gear</a>
+    <a href="/#compare">Compare</a>
+    <a href="/#features">Features</a>
+    <a href="/shop/" class="active">Creator Gear</a>
     <a href="/privacy">Privacy</a>
     <a href="/blog/">Blog</a>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
   </div>
 </nav>
 
-<section class="hero">
-  <h1>A video editor that doesn't want your money <span>or your data</span></h1>
-  <p class="hero-body">
-    ByteWave is a full video editor for iPhone, iPad, and Mac. It's free. And no data is collected.
-  </p>
-  <div class="hero-actions">
-    <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary">Download for Apple</a>
-  </div>
-  <p class="hero-note">iPhone · iPad · Mac · Requires Apple Silicon</p>
-</section>
-
-<hr class="divider">
-
-<section class="prose-section">
-  <h2>Your videos stay on your device</h2>
-  <p>
-    Every other video editor either charges you or collects your data. Most do both. CapCut uploads your footage to ByteDance's servers. Adobe wants $22/month. InShot locks basic features behind a paywall.
-  </p>
-  <p>
-    ByteWave processes everything locally on Apple Silicon. <strong>No server uploads. No analytics on your content. No account required.</strong> The app doesn't have the ability to send your videos anywhere; there's no upload endpoint to phone home to.
-  </p>
-  <p>
-    Every export is cryptographically signed with provenance metadata, so anyone can verify that a video was created with ByteWave and hasn't been tampered with. <strong>In a world full of deepfakes, your footage carries proof that it's real.</strong>
+<section class="shop-hero">
+  <h1>Creator Gear</h1>
+  <p class="subtitle">
+    Cameras, microphones, lighting, and accessories recommended for video creators — browsable directly inside ByteWave. Tap a product, buy from a retailer you trust. No tracking. No ad networks.
   </p>
 </section>
 
 <hr class="divider">
 
-<section class="compare-section" id="compare">
-  <h2>ByteWave vs. CapCut</h2>
-  <p class="compare-intro">CapCut went from free to $9.99/month. We went the other direction.</p>
-
-  <table class="comp-table">
-    <thead>
-      <tr>
-        <th></th>
-        <th>ByteWave</th>
-        <th>CapCut Pro</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Price</td>
-        <td><span class="price-free">$0</span></td>
-        <td><span class="price-paid">$9.99/mo</span></td>
-      </tr>
-      <tr>
-        <td>Watermarks</td>
-        <td class="yes">None</td>
-        <td class="no">On free tier</td>
-      </tr>
-      <tr>
-        <td>On-device processing</td>
-        <td class="yes">100% local</td>
-        <td class="no">Uploads to servers</td>
-      </tr>
-      <tr>
-        <td>Data collection</td>
-        <td class="yes">None</td>
-        <td class="no">Extensive</td>
-      </tr>
-      <tr>
-        <td>Video provenance</td>
-        <td class="yes">Cryptographic signing</td>
-        <td class="no">&#10007;</td>
-      </tr>
-      <tr>
-        <td>Slow motion</td>
-        <td class="yes">&#10003;</td>
-        <td class="yes" style="opacity:.45">&#10003;</td>
-      </tr>
-      <tr>
-        <td>Motion blur</td>
-        <td class="yes">&#10003;</td>
-        <td class="no">&#10007;</td>
-      </tr>
-      <tr>
-        <td>Noise reduction</td>
-        <td class="yes">&#10003;</td>
-        <td class="no">&#10007;</td>
-      </tr>
-      <tr>
-        <td>AI upscaling</td>
-        <td class="yes">On-device</td>
-        <td class="yes" style="opacity:.45">Cloud-based</td>
-      </tr>
-      <tr>
-        <td>Unlimited audio tracks</td>
-        <td class="yes">&#10003;</td>
-        <td class="no">Limited</td>
-      </tr>
-      <tr>
-        <td>Text to speech</td>
-        <td class="yes">Free</td>
-        <td class="yes" style="opacity:.45">Pro only</td>
-      </tr>
-      <tr>
-        <td>Auto captions</td>
-        <td class="yes">Free</td>
-        <td class="yes" style="opacity:.45">Pro only</td>
-      </tr>
-      <tr>
-        <td>Editable filter source code</td>
-        <td class="yes">&#10003;</td>
-        <td class="no">&#10007;</td>
-      </tr>
-      <tr>
-        <td>Community filters</td>
-        <td class="yes">&#10003;</td>
-        <td class="no">&#10007;</td>
-      </tr>
-      <tr>
-        <td>Subject isolation for filters</td>
-        <td class="yes">&#10003;</td>
-        <td class="no">&#10007;</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
-<hr class="divider">
-
-<section class="features-section" id="features">
-  <h2>What you get</h2>
-
-  <div class="feature-list">
-    <div class="feature-item">
-      <h3>Video provenance</h3>
-      <p>Every export is cryptographically signed on-device so viewers can verify your video is authentic and unaltered. Proof it's real, baked right into the file.</p>
+<section class="how-section">
+  <h2>How it works</h2>
+  <div class="how-grid">
+    <div class="how-step">
+      <div class="how-step-num">Step 1</div>
+      <h3>Browse in-app</h3>
+      <p>Open the Shop tab in ByteWave to see gear curated for video creators.</p>
     </div>
-
-    <div class="feature-item">
-      <h3>Slow motion & motion blur</h3>
-      <p>Frame interpolation, motion blur, and temporal noise reduction; all running on the GPU in real time.</p>
+    <div class="how-step">
+      <div class="how-step-num">Step 2</div>
+      <h3>Tap to buy</h3>
+      <p>Each product links to a trusted retailer. You buy from them directly — not from us.</p>
     </div>
-
-    <div class="feature-item">
-      <h3>AI upscaling</h3>
-      <p>Upscale resolution on-device. No cloud processing, no waiting for a server.</p>
-    </div>
-
-    <div class="feature-item">
-      <h3>Unlimited audio tracks</h3>
-      <p>Layer as many audio clips as you need on a visual timeline. Built-in sound effects. No track limits.</p>
-    </div>
-
-    <div class="feature-item">
-      <h3>Text to speech</h3>
-      <p>Type text, get a natural voice. Generate captions from spoken audio. All processed locally.</p>
-    </div>
-
-    <div class="feature-item">
-      <h3>Text effects</h3>
-      <p>Sparkle, glitch, neon, and more. Animated text that doesn't require a motion graphics background.</p>
-    </div>
-
-    <div class="feature-item">
-      <h3>Subject isolation</h3>
-      <p>Separate subjects from backgrounds and apply filters to each independently. Blur the background, keep the subject sharp; one tap.</p>
-    </div>
-
-    <div class="feature-item">
-      <h3>Custom filters with source code</h3>
-      <p>Every filter shows you the shader code behind it. Edit it directly, or copy the code and ask ChatGPT to make something new.</p>
-    </div>
-
-    <div class="feature-item">
-      <h3>Community filters</h3>
-      <p>Publish filters you've made. Browse and grab filters from other creators. One tap to add to your library.</p>
+    <div class="how-step">
+      <div class="how-step-num">Step 3</div>
+      <h3>Fund the app</h3>
+      <p>ByteWave earns a small commission from the retailer. A portion goes to charitable causes through ByteWave Causes.</p>
     </div>
   </div>
 </section>
 
 <hr class="divider">
 
-<section class="filters-section">
-  <h2>Filters you can actually edit</h2>
-  <p>Most editors treat filters as a black box. ByteWave shows you the code. Change it, learn from it, or copy it and describe what you want to an AI; paste the result back in.</p>
-  <div class="code-block">
-    <span class="cm">// Impressionist background, sharp subject</span><br>
-    <span class="kw">uniform</span> sampler2D inputImage;<br>
-    <span class="kw">uniform</span> sampler2D subjectMask;<br>
-    <span class="kw">uniform float</span> brushSize = <span class="val">4.0</span>;<br>
-    <br>
-    <span class="kw">vec4</span> <span class="fn">main</span>(vec2 uv) {<br>
-    &nbsp;&nbsp;<span class="kw">float</span> mask = <span class="fn">texture</span>(subjectMask, uv).r;<br>
-    &nbsp;&nbsp;<span class="kw">vec4</span> color = <span class="fn">impressionist</span>(inputImage, uv, brushSize);<br>
-    &nbsp;&nbsp;<span class="kw">return</span> <span class="fn">mix</span>(color, <span class="fn">texture</span>(inputImage, uv), mask);<br>
-    }
-  </div>
-</section>
+<section class="cat-section">
+  <h2>Categories</h2>
+  <p>Gear selected for creators who shoot, edit, and publish on mobile.</p>
 
-<hr class="divider">
-
-<section class="gear-section" id="gear">
-  <h2>Creator Gear</h2>
-  <p>
-    Great videos start with great tools. ByteWave connects creators with recommended cameras, mics, lighting, and accessories from trusted retailers; directly inside the app. Browse curated gear, tap to learn more, and purchase from partners you already know.
-  </p>
-  <p>
-    <strong>No tracking. No ad networks. No data brokers.</strong> When you buy through a recommendation, ByteWave earns a small commission from the retailer; that's how a free app stays free without selling your data. A portion of every commission goes to charitable causes through <strong>ByteWave Causes</strong>.
-  </p>
-
-  <div class="gear-categories">
-    <div class="gear-cat">
-      <div class="gear-cat-icon">🎥</div>
+  <div class="cat-grid">
+    <div class="cat-card">
+      <div class="cat-icon">🎥</div>
       <h3>Cameras</h3>
-      <p>Mirrorless, action cams, and cinema rigs for every budget.</p>
+      <p>Mirrorless, cinema, and action cameras for every shooting style and budget.</p>
+      <div class="item-list">Mirrorless bodies · Action cams · Cinema cameras · Lenses</div>
     </div>
-    <div class="gear-cat">
-      <div class="gear-cat-icon">🎙️</div>
+    <div class="cat-card">
+      <div class="cat-icon">🎙️</div>
       <h3>Audio</h3>
-      <p>Shotgun mics, lavs, and wireless systems for clean capture.</p>
+      <p>Microphones and wireless systems for clean, professional sound capture.</p>
+      <div class="item-list">Shotgun mics · Lavaliers · Wireless systems · Audio recorders</div>
     </div>
-    <div class="gear-cat">
-      <div class="gear-cat-icon">💡</div>
+    <div class="cat-card">
+      <div class="cat-icon">💡</div>
       <h3>Lighting</h3>
-      <p>LED panels, ring lights, and portable setups that travel light.</p>
+      <p>Portable and studio lighting setups that make footage look professional.</p>
+      <div class="item-list">LED panels · Ring lights · Light sticks · Softboxes</div>
     </div>
-  </div>
-
-  <!-- COMING SOON — remove this badge when the Shop tab is live -->
-  <span class="gear-badge">Coming Soon</span>
-  <!-- /COMING SOON -->
-  <div style="margin-top:1.5rem">
-    <a href="/shop/" style="font-size:.88rem;color:var(--accent);font-weight:500">Browse all gear &rarr;</a>
+    <div class="cat-card">
+      <div class="cat-icon">🔧</div>
+      <h3>Accessories</h3>
+      <p>Tripods, gimbals, cards, and the small stuff that keeps a shoot running.</p>
+      <div class="item-list">Tripods · Gimbals · Memory cards · Phone mounts · Cases</div>
+    </div>
   </div>
 </section>
 
 <hr class="divider">
 
-<section class="cta-section">
-  <h2>Download ByteWave</h2>
-  <p>Free. No account. No credit card. No catch.</p>
-  <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary" style="padding:.85rem 2.2rem">Download for Apple</a>
+<!-- COMING SOON — delete from here to /COMING SOON and replace with real product data -->
+<section class="products-section">
+  <h2>Featured Gear</h2>
+  <p>Product recommendations are launching soon. Here's a preview of what's coming.</p>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-thumb">🎥</div>
+      <div class="product-info">
+        <h4>Mirrorless Camera</h4>
+        <div class="product-type">Camera · Body Only</div>
+        <span class="product-cta">Coming soon</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-thumb">🎙️</div>
+      <div class="product-info">
+        <h4>Wireless Mic System</h4>
+        <div class="product-type">Audio · Dual Channel</div>
+        <span class="product-cta">Coming soon</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-thumb">💡</div>
+      <div class="product-info">
+        <h4>LED Panel Kit</h4>
+        <div class="product-type">Lighting · Bi-Color</div>
+        <span class="product-cta">Coming soon</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-thumb">📱</div>
+      <div class="product-info">
+        <h4>Smartphone Gimbal</h4>
+        <div class="product-type">Stabilizer · 3-Axis</div>
+        <span class="product-cta">Coming soon</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-thumb">🎧</div>
+      <div class="product-info">
+        <h4>Monitoring Headphones</h4>
+        <div class="product-type">Audio · Closed-Back</div>
+        <span class="product-cta">Coming soon</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-thumb">🔌</div>
+      <div class="product-info">
+        <h4>Portable SSD</h4>
+        <div class="product-type">Storage · 2TB</div>
+        <span class="product-cta">Coming soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /COMING SOON -->
+
+<hr class="divider">
+
+<section class="causes-section">
+  <div class="causes-card">
+    <h2>ByteWave Causes</h2>
+    <p>
+      A portion of every affiliate commission is donated to charitable organizations selected through ByteWave Causes. When you buy gear through the app, you're helping fund the app <strong>and</strong> supporting a cause — without spending a penny more.
+    </p>
+    <p>
+      Creators choose which cause to support. No data is collected, no profiles are built, and participation is entirely optional.
+    </p>
+  </div>
+</section>
+
+<section class="disclosure">
+  <p>
+    ByteWave earns commissions from qualifying purchases made through affiliate links. Product recommendations are editorially independent. Prices and availability are determined by the retailer. ByteWave does not collect any personal data from affiliate interactions. A portion of affiliate revenue is donated to charitable organizations through the ByteWave Causes program.
+  </p>
 </section>
 
 <footer>
