@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Press kit — ByteWave</title>
+<meta name="description" content="Press resources for ByteWave, a free iOS video editor and social feed built around on-device processing.">
+<meta property="og:title" content="Press kit — ByteWave">
+<meta property="og:description" content="Boilerplate, facts, and assets for writing about ByteWave.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0B0F14;
+  --surface: #131A22;
+  --line: #232D3A;
+  --text: #E4EAF2;
+  --muted: #8496A8;
+  --signal: #4FD1E0;
+  --fill: #E8A33D;
+  --display: "Bricolage Grotesque", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a { color: var(--signal); }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ---------- wrapper ---------- */
+.wrap {
+  max-width: 740px;
+  margin: 0 auto;
+  padding-left: clamp(1.5rem, 5vw, 4rem);
+  padding-right: clamp(1.5rem, 5vw, 4rem);
+}
+
+/* ---------- progress scrubber ---------- */
+#scrub {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2px; width: 0;
+  background: var(--signal);
+  z-index: 100;
+}
+
+/* ---------- masthead ---------- */
+.mast {
+  border-bottom: 1px solid var(--line);
+  padding: 1.1rem 0;
+  position: sticky;
+  top: 0;
+  background: rgba(11, 15, 20, 0.88);
+  backdrop-filter: blur(10px);
+  z-index: 50;
+}
+.mast .wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+.mark {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+}
+.mast .tag {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.mast .home {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: var(--muted);
+}
+.mast .home:hover { color: var(--text); }
+
+/* ---------- hero ---------- */
+.hero {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid var(--line);
+}
+.hero h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin: 0 0 1rem;
+}
+.hero p {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 1rem;
+}
+.hero .updated {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 1.5rem;
+}
+.btn {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  background: var(--signal);
+  color: #06282D;
+  text-decoration: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.btn:hover { filter: brightness(1.1); }
+
+.btn.disabled,
+.asset-dl.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+  user-select: none;
+}
+
+.btn.disabled {
+  filter: grayscale(0.35);
+}
+
+.asset-dl.disabled {
+  color: var(--muted);
+  border-bottom-color: transparent;
+}
+
+/* ---------- nav pills ---------- */
+.nav-bar {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.nav-bar ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.nav-bar a {
+  display: block;
+  padding: 0.35rem 0.75rem;
+  text-decoration: none;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+.nav-bar a:hover {
+  color: var(--text);
+  border-color: var(--signal);
+}
+
+/* ---------- sections ---------- */
+section {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--line);
+}
+section:last-child { border-bottom: none; }
+
+h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+}
+.lede {
+  color: var(--muted);
+  font-size: 0.94rem;
+  margin: 0 0 1.5rem;
+}
+
+/* ---------- copyable blocks ---------- */
+.block {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 1.25rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.block-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.count {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--signal);
+  letter-spacing: 0.06em;
+}
+.block p { margin: 0; font-size: 0.95rem; line-height: 1.6; }
+
+.copy {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.copy:hover { border-color: var(--signal); color: var(--signal); }
+.copy[data-done="1"] { border-color: var(--signal); color: var(--signal); }
+
+/* ---------- facts ---------- */
+.fact-row {
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+  flex-wrap: wrap;
+}
+.fact-row:first-child { border-top: 1px solid var(--line); }
+.fact-label {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  min-width: 10rem;
+  flex-shrink: 0;
+}
+.fact-value {
+  font-size: 0.95rem;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+
+/* ---------- angles ---------- */
+.angle {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.angle:last-child { border-bottom: none; }
+.angle h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+.angle p {
+  margin: 0;
+  color: #C3CEDB;
+  font-size: 0.95rem;
+}
+
+/* ---------- assets ---------- */
+.asset-row {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.asset-row:first-child { border-top: 1px solid var(--line); }
+.asset-name { flex: 1; min-width: 10rem; font-size: 0.95rem; }
+.asset-meta { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
+.asset-dl {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.asset-dl:hover { border-bottom-color: var(--signal); }
+
+/* placeholders */
+.fill { color: var(--fill); border-bottom: 1px dotted var(--fill); }
+
+/* ---------- footer ---------- */
+footer {
+  padding: 2.5rem 0 4rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+footer p { margin: 0 0 0.5rem; }
+
+#live {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+@media (max-width: 500px) {
+  .fact-label { min-width: 100%; }
+  .hero { padding: 3rem 0 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+
+<div id="scrub" aria-hidden="true"></div>
+
+<header class="mast">
+  <div class="wrap">
+    <span class="mark">ByteWave</span>
+    <span class="tag">Press kit</span>
+    <a class="home" href="/">bytewaveai.com</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Everything you need to write about ByteWave.</h1>
+    <p>Boilerplate at three lengths, a fact sheet, and downloadable assets. Every text block has a copy button. Nothing here needs permission.</p>
+    <span class="btn disabled" aria-disabled="true">Download all assets (.zip)</span>
+    <p class="updated">Last updated <span class="fill">[date]</span> · Questions: <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a></p>
+  </div>
+</div>
+
+<nav class="nav-bar">
+  <div class="wrap">
+    <ol>
+      <li><a href="#facts">Fact sheet</a></li>
+      <li><a href="#boilerplate">Boilerplate</a></li>
+      <li><a href="#angles">Story angles</a></li>
+      <li><a href="#bio">Founder</a></li>
+      <li><a href="#assets">Assets</a></li>
+      <li><a href="#usage">Usage</a></li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <section id="facts">
+      <h2>Fact sheet</h2>
+      <p class="lede">Current as of the date above. If something here contradicts an older article, this page is right.</p>
+
+      <div class="fact-row"><span class="fact-label">App</span><span class="fact-value">ByteWave</span></div>
+      <div class="fact-row"><span class="fact-label">Developer</span><span class="fact-value">Cody Works LLC — North Carolina, USA</span></div>
+      <div class="fact-row"><span class="fact-label">Founder</span><span class="fact-value">Charles <span class="fill">[last name]</span>, sole engineer, operator, and marketer</span></div>
+      <div class="fact-row"><span class="fact-label">Platform</span><span class="fact-value">iPhone, iPad, and Apple Silicon Mac</span></div>
+      <div class="fact-row"><span class="fact-label">Minimum OS</span><span class="fact-value">iOS 26</span></div>
+      <div class="fact-row"><span class="fact-label">Price</span><span class="fact-value">Free. No subscription, no in-app purchase tier, no watermark.</span></div>
+      <div class="fact-row"><span class="fact-label">Privacy label</span><span class="fact-value">Data Not Collected</span></div>
+      <div class="fact-row"><span class="fact-label">Languages</span><span class="fact-value">15</span></div>
+      <div class="fact-row"><span class="fact-label">Availability</span><span class="fact-value"><span class="fill">Countries that do not financially support Russia.</span></div>
+      <div class="fact-row"><span class="fact-label">Released</span><span class="fact-value"><span class="fill">[date]</span></span></div>
+      <div class="fact-row"><span class="fact-label">Website</span><span class="fact-value"><a href="https://bytewaveai.com">bytewaveai.com</a></span></div>
+      <div class="fact-row"><span class="fact-label">App Store</span><span class="fact-value"><a href="https://apps.apple.com/us/app/bytewave/id6752225642">App Store</a></span></div>
+      <div class="fact-row"><span class="fact-label">Press contact</span><span class="fact-value"><a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a></span></div>
+    </section>
+
+    <section id="boilerplate">
+      <h2>Boilerplate</h2>
+      <p class="lede">Three lengths, so you can take the one that fits the hole in your piece.</p>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">25 words</span>
+          <button class="copy" type="button">Copy</button>
+        </div>
+        <p data-copy>ByteWave is a free iOS video editor and social feed built around on-device processing. Its App Store privacy label reads "Data Not Collected."</p>
+      </div>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">50 words</span>
+          <button class="copy" type="button">Copy</button>
+        </div>
+        <p data-copy>ByteWave is a free iOS video editor and social feed built around on-device processing. It includes a library of more than 70 Metal shader effects, automatic captions with translation, animated caption effects, and Apple Music integration. Its App Store privacy label reads "Data Not Collected." There is no paid tier and no watermark.</p>
+      </div>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">100 words</span>
+          <button class="copy" type="button">Copy</button>
+        </div>
+        <p data-copy>ByteWave is a free video editor and social feed for iPhone, iPad, and Apple Silicon Macs, built by a single developer as a privacy-first alternative to the dominant short-form editing apps. Video processing runs on the device rather than in the cloud, and its App Store privacy label reads "Data Not Collected." The app includes a library of more than 70 Metal shader effects, automatic captions with translation, animated caption effects, and Apple Music integration, localized across 15 languages. ByteWave is permanently free, with no watermarks and no paid tier.</p>
+      </div>
+    </section>
+
+    <section id="angles">
+      <h2>Story angles</h2>
+      <p class="lede">Three framings, depending on what you cover.</p>
+
+      <div class="angle">
+        <h3>The privacy alternative</h3>
+        <p>The market-leading short-form video editor is owned by ByteDance, and its handling of biometric and content-licensing data has drawn ongoing regulatory scrutiny. ByteWave is the same category of tool built on the opposite premise: processing stays on the device, and the App Store privacy label reads "Data Not Collected." No feature in the app requires uploading a face or a voice to a server.</p>
+      </div>
+
+      <div class="angle">
+        <h3>What a hard minimum requirement buys you</h3>
+        <p>ByteWave requires iOS 26 and supports nothing older. That is an unusual choice for a consumer app chasing installs, and it is deliberate: it lets the app use current Apple frameworks directly instead of maintaining fallbacks. Captions, translation, Metal-based effects, and export all run locally as a result, and the same build runs on Apple Silicon Macs. The tradeoff is a smaller addressable device base in exchange for capability no cross-platform competitor can match.</p>
+      </div>
+
+      <div class="angle">
+        <h3>Free, and not the freemium kind</h3>
+        <p>Every major competitor in this category runs the same play: free until the moment it matters, then a watermark on the export, or a resolution cap, or a paywalled caption style. ByteWave has no Pro tier waiting behind the export button, no watermark, and no upsell. The app a first-time user opens is the whole app. Built and run by one person.</p>
+      </div>
+    </section>
+
+    <section id="bio">
+      <h2>Founder</h2>
+      <p class="lede">Charles is the sole developer of ByteWave and handles engineering, operations, and marketing himself.</p>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">1 line</span>
+          <button class="copy" type="button">Copy</button>
+        </div>
+        <p data-copy>Charles <span class="fill">[last name]</span> is the sole developer of ByteWave, handling engineering, operations, and marketing himself.</p>
+      </div>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">Full bio</span>
+          <button class="copy" type="button">Copy</button>
+        </div>
+        <p data-copy class="fill">[Two or three sentences: background, what led you to build ByteWave, why the privacy stance. Write this one in your own voice — it is the part reporters quote.]</p>
+      </div>
+    </section>
+
+    <section id="assets">
+      <h2>Assets</h2>
+      <p class="lede">Or take the whole thing as a zip from the top of this page.</p>
+
+      <div class="asset-row"><span class="asset-name">App icon</span><span class="asset-meta">PNG · 1024×1024</span><span class="asset-dl disabled" aria-disabled="true">Download</span></div>
+      <div class="asset-row"><span class="asset-name">Logo, light and dark</span><span class="asset-meta">SVG + PNG</span><span class="asset-dl disabled" aria-disabled="true">Download</span></div>
+      <div class="asset-row"><span class="asset-name">iPhone screenshots</span><span class="asset-meta">PNG · <span class="fill">[N]</span> files</span><span class="asset-dl disabled" aria-disabled="true">Download</span></div>
+      <div class="asset-row"><span class="asset-name">iPad and Mac screenshots</span><span class="asset-meta">PNG</span><span class="asset-dl disabled" aria-disabled="true">Download</span></div>
+      <div class="asset-row"><span class="asset-name">Editing demo, 30 sec, no audio</span><span class="asset-meta">MP4 · 1080p</span><span class="asset-dl disabled" aria-disabled="true">Download</span></div>
+      <div class="asset-row"><span class="asset-name">Founder photo</span><span class="asset-meta">JPG</span><span class="asset-dl disabled" aria-disabled="true">Download</span></div>
+      <div class="asset-row"><span class="asset-name">This page</span><span class="asset-meta">PDF</span><span class="asset-dl disabled" aria-disabled="true">Download</span></div>
+    </section>
+
+    <section id="usage">
+      <h2>Usage</h2>
+      <p class="lede">Press and reviewers may use the copy, screenshots, logos, and video on this page freely in coverage of ByteWave. No approval needed and no embargo to clear.</p>
+      <p class="lede">Fact-checking something, or need a screenshot that is not here? Email <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a> and you will get a same-day answer from the person who wrote the code.</p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>ByteWave is made by one person.</p>
+    <p><a href="/">bytewaveai.com</a></p>
+  </div>
+</footer>
+
+<div id="live" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var scrub = document.getElementById('scrub');
+  function onScroll(){
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    scrub.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  var live = document.getElementById('live');
+  document.querySelectorAll('.copy').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var src = btn.closest('.block').querySelector('[data-copy]');
+      if(!src) return;
+      var text = src.textContent.replace(/\s+/g,' ').trim();
+      var done = function(){
+        btn.textContent = 'Copied';
+        btn.dataset.done = '1';
+        live.textContent = 'Copied to clipboard.';
+        setTimeout(function(){ btn.textContent = 'Copy'; delete btn.dataset.done; }, 1800);
+      };
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done, function(){ btn.textContent = 'Press \u2318C'; });
+      } else {
+        var t = document.createElement('textarea');
+        t.value = text; document.body.appendChild(t); t.select();
+        try { document.execCommand('copy'); done(); } catch(e){ btn.textContent = 'Press \u2318C'; }
+        document.body.removeChild(t);
+      }
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
