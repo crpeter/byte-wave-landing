@@ -253,21 +253,21 @@
 
         <p>The video editor runs entirely on your device using Apple's Metal GPU framework and on-device machine learning. This includes frame interpolation, motion blur, noise reduction, super resolution upscaling, voice synthesis, auto captions, subject masking, and all shader-based filters. None of these features require a network connection. The editor works in airplane mode.</p>
 
-        <p>No footage, audio, project data, or ML inference results ever leave your device. There is no server infrastructure behind the editor. We do not use analytics SDKs, crash reporting services, or advertising networks of any kind.</p>
-
+        <p>No footage, audio, project data, or ML inference results are uploaded to ByteWave servers by the editor. We do not use analytics SDKs, crash reporting services, or advertising networks of any kind.</p>
+        
         <div class="highlight-box">
-            <p><strong>About on-device machine learning:</strong> ByteWave uses Apple's built-in frameworks (Vision, Speech, and the Apple foundation model) for features like subject detection, captions, and text generation. These models ship with iOS and run on your device's Neural Engine. Your data is never sent to Apple, to us, or to any third party. This is what privacy-first ML looks like.</p>
+            <p><strong>About machine learning:</strong> ByteWave uses Apple's frameworks, including Vision, Speech, and Foundation Models, for features like subject detection, captions, and text generation. Most processing is performed on your device. Some Apple-provided features, including speech recognition, may send data to Apple for processing depending on your device, language, and system settings. Any data processed by Apple is governed by Apple's privacy policies and your Apple privacy settings. ByteWave does not send your footage or project data to our own servers for ML processing.</p>
         </div>
 
         <h2>The public video feed</h2>
 
-        <p>ByteWave includes a public video feed that any user can browse. We do not log watch history, track viewing behavior, or record any activity associated with anonymous users on our servers.</p>
+        <p>ByteWave includes a public video feed that any user can browse. We do not log watch history or track feed browsing behavior for any user, whether signed in or anonymous.</p>
 
         <p>Feed recommendations and liked video history are computed and stored entirely on your device using local storage. Our server does not know which videos you watched, which ones you liked, or why a particular video was shown to you.</p>
 
         <h2>Social features (optional)</h2>
 
-        <p>Creating a profile is entirely optional. The video editor and feed browsing work without one. If you choose to create a profile we do not store your email address.</p>
+        <p>Creating a profile is entirely optional. If you create an account, we collect the account information needed to authenticate you, including your email address, using Google Firebase Authentication.</p>
 
         <p>Once you have a profile, you can opt in to social features including publishing videos to the feed and tagging. These features require you to read about how they work before enabling them. If you publish a video, tags can optionally be generated on your device before upload.</p>
 
@@ -277,7 +277,7 @@
 
         <h2>Third parties</h2>
 
-        <p>We do not sell or share your data with advertisers, data brokers, governments, or any third party. We do not use third-party analytics, advertising SDKs, or behavioral tracking.</p>
+        <p>We do not sell personal data or share personal data for targeted advertising. We use service providers, including Google Firebase, to provide account authentication and backend functionality. We do not use third-party analytics, advertising SDKs, or behavioral tracking.</p>
 
         <h2>Contact</h2>
 
