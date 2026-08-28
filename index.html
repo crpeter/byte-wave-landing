@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1f3461">
-    <title>ByteWave - Free GPU-Powered Video Editor for iPhone, iPad & Mac</title>
-    <meta name="description" content="ByteWave is a free video editor for iPhone, iPad, and Mac. No watermarks, no subscriptions. Custom Metal shaders, motion blur, super resolution, and more - all processed on your device. Your footage never leaves your phone.">
-    <meta name="keywords" content="free video editor, video editor no watermark, capcut alternative, ios video editor, metal shaders, gpu video editor, video editor no subscription, privacy video editor, free video editor iphone">
+    <title>ByteWave — Free On-Device Video Editor for iPhone, iPad & Mac</title>
+    <meta name="description" content="Edit videos locally on iPhone, iPad, and Apple Silicon Mac with no paid tier or ByteWave export watermark. No account is required for local editing.">
     <link rel="canonical" href="https://bytewaveai.com/">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
-    <meta property="og:description" content="No watermarks. No subscriptions. No data collection. A free video editor that runs entirely on your device.">
+    <meta property="og:description" content="Edit locally with no paid tier or ByteWave export watermark. An account is optional and never required for local editing.">
     <meta property="og:url" content="https://bytewaveai.com/">
     <meta property="og:site_name" content="ByteWave">
     <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
@@ -23,8 +22,9 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
-    <meta name="twitter:description" content="No watermarks. No subscriptions. No data collection. Runs entirely on your device.">
+    <meta name="twitter:description" content="Edit locally with no paid tier or ByteWave export watermark. No account is required for local editing.">
     <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+    <meta name="twitter:image:alt" content="ByteWave logo">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
@@ -41,7 +41,11 @@
             "alternateName": "bytewaveai.com",
             "legalName": "Cody Works LLC",
             "url": "https://bytewaveai.com/",
-            "logo": "https://bytewaveai.com/logo.png"
+            "logo": "https://bytewaveai.com/logo.png",
+            "sameAs": [
+                "https://apps.apple.com/us/app/bytewave/id6752225642",
+                "https://github.com/crpeter/byte-wave-landing"
+            ]
         }
     </script>
     <script type="application/ld+json">
@@ -84,14 +88,11 @@
         }
     </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="image" type="image/webp"
           href="/assets/logo-full-320.webp"
           imagesrcset="/assets/logo-full-320.webp 320w, /assets/logo-full-640.webp 640w"
           imagesizes="(max-width: 768px) 176px, 208px"
           fetchpriority="high">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -117,13 +118,16 @@
         body {
             background: var(--bg);
             color: var(--text);
-            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             line-height: 1.6;
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
         }
 
         a { color: inherit; text-decoration: none; }
+        a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+        .skip-link { position: absolute; left: -9999px; top: .75rem; z-index: 200; background: #fff; color: #08080c; padding: .65rem 1rem; border-radius: 5px; }
+        .skip-link:focus { left: 1rem; }
 
         /* --- NAV --- */
         nav {
@@ -196,7 +200,7 @@
             background: var(--text); color: var(--bg);
             padding: .75rem 1.8rem; border-radius: 6px;
             font-weight: 600; font-size: .92rem;
-            font-family: 'Inter', system-ui, sans-serif;
+            font-family: inherit;
             transition: opacity .2s;
             border: none; cursor: pointer;
         }
@@ -361,7 +365,7 @@
             border: 1px solid var(--border);
             border-radius: 8px;
             padding: 1.5rem;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
             font-size: .75rem;
             color: var(--text-dim);
             line-height: 1.9;
@@ -496,18 +500,22 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
+
 <nav>
     <a href="/" class="logo">ByteWave</a>
     <div class="nav-links">
         <a href="#compare">Compare</a>
         <a href="#features">Features</a>
         <a href="#gear">Creator Gear</a>
+        <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy</a>
         <a href="/blog/">Blog</a>
         <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
     </div>
 </nav>
 
+<main id="main">
 <section class="hero">
     <picture>
         <source type="image/webp"
@@ -521,9 +529,9 @@
              class="hero-mark"
              alt="ByteWave logo">
     </picture>
-    <h1>A video editor that doesn't want your money <span>or your data</span></h1>
+    <h1>A free video editor built for <span>local editing</span></h1>
     <p class="hero-body">
-        ByteWave is a full video editor for iPhone, iPad, and Mac. It's free. And no data is collected.
+        ByteWave edits video on iPhone, iPad, and Apple Silicon Mac with no paid tier or ByteWave export watermark. Local editing needs no account; online publishing and profiles are optional.
     </p>
     <div class="hero-actions">
         <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary">Download for Apple</a>
@@ -536,105 +544,105 @@
 <section class="prose-section">
     <h2>Your videos stay on your device</h2>
     <p>
-        Every other video editor either charges you or collects your data. Most do both. CapCut uploads your footage to ByteDance's servers. Adobe wants $22/month. InShot locks basic features behind a paywall.
+        Video editing should not require uploading raw footage or creating an account. ByteWave's editing and rendering pipeline runs locally on supported Apple devices.
     </p>
     <p>
         ByteWave processes editing locally on your Apple device. <strong>No account is required for local editing, and your videos are not uploaded unless you explicitly choose to post or share them through an online feature.</strong>
     </p>
     <p>
-        Every export is cryptographically signed with provenance metadata, so anyone can verify that a video was created with ByteWave and hasn't been tampered with. <strong>In a world full of deepfakes, your footage carries proof that it's real.</strong>
+        ByteWave can also add cryptographic provenance metadata to exports. That metadata can help verify the file's ByteWave origin and whether its signed contents changed; <strong>it does not prove that the depicted event is real.</strong>
     </p>
 </section>
 
 <hr class="divider">
 
 <section class="compare-section" id="compare">
-    <h2>ByteWave vs. CapCut</h2>
-    <p class="compare-intro">CapCut went from free to $9.99/month. We went the other direction.</p>
+    <h2>ByteWave by design</h2>
+    <p class="compare-intro">Concrete product boundaries you can evaluate without relying on a stale competitor price chart.</p>
 
     <table class="comp-table">
         <thead>
         <tr>
             <th></th>
             <th>ByteWave</th>
-            <th>CapCut Pro</th>
+            <th>Boundary</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>Price</td>
             <td><span class="price-free">$0</span></td>
-            <td><span class="price-paid">$9.99/mo</span></td>
+            <td>No paid tier</td>
         </tr>
         <tr>
             <td>Watermarks</td>
-            <td class="yes">None</td>
-            <td class="no">On free tier</td>
+            <td class="yes">No ByteWave export watermark</td>
+            <td>Applies to ByteWave exports</td>
         </tr>
         <tr>
             <td>On-device processing</td>
-            <td class="yes">100% local</td>
-            <td class="no">Uploads to servers</td>
+            <td class="yes">Local editing and rendering</td>
+            <td>Publishing is a separate, deliberate upload</td>
         </tr>
         <tr>
-            <td>Data collection</td>
-            <td class="yes">None</td>
-            <td class="no">Extensive</td>
+            <td>Account requirement</td>
+            <td class="yes">None for local editing</td>
+            <td>Optional for profile and social features</td>
         </tr>
         <tr>
             <td>Video provenance</td>
             <td class="yes">Cryptographic signing</td>
-            <td class="no">&#10007;</td>
+            <td>File integrity and origin, not truth verification</td>
         </tr>
         <tr>
             <td>Slow motion</td>
-            <td class="yes">&#10003;</td>
-            <td class="yes" style="opacity:.45">&#10003;</td>
+            <td class="yes">Included</td>
+            <td>Runs on supported devices</td>
         </tr>
         <tr>
             <td>Motion blur</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
+            <td class="yes">Included</td>
+            <td>GPU-accelerated</td>
         </tr>
         <tr>
             <td>Noise reduction</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
+            <td class="yes">Included</td>
+            <td>Temporal processing</td>
         </tr>
         <tr>
             <td>AI upscaling</td>
             <td class="yes">On-device</td>
-            <td class="yes" style="opacity:.45">Cloud-based</td>
+            <td>No ByteWave footage upload required</td>
         </tr>
         <tr>
             <td>Unlimited audio tracks</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">Limited</td>
+            <td class="yes">Included</td>
+            <td>No ByteWave track limit</td>
         </tr>
         <tr>
             <td>Text to speech</td>
-            <td class="yes">Free</td>
-            <td class="yes" style="opacity:.45">Pro only</td>
+            <td class="yes">Included</td>
+            <td>Apple-provided processing can vary by settings</td>
         </tr>
         <tr>
             <td>Auto captions</td>
-            <td class="yes">Free</td>
-            <td class="yes" style="opacity:.45">Pro only</td>
+            <td class="yes">Included</td>
+            <td>Apple-provided processing can vary by settings</td>
         </tr>
         <tr>
             <td>Editable filter source code</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
+            <td class="yes">Included</td>
+            <td>Metal source is visible and editable</td>
         </tr>
         <tr>
             <td>Community filters</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
+            <td class="yes">Included</td>
+            <td>Publishing is optional</td>
         </tr>
         <tr>
             <td>Subject isolation for filters</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
+            <td class="yes">Included</td>
+            <td>Available on supported devices</td>
         </tr>
         </tbody>
     </table>
@@ -648,7 +656,7 @@
     <div class="feature-list">
         <div class="feature-item">
             <h3>Video provenance</h3>
-            <p>Every export is cryptographically signed on-device so viewers can verify your video is authentic and unaltered. Proof it's real, baked right into the file.</p>
+            <p>Exports can be signed on-device so viewers can verify ByteWave origin and detect changes to the signed file. Provenance does not prove a depicted event is real.</p>
         </div>
 
         <div class="feature-item">
@@ -722,13 +730,21 @@
 
 <hr class="divider">
 
+<section class="prose-section">
+    <h2>A feed without server-side watch history</h2>
+    <p>ByteWave's public feed can be browsed without a profile. Optional recommendations and liked-video history are processed and stored locally rather than maintained as server-side watch history.</p>
+    <p>Profiles use Firebase Authentication for optional social participation. A video reaches ByteWave's online services only when you deliberately publish or share it through an online feature. <a href="/blog/how-bytewave-feed-works-without-server-watch-history.html" style="color:var(--accent)">Read the architecture and its limits &rarr;</a></p>
+</section>
+
+<hr class="divider">
+
 <section class="gear-section" id="gear">
     <h2>Creator Gear</h2>
     <p>
         Great videos start with great tools. ByteWave connects creators with recommended cameras, mics, lighting, and accessories from trusted retailers; directly inside the app. Browse curated gear, tap to learn more, and purchase from partners you already know.
     </p>
     <p>
-        <strong>No tracking. No ad networks. No data brokers.</strong> When you buy through a recommendation, ByteWave earns a small commission from the retailer; that's how a free app stays free without selling your data. A portion of every commission goes to charitable causes through <strong>ByteWave Causes</strong>.
+        <strong>No behavioral advertising.</strong> When you buy through a recommendation, ByteWave may earn a commission from the retailer. Affiliate links should be treated as commercial recommendations; participation is optional.
     </p>
 
     <div class="gear-categories">
@@ -749,9 +765,7 @@
         </div>
     </div>
 
-    <!-- COMING SOON — remove this badge when the Shop tab is live -->
-    <span class="gear-badge">Coming Soon</span>
-    <!-- /COMING SOON -->
+
     <div style="margin-top:1.5rem">
         <a href="/shop/" style="font-size:.88rem;color:var(--accent);font-weight:500">Browse all gear &rarr;</a>
     </div>
@@ -759,17 +773,19 @@
 
 <hr class="divider">
 
-<section class="cta-section">
+<section class="cta-section" id="download">
     <h2>Download ByteWave</h2>
     <p>Free. No account. No credit card. No catch.</p>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary" style="padding:.85rem 2.2rem">Download for Apple</a>
 </section>
+</main>
 
 <footer>
     <p class="footer-nav">
         <a href="/blog/">Blog</a> ·
         <a href="/shop/">Creator Gear</a> ·
         <a href="/press.html">Press Kit</a> ·
+        <a href="/about.html">About</a> ·
         <a href="/privacy.html">Privacy</a>
     </p>
     <p>&copy; 2026 <a href="/">Cody Works LLC</a></p>

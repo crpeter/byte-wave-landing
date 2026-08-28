@@ -4,14 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Provenance, Not Prominence - ByteWave</title>
-<meta name="description" content="Europe wants to fix misinformation by promoting approved publishers. Cryptographic content provenance is a better answer. Here's how ByteWave builds it into every export.">
+<meta name="description" content="What ByteWave's signed export provenance can establish about file origin and integrity—and why it cannot prove that a depicted event is real.">
+<meta name="twitter:description" content="What signed export provenance establishes, what it cannot prove, and how it differs from publisher prominence.">
 <link rel="canonical" href="https://bytewaveai.com/blog/provenance.html">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Provenance, Not Prominence - ByteWave">
-<meta property="og:description" content="Europe wants to fix misinformation by promoting approved publishers. Cryptographic content provenance is a better answer.">
+<meta property="og:description" content="What signed export provenance establishes, what it cannot prove, and how it differs from publisher prominence.">
 <meta property="og:url" content="https://bytewaveai.com/blog/provenance.html">
 <meta property="og:site_name" content="ByteWave">
 <meta property="og:image" content="https://bytewaveai.com/preview.jpg">
+<meta name="twitter:image" content="https://bytewaveai.com/preview.jpg">
+<meta name="twitter:image:alt" content="ByteWave branded social preview">
+<meta property="og:image:alt" content="ByteWave branded social preview">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Provenance, Not Prominence - ByteWave">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
@@ -23,8 +27,8 @@
   "@type": "BlogPosting",
   "headline": "Provenance, Not Prominence",
   "description": "Europe wants to fix misinformation by promoting approved publishers. Cryptographic content provenance is a better answer.",
-  "datePublished": "2026-07-04",
-  "dateModified": "2026-07-04",
+  "datePublished":"2026-07-04",
+  "dateModified":"2026-08-28",
   "author": { "@type": "Organization", "name": "ByteWave" },
   "publisher": {
     "@type": "Organization",
@@ -35,7 +39,6 @@
   "mainEntityOfPage": "https://bytewaveai.com/blog/provenance.html"
 }
 </script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -51,7 +54,7 @@
 html{font-size:16px;scroll-behavior:smooth}
 body{
   background:var(--bg);color:var(--text);
-  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
   line-height:1.7;-webkit-font-smoothing:antialiased;
 }
 a{color:var(--accent);text-decoration:none}
@@ -76,7 +79,7 @@ nav{
 
 article{max-width:640px;margin:0 auto;padding:8rem 2rem 4rem}
 .tag{
-  font-family:'JetBrains Mono',monospace;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
   font-size:.7rem;text-transform:uppercase;letter-spacing:2.5px;
   color:var(--accent);margin-bottom:1.2rem;display:block;font-weight:500;
 }
@@ -146,8 +149,8 @@ footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
 <article>
   <span class="tag">Provenance</span>
   <h1>Provenance, not prominence</h1>
-  <div class="meta">July 2026 · 5 min read</div>
-  <div class="disclosure">This post reflects ByteWave's editorial position, not an independent analysis. Written with LLM assistance.</div>
+  <div class="meta">Published July 4, 2026 · Updated August 28, 2026 · 5 min read</div>
+  <div class="disclosure">By <a href="/about.html">Cody Peter</a>, ByteWave founder and sole developer. This post reflects ByteWave's editorial position, not independent analysis; AI tools assisted drafting and editing.</div>
 
   <p>Governments across Europe are trying to solve a real problem with the wrong tool.</p>
 
@@ -159,13 +162,13 @@ footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
 
   <h2>The actual problem</h2>
 
-  <p>There is currently no way to verify whether a piece of video content is authentic just by looking at it. A deepfake and a real clip look identical in a feed. A manipulated video and an original export carry the same file format, the same metadata, the same thumbnail. Platforms have no signal to work with other than publisher identity, which is exactly why governments default to promoting the publishers they already trust.</p>
+  <p>You cannot reliably determine a video's history just by looking at it. A synthetic clip and a camera recording may appear similar in a feed. Provenance can add a machine-verifiable signal about origin and edits, but it cannot establish that the depicted event happened.</p>
 
   <p>But publisher identity is a blunt instrument. It assumes that every piece of content from an approved source is trustworthy and every piece from an unapproved source is suspect. The first claim is generous. The second punishes every independent creator and journalist who built an audience on these platforms by producing work that people actively sought out.</p>
 
   <h2>What provenance solves</h2>
 
-  <p>Content provenance takes a different approach. Instead of asking "who published this?" it asks "can this content prove what it is?"</p>
+  <p>Content provenance takes a different approach. Instead of asking only "who published this?" it asks what can be verified about the file's origin and modification history.</p>
 
   <p><strong>Every video exported from ByteWave is cryptographically signed on-device using ML-DSA-65</strong>, a post-quantum digital signature algorithm. The signature covers a hash of the actual video content and records that the file was produced by ByteWave without any server-side processing. Anyone with the public key can verify that a video hasn't been tampered with since export.</p>
 
@@ -175,9 +178,9 @@ footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
 
   <p>A prominence regime asks platforms to rank content by institutional authority. It requires governments to maintain lists of approved publishers, regulators to enforce algorithmic compliance, and platforms to override what their users chose to watch. It compresses reach for everyone not on the list. It concentrates power.</p>
 
-  <p>A provenance system lets content speak for itself. It requires nothing except cryptography. It doesn't care who published the content. It doesn't need a regulator to maintain a list. It scales to every creator with a phone.</p>
+  <p>A provenance system supplies evidence that readers and platforms can inspect. It still depends on trusted signing keys, secure implementations, clear disclosure, and careful interpretation; cryptography alone cannot certify the truth of a scene.</p>
 
-  <p>The question Europe should be asking isn't "which publishers do we promote?" It's <strong>"how do we give every creator the tools to prove their content is real?"</strong></p>
+  <p>A useful question alongside publisher prominence is: <strong>how do we give every creator tools to document a file's origin and editing history?</strong></p>
 
   <p>That question has a technical answer. We're building it.</p>
 
