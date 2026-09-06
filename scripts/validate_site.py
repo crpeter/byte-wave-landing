@@ -32,7 +32,7 @@ class PageParser(HTMLParser):
         if tag == "h1": self.h1 += 1
         if "id" in a: self.ids.add(a["id"])
         if tag == "meta":
-            key = a.get("name") or a.get("property")
+            key = a.get("name") or a.get("property") or a.get("http-equiv")
             if key: self.metas[key.lower()] = a.get("content", "")
         if tag == "link" and "canonical" in a.get("rel", "").lower(): self.canonicals.append(a.get("href", ""))
         if tag == "a" and "href" in a: self.links.append(a["href"])
@@ -57,12 +57,23 @@ def local_path(url: str, source: Path) -> tuple[Path, str]:
 
 
 def main() -> int:
-    errors = []; pages = {}; canon = {}; titles = {}; descs = {}
+    errors = []; pages = {}; canon = {}; titles = {}; descs = {}; redirects = {}
     for file in sorted(ROOT.rglob("*.html")):
         if ".git" in file.parts: continue
         raw = file.read_text(encoding="utf-8"); p = PageParser(); p.feed(raw); pages[file] = p
         noindex = "noindex" in p.metas.get("robots", "").lower()
-        if not noindex:
+        refresh = p.metas.get("refresh")
+        if refresh is not None and not noindex:
+            rel = file.relative_to(ROOT)
+            match = re.fullmatch(r"0\s*;\s*url=(https://bytewaveai\.com/[^\s]+)", refresh, re.I)
+            if not match:
+                errors.append(f"{rel}: expected an immediate redirect to a ByteWave URL")
+            else:
+                destination = match.group(1)
+                redirects[file] = destination
+                if p.canonicals != [destination]: errors.append(f"{rel}: redirect canonical must match destination")
+                if destination not in p.links: errors.append(f"{rel}: redirect needs a fallback link to destination")
+        if not noindex and refresh is None:
             rel = file.relative_to(ROOT)
             if len(p.canonicals) != 1: errors.append(f"{rel}: expected one canonical")
             elif p.canonicals[0] in canon: errors.append(f"{rel}: duplicate canonical with {canon[p.canonicals[0]]}")
@@ -83,6 +94,11 @@ def main() -> int:
             if "width" not in img or "height" not in img: errors.append(f"{file.relative_to(ROOT)}: image missing dimensions")
         for pattern in PLACEHOLDERS:
             if re.search(pattern, raw, re.I): errors.append(f"{file.relative_to(ROOT)}: placeholder/fake link matches {pattern}")
+
+    for file, destination in redirects.items():
+        target, frag = local_path(destination, file)
+        if frag or canon.get(destination) != target:
+            errors.append(f"{file.relative_to(ROOT)}: redirect destination must be a canonical indexable page")
 
     for file, p in pages.items():
         for href in p.links:
