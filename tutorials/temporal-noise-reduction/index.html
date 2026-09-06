@@ -76,8 +76,8 @@
     <p class="eyebrow"><a href="/tutorials/">Tutorials</a> / Temporal noise reduction</p>
     <h1>Temporal noise reduction for video on iPhone</h1>
     <p class="meta">By <a href="/about.html">ByteWave</a> · Published <time datetime="2026-09-06">September 6, 2026</time></p>
-    <p>Temporal noise reduction uses information from neighboring video frames to reduce noise. In ByteWave’s clip editing tools, open <strong>Advanced → Temporal Noise Reduction</strong>. Compare the original and processed clip at the same speed and size. Look for quieter shadows while checking that fine detail and moving edges still hold up.</p>
-    <p class="quick-links"><a href="#comparison">Watch the comparison</a><a href="#look-for">What to look for</a><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_temporal_noise&amp;mt=8">Get ByteWave free</a></p>
+    <p>Temporal noise reduction uses nearby frames to reduce grain in your video. Find it under <strong>Advanced → Temporal Noise Reduction</strong> in ByteWave’s clip editing tools.</p>
+    <p class="quick-links"><a href="#comparison">Watch the comparison</a><a href="#steps">Try it yourself</a><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_temporal_noise&amp;mt=8">Get ByteWave free</a></p>
 
     <h2 id="comparison">Temporal noise reduction before and after</h2>
     <figure>
@@ -86,38 +86,21 @@
         <source src="/assets/videos/temporal-noise-comparison.mp4" type="video/mp4">
         Your browser does not support embedded video. <a href="/assets/videos/temporal-noise-comparison.mp4">Download the temporal noise reduction comparison.</a>
       </video>
-      <figcaption id="comparison-description">A 7.65-second comparison using Apple example footage, processed in ByteWave. Both versions play at normal speed in one video, with the original on the left and noise reduction on the right. This comparison has no audio.</figcaption>
+      <figcaption id="comparison-description">Apple example footage: original on the left, ByteWave noise reduction on the right. Both play at normal speed, without audio.</figcaption>
     </figure>
-    <p>Look at the red leaves, tree branches, and darker areas behind the foliage. Compare the grain while watching how much leaf and branch detail remains. Use full screen to inspect small differences; shrinking both views into a narrow page can hide them.</p>
-
-    <h2>What does “temporal” mean?</h2>
-    <p>Temporal processing uses information across time. Instead of considering only one still image, a temporal noise filter can refer to nearby frames when processing the current image. Apple’s <a href="https://developer.apple.com/documentation/videotoolbox/vttemporalnoisefilterparameters">temporal noise filter documentation</a> describes using past and future reference frames to reduce noise in a source frame.</p>
-    <p>For an editor, the useful question is how the whole clip looks after processing. A cleaner paused frame is only part of the result; movement and texture matter too.</p>
-
-    <h2 id="look-for">What to look for in a before-and-after comparison</h2>
-    <ul>
-      <li><strong>Shadows and flat areas.</strong> Compare the amount of flickering grain in darker regions, walls, or other areas with little texture.</li>
-      <li><strong>Fine detail.</strong> Check hair, fabric, foliage, and other small textures. Decide whether the cleanup retains the detail you want.</li>
-      <li><strong>Moving edges.</strong> Watch hands, faces, and objects crossing the frame. Look for trails or soft edges that become noticeable during playback.</li>
-      <li><strong>The full clip.</strong> Review camera movement and changes in the scene, rather than choosing a result from a single paused frame.</li>
-    </ul>
-
-    <h2>Compare your own clip</h2>
+    <h2 id="steps">How to reduce video noise</h2>
     <ol class="steps">
-      <li><strong>Keep the original.</strong> Use a short section where noise is visible so you can compare it with the processed result.</li>
-      <li><strong>Apply temporal noise reduction in ByteWave.</strong> Select the original clip, open its editing tools, and choose <strong>Advanced → Temporal Noise Reduction</strong>. Start from the original clip for each comparison.</li>
-      <li><strong>Match the playback.</strong> Compare the same moment at the same speed and display size.</li>
-      <li><strong>Choose the balance you prefer.</strong> Check noise and detail together, then review the finished export before sharing.</li>
+      <li><strong>Select your clip</strong> and open its editing tools.</li>
+      <li><strong>Open Advanced → Temporal Noise Reduction</strong> and apply the effect.</li>
+      <li><strong>Preview the result</strong> and export when you’re happy with it.</li>
     </ol>
-    <p>Use the original files when judging small differences. A small preview or a compressed upload can make it harder to see what changed.</p>
-
-    <h2>Noise reduction, motion blur, and frame rate conversion</h2>
-    <p>These tools address different parts of the image. Temporal noise reduction reduces noise using neighboring frames. <a href="/tutorials/motion-blur/">Motion blur</a> changes how movement looks within images. <a href="/tutorials/frame-rate-conversion/">Frame rate conversion</a> creates intermediate images for effects such as slow motion.</p>
+    <p id="look-for">Compare the grain in the darker areas. Check that leaves and branches still look detailed and moving edges don’t leave trails. Full screen makes small differences easier to see.</p>
+    <p>Also try <a href="/tutorials/motion-blur/">motion blur</a> or <a href="/tutorials/frame-rate-conversion/">slow motion with frame rate conversion</a>.</p>
     <div class="callout">
-      <p><strong>Try it on a short, noisy clip.</strong> Compare the processed result with the original before applying it to a longer edit.</p>
+      <p><strong>Try it on your own footage.</strong></p>
       <a class="button" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_temporal_noise&amp;mt=8">Download ByteWave free</a>
     </div>
-    <p class="disclosure">Published by ByteWave using Apple example footage and a ByteWave-processed version supplied for this demonstration. Clip dimensions and duration were checked against the supplied files. AI tools assisted drafting and editing.</p>
+    <p class="disclosure">Apple sample footage processed in ByteWave. AI assisted with writing and editing.</p>
   </article></main>
   <footer>© 2026 ByteWave · <a href="/about.html">About ByteWave</a></footer>
 </body>
