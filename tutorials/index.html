@@ -29,7 +29,7 @@
   "url": "https://bytewaveai.com/tutorials/",
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": 2,
+    "numberOfItems": 3,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -42,6 +42,12 @@
         "position": 2,
         "name": "Frame Rate Conversion for Slow-Motion Video on iPhone",
         "url": "https://bytewaveai.com/tutorials/frame-rate-conversion/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Temporal Noise Reduction for Video on iPhone",
+        "url": "https://bytewaveai.com/tutorials/temporal-noise-reduction/"
       }
     ]
   }
@@ -71,6 +77,7 @@
     .preview-labels{display:grid;grid-template-columns:1fr 1fr;text-align:center;font-size:.875rem;color:var(--text-dim);padding:.65rem .5rem;border-bottom:1px solid var(--border)}
     .preview-labels span+span{border-left:1px solid var(--border)}
     .tutorial-card img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:#050508;border-bottom:1px solid var(--border)}
+    .tutorial-card img.wide-preview{aspect-ratio:16/9}
     .card-copy{padding:1.5rem}
     .format{font-size:.875rem;color:var(--accent);margin-bottom:.65rem}
     h2{font-size:1.35rem;line-height:1.35;letter-spacing:-.3px;margin-bottom:.75rem}
@@ -117,6 +124,18 @@
             <p class="format">iPhone · 30-second comparison</p>
             <h2 id="frame-rate-title">Frame rate conversion for slow motion</h2>
             <p class="description">Compare a hummingbird clip at 0.1× speed and see how frame rate conversion changes slowed movement.</p>
+            <span class="card-action">View tutorial</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="tutorial-card" href="/tutorials/temporal-noise-reduction/" aria-labelledby="temporal-noise-title">
+          <div class="preview-labels" aria-hidden="true"><span>Original</span><span>Noise reduction</span></div>
+          <img class="wide-preview" src="/assets/videos/temporal-noise-comparison-poster.jpg" width="1280" height="360" alt="Apple example of red foliage: original on the left, ByteWave temporal noise reduction on the right.">
+          <div class="card-copy">
+            <p class="format">iPhone · 8-second comparison</p>
+            <h2 id="temporal-noise-title">Temporal noise reduction</h2>
+            <p class="description">Compare noise and fine detail in Apple example footage, then learn what to look for in your own clips.</p>
             <span class="card-action">View tutorial</span>
           </div>
         </a>
