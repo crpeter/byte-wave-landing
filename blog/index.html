@@ -125,7 +125,7 @@ footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
   .container{padding:7rem 1.5rem 3rem}
   h1{font-size:1.7rem}
 }
-@media(max-width:768px){.nav-links{display:flex}.nav-links>a:not(.tutorials-link){display:none}}
+@media(max-width:768px){nav{gap:1rem;flex-wrap:wrap}.nav-links{display:flex;gap:1rem}.nav-links>a:not(.tutorials-link):not(.gallery-link){display:none}}
 </style>
 </head>
 <body>
@@ -137,6 +137,7 @@ footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
     <a href="/#features">Features</a>
     <a href="/about.html">About</a>
     <a href="/blog/">Blog</a>
+    <a href="/gallery/" class="gallery-link">Gallery</a>
     <a href="/tutorials/" class="tutorials-link">Tutorials</a>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
   </div>
