@@ -107,7 +107,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 2rem;display:
 .logo span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .nav-links{display:flex;gap:2rem;align-items:center;font-size:.9rem;color:var(--text-dim)}
 .nav-links a{color:var(--text-dim)}.nav-links a:hover{color:var(--text);text-decoration:none}
-.nav-cta{background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem}
+.nav-cta{background:linear-gradient(135deg,#789ae2,#e2b8df);color:var(--bg);padding:.55rem 1.4rem;border-radius:6px;font-weight:600;font-size:.85rem}
 article{max-width:720px;margin:0 auto;padding:8rem 2rem 4rem}
 .tag{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:3px;color:var(--accent);margin-bottom:1rem;display:block}
 h1{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;letter-spacing:-1px;line-height:1.15;margin-bottom:1.5rem}
@@ -134,11 +134,20 @@ footer{border-top:1px solid rgba(255,255,255,0.04);padding:3rem 2rem;text-align:
   font-size:.95rem;
   line-height:1.5;
 }
-@media(max-width:768px){.nav-links{display:flex}.nav-links>a:not(.tutorials-link){display:none}}
+.nav-links .nav-cta,.nav-links .nav-cta:hover{color:var(--bg)}
+nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
+@media(max-width:768px){
+  nav{position:sticky;padding:.75rem 1rem;gap:.75rem}
+  nav .logo{flex-shrink:0}
+  .nav-links{display:flex;min-width:0;gap:.35rem .75rem;flex-wrap:wrap;justify-content:flex-end}
+  .nav-links>a:not(.tutorials-link):not(.nav-cta){display:none}
+  .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+  article{padding-top:2.5rem}
+}
 </style>
 </head>
 <body>
-<nav><a href="/" class="logo"><span>ByteWave</span></a><div class="nav-links"><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Blog</a><a href="/tutorials/" class="tutorials-link">Tutorials</a><a href="/#download" class="nav-cta">Download Free</a></div></nav>
+<nav><a href="/" class="logo"><span>ByteWave</span></a><div class="nav-links"><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Blog</a><a href="/tutorials/" class="tutorials-link">Tutorials</a><a href="https://apps.apple.com/us/app/bytewave/id6752225642" class="nav-cta">Download Free</a></div></nav>
 
 <article>
   <span class="tag">Tutorial</span>
