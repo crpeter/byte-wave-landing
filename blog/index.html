@@ -125,7 +125,15 @@ footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
   .container{padding:7rem 1.5rem 3rem}
   h1{font-size:1.7rem}
 }
-@media(max-width:768px){nav{gap:1rem;flex-wrap:wrap}.nav-links{display:flex;gap:1rem}.nav-links>a:not(.tutorials-link):not(.gallery-link){display:none}}
+@media(max-width:768px){nav{gap:1rem;flex-wrap:wrap}.nav-links{display:flex;gap:1rem}.nav-links>a:not(.tutorials-link):not(.gallery-link):not(.nav-cta){display:none}}
+/* Keep the App Store link visible while secondary links wrap on small screens. */
+.nav-links .nav-cta:hover{color:var(--bg)}
+@media(max-width:768px){
+  nav{padding:.75rem 1rem;gap:.75rem;flex-wrap:nowrap}
+  nav .logo{flex-shrink:0}
+  .nav-links{min-width:0;gap:.35rem .75rem;flex-wrap:wrap;justify-content:flex-end}
+  .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+}
 </style>
 </head>
 <body>
