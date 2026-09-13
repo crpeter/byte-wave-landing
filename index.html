@@ -240,11 +240,10 @@
             font-weight: 600;
         }
 
-        .prose-section a, .comparison-note a { color: var(--accent); text-decoration: underline; text-underline-offset: .2em; }
+        .prose-section a { color: var(--accent); text-decoration: underline; text-underline-offset: .2em; }
         .prose-section .btn-primary { color: var(--bg); text-decoration: none; }
         .guide-links { margin: 1.5rem 0; padding-left: 1.2rem; color: var(--text-dim); }
         .guide-links li + li { margin-top: .6rem; }
-        .comparison-note { margin-top: 1rem; color: var(--text-dim); font-size: .8rem; }
         #creative-control { scroll-margin-top: 6rem; }
         a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
@@ -587,50 +586,94 @@
 
 <section class="compare-section" id="compare">
     <h2>ByteWave vs. CapCut</h2>
-    <p class="compare-intro">Looking for a CapCut alternative without a subscription? ByteWave has no paid tier. CapCut offers free and paid tools; pricing and access vary by platform, region, and feature.</p>
+    <p class="compare-intro">CapCut went from free to $9.99/month. We went the other direction.</p>
 
     <table class="comp-table">
         <thead>
         <tr>
-            <th scope="col">What matters to you</th>
-            <th scope="col">ByteWave</th>
-            <th scope="col">CapCut</th>
+            <th></th>
+            <th>ByteWave</th>
+            <th>CapCut Pro</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>Price</td>
-            <td>$0; no paid tier</td>
-            <td>Free and paid options</td>
+            <td><span class="price-free">$0</span></td>
+            <td><span class="price-paid">$9.99/mo</span></td>
         </tr>
         <tr>
-            <td>Local editing account</td>
-            <td>Not required</td>
-            <td>Depends on the workflow</td>
+            <td>Watermarks</td>
+            <td class="yes">None</td>
+            <td class="no">On free tier</td>
         </tr>
         <tr>
-            <td>Editing and rendering</td>
-            <td>Local on supported Apple hardware</td>
-            <td>Local and online tools</td>
+            <td>On-device processing</td>
+            <td class="yes">100% local</td>
+            <td class="no">Uploads to servers</td>
         </tr>
         <tr>
-            <td>Generative video workflow</td>
-            <td>Not required to edit your footage</td>
-            <td>AI video generation offered alongside editing</td>
+            <td>Data collection</td>
+            <td class="yes">None</td>
+            <td class="no">Extensive</td>
         </tr>
         <tr>
-            <td>Sharing</td>
-            <td>Optional; publishing uploads your video</td>
-            <td>Publishing and cloud features available</td>
+            <td>Video provenance</td>
+            <td class="yes">Cryptographic signing</td>
+            <td class="no">&#10007;</td>
         </tr>
         <tr>
-            <td>Platform fit</td>
-            <td>iPhone, iPad, and Mac; check compatibility</td>
-            <td>Mobile, desktop, and web options</td>
+            <td>Slow motion</td>
+            <td class="yes">&#10003;</td>
+            <td class="yes" style="opacity:.45">&#10003;</td>
+        </tr>
+        <tr>
+            <td>Motion blur</td>
+            <td class="yes">&#10003;</td>
+            <td class="no">&#10007;</td>
+        </tr>
+        <tr>
+            <td>Noise reduction</td>
+            <td class="yes">&#10003;</td>
+            <td class="no">&#10007;</td>
+        </tr>
+        <tr>
+            <td>AI upscaling</td>
+            <td class="yes">On-device</td>
+            <td class="yes" style="opacity:.45">Cloud-based</td>
+        </tr>
+        <tr>
+            <td>Unlimited audio tracks</td>
+            <td class="yes">&#10003;</td>
+            <td class="no">Limited</td>
+        </tr>
+        <tr>
+            <td>Text to speech</td>
+            <td class="yes">Free</td>
+            <td class="yes" style="opacity:.45">Pro only</td>
+        </tr>
+        <tr>
+            <td>Auto captions</td>
+            <td class="yes">Free</td>
+            <td class="yes" style="opacity:.45">Pro only</td>
+        </tr>
+        <tr>
+            <td>Editable filter source code</td>
+            <td class="yes">&#10003;</td>
+            <td class="no">&#10007;</td>
+        </tr>
+        <tr>
+            <td>Community filters</td>
+            <td class="yes">&#10003;</td>
+            <td class="no">&#10007;</td>
+        </tr>
+        <tr>
+            <td>Subject isolation for filters</td>
+            <td class="yes">&#10003;</td>
+            <td class="no">&#10007;</td>
         </tr>
         </tbody>
     </table>
-    <p class="comparison-note">Comparison by ByteWave, reviewed September 12, 2026. See <a href="https://www.capcut.com/">CapCut's current product options</a> and our <a href="/blog/free-capcut-alternative-2026.html">full CapCut alternative guide</a> for sources and workflow details.</p>
 </section>
 
 <hr class="divider">
