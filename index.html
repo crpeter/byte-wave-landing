@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1f3461">
     <title>ByteWave - Free GPU-Powered Video Editor for iPhone, iPad & Mac</title>
-    <meta name="description" content="ByteWave is a free video editor for iPhone, iPad, and Mac. No watermarks, no subscriptions. Custom Metal shaders, motion blur, super resolution, and more - all processed on your device. Your footage never leaves your phone.">
+    <meta name="description" content="Edit your own footage with ByteWave, a free video editor for iPhone, iPad, and Mac. No watermarks or subscriptions. Local editing, captions, effects, and audio.">
     <meta name="keywords" content="free video editor, video editor no watermark, capcut alternative, ios video editor, metal shaders, gpu video editor, video editor no subscription, privacy video editor, free video editor iphone">
     <link rel="canonical" href="https://bytewaveai.com/">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
-    <meta property="og:description" content="No watermarks. No subscriptions. No data collection. A free video editor that runs entirely on your device.">
+    <meta property="og:description" content="Your footage. Your creative choices. Free local video editing for iPhone, iPad, and Mac, with no watermarks or subscriptions.">
     <meta property="og:url" content="https://bytewaveai.com/">
     <meta property="og:site_name" content="ByteWave">
     <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
@@ -23,7 +23,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ByteWave - Free Video Editor for iPhone, iPad & Mac">
-    <meta name="twitter:description" content="No watermarks. No subscriptions. No data collection. Runs entirely on your device.">
+    <meta name="twitter:description" content="Edit your own footage. No watermarks or subscriptions. Local video editing with optional sharing.">
     <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
     <meta name="twitter:image:alt" content="ByteWave logo">
 
@@ -70,7 +70,7 @@
                 "price": "0",
                 "priceCurrency": "USD"
             },
-            "description": "A free, GPU-powered video editor for iOS. Trim and stitch clips, layer unlimited audio tracks, and apply real-time Metal-powered effects; all processed on your device. No watermarks, no subscriptions.",
+            "description": "A free video editor for iPhone, iPad, and Mac. Edit your own footage with local rendering, layered audio, and Metal-powered effects. No watermarks or subscriptions; online sharing is optional.",
             "url": "https://bytewaveai.com/",
             "downloadUrl": "https://apps.apple.com/us/app/bytewave/id6752225642",
             "publisher": {
@@ -239,6 +239,14 @@
             color: var(--text);
             font-weight: 600;
         }
+
+        .prose-section a, .comparison-note a { color: var(--accent); text-decoration: underline; text-underline-offset: .2em; }
+        .prose-section .btn-primary { color: var(--bg); text-decoration: none; }
+        .guide-links { margin: 1.5rem 0; padding-left: 1.2rem; color: var(--text-dim); }
+        .guide-links li + li { margin-top: .6rem; }
+        .comparison-note { margin-top: 1rem; color: var(--text-dim); font-size: .8rem; }
+        #creative-control { scroll-margin-top: 6rem; }
+        a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
         /* --- COMPARISON --- */
         .compare-section {
@@ -527,7 +535,7 @@
     </picture>
     <h1>A video editor that doesn't want your money <span>or your data</span></h1>
     <p class="hero-body">
-        ByteWave is a full video editor for iPhone, iPad, and Mac. It's free. And no data is collected.
+        Edit your own footage with a free video editor for iPhone, iPad, and Mac. Captions, effects, and layered audio. No subscriptions or export watermarks. No account required for local editing.
     </p>
     <div class="hero-actions">
         <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary">Download for Apple</a>
@@ -540,108 +548,89 @@
 <section class="prose-section">
     <h2>Your videos stay on your device</h2>
     <p>
-        Every other video editor either charges you or collects your data. Most do both. CapCut uploads your footage to ByteDance's servers. Adobe wants $22/month. InShot locks basic features behind a paywall.
+        Start with the moments you recorded. Trim clips, shape the sound, and choose the effects yourself. ByteWave keeps editing and rendering on your supported Apple device.
     </p>
     <p>
         ByteWave processes editing locally on your Apple device. <strong>No account is required for local editing, and your videos are not uploaded unless you explicitly choose to post or share them through an online feature.</strong>
     </p>
     <p>
-        Every export is cryptographically signed with provenance metadata, so anyone can verify that a video was created with ByteWave and hasn't been tampered with. <strong>In a world full of deepfakes, your footage carries proof that it's real.</strong>
+        Every export is cryptographically signed with provenance metadata to help verify its ByteWave origin and whether the file has changed since signing. A signature cannot prove that a depicted event happened. <a href="/blog/provenance.html">Learn what signed exports establish.</a>
     </p>
+</section>
+
+<hr class="divider">
+
+<section class="prose-section" id="creative-control" aria-labelledby="creative-control-title">
+    <h2 id="creative-control-title">Tired of AI videos taking over your feed?</h2>
+    <p>
+        If Facebook or TikTok feels crowded with generated clips, or CapCut's AI features aren't what you came to edit with, you can start with your own footage. <strong>Your recordings, your edits, your choice to share.</strong>
+    </p>
+    <p>
+        ByteWave gives you tools to work with what you filmed: animated captions, custom filters, slow motion, and layered audio. Assistive features such as upscaling are available; generating a scene from a prompt is not required to edit a video.
+    </p>
+    <p>
+        Browse ByteWave's public feed anonymously, with optional personalization computed on your device and no server-side watch history. <a href="/blog/how-bytewave-feed-works-without-server-watch-history.html">See how the feed works.</a>
+    </p>
+    <ul class="guide-links">
+        <li><a href="/blog/reduce-ai-videos-facebook-feed.html">How to reduce AI videos in your Facebook feed</a></li>
+        <li><a href="/blog/reduce-ai-content-tiktok-feed.html">How to see less AI content on TikTok</a></li>
+        <li><a href="/blog/tired-of-ai-videos-social-media.html">AI slop, real footage, and taking back creative control</a></li>
+        <li><a href="/blog/free-capcut-alternative-2026.html">A free CapCut alternative for editing your own footage</a></li>
+    </ul>
+    <p><a href="/gallery/">Watch videos made with ByteWave</a> or <a href="/tutorials/motion-blur/">try the motion blur tutorial.</a></p>
+    <div class="hero-actions">
+        <a class="btn-primary" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=seo_creative_control&amp;mt=8">Edit your own footage free</a>
+    </div>
 </section>
 
 <hr class="divider">
 
 <section class="compare-section" id="compare">
     <h2>ByteWave vs. CapCut</h2>
-    <p class="compare-intro">CapCut went from free to $9.99/month. We went the other direction.</p>
+    <p class="compare-intro">Looking for a CapCut alternative without a subscription? ByteWave has no paid tier. CapCut offers free and paid tools; pricing and access vary by platform, region, and feature.</p>
 
     <table class="comp-table">
         <thead>
         <tr>
-            <th></th>
-            <th>ByteWave</th>
-            <th>CapCut Pro</th>
+            <th scope="col">What matters to you</th>
+            <th scope="col">ByteWave</th>
+            <th scope="col">CapCut</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>Price</td>
-            <td><span class="price-free">$0</span></td>
-            <td><span class="price-paid">$9.99/mo</span></td>
+            <td>$0; no paid tier</td>
+            <td>Free and paid options</td>
         </tr>
         <tr>
-            <td>Watermarks</td>
-            <td class="yes">None</td>
-            <td class="no">On free tier</td>
+            <td>Local editing account</td>
+            <td>Not required</td>
+            <td>Depends on the workflow</td>
         </tr>
         <tr>
-            <td>On-device processing</td>
-            <td class="yes">100% local</td>
-            <td class="no">Uploads to servers</td>
+            <td>Editing and rendering</td>
+            <td>Local on supported Apple hardware</td>
+            <td>Local and online tools</td>
         </tr>
         <tr>
-            <td>Data collection</td>
-            <td class="yes">None</td>
-            <td class="no">Extensive</td>
+            <td>Generative video workflow</td>
+            <td>Not required to edit your footage</td>
+            <td>AI video generation offered alongside editing</td>
         </tr>
         <tr>
-            <td>Video provenance</td>
-            <td class="yes">Cryptographic signing</td>
-            <td class="no">&#10007;</td>
+            <td>Sharing</td>
+            <td>Optional; publishing uploads your video</td>
+            <td>Publishing and cloud features available</td>
         </tr>
         <tr>
-            <td>Slow motion</td>
-            <td class="yes">&#10003;</td>
-            <td class="yes" style="opacity:.45">&#10003;</td>
-        </tr>
-        <tr>
-            <td>Motion blur</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>Noise reduction</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>AI upscaling</td>
-            <td class="yes">On-device</td>
-            <td class="yes" style="opacity:.45">Cloud-based</td>
-        </tr>
-        <tr>
-            <td>Unlimited audio tracks</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">Limited</td>
-        </tr>
-        <tr>
-            <td>Text to speech</td>
-            <td class="yes">Free</td>
-            <td class="yes" style="opacity:.45">Pro only</td>
-        </tr>
-        <tr>
-            <td>Auto captions</td>
-            <td class="yes">Free</td>
-            <td class="yes" style="opacity:.45">Pro only</td>
-        </tr>
-        <tr>
-            <td>Editable filter source code</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>Community filters</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>Subject isolation for filters</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
+            <td>Platform fit</td>
+            <td>iPhone, iPad, and Mac; check compatibility</td>
+            <td>Mobile, desktop, and web options</td>
         </tr>
         </tbody>
     </table>
+    <p class="comparison-note">Comparison by ByteWave, reviewed September 12, 2026. See <a href="https://www.capcut.com/">CapCut's current product options</a> and our <a href="/blog/free-capcut-alternative-2026.html">full CapCut alternative guide</a> for sources and workflow details.</p>
 </section>
 
 <hr class="divider">
@@ -652,7 +641,7 @@
     <div class="feature-list">
         <div class="feature-item">
             <h3>Video provenance</h3>
-            <p>Every export is cryptographically signed on-device so viewers can verify your video is authentic and unaltered. Proof it's real, baked right into the file.</p>
+            <p>Signed exports help verify ByteWave origin and detect changes since signing. Provenance documents the file; it cannot certify the truth of a scene.</p>
         </div>
 
         <div class="feature-item">
@@ -672,7 +661,7 @@
 
         <div class="feature-item">
             <h3>Text to speech</h3>
-            <p>Type text, get a natural voice. Generate captions from spoken audio. All processed locally.</p>
+            <p>Type text for voice synthesis or generate captions from speech. Some Apple speech features may use Apple servers depending on device, language, and settings.</p>
         </div>
 
         <div class="feature-item">

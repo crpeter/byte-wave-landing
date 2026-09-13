@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bytewaveai.com/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -104,7 +104,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/free-capcut-alternative-2026.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -172,6 +172,24 @@
     <loc>https://bytewaveai.com/gallery/</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/reduce-ai-videos-facebook-feed.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/reduce-ai-content-tiktok-feed.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/tired-of-ai-videos-social-media.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
