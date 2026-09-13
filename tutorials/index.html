@@ -86,7 +86,13 @@
     footer{border-top:1px solid var(--border);padding:2.5rem 2rem;color:var(--text-dim);font-size:.875rem;text-align:center}
     footer p+p{margin-top:.5rem}
     footer a:hover{text-decoration:underline}
-    @media(max-width:768px){nav{padding:1rem 1.5rem}.nav-links{gap:1rem}.nav-links .secondary{display:none}main{padding:2.5rem 1.5rem 3rem}.tutorial-grid{grid-template-columns:1fr}}
+    @media(max-width:768px){nav{padding:1rem 1.5rem}.nav-links{gap:1rem}.nav-links .secondary:not(.nav-cta){display:none}main{padding:2.5rem 1.5rem 3rem}.tutorial-grid{grid-template-columns:1fr}}
+    @media(max-width:768px){
+      nav{padding:.75rem 1rem;gap:.75rem}
+      nav .logo{flex-shrink:0}
+      .nav-links{min-width:0;gap:.35rem .75rem}
+      .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+    }
   </style>
 </head>
 <body>
