@@ -136,7 +136,16 @@ footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
   .nav-links{display:none}
   article{padding:7rem 1.5rem 3rem}
 }
-@media(max-width:768px){.nav-links{display:flex}.nav-links>a:not(.tutorials-link){display:none}}
+.nav-links .nav-cta,.nav-links .nav-cta:hover{color:var(--bg)}
+nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
+@media(max-width:768px){
+  nav{position:sticky;padding:.75rem 1rem;gap:.75rem}
+  nav .logo{flex-shrink:0}
+  .nav-links{display:flex;min-width:0;gap:.35rem .75rem;flex-wrap:wrap;justify-content:flex-end}
+  .nav-links>a:not(.tutorials-link):not(.nav-cta){display:none}
+  .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+  article{padding-top:2.5rem}
+}
 </style>
 </head>
 <body>
