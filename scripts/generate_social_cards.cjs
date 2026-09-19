@@ -10,6 +10,12 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
   {
+    slug: 'does-emoji-protect-child-face-facebook', kind: 'PRIVACY',
+    title: ['Does an emoji protect', 'your child’s face?'],
+    subtitle: ['But what did Meta get to see first?'],
+    topic: 'CHILD PHOTO PRIVACY',
+  },
+  {
     slug: 'meta-muse-privacy-security', kind: 'PRIVACY OPINION',
     title: ['Meta Muse:', 'our advice is to skip it.'],
     subtitle: ['Keep your accounts and personal data', 'out of Muse. Here is why.'],
