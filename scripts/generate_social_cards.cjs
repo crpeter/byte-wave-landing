@@ -10,6 +10,25 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
   {
+    slug: 'meta-muse-privacy-security', kind: 'PRIVACY GUIDE',
+    title: ['Meta Muse:', 'what are you sharing?'],
+    subtitle: ['Account access, training and cloud privacy.', 'Questions to ask before connecting.'],
+    topic: 'META MUSE',
+  },
+  {
+    slug: 'how-to-check-ai-generated-photos-videos', kind: 'AI MEDIA GUIDE',
+    title: ['Is this photo', 'or video AI-generated?'],
+    subtitle: ['Check the source. Inspect the evidence.', 'Understand what remains unknown.'],
+    topic: 'CONTENT CREDENTIALS',
+  },
+  {
+    slug: 'check-c2pa-content-credentials', kind: 'BYTEWAVE TUTORIAL',
+    title: ['Check Content', 'Credentials.'],
+    subtitle: ['Open a photo or video provenance badge.', 'Learn what each result means.'],
+    topic: 'C2PA',
+  },
+
+  {
     slug: 'motion-blur', kind: 'IPHONE TUTORIAL',
     title: ['Add motion blur', 'to your video.'],
     subtitle: ['Real footage. Side by side.', 'Learn the settings in ByteWave.'],
