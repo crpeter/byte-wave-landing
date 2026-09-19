@@ -10,9 +10,9 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
   {
-    slug: 'meta-muse-privacy-security', kind: 'PRIVACY GUIDE',
-    title: ['Meta Muse:', 'what are you sharing?'],
-    subtitle: ['Account access, training and cloud privacy.', 'Questions to ask before connecting.'],
+    slug: 'meta-muse-privacy-security', kind: 'PRIVACY OPINION',
+    title: ['Meta Muse:', 'our advice is to skip it.'],
+    subtitle: ['Keep your accounts and personal data', 'out of Muse. Here is why.'],
     topic: 'META MUSE',
   },
   {
