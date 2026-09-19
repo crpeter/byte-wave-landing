@@ -16,9 +16,9 @@ const cards = [
     topic: 'META MUSE',
   },
   {
-    slug: 'how-to-check-ai-generated-photos-videos', kind: 'AI MEDIA GUIDE',
-    title: ['Is this photo', 'or video AI-generated?'],
-    subtitle: ['Check the source. Inspect the evidence.', 'Understand what remains unknown.'],
+    slug: 'how-to-check-ai-generated-photos-videos', kind: 'PERSPECTIVE',
+    title: ['AI media needs', 'tools to check it.'],
+    subtitle: ['Accessible evidence. Clear limits.', 'Privacy belongs in the design.'],
     topic: 'CONTENT CREDENTIALS',
   },
   {
