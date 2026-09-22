@@ -79,6 +79,22 @@ def main() -> int:
             elif p.canonicals[0] in canon: errors.append(f"{rel}: duplicate canonical with {canon[p.canonicals[0]]}")
             else: canon[p.canonicals[0]] = file
             if p.h1 != 1: errors.append(f"{rel}: expected one H1, found {p.h1}")
+            if file.parent == ROOT / "blog" and file.name != "index.html":
+                article = re.search(r"<article\b[^>]*>(.*?)</article>", raw, re.S)
+                content = article.group(1) if article else ""
+                notices = list(re.finditer(
+                    r'<(?P<tag>p|div)\b[^>]*class="[^"]*\bai-disclosure\b[^"]*"[^>]*>'
+                    r'(?P<text>.*?)</(?P=tag)>', content, re.S))
+                if len(notices) != 1:
+                    errors.append(f"{rel}: expected one visible AI disclosure in the article")
+                else:
+                    notice = notices[0]
+                    text = re.sub(r"<[^>]+>", "", notice.group("text"))
+                    if "AI disclosure:" not in text or "generated with an AI language model (LLM)" not in text:
+                        errors.append(f"{rel}: disclosure must explicitly identify AI-generated text")
+                    prefix = re.sub(r'<p class="(?:eyebrow|meta)">.*?</p>', "", content[:notice.start()], flags=re.S)
+                    if re.search(r"<(?:p|h2|ul|ol|table)\b", prefix):
+                        errors.append(f"{rel}: AI disclosure must precede the article body")
             if not p.title.strip(): errors.append(f"{rel}: missing title")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
