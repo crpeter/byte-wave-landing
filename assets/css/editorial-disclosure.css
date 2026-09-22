@@ -1,0 +1,12 @@
+.ai-disclosure {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #45445a;
+  border-radius: 10px;
+  background: #101016;
+  color: #d8d6e1;
+  font-size: .95rem;
+  line-height: 1.6;
+}
+.ai-disclosure strong { color: #e2b8df; }
+.ai-disclosure a { color: #9bbaff; }

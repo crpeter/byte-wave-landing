@@ -10,6 +10,43 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
   {
+    "slug": "no-ai-label-does-not-mean-real",
+    "kind": "AI MEDIA",
+    "title": [
+      "No AI label.",
+      "Still could be fake."
+    ],
+    "subtitle": [
+      "A missing label is not proof."
+    ],
+    "topic": "AI MEDIA"
+  },
+  {
+    "slug": "ai-training-creator-consent",
+    "kind": "CREATOR OPINION",
+    "title": [
+      "You made it.",
+      "Who gets to train on it?"
+    ],
+    "subtitle": [
+      "Creators deserve a say."
+    ],
+    "topic": "CREATOR CONSENT"
+  },
+  {
+    "slug": "remove-location-metadata",
+    "kind": "BYTEWAVE TUTORIAL",
+    "title": [
+      "Know more.",
+      "Share less."
+    ],
+    "subtitle": [
+      "Check and remove editable metadata",
+      "before sharing your video."
+    ],
+    "topic": "METADATA TUTORIAL"
+  },
+  {
     slug: 'does-emoji-protect-child-face-facebook', kind: 'PRIVACY',
     title: ['Does an emoji protect', 'your child’s face?'],
     subtitle: ['But what did Meta get to see first?'],
