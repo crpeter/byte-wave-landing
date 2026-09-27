@@ -87,11 +87,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="image" type="image/webp"
-          href="/assets/logo-full-320.webp"
-          imagesrcset="/assets/logo-full-320.webp 320w, /assets/logo-full-640.webp 640w, /assets/logo-full-960.webp 960w"
-          imagesizes="(max-width: 768px) 176px, 208px"
-          fetchpriority="high">
+    <link rel="preload" as="image" type="image/webp" href="/assets/landing/ocean.webp"
+          imagesrcset="/assets/landing/ocean-mobile.webp 640w, /assets/landing/ocean.webp 1152w"
+          imagesizes="100vw" fetchpriority="high">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -510,11 +508,13 @@
       .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
     }
     </style>
+    <link rel="stylesheet" href="/assets/css/landing.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 
-<nav>
-    <a href="/" class="logo">ByteWave</a>
+<nav aria-label="Main navigation">
+    <a href="/" class="logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
     <div class="nav-links">
         <a href="#compare">Compare</a>
         <a href="#features">Features</a>
@@ -527,27 +527,58 @@
     </div>
 </nav>
 
-<section class="hero">
-    <picture>
-        <source type="image/webp"
-                srcset="/assets/logo-full-320.webp 320w, /assets/logo-full-640.webp 640w, /assets/logo-full-960.webp 960w"
-                sizes="(max-width: 768px) 176px, 208px">
-        <img src="/assets/logo-full-320.jpg"
-             srcset="/assets/logo-full-320.jpg 320w, /assets/logo-full-640.jpg 640w, /assets/logo-full-960.jpg 960w"
-             sizes="(max-width: 768px) 176px, 208px"
-             width="208" height="208"
-             fetchpriority="high" decoding="async"
-             class="hero-mark"
-             alt="ByteWave logo">
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+    <picture class="hero-photo" aria-hidden="true">
+        <img src="/assets/landing/ocean.webp"
+             srcset="/assets/landing/ocean-mobile.webp 640w, /assets/landing/ocean.webp 1152w"
+             sizes="100vw" width="1152" height="2045" alt=""
+             fetchpriority="high" decoding="async">
     </picture>
-    <h1>A video editor that doesn't want your money <span>or your data</span></h1>
-    <p class="hero-body">
-        Edit your own footage with a free video editor for iPhone, iPad, and Mac. Captions, effects, and layered audio. No subscriptions or export watermarks. No account required for local editing.
-    </p>
+    <p class="eyebrow">ByteWave · Free video editor</p>
+    <h1 id="hero-title"><span>Make something</span> <em>Real</em> <span>not reel.</span></h1>
+    <p class="hero-body">Edit your own footage. Locally on-device.<br>A free video editor for iPhone, iPad, and Mac.</p>
     <div class="hero-actions">
-        <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary">Download for Apple</a>
+        <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_ocean_hero&amp;mt=8" class="btn-primary">Download ByteWave</a>
+        <a href="#see-bytewave" class="btn-secondary">See what you can make ↓</a>
     </div>
-    <p class="hero-note">iPhone · iPad · Mac · Requires Apple Silicon</p>
+    <p class="hero-note">No subscriptions. No export watermarks.<br>Mac requires Apple Silicon.</p>
+</section>
+
+<section class="showcase" id="see-bytewave" aria-labelledby="showcase-title">
+    <div class="showcase-copy">
+        <p class="eyebrow">Start with what you filmed</p>
+        <h2 id="showcase-title">Your footage.<br>Your edit.</h2>
+        <p>Bring your photos and videos. Make the rest your own.</p>
+        <ul class="showcase-points">
+            <li><strong>Layout from ByteWave</strong><span>Bring photos and videos together in one composition.</span></li>
+            <li><strong>Filters, effects, and animated captions</strong><span>Find your look. Put your own words on it.</span></li>
+            <li><strong>Audio tools</strong><span>Layer tracks and shape the sound of your video.</span></li>
+        </ul>
+        <a href="/gallery/">Watch videos made with ByteWave →</a>
+    </div>
+    <div class="app-images">
+        <img src="/assets/landing/editor.webp" width="560" height="1212" loading="lazy" decoding="async" alt="ByteWave editor showing sunset footage and its on-device editing tools">
+        <img src="/assets/landing/layout.webp" width="560" height="1212" loading="lazy" decoding="async" alt="Layout from ByteWave combining six ocean photos and videos in one composition">
+    </div>
+</section>
+
+<section class="geese-section" aria-labelledby="geese-title">
+    <div class="geese-inner">
+        <div>
+            <p class="eyebrow">Every editing tool. Free.</p>
+            <h2 id="geese-title">Free as in<br><em>geese.</em></h2>
+            <p>No subscriptions. No export watermarks. No account required for local editing.</p>
+            <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_geese&amp;mt=8" class="btn-primary">Get ByteWave free</a>
+        </div>
+        <figure>
+            <video class="geese-video" controls playsinline preload="none" poster="/assets/landing/geese-poster.jpg" width="554" height="1200" aria-label="Free as in geese: ByteWave app preview" aria-describedby="geese-caption">
+                <source src="/assets/landing/free-as-in-geese.mp4" type="video/mp4">
+                <a href="/assets/landing/free-as-in-geese.mp4">Watch the geese video</a>.
+            </video>
+            <figcaption id="geese-caption">Geese navigating moving water, with “Free as in geese” on screen.</figcaption>
+        </figure>
+    </div>
 </section>
 
 <hr class="divider">
@@ -808,6 +839,8 @@
     <p>Free. No account. No credit card. No catch.</p>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary" style="padding:.85rem 2.2rem">Download for Apple</a>
 </section>
+
+</main>
 
 <footer>
     <p class="footer-nav">
