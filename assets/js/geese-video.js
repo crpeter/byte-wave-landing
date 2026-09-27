@@ -4,6 +4,7 @@
   const button = document.querySelector('#geese-play');
   const status = document.querySelector('#geese-status');
   if (!video || !button || !status) return;
+  const label = button.querySelector('.geese-play-label');
   const stream = video.dataset.stream;
   let player;
   let library;
@@ -19,7 +20,7 @@
     video.controls = false;
     button.hidden = false;
     button.disabled = false;
-    button.textContent = 'Try again';
+    label.textContent = 'Try again';
     status.textContent = 'The video could not load. Please try again.';
   };
   const play = () => {
@@ -36,8 +37,8 @@
   button.hidden = false;
   button.addEventListener('click', async () => {
     button.disabled = true;
-    button.textContent = 'Loading video…';
-    status.textContent = '';
+    label.textContent = 'Loading video…';
+    status.textContent = 'Loading video…';
     try {
       if (video.canPlayType('application/vnd.apple.mpegurl') && 'ManagedMediaSource' in window) {
         video.src = stream;

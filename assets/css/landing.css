@@ -60,31 +60,24 @@ a:focus-visible, video:focus-visible { outline: 3px solid #f5bda7; outline-offse
 .geese-video { width: 100%; height: auto; display: block; aspect-ratio: 554 / 1200; border-radius: 20px; background: #102330; }
 .geese-inner figure { margin: 0; }
 .geese-inner figcaption { font-size: .76rem; color: #476379; margin-top: .75rem; text-align: center; }
-#geese-play { width: 100%; margin-top: .75rem; }
+.geese-player { position: relative; }
+#geese-play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  display: grid; place-items: center; width: 76px; height: 76px; padding: 0;
+  border: 2px solid rgba(255,255,255,.85); border-radius: 50%;
+  background: rgba(8,19,27,.72); color: #fff; cursor: pointer;
+  box-shadow: 0 4px 24px rgba(0,0,0,.2);
+}
+#geese-play:hover { background: #13354c; }
+#geese-play:focus-visible { outline: 3px solid #f5bda7; outline-offset: 5px; }
+.geese-play-label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 #geese-play[hidden] { display: none; }
 #geese-play:disabled { opacity: .7; cursor: wait; }
-#geese-status { font-size: .8rem; margin-top: .5rem; text-align: center; }
+#geese-status { font-size: .8rem; min-height: 1.5em; margin-top: .5rem; text-align: center; }
 .features-section { max-width: 1100px; }
 .feature-list { gap: 2rem 3rem; }
 .cta-section { text-align: center; }
 .cta-section h2 { font-size: clamp(2rem, 5vw, 3.5rem); }
-/* Portrait artwork belongs in a portrait frame on wide screens. */
-@media (min-width: 1000px) {
-  .hero {
-    align-items: flex-start; text-align: left;
-    padding-left: clamp(2rem, 7vw, 10rem); padding-right: 52%;
-  }
-  .hero-photo {
-    inset: 7rem 3.5vw 3rem auto; width: 43%; height: auto;
-  }
-  .hero-photo img {
-    object-fit: contain; object-position: center;
-  }
-  .hero::before { background: none; }
-  .hero h1 { font-size: clamp(2.2rem, 3.6vw, 4.3rem); }
-  .hero h1 em { font-size: clamp(7rem, 12vw, 12rem); }
-  .hero .hero-actions { justify-content: flex-start; }
-}
 @media (max-width: 900px) {
   .showcase { gap: 2rem; }
   .geese-inner { gap: 3rem; grid-template-columns: 1fr minmax(0, 300px); }

@@ -571,11 +571,16 @@
             <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_geese&amp;mt=8" class="btn-primary">Get ByteWave free</a>
         </div>
         <figure>
+            <div class="geese-player">
             <video id="geese-video" class="geese-video" data-stream="/assets/landing/geese-hq/playlist.m3u8" controls playsinline preload="none" poster="/assets/landing/geese-poster.jpg" width="886" height="1920" aria-label="Free as in geese: ByteWave app preview" aria-describedby="geese-caption">
                 <source src="/assets/landing/geese-hq/playlist.m3u8" type="application/vnd.apple.mpegurl">
                 <a href="/assets/landing/free-as-in-geese.mp4">Watch a smaller compatibility copy</a>.
             </video>
-            <button id="geese-play" class="btn-primary" type="button" aria-controls="geese-video" hidden>Play video</button>
+            <button id="geese-play" type="button" aria-controls="geese-video" hidden>
+                <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
+                <span class="geese-play-label">Play video</span>
+            </button>
+            </div>
             <p id="geese-status" role="status"></p>
             <figcaption id="geese-caption">Geese navigating moving water, with “Free as in geese” on screen.</figcaption>
         </figure>
