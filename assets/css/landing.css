@@ -68,23 +68,6 @@ a:focus-visible, video:focus-visible { outline: 3px solid #f5bda7; outline-offse
 .feature-list { gap: 2rem 3rem; }
 .cta-section { text-align: center; }
 .cta-section h2 { font-size: clamp(2rem, 5vw, 3.5rem); }
-/* Portrait artwork belongs in a portrait frame on wide screens. */
-@media (min-width: 1000px) {
-  .hero {
-    align-items: flex-start; text-align: left;
-    padding-left: clamp(2rem, 7vw, 10rem); padding-right: 52%;
-  }
-  .hero-photo {
-    inset: 7rem 3.5vw 3rem auto; width: 43%; height: auto;
-  }
-  .hero-photo img {
-    object-fit: contain; object-position: center;
-  }
-  .hero::before { background: none; }
-  .hero h1 { font-size: clamp(2.2rem, 3.6vw, 4.3rem); }
-  .hero h1 em { font-size: clamp(7rem, 12vw, 12rem); }
-  .hero .hero-actions { justify-content: flex-start; }
-}
 @media (max-width: 900px) {
   .showcase { gap: 2rem; }
   .geese-inner { gap: 3rem; grid-template-columns: 1fr minmax(0, 300px); }
