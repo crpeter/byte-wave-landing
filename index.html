@@ -518,7 +518,6 @@
     <div class="nav-links">
         <a href="#compare">Compare</a>
         <a href="#features">Features</a>
-        <a href="#gear">Creator Gear</a>
         <a href="/privacy.html">Privacy</a>
         <a href="/blog/">Blog</a>
         <a href="/gallery/" class="gallery-link">Gallery</a>
@@ -572,10 +571,12 @@
             <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_geese&amp;mt=8" class="btn-primary">Get ByteWave free</a>
         </div>
         <figure>
-            <video class="geese-video" controls playsinline preload="none" poster="/assets/landing/geese-poster.jpg" width="554" height="1200" aria-label="Free as in geese: ByteWave app preview" aria-describedby="geese-caption">
-                <source src="/assets/landing/free-as-in-geese.mp4" type="video/mp4">
-                <a href="/assets/landing/free-as-in-geese.mp4">Watch the geese video</a>.
+            <video id="geese-video" class="geese-video" data-stream="/assets/landing/geese-hq/playlist.m3u8" controls playsinline preload="none" poster="/assets/landing/geese-poster.jpg" width="886" height="1920" aria-label="Free as in geese: ByteWave app preview" aria-describedby="geese-caption">
+                <source src="/assets/landing/geese-hq/playlist.m3u8" type="application/vnd.apple.mpegurl">
+                <a href="/assets/landing/free-as-in-geese.mp4">Watch a smaller compatibility copy</a>.
             </video>
+            <button id="geese-play" class="btn-primary" type="button" aria-controls="geese-video" hidden>Play video</button>
+            <p id="geese-status" role="status"></p>
             <figcaption id="geese-caption">Geese navigating moving water, with “Free as in geese” on screen.</figcaption>
         </figure>
     </div>
@@ -797,43 +798,6 @@
 
 <hr class="divider">
 
-<section class="gear-section" id="gear">
-    <h2>Creator Gear</h2>
-    <p>
-        Great videos start with great tools. ByteWave connects creators with recommended cameras, mics, lighting, and accessories from trusted retailers; directly inside the app. Browse curated gear, tap to learn more, and purchase from partners you already know.
-    </p>
-    <p>
-        <strong>No tracking. No ad networks. No data brokers.</strong> When you buy through a recommendation, ByteWave earns a small commission from the retailer; that's how a free app stays free without selling your data. A portion of every commission goes to charitable causes through <strong>ByteWave Causes</strong>.
-    </p>
-
-    <div class="gear-categories">
-        <div class="gear-cat">
-            <div class="gear-cat-icon">🎥</div>
-            <h3>Cameras</h3>
-            <p>Mirrorless, action cams, and cinema rigs for every budget.</p>
-        </div>
-        <div class="gear-cat">
-            <div class="gear-cat-icon">🎙️</div>
-            <h3>Audio</h3>
-            <p>Shotgun mics, lavs, and wireless systems for clean capture.</p>
-        </div>
-        <div class="gear-cat">
-            <div class="gear-cat-icon">💡</div>
-            <h3>Lighting</h3>
-            <p>LED panels, ring lights, and portable setups that travel light.</p>
-        </div>
-    </div>
-
-    <!-- COMING SOON — remove this badge when the Shop tab is live -->
-    <span class="gear-badge">Coming Soon</span>
-    <!-- /COMING SOON -->
-    <div style="margin-top:1.5rem">
-        <a href="/shop/" style="font-size:.88rem;color:var(--accent);font-weight:500">Browse all gear &rarr;</a>
-    </div>
-</section>
-
-<hr class="divider">
-
 <section class="cta-section" id="download">
     <h2>Download ByteWave</h2>
     <p>Free. No account. No credit card. No catch.</p>
@@ -846,7 +810,6 @@
     <p class="footer-nav">
         <a href="/tutorials/">Tutorials</a> ·
         <a href="/blog/">Blog</a> ·
-        <a href="/shop/">Creator Gear</a> ·
         <a href="/press.html">Press Kit</a> ·
         <a href="/privacy.html">Privacy</a>
     </p>
@@ -854,5 +817,6 @@
     <p class="tagline">Video editing should be free.</p>
 </footer>
 
+<script src="/assets/js/geese-video.js" defer></script>
 </body>
 </html>
