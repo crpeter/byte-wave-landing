@@ -2,6 +2,7 @@
 """Validate the static ByteWave site using only the Python standard library."""
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sys
@@ -24,7 +25,7 @@ class PageParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.title = ""; self.in_title = False; self.h1 = 0; self.metas = {}; self.canonicals = []
-        self.links = []; self.ids = set(); self.images = []; self.jsonld = []; self.in_jsonld = False; self.buf = []
+        self.links = []; self.stylesheets = []; self.ids = set(); self.images = []; self.jsonld = []; self.in_jsonld = False; self.buf = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -35,6 +36,7 @@ class PageParser(HTMLParser):
             key = a.get("name") or a.get("property") or a.get("http-equiv")
             if key: self.metas[key.lower()] = a.get("content", "")
         if tag == "link" and "canonical" in a.get("rel", "").lower(): self.canonicals.append(a.get("href", ""))
+        if tag == "link" and "stylesheet" in a.get("rel", "").lower(): self.stylesheets.append(a.get("href", ""))
         if tag == "a" and "href" in a: self.links.append(a["href"])
         if tag == "img": self.images.append(a)
         if tag == "script" and a.get("type") == "application/ld+json": self.in_jsonld = True; self.buf = []
@@ -131,6 +133,11 @@ def main() -> int:
     canonical_set = set(canon)
     for url in sorted(sitemap - canonical_set): errors.append(f"sitemap URL is not canonical indexable page: {url}")
     for url in sorted(canonical_set - sitemap): errors.append(f"canonical indexable page missing from sitemap: {url}")
+    # A content version prevents cached homepage CSS from surviving a markup update.
+    css_version = hashlib.sha256((ROOT / "assets/css/landing.css").read_bytes()).hexdigest()[:12]
+    expected_css = f"/assets/css/landing.css?v={css_version}"
+    if expected_css not in pages[ROOT / "index.html"].stylesheets:
+        errors.append(f"index.html: update the landing stylesheet href to {expected_css}")
     if errors:
         print("Site validation failed:", *[f"\n- {e}" for e in errors]); return 1
     print(f"Validated {len(pages)} HTML files and {len(sitemap)} sitemap URLs successfully."); return 0
