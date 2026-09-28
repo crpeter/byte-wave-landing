@@ -10,6 +10,18 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
   {
+  "slug": "tools-newsrooms-check-ai-generated-media",
+  "kind": "NEWSROOM GUIDE",
+  "title": [
+    "Check the file.",
+    "Then check the story."
+  ],
+  "subtitle": [
+    "Content Credentials and media verification."
+  ],
+  "topic": "C2PA & PROVENANCE"
+},
+  {
     "slug": "no-ai-label-does-not-mean-real",
     "kind": "AI MEDIA",
     "title": [
