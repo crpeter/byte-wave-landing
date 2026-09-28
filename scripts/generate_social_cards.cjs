@@ -9,6 +9,54 @@ const sharp = require('sharp');
 const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
+{
+  "slug": "layout",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Photos and videos.",
+    "One layout."
+  ],
+  "subtitle": [
+    "Stack clips, build grids, and try new shapes."
+  ],
+  "topic": "LAYOUT"
+},
+{
+  "slug": "animated-captions",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Add animated",
+    "captions."
+  ],
+  "subtitle": [
+    "Your words, on your video."
+  ],
+  "topic": "VIDEO EDITING"
+},
+{
+  "slug": "caption-text-effects",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Caption",
+    "text effects."
+  ],
+  "subtitle": [
+    "Orbital Letters, Supernova, Ember Ash, and more."
+  ],
+  "topic": "VIDEO EDITING"
+},
+{
+  "slug": "animate-stickers",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Make your",
+    "stickers move."
+  ],
+  "subtitle": [
+    "Position, size, rotation, and keyframes."
+  ],
+  "topic": "VIDEO EDITING"
+},
   {
   "slug": "tools-newsrooms-check-ai-generated-media",
   "kind": "NEWSROOM GUIDE",
