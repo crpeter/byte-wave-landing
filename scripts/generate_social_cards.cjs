@@ -13,11 +13,11 @@ const cards = [
   "slug": "tools-newsrooms-check-ai-generated-media",
   "kind": "NEWSROOM GUIDE",
   "title": [
-    "Check the file.",
-    "Then check the story."
+    "Was this made",
+    "with AI?"
   ],
   "subtitle": [
-    "Content Credentials and media verification."
+    "Tools for checking photos and videos."
   ],
   "topic": "C2PA & PROVENANCE"
 },
