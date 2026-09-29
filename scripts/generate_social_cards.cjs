@@ -9,6 +9,55 @@ const sharp = require('sharp');
 const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
+{
+  "slug": "layout",
+  "image": "layout/honeycomb/poster.jpg",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Photos and videos.",
+    "One layout."
+  ],
+  "subtitle": [
+    "Stack clips, build grids, and try new shapes."
+  ],
+  "topic": "LAYOUT"
+},
+{
+  "slug": "animated-captions",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Add animated",
+    "captions."
+  ],
+  "subtitle": [
+    "Your words, on your video."
+  ],
+  "topic": "VIDEO EDITING"
+},
+{
+  "slug": "caption-text-effects",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Caption",
+    "text effects."
+  ],
+  "subtitle": [
+    "Orbital Letters, Supernova, Ember Ash, and more."
+  ],
+  "topic": "VIDEO EDITING"
+},
+{
+  "slug": "animate-stickers",
+  "kind": "BYTEWAVE GUIDE",
+  "title": [
+    "Make your",
+    "stickers move."
+  ],
+  "subtitle": [
+    "Position, size, rotation, and keyframes."
+  ],
+  "topic": "VIDEO EDITING"
+},
   {
   "slug": "tools-newsrooms-check-ai-generated-media",
   "kind": "NEWSROOM GUIDE",
@@ -137,7 +186,7 @@ const lines = (text, x, y, size, fill = '#eeedf5', weight = 700, leading = 1.16)
 const svg = content => Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">${content}</svg>`);
 
 async function render(card) {
-  const photo = Boolean(card.poster);
+  const photo = Boolean(card.poster || card.image);
   const accent = card.slug.includes('tiktok') || card.slug.includes('capcut') ? '#e2b8df' : '#9bbaff';
   const photoBox = card.wide ? { x: 54, y: 283, w: 1092, h: 259 } : { x: 663, y: 112, w: 483, h: 430 };
   let artwork = `<rect width="1200" height="630" fill="#08080e"/>
@@ -152,8 +201,10 @@ async function render(card) {
     artwork += lines(card.subtitle, 54, card.wide ? 214 : 371, 23, '#aaa7bb', 400, 1.5);
     const { x, y, w, h } = photoBox;
     artwork += `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#10101a" stroke="#303044"/>`;
+    if (card.labels) {
     artwork += lines([card.labels[0]], x + w / 4, y - 16, 17, '#c3c0d0', 400).replace(`x="${x + w / 4}"`, `text-anchor="middle" x="${x + w / 4}"`);
     artwork += lines([card.labels[1]], x + w * 3 / 4, y - 16, 17, '#aac4ff', 400).replace(`x="${x + w * 3 / 4}"`, `text-anchor="middle" x="${x + w * 3 / 4}"`);
+    }
     if (card.credit) artwork += lines([card.credit], 245, 588, 16, '#aaa7bb', 400);
   } else {
     artwork += lines(card.title, 54, 219, 68);
@@ -165,7 +216,7 @@ async function render(card) {
   const layers = [];
   if (photo) {
     // Contain the complete comparison, preserving both halves and their aspect ratio.
-    const resized = await sharp(path.join(root, 'assets/videos', card.poster))
+    const resized = await sharp(path.join(root, 'assets/videos', card.poster || card.image))
       .resize(photoBox.w, photoBox.h, { fit: 'contain', background: '#10101a' })
       .toBuffer();
     layers.push({ input: resized, left: photoBox.x, top: photoBox.y });

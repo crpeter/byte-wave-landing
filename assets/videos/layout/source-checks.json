@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "honeycomb",
+    "source": "EBABF0C2-91EC-4209-B2F3-0888FEEDB2AE-stamped.MOV",
+    "source_sha256": "707093d0b5e859adb9cec2272374e649b8e45fb4e49a1e2db0809d1ac311fc5a",
+    "stream_hashes": [
+      "0,v,SHA256=84087cb9404226cb48392a4e9c01a8644131a1c1e043fe2762ea4ce600d13153",
+      "1,a,SHA256=37e7e69b6d1a2ff58dd712c0cfa9a49d1d6b3c4bcd99bd538bb1e792306b77da"
+    ],
+    "stream_copy_matches": true
+  },
+  {
+    "slug": "ocean-grid",
+    "source": "ByteWaveExport-AB0EA2D8-212D-4DEE-B933-B3B50AE96853.MOV",
+    "source_sha256": "d4261016ae7a0d2793e1770d31a0c4a1239d3f2d8b40a5f6c627d00d4430e4da",
+    "stream_hashes": [
+      "0,v,SHA256=f3e33cf91b8ffcac6a3885897f068e7466f91bb89b25c6d92900e8c17d7deb0f",
+      "1,a,SHA256=2a6d713ac4e0e424e510ca49950f4c7839c93993552907e6889c20f023c4493e"
+    ],
+    "stream_copy_matches": true
+  },
+  {
+    "slug": "warped-sunset",
+    "source": "2369079df36d47799880c0fc11da1262.MOV",
+    "source_sha256": "17dceb24c25347d6f3b667abf37e9c274af85f92bbd60067e6de03121a8170b8",
+    "stream_hashes": [
+      "0,v,SHA256=77547bbd4c3ef3d8e71a181e15b0013493f66fe62da204e866cdecf0472f6ae6",
+      "1,a,SHA256=d9f7ff2f30624cfd751f9fc8338bd09c8c4dc3b61d46a1f43aa64edbdb754a07"
+    ],
+    "stream_copy_matches": true
+  }
+]

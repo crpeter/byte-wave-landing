@@ -1,0 +1,23 @@
+/* Shared presentation and future video slot for the four creation guides. */
+body { background: #08131b; color: #f6f3eb; }
+nav { background: rgba(8,19,27,.96); border-color: rgba(211,231,245,.14); }
+a, .eyebrow { color: #a5c8ed; }
+.logo { background: none; color: #f6f3eb; }
+.button { background: #f8f4ec; color: #102331 !important; border-radius: 100px; }
+p, li, .meta, .disclosure { color: #bbc9d1; }
+strong { color: #f6f3eb; }
+.disclosure { background: #102330; border-color: rgba(211,231,245,.14); }
+.creation-guide h1 { text-wrap: balance; }
+.creation-guide h2 { margin-top: 2rem; }
+.creation-guide .guide-related { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(211,231,245,.14); }
+.guide-related ul { padding-left: 1.2rem; }
+.layout-example { margin: 2rem auto; max-width: 280px; }
+.layout-example img { display: block; width: 100%; height: auto; border-radius: 18px; }
+.layout-example figcaption, .guide-video figcaption { font-size: .85rem; color: #98abb8; margin-top: .65rem; }
+.effect-names { display: flex; gap: .5rem; flex-wrap: wrap; padding: 0; list-style: none; }
+.effect-names li { margin: 0; padding: .45rem .8rem; border: 1px solid rgba(211,231,245,.2); border-radius: 100px; }
+.guide-video { margin: 2rem 0; }
+.guide-video video { display: block; width: auto; max-width: 100%; max-height: 75svh; height: auto; margin: 0 auto; background: #08131b; border-radius: 12px; }
+.guide-video a { display: inline-block; margin-top: .75rem; }
+footer { border-color: rgba(211,231,245,.14); }
+@media (max-width: 640px) { .layout-example { max-width: 240px; } }
