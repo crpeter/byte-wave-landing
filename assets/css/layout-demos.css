@@ -1,0 +1,20 @@
+/* Preserve each composition's aspect ratio. Never crop the layout to fill a card. */
+.creation-guide.layout-page { max-width: 1000px; }
+.layout-demos { margin: 2rem 0 3rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; align-items: start; }
+.layout-demo { margin: 0; min-width: 0; }
+.layout-demo:first-child { grid-column: 1 / -1; width: min(100%, 560px); justify-self: center; }
+.layout-player { position: relative; background: #000; border: 1px solid rgba(211,231,245,.14); border-radius: 14px; overflow: hidden; }
+.layout-video { display: block; width: 100%; height: auto; object-fit: contain; }
+.layout-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 72px; height: 72px; border: 2px solid rgba(255,255,255,.85); border-radius: 50%; background: rgba(8,19,27,.78); color: #fff; cursor: pointer; }
+.layout-play:hover { background: #13354c; }
+.layout-play[hidden] { display: none; }
+.layout-play:disabled { opacity: .7; cursor: wait; }
+.layout-play span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.layout-demo figcaption { margin-top: .5rem; color: #bbc9d1; font-size: .9rem; }
+.layout-demo figcaption strong { display: block; margin-bottom: .2rem; font-size: 1.05rem; }
+.layout-status { min-height: 1.5em; font-size: .8rem; margin: .4rem 0 0; color: #98abb8; }
+.layout-download { font-size: .8rem; }
+@media (max-width: 640px) {
+  .layout-demos { grid-template-columns: 1fr; gap: 1.5rem; }
+  .layout-demo, .layout-demo:first-child { grid-column: auto; width: 100%; max-width: 420px; justify-self: center; }
+}

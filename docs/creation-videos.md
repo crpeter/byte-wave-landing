@@ -1,10 +1,10 @@
 # Adding the creation-guide videos
 
-The four pages are written guides until recordings are available. Each has one `VIDEO SLOT` comment near the top, and shares `.guide-video` styles. There are no empty public players or video structured-data claims.
+The Layout page now has three finished examples. The other three pages remain written guides with `VIDEO SLOT` comments and shared `.guide-video` styles until their recordings arrive. The Layout examples have VideoObject metadata. Unfinished tutorials have no empty public players or video metadata.
 
 | Page | Recording to add | Suggested asset stem |
 | --- | --- | --- |
-| `/layout/` | Finished mixed photo/video composition, then the actual Layout controls | `layout-demo` |
+| `/layout/` | Added: honeycomb, six-panel ocean grid, and warped sunset exports. These are examples, not recordings of the editing controls. | `assets/videos/layout/` |
 | `/tutorials/animated-captions/` | Add text, style and position it, then play the result | `animated-captions-demo` |
 | `/tutorials/caption-text-effects/` | The same phrase using Orbital Letters, Supernova, and Ember Ash | `caption-effects-demo` |
 | `/tutorials/animate-stickers/` | A sticker with two keyframes, then playback of the movement | `sticker-keyframes-demo` |

@@ -22,7 +22,7 @@
     <meta name="twitter:image" content="https://bytewaveai.com/assets/social/layout.jpg">
     <meta name="twitter:image:alt" content="Photos and videos. One layout. Stack clips, build grids, and try new shapes.">
     <meta property="article:published_time" content="2026-09-28">
-    <meta property="article:modified_time" content="2026-09-28">
+    <meta property="article:modified_time" content="2026-09-29">
     <link rel="icon" href="/favicon-48x48.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <style>
@@ -40,7 +40,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
       "url": "https://bytewaveai.com/layout/",
       "mainEntityOfPage": "https://bytewaveai.com/layout/",
       "datePublished": "2026-09-28",
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-09-29",
       "author": {
         "@type": "Organization",
         "name": "ByteWave",
@@ -55,7 +55,18 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
           "url": "https://bytewaveai.com/logo.png"
         }
       },
-      "image": "https://bytewaveai.com/assets/social/layout.jpg"
+      "image": "https://bytewaveai.com/assets/social/layout.jpg",
+      "video": [
+        {
+          "@id": "https://bytewaveai.com/layout/#honeycomb-video"
+        },
+        {
+          "@id": "https://bytewaveai.com/layout/#ocean-grid-video"
+        },
+        {
+          "@id": "https://bytewaveai.com/layout/#warped-sunset-video"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -73,11 +84,43 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
           "item": "https://bytewaveai.com/layout/"
         }
       ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://bytewaveai.com/layout/#honeycomb-video",
+      "name": "Honeycomb layout in ByteWave",
+      "description": "Seven hexagonal cells showing the moon, a dog, and a sunny field.",
+      "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/honeycomb/poster.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/honeycomb/original.m3u8",
+      "uploadDate": "2026-09-29",
+      "duration": "PT20.02S"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://bytewaveai.com/layout/#ocean-grid-video",
+      "name": "Six-panel video grid in ByteWave",
+      "description": "Six seaside clips in one frame: sunsets, a sailboat, and a beach.",
+      "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/ocean-grid/poster.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/ocean-grid/original.m3u8",
+      "uploadDate": "2026-09-29",
+      "duration": "PT20.03S"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://bytewaveai.com/layout/#warped-sunset-video",
+      "name": "Warped sunset layout in ByteWave",
+      "description": "Sunset footage arranged into curved bands.",
+      "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/warped-sunset/poster.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/warped-sunset/original.m3u8",
+      "uploadDate": "2026-09-29",
+      "duration": "PT19.94S"
     }
   ]
 }</script>
     <link rel="stylesheet" href="/assets/css/editorial-disclosure.css">
     <link rel="stylesheet" href="/assets/css/creation-guides.css?v=67c0fd0f031d">
+    <link rel="stylesheet" href="/assets/css/layout-demos.css?v=d44cea509b76">
+    <script src="/assets/js/layout-videos.js?v=5cb884567416" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -93,19 +136,72 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     </details>
 </nav>
 <main id="main">
-<article class="creation-guide">
+<article class="creation-guide layout-page">
     <p class="eyebrow">Layout from ByteWave</p>
     <h1>Video Collages with Layout from ByteWave</h1>
-    <p class="meta">By <a href="/about.html">ByteWave</a> · Updated <time datetime="2026-09-28">September 28, 2026</time></p>
+    <p class="meta">By <a href="/about.html">ByteWave</a> · Updated <time datetime="2026-09-29">September 29, 2026</time></p>
     <p class="disclosure ai-disclosure"><strong>AI disclosure:</strong> This article includes text generated with an AI language model (LLM). Published by ByteWave, which makes the app discussed here.</p>
 
-    <!-- VIDEO SLOT: layout. Replace this comment with the approved recording using docs/creation-videos.md. -->
-
     <p class="lead">Stack videos. Mix photos and clips. Put them all in one frame.</p>
-    <figure class="layout-example">
-        <img src="/assets/landing/layout.webp" width="560" height="1212" alt="Layout from ByteWave showing six ocean photos and videos in one composition" decoding="async">
-        <figcaption>A six-cell layout in ByteWave.</figcaption>
-    </figure>
+    <section class="layout-demos" aria-label="Videos made with Layout from ByteWave">
+        <figure class="layout-demo">
+            <div class="layout-player">
+                <video id="honeycomb-video" class="layout-video" controls playsinline preload="none"
+                       poster="/assets/videos/layout/honeycomb/poster.jpg" width="2160" height="2160"
+                       data-stream="/assets/videos/layout/honeycomb/original.m3u8" data-compatible="/assets/videos/layout/honeycomb/compatible.mp4"
+                       aria-label="Honeycomb layout video" aria-describedby="honeycomb-caption">
+                    <source src="/assets/videos/layout/honeycomb/original.m3u8" type="application/vnd.apple.mpegurl">
+                    <source src="/assets/videos/layout/honeycomb/compatible.mp4" type="video/mp4">
+                    <a href="/assets/videos/layout/honeycomb/compatible.mp4">Watch the MP4 video</a>.
+                </video>
+                <button class="layout-play" type="button" aria-controls="honeycomb-video" hidden>
+                    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
+                    <span>Play honeycomb video</span>
+                </button>
+            </div>
+            <p class="layout-status" role="status"></p>
+            <figcaption id="honeycomb-caption"><strong>Honeycomb</strong>Seven hexagonal cells showing the moon, a dog, and a sunny field.</figcaption>
+            <a class="layout-download" href="/assets/videos/layout/honeycomb/compatible.mp4">Watch MP4</a>
+        </figure>
+        <figure class="layout-demo">
+            <div class="layout-player">
+                <video id="ocean-grid-video" class="layout-video" controls playsinline preload="none"
+                       poster="/assets/videos/layout/ocean-grid/poster.jpg" width="2160" height="3840"
+                       data-stream="/assets/videos/layout/ocean-grid/original.m3u8" data-compatible="/assets/videos/layout/ocean-grid/compatible.mp4"
+                       aria-label="Six-panel grid layout video" aria-describedby="ocean-grid-caption">
+                    <source src="/assets/videos/layout/ocean-grid/original.m3u8" type="application/vnd.apple.mpegurl">
+                    <source src="/assets/videos/layout/ocean-grid/compatible.mp4" type="video/mp4">
+                    <a href="/assets/videos/layout/ocean-grid/compatible.mp4">Watch the MP4 video</a>.
+                </video>
+                <button class="layout-play" type="button" aria-controls="ocean-grid-video" hidden>
+                    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
+                    <span>Play six-panel grid video</span>
+                </button>
+            </div>
+            <p class="layout-status" role="status"></p>
+            <figcaption id="ocean-grid-caption"><strong>Six-panel grid</strong>Six seaside clips in one frame: sunsets, a sailboat, and a beach.</figcaption>
+            <a class="layout-download" href="/assets/videos/layout/ocean-grid/compatible.mp4">Watch MP4</a>
+        </figure>
+        <figure class="layout-demo">
+            <div class="layout-player">
+                <video id="warped-sunset-video" class="layout-video" controls playsinline preload="none"
+                       poster="/assets/videos/layout/warped-sunset/poster.jpg" width="1080" height="1920"
+                       data-stream="/assets/videos/layout/warped-sunset/original.m3u8" data-compatible="/assets/videos/layout/warped-sunset/compatible.mp4"
+                       aria-label="Warped sunset layout video" aria-describedby="warped-sunset-caption">
+                    <source src="/assets/videos/layout/warped-sunset/original.m3u8" type="application/vnd.apple.mpegurl">
+                    <source src="/assets/videos/layout/warped-sunset/compatible.mp4" type="video/mp4">
+                    <a href="/assets/videos/layout/warped-sunset/compatible.mp4">Watch the MP4 video</a>.
+                </video>
+                <button class="layout-play" type="button" aria-controls="warped-sunset-video" hidden>
+                    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
+                    <span>Play warped sunset video</span>
+                </button>
+            </div>
+            <p class="layout-status" role="status"></p>
+            <figcaption id="warped-sunset-caption"><strong>Warped sunset</strong>Sunset footage arranged into curved bands.</figcaption>
+            <a class="layout-download" href="/assets/videos/layout/warped-sunset/compatible.mp4">Watch MP4</a>
+        </figure>
+    </section>
     <h2>More than a photo collage</h2>
     <ul>
         <li>Combine photos and videos in the same layout.</li>
