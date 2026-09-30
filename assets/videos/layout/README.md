@@ -10,4 +10,4 @@ Three creator-supplied exports added on 2026-09-29. Originals remain in the uplo
 
 `compatible.mp4` is a separate SDR H.264 version for browsers without HEVC/HLS support: 1080-square for honeycomb, 720 × 1280 for the two portrait clips. Audio is copied unchanged. HDR-to-SDR conversion uses zscale and Mobius tone mapping. Portrait compatibility video is CRF 20 capped at 3 Mbps; the square version uses CRF 18. Poster JPEGs are SDR frames from three seconds into each source.
 
-The player prefers native HLS, then HEVC through the existing self-hosted Hls.js library, and falls back to the compatibility MP4. Media starts on a play request, not page load. Portrait and square compositions keep their full frame.
+The player prefers native HLS, then HEVC through the existing self-hosted Hls.js library, and falls back to the compatibility MP4. A 12-second playback watchdog also switches to the compatibility MP4 if HLS silently stalls. If that copy stalls too, the player shows a retry button and the direct MP4 link. Media starts on a play request, not page load. Portrait and square compositions keep their full frame.
