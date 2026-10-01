@@ -10,6 +10,66 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "meta-muse-privacy-security-incidents",
+  "kind": "INCIDENT TRACKER",
+  "title": [
+    "Meta Muse.",
+    "Keep the receipts."
+  ],
+  "subtitle": [
+    "Privacy incidents, security flaws, and updates."
+  ],
+  "topic": "PRIVACY & PROVENANCE"
+},
+{
+  "slug": "can-photos-videos-reveal-your-address",
+  "kind": "PRIVACY GUIDE",
+  "title": [
+    "Your photo.",
+    "Your address?"
+  ],
+  "subtitle": [
+    "Check the picture, the sound, and the hidden data."
+  ],
+  "topic": "PRIVACY & PROVENANCE"
+},
+{
+  "slug": "disconnect-meta-muse",
+  "kind": "PRIVACY GUIDE",
+  "title": [
+    "Done with Muse?",
+    "Revoke its access."
+  ],
+  "subtitle": [
+    "Disconnect accounts. Review stored data."
+  ],
+  "topic": "PRIVACY & PROVENANCE"
+},
+{
+  "slug": "check-ai-video-without-uploading",
+  "kind": "AI MEDIA GUIDE",
+  "title": [
+    "Check the video.",
+    "Keep the file local."
+  ],
+  "subtitle": [
+    "Look for origin evidence without a file upload."
+  ],
+  "topic": "PRIVACY & PROVENANCE"
+},
+{
+  "slug": "does-removing-metadata-remove-ai-labels",
+  "kind": "PROVENANCE GUIDE",
+  "title": [
+    "Remove metadata.",
+    "Lose the evidence?"
+  ],
+  "subtitle": [
+    "Privacy and provenance can pull in different directions."
+  ],
+  "topic": "PRIVACY & PROVENANCE"
+},
+{
   "slug": "layout",
   "image": "layout/honeycomb/poster.jpg",
   "kind": "BYTEWAVE GUIDE",
