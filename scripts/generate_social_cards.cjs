@@ -10,6 +10,18 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "anthropic-claude-public-trust",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "Anthropic needs",
+    "to earn our trust."
+  ],
+  "subtitle": [
+    "Human dignity. Evidence. Accountability."
+  ],
+  "topic": "AI & PUBLIC TRUST"
+},
+{
   "slug": "meta-muse-privacy-security-incidents",
   "kind": "INCIDENT TRACKER",
   "title": [
