@@ -10,6 +10,18 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "openai-sora-deepfakes-public-trust",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "Convincing fakes.",
+    "Who protects us?"
+  ],
+  "subtitle": [
+    "OpenAI, Sora, and the people watching."
+  ],
+  "topic": "AI & PUBLIC TRUST"
+},
+{
   "slug": "anthropic-claude-public-trust",
   "kind": "BYTEWAVE OPINION",
   "title": [
