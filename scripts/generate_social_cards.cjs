@@ -10,6 +10,18 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "facebook-ai-labels-filters-generated-images",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "A filter? A fake?",
+    "Tell us what changed."
+  ],
+  "subtitle": [
+    "Facebook AI labels need to explain more."
+  ],
+  "topic": "AI & PUBLIC TRUST"
+},
+{
   "slug": "openai-sora-deepfakes-public-trust",
   "kind": "BYTEWAVE OPINION",
   "title": [
