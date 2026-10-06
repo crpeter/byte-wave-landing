@@ -10,6 +10,66 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "facebook-camera-roll-unposted-photos",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "You didn’t post it.",
+    "Meta can analyze it."
+  ],
+  "subtitle": [
+    "What camera roll suggestions ask you to allow."
+  ],
+  "topic": "PRIVACY & EVERYDAY AI"
+},
+{
+  "slug": "when-ai-filters-change-what-happened",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "Just a filter?",
+    "What did it change?"
+  ],
+  "subtitle": [
+    "When editing starts inventing parts of the picture."
+  ],
+  "topic": "PRIVACY & EVERYDAY AI"
+},
+{
+  "slug": "google-photos-ai-memories-dont-need-fixing",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "Your memories",
+    "don’t need fixing."
+  ],
+  "subtitle": [
+    "Keep the moment. Keep the original."
+  ],
+  "topic": "PRIVACY & EVERYDAY AI"
+},
+{
+  "slug": "meta-ai-chats-feed-ads-personalization",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "You asked AI.",
+    "Why that ad?"
+  ],
+  "subtitle": [
+    "How Meta AI interactions can shape recommendations."
+  ],
+  "topic": "PRIVACY & EVERYDAY AI"
+},
+{
+  "slug": "facebook-ai-labels-filters-generated-images",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "A filter? A fake?",
+    "Tell us what changed."
+  ],
+  "subtitle": [
+    "Facebook AI labels need to explain more."
+  ],
+  "topic": "AI & PUBLIC TRUST"
+},
+{
   "slug": "openai-sora-deepfakes-public-trust",
   "kind": "BYTEWAVE OPINION",
   "title": [
