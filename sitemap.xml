@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/tutorials/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/no-ai-label-does-not-mean-real.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -230,7 +230,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/tools-newsrooms-check-ai-generated-media.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -248,7 +248,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/tutorials/caption-text-effects/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -284,7 +284,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/does-removing-metadata-remove-ai-labels.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -296,7 +296,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/openai-sora-deepfakes-public-trust.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -308,7 +308,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/facebook-camera-roll-unposted-photos.html</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -368,6 +368,30 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/meta-muse-profiles-people-who-never-signed-up.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/chatgpt-fake-artist-signatures.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/photo-access-ai-privacy-inferences.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/chatgpt-image-generation-ads.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/tutorials/import-custom-fonts/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
