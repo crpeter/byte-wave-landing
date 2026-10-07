@@ -10,6 +10,54 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "chatgpt-fake-artist-signatures",
+  "kind": "CREATOR OPINION",
+  "title": [
+    "A real artist’s name.",
+    "A picture they never made."
+  ],
+  "subtitle": [
+    "A visible signature is not proof of authorship."
+  ],
+  "topic": "CREATORS & ATTRIBUTION"
+},
+{
+  "slug": "photo-access-ai-privacy-inferences",
+  "kind": "PRIVACY OPINION",
+  "title": [
+    "Photo access.",
+    "What else can it learn?"
+  ],
+  "subtitle": [
+    "Permissions cover files. The inferences go further."
+  ],
+  "topic": "PHOTOS & PRIVACY"
+},
+{
+  "slug": "chatgpt-image-generation-ads",
+  "kind": "OPINION",
+  "title": [
+    "Your creative time.",
+    "Their ad space."
+  ],
+  "subtitle": [
+    "What OpenAI’s image-generation ad test means."
+  ],
+  "topic": "CREATIVE TOOLS & ADS"
+},
+{
+  "slug": "import-custom-fonts",
+  "kind": "BYTEWAVE TUTORIAL",
+  "title": [
+    "Your fonts.",
+    "Your video."
+  ],
+  "subtitle": [
+    "Import TTF and OTF fonts. No subscription."
+  ],
+  "topic": "BYTEWAVE TUTORIAL"
+},
+{
   "slug": "meta-muse-profiles-people-who-never-signed-up",
   "kind": "PRIVACY OPINION",
   "title": [
