@@ -10,6 +10,18 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "meta-muse-profiles-people-who-never-signed-up",
+  "kind": "PRIVACY OPINION",
+  "title": [
+    "You didn’t sign up.",
+    "Your friend did."
+  ],
+  "subtitle": [
+    "Other people’s privacy is in your inbox too."
+  ],
+  "topic": "META MUSE & CONSENT"
+},
+{
   "slug": "tiktok-ai-avatars-product-ads",
   "kind": "OPINION",
   "title": [
