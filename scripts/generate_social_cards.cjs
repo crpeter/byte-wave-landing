@@ -10,6 +10,18 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "apple-app-store-commissions-free-alternatives",
+  "kind": "BYTEWAVE OPINION",
+  "title": [
+    "No subscription.",
+    "No cut."
+  ],
+  "subtitle": [
+    "What happens when developers make the tools free?"
+  ],
+  "topic": "FREE SOFTWARE & APP STORE FEES"
+},
+{
   "slug": "facebook-camera-roll-unposted-photos",
   "kind": "BYTEWAVE OPINION",
   "title": [
