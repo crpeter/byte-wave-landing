@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -327,6 +327,12 @@
   <url>
     <loc>https://bytewaveai.com/blog/meta-ai-chats-feed-ads-personalization.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/apple-app-store-commissions-free-alternatives.html</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
