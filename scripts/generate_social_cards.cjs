@@ -10,6 +10,66 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "tiktok-ai-avatars-product-ads",
+  "kind": "OPINION",
+  "title": [
+    "A real product.",
+    "A generated presenter?"
+  ],
+  "subtitle": [
+    "A convincing demonstration still needs evidence."
+  ],
+  "topic": "AI ADS & PUBLIC TRUST"
+},
+{
+  "slug": "disable-youtube-ai-remix",
+  "kind": "YOUTUBE GUIDE",
+  "title": [
+    "Your video.",
+    "Their AI remix?"
+  ],
+  "subtitle": [
+    "How to turn off visual remixing on YouTube."
+  ],
+  "topic": "YOUTUBE CONTROLS"
+},
+{
+  "slug": "turn-off-youtube-automatic-dubbing",
+  "kind": "YOUTUBE GUIDE",
+  "title": [
+    "Your video.",
+    "Words you never approved."
+  ],
+  "subtitle": [
+    "Take control of YouTube’s automatic dubbing."
+  ],
+  "topic": "YOUTUBE CONTROLS"
+},
+{
+  "slug": "content-credentials-privacy",
+  "kind": "PRIVACY GUIDE",
+  "title": [
+    "Your photo.",
+    "What else travels with it?"
+  ],
+  "subtitle": [
+    "Check identity, accounts, and editing history."
+  ],
+  "topic": "CONTENT CREDENTIALS & PRIVACY"
+},
+{
+  "slug": "youtube-likeness-detection-privacy",
+  "kind": "PRIVACY OPINION",
+  "title": [
+    "Protect your face.",
+    "First, upload your face."
+  ],
+  "subtitle": [
+    "What YouTube’s likeness protection asks of you."
+  ],
+  "topic": "IDENTITY & PRIVACY"
+},
+{
   "slug": "apple-app-store-commissions-free-alternatives",
   "kind": "BYTEWAVE OPINION",
   "title": [
