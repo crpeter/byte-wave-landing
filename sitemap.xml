@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/how-bytewave-feed-works-without-server-watch-history.html</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://bytewaveai.com/blog/reduce-ai-content-tiktok-feed.html</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -393,6 +393,12 @@
   <url>
     <loc>https://bytewaveai.com/tutorials/import-custom-fonts/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bytewaveai.com/blog/tiktok-us-deal-bytedance-china-ties.html</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
