@@ -10,6 +10,18 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'assets/social');
 const cards = [
 {
+  "slug": "tiktok-us-deal-bytedance-china-ties",
+  "kind": "PLATFORM OWNERSHIP",
+  "title": [
+    "TikTok’s U.S. deal.",
+    "ByteDance is still involved."
+  ],
+  "subtitle": [
+    "Ownership, money, and the algorithm."
+  ],
+  "topic": "TIKTOK & BYTEDANCE"
+},
+{
   "slug": "chatgpt-fake-artist-signatures",
   "kind": "CREATOR OPINION",
   "title": [
