@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /v/
+Disallow: /cdn-cgi/l/email-protection
 
 Sitemap: https://bytewaveai.com/sitemap.xml
