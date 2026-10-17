@@ -18,7 +18,6 @@
     const showPlay = () => {
       button.hidden = false;
       button.disabled = false;
-      button.classList.remove('is-loading');
       label(`${failed ? 'Retry' : 'Play'} ${title}`);
     };
     const fail = () => {
@@ -40,7 +39,8 @@
       const current = initialized ? attempt : ++attempt;
       failed = false;
       button.disabled = true;
-      button.classList.add('is-loading');
+      button.hidden = true;
+      video.controls = true;
       label(`Loading ${title}`);
       status.textContent = 'Loading video…';
       watch();
@@ -72,7 +72,6 @@
     video.addEventListener('playing', () => {
       clearTimer();
       button.hidden = true;
-      button.classList.remove('is-loading');
       status.textContent = '';
       cards.forEach(other => { if (other !== card) other.querySelector('video').pause(); });
     });
