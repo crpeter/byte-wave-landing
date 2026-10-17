@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Made with ByteWave — Video Gallery</title>
-  <meta name="description" content="Watch videos made with ByteWave: hummingbird slow motion, motion blur, and temporal noise reduction. Find a look you like and try it yourself.">
+  <meta name="description" content="Watch videos made with ByteWave: the quadruple dive, hummingbird slow motion, motion blur, and temporal noise reduction. Find a look you like and try it yourself.">
   <link rel="canonical" href="https://bytewaveai.com/gallery/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Made with ByteWave — Video Gallery">
-  <meta property="og:description" content="Hummingbird slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
+  <meta property="og:description" content="The quadruple dive, hummingbird slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
   <meta property="og:url" content="https://bytewaveai.com/gallery/">
   <meta property="og:site_name" content="ByteWave">
   <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
   <meta property="og:image:alt" content="ByteWave branded social preview">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Made with ByteWave — Video Gallery">
-  <meta name="twitter:description" content="Hummingbird slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
+  <meta name="twitter:description" content="The quadruple dive, hummingbird slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
   <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
   <meta name="twitter:image:alt" content="ByteWave branded social preview">
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
@@ -29,11 +29,20 @@
   "url": "https://bytewaveai.com/gallery/",
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": 3,
+    "numberOfItems": 4,
     "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Hummingbird, slowed down", "url": "https://bytewaveai.com/gallery/#hummingbird"},
-      {"@type": "ListItem", "position": 2, "name": "At the harbor", "url": "https://bytewaveai.com/gallery/#harbor"},
-      {"@type": "ListItem", "position": 3, "name": "Red leaves", "url": "https://bytewaveai.com/gallery/#red-leaves"}
+      {"@type": "ListItem", "position": 1, "name": "The Quadruple Dive", "url": "https://bytewaveai.com/gallery/#quadruple-dive", "item": {
+        "@type": "VideoObject",
+        "name": "The Quadruple Dive",
+        "description": "Birds diving into the ocean, shown at original speed and in slow motion with ByteWave.",
+        "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive.jpg",
+        "contentUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive/video.m3u8",
+        "uploadDate": "2026-10-17T17:24:06-04:00",
+        "duration": "PT18.785S"
+      }},
+      {"@type": "ListItem", "position": 2, "name": "Hummingbird, slowed down", "url": "https://bytewaveai.com/gallery/#hummingbird"},
+      {"@type": "ListItem", "position": 3, "name": "At the harbor", "url": "https://bytewaveai.com/gallery/#harbor"},
+      {"@type": "ListItem", "position": 4, "name": "Red leaves", "url": "https://bytewaveai.com/gallery/#red-leaves"}
     ]
   }
 }
@@ -56,6 +65,11 @@
     .gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem 1.5rem;list-style:none}
     figure{scroll-margin-top:6rem}
     video{display:block;width:100%;height:clamp(20rem,60vh,36rem);object-fit:contain;background:#050508;border:1px solid var(--border);border-radius:10px}
+    .stream-player{position:relative}
+    .stream-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);padding:.8rem 1.2rem;border:0;border-radius:8px;background:var(--accent);color:var(--bg);font:700 1rem system-ui;cursor:pointer}
+    .stream-play[hidden]{display:none}
+    .stream-play:focus-visible{outline:3px solid white;outline-offset:5px}
+    .stream-status{color:var(--text-dim);font-size:.875rem}
     .landscape{grid-column:1/-1}
     .landscape video{height:auto;max-height:36rem;aspect-ratio:16/9}
     figcaption{padding:1rem 0}
@@ -86,6 +100,23 @@
   <main id="main">
     <h1>Made with ByteWave</h1>
     <ul class="gallery-grid" aria-label="Videos made with ByteWave">
+      <li>
+        <figure id="quadruple-dive">
+          <div class="stream-player">
+          <video id="quadruple-dive-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/videos/gallery/quadruple-dive.jpg" aria-label="The Quadruple Dive: birds diving into the ocean at original speed and in slow motion.">
+            <source src="/assets/videos/gallery/quadruple-dive/video.m3u8" type="application/vnd.apple.mpegurl">
+            <a href="/assets/videos/gallery/quadruple-dive/video.m3u8">Open The Quadruple Dive video stream.</a>
+          </video>
+          <button class="stream-play" type="button" aria-controls="quadruple-dive-video" hidden>Play The Quadruple Dive</button>
+          </div>
+          <p class="stream-status" role="status"></p>
+          <figcaption>
+            <h2>The Quadruple Dive</h2>
+            <p class="effect">Original speed → slow motion</p>
+            <a class="tutorial-link" href="/tutorials/frame-rate-conversion/">Try this effect<span class="skip">: frame rate conversion</span></a>
+          </figcaption>
+        </figure>
+      </li>
       <li>
         <figure id="hummingbird">
           <video controls playsinline preload="none" width="336" height="720" poster="/assets/videos/gallery/hummingbird.jpg" aria-label="A hummingbird at a feeder, slowed to 0.1× with 8× frame rate conversion. No audio.">
@@ -130,5 +161,7 @@
     <div class="download"><a class="button" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=gallery&amp;mt=8">Download ByteWave free</a></div>
   </main>
   <footer>© 2026 ByteWave · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy</a></footer>
+  <script src="/assets/vendor/hls.light-1.6.19.min.js" defer></script>
+  <script src="/assets/js/gallery-stream.js" defer></script>
 </body>
 </html>
