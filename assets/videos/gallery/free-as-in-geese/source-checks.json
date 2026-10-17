@@ -1,0 +1,11 @@
+{
+  "sourceFilename": "ByteWaveExport-DCC418E0-CBA2-4E21-B2E4-C4555FA3135D.MOV",
+  "sourceSha256": "87cf652149d89945f0e4343167f81d4122d679395f11201bdc558e328b1f31f8",
+  "decodedFrameCount": 1947,
+  "allDecodedFrameHashesMatch": true,
+  "decodedFrameHashListSha256": "b8c0ed316396f966959e319f30581a696f56acfa4d179740589d2300c93810c4",
+  "width": 1080,
+  "height": 1920,
+  "framesPerSecond": 60,
+  "sourceDurationSeconds": 32.45
+}
