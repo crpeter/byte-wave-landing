@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Made with ByteWave — Video Gallery</title>
-  <meta name="description" content="Watch videos made with ByteWave: the quadruple dive, hummingbird slow motion, motion blur, and temporal noise reduction. Find a look you like and try it yourself.">
+  <meta name="description" content="Watch videos made with ByteWave: The Quadruple Dive, Free as in Geese, slow motion, motion blur, and noise reduction. Find a look you like and try it yourself.">
   <link rel="canonical" href="https://bytewaveai.com/gallery/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Made with ByteWave — Video Gallery">
-  <meta property="og:description" content="The quadruple dive, hummingbird slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
+  <meta property="og:description" content="The Quadruple Dive, Free as in Geese, slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
   <meta property="og:url" content="https://bytewaveai.com/gallery/">
   <meta property="og:site_name" content="ByteWave">
   <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
   <meta property="og:image:alt" content="ByteWave branded social preview">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Made with ByteWave — Video Gallery">
-  <meta name="twitter:description" content="The quadruple dive, hummingbird slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
+  <meta name="twitter:description" content="The Quadruple Dive, Free as in Geese, slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
   <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
   <meta name="twitter:image:alt" content="ByteWave branded social preview">
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
@@ -29,20 +29,56 @@
   "url": "https://bytewaveai.com/gallery/",
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": 4,
+    "numberOfItems": 5,
     "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "The Quadruple Dive", "url": "https://bytewaveai.com/gallery/#quadruple-dive", "item": {
-        "@type": "VideoObject",
+      {
+        "@type": "ListItem",
+        "position": 1,
         "name": "The Quadruple Dive",
-        "description": "Birds diving into the ocean, shown at original speed and in slow motion with ByteWave.",
-        "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive.jpg",
-        "contentUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive/video.m3u8",
-        "uploadDate": "2026-10-17T17:24:06-04:00",
-        "duration": "PT18.785S"
-      }},
-      {"@type": "ListItem", "position": 2, "name": "Hummingbird, slowed down", "url": "https://bytewaveai.com/gallery/#hummingbird"},
-      {"@type": "ListItem", "position": 3, "name": "At the harbor", "url": "https://bytewaveai.com/gallery/#harbor"},
-      {"@type": "ListItem", "position": 4, "name": "Red leaves", "url": "https://bytewaveai.com/gallery/#red-leaves"}
+        "url": "https://bytewaveai.com/gallery/#quadruple-dive",
+        "item": {
+          "@type": "VideoObject",
+          "name": "The Quadruple Dive",
+          "description": "Birds diving into the ocean, shown at original speed and in slow motion with ByteWave.",
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive/video.m3u8",
+          "uploadDate": "2026-10-17T17:24:06-04:00",
+          "duration": "PT18.785S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Free as in Geese",
+        "url": "https://bytewaveai.com/gallery/#free-as-in-geese",
+        "item": {
+          "@type": "VideoObject",
+          "name": "Free as in Geese",
+          "description": "Geese on the water with animated text made in ByteWave.",
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/free-as-in-geese.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/gallery/free-as-in-geese/video.m3u8",
+          "uploadDate": "2026-10-17T17:38:49-04:00",
+          "duration": "PT32.45S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Hummingbird, slowed down",
+        "url": "https://bytewaveai.com/gallery/#hummingbird"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "At the harbor",
+        "url": "https://bytewaveai.com/gallery/#harbor"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Red leaves",
+        "url": "https://bytewaveai.com/gallery/#red-leaves"
+      }
     ]
   }
 }
@@ -66,7 +102,13 @@
     figure{scroll-margin-top:6rem}
     video{display:block;width:100%;height:clamp(20rem,60vh,36rem);object-fit:contain;background:#050508;border:1px solid var(--border);border-radius:10px}
     .stream-player{position:relative}
-    .stream-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);padding:.8rem 1.2rem;border:0;border-radius:8px;background:var(--accent);color:var(--bg);font:700 1rem system-ui;cursor:pointer}
+    .stream-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:64px;height:64px;border:1px solid rgba(255,255,255,.65);border-radius:50%;background:rgba(0,0,0,.65);color:#fff;cursor:pointer;box-shadow:0 2px 16px rgba(0,0,0,.3)}
+    .stream-play:hover{background:rgba(0,0,0,.85)}
+    .stream-play svg{margin-left:3px}
+    .stream-play.is-loading svg{visibility:hidden}
+    .stream-play.is-loading::after{content:"";position:absolute;width:26px;height:26px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:loading-spin .8s linear infinite}
+    @keyframes loading-spin{to{transform:rotate(360deg)}}
+    @media(prefers-reduced-motion:reduce){.stream-play.is-loading::after{animation:none}}
     .stream-play[hidden]{display:none}
     .stream-play:focus-visible{outline:3px solid white;outline-offset:5px}
     .stream-status{color:var(--text-dim);font-size:.875rem}
@@ -107,7 +149,9 @@
             <source src="/assets/videos/gallery/quadruple-dive/video.m3u8" type="application/vnd.apple.mpegurl">
             <a href="/assets/videos/gallery/quadruple-dive/video.m3u8">Open The Quadruple Dive video stream.</a>
           </video>
-          <button class="stream-play" type="button" aria-controls="quadruple-dive-video" hidden>Play The Quadruple Dive</button>
+          <button class="stream-play" type="button" aria-controls="quadruple-dive-video" aria-label="Play The Quadruple Dive" title="Play The Quadruple Dive" hidden>
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </button>
           </div>
           <p class="stream-status" role="status"></p>
           <figcaption>
@@ -118,11 +162,36 @@
         </figure>
       </li>
       <li>
+        <figure id="free-as-in-geese">
+          <div class="stream-player">
+          <video id="free-as-in-geese-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/videos/gallery/free-as-in-geese.jpg" aria-label="Free as in Geese: geese on the water with animated text made in ByteWave.">
+            <source src="/assets/videos/gallery/free-as-in-geese/video.m3u8" type="application/vnd.apple.mpegurl">
+            <a href="/assets/videos/gallery/free-as-in-geese/video.m3u8">Open the Free as in Geese video stream.</a>
+          </video>
+          <button class="stream-play" type="button" aria-controls="free-as-in-geese-video" aria-label="Play Free as in Geese" title="Play Free as in Geese" hidden>
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </button>
+          </div>
+          <p class="stream-status" role="status"></p>
+          <figcaption>
+            <h2>Free as in Geese</h2>
+            <p class="effect">Animated text</p>
+            <a class="tutorial-link" href="/tutorials/caption-text-effects/">Try this effect<span class="skip">: caption text effects</span></a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
         <figure id="hummingbird">
-          <video controls playsinline preload="none" width="336" height="720" poster="/assets/videos/gallery/hummingbird.jpg" aria-label="A hummingbird at a feeder, slowed to 0.1× with 8× frame rate conversion. No audio.">
+          <div class="stream-player">
+          <video id="hummingbird-video" controls playsinline preload="none" width="336" height="720" poster="/assets/videos/gallery/hummingbird.jpg" aria-label="A hummingbird at a feeder, slowed to 0.1× with 8× frame rate conversion. No audio.">
             <source src="/assets/videos/gallery/hummingbird.mp4" type="video/mp4">
             <a href="/assets/videos/gallery/hummingbird.mp4">Download the hummingbird video.</a>
           </video>
+          <button class="stream-play" type="button" aria-controls="hummingbird-video" aria-label="Play Hummingbird, slowed down" title="Play Hummingbird, slowed down" hidden>
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </button>
+          </div>
+          <p class="stream-status" role="status"></p>
           <figcaption>
             <h2>Hummingbird, slowed down</h2>
             <p class="effect">0.1× speed · 8× FRC</p>
@@ -132,10 +201,16 @@
       </li>
       <li>
         <figure id="harbor">
-          <video controls playsinline preload="none" width="406" height="720" poster="/assets/videos/gallery/harbor.jpg" aria-label="Sailboats on the harbor with ByteWave motion blur. No audio.">
+          <div class="stream-player">
+          <video id="harbor-video" controls playsinline preload="none" width="406" height="720" poster="/assets/videos/gallery/harbor.jpg" aria-label="Sailboats on the harbor with ByteWave motion blur. No audio.">
             <source src="/assets/videos/gallery/harbor.mp4" type="video/mp4">
             <a href="/assets/videos/gallery/harbor.mp4">Download the harbor video.</a>
           </video>
+          <button class="stream-play" type="button" aria-controls="harbor-video" aria-label="Play At the harbor" title="Play At the harbor" hidden>
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </button>
+          </div>
+          <p class="stream-status" role="status"></p>
           <figcaption>
             <h2>At the harbor</h2>
             <p class="effect">Motion blur</p>
@@ -145,10 +220,16 @@
       </li>
       <li class="landscape">
         <figure id="red-leaves">
-          <video controls playsinline preload="none" width="1280" height="720" poster="/assets/videos/gallery/red-leaves.jpg" aria-label="Red leaves and tree branches after ByteWave temporal noise reduction. No audio.">
+          <div class="stream-player">
+          <video id="red-leaves-video" controls playsinline preload="none" width="1280" height="720" poster="/assets/videos/gallery/red-leaves.jpg" aria-label="Red leaves and tree branches after ByteWave temporal noise reduction. No audio.">
             <source src="/assets/videos/gallery/red-leaves.mp4" type="video/mp4">
             <a href="/assets/videos/gallery/red-leaves.mp4">Download the red leaves video.</a>
           </video>
+          <button class="stream-play" type="button" aria-controls="red-leaves-video" aria-label="Play Red leaves" title="Play Red leaves" hidden>
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </button>
+          </div>
+          <p class="stream-status" role="status"></p>
           <figcaption>
             <h2>Red leaves</h2>
             <p class="effect">Temporal noise reduction</p>
@@ -162,6 +243,6 @@
   </main>
   <footer>© 2026 ByteWave · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy</a></footer>
   <script src="/assets/vendor/hls.light-1.6.19.min.js" defer></script>
-  <script src="/assets/js/gallery-stream.js" defer></script>
+  <script src="/assets/js/gallery-stream.js?v=f0dfd3edadd5" defer></script>
 </body>
 </html>
