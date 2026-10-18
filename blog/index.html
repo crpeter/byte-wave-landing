@@ -145,6 +145,13 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
 .section-intro a,.section-download a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .section-download{margin:1.4rem 0 2.5rem}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.post-card{transition:none}}
+
+/* Editorial subject marks: names are visible and icons are decorative. */
+.post-card .post-card-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem 1rem; margin-bottom: 1rem; }
+.post-card .post-brand { display: inline-flex; align-items: center; gap: .7rem; color: var(--text); font-size: .9rem; font-weight: 700; }
+.post-card .post-brand img { display: block; flex: 0 0 40px; width: 40px; height: 40px; padding: 8px; border-radius: 9px; background: #f8f4ec; }
+.post-card .post-card-heading .tag { margin: 0; }
+
 </style>
     <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
     <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
@@ -194,7 +201,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/chatgpt-image-generation-ads.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/openai.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>OpenAI</span></span><span class="tag">Opinion</span></span>
     <h3>Your Creative Time Is Becoming Ad Space.</h3>
     <p>OpenAI plans to test ads during ChatGPT image generation. What the October 2026 announcement says, and why creative tools need room without a sales pitch.</p>
   </a>
@@ -206,13 +213,13 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/disable-youtube-ai-remix.html" class="post-card">
-    <span class="tag">YouTube guide</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/youtube.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>YouTube</span></span><span class="tag">YouTube guide</span></span>
     <h3>You Uploaded a Video. Now Someone Can AI-Remix It.</h3>
     <p>Find the setting that limits visual remixes of your Shorts, and understand what it can stop.</p>
   </a>
 
   <a href="/blog/turn-off-youtube-automatic-dubbing.html" class="post-card">
-    <span class="tag">YouTube guide</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/youtube.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>YouTube</span></span><span class="tag">YouTube guide</span></span>
     <h3>Your Video. Words You Never Approved.</h3>
     <p>Disable automatic dubbing, review translations before they go live, and remove an existing dub.</p>
   </a>
@@ -220,7 +227,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
 
 
   <a href="/blog/google-photos-ai-memories-dont-need-fixing.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/google.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Google Photos</span></span><span class="tag">Opinion</span></span>
     <h3>Your Memories Don’t Need Fixing.</h3>
     <p>A missed smile is still part of the moment. Why an imperfect photograph can be worth keeping exactly as it was.</p>
   </a>
@@ -296,13 +303,13 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p class="section-intro">Find out what a file can tell you. Start with <a href="/tutorials/check-c2pa-content-credentials/">checking Content Credentials in ByteWave</a>.</p>
 
   <a href="/blog/chatgpt-fake-artist-signatures.html" class="post-card">
-    <span class="tag">Creator opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/openai.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>OpenAI</span></span><span class="tag">Creator opinion</span></span>
     <h3>A Real Artist’s Name on a Picture They Never Made.</h3>
     <p>ChatGPT-generated cartoons have carried real artists’ signatures. Why a visible name is not proof of authorship, and what to check before sharing.</p>
   </a>
 
   <a href="/blog/tiktok-ai-avatars-product-ads.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/tiktok.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>TikTok</span></span><span class="tag">Opinion</span></span>
     <h3>That Person Selling You Something Might Be Generated.</h3>
     <p>TikTok can generate the presenter and the product video. What does that actually prove about the product?</p>
   </a>
@@ -314,13 +321,13 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/facebook-ai-labels-filters-generated-images.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Opinion</span></span>
     <h3>If Everything Is “Made With AI,” What Does the Label Actually Tell Us?</h3>
     <p>A filter, a replaced face, and a fabricated scene need labels that explain what changed.</p>
   </a>
 
   <a href="/blog/openai-sora-deepfakes-public-trust.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/openai.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>OpenAI</span></span><span class="tag">Opinion</span></span>
     <h3>OpenAI Made Convincing Fake Videos. Who Protects the People Watching?</h3>
     <p>Sora, consent, and why the burden of spotting fabricated media should not fall entirely on the viewer.</p>
   </a>
@@ -364,13 +371,13 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/reduce-ai-videos-facebook-feed.html" class="post-card">
-    <span class="tag">Facebook guide</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Facebook guide</span></span>
     <h3>How to Reduce AI Videos in Your Facebook Feed</h3>
     <p>Facebook feed full of AI videos? Use post feedback, unfollowing, Favorites, and Feeds to shape what you see, and understand the limits of each control.</p>
   </a>
 
   <a href="/blog/reduce-ai-content-tiktok-feed.html" class="post-card">
-    <span class="tag">TikTok guide</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/tiktok.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>TikTok</span></span><span class="tag">TikTok guide</span></span>
     <h3>How to See Less AI Content on TikTok</h3>
     <p>Tired of AI videos on TikTok? Check Manage topics, use Not interested and keyword filters, and learn what feed controls can and cannot remove.</p>
   </a>
@@ -406,7 +413,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/meta-muse-profiles-people-who-never-signed-up.html" class="post-card">
-    <span class="tag">Privacy opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy opinion</span></span>
     <h3>You Didn’t Sign Up. Your Friend Did.</h3>
     <p>Someone else’s permission can expose your private life. Why Muse’s relationship memory raises questions for people who never signed up.</p>
   </a>
@@ -418,25 +425,25 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/youtube-likeness-detection-privacy.html" class="post-card">
-    <span class="tag">Privacy opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/youtube.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>YouTube</span></span><span class="tag">Privacy opinion</span></span>
     <h3>To Protect Your Face, First Upload Your Face.</h3>
     <p>YouTube’s impersonation-detection tool asks for ID and a selfie video. Here is what enrollment involves.</p>
   </a>
 
   <a href="/blog/facebook-camera-roll-unposted-photos.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Opinion</span></span>
     <h3>You Didn’t Post It. Facebook Can Still Analyze It.</h3>
     <p>Not posting a photo and keeping it away from Meta are different choices. Here is what camera roll suggestions ask you to allow.</p>
   </a>
 
   <a href="/blog/meta-ai-chats-feed-ads-personalization.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Opinion</span></span>
     <h3>You Asked a Chatbot. Why Did Your Feed Change?</h3>
     <p>A chatbot conversation can become a signal for posts, reels, and advertising. Meta has said so itself.</p>
   </a>
 
   <a href="/blog/meta-muse-privacy-security-incidents.html" class="post-card">
-    <span class="tag">Incident tracker</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Incident tracker</span></span>
     <h3>Meta Muse Privacy and Security Incidents: A Timeline</h3>
     <p>A dated Meta Muse privacy timeline: contact profiles, memory and deletion concerns, the Marketplace address disclosure, security flaws, and reported fixes.</p>
   </a>
@@ -448,7 +455,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/disconnect-meta-muse.html" class="post-card">
-    <span class="tag">Privacy guide</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy guide</span></span>
     <h3>How to Disconnect Meta Muse and Revoke Its Access</h3>
     <p>Leaving Meta Muse? Disconnect services, revoke account permissions, and review stored data separately. Deleting the app alone is not a complete exit.</p>
   </a>
@@ -466,13 +473,13 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   </a>
 
   <a href="/blog/does-emoji-protect-child-face-facebook.html" class="post-card">
-    <span class="tag">Privacy</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy</span></span>
     <h3>Does an Emoji Really Protect Your Child’s Face on Facebook?</h3>
     <p>You put a heart over your child’s face. Your followers see the heart. But what did Meta get to see first?</p>
   </a>
 
   <a href="/blog/meta-muse-privacy-security.html" class="post-card">
-    <span class="tag">Privacy opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy opinion</span></span>
     <h3>Meta Muse Privacy: Why We Recommend Not Using It</h3>
     <p>Our recommendation: do not use Meta Muse or connect your accounts. Learn why its documented data access and training policies do not meet our privacy standard.</p>
   </a>
@@ -503,18 +510,24 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p class="section-download"><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=blog_protect_your_privacy&amp;mt=8">Get ByteWave free</a></p>
   </section>
 <section class="blog-section" aria-labelledby="platforms-creators"><h2 id="platforms-creators">Platforms &amp; creators</h2><p class="section-intro">Publishing, free expression, and who controls the tools you use.</p><div class="posts">
+<!-- Keep X / Twitter coverage first in Platforms & creators. -->
+<a href="/blog/x-free-speech-account-control.html" class="post-card">
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/x.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>X / Twitter</span></span><span class="tag">Platform control &amp; opinion</span></span>
+    <h3>X’s Free-Speech Pitch Doesn’t Give You Control of Your Account.</h3>
+    <p>X can restrict reach, require post removal, and suspend accounts. What its own rules say, and ByteWave’s commitment to free expression.</p>
+  </a>
 <a href="/blog/adobe-venezuela-creative-cloud-access.html" class="post-card">
-    <span class="tag">Platform control &amp; opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/adobe.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Adobe</span></span><span class="tag">Platform control &amp; opinion</span></span>
     <h3>Your Video Editor Shouldn’t Need Washington’s Permission.</h3>
     <p>Adobe’s 2019 Venezuela service restrictions show why creative tools need an offline fallback. What happened, what was restored, and what creators can control.</p>
   </a>
 <a href="/blog/payment-processors-itch-io-content-control.html" class="post-card">
-    <span class="tag">Platform control &amp; opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/itchdotio.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>itch.io</span></span><span class="tag">Platform control &amp; opinion</span></span>
     <h3>The Payment Processor Is Also a Moderator.</h3>
     <p>itch.io’s 2025 adult-content deindexing shows how payment restrictions can shape discovery. What happened, what returned, and why creators need independent copies.</p>
   </a>
 <a href="/blog/google-nest-cloud-features-end-support.html" class="post-card">
-    <span class="tag">Platform control &amp; opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/google.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Google Nest</span></span><span class="tag">Platform control &amp; opinion</span></span>
     <h3>You Bought the Device. They Can Still Remove Features.</h3>
     <p>Google ended connected features for early Nest thermostats in 2025. Physical controls still work. The lesson: ask what survives when a service ends.</p>
   </a>
@@ -529,22 +542,17 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p>Starlink, Starshield, and the trust problem behind satellite cell service. What Ukraine’s restrictions reveal about who controls your connection.</p>
   </a>
 <a href="/blog/meta-no-kings-instagram-suspension.html" class="post-card">
-    <span class="tag">Platform control &amp; opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Instagram</span></span><span class="tag">Platform control &amp; opinion</span></span>
     <h3>Meta Suspended No Kings When Organizers Needed It Most.</h3>
     <p>Meta says the No Kings Instagram suspension was an automated mistake. Lost access still matters. ByteWave’s alternative for publishing video and free expression.</p>
   </a>
-<a href="/blog/x-free-speech-account-control.html" class="post-card">
-    <span class="tag">Platform control &amp; opinion</span>
-    <h3>X’s Free-Speech Pitch Doesn’t Give You Control of Your Account.</h3>
-    <p>X can restrict reach, require post removal, and suspend accounts. What its own rules say, and ByteWave’s commitment to free expression.</p>
-  </a>
 <a href="/blog/tiktok-us-deal-bytedance-china-ties.html" class="post-card">
-    <span class="tag">Platform ownership &amp; opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/tiktok.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>TikTok</span></span><span class="tag">Platform ownership &amp; opinion</span></span>
     <h3>TikTok’s U.S. Deal Didn’t Cut Out ByteDance.</h3>
     <p>ByteDance’s retained stake, commercial operations, and licensed algorithm. What the U.S. deal actually changed.</p>
   </a>
 <a href="/blog/apple-app-store-commissions-free-alternatives.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/apple.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Apple</span></span><span class="tag">Opinion</span></span>
     <h3>Apple Can’t Take a Cut of a Subscription You Don’t Need.</h3>
     <p>Free alternatives can replace a subscription and Apple’s cut. What the numbers tell us, and why ByteWave makes the tools free.</p>
   </a>
@@ -564,17 +572,17 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p>Governments want to control what appears in your video feed. We think your content and your attention belong to you.</p>
   </a>
 <a href="/blog/tiktok-congress-child-safety-platform-accountability.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/tiktok.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>TikTok</span></span><span class="tag">Opinion</span></span>
     <h3>TikTok’s Canceled Congressional Appearance Raises Questions About Platform Accountability</h3>
     <p>What the committee chairman says about TikTok’s withdrawal, and why platforms—including ByteWave—owe users clear answers about their products.</p>
   </a>
 <a href="/blog/meta-settlement-youth-safety-social-media-design.html" class="post-card">
-    <span class="tag">Current analysis</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Current analysis</span></span>
     <h3>Meta's $17.1 Billion Youth-Safety Settlement: What Changes</h3>
     <p>The approved agreement's payment structure, youth controls, limits, and implications for social-product architecture—linked to primary sources.</p>
   </a>
 <a href="/blog/anthropic-claude-public-trust.html" class="post-card">
-    <span class="tag">Opinion</span>
+    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/anthropic.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Anthropic</span></span><span class="tag">Opinion</span></span>
     <h3>Anthropic Needs to Earn Our Trust</h3>
     <p>Claude, the rabbi’s question, and why protecting people from deception needs more than a company’s promises.</p>
   </a>
