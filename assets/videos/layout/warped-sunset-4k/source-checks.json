@@ -1,0 +1,18 @@
+{
+  "source": "ByteWaveExport-52A4D653-1B06-4C74-9A97-EC855BC53D81.MOV",
+  "source_sha256": "3d369c21b5426f514a1639165b6650e110b81499ff253498d2b148ee5e3a7d6f",
+  "source_video_stream_sha256": [
+    "0,v,SHA256=70c5bc65a4f202942e084c696d4fee38e6539163b965068d4657446feef6ece7"
+  ],
+  "hls_video_stream_sha256": [
+    "0,v,SHA256=70c5bc65a4f202942e084c696d4fee38e6539163b965068d4657446feef6ece7"
+  ],
+  "video_stream_matches": true,
+  "source_audio_stream_sha256": [
+    "0,a,SHA256=2a6d713ac4e0e424e510ca49950f4c7839c93993552907e6889c20f023c4493e"
+  ],
+  "hls_audio_stream_sha256": [
+    "0,a,SHA256=2a6d713ac4e0e424e510ca49950f4c7839c93993552907e6889c20f023c4493e"
+  ],
+  "audio_preparation": "Copied unchanged."
+}

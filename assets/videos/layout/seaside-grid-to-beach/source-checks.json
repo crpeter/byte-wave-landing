@@ -1,0 +1,19 @@
+{
+  "source": "ByteWaveExport-E721579F-8EDC-4D56-9031-2DDD8D2BED12.MOV",
+  "source_sha256": "17e09c0267a737a5e427efa745aa5af5a507de0eddbe74d3614b5797cac7cc63",
+  "source_video_stream_sha256": [
+    "0,v,SHA256=c3603382020c4962f25c6d5360369d2d55c52927fc2c7c9799406f989f943b3c"
+  ],
+  "hls_video_stream_sha256": [
+    "0,v,SHA256=c3603382020c4962f25c6d5360369d2d55c52927fc2c7c9799406f989f943b3c"
+  ],
+  "video_stream_matches": true,
+  "source_audio_stream_sha256": [
+    "0,a,SHA256=ab61bafa25e084e1bfc8481b3fa5d2302b8c861b0027b94f5648ec8ce1beb463",
+    "1,a,SHA256=9457117c14f2377074c3cf2b5f1519918031408a946cec59e5661fd1c0c4c801"
+  ],
+  "hls_audio_stream_sha256": [
+    "0,a,SHA256=e3432e3e543703c4f08d74fd26ea8c8174a7a79c55047e6002b8f842fafb1553"
+  ],
+  "audio_preparation": "Two sequential source audio tracks aligned to their timestamps and combined into one continuous AAC track."
+}
