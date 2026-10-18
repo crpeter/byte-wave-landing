@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Made with ByteWave — Video Gallery</title>
-  <meta name="description" content="Watch videos made with ByteWave: The Quadruple Dive, Free as in Geese, slow motion, motion blur, and noise reduction. Find a look you like and try it yourself.">
+  <title>Made with ByteWave — Gallery</title>
+  <meta name="description" content="Explore videos and images made with ByteWave: sunset layouts, animated 3D text, slow motion, motion blur, and more. Find a look you like and try it yourself.">
   <link rel="canonical" href="https://bytewaveai.com/gallery/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Made with ByteWave — Video Gallery">
-  <meta property="og:description" content="The Quadruple Dive, Free as in Geese, slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
+  <meta property="og:title" content="Made with ByteWave — Gallery">
+  <meta property="og:description" content="Sunset layouts, animated 3D text, slow motion, and more. Explore finished videos and images made with ByteWave and try the effects yourself.">
   <meta property="og:url" content="https://bytewaveai.com/gallery/">
   <meta property="og:site_name" content="ByteWave">
   <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
   <meta property="og:image:alt" content="ByteWave branded social preview">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Made with ByteWave — Video Gallery">
-  <meta name="twitter:description" content="The Quadruple Dive, Free as in Geese, slow motion, motion blur, and noise reduction. Watch the finished edits and try the effects yourself.">
+  <meta name="twitter:title" content="Made with ByteWave — Gallery">
+  <meta name="twitter:description" content="Sunset layouts, animated 3D text, slow motion, and more. Explore finished videos and images made with ByteWave and try the effects yourself.">
   <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
   <meta name="twitter:image:alt" content="ByteWave branded social preview">
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
@@ -25,15 +25,44 @@
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Made with ByteWave",
-  "description": "Finished video edits made with ByteWave, with links to the effects used.",
+  "description": "Finished videos and images made with ByteWave, with links to the tools and effects used.",
   "url": "https://bytewaveai.com/gallery/",
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": 5,
+    "numberOfItems": 7,
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
+        "name": "Sunset hexagons",
+        "url": "https://bytewaveai.com/gallery/#sunset-hexagons",
+        "item": {
+          "@type": "ImageObject",
+          "name": "Sunset hexagons",
+          "description": "Ocean sunsets arranged in hexagonal panels over a full-frame sunset background in ByteWave.",
+          "contentUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons.jpg",
+          "width": 1152,
+          "height": 2048
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Air show in 3D",
+        "url": "https://bytewaveai.com/gallery/#air-show",
+        "item": {
+          "@type": "VideoObject",
+          "name": "Air show in 3D",
+          "description": "Planes flying over the beach with animated 3D text made in ByteWave.",
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/air-show/poster.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/gallery/air-show/original.m3u8",
+          "uploadDate": "2026-10-18T17:42:07-04:00",
+          "duration": "PT1M7.967S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
         "name": "The Quadruple Dive",
         "url": "https://bytewaveai.com/gallery/#quadruple-dive",
         "item": {
@@ -48,7 +77,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 2,
+        "position": 4,
         "name": "Free as in Geese",
         "url": "https://bytewaveai.com/gallery/#free-as-in-geese",
         "item": {
@@ -63,19 +92,19 @@
       },
       {
         "@type": "ListItem",
-        "position": 3,
+        "position": 5,
         "name": "Hummingbird, slowed down",
         "url": "https://bytewaveai.com/gallery/#hummingbird"
       },
       {
         "@type": "ListItem",
-        "position": 4,
+        "position": 6,
         "name": "At the harbor",
         "url": "https://bytewaveai.com/gallery/#harbor"
       },
       {
         "@type": "ListItem",
-        "position": 5,
+        "position": 7,
         "name": "Red leaves",
         "url": "https://bytewaveai.com/gallery/#red-leaves"
       }
@@ -100,7 +129,7 @@
     h1{font-size:clamp(2rem,5vw,2.8rem);font-weight:800;letter-spacing:-1.2px;line-height:1.15;color:#efeff4;margin-bottom:2rem}
     .gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem 1.5rem;list-style:none}
     figure{scroll-margin-top:6rem}
-    video{display:block;width:100%;height:clamp(20rem,60vh,36rem);object-fit:contain;background:#050508;border:1px solid var(--border);border-radius:10px}
+    .gallery-image,video{display:block;width:100%;height:clamp(20rem,60vh,36rem);object-fit:contain;background:#050508;border:1px solid var(--border);border-radius:10px}
     .stream-player{position:relative}
     .stream-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:64px;height:64px;border:1px solid rgba(255,255,255,.65);border-radius:50%;background:rgba(0,0,0,.65);color:#fff;cursor:pointer;box-shadow:0 2px 16px rgba(0,0,0,.3)}
     .stream-play:hover{background:rgba(0,0,0,.85)}
@@ -152,7 +181,39 @@
 
   <main id="main">
     <h1>Made with ByteWave</h1>
-    <ul class="gallery-grid" aria-label="Videos made with ByteWave">
+    <ul class="gallery-grid" aria-label="Videos and images made with ByteWave">
+      <li>
+        <figure id="sunset-hexagons">
+          <a href="/assets/images/gallery/sunset-hexagons.jpg" aria-label="View Sunset hexagons full size">
+            <img class="gallery-image" src="/assets/images/gallery/sunset-hexagons.jpg" width="1152" height="2048" decoding="async" alt="Four hexagonal panels of ocean sunsets and waves over a full-frame orange sunset and ocean background.">
+          </a>
+          <figcaption>
+            <h2>Sunset hexagons</h2>
+            <p class="effect">Hexagon layout · photo background</p>
+            <a class="tutorial-link" href="/layout/">Explore layouts</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="air-show">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player id="air-show-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/videos/gallery/air-show/poster.jpg" data-stream="/assets/videos/gallery/air-show/original.m3u8" data-compatible="/assets/videos/gallery/air-show/compatible.mp4" aria-label="Air show in 3D: planes flying over the beach with animated 3D text made in ByteWave.">
+                <source src="/assets/videos/gallery/air-show/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/gallery/air-show/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="Play video" aria-controls="air-show-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/gallery/air-show/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>Air show in 3D</h2>
+            <p class="effect">Animated 3D text</p>
+            <a class="tutorial-link" href="/tutorials/caption-text-effects/">Try this effect<span class="skip">: caption text effects</span></a>
+          </figcaption>
+        </figure>
+      </li>
       <li>
         <figure id="quadruple-dive">
           <div class="stream-player">

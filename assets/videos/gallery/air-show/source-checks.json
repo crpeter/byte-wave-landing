@@ -1,0 +1,15 @@
+{
+  "source": "88884DDF-86E9-47DF-9410-6A6A33044C39.MOV",
+  "source_sha256": "6ed6997e25a7f2428230e7673cc8552962be204b9fbd3f4cce2cc368bdff57ab",
+  "original_stream_sha256": [
+    "0,v,SHA256=9985890765f8383951dfe253dc844e78965ef21a5f7038c5fd25e466b1e7d8d9",
+    "1,a,SHA256=5fc31b926b18840a6721e514dcfef8e630c3ac64ea8e623386e6f34364811a11"
+  ],
+  "hls_stream_sha256": [
+    "0,v,SHA256=9985890765f8383951dfe253dc844e78965ef21a5f7038c5fd25e466b1e7d8d9",
+    "1,a,SHA256=5fc31b926b18840a6721e514dcfef8e630c3ac64ea8e623386e6f34364811a11"
+  ],
+  "streams_match": true,
+  "image_sha256": "93b629cd37ed727ef9e6048bcce00044499d03cb3ef561470495f821a40bd02b",
+  "image_matches_upload": true
+}
