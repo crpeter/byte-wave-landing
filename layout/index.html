@@ -29,6 +29,10 @@
 *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#050508;color:#e8e6f0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}a{color:#9bbaff}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}.skip{position:absolute;left:-999px;top:.5rem}.skip:focus{left:1rem;z-index:999;background:#fff;color:#000;padding:.6rem}nav{position:sticky;top:0;z-index:10;background:rgba(5,5,8,.94);border-bottom:1px solid #262633;padding:.8rem 5%;display:flex;align-items:center;justify-content:space-between}.logo{font-family:ui-monospace,monospace;font-weight:800;font-size:1.25rem;text-decoration:none;background:linear-gradient(135deg,#9bbaff,#e2b8df);color:transparent;background-clip:text}.navlinks{display:flex;gap:1.25rem;align-items:center}.navlinks a{color:#bbb8ca;text-decoration:none}.menu{display:none}.button{display:inline-block;padding:.7rem 1.1rem;border-radius:8px;background:linear-gradient(135deg,#9bbaff,#e2b8df);color:#050508!important;font-weight:750;text-decoration:none}main{max-width:1120px;margin:auto;padding:4rem 1.5rem}article{max-width:780px;margin:auto}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.035em}h2{margin-top:2.7rem;line-height:1.2}p,li{color:#aaa7bb}.eyebrow{color:#9bbaff;text-transform:uppercase;letter-spacing:.18em;font:700 .75rem ui-monospace,monospace}.meta,.disclosure{color:#858197;font-size:.92rem}.disclosure,.callout,.flow,.card{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}.hero{padding:5rem 0}.hero p{font-size:1.2rem;max-width:720px}.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem}.flow div{padding:1rem;background:#11111a;border-radius:8px}.flow strong{display:block;color:#fff}.source-list li{margin:.7rem 0}table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{padding:.75rem;border:1px solid #292838;text-align:left}footer{border-top:1px solid #22212e;padding:2.5rem 5%;color:#858197}.footerlinks{display:flex;gap:1rem;flex-wrap:wrap}.social{width:100%;height:auto;border-radius:14px}.press-copy{white-space:pre-wrap}.copy{border:1px solid #9bbaff;background:transparent;color:#9bbaff;padding:.5rem;border-radius:6px}@media(max-width:720px){nav{gap:.65rem;flex-wrap:wrap}.logo{font-size:1.1rem}.navlinks{display:flex;margin-left:auto}.navlinks a:not(.button){display:none}.navlinks .button{display:inline-flex;align-items:center;font-size:.8rem;padding:.55rem .65rem;min-height:44px;white-space:nowrap}.menu summary{padding:.55rem 0}.menu{display:block}.menu summary{cursor:pointer;color:#e8e6f0}.menu div{position:absolute;right:1rem;top:3.4rem;background:#11111a;border:1px solid #333244;padding:1rem;display:grid;gap:.8rem}.menu a{color:#e8e6f0}main{padding-top:2rem}}
 article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.65rem}.quick-links{display:flex;gap:.8rem 1.2rem;flex-wrap:wrap}.lead{font-size:1.16rem}.company-list dt{font-weight:750;margin-top:1.3rem;color:#e8e6f0}.company-list dd{margin:.4rem 0 1.2rem;color:#aaa7bb}strong{color:#e8e6f0}.meta,.disclosure{color:#aaa7bb}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
+
+.layout-photos{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:1.5rem;align-items:center;margin:1.5rem 0 3rem}
+.layout-photo{margin:0;min-width:0}.layout-photo img{display:block;width:100%;height:auto;border-radius:14px}.layout-photo figcaption{margin-top:.6rem;color:#bbc9d1;font-size:.9rem}
+@media(max-width:640px){.layout-photos{grid-template-columns:1fr}.layout-photo:first-child{width:100%;max-width:320px;justify-self:center}}
     </style>
     <script type="application/ld+json">
 {
@@ -56,7 +60,25 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
           "url": "https://bytewaveai.com/logo.png"
         }
       },
-      "image": "https://bytewaveai.com/assets/social/layout.jpg",
+      "image": [
+        "https://bytewaveai.com/assets/social/layout.jpg",
+        {
+          "@type": "ImageObject",
+          "name": "Sunset hexagons — Portrait",
+          "contentUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons.jpg",
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons-portrait-665.jpg",
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "@type": "ImageObject",
+          "name": "Sunset hexagons — Landscape",
+          "description": "Four hexagonal panels of ocean sunsets and waves centered over a wide orange sunset and ocean background.",
+          "contentUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons-landscape.jpg",
+          "width": 2048,
+          "height": 1152
+        }
+      ],
       "video": [
         {
           "@id": "https://bytewaveai.com/layout/#honeycomb-video"
@@ -155,6 +177,23 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     <p class="disclosure ai-disclosure"><strong>AI disclosure:</strong> This article includes text generated with an AI language model (LLM). Published by ByteWave, which makes the app discussed here.</p>
 
     <p class="lead">Stack videos. Mix photos and clips. Build grids or honeycomb layouts with ByteWave, free on iPhone, iPad, and Apple Silicon Mac.</p>
+    <section aria-labelledby="sunset-layouts">
+      <h2 id="sunset-layouts">One layout, two orientations</h2>
+      <div class="layout-photos">
+        <figure class="layout-photo">
+          <a href="/assets/images/gallery/sunset-hexagons.jpg" aria-label="View sunset hexagons portrait full size">
+            <img src="/assets/images/gallery/sunset-hexagons-portrait-665.jpg" srcset="/assets/images/gallery/sunset-hexagons-portrait-665.jpg 665w, /assets/images/gallery/sunset-hexagons.jpg 1152w" sizes="(max-width: 640px) 320px, 326px" width="1152" height="2048" decoding="async" alt="Four hexagonal panels of ocean sunsets and waves in a tall portrait composition.">
+          </a>
+          <figcaption>Sunset hexagons · Portrait</figcaption>
+        </figure>
+        <figure class="layout-photo">
+          <a href="/assets/images/gallery/sunset-hexagons-landscape.jpg" aria-label="View sunset hexagons landscape full size">
+            <img src="/assets/images/gallery/sunset-hexagons-landscape.jpg" width="2048" height="1152" decoding="async" alt="Four hexagonal panels of ocean sunsets and waves centered over a wide orange sunset and ocean background.">
+          </a>
+          <figcaption>Sunset hexagons · Landscape</figcaption>
+        </figure>
+      </div>
+    </section>
     <section class="layout-demos" aria-label="Videos made with Layout from ByteWave">
         <figure class="layout-demo">
             <div class="layout-player">
