@@ -127,5 +127,3 @@ a:focus-visible, video:focus-visible { outline: 3px solid #f5bda7; outline-offse
 @media (max-width: 600px) {
   .site-home .compare-section .comp-table tbody th { padding: .6rem .45rem; font-size: .76rem; overflow-wrap: anywhere; }
 }
-
-.site-home .compare-section .comp-table td:nth-child(3) a { color: inherit; text-underline-offset: .15em; }
