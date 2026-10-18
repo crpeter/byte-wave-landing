@@ -347,46 +347,51 @@ footer p { margin: 0 0 0.5rem; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 </style>
+    <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
 </head>
-<body>
-
+<body class="site-page site-editorial">
+<a class="site-skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a></div>
+    <details class="site-menu">
+        <summary>Menu</summary>
+        <div class="site-menu-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    </details>
+    <a class="site-download" href="https://apps.apple.com/us/app/bytewave/id6752225642">Download Free</a>
+</nav>
 <div id="scrub" aria-hidden="true"></div>
 
-<header class="mast">
-  <div class="wrap">
-    <span class="mark">ByteWave</span>
-    <span class="tag">Press kit</span>
-    <a class="home" href="/">bytewaveai.com</a>
-  </div>
-</header>
 
+
+
+<main id="main">
 <div class="hero">
   <div class="wrap">
     <h1>Everything you need to write about ByteWave.</h1>
     <p>Verified facts, boilerplate, story angles, and available brand assets. Every text block has a copy button.</p>
-    <p class="updated">Last updated August 28, 2026 · Questions: <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a></p>
+    <p class="updated">Last updated October 18, 2026 · Questions: <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a></p>
   </div>
 </div>
 
-<nav class="nav-bar">
-  <div class="wrap">
-    <ol>
-      <li><a href="#facts">Fact sheet</a></li>
-      <li><a href="#boilerplate">Boilerplate</a></li>
-      <li><a href="#angles">Story angles</a></li>
-      <li><a href="#bio">About</a></li>
-      <li><a href="#assets">Assets</a></li>
-      <li><a href="#usage">Usage</a></li>
-    </ol>
-  </div>
-</nav>
 
-<main>
-  <div class="wrap">
+
+<div class="wrap">
 
     <section id="facts">
       <h2>Fact sheet</h2>
-      <p class="lede">Current as of the date above. If something here contradicts an older article, this page is right.</p>
+      <p class="lede">Current as of the date above. For current device requirements, see the App Store listing.</p>
 
       <div class="fact-row"><span class="fact-label">App</span><span class="fact-value">ByteWave</span></div>
       <div class="fact-row"><span class="fact-label">Developer</span><span class="fact-value">Independently developed under the ByteWave name</span></div>
@@ -434,17 +439,17 @@ footer p { margin: 0 0 0.5rem; }
 
       <div class="angle">
         <h3>The privacy alternative</h3>
-        <p>ByteWave separates local editing from optional online participation. Raw footage is not uploaded by the editor, no account is required to edit, and ByteWave does not retain server-side watch history. Apple-provided speech processing may vary by device and system settings.</p>
+        <p>ByteWave separates local editing from optional online participation. Raw footage is not uploaded by the editor, no account is required to edit, and ByteWave does not retain server-side watch history. Automatic video tagging is separate and requires an account and opt-in; see the <a href="/privacy.html">privacy policy</a>.</p>
       </div>
 
       <div class="angle">
         <h3>What a hard minimum requirement buys you</h3>
-        <p>ByteWave requires iOS 26 and supports nothing older. That is an unusual choice for a consumer app chasing installs, and it is deliberate: it lets the app use current Apple frameworks directly instead of maintaining fallbacks. Captions, translation, Metal-based effects, and export all run locally as a result, and the same build runs on Apple Silicon Macs. The tradeoff is a smaller addressable device base in exchange for capability no cross-platform competitor can match.</p>
+        <p>ByteWave works on any iPhone that supports iOS 26, and on iPads with iPadOS 26. Mac requires macOS 26 and Apple M1 or later. These requirements let ByteWave use current Apple frameworks for local editing and rendering. Individual effects still depend on the available hardware and installed language resources.</p>
       </div>
 
       <div class="angle">
         <h3>Free, and not the freemium kind</h3>
-        <p>Every major competitor in this category runs the same play: free until the moment it matters, then a watermark on the export, or a resolution cap, or a paywalled caption style. ByteWave has no Pro tier waiting behind the export button, no watermark, and no upsell. The app a first-time user opens is the whole app. Built and run by one person.</p>
+        <p>ByteWave has no Pro tier waiting behind the export button, no ByteWave watermark, and no paid editing tools. The app a first-time user opens is the whole editor. Built and run by one person.</p>
       </div>
     </section>
 
@@ -471,17 +476,23 @@ footer p { margin: 0 0 0.5rem; }
     <section id="usage">
       <h2>Usage</h2>
       <p class="lede">Press and reviewers may use the copy, screenshots, logos, and video on this page freely in coverage of ByteWave. No approval needed and no embargo to clear.</p>
-      <p class="lede">Fact-checking something, or need a screenshot that is not here? Email <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a> and you will get a same-day answer from the person who wrote the code.</p>
+      <p class="lede">Fact-checking something, or need a screenshot that is not here? Email <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a> to reach ByteWave’s developer.</p>
     </section>
 
   </div>
 </main>
 
-<footer>
-  <div class="wrap">
-    <p>ByteWave is made by one person.</p>
-    <p><a href="/">bytewaveai.com</a></p>
-  </div>
+<footer class="site-footer">
+    <div class="site-footer-links"><a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/press.html">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    <p>© 2026 ByteWave. Video editing should be free.</p>
+    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
 </footer>
 
 <div id="live" role="status" aria-live="polite"></div>
@@ -522,5 +533,6 @@ footer p { margin: 0 0 0.5rem; }
 })();
 </script>
 
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>

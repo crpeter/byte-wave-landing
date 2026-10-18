@@ -119,23 +119,33 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
   ]
 }
 </script>
-    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css">
+    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
     <link rel="stylesheet" href="/assets/css/creation-guides.css?v=67c0fd0f031d">
     <link rel="stylesheet" href="/assets/css/layout-demos.css?v=d44cea509b76">
-    <script src="/assets/js/layout-videos.js?v=00e74fbbcf1a" defer></script>
+
+    <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-<nav aria-label="Primary">
-    <a class="logo" href="/">ByteWave</a>
-    <div class="navlinks">
-        <a href="/blog/">Blog</a><a href="/tutorials/">Tutorials</a><a href="/gallery/">Gallery</a><a href="/privacy.html">Privacy</a>
-        <a class="button" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=feature_layout&amp;mt=8">Get ByteWave</a>
-    </div>
-    <details class="menu">
+<body class="site-page site-editorial">
+<a class="site-skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a></div>
+    <details class="site-menu">
         <summary>Menu</summary>
-        <div><a href="/blog/">Blog</a><a href="/tutorials/">Tutorials</a><a href="/gallery/">Gallery</a><a href="/about.html">About</a><a href="/privacy.html">Privacy</a><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=feature_layout&amp;mt=8">Get ByteWave</a></div>
+        <div class="site-menu-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
     </details>
+    <a class="site-download" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=feature_layout&amp;mt=8">Download Free</a>
 </nav>
 <main id="main">
 <article class="creation-guide layout-page">
@@ -148,58 +158,67 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     <section class="layout-demos" aria-label="Videos made with Layout from ByteWave">
         <figure class="layout-demo">
             <div class="layout-player">
-                <video id="honeycomb-video" class="layout-video" controls playsinline preload="none"
+                <div class="bw-player">
+  <div class="bw-media"><video data-bw-player id="honeycomb-video" class="layout-video" controls playsinline preload="none"
                        poster="/assets/videos/layout/honeycomb/poster.jpg" width="2160" height="2160"
                        data-stream="/assets/videos/layout/honeycomb/original.m3u8" data-compatible="/assets/videos/layout/honeycomb/compatible.mp4"
                        aria-label="Honeycomb layout video" aria-describedby="honeycomb-caption">
                     <source src="/assets/videos/layout/honeycomb/original.m3u8" type="application/vnd.apple.mpegurl">
                     <source src="/assets/videos/layout/honeycomb/compatible.mp4" type="video/mp4">
-                    <a href="/assets/videos/layout/honeycomb/compatible.mp4">Watch the MP4 video</a>.
+
                 </video>
-                <button class="layout-play" type="button" aria-controls="honeycomb-video" hidden>
-                    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
-                    <span>Play honeycomb video</span>
-                </button>
+    <button class="bw-play" type="button" aria-label="Play video" aria-controls="honeycomb-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/layout/honeycomb/compatible.mp4">Open compatibility copy</a></p>
+</div>
+
             </div>
-            <p class="layout-status" role="status"></p>
+
             <figcaption id="honeycomb-caption"><strong>Honeycomb</strong>Seven hexagonal cells showing the moon, a dog, and a sunny field.</figcaption>
             <a class="layout-download" href="/assets/videos/layout/honeycomb/compatible.mp4">Watch MP4</a>
         </figure>
         <figure class="layout-demo">
             <div class="layout-player">
-                <video id="ocean-grid-video" class="layout-video" controls playsinline preload="none"
+                <div class="bw-player">
+  <div class="bw-media"><video data-bw-player id="ocean-grid-video" class="layout-video" controls playsinline preload="none"
                        poster="/assets/videos/layout/ocean-grid/poster.jpg" width="2160" height="3840"
                        data-stream="/assets/videos/layout/ocean-grid/original.m3u8" data-compatible="/assets/videos/layout/ocean-grid/compatible.mp4"
                        aria-label="Six-panel grid layout video" aria-describedby="ocean-grid-caption">
                     <source src="/assets/videos/layout/ocean-grid/original.m3u8" type="application/vnd.apple.mpegurl">
                     <source src="/assets/videos/layout/ocean-grid/compatible.mp4" type="video/mp4">
-                    <a href="/assets/videos/layout/ocean-grid/compatible.mp4">Watch the MP4 video</a>.
+
                 </video>
-                <button class="layout-play" type="button" aria-controls="ocean-grid-video" hidden>
-                    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
-                    <span>Play six-panel grid video</span>
-                </button>
+    <button class="bw-play" type="button" aria-label="Play video" aria-controls="ocean-grid-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/layout/ocean-grid/compatible.mp4">Open compatibility copy</a></p>
+</div>
+
             </div>
-            <p class="layout-status" role="status"></p>
+
             <figcaption id="ocean-grid-caption"><strong>Six-panel grid</strong>Six seaside clips in one frame: sunsets, a sailboat, and a beach.</figcaption>
             <a class="layout-download" href="/assets/videos/layout/ocean-grid/compatible.mp4">Watch MP4</a>
         </figure>
         <figure class="layout-demo">
             <div class="layout-player">
-                <video id="warped-sunset-video" class="layout-video" controls playsinline preload="none"
+                <div class="bw-player">
+  <div class="bw-media"><video data-bw-player id="warped-sunset-video" class="layout-video" controls playsinline preload="none"
                        poster="/assets/videos/layout/warped-sunset/poster.jpg" width="1080" height="1920"
                        data-stream="/assets/videos/layout/warped-sunset/original.m3u8" data-compatible="/assets/videos/layout/warped-sunset/compatible.mp4"
                        aria-label="Warped sunset layout video" aria-describedby="warped-sunset-caption">
                     <source src="/assets/videos/layout/warped-sunset/original.m3u8" type="application/vnd.apple.mpegurl">
                     <source src="/assets/videos/layout/warped-sunset/compatible.mp4" type="video/mp4">
-                    <a href="/assets/videos/layout/warped-sunset/compatible.mp4">Watch the MP4 video</a>.
+
                 </video>
-                <button class="layout-play" type="button" aria-controls="warped-sunset-video" hidden>
-                    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
-                    <span>Play warped sunset video</span>
-                </button>
+    <button class="bw-play" type="button" aria-label="Play video" aria-controls="warped-sunset-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/layout/warped-sunset/compatible.mp4">Open compatibility copy</a></p>
+</div>
+
             </div>
-            <p class="layout-status" role="status"></p>
+
             <figcaption id="warped-sunset-caption"><strong>Warped sunset</strong>Sunset footage arranged into curved bands.</figcaption>
             <a class="layout-download" href="/assets/videos/layout/warped-sunset/compatible.mp4">Watch MP4</a>
         </figure>
@@ -223,9 +242,19 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     <aside class="guide-related" aria-label="Related guides"><ul><li><a href="/tutorials/animated-captions/">Add animated captions</a></li><li><a href="/tutorials/animate-stickers/">Add moving stickers</a></li></ul></aside>
 </article>
 </main>
-<footer>
-    <div class="footerlinks"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/tutorials/">Tutorials</a><a href="/about.html">About</a><a href="/privacy.html">Privacy</a></div>
+<footer class="site-footer">
+    <div class="site-footer-links"><a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/press.html">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
     <p>© 2026 ByteWave. Video editing should be free.</p>
+    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
 </footer>
+<script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>

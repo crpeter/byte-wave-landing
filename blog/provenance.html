@@ -12,8 +12,8 @@
 <meta property="og:description" content="What signed export provenance establishes, what it cannot prove, and how it differs from publisher prominence.">
 <meta property="og:url" content="https://bytewaveai.com/blog/provenance.html">
 <meta property="og:site_name" content="ByteWave">
-<meta property="og:image" content="https://bytewaveai.com/preview.jpg">
-<meta name="twitter:image" content="https://bytewaveai.com/preview.jpg">
+<meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+<meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
 <meta name="twitter:image:alt" content="ByteWave branded social preview">
 <meta property="og:image:alt" content="ByteWave branded social preview">
 <meta name="twitter:card" content="summary">
@@ -28,7 +28,7 @@
   "headline": "Provenance, Not Prominence",
   "description": "Europe wants to fix misinformation by promoting approved publishers. Cryptographic content provenance is a better answer.",
   "datePublished":"2026-07-04",
-  "dateModified":"2026-08-28",
+  "dateModified":"2026-10-18",
   "author": { "@type": "Organization", "name": "ByteWave" },
   "publisher": {
     "@type": "Organization",
@@ -143,32 +143,47 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
   article{padding-top:2.5rem}
 }
 </style>
-    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css">
+    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
+    <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
 </head>
-<body>
-
-<nav>
-  <a href="/" class="logo">ByteWave</a>
-  <div class="nav-links">
-    <a href="/#compare">Compare</a>
-    <a href="/#features">Features</a>
-    <a href="/blog/">Blog</a>
-    <a href="/tutorials/" class="tutorials-link">Tutorials</a>
-    <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
-  </div>
+<body class="site-page site-editorial">
+<a class="site-skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a></div>
+    <details class="site-menu">
+        <summary>Menu</summary>
+        <div class="site-menu-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    </details>
+    <a class="site-download" href="https://apps.apple.com/us/app/bytewave/id6752225642">Download Free</a>
 </nav>
-
-<article>
+<main id="main"><article>
   <span class="tag">Provenance</span>
   <h1>Provenance, not prominence</h1>
-  <div class="meta">Published July 4, 2026 · Updated August 28, 2026 · 5 min read</div>
+  <div class="meta">Published July 4, 2026 · 5 min read · Updated <time datetime="2026-10-18">October 18, 2026</time></div>
   <div class="disclosure ai-disclosure"><strong>AI disclosure:</strong> This article includes text generated with an AI language model (LLM). Published by <a href="/about.html">ByteWave</a>. This post reflects ByteWave's editorial position, not independent analysis.</div>
 
-  <p>Governments across Europe are trying to solve a real problem with the wrong tool.</p>
+  <h2 id="signed-exports">How ByteWave stamps your exports</h2>
+  <p><strong>Every time you save to Photos, ByteWave adds its own provenance stamp.</strong> It carries signed ByteWave history and source assessments. It is metadata, not a visible watermark.</p>
+  <p>To inspect a saved copy, import that file into ByteWave, select its clip, and tap the provenance badge. If badges are hidden, use <strong>Show Badges</strong>. Read the details, not just the badge color. <a href="/tutorials/check-c2pa-content-credentials/">See the checking steps and results.</a></p>
+  <p>ByteWave’s stamp is separate from the <strong>C2PA Content Credentials it can read</strong> in imported files. A valid signature helps establish the signed record’s origin and detect changes to what was signed. It does not prove that the scene happened.</p>
+  <h2 id="prominence">Our view: provenance, not prominence</h2>
+  <p>Making a publisher easier to find does not make every clip it publishes true.</p>
 
-  <p>The UK's "Watch this Space" Green Paper proposes forcing social media platforms to give prominent placement to state-run broadcasters in feeds and search results. The EU's European Media Freedom Act pushes similar obligations. Both cite the same underlying shift: more than half of all news consumption now happens through social media, and trust in what people see there is eroding.</p>
+  <p>The UK’s June 2026 <a href="https://www.gov.uk/government/consultations/watch-this-space-a-new-strategic-direction-for-uk-media-green-paper-and-public-consultation/watch-this-space-a-new-strategic-direction-for-uk-media-green-paper-and-public-consultation">Watch this Space green paper</a> consulted on making public-service media and other trusted news more prominent online. It did not itself enact a rule forcing broadcasters to the top of every feed. The EU’s <a href="https://digital-strategy.ec.europa.eu/en/library/guidelines-under-article-18-european-media-freedom-act-emfa">Article 18 media safeguards</a> address moderation of qualifying media providers, a different mechanism.</p>
 
-  <p>The proposed fix is prominence. Force algorithms to surface content from approved sources. The theory is straightforward: if people see regulated broadcasters first, they'll be less exposed to misinformation.</p>
+  <p>Our concern with publisher prominence is simple: ranking an institution higher is not evidence about an individual file. Readers still need ways to check the source and editing history of what they see.</p>
 
   <p>This treats discoverability as a proxy for trustworthiness. But those are different problems. Making something easy to find doesn't make it true. Making something hard to find doesn't make it false.</p>
 
@@ -176,19 +191,19 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
 
   <p>You cannot reliably determine a video's history just by looking at it. A synthetic clip and a camera recording may appear similar in a feed. Provenance can add a machine-verifiable signal about origin and edits, but it cannot establish that the depicted event happened.</p>
 
-  <p>But publisher identity is a blunt instrument. It assumes that every piece of content from an approved source is trustworthy and every piece from an unapproved source is suspect. The first claim is generous. The second punishes every independent creator and journalist who built an audience on these platforms by producing work that people actively sought out.</p>
+  <p>Publisher identity can be useful context. It should not replace checking a particular claim or dismissing footage solely because an independent creator published it.</p>
 
   <h2>What provenance solves</h2>
 
   <p>Content provenance takes a different approach. Instead of asking only "who published this?" it asks what can be verified about the file's origin and modification history.</p>
 
-  <p><strong>Every video exported from ByteWave is cryptographically signed on-device using ML-DSA-65</strong>, a post-quantum digital signature algorithm. The signature covers a hash of the actual video content and records that the file was produced by ByteWave without any server-side processing. Anyone with the public key can verify that a video hasn't been tampered with since export.</p>
+  <p>ByteWave applies its own signed stamp when saving to Photos. The practical checking steps are <a href="#signed-exports">above</a>. ByteWave’s own stamp and imported C2PA credentials are separate.</p>
 
-  <p>This isn't a concept unique to ByteWave. The C2PA (Coalition for Content Provenance and Authenticity) has been developing open standards for content credentials across the industry. What ByteWave adds is implementation at the consumer level: every free export, every user, every device. Provenance as a default, not a premium feature or an enterprise add-on.</p>
+  <p>The <a href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html">C2PA standard</a> defines a way to attach verifiable content history. ByteWave reads supported C2PA credentials and also creates its own export stamp. These are distinct capabilities.</p>
 
   <h2>Two models of trust</h2>
 
-  <p>A prominence regime asks platforms to rank content by institutional authority. It requires governments to maintain lists of approved publishers, regulators to enforce algorithmic compliance, and platforms to override what their users chose to watch. It compresses reach for everyone not on the list. It concentrates power.</p>
+  <p>Our concern is that giving selected publishers privileged placement could reduce opportunities for independent voices. That is a policy argument, not a measured effect of the UK proposal.</p>
 
   <p>A provenance system supplies evidence that readers and platforms can inspect. It still depends on trusted signing keys, secure implementations, clear disclosure, and careful interpretation; cryptography alone cannot certify the truth of a scene.</p>
 
@@ -197,18 +212,27 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
   <p>That question has a technical answer. We're building it.</p>
 
   <div class="cta-box">
-    <h3>Every export, cryptographically signed</h3>
-    <p>ByteWave embeds provenance metadata in every video you create. Free.</p>
+    <h3>A ByteWave stamp on every Save to Photos export</h3>
+    <p>Save to Photos with ByteWave’s provenance stamp. Free, with no visible ByteWave watermark.</p>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn">Download for Apple</a>
   </div>
 
   <p class="related">Also read: <a href="/blog/your-feed.html">Your Feed Belongs to You</a> · <a href="/blog/best-free-video-editor-no-watermark.html">Best Free Video Editor Without a Watermark</a></p>
-</article>
+</article></main>
 
-<footer>
-  <p>&copy; 2026 ByteWave</p>
-  <p class="tagline">Video editing should be free.</p>
+<footer class="site-footer">
+    <div class="site-footer-links"><a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/press.html">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    <p>© 2026 ByteWave. Video editing should be free.</p>
+    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
 </footer>
 
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>

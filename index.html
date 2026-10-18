@@ -509,23 +509,30 @@
     }
     </style>
     <link rel="stylesheet" href="/assets/css/landing.css?v=b9b631b5cff3">
+    <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
 </head>
-<body>
-<a class="skip-link" href="#main">Skip to content</a>
-
-<nav aria-label="Main navigation">
-    <a href="/" class="logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
-    <div class="nav-links">
-        <a href="#compare">Compare</a>
-        <a href="#features">Features</a>
-        <a href="/privacy.html">Privacy</a>
+<body class="site-page site-home">
+<a class="site-skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a></div>
+    <details class="site-menu">
+        <summary>Menu</summary>
+        <div class="site-menu-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
         <a href="/blog/">Blog</a>
-        <a href="/gallery/" class="gallery-link">Gallery</a>
-        <a href="/tutorials/" class="tutorials-link">Tutorials</a>
-        <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="nav-cta">Download Free</a>
-    </div>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    </details>
+    <a class="site-download" href="https://apps.apple.com/us/app/bytewave/id6752225642">Download Free</a>
 </nav>
-
 <main id="main">
 <section class="hero" aria-labelledby="hero-title">
     <picture class="hero-photo" aria-hidden="true">
@@ -541,7 +548,7 @@
         <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_ocean_hero&amp;mt=8" class="btn-primary">Download ByteWave</a>
         <a href="#see-bytewave" class="btn-secondary">See what you can make ↓</a>
     </div>
-    <p class="hero-note">No subscriptions. No export watermarks.<br>Mac requires Apple Silicon.</p>
+    <p class="hero-note">No subscriptions. No export watermarks.<br>iOS / iPadOS 26 or later. Mac: macOS 26 or later, M1 or later.</p>
 </section>
 
 <section class="showcase" id="see-bytewave" aria-labelledby="showcase-title">
@@ -573,8 +580,8 @@
         </div>
         <div>
             <h3>Your exports are signed.</h3>
-            <p>Each export gets a digital signature. It helps show that the file came from ByteWave and whether it has changed since it was signed.</p>
-            <a href="/blog/provenance.html">How signed exports work →</a>
+            <p>Every Save to Photos export gets a ByteWave provenance stamp with a digital signature. It helps show that the file came from ByteWave and whether it has changed since it was signed.</p>
+            <a href="/blog/provenance.html#signed-exports">How signed exports work →</a>
         </div>
     </div>
     <p class="credentials-note">No credentials? That does not mean real or fake. A signature cannot prove that a scene happened.</p>
@@ -591,16 +598,19 @@
         </div>
         <figure>
             <div class="geese-player">
-            <video id="geese-video" class="geese-video" data-stream="/assets/landing/geese-hq/playlist.m3u8" controls playsinline preload="none" poster="/assets/landing/geese-poster.jpg" width="886" height="1920" aria-label="Free as in geese: ByteWave app preview" aria-describedby="geese-caption">
+            <div class="bw-player">
+  <div class="bw-media"><video data-compatible="/assets/landing/free-as-in-geese.mp4" data-bw-player id="geese-video" class="geese-video" data-stream="/assets/landing/geese-hq/playlist.m3u8" controls playsinline preload="none" poster="/assets/landing/geese-poster.jpg" width="886" height="1920" aria-label="Free as in geese: ByteWave app preview" aria-describedby="geese-caption">
                 <source src="/assets/landing/geese-hq/playlist.m3u8" type="application/vnd.apple.mpegurl">
-                <a href="/assets/landing/free-as-in-geese.mp4">Watch a smaller compatibility copy</a>.
+
             </video>
-            <button id="geese-play" type="button" aria-controls="geese-video" hidden>
-                <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5v15l12-7.5z" fill="currentColor"/></svg>
-                <span class="geese-play-label">Play video</span>
-            </button>
+    <button class="bw-play" type="button" aria-label="Play video" aria-controls="geese-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/landing/free-as-in-geese.mp4">Open compatibility copy</a></p>
+</div>
+
             </div>
-            <p id="geese-status" role="status"></p>
+
             <figcaption id="geese-caption">Geese navigating moving water, with “Free as in geese” on screen.</figcaption>
         </figure>
     </div>
@@ -617,7 +627,7 @@
         ByteWave processes editing locally on your Apple device. <strong>No account is required for local editing, and your videos are not uploaded unless you explicitly choose to post or share them through an online feature.</strong>
     </p>
     <p>
-        Every export is cryptographically signed with provenance metadata to help verify its ByteWave origin and whether the file has changed since signing. A signature cannot prove that a depicted event happened. <a href="/blog/provenance.html">Learn what signed exports establish.</a>
+        Every Save to Photos export is cryptographically signed with ByteWave provenance metadata to help verify its ByteWave origin and whether the file has changed since signing. A signature cannot prove that a depicted event happened. <a href="/blog/provenance.html#signed-exports">Learn what signed exports establish.</a>
     </p>
 </section>
 
@@ -650,94 +660,35 @@
 
 <section class="compare-section" id="compare">
     <h2>ByteWave vs. CapCut</h2>
-    <p class="compare-intro">CapCut went from free to $9.99/month. We went the other direction.</p>
+    <p class="compare-intro">ByteWave’s editing tools are free. CapCut offers free tools and paid plans.</p>
 
     <table class="comp-table">
         <thead>
         <tr>
-            <th></th>
-            <th>ByteWave</th>
-            <th>CapCut Pro</th>
+            <th scope="col">Feature</th>
+            <th scope="col">ByteWave</th>
+            <th scope="col">CapCut</th>
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>Price</td>
-            <td><span class="price-free">$0</span></td>
-            <td><span class="price-paid">$9.99/mo</span></td>
-        </tr>
-        <tr>
-            <td>Watermarks</td>
-            <td class="yes">None</td>
-            <td class="no">On free tier</td>
-        </tr>
-        <tr>
-            <td>On-device processing</td>
-            <td class="yes">100% local</td>
-            <td class="no">Uploads to servers</td>
-        </tr>
-        <tr>
-            <td>Data collection</td>
-            <td class="yes">None</td>
-            <td class="no">Extensive</td>
-        </tr>
-        <tr>
-            <td>Video provenance</td>
-            <td class="yes">Cryptographic signing</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>Slow motion</td>
-            <td class="yes">&#10003;</td>
-            <td class="yes" style="opacity:.45">&#10003;</td>
-        </tr>
-        <tr>
-            <td>Motion blur</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>Noise reduction</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>AI upscaling</td>
-            <td class="yes">On-device</td>
-            <td class="yes" style="opacity:.45">Cloud-based</td>
-        </tr>
-        <tr>
-            <td>Unlimited audio tracks</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">Limited</td>
-        </tr>
-        <tr>
-            <td>Text to speech</td>
-            <td class="yes">Free</td>
-            <td class="yes" style="opacity:.45">Pro only</td>
-        </tr>
-        <tr>
-            <td>Auto captions</td>
-            <td class="yes">Free</td>
-            <td class="yes" style="opacity:.45">Pro only</td>
-        </tr>
-        <tr>
-            <td>Editable filter source code</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>Community filters</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        <tr>
-            <td>Subject isolation for filters</td>
-            <td class="yes">&#10003;</td>
-            <td class="no">&#10007;</td>
-        </tr>
-        </tbody>
+<tr><th scope="row">Price</th><td>$0</td><td>Free and paid plans</td></tr>
+<tr><th scope="row">Watermarks</th><td>No ByteWave watermark</td><td>Depends on tool and export</td></tr>
+<tr><th scope="row">Editing</th><td>On-device; no account required</td><td>Local and cloud tools</td></tr>
+<tr><th scope="row">Data handling</th><td>No behavioral tracking; optional accounts and publishing</td><td>See CapCut privacy policy</td></tr>
+<tr><th scope="row">Video provenance</th><td>ByteWave stamp on Save to Photos</td><td>Check current export options</td></tr>
+<tr><th scope="row">Slow motion</th><td>Included</td><td>Available</td></tr>
+<tr><th scope="row">Motion blur</th><td>Included</td><td>Available</td></tr>
+<tr><th scope="row">Video noise reduction</th><td>Included</td><td>Check platform and plan</td></tr>
+<tr><th scope="row">AI upscaling</th><td>On-device</td><td>Check platform and plan</td></tr>
+<tr><th scope="row">Audio tracks</th><td>No track limit</td><td>Check platform limits</td></tr>
+<tr><th scope="row">Text to speech</th><td>Included</td><td>Available; voices and limits vary</td></tr>
+<tr><th scope="row">Auto captions</th><td>Included</td><td>Available; limits vary</td></tr>
+<tr><th scope="row">Editable filter source code</th><td>Metal shader source included</td><td>Check current filter tools</td></tr>
+<tr><th scope="row">Community filters</th><td>Shared editable shaders</td><td>Effects and templates</td></tr>
+<tr><th scope="row">Subject isolation for filters</th><td>Included</td><td>Masking and cutout tools</td></tr>
+</tbody>
     </table>
+<p class="comparison-note">Checked October 18, 2026. CapCut features, prices, and limits vary by platform, region, and plan. Sources: <a href="https://www.capcut.com/resource/motion-blur-effect">motion blur and editing tools</a>, <a href="https://www.capcut.com/tools/text-to-speech">text to speech</a>, <a href="https://www.capcut.com/help/auto-captions">captions</a>, and <a href="https://www.capcut.com/clause/privacy-policy">privacy policy</a>. <a href="/blog/free-capcut-alternative-2026.html">Read the comparison.</a></p>
 </section>
 
 <hr class="divider">
@@ -748,12 +699,12 @@
     <div class="feature-list">
         <div class="feature-item">
             <h3>C2PA checks &amp; video provenance</h3>
-            <p>Check photos and videos for supported Content Credentials, including AI-generation labels. Your exports also get a digital signature to help identify later changes.</p>
+            <p>Check photos and videos for supported Content Credentials, including AI-generation labels. Every Save to Photos export also gets a ByteWave stamp to help identify later changes.</p>
         </div>
 
         <div class="feature-item">
             <h3>Slow motion & motion blur</h3>
-            <p>Frame interpolation, motion blur, and temporal noise reduction; all running on the GPU in real time.</p>
+            <p>Make slow-motion video smoother with FRC. Motion blur and temporal noise reduction are also processed locally on your device before preview.</p>
         </div>
 
         <div class="feature-item">
@@ -768,7 +719,7 @@
 
         <div class="feature-item">
             <h3>Text to speech</h3>
-            <p>Type text for voice synthesis or generate captions from speech. Some Apple speech features may use Apple servers depending on device, language, and settings.</p>
+            <p>Type text for voice synthesis or generate captions from speech. Automatic video tagging is a separate feature that requires an account and opt-in.</p>
         </div>
 
         <div class="feature-item">
@@ -824,23 +775,27 @@
 
 <section class="cta-section" id="download">
     <h2>Download ByteWave</h2>
-    <p>Free. No account. No credit card. No catch.</p>
+    <p>Edit offline. No account required. Upload only when you choose to publish.</p>
     <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn-primary" style="padding:.85rem 2.2rem">Download for Apple</a>
 </section>
 
 </main>
 
-<footer>
-    <p class="footer-nav">
-        <a href="/tutorials/">Tutorials</a> ·
-        <a href="/blog/">Blog</a> ·
-        <a href="/press.html">Press Kit</a> ·
+<footer class="site-footer">
+    <div class="site-footer-links"><a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/press.html">Press</a>
         <a href="/privacy.html">Privacy</a>
-    </p>
-    <p>&copy; 2026 <a href="/">ByteWave</a></p>
-    <p class="tagline">Video editing should be free.</p>
+        <a href="/free-expression.html">Free expression</a></div>
+    <p>© 2026 ByteWave. Video editing should be free.</p>
+    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
 </footer>
 
-<script src="/assets/js/geese-video.js" defer></script>
+
+<script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>
