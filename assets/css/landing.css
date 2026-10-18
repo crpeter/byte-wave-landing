@@ -115,3 +115,15 @@ a:focus-visible, video:focus-visible { outline: 3px solid #f5bda7; outline-offse
   .geese-inner figure { max-width: 320px; width: 100%; margin: 0 auto; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Keep the comparison's brand contrast visible after the shared site theme. */
+.site-home .compare-section .comp-table { table-layout: fixed; }
+.site-home .compare-section .comp-table th:first-child { width: 30%; }
+.site-home .compare-section .comp-table tbody th { padding: .75rem 1rem; text-align: left; font-size: .84rem; line-height: 1.5; border-bottom: 1px solid var(--border); }
+.site-home .compare-section .comp-table :is(th, td):nth-child(2) { color: #82dfb1; }
+.site-home .compare-section .comp-table :is(th, td):nth-child(3) { color: #ff929d; background: rgba(224,85,114,.075); }
+.site-home .compare-section .comp-table .price-free { color: #82dfb1; background: rgba(130,223,177,.12); }
+.site-home .compare-section .comp-table .price-paid { display: inline-block; color: #ff929d; background: rgba(255,146,157,.12); }
+@media (max-width: 600px) {
+  .site-home .compare-section .comp-table tbody th { padding: .6rem .45rem; font-size: .76rem; overflow-wrap: anywhere; }
+}
