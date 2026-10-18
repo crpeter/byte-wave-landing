@@ -26,9 +26,16 @@ class PageParser(HTMLParser):
         super().__init__()
         self.title = ""; self.in_title = False; self.h1 = 0; self.metas = {}; self.canonicals = []
         self.links = []; self.stylesheets = []; self.ids = set(); self.images = []; self.jsonld = []; self.in_jsonld = False; self.buf = []
+        self.main_count = 0; self.footer_links = []; self.in_footer = False
+        self.updated_dates = []; self.in_meta = False; self.meta_tag = None; self.meta_buf = []; self.meta_texts = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "main": self.main_count += 1
+        if tag == "footer": self.in_footer = True
+        if tag in {"p", "div"} and "meta" in a.get("class", "").split():
+            self.in_meta = True; self.meta_tag = tag; self.meta_buf = []
+        if tag == "a" and self.in_footer: self.footer_links.append(a.get("href", ""))
         if tag == "title": self.in_title = True
         if tag == "h1": self.h1 += 1
         if "id" in a: self.ids.add(a["id"])
@@ -42,10 +49,14 @@ class PageParser(HTMLParser):
         if tag == "script" and a.get("type") == "application/ld+json": self.in_jsonld = True; self.buf = []
 
     def handle_endtag(self, tag):
+        if tag == "footer": self.in_footer = False
+        if self.in_meta and tag == self.meta_tag:
+            self.meta_texts.append("".join(self.meta_buf)); self.in_meta = False
         if tag == "title": self.in_title = False
         if tag == "script" and self.in_jsonld: self.jsonld.append("".join(self.buf)); self.in_jsonld = False
 
     def handle_data(self, data):
+        if self.in_meta: self.meta_buf.append(data)
         if self.in_title: self.title += data
         if self.in_jsonld: self.buf.append(data)
 
@@ -81,7 +92,7 @@ def main() -> int:
             elif p.canonicals[0] in canon: errors.append(f"{rel}: duplicate canonical with {canon[p.canonicals[0]]}")
             else: canon[p.canonicals[0]] = file
             if p.h1 != 1: errors.append(f"{rel}: expected one H1, found {p.h1}")
-            if file.parent == ROOT / "blog" and file.name != "index.html":
+            if (file.parent == ROOT / "blog" and file.name != "index.html") or (ROOT / "tutorials" in file.parents and file != ROOT / "tutorials/index.html"):
                 article = re.search(r"<article\b[^>]*>(.*?)</article>", raw, re.S)
                 content = article.group(1) if article else ""
                 notices = list(re.finditer(
@@ -94,10 +105,14 @@ def main() -> int:
                     text = re.sub(r"<[^>]+>", "", notice.group("text"))
                     if "AI disclosure:" not in text or "generated with an AI language model (LLM)" not in text:
                         errors.append(f"{rel}: disclosure must explicitly identify AI-generated text")
-                    prefix = re.sub(r'<p class="(?:eyebrow|meta)">.*?</p>', "", content[:notice.start()], flags=re.S)
+                    prefix = re.sub(r'<(?P<tag>p|div) class="(?:eyebrow|meta)">.*?</(?P=tag)>', "", content[:notice.start()], flags=re.S)
                     if re.search(r"<(?:p|h2|ul|ol|table)\b", prefix):
                         errors.append(f"{rel}: AI disclosure must precede the article body")
             if not p.title.strip(): errors.append(f"{rel}: missing title")
+            if p.main_count != 1: errors.append(f"{rel}: expected one main landmark")
+            if "#main" not in p.links or "main" not in p.ids: errors.append(f"{rel}: missing skip link or target")
+            required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
+            if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
                 if not p.metas.get(key): errors.append(f"{rel}: missing {key}")
@@ -133,6 +148,36 @@ def main() -> int:
     canonical_set = set(canon)
     for url in sorted(sitemap - canonical_set): errors.append(f"sitemap URL is not canonical indexable page: {url}")
     for url in sorted(canonical_set - sitemap): errors.append(f"canonical indexable page missing from sitemap: {url}")
+    sitemap_dates = {n.findtext("s:loc", namespaces=ns): n.findtext("s:lastmod", namespaces=ns) for n in tree.findall("s:url", ns)}
+    def objects(value):
+        if isinstance(value, dict):
+            yield value
+            for child in value.values(): yield from objects(child)
+        elif isinstance(value, list):
+            for child in value: yield from objects(child)
+    for url, file in canon.items():
+        p = pages[file]; rel = file.relative_to(ROOT); modified = set()
+        for raw in p.jsonld:
+            try:
+                modified.update(str(o["dateModified"])[:10] for o in objects(json.loads(raw)) if "dateModified" in o)
+            except (ValueError, TypeError): continue  # Reported above.
+        meta_modified = p.metas.get("article:modified_time")
+        if meta_modified: modified.add(meta_modified[:10])
+        for value in modified:
+            if value != sitemap_dates.get(url): errors.append(f"{rel}: dateModified {value} disagrees with sitemap lastmod {sitemap_dates.get(url)}")
+        for meta in p.meta_texts:
+            visible_dates = re.findall(r"Updated\s+([A-Za-z]+ \d{1,2}, \d{4})", meta)
+            if len(visible_dates) > 1: errors.append(f"{rel}: duplicate visible Updated dates")
+            if visible_dates:
+                from datetime import datetime
+                try: visible = datetime.strptime(visible_dates[0], "%B %d, %Y").date().isoformat()
+                except ValueError: errors.append(f"{rel}: invalid visible update date"); continue
+                if visible != sitemap_dates.get(url): errors.append(f"{rel}: visible Updated date disagrees with sitemap lastmod")
+        for href in p.stylesheets:
+            path, _ = local_path(href, file)
+            if path.exists() and href.startswith("/assets/css/"):
+                version = hashlib.sha256(path.read_bytes()).hexdigest()[:12]
+                if f"?v={version}" not in href: errors.append(f"{rel}: stylesheet needs current content version: {path.name}")
     # A content version prevents cached homepage CSS from surviving a markup update.
     css_version = hashlib.sha256((ROOT / "assets/css/landing.css").read_bytes()).hexdigest()[:12]
     expected_css = f"/assets/css/landing.css?v={css_version}"

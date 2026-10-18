@@ -20,9 +20,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
     <!-- OG Image -->
-    <meta property="og:image" content="https://bytewaveai.com/preview.jpg">
+    <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
     <meta property="og:image:alt" content="ByteWave app preview">
-    <meta name="twitter:image" content="https://bytewaveai.com/preview.jpg">
+    <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
     <meta name="twitter:image:alt" content="ByteWave app preview">
 
     <!-- Structured Data -->
@@ -234,46 +234,60 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
 </head>
-<body>
-    <nav>
-        <a href="https://bytewaveai.com/" class="logo">ByteWave</a>
-        <div class="links">
-            <a href="https://bytewaveai.com/#features">Features</a>
-            <a href="https://bytewaveai.com/#compare">Compare</a>
-            <a href="https://bytewaveai.com/blog/">Blog</a>
-            <a href="https://apps.apple.com/us/app/bytewave/id6752225642" class="cta">Download Free</a>
-        </div>
-    </nav>
-
-    <main>
+<body class="site-page site-editorial">
+<a class="site-skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a></div>
+    <details class="site-menu">
+        <summary>Menu</summary>
+        <div class="site-menu-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    </details>
+    <a class="site-download" href="https://apps.apple.com/us/app/bytewave/id6752225642">Download Free</a>
+</nav>
+<main id="main">
         <span class="tag">Privacy Policy</span>
         <h1>How ByteWave handles your data</h1>
-        <p class="updated">Last updated: August 28, 2026</p>
+        <p class="updated">Last updated: October 18, 2026</p>
 
         <p>ByteWave has three layers of functionality. Each one handles data differently, and we want to be specific about what happens at each level.</p>
 
         <h2>The video editor</h2>
 
-        <p>The video editor runs entirely on your device using Apple's Metal GPU framework and on-device machine learning. This includes frame interpolation, motion blur, noise reduction, super resolution upscaling, voice synthesis, auto captions, subject masking, and all shader-based filters. None of these features require a network connection. The editor works in airplane mode.</p>
+        <p>Editing and rendering run locally on your device. Frame interpolation, motion blur, noise reduction, upscaling, subject masking, and shader filters process your footage on-device. No account is required to edit or save to Photos. Local editing works offline.</p>
 
         <p>No footage, audio, project data, or ML inference results are uploaded to ByteWave servers by the editor. A video is uploaded only when you deliberately publish or share it through an online feature. We do not use third-party analytics SDKs or advertising networks.</p>
-        
+
         <div class="highlight-box">
-            <p><strong>About machine learning:</strong> ByteWave uses Apple's frameworks, including Vision, Speech, and Foundation Models, for features like subject detection, captions, and text generation. Most processing is performed on your device. Some Apple-provided features, including speech recognition, may send data to Apple for processing depending on your device, language, and system settings. Any data processed by Apple is governed by Apple's privacy policies and your Apple privacy settings. ByteWave does not send your footage or project data to our own servers for ML processing.</p>
+            <p><strong>Automatic captions:</strong> Caption transcription runs on your device, without an account. Your audio is not sent to ByteWave or Apple servers for caption transcription. A speech or language model may need to be downloaded before offline use.</p>
         </div>
 
         <h2>The public video feed</h2>
 
         <p>ByteWave includes a public video feed that any user can browse. We do not log watch history or track feed browsing behavior for any user, whether signed in or anonymous.</p>
 
-        <p>Feed recommendations and liked video history are computed and stored entirely on your device using local storage. Our server does not know which videos you watched, which ones you liked, or why a particular video was shown to you.</p>
+        <p>Feed recommendations and liked video history are computed and stored entirely on your device using local storage. This local history is separate from the account information and content you deliberately provide through online features.</p>
 
         <h2>Social features (optional)</h2>
 
         <p>Creating a profile is entirely optional. If you create an account, we collect the account information needed to authenticate you, including your email address, using Google Firebase Authentication.</p>
 
-        <p>Once you have a profile, you can opt in to social features including publishing videos to the feed and tagging. These features require you to read about how they work before enabling them. If you publish a video, tags can optionally be generated on your device before upload.</p>
+        <p><strong>Automatic tagging for shared discovery:</strong> This optional feature combines speech recognition with visual analysis to help describe videos you choose to share. It requires an account and explicit opt-in, after an explanation of how it works.</p>
+
+        <p>Speech transcription for automatic tagging runs on your device after you grant speech recognition permission. Audio is not sent to Apple or ByteWave servers for transcription. If on-device speech recognition is unavailable, the speech step is skipped rather than sent to a server.</p>
 
         <!-- <h2>Age restrictions</h2>
 
@@ -293,8 +307,18 @@
         </div>
     </main>
 
-    <footer>
-        &copy; 2026 ByteWave. Video editing should be free.
-    </footer>
+    <footer class="site-footer">
+    <div class="site-footer-links"><a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/press.html">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    <p>© 2026 ByteWave. Video editing should be free.</p>
+    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
+</footer>
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>

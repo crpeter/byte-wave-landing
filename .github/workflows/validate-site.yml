@@ -12,3 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate links and metadata
         run: python3 scripts/validate_site.py
+      - name: Test site validation rules
+        run: python3 scripts/test_site_validation.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test video playback recovery
+        run: node scripts/test_video_player.cjs

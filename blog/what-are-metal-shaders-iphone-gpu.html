@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU - ByteWave</title>
-<meta name="description" content="Metal shaders are programs that run on your iPhone's GPU. Learn how ByteWave uses Apple's Metal framework to process video effects in real time, entirely on-device.">
-<meta name="twitter:description" content="Metal shaders are programs that run on your iPhone's GPU. Learn how ByteWave uses Apple's Metal framework to process video effects in real time, entirely on-device.">
+<meta name="description" content="Metal shaders are programs that run on your iPhone's GPU. Learn how ByteWave uses Apple's Metal framework to process video effects on-device.">
+<meta name="twitter:description" content="Metal shaders are programs that run on your iPhone's GPU. Learn how ByteWave uses Apple's Metal framework to process video effects on-device.">
 <link rel="canonical" href="https://bytewaveai.com/blog/what-are-metal-shaders-iphone-gpu.html">
 <meta property="og:type" content="article">
 <meta property="og:title" content="What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU - ByteWave">
-<meta property="og:description" content="Metal shaders are programs that run on your iPhone's GPU. How ByteWave uses Apple's Metal framework to process video effects in real time.">
+<meta property="og:description" content="Metal shaders are programs that run on your iPhone's GPU. How ByteWave uses Apple's Metal framework to process video effects on-device.">
 <meta property="og:url" content="https://bytewaveai.com/blog/what-are-metal-shaders-iphone-gpu.html">
 <meta property="og:site_name" content="ByteWave">
 <meta name="twitter:card" content="summary_large_image">
@@ -59,14 +59,14 @@
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU",
-  "description": "Metal shaders are programs that run on your iPhone's GPU. Learn how ByteWave uses Apple's Metal framework to process video effects in real time, entirely on-device.",
+  "description": "Metal shaders are programs that run on your iPhone's GPU. Learn how ByteWave uses Apple's Metal framework to process video effects on-device.",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://bytewaveai.com/blog/what-are-metal-shaders-iphone-gpu.html"
   },
   "url": "https://bytewaveai.com/blog/what-are-metal-shaders-iphone-gpu.html",
   "datePublished": "2026-04-26",
-  "dateModified": "2026-08-28",
+  "dateModified": "2026-10-18",
   "author": {
     "@type": "Organization",
     "name": "ByteWave",
@@ -149,22 +149,42 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
   article{padding-top:2.5rem}
 }
 </style>
-    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css">
+    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
+    <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
 </head>
-<body>
-<nav><a href="/" class="logo"><span>ByteWave</span></a><div class="nav-links"><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Blog</a><a href="/tutorials/" class="tutorials-link">Tutorials</a><a href="https://apps.apple.com/us/app/bytewave/id6752225642" class="nav-cta">Download Free</a></div></nav>
-
-<article>
+<body class="site-page site-editorial">
+<a class="site-skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a></div>
+    <details class="site-menu">
+        <summary>Menu</summary>
+        <div class="site-menu-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    </details>
+    <a class="site-download" href="https://apps.apple.com/us/app/bytewave/id6752225642">Download Free</a>
+</nav>
+<main id="main"><article>
   <span class="tag">Technical</span>
   <h1>What Are Metal Shaders? How ByteWave Uses Your iPhone's GPU</h1>
-  <div class="meta">April 2026 · 5 min read</div>
+  <div class="meta">April 2026 · 5 min read · Updated <time datetime="2026-10-18">October 18, 2026</time></div>
   <div class="llm-disclosure ai-disclosure"><strong>AI disclosure:</strong> This article includes text generated with an AI language model (LLM). By <a href="/about.html">ByteWave</a>. Product claims were reviewed by ByteWave; comparisons reflect ByteWave’s commercial interest and are not independent reviews.</div>
 
   <p>When you apply a filter in most video editors, something happens behind the scenes that you never see. The app takes each frame of your video, processes it through some algorithm, and gives you the result. In most apps, that algorithm is a black box. In ByteWave, it's a Metal shader you can actually read and edit.</p>
 
   <h2>What is Metal?</h2>
 
-  <p>Metal is Apple's low-level GPU programming framework. It lets developers write code that runs directly on the graphics processor in your iPhone, iPad, or Mac. The GPU is designed to process massive amounts of data in parallel, which makes it perfect for video. While your CPU handles one thing at a time really fast, your GPU handles millions of things at once. A 4K video frame has over 8 million pixels; the GPU processes all of them simultaneously.</p>
+  <p>Metal is Apple’s GPU programming framework. CPUs and GPUs both execute work in parallel, but GPUs are especially suited to applying similar operations across many pixels. A 4K frame has more than eight million pixels; the GPU schedules groups of threads to process them, rather than executing every pixel simultaneously.</p>
 
   <p>Metal replaced OpenGL on Apple platforms and gives developers much more direct control over the hardware. It's the same framework that powers high-end games and professional creative tools on Apple devices.</p>
 
@@ -172,18 +192,22 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
 
   <p>A shader is a small program that runs on the GPU. In the context of video editing, a shader takes a pixel's color as input and outputs a new color. That's it at the most basic level. A grayscale shader reads the red, green, and blue values of a pixel and averages them into a single gray value. A color tint shader shifts the hue. A blur shader samples neighboring pixels and blends them together.</p>
 
-  <p>Here's what a simple grayscale shader looks like in concept:</p>
+  <p>Here is a small Metal compute example. It assumes input and output textures of the same size; it illustrates Metal syntax, not ByteWave’s custom-filter interface:</p>
 
-  <div class="code-block">
-    <span class="cm">// Take the input pixel color</span><br>
-    <span class="kw">vec4</span> color = <span class="fn">texture</span>(inputImage, uv);<br><br>
-    <span class="cm">// Average the RGB channels</span><br>
-    <span class="kw">float</span> gray = (color.r + color.g + color.b) / <span class="st">3.0</span>;<br><br>
-    <span class="cm">// Output the grayscale pixel</span><br>
-    <span class="kw">return</span> <span class="kw">vec4</span>(gray, gray, gray, color.a);
-  </div>
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
 
-  <p>This runs for every single pixel in every single frame. On a modern iPhone, that's billions of operations per second, and the GPU handles it in real time.</p>
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>Each thread processes a pixel. Whether an effect can keep up with playback depends on the device, resolution, and shader. Apple’s <a href="https://developer.apple.com/metal/sample-code/">Metal sample code</a> includes compute-based image processing examples.</p>
 
   <h2>Why this matters for video editing</h2>
 
@@ -203,19 +227,31 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
 
   <h2>The technical stack</h2>
 
-  <p>For the technically curious: ByteWave renders video through a Metal compute pipeline. Each filter is a compute kernel that gets dispatched to the GPU with the current frame as a texture input. The shader reads from this texture, applies its logic per-pixel, and writes to an output texture. Multiple shaders can be chained together in a pipeline. The Vision framework runs on the Neural Engine to generate subject masks, which are passed to shaders as additional texture inputs. All of this happens per-frame in real time during preview, and at full resolution during export.</p>
+  <p>For the technically curious: Metal compute kernels can read a frame texture, apply per-pixel operations, and write an output texture. Filters can be chained, and subject masks can provide another input. ByteWave’s FRC, motion blur, and temporal noise reduction require a local processing step before preview.</p>
 
-  <p>Because everything runs on the local GPU and Neural Engine, there's no network latency, no upload step, and no dependency on a cloud service. The quality and speed of your effects depends entirely on your hardware, and modern Apple Silicon handles it effortlessly.</p>
+  <p>ByteWave processes editing effects on-device. Performance depends on the device, clip resolution, and effect settings.</p>
 
   <div class="cta-box">
     <h3>See the code. Change the code. Make it yours.</h3>
-    <p>ByteWave is the only mobile editor that lets you hack the GPU pipeline.</p>
+    <p>Read and edit the Metal code behind ByteWave’s filters.</p>
     <a href="/#download" class="btn">Download Free</a>
   </div>
 
   <p>Also read: <a href="/blog/custom-video-filters-ai-tutorial.html">Create Custom Filters with AI</a> · <a href="/blog/community-filters-bytewave.html">Community Filters</a></p>
-</article>
+</article></main>
 
-<footer><p>&copy; 2026 ByteWave. Video editing should be free.</p></footer>
+<footer class="site-footer">
+    <div class="site-footer-links"><a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/press.html">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    <p>© 2026 ByteWave. Video editing should be free.</p>
+    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
+</footer>
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>

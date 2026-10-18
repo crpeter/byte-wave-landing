@@ -38,7 +38,7 @@
       "url": "https://bytewaveai.com/tutorials/frame-rate-conversion/",
       "mainEntityOfPage": "https://bytewaveai.com/tutorials/frame-rate-conversion/",
       "datePublished": "2026-09-06",
-      "dateModified": "2026-09-13",
+      "dateModified": "2026-10-18",
       "image": "https://bytewaveai.com/assets/social/frame-rate-conversion.jpg",
       "author": {
         "@type": "Organization",
@@ -69,30 +69,58 @@
   ]
 }
   </script>
+    <link rel="stylesheet" href="/assets/css/site.css?v=04634b6179de">
+<link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
 </head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
-  <nav aria-label="Primary"><a class="logo" href="/">ByteWave</a><div class="links"><a href="/blog/">Blog</a><a href="/tutorials/" class="tutorials-link">Tutorials</a><a href="/about.html">About</a><a href="/privacy.html">Privacy</a><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_frame_rate_conversion&amp;mt=8">Get ByteWave</a></div></nav>
-  <main id="main"><article>
+<body class="site-page site-editorial">
+<a class="site-skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a></div>
+    <details class="site-menu">
+        <summary>Menu</summary>
+        <div class="site-menu-links"><a href="/#features">Features</a>
+        <a href="/#compare">Compare</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    </details>
+    <a class="site-download" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_frame_rate_conversion&amp;mt=8">Download Free</a>
+</nav>
+<main id="main"><article>
     <p class="eyebrow"><a href="/tutorials/">Tutorials</a> / Frame rate conversion</p>
     <h1>Frame rate conversion for slow-motion video on iPhone</h1>
-    <p class="meta">By <a href="/about.html">ByteWave</a> · Published <time datetime="2026-09-06">September 6, 2026</time></p>
+    <p class="meta">By <a href="/about.html">ByteWave</a> · Published <time datetime="2026-09-06">September 6, 2026</time> · Updated <time datetime="2026-10-18">October 18, 2026</time></p>
+    <p class="disclosure ai-disclosure"><strong>AI disclosure:</strong> This tutorial includes text generated with an AI language model (LLM). Published by ByteWave, which makes the app discussed here.</p>
     <p>Frame rate conversion (FRC) adds frames between the original ones to make slow motion look smoother. Find it in ByteWave’s <strong>Speed</strong> menu.</p>
     <p class="quick-links"><a href="#comparison">Watch the comparison</a><a href="#settings">Try it yourself</a><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_frame_rate_conversion&amp;mt=8">Get ByteWave free</a></p>
 
     <h2 id="comparison">Both sides at 0.1× speed</h2>
     <figure>
       <div class="comparison-labels" aria-hidden="true"><span>Ordinary slowdown · 0.1×</span><span>ByteWave FRC · 0.1×</span></div>
-      <video id="comparison-video" controls playsinline preload="none" width="672" height="720" poster="/assets/videos/hummingbird-comparison-poster.jpg" aria-label="Hummingbird at 0.1× speed: ordinary slowdown on the left, ByteWave frame rate conversion on the right" aria-describedby="comparison-description">
+      <div class="bw-player">
+  <div class="bw-media"><video data-bw-player id="comparison-video" controls playsinline preload="none" width="672" height="720" poster="/assets/videos/hummingbird-comparison-poster.jpg" aria-label="Hummingbird at 0.1× speed: ordinary slowdown on the left, ByteWave frame rate conversion on the right" aria-describedby="comparison-description">
         <source src="/assets/videos/hummingbird-comparison.mp4" type="video/mp4">
-        Your browser does not support embedded video. <a href="/assets/videos/hummingbird-comparison.mp4">Download the hummingbird comparison.</a>
+        Your browser does not support embedded video.
       </video>
+    <button class="bw-play" type="button" aria-label="Play video" aria-controls="comparison-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/hummingbird-comparison.mp4">Open video</a></p>
+</div>
       <figcaption id="comparison-description">The same three-second hummingbird clip slowed to 0.1×: ordinary slowdown on the left, ByteWave FRC on the right. No audio.</figcaption>
     </figure>
     <h2 id="settings">How to use frame rate conversion</h2>
     <ol class="steps">
-      <li><strong>Select your clip</strong> and open its editing tools.</li>
-      <li><strong>Open the Speed menu.</strong> Choose your slowdown, then choose an FRC multiplier from <strong>2× to 8×</strong>. This example uses <strong>0.1× speed and 8× FRC</strong>.</li>
+      <li><strong>Select your clip</strong> and choose <strong>Speed</strong> from the main menu.</li>
+      <li><strong>Choose your speed.</strong> Enable <strong>FRC</strong> if you want smoother slow motion, and check <strong>Reverse</strong> if you want backward playback. This example uses <strong>0.1× speed and 8× FRC</strong>.</li>
       <li><strong>Process and preview.</strong> Check the movement, then export when you’re happy with it.</li>
     </ol>
     <p>If fast-moving edges look warped or smeared, try a less extreme slowdown.</p>
@@ -101,8 +129,21 @@
       <p><strong>Make your own slow-motion video.</strong></p>
       <a class="button" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_frame_rate_conversion&amp;mt=8">Download ByteWave free</a>
     </div>
-    <p class="disclosure">Example processed in ByteWave. AI assisted with writing and editing.</p>
+
   </article></main>
-  <footer>© 2026 ByteWave · <a href="/about.html">About ByteWave</a></footer>
+  <footer class="site-footer">
+    <div class="site-footer-links"><a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/tutorials/">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+        <a href="/press.html">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/free-expression.html">Free expression</a></div>
+    <p>© 2026 ByteWave. Video editing should be free.</p>
+    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
+</footer>
+<script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>
