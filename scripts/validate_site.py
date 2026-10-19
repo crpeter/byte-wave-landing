@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+from fnmatch import fnmatchcase
 import json
 import re
 import sys
@@ -25,7 +26,7 @@ class PageParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.title = ""; self.in_title = False; self.h1 = 0; self.metas = {}; self.canonicals = []
-        self.links = []; self.stylesheets = []; self.ids = set(); self.images = []; self.jsonld = []; self.in_jsonld = False; self.buf = []
+        self.links = []; self.media = []; self.stylesheets = []; self.ids = set(); self.images = []; self.jsonld = []; self.in_jsonld = False; self.buf = []
         self.main_count = 0; self.footer_links = []; self.in_footer = False
         self.updated_dates = []; self.in_meta = False; self.meta_tag = None; self.meta_buf = []; self.meta_texts = []
 
@@ -46,6 +47,8 @@ class PageParser(HTMLParser):
         if tag == "link" and "stylesheet" in a.get("rel", "").lower(): self.stylesheets.append(a.get("href", ""))
         if tag == "a" and "href" in a: self.links.append(a["href"])
         if tag == "img": self.images.append(a)
+        if tag in {"img", "video", "source"}:
+            self.media.extend(a[key] for key in ("src", "poster", "data-stream", "data-compatible") if a.get(key))
         if tag == "script" and a.get("type") == "application/ld+json": self.in_jsonld = True; self.buf = []
 
     def handle_endtag(self, tag):
@@ -71,6 +74,10 @@ def local_path(url: str, source: Path) -> tuple[Path, str]:
 
 def main() -> int:
     errors = []; pages = {}; canon = {}; titles = {}; descs = {}; redirects = {}
+    # This site's config uses a top-level YAML list of unquoted exclusion paths.
+    config = (ROOT / "_config.yml").read_text(encoding="utf-8")
+    exclude_block = re.search(r"^exclude:\s*\n((?:[ \t]+[^\n]*\n)*)", config, re.M)
+    excludes = re.findall(r"^\s+-\s+([^\s#]+)\s*$", exclude_block[1], re.M) if exclude_block else []
     for file in sorted(ROOT.rglob("*.html")):
         if ".git" in file.parts: continue
         raw = file.read_text(encoding="utf-8"); p = PageParser(); p.feed(raw); pages[file] = p
@@ -134,12 +141,18 @@ def main() -> int:
             errors.append(f"{file.relative_to(ROOT)}: redirect destination must be a canonical indexable page")
 
     for file, p in pages.items():
-        for href in p.links:
+        for href in set(p.links + p.media):
             parsed = urlparse(href)
             if parsed.scheme in {"http", "https", "mailto", "tel"} and parsed.netloc != "bytewaveai.com": continue
             if parsed.scheme in {"mailto", "tel"}: continue
             target, frag = local_path(href, file)
             if not target.exists(): errors.append(f"{file.relative_to(ROOT)}: broken link {href}"); continue
+            # Jekyll 3 EntryFilter matches both globs and literal path prefixes.
+            # A bare 'warped-sunset' also excludes 'warped-sunset-4k'.
+            relative = target.relative_to(ROOT)
+            candidates = [relative.as_posix(), *(p.as_posix() for p in relative.parents)]
+            if any(fnmatchcase(path, rule) or path.startswith(rule) for path in candidates for rule in excludes):
+                errors.append(f"{file.relative_to(ROOT)}: linked resource excluded from publication: {href}")
             if frag and target.suffix == ".html" and frag not in pages.get(target, PageParser()).ids:
                 errors.append(f"{file.relative_to(ROOT)}: broken fragment {href}")
 
