@@ -2,6 +2,8 @@
 
 Three creator-supplied exports added on 2026-09-29. Originals remain in the uploaded source files.
 
+The `ocean-grid` and `warped-sunset` directories are archived exports, superseded by `seaside-grid-to-beach` and `warped-sunset-4k`. No site page uses the archived files. They remain in git but are excluded from the GitHub Pages build in `_config.yml` to keep the published site below its size limit as new examples are added.
+
 - `honeycomb`: 2160 × 2160, HEVC Main 10, HLG HDR, AAC.
 - `ocean-grid`: 2160 × 3840, HEVC Main 10, HLG HDR, AAC.
 - `warped-sunset`: 1080 × 1920, HEVC Main 10, HLG HDR, AAC.

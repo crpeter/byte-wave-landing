@@ -1,2 +1,6 @@
 include:
   - .well-known
+# Retain superseded Layout exports in git without publishing unused video bytes.
+exclude:
+  - assets/videos/layout/ocean-grid
+  - assets/videos/layout/warped-sunset

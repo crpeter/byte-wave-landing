@@ -37,12 +37,15 @@
         "name": "Sunset hexagons — Landscape",
         "url": "https://bytewaveai.com/gallery/#sunset-hexagons-landscape",
         "item": {
-          "@type": "ImageObject",
+          "@type": "VideoObject",
           "name": "Sunset hexagons — Landscape",
           "description": "Four hexagonal panels of ocean sunsets and waves centered over a wide orange sunset and ocean background.",
-          "contentUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons-landscape.jpg",
-          "width": 2048,
-          "height": 1152
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons-landscape.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/sunset-hexagons-landscape/web.m3u8",
+          "uploadDate": "2026-10-18T20:17:41-04:00",
+          "duration": "PT54.717S",
+          "width": 1920,
+          "height": 1080
         }
       },
       {
@@ -81,13 +84,15 @@
         "name": "Sunset hexagons — Portrait",
         "url": "https://bytewaveai.com/gallery/#sunset-hexagons",
         "item": {
-          "@type": "ImageObject",
+          "@type": "VideoObject",
           "name": "Sunset hexagons — Portrait",
-          "description": "Ocean sunsets arranged in hexagonal panels over a full-frame sunset background in ByteWave.",
-          "contentUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons.jpg",
-          "width": 1152,
-          "height": 2048,
-          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons-portrait-665.jpg"
+          "description": "Ocean sunsets and waves arranged in four hexagonal panels over a full-frame sunset background in ByteWave.",
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/sunset-hexagons-portrait/web.m3u8",
+          "uploadDate": "2026-10-18T20:17:41-04:00",
+          "duration": "PT54.717S",
+          "width": 1080,
+          "height": 1920
         }
       },
       {
@@ -229,9 +234,17 @@
     <ul class="gallery-grid" aria-label="Videos and images made with ByteWave">
       <li class="landscape">
         <figure id="sunset-hexagons-landscape">
-          <a href="/assets/images/gallery/sunset-hexagons-landscape.jpg" aria-label="View Sunset hexagons landscape full size">
-            <img class="gallery-image" src="/assets/images/gallery/sunset-hexagons-landscape.jpg" width="2048" height="1152" decoding="async" alt="Four hexagonal panels of ocean sunsets and waves centered over a wide orange sunset and ocean background.">
-          </a>
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player id="sunset-hexagons-landscape-video" controls playsinline preload="none" width="1920" height="1080" poster="/assets/images/gallery/sunset-hexagons-landscape.jpg" data-stream="/assets/videos/layout/sunset-hexagons-landscape/web.m3u8" data-compatible="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4" aria-label="Sunset hexagons landscape layout video">
+                <source src="/assets/videos/layout/sunset-hexagons-landscape/web.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="Play video" aria-controls="sunset-hexagons-landscape-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4">Open video</a></p>
+          </div>
           <figcaption>
             <h2>Sunset hexagons — Landscape</h2>
             <p class="effect">Hexagon layout · landscape</p>
@@ -281,9 +294,17 @@
       </li>
       <li>
         <figure id="sunset-hexagons">
-          <a href="/assets/images/gallery/sunset-hexagons.jpg" aria-label="View Sunset hexagons portrait full size">
-            <img class="gallery-image" src="/assets/images/gallery/sunset-hexagons-portrait-665.jpg" srcset="/assets/images/gallery/sunset-hexagons-portrait-665.jpg 665w, /assets/images/gallery/sunset-hexagons.jpg 1152w" sizes="(max-width: 768px) calc(100vw - 3rem), 476px" width="1152" height="2048" decoding="async" alt="Four hexagonal panels of ocean sunsets and waves over a full-frame orange sunset and ocean background.">
-          </a>
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player id="sunset-hexagons-portrait-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/images/gallery/sunset-hexagons.jpg" data-stream="/assets/videos/layout/sunset-hexagons-portrait/web.m3u8" data-compatible="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4" aria-label="Sunset hexagons portrait layout video">
+                <source src="/assets/videos/layout/sunset-hexagons-portrait/web.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="Play video" aria-controls="sunset-hexagons-portrait-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4">Open video</a></p>
+          </div>
           <figcaption>
             <h2>Sunset hexagons — Portrait</h2>
             <p class="effect">Hexagon layout · portrait</p>
