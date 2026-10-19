@@ -33,9 +33,10 @@ body.site-page { margin: 0; background: var(--bg); color: var(--text); font-fami
 .site-nav .site-links a { color: var(--text-dim); text-decoration: none; padding: .4rem 0; }
 .site-nav .site-links a:hover { color: #fff; text-decoration: underline; }
 .site-nav .site-download { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .55rem 1.15rem; border-radius: 100px; background: #f8f4ec; color: #102331; font-size: .85rem; font-weight: 750; text-decoration: none; white-space: nowrap; }
-.site-nav .site-menu { display: none; position: relative; margin-left: auto; }
+/* Anchor the dropdown to the full navigation bar so it stays inside narrow screens. */
+.site-nav .site-menu { display: none; position: static; margin-left: auto; }
 .site-menu summary { min-height: 44px; padding: .6rem .25rem; cursor: pointer; color: var(--text); }
-.site-menu .site-menu-links { position: absolute; right: 0; top: calc(100% + .75rem); width: min(19rem, calc(100vw - 2.5rem)); max-height: 70svh; overflow: auto; padding: .6rem; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); box-shadow: 0 12px 30px #0006; }
+.site-menu .site-menu-links { position: absolute; right: 1rem; top: calc(100% + .5rem); width: min(19rem, calc(100% - 2rem)); max-height: 70svh; overflow: auto; padding: .6rem; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); box-shadow: 0 12px 30px #0006; }
 .site-menu-links a { display: block; min-height: 44px; padding: .6rem .75rem; color: var(--text); text-decoration: none; }
 .site-menu-links a:hover { background: #203b4a; border-radius: 6px; }
 .site-page .site-footer { margin: 3rem 0 0; padding: 2.5rem 1.25rem; border-top: 1px solid var(--border); text-align: center; font-size: .85rem; color: var(--text-muted); }
