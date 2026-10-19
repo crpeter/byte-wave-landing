@@ -118,7 +118,7 @@ def main() -> int:
             if not p.title.strip(): errors.append(f"{rel}: missing title")
             if p.main_count != 1: errors.append(f"{rel}: expected one main landmark")
             if "#main" not in p.links or "main" not in p.ids: errors.append(f"{rel}: missing skip link or target")
-            required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
+            required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html", "/dmca.html"}
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
