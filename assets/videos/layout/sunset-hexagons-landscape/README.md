@@ -1,4 +1,4 @@
-# Sunset hexagons — Landscape
+# Sunset hexagons (landscape)
 
 Creator-supplied 4K, 60 fps ByteWave export received October 18, 2026 through Google Drive. Source identity, size, hash, and encoding details are recorded in `source-checks.json`. The original MOV remains in the creator's Drive; it is not included in the website repository.
 
