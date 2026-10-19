@@ -152,6 +152,31 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
 .post-card .post-brand img { display: block; flex: 0 0 40px; width: 40px; height: 40px; padding: 8px; border-radius: 9px; background: #f8f4ec; }
 .post-card .post-card-heading .tag { margin: 0; }
 
+/* Lead the blog with the Meta coverage. */
+.site-editorial .container > .subtitle { margin-bottom: 1rem; }
+.site-editorial .container > .ai-disclosure { margin: .75rem 0 1rem; }
+.topic-links { margin-bottom: 1.5rem; }
+.site-page .topic-links .meta-topic { border-color: #d97b7b; color: #ffb9b9; }
+.meta-section { margin-top: 0; padding: clamp(1rem, 3vw, 2rem); border: 1px solid #8c4e53; border-top: 4px solid #f49c9c; border-radius: 16px; background: linear-gradient(160deg, #291c25, #101d28 65%); }
+.meta-section-header { text-align: center; margin-bottom: 1.75rem; }
+.meta-section-logo { display: block; width: 144px; height: 104px; object-fit: contain; padding: 12px 20px; margin: 0 auto 1rem; border-radius: 14px; background: #f8f4ec; }
+.site-page .meta-section-label { color: #ffb9b9; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.meta-section-header h2 { font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.04em; line-height: 1.15; margin: .4rem 0 .8rem; scroll-margin-top: 8rem; }
+.meta-section-header .section-intro { max-width: 42rem; margin: 0 auto; }
+.meta-posts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.meta-posts .post-card { margin: 0; padding: 1.25rem; overflow-wrap: anywhere; }
+.site-page .meta-section .post-card { border-color: #67434c; background: #15222d; }
+.site-page .meta-section .post-card:hover { border-color: #f49c9c; }
+.site-page .meta-section .tag { color: #ffb9b9; background: #392b35; }
+.meta-section .post-card-heading { margin-bottom: .75rem; }
+@media (max-width: 640px) {
+  .meta-posts { grid-template-columns: 1fr; }
+  .meta-section-header .section-intro { font-size: .9rem; }
+  .meta-section-logo { width: 120px; height: 88px; }
+  .topic-links { gap: .4rem; }
+  .topic-links a { padding: .55rem .65rem; font-size: .8rem; }
+}
+
 </style>
     <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
@@ -184,11 +209,83 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   <p class="subtitle">Make videos. Check their origins. Keep your private stuff private.</p>
 
   <div class="topic-links" aria-label="Blog topics">
+    <a href="#meta-record" class="meta-topic">Meta’s record</a>
     <a href="#edit-videos">Edit videos</a>
     <a href="#check-ai-media">Check AI media</a>
     <a href="#protect-your-privacy">Protect your privacy</a>
     <a href="#platforms-creators">Platforms &amp; creators</a>
   </div>
+
+  <section class="blog-section meta-section" aria-labelledby="meta-record">
+    <header class="meta-section-header">
+      <img class="meta-section-logo" src="/assets/brands/meta.svg" width="144" height="104" alt="Meta" decoding="async">
+      <p class="meta-section-label">Facebook · Instagram · Muse</p>
+      <h2 id="meta-record">Meta’s record.</h2>
+      <p class="section-intro">Account shutdowns. Privacy concerns. AI you didn’t ask for.<br>Our coverage, with sources and the questions that remain.</p>
+    </header>
+    <div class="meta-posts">
+      <a href="/blog/meta-technical-errors-political-accounts.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Platform control &amp; opinion</span></span>
+    <h3>Meta Keeps Calling It a Technical Error.</h3>
+    <p>Lula, Albanian protesters, Musk documentary ads, and No Kings. Four restrictions, Meta’s explanations, and the questions that remain.</p>
+  </a>
+      <a href="/blog/meta-no-kings-instagram-suspension.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Platform control &amp; opinion</span></span>
+    <h3>Meta Suspended No Kings When Organizers Needed It Most.</h3>
+    <p>Meta says the No Kings Instagram suspension was an automated mistake. Lost access still matters. ByteWave’s alternative for publishing video and free expression.</p>
+  </a>
+      <a href="/blog/meta-muse-privacy-security-incidents.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Incident tracker</span></span>
+    <h3>Meta Muse Privacy and Security Incidents: A Timeline</h3>
+    <p>A dated Meta Muse privacy timeline: contact profiles, memory and deletion concerns, the Marketplace address disclosure, security flaws, and reported fixes.</p>
+  </a>
+      <a href="/blog/meta-muse-profiles-people-who-never-signed-up.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Privacy opinion</span></span>
+    <h3>You Didn’t Sign Up. Your Friend Did.</h3>
+    <p>Someone else’s permission can expose your private life. Why Muse’s relationship memory raises questions for people who never signed up.</p>
+  </a>
+      <a href="/blog/facebook-camera-roll-unposted-photos.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Opinion</span></span>
+    <h3>You Didn’t Post It. Facebook Can Still Analyze It.</h3>
+    <p>Not posting a photo and keeping it away from Meta are different choices. Here is what camera roll suggestions ask you to allow.</p>
+  </a>
+      <a href="/blog/meta-ai-chats-feed-ads-personalization.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Opinion</span></span>
+    <h3>You Asked a Chatbot. Why Did Your Feed Change?</h3>
+    <p>A chatbot conversation can become a signal for posts, reels, and advertising. Meta has said so itself.</p>
+  </a>
+      <a href="/blog/does-emoji-protect-child-face-facebook.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Privacy</span></span>
+    <h3>Does an Emoji Really Protect Your Child’s Face on Facebook?</h3>
+    <p>You put a heart over your child’s face. Your followers see the heart. But what did Meta get to see first?</p>
+  </a>
+      <a href="/blog/meta-settlement-youth-safety-social-media-design.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Current analysis</span></span>
+    <h3>Meta's $17.1 Billion Youth-Safety Settlement: What Changes</h3>
+    <p>The approved agreement's payment structure, youth controls, limits, and implications for social-product architecture—linked to primary sources.</p>
+  </a>
+      <a href="/blog/facebook-ai-labels-filters-generated-images.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Opinion</span></span>
+    <h3>If Everything Is “Made With AI,” What Does the Label Actually Tell Us?</h3>
+    <p>A filter, a replaced face, and a fabricated scene need labels that explain what changed.</p>
+  </a>
+      <a href="/blog/meta-muse-privacy-security.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Privacy opinion</span></span>
+    <h3>Meta Muse Privacy: Why We Recommend Not Using It</h3>
+    <p>Our recommendation: do not use Meta Muse or connect your accounts. Learn why its documented data access and training policies do not meet our privacy standard.</p>
+  </a>
+      <a href="/blog/disconnect-meta-muse.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Privacy guide</span></span>
+    <h3>How to Disconnect Meta Muse and Revoke Its Access</h3>
+    <p>Leaving Meta Muse? Disconnect services, revoke account permissions, and review stored data separately. Deleting the app alone is not a complete exit.</p>
+  </a>
+      <a href="/blog/reduce-ai-videos-facebook-feed.html" class="post-card">
+    <span class="post-card-heading"><span class="tag">Facebook guide</span></span>
+    <h3>How to Reduce AI Videos in Your Facebook Feed</h3>
+    <p>Facebook feed full of AI videos? Use post feedback, unfollowing, Favorites, and Feeds to shape what you see, and understand the limits of each control.</p>
+  </a>
+    </div>
+  </section>
 
   <section class="blog-section" aria-labelledby="edit-videos">
     <h2 id="edit-videos">Edit videos</h2>
@@ -224,8 +321,6 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p>Disable automatic dubbing, review translations before they go live, and remove an existing dub.</p>
   </a>
 
-
-
   <a href="/blog/google-photos-ai-memories-dont-need-fixing.html" class="post-card">
     <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/google.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Google Photos</span></span><span class="tag">Opinion</span></span>
     <h3>Your Memories Don’t Need Fixing.</h3>
@@ -237,10 +332,6 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <h3>How to Add Motion Blur to Video on iPhone for Free</h3>
     <p>See the original and processed video side by side, then follow the written steps to apply motion blur in ByteWave.</p>
   </a>
-
-
-
-
 
   <a href="/blog/community-filters-bytewave.html" class="post-card">
     <span class="tag">New Feature</span>
@@ -320,19 +411,11 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p>Changing the mood of a photo and inventing what someone wore deserve different explanations.</p>
   </a>
 
-  <a href="/blog/facebook-ai-labels-filters-generated-images.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Opinion</span></span>
-    <h3>If Everything Is “Made With AI,” What Does the Label Actually Tell Us?</h3>
-    <p>A filter, a replaced face, and a fabricated scene need labels that explain what changed.</p>
-  </a>
-
   <a href="/blog/openai-sora-deepfakes-public-trust.html" class="post-card">
     <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/openai.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>OpenAI</span></span><span class="tag">Opinion</span></span>
     <h3>OpenAI Made Convincing Fake Videos. Who Protects the People Watching?</h3>
     <p>Sora, consent, and why the burden of spotting fabricated media should not fall entirely on the viewer.</p>
   </a>
-
-
 
   <a href="/blog/check-ai-video-without-uploading.html" class="post-card">
     <span class="tag">AI media guide</span>
@@ -370,12 +453,6 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p>Import a photo or video into ByteWave, expand its provenance badge, and understand Verified AI-generated, camera-capture assessments, and unverified results.</p>
   </a>
 
-  <a href="/blog/reduce-ai-videos-facebook-feed.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Facebook guide</span></span>
-    <h3>How to Reduce AI Videos in Your Facebook Feed</h3>
-    <p>Facebook feed full of AI videos? Use post feedback, unfollowing, Favorites, and Feeds to shape what you see, and understand the limits of each control.</p>
-  </a>
-
   <a href="/blog/reduce-ai-content-tiktok-feed.html" class="post-card">
     <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/tiktok.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>TikTok</span></span><span class="tag">TikTok guide</span></span>
     <h3>How to See Less AI Content on TikTok</h3>
@@ -400,22 +477,10 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <h2 id="protect-your-privacy">Protect your privacy</h2>
     <p class="section-intro">Know what you share. Start with <a href="/tutorials/remove-location-metadata/">removing location metadata</a> or <a href="/blog/best-video-editor-privacy-no-upload.html">editing without cloud uploads</a>.</p>
 
-
-
-
-
-
-
   <a href="/blog/photo-access-ai-privacy-inferences.html" class="post-card">
     <span class="tag">Privacy opinion</span>
     <h3>Photo Access Is More Than Photo Access.</h3>
     <p>Photo access can enable AI to infer more than you meant to share. What new smartphone research shows, and why local editing matters.</p>
-  </a>
-
-  <a href="/blog/meta-muse-profiles-people-who-never-signed-up.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy opinion</span></span>
-    <h3>You Didn’t Sign Up. Your Friend Did.</h3>
-    <p>Someone else’s permission can expose your private life. Why Muse’s relationship memory raises questions for people who never signed up.</p>
   </a>
 
   <a href="/blog/content-credentials-privacy.html" class="post-card">
@@ -430,34 +495,10 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p>YouTube’s impersonation-detection tool asks for ID and a selfie video. Here is what enrollment involves.</p>
   </a>
 
-  <a href="/blog/facebook-camera-roll-unposted-photos.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Opinion</span></span>
-    <h3>You Didn’t Post It. Facebook Can Still Analyze It.</h3>
-    <p>Not posting a photo and keeping it away from Meta are different choices. Here is what camera roll suggestions ask you to allow.</p>
-  </a>
-
-  <a href="/blog/meta-ai-chats-feed-ads-personalization.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Opinion</span></span>
-    <h3>You Asked a Chatbot. Why Did Your Feed Change?</h3>
-    <p>A chatbot conversation can become a signal for posts, reels, and advertising. Meta has said so itself.</p>
-  </a>
-
-  <a href="/blog/meta-muse-privacy-security-incidents.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Incident tracker</span></span>
-    <h3>Meta Muse Privacy and Security Incidents: A Timeline</h3>
-    <p>A dated Meta Muse privacy timeline: contact profiles, memory and deletion concerns, the Marketplace address disclosure, security flaws, and reported fixes.</p>
-  </a>
-
   <a href="/blog/can-photos-videos-reveal-your-address.html" class="post-card">
     <span class="tag">Privacy guide</span>
     <h3>Can Someone Find Your Address From a Photo or Video?</h3>
     <p>A photo or video can reveal your location through metadata, visible details, or audio. Check all three before sharing, then inspect the final file.</p>
-  </a>
-
-  <a href="/blog/disconnect-meta-muse.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy guide</span></span>
-    <h3>How to Disconnect Meta Muse and Revoke Its Access</h3>
-    <p>Leaving Meta Muse? Disconnect services, revoke account permissions, and review stored data separately. Deleting the app alone is not a complete exit.</p>
   </a>
 
   <a href="/blog/ai-training-creator-consent.html" class="post-card">
@@ -472,29 +513,11 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <p>Inspect and remove editable location metadata from ByteWave working video copies. Learn the exact controls, what stays, and how to check your export.</p>
   </a>
 
-  <a href="/blog/does-emoji-protect-child-face-facebook.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy</span></span>
-    <h3>Does an Emoji Really Protect Your Child’s Face on Facebook?</h3>
-    <p>You put a heart over your child’s face. Your followers see the heart. But what did Meta get to see first?</p>
-  </a>
-
-  <a href="/blog/meta-muse-privacy-security.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Privacy opinion</span></span>
-    <h3>Meta Muse Privacy: Why We Recommend Not Using It</h3>
-    <p>Our recommendation: do not use Meta Muse or connect your accounts. Learn why its documented data access and training policies do not meet our privacy standard.</p>
-  </a>
-
-
-
-
-
   <a href="/blog/how-bytewave-feed-works-without-server-watch-history.html" class="post-card">
     <span class="tag">Product documentation</span>
     <h3>How ByteWave Personalizes a Feed Without Server-Side Watch History</h3>
     <p>Local recommendations, anonymous browsing, optional profiles, deliberate publishing, and the boundaries ByteWave can actually claim.</p>
   </a>
-
-
 
   <a href="/blog/best-video-editor-privacy-no-upload.html" class="post-card">
     <span class="tag">Privacy</span>
@@ -516,11 +539,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <h3>X’s Free-Speech Pitch Doesn’t Give You Control of Your Account.</h3>
     <p>X can restrict reach, require post removal, and suspend accounts. What its own rules say, and ByteWave’s commitment to free expression.</p>
   </a>
-<a href="/blog/meta-technical-errors-political-accounts.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Instagram</span></span><span class="tag">Platform control &amp; opinion</span></span>
-    <h3>Meta Keeps Calling It a Technical Error.</h3>
-    <p>Lula, Albanian protesters, Musk documentary ads, and No Kings. Four restrictions, Meta’s explanations, and the questions that remain.</p>
-  </a>
+
 <a href="/blog/adobe-venezuela-creative-cloud-access.html" class="post-card">
     <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/adobe.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Adobe</span></span><span class="tag">Platform control &amp; opinion</span></span>
     <h3>Your Video Editor Shouldn’t Need Washington’s Permission.</h3>
@@ -546,11 +565,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <h3>Starlink’s Ukraine Record Is a Warning for Your Phone.</h3>
     <p>Starlink, Starshield, and the trust problem behind satellite cell service. What Ukraine’s restrictions reveal about who controls your connection.</p>
   </a>
-<a href="/blog/meta-no-kings-instagram-suspension.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Instagram</span></span><span class="tag">Platform control &amp; opinion</span></span>
-    <h3>Meta Suspended No Kings When Organizers Needed It Most.</h3>
-    <p>Meta says the No Kings Instagram suspension was an automated mistake. Lost access still matters. ByteWave’s alternative for publishing video and free expression.</p>
-  </a>
+
 <a href="/blog/tiktok-us-deal-bytedance-china-ties.html" class="post-card">
     <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/tiktok.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>TikTok</span></span><span class="tag">Platform ownership &amp; opinion</span></span>
     <h3>TikTok’s U.S. Deal Didn’t Cut Out ByteDance.</h3>
@@ -581,11 +596,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     <h3>TikTok’s Canceled Congressional Appearance Raises Questions About Platform Accountability</h3>
     <p>What the committee chairman says about TikTok’s withdrawal, and why platforms—including ByteWave—owe users clear answers about their products.</p>
   </a>
-<a href="/blog/meta-settlement-youth-safety-social-media-design.html" class="post-card">
-    <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/meta.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Meta / Facebook</span></span><span class="tag">Current analysis</span></span>
-    <h3>Meta's $17.1 Billion Youth-Safety Settlement: What Changes</h3>
-    <p>The approved agreement's payment structure, youth controls, limits, and implications for social-product architecture—linked to primary sources.</p>
-  </a>
+
 <a href="/blog/anthropic-claude-public-trust.html" class="post-card">
     <span class="post-card-heading"><span class="post-brand"><img src="/assets/brands/anthropic.svg" alt="" width="40" height="40" loading="lazy" decoding="async"><span>Anthropic</span></span><span class="tag">Opinion</span></span>
     <h3>Anthropic Needs to Earn Our Trust</h3>
