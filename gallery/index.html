@@ -37,12 +37,15 @@
         "name": "Horizontal Scroll · Möbius Warp",
         "url": "https://bytewaveai.com/gallery/#horizontal-scroll-mobius-warp",
         "item": {
-          "@type": "ImageObject",
+          "@type": "VideoObject",
           "name": "Horizontal Scroll · Möbius Warp",
           "description": "Our first horizontal-scrolling layout, wrapped in a Möbius warp.",
-          "contentUrl": "https://bytewaveai.com/assets/images/gallery/horizontal-scroll-mobius-warp.jpg",
-          "width": 2048,
-          "height": 1152
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/horizontal-scroll-mobius-warp/original.m3u8",
+          "width": 2570,
+          "height": 1446,
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/horizontal-scroll-mobius-warp.jpg",
+          "uploadDate": "2026-10-28",
+          "duration": "PT34.267S"
         }
       },
       {
@@ -51,12 +54,15 @@
         "name": "Horizontal Scroll · Waves",
         "url": "https://bytewaveai.com/gallery/#horizontal-scroll-waves",
         "item": {
-          "@type": "ImageObject",
+          "@type": "VideoObject",
           "name": "Horizontal Scroll · Waves",
           "description": "Horizontal scrolling with a wave warp.",
-          "contentUrl": "https://bytewaveai.com/assets/images/gallery/horizontal-scroll-waves.jpg",
-          "width": 2048,
-          "height": 1152
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/horizontal-scroll-waves/original.m3u8",
+          "width": 2570,
+          "height": 1446,
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/horizontal-scroll-waves.jpg",
+          "uploadDate": "2026-10-28",
+          "duration": "PT34.267S"
         }
       },
       {
@@ -262,7 +268,17 @@
     <ul class="gallery-grid" aria-label="Videos and images made with ByteWave">
       <li class="landscape">
         <figure id="horizontal-scroll-mobius-warp">
-          <img class="gallery-image" src="/assets/images/gallery/horizontal-scroll-mobius-warp.jpg" width="2048" height="1152" alt="Sunset, ocean, cloud, and dog clips arranged in curved bands in a Möbius-warp layout." fetchpriority="high" decoding="async">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player id="horizontal-scroll-mobius-warp-video" controls playsinline preload="none" width="2570" height="1446" poster="/assets/images/gallery/horizontal-scroll-mobius-warp.jpg" data-stream="/assets/videos/layout/horizontal-scroll-mobius-warp/original.m3u8" data-compatible="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4" aria-label="Horizontal Scroll · Möbius Warp">
+                <source src="/assets/videos/layout/horizontal-scroll-mobius-warp/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="Play video" aria-controls="horizontal-scroll-mobius-warp-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4">Open video</a></p>
+          </div>
           <figcaption>
             <h2>Horizontal Scroll · Möbius Warp</h2>
             <p class="effect">Our first horizontal-scrolling layout, wrapped in a Möbius warp.</p>
@@ -272,7 +288,17 @@
       </li>
       <li class="landscape">
         <figure id="horizontal-scroll-waves">
-          <img class="gallery-image" src="/assets/images/gallery/horizontal-scroll-waves.jpg" width="2048" height="1152" alt="Sunset, ocean, cloud, and dog clips arranged in horizontal rows with gently waving edges." loading="lazy" decoding="async">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player id="horizontal-scroll-waves-video" controls playsinline preload="none" width="2570" height="1446" poster="/assets/images/gallery/horizontal-scroll-waves.jpg" data-stream="/assets/videos/layout/horizontal-scroll-waves/original.m3u8" data-compatible="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4" aria-label="Horizontal Scroll · Waves">
+                <source src="/assets/videos/layout/horizontal-scroll-waves/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="Play video" aria-controls="horizontal-scroll-waves-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4">Open video</a></p>
+          </div>
           <figcaption>
             <h2>Horizontal Scroll · Waves</h2>
             <p class="effect">Horizontal scrolling with a wave warp.</p>
