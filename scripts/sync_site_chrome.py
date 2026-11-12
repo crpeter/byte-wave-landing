@@ -29,7 +29,11 @@ FOOTER = f'''<footer class="site-footer">
 
 def main():
     for file in sorted(ROOT.rglob('*.html')):
+        if any(part.startswith(('_', '.')) for part in file.relative_to(ROOT).parts):
+            continue  # Jekyll templates and build output aren't standalone site pages.
         s = file.read_text()
+        if s.startswith('---\n'):
+            continue  # Localized pages share their navigation and footer through layouts.
         if re.search(r'http-equiv="refresh"', s, re.I):
             continue
         nav = re.search(r'<nav\b[^>]*>.*?</nav>', s, re.S)

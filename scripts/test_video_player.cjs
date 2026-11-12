@@ -3,12 +3,12 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const source = fs.readFileSync('assets/js/video-player.js', 'utf8');
-function setup({native = true, blocked = false, compatible = true, mp4 = false} = {}) {
+function setup({native = true, blocked = false, compatible = true, mp4 = false, labels = {}} = {}) {
   const timers = new Map(); let timerId = 0;
   const handlers = {}, attrs = {}, status = {};
   const button = {addEventListener: (event, fn) => {button[event] = fn;}, setAttribute: (key, value) => {attrs[key] = value;}};
   const video = {
-    dataset: {stream: mp4 ? 'original.mp4' : 'original.m3u8', compatible: compatible ? 'compatible.mp4' : undefined},
+    dataset: {bwLabels: JSON.stringify(labels), stream: mp4 ? 'original.mp4' : 'original.m3u8', compatible: compatible ? 'compatible.mp4' : undefined},
     currentTime: 0, seeking: false, ended: false,
     closest: () => ({querySelector: selector => selector === '.bw-play' ? button : status}),
     querySelector: () => ({src: 'original.m3u8'}),
@@ -34,6 +34,11 @@ function setup({native = true, blocked = false, compatible = true, mp4 = false} 
   stalled.expire(); assert.equal(stalled.video.src, 'compatible.mp4');
   stalled.expire(); assert.equal(stalled.button.hidden, false); assert.equal(stalled.attrs['aria-label'], 'Retry video');
   await stalled.button.click(); assert.equal(stalled.video.src, 'compatible.mp4');
+
+  const spanish = setup({labels: {play: 'Reproducir video', loading: 'Cargando video…', retry: 'Reintentar'}});
+  assert.equal(spanish.attrs['aria-label'], 'Reproducir video');
+  await spanish.button.click(); assert.equal(spanish.status.textContent, 'Cargando video…');
+  spanish.expire(); spanish.expire(); assert.equal(spanish.attrs['aria-label'], 'Reintentar');
 
   const progress = setup(); await progress.button.click();
   progress.video.currentTime = 1; progress.handlers.timeupdate();

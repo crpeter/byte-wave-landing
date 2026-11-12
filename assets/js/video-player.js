@@ -12,6 +12,7 @@
   }));
 
   videos.forEach(video => {
+    const labels = JSON.parse(video.dataset.bwLabels || '{}');
     const shell = video.closest('.bw-player');
     const button = shell.querySelector('.bw-play');
     const status = shell.querySelector('[role="status"]');
@@ -25,7 +26,7 @@
 
     const clearTimer = () => { clearTimeout(timer); timer = null; };
     const destroy = () => { if (player) { player.destroy(); player = null; } };
-    const showButton = (label = 'Play video') => {
+    const showButton = (label = labels.play || 'Play video') => {
       button.hidden = false; button.disabled = false;
       button.setAttribute('aria-label', label);
       button.title = label;
@@ -33,8 +34,8 @@
     const fail = () => {
       requested = false; initialized = false; switching = false; attempt++;
       clearTimer(); destroy(); video.pause(); video.controls = false;
-      showButton('Retry video');
-      status.textContent = 'Could not load the video. Try again or open the video link below.';
+      showButton(labels.retry || 'Retry video');
+      status.textContent = labels.failed || 'Could not load the video. Try again or open the video link below.';
     };
     const watch = () => {
       clearTimer();
@@ -46,8 +47,8 @@
       video.play().catch(error => {
         if (current !== attempt || !requested || error.name === 'AbortError') return;
         if (error.name === 'NotAllowedError') {
-          requested = false; clearTimer(); showButton('Tap to play video');
-          status.textContent = 'Tap play to start the video.';
+          requested = false; clearTimer(); showButton(labels.tap || 'Tap to play video');
+          status.textContent = labels.tap_hint || 'Tap play to start the video.';
         } else { recover(); }
       });
     };
@@ -61,7 +62,7 @@
       if (!requested) return;
       if (!fallbackSource || compatible) { fail(); return; }
       compatible = true; attempt++; lastTime = 0; destroy();
-      status.textContent = 'Trying the compatible video…';
+      status.textContent = labels.fallback || 'Trying the compatible video…';
       setSource(fallbackSource);
     };
     const start = async () => {
@@ -69,7 +70,7 @@
       const current = initialized ? attempt : ++attempt;
       requested = true; lastTime = video.currentTime;
       video.controls = true; button.hidden = true; button.disabled = false;
-      status.textContent = 'Loading video…';
+      status.textContent = labels.loading || 'Loading video…';
       watch();
       try {
         if (initialized) {
@@ -117,7 +118,7 @@
       requested = false; clearTimer(); showButton(); status.textContent = '';
     });
     video.addEventListener('ended', () => {
-      switching = false; requested = false; clearTimer(); showButton('Replay video');
+      switching = false; requested = false; clearTimer(); showButton(labels.replay || 'Replay video');
     });
   });
 })();

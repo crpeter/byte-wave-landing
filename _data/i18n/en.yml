@@ -1,0 +1,217 @@
+name: English
+nav:
+  skip: Skip to content
+  label: Main navigation
+  menu: Menu
+  home: Home
+  features: Features
+  compare: Compare
+  gallery: Gallery
+  tutorials: Tutorials
+  blog: Blog
+  about: About
+  privacy: Privacy
+  press: Press
+  expression: Free expression
+  download: Download Free
+footer:
+  motto: Video editing should be free.
+  devices: iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1
+    or later.
+get_free: Get ByteWave free
+social_alt: ByteWave branded social preview
+disclosure:
+  label: 'AI disclosure:'
+  text: This article includes text generated with an AI language model (LLM).
+  by: By
+  review: Product claims were reviewed by ByteWave; comparisons reflect ByteWave’s commercial interest and are
+    not independent reviews.
+player:
+  play: Play video
+  replay: Replay video
+  retry: Retry video
+  tap: Tap to play video
+  tap_hint: Tap play to start the video.
+  loading: Loading video…
+  fallback: Trying the compatible video…
+  failed: Could not load the video. Try again or open the video link below.
+home:
+  seo:
+    title: ByteWave - Free GPU-Powered Video Editor for iPhone, iPad & Mac
+    description: Edit your own footage with ByteWave, a free video editor for iPhone, iPad, and Mac. No watermarks
+      or subscriptions. Local editing, captions, effects, and audio.
+    keywords: free video editor, video editor no watermark, capcut alternative, ios video editor, metal shaders,
+      gpu video editor, video editor no subscription, privacy video editor, free video editor iphone
+    social_title: ByteWave - Free Video Editor for iPhone, iPad & Mac
+    og_description: Your footage. Your creative choices. Free local video editing for iPhone, iPad, and Mac, with
+      no watermarks or subscriptions.
+    twitter_description: Edit your own footage. No watermarks or subscriptions. Local video editing with optional
+      sharing.
+    logo_alt: ByteWave logo
+  schema:
+    description: A free video editor for iPhone, iPad, and Mac. Edit your own footage with local rendering, layered
+      audio, and Metal-powered effects. No watermarks or subscriptions; online sharing is optional.
+    features: Custom Metal Shader Editor, Super Resolution Upscaling, Motion Blur, Temporal Noise Reduction, Community
+      Filters, Unlimited Audio Tracks, On-Device Processing, C2PA Content Credentials Reading, Verified AI-Generation
+      Declarations, Cryptographic Video Provenance
+  hero:
+    tag: ByteWave · Free video editor
+    opening: Make something
+    emphasis: Real
+    ending: not reel.
+    edit: Edit your own footage. Locally on-device.
+    platforms: A free video editor for iPhone, iPad, and Mac.
+    examples: See what you can make ↓
+    no_watermarks: No subscriptions. No export watermarks.
+    devices: 'iOS / iPadOS 26 or later. Mac: macOS 26 or later, M1 or later.'
+  download: Download ByteWave
+  showcase:
+    tag: Start with what you filmed
+    footage: Your footage.
+    edit: Your edit.
+    intro: Bring your photos and videos. Make the rest your own.
+    layout: Layout from ByteWave
+    layout_desc: Bring photos and videos together in one composition.
+    effects: Filters, effects, and
+    captions: animated captions
+    captions_desc: Find your look. Put your own words on it.
+    audio: Audio tools
+    audio_desc: Layer tracks and shape the sound of your video.
+    gallery: Watch videos made with ByteWave →
+    editor_alt: ByteWave editor showing sunset footage and its on-device editing tools
+    layout_alt: Layout from ByteWave combining six ocean photos and videos in one composition
+  credentials:
+    tag: Photos, videos, and AI
+    title: Was this made with AI?
+    check: Check a photo or video.
+    check_desc: ByteWave reads supported C2PA Content Credentials, including signed labels identifying AI-generated
+      content. The check runs on your device.
+    how: How to check a file →
+    signed: Your exports are signed.
+    signed_desc: Every Save to Photos export gets a ByteWave provenance stamp with a digital signature. It helps
+      show that the file came from ByteWave and whether it has changed since it was signed.
+    signed_link: How signed exports work →
+    caveat: No credentials? That does not mean real or fake. A signature cannot prove that a scene happened.
+    newsrooms: Checking footage for a story? Start here →
+  geese:
+    tag: Every editing tool. Free.
+    opening: Free as in
+    emphasis: geese.
+    desc: No subscriptions. No export watermarks. No account required for local editing.
+    fallback: Open compatibility copy
+    caption: Geese navigating moving water, with “Free as in geese” on screen.
+    alt: 'Free as in geese: ByteWave app preview'
+  privacy:
+    title: Your videos stay on your device
+    intro: Start with the moments you recorded. Trim clips, shape the sound, and choose the effects yourself.
+      ByteWave keeps editing and rendering on your supported Apple device.
+    local: ByteWave processes editing locally on your Apple device.
+    sharing: No account is required for local editing, and your videos are not uploaded unless you explicitly
+      choose to post or share them through an online feature.
+    stamp: Every Save to Photos export is cryptographically signed with ByteWave provenance metadata to help verify
+      its ByteWave origin and whether the file has changed since signing. A signature cannot prove that a depicted
+      event happened.
+    stamp_link: Learn what signed exports establish.
+    guide: How to edit without uploading your footage
+  creative:
+    title: Tired of AI videos taking over your feed?
+    intro: If Facebook or TikTok feels crowded with generated clips, or CapCut's AI features aren't what you came
+      to edit with, you can start with your own footage.
+    choice: Your recordings, your edits, your choice to share.
+    tools: 'ByteWave gives you tools to work with what you filmed: animated captions, custom filters, slow motion,
+      and layered audio. Assistive features such as upscaling are available; generating a scene from a prompt
+      is not required to edit a video.'
+    feed: Browse ByteWave's public feed anonymously, with optional personalization computed on your device and
+      no server-side watch history.
+    feed_link: See how the feed works.
+    facebook: How to reduce AI videos in your Facebook feed
+    tiktok: How to see less AI content on TikTok
+    real: AI slop, real footage, and taking back creative control
+    capcut: A free CapCut alternative for editing your own footage
+    gallery: Watch videos made with ByteWave
+    or: or
+    tutorial: try the motion blur tutorial.
+    download: Edit your own footage free
+  compare:
+    title: ByteWave vs. CapCut
+    intro: ByteWave’s editing tools are free. CapCut puts some of the same tools in paid plans.
+    feature: Feature
+    price: Price
+    free: $0
+    plans: Free and paid plans
+    watermarks: Watermarks
+    none: No ByteWave watermark
+    varies: Depends on tool and export
+    editing: Editing
+    offline: On-device; no account required
+    cloud: Local and cloud tools
+    data: Data handling
+    no_tracking: No behavioral tracking; optional accounts and publishing
+    policy: See CapCut privacy policy
+    provenance: Video provenance
+    stamp: ByteWave stamp on Save to Photos
+    export_options: Check current export options
+    slow_motion: Slow motion
+    included: Included
+    optical: 'Optical flow: free to try'
+    motion: Motion blur
+    pro_motion: Listed in Pro*
+    noise: Video noise reduction
+    pro: Pro plan
+    desktop: Desktop
+    upscale: AI upscaling
+    device: On-device
+    paid: Paid subscription
+    mobile: Mobile AI enhancement
+    tracks: Audio tracks
+    unlimited: No track limit
+    limits: Check platform limits
+    tts: Text to speech
+    voices: Free voices; premium voices use credits
+    captions: Auto captions
+    pro_captions: Pro for full access
+    code: Editable filter source code
+    metal: Metal shader source included
+    filter_tools: Check current filter tools
+    community: Community filters
+    shared: Shared editable shaders
+    effects: Free + Pro effects and templates
+    subject: Subject isolation for filters
+    masks: Masking and cutout tools
+    note: Checked October 18, 2026. Pro is a paid subscription. *CapCut lists motion blur in Pro, but also advertises
+      free versions. Access varies by platform, region, and offer.
+    full: Full comparison
+  features:
+    title: What you get
+    items:
+    - title: C2PA checks & video provenance
+      body: Check photos and videos for supported Content Credentials, including AI-generation labels. Every Save
+        to Photos export also gets a ByteWave stamp to help identify later changes.
+    - title: Slow motion & motion blur
+      body: Make slow-motion video smoother with FRC. Motion blur and temporal noise reduction are also processed
+        locally on your device before preview.
+    - title: AI upscaling
+      body: Upscale resolution on-device. No cloud processing, no waiting for a server.
+    - title: Unlimited audio tracks
+      body: Layer as many audio clips as you need on a visual timeline. Built-in sound effects. No track limits.
+    - title: Text to speech
+      body: Type text for voice synthesis or generate captions on your device. Optional automatic tagging helps
+        others discover shared videos and requires an account and opt-in.
+    - title: Text effects
+      body: Sparkle, glitch, neon, and more. Animated text that doesn't require a motion graphics background.
+    - title: Subject isolation
+      body: Separate subjects from backgrounds and apply filters to each independently. Blur the background, keep
+        the subject sharp; one tap.
+    - title: Custom filters with source code
+      body: Every filter shows you the shader code behind it. Edit it directly, or copy the code and ask ChatGPT
+        to make something new.
+    - title: Community filters
+      body: Publish filters you've made. Browse and grab filters from other creators. One tap to add to your library.
+  filters:
+    title: Filters you can actually edit
+    desc: Most editors treat filters as a black box. ByteWave shows you the code. Change it, learn from it, or
+      copy it and describe what you want to an AI; paste the result back in.
+    comment: // Impressionist background, sharp subject
+  cta:
+    desc: Edit offline. No account required. Upload only when you choose to publish.
+    apple: Download for Apple

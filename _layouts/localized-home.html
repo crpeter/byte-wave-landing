@@ -1,0 +1,738 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign h = t.home -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = page -%}
+{%- assign guide = site.pages | where: "translation_key", "private-editor" | where: "lang", page.lang | first -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1f3461">
+    <title>{{ h.seo.title | escape }}</title>
+    <meta name="description" content="{{ h.seo.description | escape }}">
+    <meta name="keywords" content="{{ h.seo.keywords | escape }}">
+    {% include localized-alternates.html %}
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ h.seo.social_title | escape }}">
+    <meta property="og:description" content="{{ h.seo.og_description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+    <meta property="og:site_name" content="ByteWave">
+    <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ h.seo.logo_alt | escape }}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ h.seo.social_title | escape }}">
+    <meta name="twitter:description" content="{{ h.seo.twitter_description | escape }}">
+    <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+    <meta name="twitter:image:alt" content="{{ h.seo.logo_alt | escape }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://bytewaveai.com/#organization",
+            "name": "ByteWave",
+            "alternateName": "bytewaveai.com",
+            "url": "https://bytewaveai.com/",
+            "logo": "https://bytewaveai.com/logo.png"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://bytewaveai.com/#website",
+            "name": "ByteWave",
+            "alternateName": "bytewaveai.com",
+            "url": "https://bytewaveai.com/",
+            "publisher": {
+                "@id": "https://bytewaveai.com/#organization"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "@id": "https://bytewaveai.com/#app",
+            "name": "ByteWave",
+            "operatingSystem": "iOS, iPadOS, macOS",
+            "applicationCategory": "MultimediaApplication",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            },
+            "description": {{ h.schema.description | jsonify }},
+            "url": {{ page.url | absolute_url | jsonify }},
+            "downloadUrl": {{ page.store_url | jsonify }},
+            "publisher": {
+                "@id": "https://bytewaveai.com/#organization"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "ByteWave",
+                "url": "https://bytewaveai.com/"
+            },
+            "featureList": {{ h.schema.features | jsonify }}
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" type="image/webp" href="/assets/landing/ocean.webp"
+          imagesrcset="/assets/landing/ocean-mobile.webp 640w, /assets/landing/ocean.webp 1152w"
+          imagesizes="100vw" fetchpriority="high">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #08080c;
+            --surface: #101016;
+            --border: rgba(255,255,255,0.06);
+            --text: #d8d6e1;
+            --text-dim: #9390a5;
+            --text-muted: #5c5970;
+            --accent: #789ae2;
+            --accent-dim: rgba(120,154,226,0.14);
+            --secondary: #1f3461;
+            --secondary-dim: rgba(31,52,97,0.35);
+            --positive: #5ec78a;
+            --positive-dim: rgba(94,199,138,0.1);
+            --negative: #e05572;
+            --negative-dim: rgba(224,85,114,0.1);
+        }
+
+        html { scroll-behavior: smooth; font-size: 16px; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: inherit; text-decoration: none; }
+
+        /* --- NAV --- */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            padding: 1rem 2rem;
+            display: flex; align-items: center; justify-content: space-between;
+            backdrop-filter: blur(16px);
+            background: rgba(8,8,12,0.85);
+            border-bottom: 1px solid var(--border);
+        }
+        .logo {
+            font-weight: 700; font-size: 1.1rem;
+            letter-spacing: -0.4px;
+        }
+        .nav-links {
+            display: flex; gap: 1.8rem; align-items: center;
+            font-size: .84rem; color: var(--text-dim);
+        }
+        .nav-links a:hover { color: var(--text); }
+        .nav-cta {
+            background: var(--text); color: var(--bg);
+            padding: .42rem 1.1rem; border-radius: 5px;
+            font-weight: 600; font-size: .8rem;
+            transition: opacity .2s;
+        }
+        .nav-cta:hover { opacity: .8; }
+
+        /* --- HERO --- */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 6.5rem 2rem 4rem;
+        }
+        .hero-mark {
+            width: 208px; height: 208px;
+            display: block;
+            margin: 0 0 1.75rem;
+            border-radius: 22px;
+            border: 1px solid var(--secondary);
+            object-fit: cover;
+        }
+        .hero h1 {
+            font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            color: #efeff4;
+        }
+        .hero h1 span {
+            color: var(--accent);
+        }
+        .hero-body {
+            margin-top: 1.5rem;
+            font-size: 1.02rem;
+            color: var(--text-dim);
+            max-width: 560px;
+            font-weight: 400;
+            line-height: 1.75;
+        }
+        .hero-actions {
+            display: flex; gap: 1rem; margin-top: 2.5rem;
+            flex-wrap: wrap; align-items: center;
+        }
+        .btn-primary {
+            display: inline-block;
+            background: var(--text); color: var(--bg);
+            padding: .75rem 1.8rem; border-radius: 6px;
+            font-weight: 600; font-size: .92rem;
+            font-family: 'Inter', system-ui, sans-serif;
+            transition: opacity .2s;
+            border: none; cursor: pointer;
+        }
+        .btn-primary:hover { opacity: .8; }
+        .hero-note {
+            font-size: .78rem; color: var(--text-muted);
+            margin-top: 1rem;
+            letter-spacing: 0.2px;
+        }
+
+        /* --- DIVIDER --- */
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 0;
+        }
+
+        /* --- PROSE SECTIONS --- */
+        .prose-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+        }
+        .prose-section h2 {
+            font-size: clamp(1.4rem, 3vw, 1.85rem);
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            margin-bottom: 1.2rem;
+            color: #efeff4;
+        }
+        .prose-section p {
+            font-size: .98rem;
+            color: var(--text-dim);
+            line-height: 1.8;
+            max-width: 620px;
+        }
+        .prose-section p + p { margin-top: 1rem; }
+        .prose-section strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .prose-section a { color: var(--accent); text-decoration: underline; text-underline-offset: .2em; }
+        .prose-section .btn-primary { color: var(--bg); text-decoration: none; }
+        .guide-links { margin: 1.5rem 0; padding-left: 1.2rem; color: var(--text-dim); }
+        .guide-links li + li { margin-top: .6rem; }
+        #creative-control { scroll-margin-top: 6rem; }
+        a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+        /* --- COMPARISON --- */
+        .compare-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+        }
+        .compare-section h2 {
+            font-size: clamp(1.4rem, 3vw, 1.85rem);
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            margin-bottom: .5rem;
+            color: #efeff4;
+        }
+        .compare-intro {
+            color: var(--text-dim);
+            font-size: .98rem;
+            margin-bottom: 2.5rem;
+        }
+        .comp-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .comp-table thead th {
+            padding: .9rem 1rem;
+            text-align: center;
+            font-weight: 600;
+            font-size: .84rem;
+            border-bottom: 1px solid var(--border);
+            letter-spacing: -0.3px;
+        }
+        .comp-table thead th:first-child {
+            text-align: left;
+            font-weight: 400;
+            color: var(--text-muted);
+            font-size: .8rem;
+        }
+        .comp-table thead th:nth-child(2) { color: var(--accent); }
+        .comp-table thead th:nth-child(3) { color: var(--text-muted); }
+        .comp-table td {
+            padding: .75rem 1rem;
+            font-size: .84rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .comp-table td:first-child {
+            color: var(--text-dim);
+            font-weight: 500;
+        }
+        .comp-table td:nth-child(2),
+        .comp-table td:nth-child(3) { text-align: center; }
+        .comp-table .yes { color: var(--positive); }
+        .comp-table .no { color: var(--negative); opacity: .8; }
+        .price-free {
+            background: var(--positive-dim);
+            color: var(--positive);
+            padding: .15rem .5rem; border-radius: 4px;
+            font-weight: 600; font-size: .8rem;
+        }
+        .price-paid {
+            background: var(--negative-dim);
+            color: var(--negative);
+            padding: .15rem .5rem; border-radius: 4px;
+            font-weight: 600; font-size: .8rem;
+        }
+
+        /* --- FEATURES --- */
+        .features-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+        }
+        .features-section h2 {
+            font-size: clamp(1.4rem, 3vw, 1.85rem);
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            margin-bottom: 2.5rem;
+            color: #efeff4;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.2rem 3.5rem;
+        }
+        .feature-item h3 {
+            font-size: .92rem;
+            font-weight: 600;
+            margin-bottom: .3rem;
+            letter-spacing: -0.2px;
+            color: var(--text);
+        }
+        .feature-item p {
+            font-size: .86rem;
+            color: var(--text-dim);
+            line-height: 1.65;
+            font-weight: 400;
+        }
+
+        /* --- FILTERS CODE --- */
+        .filters-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+        }
+        .filters-section h2 {
+            font-size: clamp(1.2rem, 2.5vw, 1.45rem);
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: .5rem;
+            color: #efeff4;
+        }
+        .filters-section > p {
+            color: var(--text-dim);
+            font-size: .92rem;
+            margin-bottom: 1.5rem;
+            max-width: 560px;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+        .code-block {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: .75rem;
+            color: var(--text-dim);
+            line-height: 1.9;
+            overflow-x: auto;
+        }
+        .code-block .kw { color: var(--accent); }
+        .code-block .fn { color: var(--positive); }
+        .code-block .cm { color: var(--text-muted); }
+        .code-block .val { color: #c4a7e7; }
+
+        /* --- GEAR --- */
+        .gear-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+        }
+        .gear-section h2 {
+            font-size: clamp(1.4rem, 3vw, 1.85rem);
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            margin-bottom: 1.2rem;
+            color: #efeff4;
+        }
+        .gear-section p {
+            font-size: .98rem;
+            color: var(--text-dim);
+            line-height: 1.8;
+            max-width: 620px;
+        }
+        .gear-section p + p { margin-top: 1rem; }
+        .gear-section strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+        .gear-categories {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.2rem;
+            margin-top: 2rem;
+        }
+        .gear-cat {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.3rem 1.2rem;
+        }
+        .gear-cat-icon {
+            font-size: 1.3rem;
+            margin-bottom: .5rem;
+        }
+        .gear-cat h3 {
+            font-size: .88rem;
+            font-weight: 600;
+            letter-spacing: -0.2px;
+            color: var(--text);
+            margin-bottom: .25rem;
+        }
+        .gear-cat p {
+            font-size: .8rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+        }
+        .gear-badge {
+            display: inline-block;
+            margin-top: 1.8rem;
+            font-size: .75rem;
+            color: var(--accent);
+            background: var(--accent-dim);
+            padding: .3rem .75rem;
+            border-radius: 4px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+        @media (max-width: 768px) {
+            .gear-categories { grid-template-columns: 1fr; }
+        }
+
+        /* --- CTA --- */
+        .cta-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 6rem 2rem 8rem;
+        }
+        .cta-section h2 {
+            font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: .7rem;
+            color: #efeff4;
+        }
+        .cta-section p {
+            color: var(--text-dim);
+            font-size: .98rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: .76rem;
+        }
+        footer a { color: var(--text-dim); }
+        footer .footer-nav { margin-bottom: .8rem; font-size: .8rem; }
+        footer .footer-nav a:hover { color: var(--text); }
+        footer .tagline {
+            margin-top: .3rem;
+            font-size: .7rem;
+            letter-spacing: 0.3px;
+        }
+
+        /* --- MOBILE --- */
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .feature-list { grid-template-columns: 1fr; gap: 1.5rem; }
+            .comp-table td,
+            .comp-table thead th { padding: .6rem .45rem; font-size: .76rem; }
+            .hero {
+                padding: 5.75rem 1.5rem 3rem;
+            }
+            .hero-mark { width: 176px; height: 176px; border-radius: 20px; margin-bottom: 1.4rem; }
+            .prose-section,
+            .compare-section,
+            .features-section,
+            .filters-section,
+            .cta-section { padding: 3.5rem 1.5rem; }
+        }
+    @media(max-width:1100px){nav{gap:1rem;flex-wrap:wrap}.nav-links{display:flex;gap:1rem;flex-wrap:wrap;justify-content:flex-end}.nav-links>a:not(.tutorials-link):not(.gallery-link):not(.nav-cta){display:none}}
+    /* Keep the App Store link visible while secondary links wrap on small screens. */
+    .nav-links .nav-cta:hover{color:var(--bg)}
+    @media(max-width:768px){
+      nav{padding:.75rem 1rem;gap:.75rem;flex-wrap:nowrap}
+      nav .logo{flex-shrink:0}
+      .nav-links{min-width:0;gap:.35rem .75rem;flex-wrap:wrap;justify-content:flex-end}
+      .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+    }
+    </style>
+    <link rel="stylesheet" href="/assets/css/landing.css?v=bd1017021b91">
+    <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+</head>
+<body class="site-page site-home">
+{% include localized-nav.html %}
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+    <picture class="hero-photo" aria-hidden="true">
+        <img src="/assets/landing/ocean.webp"
+             srcset="/assets/landing/ocean-mobile.webp 640w, /assets/landing/ocean.webp 1152w"
+             sizes="100vw" width="1152" height="2045" alt=""
+             fetchpriority="high" decoding="async">
+    </picture>
+    <p class="eyebrow">{{ h.hero.tag | escape }}</p>
+    <h1 id="hero-title"><span>{{ h.hero.opening | escape }}</span> <em>{{ h.hero.emphasis | escape }}</em> <span>{{ h.hero.ending | escape }}</span></h1>
+    <p class="hero-body">{{ h.hero.edit | escape }}<br>{{ h.hero.platforms | escape }}</p>
+    <div class="hero-actions">
+        <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_ocean_hero{{ page.campaign_suffix }}&amp;mt=8" class="btn-primary">{{ h.download | escape }}</a>
+        <a href="#see-bytewave" class="btn-secondary">{{ h.hero.examples | escape }}</a>
+    </div>
+    <p class="hero-note">{{ h.hero.no_watermarks | escape }}<br>{{ h.hero.devices | escape }}</p>
+</section>
+
+<section class="showcase" id="see-bytewave" aria-labelledby="showcase-title">
+    <div class="showcase-copy">
+        <p class="eyebrow">{{ h.showcase.tag | escape }}</p>
+        <h2 id="showcase-title">{{ h.showcase.footage | escape }}<br>{{ h.showcase.edit | escape }}</h2>
+        <p>{{ h.showcase.intro | escape }}</p>
+        <ul class="showcase-points">
+            <li><strong><a href="/layout/">{{ h.showcase.layout | escape }}</a></strong><span>{{ h.showcase.layout_desc | escape }}</span></li>
+            <li><strong>{{ h.showcase.effects | escape }} <a href="/tutorials/animated-captions/">{{ h.showcase.captions | escape }}</a></strong><span>{{ h.showcase.captions_desc | escape }}</span></li>
+            <li><strong>{{ h.showcase.audio | escape }}</strong><span>{{ h.showcase.audio_desc | escape }}</span></li>
+        </ul>
+        <a href="/gallery/">{{ h.showcase.gallery | escape }}</a>
+    </div>
+    <div class="app-images">
+        <img src="/assets/landing/editor.webp" width="560" height="1212" loading="lazy" decoding="async" alt="{{ h.showcase.editor_alt | escape }}">
+        <img src="/assets/landing/layout.webp" width="560" height="1212" loading="lazy" decoding="async" alt="{{ h.showcase.layout_alt | escape }}">
+    </div>
+</section>
+
+<section class="credentials-section" id="content-credentials" aria-labelledby="credentials-title">
+    <p class="eyebrow">{{ h.credentials.tag | escape }}</p>
+    <h2 id="credentials-title">{{ h.credentials.title | escape }}</h2>
+    <div class="credentials-grid">
+        <div>
+            <h3>{{ h.credentials.check | escape }}</h3>
+            <p>{{ h.credentials.check_desc | escape }}</p>
+            <a href="/tutorials/check-c2pa-content-credentials/">{{ h.credentials.how | escape }}</a>
+        </div>
+        <div>
+            <h3>{{ h.credentials.signed | escape }}</h3>
+            <p>{{ h.credentials.signed_desc | escape }}</p>
+            <a href="/blog/provenance.html#signed-exports">{{ h.credentials.signed_link | escape }}</a>
+        </div>
+    </div>
+    <p class="credentials-note">{{ h.credentials.caveat | escape }}</p>
+    <a class="credentials-guide" href="/blog/tools-newsrooms-check-ai-generated-media.html">{{ h.credentials.newsrooms | escape }}</a>
+</section>
+
+<section class="geese-section" aria-labelledby="geese-title">
+    <div class="geese-inner">
+        <div>
+            <p class="eyebrow">{{ h.geese.tag | escape }}</p>
+            <h2 id="geese-title">{{ h.geese.opening | escape }}<br><em>{{ h.geese.emphasis | escape }}</em></h2>
+            <p>{{ h.geese.desc | escape }}</p>
+            <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_geese{{ page.campaign_suffix }}&amp;mt=8" class="btn-primary">{{ t.get_free | escape }}</a>
+        </div>
+        <figure>
+            <div class="geese-player">
+            <div class="bw-player">
+  <div class="bw-media"><video data-compatible="/assets/landing/free-as-in-geese.mp4" data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="geese-video" class="geese-video" data-stream="/assets/landing/geese-hq/playlist.m3u8" controls playsinline preload="none" poster="/assets/landing/geese-poster.jpg" width="886" height="1920" aria-label="{{ h.geese.alt | escape }}" aria-describedby="geese-caption">
+                <source src="/assets/landing/geese-hq/playlist.m3u8" type="application/vnd.apple.mpegurl">
+
+            </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="geese-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/landing/free-as-in-geese.mp4">{{ h.geese.fallback | escape }}</a></p>
+</div>
+
+            </div>
+
+            <figcaption id="geese-caption">{{ h.geese.caption | escape }}</figcaption>
+        </figure>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="prose-section">
+    <h2>{{ h.privacy.title | escape }}</h2>
+    <p>
+        {{ h.privacy.intro | escape }}
+    </p>
+    <p>
+        {{ h.privacy.local | escape }} <strong>{{ h.privacy.sharing | escape }}</strong>
+    </p>
+    <p>
+        {{ h.privacy.stamp | escape }} <a href="/blog/provenance.html#signed-exports">{{ h.privacy.stamp_link | escape }}</a>
+    </p>
+    <p><a href="{{ guide.url | relative_url }}">{{ h.privacy.guide | escape }} →</a></p>
+</section>
+
+<hr class="divider">
+
+<section class="prose-section" id="creative-control" aria-labelledby="creative-control-title">
+    <h2 id="creative-control-title">{{ h.creative.title | escape }}</h2>
+    <p>
+        {{ h.creative.intro | escape }} <strong>{{ h.creative.choice | escape }}</strong>
+    </p>
+    <p>
+        {{ h.creative.tools | escape }}
+    </p>
+    <p>
+        {{ h.creative.feed | escape }} <a href="/blog/how-bytewave-feed-works-without-server-watch-history.html">{{ h.creative.feed_link | escape }}</a>
+    </p>
+    <ul class="guide-links">
+        <li><a href="/blog/reduce-ai-videos-facebook-feed.html">{{ h.creative.facebook | escape }}</a></li>
+        <li><a href="/blog/reduce-ai-content-tiktok-feed.html">{{ h.creative.tiktok | escape }}</a></li>
+        <li><a href="/blog/tired-of-ai-videos-social-media.html">{{ h.creative.real | escape }}</a></li>
+        <li><a href="/blog/free-capcut-alternative-2026.html">{{ h.creative.capcut | escape }}</a></li>
+    </ul>
+    <p><a href="/gallery/">{{ h.creative.gallery | escape }}</a> {{ h.creative.or | escape }} <a href="/tutorials/motion-blur/">{{ h.creative.tutorial | escape }}</a></p>
+    <div class="hero-actions">
+        <a class="btn-primary" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=seo_creative_control{{ page.campaign_suffix }}&amp;mt=8">{{ h.creative.download | escape }}</a>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="compare-section" id="compare">
+    <h2>{{ h.compare.title | escape }}</h2>
+    <p class="compare-intro">{{ h.compare.intro | escape }}</p>
+
+    <table class="comp-table">
+        <thead>
+        <tr>
+            <th scope="col">{{ h.compare.feature | escape }}</th>
+            <th scope="col">ByteWave</th>
+            <th scope="col">CapCut</th>
+        </tr>
+        </thead>
+        <tbody>
+<tr><th scope="row">{{ h.compare.price | escape }}</th><td><span class="price-free">{{ h.compare.free | escape }}</span></td><td><span class="price-paid">{{ h.compare.plans | escape }}</span></td></tr>
+<tr><th scope="row">{{ h.compare.watermarks | escape }}</th><td>{{ h.compare.none | escape }}</td><td>{{ h.compare.varies | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.editing | escape }}</th><td>{{ h.compare.offline | escape }}</td><td>{{ h.compare.cloud | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.data | escape }}</th><td>{{ h.compare.no_tracking | escape }}</td><td>{{ h.compare.policy | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.provenance | escape }}</th><td>{{ h.compare.stamp | escape }}</td><td>{{ h.compare.export_options | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.slow_motion | escape }}</th><td>{{ h.compare.included | escape }}</td><td>{{ h.compare.optical | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.motion | escape }}</th><td>{{ h.compare.included | escape }}</td><td><span class="price-paid">{{ h.compare.pro_motion | escape }}</span></td></tr>
+<tr><th scope="row">{{ h.compare.noise | escape }}</th><td>{{ h.compare.included | escape }}</td><td><span class="price-paid">{{ h.compare.pro | escape }}</span><br><small>{{ h.compare.desktop | escape }}</small></td></tr>
+<tr><th scope="row">{{ h.compare.upscale | escape }}</th><td>{{ h.compare.device | escape }}</td><td><span class="price-paid">{{ h.compare.paid | escape }}</span><br><small>{{ h.compare.mobile | escape }}</small></td></tr>
+<tr><th scope="row">{{ h.compare.tracks | escape }}</th><td>{{ h.compare.unlimited | escape }}</td><td>{{ h.compare.limits | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.tts | escape }}</th><td>{{ h.compare.included | escape }}</td><td>{{ h.compare.voices | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.captions | escape }}</th><td>{{ h.compare.included | escape }}</td><td><span class="price-paid">{{ h.compare.pro_captions | escape }}</span></td></tr>
+<tr><th scope="row">{{ h.compare.code | escape }}</th><td>{{ h.compare.metal | escape }}</td><td>{{ h.compare.filter_tools | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.community | escape }}</th><td>{{ h.compare.shared | escape }}</td><td>{{ h.compare.effects | escape }}</td></tr>
+<tr><th scope="row">{{ h.compare.subject | escape }}</th><td>{{ h.compare.included | escape }}</td><td>{{ h.compare.masks | escape }}</td></tr>
+</tbody>
+    </table>
+<p class="comparison-note" id="capcut-plan-note">{{ h.compare.note | escape }} <a href="/blog/free-capcut-alternative-2026.html">{{ h.compare.full | escape }}</a>.</p>
+</section>
+
+<hr class="divider">
+
+<section class="features-section" id="features">
+    <h2>{{ h.features.title | escape }}</h2>
+
+    <div class="feature-list">
+        {% for item in h.features.items %}
+        <div class="feature-item">
+            <h3>{{ item.title | escape }}</h3>
+            <p>{{ item.body | escape }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="filters-section">
+    <h2>{{ h.filters.title | escape }}</h2>
+    <p>{{ h.filters.desc | escape }}</p>
+    <div class="code-block">
+        <span class="cm">#include</span> <span class="val">&lt;metal_stdlib&gt;</span><br>
+        <span class="kw">using namespace</span> metal;<br>
+        <br>
+        <span class="cm">{{ h.filters.comment | escape }}</span><br>
+        <span class="kw">fragment half4</span> <span class="fn">impressionistSubject</span>(<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;RasterizerData in <span class="val">[[stage_in]]</span>,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">texture2d</span>&lt;half&gt; source <span class="val">[[texture(0)]]</span>,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">texture2d</span>&lt;half&gt; subjectMask <span class="val">[[texture(1)]]</span>,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">constant float</span> &amp;brushSize <span class="val">[[buffer(0)]]</span>)<br>
+        {<br>
+        &nbsp;&nbsp;<span class="kw">constexpr sampler</span> s(filter::linear, address::clamp_to_edge);<br>
+        <br>
+        &nbsp;&nbsp;<span class="kw">half4</span> original = source.<span class="fn">sample</span>(s, in.uv);<br>
+        &nbsp;&nbsp;<span class="kw">half</span>&nbsp;&nbsp;mask&nbsp;&nbsp;&nbsp;&nbsp; = subjectMask.<span class="fn">sample</span>(s, in.uv).r;<br>
+        &nbsp;&nbsp;<span class="kw">half4</span> painted&nbsp;&nbsp;= <span class="fn">impressionist</span>(source, s, in.uv, brushSize);<br>
+        <br>
+        &nbsp;&nbsp;<span class="kw">return</span> <span class="fn">mix</span>(painted, original, mask);<br>
+        }
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="cta-section" id="download">
+    <h2>{{ h.download | escape }}</h2>
+    <p>{{ h.cta.desc | escape }}</p>
+    <a href="{{ page.store_url | escape }}" target="_blank" class="btn-primary" style="padding:.85rem 2.2rem">{{ h.cta.apple | escape }}</a>
+</section>
+
+</main>
+
+{% include localized-footer.html %}
+
+
+<script src="/assets/js/video-player.js?v=63dc3b20c11d" defer></script>
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
+</body>
+</html>

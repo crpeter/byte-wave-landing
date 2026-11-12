@@ -15,13 +15,16 @@ with tempfile.TemporaryDirectory() as folder:
         if p.name == 'assets': (fixture / p.name).symlink_to(p, target_is_directory=True)
         elif p.is_dir(): shutil.copytree(p, fixture / p.name)
         else: shutil.copy2(p, fixture / p.name)
+    shutil.copy2(validate_site.SOURCE_ROOT / "_config.yml", fixture / "_config.yml")
     validate_site.ROOT = fixture
     def run():
         output = io.StringIO()
-        with contextlib.redirect_stdout(output): result = validate_site.main()
+        with contextlib.redirect_stdout(output): result = validate_site.main(fixture / "_config.yml")
         return result, output.getvalue()
     assert run()[0] == 0
     cases = [
+        ('es/blog/editor-de-video-sin-subir-archivos.html', 'generado con un modelo de lenguaje de IA (LLM)', 'editado', 'disclosure must explicitly identify'),
+        ('es/index.html', 'hreflang="en" href="https://bytewaveai.com/"', 'hreflang="en" href="https://bytewaveai.com/es/"', 'missing reciprocal'),
         ('tutorials/frame-rate-conversion/index.html', 'class="disclosure ai-disclosure"', 'class="disclosure"', 'expected one visible AI disclosure'),
         ('blog/provenance.html', '"dateModified":"2026-10-18"', '"dateModified":"2026-01-01"', 'disagrees with sitemap'),
         ('about.html', '<a href="/free-expression.html">Free expression</a></div>', '</div>', 'missing shared footer links'),
