@@ -1,1 +1,5 @@
 .idea
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+__pycache__/

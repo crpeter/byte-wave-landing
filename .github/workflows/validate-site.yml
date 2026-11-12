@@ -10,7 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate links and metadata
+      - name: Render with the GitHub Pages builder
+        uses: actions/jekyll-build-pages@v1
+        with:
+          verbose: false
+      - name: Validate rendered links and metadata
         run: python3 scripts/validate_site.py
       - name: Test site validation rules
         run: python3 scripts/test_site_validation.py
