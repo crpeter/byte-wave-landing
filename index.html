@@ -87,7 +87,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="image" type="image/webp" href="/assets/landing/ocean.webp"
+    <link rel="preload" media="(min-width: 901px)" as="image" type="image/webp" href="/assets/landing/cloud-glow.webp" fetchpriority="high">
+    <link rel="preload" media="(max-width: 900px)" as="image" type="image/webp" href="/assets/landing/ocean.webp"
           imagesrcset="/assets/landing/ocean-mobile.webp 640w, /assets/landing/ocean.webp 1152w"
           imagesizes="100vw" fetchpriority="high">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -510,6 +511,8 @@
     </style>
     <link rel="stylesheet" href="/assets/css/landing.css?v=bd1017021b91">
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+    <link rel="stylesheet" href="/assets/css/hero-motion.css?v=970579b11ff8">
+    <script defer src="/assets/js/hero-motion.js?v=34df28607307"></script>
 </head>
 <body class="site-page site-home">
 <a class="site-skip" href="#main">Skip to content</a>
@@ -536,11 +539,13 @@
 <main id="main">
 <section class="hero" aria-labelledby="hero-title">
     <picture class="hero-photo" aria-hidden="true">
+        <source media="(min-width: 901px)" type="image/webp" srcset="/assets/landing/cloud-glow.webp" width="1600" height="900">
         <img src="/assets/landing/ocean.webp"
              srcset="/assets/landing/ocean-mobile.webp 640w, /assets/landing/ocean.webp 1152w"
              sizes="100vw" width="1152" height="2045" alt=""
              fetchpriority="high" decoding="async">
     </picture>
+    <video id="ocean-motion" data-src="/assets/landing/cloud-glow.mp4" aria-hidden="true" muted loop playsinline preload="none"></video>
     <p class="eyebrow">ByteWave · Free video editor</p>
     <h1 id="hero-title"><span>Make something</span> <em>Real</em> <span>not reel.</span></h1>
     <p class="hero-body">Edit your own footage. Locally on-device.<br>A free video editor for iPhone, iPad, and Mac.</p>
@@ -549,6 +554,7 @@
         <a href="#see-bytewave" class="btn-secondary">See what you can make ↓</a>
     </div>
     <p class="hero-note">No subscriptions. No export watermarks.<br>iOS / iPadOS 26 or later. Mac: macOS 26 or later, M1 or later.</p>
+    <button id="motion-toggle" type="button" hidden aria-controls="ocean-motion" aria-label="Play background video">▶</button>
 </section>
 
 <section class="showcase" id="see-bytewave" aria-labelledby="showcase-title">
