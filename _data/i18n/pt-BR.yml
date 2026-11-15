@@ -35,12 +35,12 @@ player:
   failed: 'Não foi possível carregar o vídeo. Tente de novo ou abra o link abaixo.'
 home:
   seo:
-    title: 'ByteWave - Editor de vídeo gratuito para iPhone, iPad e Mac'
+    title: 'ByteWave - Editor de vídeo grátis para iPhone, iPad e Mac no Brasil'
     description: 'Edite seus vídeos no iPhone, iPad e Mac com o ByteWave. Sem marca d’água ou assinatura. Edição local, legendas, efeitos e áudio.'
     keywords: 'editor de vídeo grátis, editar vídeo no iPhone, sem marca d’água, alternativa ao CapCut, edição offline, filtros Metal, sem assinatura'
-    social_title: 'ByteWave - Editor de vídeo gratuito para iPhone, iPad e Mac'
+    social_title: 'ByteWave - Editor de vídeo grátis para iPhone, iPad e Mac no Brasil'
     og_description: 'Seus vídeos, suas escolhas. Edite localmente no iPhone, iPad e Mac, sem marcas d’água ou assinaturas.'
-    twitter_description: 'Edite suas gravações localmente, sem marcas d’água nem assinatura. A compartilhamento é opcional.'
+    twitter_description: 'Edite suas gravações localmente, sem marcas d’água nem assinatura. O compartilhamento é opcional.'
     logo_alt: 'Logotipo do ByteWave'
   schema:
     description: 'Editor de vídeo gratuito para iPhone, iPad e Mac. Edição local, várias trilhas de áudio e efeitos Metal. Sem marcas d’água ou assinaturas; a compartilhamento online é opcional.'
