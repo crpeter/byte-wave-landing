@@ -15,6 +15,25 @@ from urllib.parse import unquote, urlparse
 SOURCE_ROOT = Path(__file__).resolve().parents[1]
 ROOT = SOURCE_ROOT / "_site"
 BASE = "https://bytewaveai.com"
+# Reuse canonical language pages for regional App Store locales.
+LOCALE_SLUGS = {"pt-PT": "pt", "pt-BR": "pt-br", "zh-Hant": "zh-hant"}
+REGION_ALIASES = {
+    "en-US": "en", "en-GB": "en", "en-CA": "en",
+    "es-ES": "es", "es-MX": "es",
+    "fr-FR": "fr", "de-DE": "de", "nl-NL": "nl",
+}
+SITE_LOCALES = {
+    "en", "es", "fr", "de", "it", "nl", "pt-PT", "pt-BR", "sv",
+    "no", "fi", "pl", "tr", "uk", "ja", "ko", "zh-Hant",
+}
+APP_STORE_LOCALES = {
+    "de-DE", "en-CA", "en-GB", "en-US", "es-ES", "es-MX",
+    "fi", "fr-FR", "it", "ja", "ko", "nl-NL", "no", "pl",
+    "pt-BR", "pt-PT", "sv", "tr", "uk", "zh-Hant",
+}
+def locale_slug(lang: str) -> str:
+    return LOCALE_SLUGS.get(lang, lang.lower())
+
 REQUIRED = {
     "description", "og:title", "og:description", "og:url", "og:image",
     "og:image:alt", "twitter:card", "twitter:title", "twitter:description",
@@ -123,7 +142,8 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             elif p.canonicals[0] in canon: errors.append(f"{rel}: duplicate canonical with {canon[p.canonicals[0]]}")
             else: canon[p.canonicals[0]] = file
             if p.h1 != 1: errors.append(f"{rel}: expected one H1, found {p.h1}")
-            section = Path(*rel.parts[1:]) if rel.parts[0] == p.lang else rel
+            is_localized = p.lang != "en" and rel.parts[0] == locale_slug(p.lang)
+            section = Path(*rel.parts[1:]) if is_localized else rel
             if ((section.parent == Path("blog") and section.name != "index.html")
                     or (section.parts[0] == "tutorials" and section != Path("tutorials/index.html"))):
                 article = re.search(r"<article\b[^>]*>(.*?)</article>", raw, re.S)
@@ -139,6 +159,20 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
                     disclosures = {
                         "es": ("Aviso sobre IA:", "generado con un modelo de lenguaje de IA (LLM)"),
                         "fr": ("Information sur l’IA :", "texte généré à l’aide d’un modèle de langage"),
+                        "de": ("KI-Hinweis:", "KI-Sprachmodell"),
+                        "it": ("Informativa sull'IA:", "modello linguistico di intelligenza artificiale"),
+                        "nl": ("AI-vermelding:", "AI-taalmodel"),
+                        "pt-PT": ("Aviso sobre IA:", "modelo de linguagem"),
+                        "pt-BR": ("Aviso sobre IA:", "modelo de linguagem"),
+                        "sv": ("AI-information:", "AI-språkmodell"),
+                        "no": ("KI-merknad:", "KI-språkmodell"),
+                        "fi": ("Tekoälyilmoitus:", "tekoälyn kielimallilla"),
+                        "pl": ("Informacja o AI:", "model językowy"),
+                        "tr": ("Yapay zekâ açıklaması:", "yapay zekâ dil modeli"),
+                        "uk": ("Повідомлення про ШІ:", "мовною моделлю"),
+                        "ja": ("AI利用の開示：", "AI言語モデル"),
+                        "ko": ("AI 사용 안내:", "인공지능 언어 모델"),
+                        "zh-Hant": ("AI 使用聲明：", "語言模型"),
                     }
                     disclosure = disclosures.get(p.lang, ("AI disclosure:", "generated with an AI language model (LLM)"))
                     if not all(phrase in text for phrase in disclosure):
@@ -150,8 +184,8 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             if p.main_count != 1: errors.append(f"{rel}: expected one main landmark")
             if "#main" not in p.links or "main" not in p.ids: errors.append(f"{rel}: missing skip link or target")
             required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
-            if rel.parts[0] == p.lang:
-                required_footer.remove("/"); required_footer.add(f"/{p.lang}/")
+            if is_localized:
+                required_footer.remove("/"); required_footer.add(f"/{locale_slug(p.lang)}/")
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
@@ -170,18 +204,24 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
 
     for url, file in canon.items():
         page = pages[file]
-        if not page.alternates and file.relative_to(ROOT).parts[0] != page.lang: continue
+        rel = file.relative_to(ROOT)
+        is_localized = page.lang != "en" and rel.parts[0] == locale_slug(page.lang)
+        if not page.alternates and not is_localized: continue
         versions = dict(page.alternates)
-        if (len(versions) != len(page.alternates) or len(versions) < 3 or versions.get(page.lang) != url
-                or not versions.get("en") or versions.get("x-default") != versions.get("en")):
-            errors.append(f"{file.relative_to(ROOT)}: missing or incorrect language alternates")
+        if (len(versions) != len(page.alternates)
+                or not SITE_LOCALES.issubset(versions)
+                or not APP_STORE_LOCALES.issubset(versions)
+                or versions.get(page.lang) != url
+                or versions.get("x-default") != versions.get("en")):
+            errors.append(f"{rel}: missing or incorrect language alternates")
         for lang, target in versions.items():
             if lang == "x-default": continue
+            expected_lang = REGION_ALIASES.get(lang, lang)
             peer = pages.get(canon.get(target))
-            if not peer or peer.lang != lang or dict(peer.alternates) != versions:
-                errors.append(f"{file.relative_to(ROOT)}: missing reciprocal {lang} alternate: {target}")
-            if lang != page.lang and urlparse(target).path not in page.links:
-                errors.append(f"{file.relative_to(ROOT)}: missing visible switch to {lang}")
+            if not peer or peer.lang != expected_lang or dict(peer.alternates) != versions:
+                errors.append(f"{rel}: missing reciprocal {lang} alternate: {target}")
+            if expected_lang != page.lang and urlparse(target).path not in page.links:
+                errors.append(f"{rel}: missing visible switch to {lang}")
 
     for file, destination in redirects.items():
         target, frag = local_path(destination, file)
