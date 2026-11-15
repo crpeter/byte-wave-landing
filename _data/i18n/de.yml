@@ -1,0 +1,252 @@
+name: Deutsch
+nav:
+  skip: Zum Inhalt springen
+  label: Hauptnavigation
+  menu: Menü
+  home: Startseite
+  features: Funktionen
+  compare: Vergleichen
+  gallery: Galerie
+  tutorials: Anleitungen
+  blog: Blog
+  about: Über uns
+  privacy: Datenschutz
+  press: Presse
+  expression: Meinungsfreiheit
+  download: Kostenlos laden
+footer:
+  motto: Videoschnitt sollte kostenlos sein.
+  devices: >-
+    iPhone mit iOS 26 oder neuer · iPad mit iPadOS 26 oder neuer ·
+    Mac mit macOS 26 oder neuer und Apple M1 Chip oder neuer.
+get_free: ByteWave kostenlos laden
+social_alt: ByteWave Vorschaubild
+disclosure:
+  label: 'KI-Hinweis:'
+  text: Dieser Artikel enthält mit einem KI-Sprachmodell (LLM) erstellten Text.
+  by: Von
+  review: >-
+    Die Produktaussagen wurden von ByteWave geprüft. Vergleiche spiegeln die
+    geschäftlichen Interessen von ByteWave wider und sind keine unabhängigen Tests.
+player:
+  play: Video abspielen
+  replay: Video erneut abspielen
+  retry: Erneut versuchen
+  tap: Zum Abspielen tippen
+  tap_hint: Tippe auf Wiedergabe, um das Video zu starten.
+  loading: Video wird geladen…
+  fallback: Kompatibles Video wird versucht…
+  failed: Video konnte nicht geladen werden. Versuche es erneut oder öffne den Link unten.
+home:
+  seo:
+    title: ByteWave - Kostenloser Videoeditor für iPhone, iPad und Mac
+    description: >-
+      Videos kostenlos auf iPhone, iPad und Mac bearbeiten: ohne Wasserzeichen
+      oder Abo. ByteWave bietet lokale Bearbeitung, Untertitel, Effekte und Audio.
+    keywords: >-
+      kostenloser videoeditor, videos bearbeiten iphone, ohne wasserzeichen,
+      capcut alternative, video offline bearbeiten, metal shader, keine abonnements
+    social_title: ByteWave - Kostenloser Videoeditor für iPhone, iPad und Mac
+    og_description: >-
+      Deine Aufnahmen, deine Entscheidungen. Kostenloser lokaler Videoschnitt
+      für iPhone, iPad und Mac – ohne Wasserzeichen oder Abo.
+    twitter_description: >-
+      Bearbeite deine eigenen Aufnahmen lokal. Ohne Wasserzeichen oder Abo.
+      Teilen ist optional.
+    logo_alt: ByteWave-Logo
+  schema:
+    description: >-
+      Kostenloser Videoeditor für iPhone, iPad und Mac mit lokaler Verarbeitung,
+      mehreren Audiospuren und Metal-Effekten. Ohne Wasserzeichen oder Abos.
+      Das Teilen im Internet ist optional.
+    features: >-
+      Eigener Metal-Shader-Editor, Auflösungsverbesserung, Bewegungsunschärfe,
+      zeitliche Rauschreduzierung, Community-Filter, unbegrenzte Audiospuren,
+      lokale Verarbeitung, C2PA Content Credentials, signierte KI-Erklärungen,
+      kryptografischer Videoh Herkunftsnachweis
+  hero:
+    tag: ByteWave · Kostenloser Videoeditor
+    opening: Erschaffe etwas
+    emphasis: Echtes
+    ending: statt nur Reels.
+    edit: Bearbeite deine eigenen Aufnahmen. Direkt auf deinem Gerät.
+    platforms: Ein kostenloser Videoeditor für iPhone, iPad und Mac.
+    examples: Entdecke, was du gestalten kannst ↓
+    no_watermarks: Keine Abos. Keine Wasserzeichen beim Export.
+    devices: 'iOS / iPadOS 26 oder neuer. Mac: macOS 26 oder neuer, M1 oder neuer.'
+    play_background: Hintergrundvideo abspielen
+    pause_background: Hintergrundvideo pausieren
+  download: ByteWave laden
+  showcase:
+    tag: Starte mit deinen Aufnahmen
+    footage: Deine Aufnahmen.
+    edit: Dein Schnitt.
+    intro: Nutze deine Fotos und Videos. Den Rest gestaltest du selbst.
+    layout: Layout von ByteWave
+    layout_desc: Kombiniere Fotos und Videos zu einer Komposition.
+    effects: Filter, Effekte und
+    captions: animierte Untertitel
+    captions_desc: Finde deinen Look und füge eigene Worte hinzu.
+    audio: Audiowerkzeuge
+    audio_desc: Kombiniere Spuren und gestalte den Ton deines Videos.
+    gallery: Videos aus ByteWave ansehen →
+    editor_alt: ByteWave-Editor mit Sonnenuntergang und lokal nutzbaren Werkzeugen
+    layout_alt: ByteWave-Layout aus sechs Meeresfotos und Videos
+  credentials:
+    tag: Fotos, Videos und KI
+    title: Wurde das mit KI erstellt?
+    check: Prüfe ein Foto oder Video.
+    check_desc: >-
+      ByteWave liest unterstützte C2PA Content Credentials, einschließlich
+      signierter Kennzeichnungen für KI-generierte Inhalte. Die Prüfung erfolgt auf dem Gerät.
+    how: So prüfst du eine Datei →
+    signed: Deine Exporte sind signiert.
+    signed_desc: >-
+      Jeder Export in Fotos erhält einen digital signierten Herkunftsnachweis
+      von ByteWave. Er hilft, den Ursprung und Änderungen nach dem Signieren zu prüfen.
+    signed_link: So funktionieren signierte Exporte →
+    caveat: >-
+      Keine Herkunftsdaten? Das beweist weder Echtheit noch Fälschung.
+      Auch eine Signatur beweist nicht, dass eine Szene tatsächlich stattgefunden hat.
+    newsrooms: Videos für einen Bericht prüfen? Hier anfangen →
+  geese:
+    tag: Alle Schnittwerkzeuge. Kostenlos.
+    opening: Frei wie
+    emphasis: die Gänse.
+    desc: Keine Abos, keine Export-Wasserzeichen. Kein Konto für lokales Bearbeiten erforderlich.
+    fallback: Kompatible Version öffnen
+    caption: Gänse schwimmen durch bewegtes Wasser; der Text „Free as in geese“ ist zu sehen.
+    alt: 'Free as in geese: ByteWave-Vorschau'
+  privacy:
+    title: Deine Videos bleiben auf deinem Gerät
+    intro: >-
+      Starte mit selbst aufgenommenen Momenten. Schneide Clips, bearbeite den Ton
+      und wähle deine Effekte. ByteWave verarbeitet Videos lokal auf unterstützten Apple-Geräten.
+    local: Die Bearbeitung läuft lokal auf deinem Apple-Gerät.
+    sharing: >-
+      Für lokales Bearbeiten brauchst du kein Konto. Deine Videos werden
+      nur hochgeladen, wenn du sie ausdrücklich über eine Onlinefunktion teilst oder veröffentlichst.
+    stamp: >-
+      Jeder Export in Fotos wird mit signierten ByteWave-Herkunftsdaten versehen.
+      So lassen sich der Ursprung und mögliche spätere Änderungen prüfen.
+      Eine Signatur beweist nicht, dass die gezeigte Szene passiert ist.
+    stamp_link: Was signierte Exporte wirklich nachweisen.
+    guide: Videos bearbeiten, ohne Aufnahmen hochzuladen
+  creative:
+    title: Genug von KI-Videos in deinem Feed?
+    intro: >-
+      Wenn Facebook oder TikTok mit generierten Clips überfüllt wirken oder
+      du CapCuts KI-Funktionen nicht brauchst, beginne mit deinen eigenen Aufnahmen.
+    choice: Deine Aufnahmen, dein Schnitt, deine Entscheidung zum Teilen.
+    tools: >-
+      ByteWave bietet animierte Untertitel, eigene Filter, Zeitlupe und mehrere
+      Audiospuren. Hilfsfunktionen wie Hochskalierung sind verfügbar.
+      Du musst keine Szenen aus Textanweisungen generieren.
+    feed: >-
+      Durchsuche den öffentlichen ByteWave-Feed anonym. Die optionale Personalisierung
+      wird auf deinem Gerät berechnet, ohne serverseitigen Wiedergabeverlauf.
+    feed_link: So funktioniert der Feed.
+    facebook: Weniger KI-Videos im Facebook-Feed
+    tiktok: Weniger KI-Inhalte auf TikTok sehen
+    real: KI-Müll, echte Aufnahmen und kreative Kontrolle zurückgewinnen
+    capcut: Kostenlose CapCut-Alternative für eigene Aufnahmen
+    gallery: Mit ByteWave erstellte Videos ansehen
+    or: oder
+    tutorial: probiere die Anleitung für Bewegungsunschärfe.
+    download: Eigene Aufnahmen kostenlos bearbeiten
+  compare:
+    title: ByteWave im Vergleich zu CapCut
+    intro: ByteWaves Schnittwerkzeuge sind kostenlos. Ähnliche CapCut-Funktionen liegen teils hinter Bezahlangeboten.
+    feature: Funktion
+    price: Preis
+    free: 0 €
+    plans: Kostenlose und kostenpflichtige Angebote
+    watermarks: Wasserzeichen
+    none: Kein ByteWave-Wasserzeichen
+    varies: Je nach Werkzeug und Export
+    editing: Bearbeiten
+    offline: Lokal, ohne Konto
+    cloud: Lokale und Cloud-Werkzeuge
+    data: Datenverarbeitung
+    no_tracking: Kein Verhaltenstracking; Konten und Veröffentlichung optional
+    policy: CapCut-Datenschutzerklärung ansehen
+    provenance: Videoherkunft
+    stamp: ByteWave-Signatur beim Speichern in Fotos
+    export_options: Aktuelle Exportoptionen prüfen
+    slow_motion: Zeitlupe
+    included: Enthalten
+    optical: 'Optischer Fluss: kostenlos testbar'
+    motion: Bewegungsunschärfe
+    pro_motion: In Pro aufgeführt*
+    noise: Videorauschen reduzieren
+    pro: Pro-Tarif
+    desktop: Desktop
+    upscale: KI-Hochskalierung
+    device: Auf dem Gerät
+    paid: Kostenpflichtiges Abo
+    mobile: KI-Verbesserung auf Mobilgeräten
+    tracks: Audiospuren
+    unlimited: Unbegrenzt
+    limits: Plattformgrenzen prüfen
+    tts: Text-zu-Sprache
+    voices: Kostenlose Stimmen; Premiumstimmen benötigen Guthaben
+    captions: Automatische Untertitel
+    pro_captions: Voller Zugriff mit Pro
+    code: Bearbeitbarer Filter-Quellcode
+    metal: Metal-Shader-Quellcode enthalten
+    filter_tools: Aktuelle Filterwerkzeuge prüfen
+    community: Community-Filter
+    shared: Geteilte bearbeitbare Shader
+    effects: Kostenlose und Pro-Effekte und Vorlagen
+    subject: Motive für Filter freistellen
+    masks: Maskierungs- und Freistellwerkzeuge
+    note: >-
+      Stand: 18. Oktober 2026. Pro ist ein kostenpflichtiges Abo.
+      *CapCut führt Bewegungsunschärfe in Pro auf, bewirbt aber auch kostenlose Varianten.
+      Der Zugang hängt von Plattform, Region und Angebot ab.
+    full: Vollständiger Vergleich
+  features:
+    title: Das ist enthalten
+    items:
+      - title: C2PA-Prüfung und Videoherkunft
+        body: >-
+          Prüfe unterstützte Content Credentials von Fotos und Videos, einschließlich
+          KI-Kennzeichnungen. Jeder Export in Fotos bekommt außerdem eine ByteWave-Signatur.
+      - title: Zeitlupe und Bewegungsunschärfe
+        body: >-
+          Erzeuge flüssigere Zeitlupe durch Bildratenumwandlung.
+          Bewegungsunschärfe und zeitliche Rauschreduzierung laufen lokal.
+      - title: KI-Hochskalierung
+        body: >-
+          Verbessere die Auflösung direkt auf deinem Gerät, ohne Cloud oder Serverwarteschlange.
+      - title: Unbegrenzte Audiospuren
+        body: >-
+          Lege beliebig viele Audioclips auf einer Timeline übereinander.
+          Inklusive Soundeffekten und ohne Spurenlimit.
+      - title: Text-zu-Sprache
+        body: >-
+          Wandle Text in Sprache um oder erstelle Untertitel auf dem Gerät.
+          Optionale automatische Tags für geteilte Videos erfordern Konto und Zustimmung.
+      - title: Texteffekte
+        body: >-
+          Funkeln, Glitch, Neon und mehr. Animierte Schrift ohne eigene Motion-Graphics-Komposition.
+      - title: Motive freistellen
+        body: >-
+          Trenne Motiv und Hintergrund und verwende unterschiedliche Filter.
+          Hintergrund weich, Motiv scharf – mit einem Fingertipp.
+      - title: Eigene Filter mit Quellcode
+        body: >-
+          Jeder Filter zeigt seinen Shader-Code. Bearbeite ihn selbst oder kopiere ihn
+          und bitte ChatGPT, etwas Neues daraus zu machen.
+      - title: Community-Filter
+        body: >-
+          Veröffentliche eigene Filter, entdecke Kreationen anderer und füge sie deiner Bibliothek hinzu.
+  filters:
+    title: Filter, die du wirklich bearbeiten kannst
+    desc: >-
+      Andere Apps verstecken ihren Filtercode. ByteWave zeigt ihn dir.
+      Ändere ihn, lerne daraus oder lass ihn von einer KI anpassen und füge das Ergebnis ein.
+    comment: // Impressionistischer Hintergrund, scharfes Motiv
+  cta:
+    desc: Offline schneiden, ohne Konto. Nur hochladen, wenn du dich fürs Veröffentlichen entscheidest.
+    apple: Für Apple laden
