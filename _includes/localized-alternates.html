@@ -1,7 +1,20 @@
 <link rel="canonical" href="{{ page.url | absolute_url | escape }}">
 {% for variant in variants -%}
 <link rel="alternate" hreflang="{{ variant.lang }}" href="{{ variant.url | absolute_url | escape }}">
-{% if variant.lang == 'en' -%}
+{% case variant.lang -%}
+{% when 'en' -%}
+<link rel="alternate" hreflang="en-US" href="{{ variant.url | absolute_url | escape }}">
+<link rel="alternate" hreflang="en-GB" href="{{ variant.url | absolute_url | escape }}">
+<link rel="alternate" hreflang="en-CA" href="{{ variant.url | absolute_url | escape }}">
 <link rel="alternate" hreflang="x-default" href="{{ variant.url | absolute_url | escape }}">
-{% endif -%}
+{% when 'es' -%}
+<link rel="alternate" hreflang="es-ES" href="{{ variant.url | absolute_url | escape }}">
+<link rel="alternate" hreflang="es-MX" href="{{ variant.url | absolute_url | escape }}">
+{% when 'fr' -%}
+<link rel="alternate" hreflang="fr-FR" href="{{ variant.url | absolute_url | escape }}">
+{% when 'de' -%}
+<link rel="alternate" hreflang="de-DE" href="{{ variant.url | absolute_url | escape }}">
+{% when 'nl' -%}
+<link rel="alternate" hreflang="nl-NL" href="{{ variant.url | absolute_url | escape }}">
+{% endcase -%}
 {% endfor -%}
