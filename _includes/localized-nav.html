@@ -1,0 +1,29 @@
+{% capture language_links -%}
+{% for variant in variants -%}
+{% unless variant.lang == page.lang -%}
+<a href="{{ variant.url | relative_url }}" lang="{{ variant.lang }}" hreflang="{{ variant.lang }}">{{ site.data.i18n[variant.lang].name | escape }}</a>
+{% endunless -%}
+{% endfor -%}
+{% endcapture -%}
+{% capture primary_links -%}
+<a href="{{ home.url | relative_url }}#features">{{ t.nav.features | escape }}</a>
+<a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
+<a href="/gallery/" hreflang="en">{{ t.nav.gallery | escape }}</a>
+<a href="/tutorials/" hreflang="en">{{ t.nav.tutorials | escape }}</a>
+<a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
+{% endcapture -%}
+<a class="site-skip" href="#main">{{ t.nav.skip | escape }}</a>
+<nav class="site-nav" aria-label="{{ t.nav.label | escape }}">
+    <a href="{{ home.url | relative_url }}" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
+    <div class="site-links">{{ primary_links }}{{ language_links }}</div>
+    <details class="site-menu">
+        <summary>{{ t.nav.menu | escape }}</summary>
+        <div class="site-menu-links">
+            {{ language_links }}{{ primary_links }}
+            <a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>
+            <a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>
+            <a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>
+        </div>
+    </details>
+    <a class="site-download" href="{{ page.store_url | escape }}">{{ t.nav.download | escape }}</a>
+</nav>

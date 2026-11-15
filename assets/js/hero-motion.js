@@ -15,8 +15,10 @@
   let attempt = 0;
 
   function label(verb) {
-    button.setAttribute('aria-label', verb + ' background video');
-    button.title = verb + ' background video';
+    const localizedLabel = verb === 'Pause' ? button.dataset.pauseLabel : button.dataset.playLabel;
+    const text = localizedLabel || verb + ' background video';
+    button.setAttribute('aria-label', text);
+    button.title = text;
     button.textContent = verb === 'Pause' ? 'Ⅱ' : '▶';
   }
 

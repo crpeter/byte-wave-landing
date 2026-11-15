@@ -12,14 +12,15 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = Path(__file__).resolve().parents[1]
+ROOT = SOURCE_ROOT / "_site"
 BASE = "https://bytewaveai.com"
 REQUIRED = {
     "description", "og:title", "og:description", "og:url", "og:image",
     "og:image:alt", "twitter:card", "twitter:title", "twitter:description",
     "twitter:image", "twitter:image:alt",
 }
-PLACEHOLDERS = [r"\[date\]", r"\[last name\]", r"\[N\]", r"TODO", r"href=[\"']#[\"']"]
+PLACEHOLDERS = [r"\[date\]", r"\[last name\]", r"\[N\]", r"\b(?-i:TODO)\b", r"href=[\"']#[\"']"]
 
 
 class PageParser(HTMLParser):
@@ -27,11 +28,15 @@ class PageParser(HTMLParser):
         super().__init__()
         self.title = ""; self.in_title = False; self.h1 = 0; self.metas = {}; self.canonicals = []
         self.links = []; self.media = []; self.stylesheets = []; self.ids = set(); self.images = []; self.jsonld = []; self.in_jsonld = False; self.buf = []
+        self.lang = ""; self.alternates = []
         self.main_count = 0; self.footer_links = []; self.in_footer = False
         self.updated_dates = []; self.in_meta = False; self.meta_tag = None; self.meta_buf = []; self.meta_texts = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "html": self.lang = a.get("lang", "")
+        if tag == "link" and "alternate" in a.get("rel", "").split() and "hreflang" in a:
+            self.alternates.append((a["hreflang"], a.get("href", "")))
         if tag == "main": self.main_count += 1
         if tag == "footer": self.in_footer = True
         if tag in {"p", "div"} and "meta" in a.get("class", "").split():
@@ -72,14 +77,33 @@ def local_path(url: str, source: Path) -> tuple[Path, str]:
     return target, frag
 
 
-def main() -> int:
+def authored_pages():
+    # GitHub Pages also renders repository notes and asset READMEs to HTML.
+    # Check every authored HTML page, plus Markdown pages that opt into Jekyll.
+    for source in sorted(SOURCE_ROOT.rglob("*")):
+        if source.suffix not in {".html", ".md"}:
+            continue
+        rel = source.relative_to(SOURCE_ROOT)
+        if any(part.startswith(("_", ".")) for part in rel.parts):
+            continue
+        if source.suffix == ".html" or source.read_text(encoding="utf-8").startswith("---\n"):
+            yield rel.with_suffix(".html")
+
+
+def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
+    if not (ROOT / "index.html").is_file():
+        print("Build the site with Jekyll first (expected _site/index.html).")
+        return 1
     errors = []; pages = {}; canon = {}; titles = {}; descs = {}; redirects = {}
     # This site's config uses a top-level YAML list of unquoted exclusion paths.
-    config = (ROOT / "_config.yml").read_text(encoding="utf-8")
+    config = config_path.read_text(encoding="utf-8")
     exclude_block = re.search(r"^exclude:\s*\n((?:[ \t]+[^\n]*\n)*)", config, re.M)
     excludes = re.findall(r"^\s+-\s+([^\s#]+)\s*$", exclude_block[1], re.M) if exclude_block else []
-    for file in sorted(ROOT.rglob("*.html")):
-        if ".git" in file.parts: continue
+    for rel in authored_pages():
+        file = ROOT / rel
+        if not file.is_file():
+            errors.append(f"{rel}: page missing from Jekyll output")
+            continue
         raw = file.read_text(encoding="utf-8"); p = PageParser(); p.feed(raw); pages[file] = p
         noindex = "noindex" in p.metas.get("robots", "").lower()
         refresh = p.metas.get("refresh")
@@ -99,7 +123,9 @@ def main() -> int:
             elif p.canonicals[0] in canon: errors.append(f"{rel}: duplicate canonical with {canon[p.canonicals[0]]}")
             else: canon[p.canonicals[0]] = file
             if p.h1 != 1: errors.append(f"{rel}: expected one H1, found {p.h1}")
-            if (file.parent == ROOT / "blog" and file.name != "index.html") or (ROOT / "tutorials" in file.parents and file != ROOT / "tutorials/index.html"):
+            section = Path(*rel.parts[1:]) if rel.parts[0] == p.lang else rel
+            if ((section.parent == Path("blog") and section.name != "index.html")
+                    or (section.parts[0] == "tutorials" and section != Path("tutorials/index.html"))):
                 article = re.search(r"<article\b[^>]*>(.*?)</article>", raw, re.S)
                 content = article.group(1) if article else ""
                 notices = list(re.finditer(
@@ -110,7 +136,8 @@ def main() -> int:
                 else:
                     notice = notices[0]
                     text = re.sub(r"<[^>]+>", "", notice.group("text"))
-                    if "AI disclosure:" not in text or "generated with an AI language model (LLM)" not in text:
+                    disclosure = ("Aviso sobre IA:", "generado con un modelo de lenguaje de IA (LLM)") if p.lang == "es" else ("AI disclosure:", "generated with an AI language model (LLM)")
+                    if not all(phrase in text for phrase in disclosure):
                         errors.append(f"{rel}: disclosure must explicitly identify AI-generated text")
                     prefix = re.sub(r'<(?P<tag>p|div) class="(?:eyebrow|meta)">.*?</(?P=tag)>', "", content[:notice.start()], flags=re.S)
                     if re.search(r"<(?:p|h2|ul|ol|table)\b", prefix):
@@ -119,6 +146,8 @@ def main() -> int:
             if p.main_count != 1: errors.append(f"{rel}: expected one main landmark")
             if "#main" not in p.links or "main" not in p.ids: errors.append(f"{rel}: missing skip link or target")
             required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
+            if rel.parts[0] == p.lang:
+                required_footer.remove("/"); required_footer.add(f"/{p.lang}/")
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
@@ -134,6 +163,21 @@ def main() -> int:
             if "width" not in img or "height" not in img: errors.append(f"{file.relative_to(ROOT)}: image missing dimensions")
         for pattern in PLACEHOLDERS:
             if re.search(pattern, raw, re.I): errors.append(f"{file.relative_to(ROOT)}: placeholder/fake link matches {pattern}")
+
+    for url, file in canon.items():
+        page = pages[file]
+        if not page.alternates and file.relative_to(ROOT).parts[0] != "es": continue
+        versions = dict(page.alternates)
+        if (len(versions) != len(page.alternates) or len(versions) < 3 or versions.get(page.lang) != url
+                or not versions.get("en") or versions.get("x-default") != versions.get("en")):
+            errors.append(f"{file.relative_to(ROOT)}: missing or incorrect language alternates")
+        for lang, target in versions.items():
+            if lang == "x-default": continue
+            peer = pages.get(canon.get(target))
+            if not peer or peer.lang != lang or dict(peer.alternates) != versions:
+                errors.append(f"{file.relative_to(ROOT)}: missing reciprocal {lang} alternate: {target}")
+            if lang != page.lang and urlparse(target).path not in page.links:
+                errors.append(f"{file.relative_to(ROOT)}: missing visible switch to {lang}")
 
     for file, destination in redirects.items():
         target, frag = local_path(destination, file)
