@@ -7,9 +7,9 @@ description: Edita y exporta videos en tu iPhone, iPad o Mac, incluso sin conexi
 category_label: Privacidad
 read_time: 2 min de lectura
 published_on: '2026-11-12'
-updated_on: '2026-11-12'
-date_label: Publicado el
-display_date: 12 de noviembre de 2026
+updated_on: '2026-11-15'
+date_label: Actualizado el
+display_date: 15 de noviembre de 2026
 store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=blog_private_editor_es&mt=8
 download_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=blog_private_editor_es&mt=8
 cta_title: Edita en tu propio dispositivo.
@@ -47,3 +47,5 @@ Revisa también la imagen y el sonido. Un letrero con el nombre de una calle o u
 Más información en inglés: [qué puede revelar una foto o un video](/blog/can-photos-videos-reveal-your-address.html) · [CapCut y los archivos en la nube](/blog/capcut-privacy-video-upload.html).
 
 Haz la prueba: [edita y exporta un video en modo avión (en inglés)](/blog/offline-video-editor-airplane-mode-test.html).
+
+¿Estás comparando la privacidad de distintos editores? Consulta [ByteWave frente a VN (en inglés)](/blog/bytewave-vs-vn-video-editor-2026.html) para conocer las diferencias en edición local, etiquetas de privacidad de la App Store y traducción nativa de subtítulos.

@@ -64,6 +64,8 @@ home:
     examples: See what you can make ↓
     no_watermarks: No subscriptions. No export watermarks.
     devices: 'iOS / iPadOS 26 or later. Mac: macOS 26 or later, M1 or later.'
+    play_background: Play background video
+    pause_background: Pause background video
   download: Download ByteWave
   showcase:
     tag: Start with what you filmed

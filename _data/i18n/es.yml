@@ -64,6 +64,8 @@ home:
     examples: Mira lo que puedes crear ↓
     no_watermarks: Sin suscripciones ni marcas de agua al exportar.
     devices: 'iOS o iPadOS 26 o posterior. En Mac: macOS 26 o posterior y chip M1 o posterior.'
+    play_background: Reproducir video de fondo
+    pause_background: Pausar video de fondo
   download: Descargar ByteWave
   showcase:
     tag: Empieza con lo que grabaste

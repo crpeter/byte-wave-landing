@@ -7,9 +7,9 @@ description: Edit videos locally with ByteWave on iPhone, iPad, and Mac. No edit
 category_label: Privacy
 read_time: 2 min read
 published_on: '2026-04-26'
-updated_on: '2026-10-18'
+updated_on: '2026-11-15'
 date_label: Updated
-display_date: October 18, 2026
+display_date: November 15, 2026
 store_url: https://apps.apple.com/us/app/bytewave/id6752225642
 download_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=blog_private_editor&mt=8
 cta_title: Keep editing on your device.
@@ -45,3 +45,5 @@ Check the picture and sound, too. A street sign or spoken address can reveal a l
 Keep reading: [What a photo or video can reveal](/blog/can-photos-videos-reveal-your-address.html) · [CapCut and cloud uploads](/blog/capcut-privacy-video-upload.html)
 
 Try it yourself: [edit and export a video in airplane mode](/blog/offline-video-editor-airplane-mode-test.html).
+
+Comparing privacy disclosures? See [ByteWave vs VN](/blog/bytewave-vs-vn-video-editor-2026.html) for a source-based look at local editing, App Store privacy labels, and native caption translation.
