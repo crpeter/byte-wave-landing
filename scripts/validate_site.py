@@ -201,6 +201,15 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             if "width" not in img or "height" not in img: errors.append(f"{file.relative_to(ROOT)}: image missing dimensions")
         for pattern in PLACEHOLDERS:
             if re.search(pattern, raw, re.I): errors.append(f"{file.relative_to(ROOT)}: placeholder/fake link matches {pattern}")
+        if p.lang == "pt-BR":
+            # Guard against malformed fragments caused by broad string replacements.
+            malformed = ("nseu", "dseu", "pelsuas", "parsuas",
+                         "compartilhamentod", "compartilhamentor",
+                         "no tela", "a compartilhamento", "uma endereço")
+            for fragment in malformed:
+                if fragment in raw:
+                    errors.append(f"{file.relative_to(ROOT)}: malformed Brazilian Portuguese copy: {fragment}")
+
 
     for url, file in canon.items():
         page = pages[file]
