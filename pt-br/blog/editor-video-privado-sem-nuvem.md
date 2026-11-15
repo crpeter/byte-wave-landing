@@ -2,8 +2,8 @@
 layout: localized-guide
 translation_key: private-editor
 lang: pt-BR
-title: 'Editor de vídeo privado: edite sem enviar à nuvem'
-description: Edite e exporte vídeos localmente no iPhone, iPad ou Mac. O ByteWave funciona offline, sem conta, assinatura ou marca d’água.
+title: 'Editor de vídeo privado: edite sem enviar arquivos para a nuvem'
+description: Edite e exporte vídeos no iPhone, iPad ou Mac sem enviá-los a servidores. O ByteWave funciona off-line, sem conta, assinatura ou marca d’água.
 category_label: Privacidade
 read_time: 2 min de leitura
 published_on: '2026-11-15'
@@ -12,40 +12,40 @@ date_label: Publicado em
 display_date: 15 de novembro de 2026
 store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=blog_private_editor_ptbr&mt=8
 download_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=blog_private_editor_ptbr&mt=8
-cta_title: Continue a editar nseu dispositivo.
+cta_title: Continue editando no seu dispositivo.
 cta_text: Gratuito no iPhone, iPad e Mac com chip Apple.
 ---
 
-As suas gravações não precisam de passar por servidores de terceiros. O ByteWave edita e exporta vídeos localmente no iPhone, iPad e Mac com chip Apple.
+Suas gravações não precisam passar por servidores de outras empresas. Com o ByteWave, você edita e exporta vídeos diretamente no iPhone, iPad ou Mac com chip Apple.
 
-## O ByteWave envia os meus vídeos para a nuvem?
+## O ByteWave envia meus vídeos para a nuvem?
 
-Não. O editor não envia seus vídeos ou projetos para os servidores do ByteWave. A publicação através de uma recurso online é uma escolha separada.
+Não. O editor não envia seus vídeos nem seus projetos para os servidores do ByteWave. Publicar um vídeo por meio de uma função on-line é uma escolha separada.
 
-## Posso editar vídeos sem Internet?
+## Posso editar vídeos sem internet?
 
-Sim. Transfira primeiro os clipes para o dispositivo. Depois pode editar e exportar offline. As legendas automáticas são geradas no dispositivo, mas poderá ser necessário baixar antes um modelo de voz ou idioma.
+Sim. Primeiro, salve os clipes no dispositivo. Depois disso, você pode editar e exportar mesmo sem conexão. As legendas automáticas também são geradas no dispositivo, mas talvez seja necessário baixar um modelo de reconhecimento de fala ou de idioma antes de ficar off-line.
 
-A identificação automática opcional ajuda outras pessoas a encontrar vídeos comcompartilhamentodos. Também usa o reconhecimento de voz no dispositivo, sem processamento de reserva num servidor. Leia a [política de privacidade (em inglês)](/privacy.html).
+As etiquetas automáticas opcionais ajudam outras pessoas a encontrar os vídeos que você publica. Essa função também usa reconhecimento de fala no dispositivo, sem recorrer a um servidor. Consulte nossa [política de privacidade (em inglês)](/privacy.html).
 
-## Preciso de uma conta?
+## Preciso criar uma conta?
 
-Não. Pode editar e exportar sem se cadastrar. Os perfis e recursos sociais são opcionais. [Começar sem conta (em inglês)](/blog/edit-videos-no-account-iphone.html).
+Não. Você não precisa de conta para editar ou exportar. Perfis e recursos sociais são opcionais. [Saiba como começar sem se cadastrar (em inglês)](/blog/edit-videos-no-account-iphone.html).
 
 ## Há assinatura ou marca d’água?
 
-Não. O editor é gratuito e o ByteWave não coloca marcas d’água nos vídeos exportados.
+Não. O editor é gratuito e o ByteWave não adiciona sua marca d’água aos vídeos exportados.
 
 ## E os metadados de localização?
 
-O ByteWave pode remover os metadados editáveis da cópia de trabalho. Cada exportação para Fotos remove os metadados originais e adiciona um selo de procedência ByteWave. O original não é alterado. [Verificar e remover metadados (em inglês)](/tutorials/remove-location-metadata/).
+O ByteWave pode remover metadados editáveis da sua cópia de trabalho. Ao salvar um vídeo no app Fotos, ele remove os metadados da origem e adiciona um selo de procedência ByteWave. O arquivo original permanece intacto. [Veja como conferir e remover metadados (em inglês)](/tutorials/remove-location-metadata/).
 
-Confira também a imagem e o som. Uma placa de rua ou uma endereço dita em voz alta podem revelar o local mesmo sem metadados.
+Confira também a imagem e o áudio. Uma placa com o nome de uma rua ou um endereço dito em voz alta podem revelar um local mesmo quando o arquivo não contém metadados de localização.
 
 {% include localized-guide-cta.html %}
 
-Continue a ler (em inglês): [o que revelam fotos e vídeos](/blog/can-photos-videos-reveal-your-address.html) · [CapCut e transferências para a nuvem](/blog/capcut-privacy-video-upload.html).
+Para saber mais (em inglês): [o que fotos e vídeos podem revelar](/blog/can-photos-videos-reveal-your-address.html) · [CapCut e uploads para a nuvem](/blog/capcut-privacy-video-upload.html).
 
-Experimente: [editar e exportar um vídeo em modo de avião (em inglês)](/blog/offline-video-editor-airplane-mode-test.html).
+Faça o teste: [edite e exporte um vídeo em modo avião (em inglês)](/blog/offline-video-editor-airplane-mode-test.html).
 
-Para comparar privacidade, leia [ByteWave vs. VN (em inglês)](/blog/bytewave-vs-vn-video-editor-2026.html) sobre edição local, etiquetas de privacidade na App Store e tradução nativa de legendas.
+Comparando privacidade? Leia [ByteWave vs. VN (em inglês)](/blog/bytewave-vs-vn-video-editor-2026.html) sobre edição local, rótulos de privacidade da App Store e tradução nativa de legendas.
