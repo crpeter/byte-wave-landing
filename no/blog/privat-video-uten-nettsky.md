@@ -1,7 +1,7 @@
 ---
 layout: localized-guide
 translation_key: private-editor
-lang: no
+lang: 'no'
 title: 'Privat videoredigering: rediger uten skyopplasting'
 description: Rediger og eksporter videoer lokalt på iPhone, iPad og Mac. ByteWave fungerer offline uten konto, abonnement eller vannmerke.
 category_label: Personvern
