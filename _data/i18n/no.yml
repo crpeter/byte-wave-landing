@@ -123,7 +123,7 @@ home:
     free: '0 kr'
     plans: 'Gratis og betalte planer'
     watermarks: 'Vannmerker'
-    none: 'Ingen ByteWave-vannmerke'
+    none: 'Intet ByteWave-vannmerke'
     varies: 'Avhenger av verktøy og eksport'
     editing: 'Redigering'
     offline: 'På enheten, ingen konto'
