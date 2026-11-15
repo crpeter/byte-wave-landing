@@ -1,0 +1,259 @@
+name: Français
+nav:
+  skip: Aller au contenu
+  label: Navigation principale
+  menu: Menu
+  home: Accueil
+  features: Fonctionnalités
+  compare: Comparatif
+  gallery: Galerie
+  tutorials: Tutoriels
+  blog: Blog
+  about: À propos
+  privacy: Confidentialité
+  press: Presse
+  expression: Liberté d’expression
+  download: Télécharger gratuitement
+footer:
+  motto: Le montage vidéo devrait être gratuit.
+  devices: >-
+    iPhone sous iOS 26 ou version ultérieure · iPad sous iPadOS 26 ou version ultérieure ·
+    Mac sous macOS 26 ou version ultérieure avec puce Apple M1 ou plus récente.
+get_free: Télécharger ByteWave gratuitement
+social_alt: Visuel de présentation de ByteWave
+disclosure:
+  label: 'Information sur l’IA :'
+  text: Cet article contient du texte généré à l’aide d’un modèle de langage d’intelligence artificielle (LLM).
+  by: Par
+  review: >-
+    Les affirmations sur le produit ont été vérifiées par ByteWave.
+    Les comparatifs reflètent ses intérêts commerciaux et ne sont pas des avis indépendants.
+player:
+  play: Lire la vidéo
+  replay: Relire la vidéo
+  retry: Réessayer
+  tap: Toucher pour lire la vidéo
+  tap_hint: Touchez le bouton de lecture pour démarrer la vidéo.
+  loading: Chargement de la vidéo…
+  fallback: Essai de la vidéo compatible…
+  failed: Impossible de charger la vidéo. Réessayez ou ouvrez le lien ci-dessous.
+home:
+  seo:
+    title: ByteWave - Éditeur vidéo gratuit pour iPhone, iPad et Mac
+    description: >-
+      Montez vos vidéos sur iPhone, iPad ou Mac avec ByteWave, sans abonnement ni filigrane.
+      Montage local, sous-titres, effets et outils audio gratuits.
+    keywords: >-
+      montage vidéo gratuit, éditeur vidéo iPhone, sans filigrane, alternative CapCut,
+      effets vidéo, montage hors ligne, filtres Metal, éditeur vidéo sans abonnement
+    social_title: ByteWave - Montage vidéo gratuit sur iPhone, iPad et Mac
+    og_description: >-
+      Vos vidéos, vos choix. Montez vos images localement, sans filigrane ni abonnement,
+      sur iPhone, iPad et Mac.
+    twitter_description: >-
+      Montez vos propres vidéos sans filigrane ni abonnement. Montage local et partage facultatif.
+    logo_alt: Logo de ByteWave
+  schema:
+    description: >-
+      Éditeur vidéo gratuit pour iPhone, iPad et Mac. Montage local, plusieurs pistes audio
+      et effets Metal. Sans filigrane ni abonnement, avec partage en ligne facultatif.
+    features: >-
+      Éditeur de shaders Metal personnalisés, amélioration de la résolution, flou de mouvement,
+      réduction temporelle du bruit, filtres communautaires, pistes audio illimitées,
+      traitement sur l’appareil, lecture des Content Credentials C2PA, vérification des
+      déclarations signées de génération par IA, provenance vidéo cryptographique
+  hero:
+    tag: ByteWave · Éditeur vidéo gratuit
+    opening: Créez quelque chose
+    emphasis: de vrai
+    ending: pas un reel.
+    edit: Montez vos propres images. Directement sur votre appareil.
+    platforms: Un éditeur vidéo gratuit pour iPhone, iPad et Mac.
+    examples: Découvrez ce que vous pouvez créer ↓
+    no_watermarks: Sans abonnement. Sans filigrane à l’exportation.
+    devices: 'iOS / iPadOS 26 ou plus. Mac : macOS 26 ou plus, puce M1 minimum.'
+    play_background: Lire la vidéo d’arrière-plan
+    pause_background: Mettre en pause la vidéo d’arrière-plan
+  download: Télécharger ByteWave
+  showcase:
+    tag: Partez de ce que vous avez filmé
+    footage: Vos images.
+    edit: Votre création.
+    intro: Importez vos photos et vidéos. À vous d’en faire ce que vous voulez.
+    layout: Layout de ByteWave
+    layout_desc: Réunissez photos et vidéos dans une même composition.
+    effects: Filtres, effets et
+    captions: sous-titres animés
+    captions_desc: Trouvez votre style et ajoutez vos propres mots.
+    audio: Outils audio
+    audio_desc: Superposez les pistes et façonnez le son de votre vidéo.
+    gallery: Voir des vidéos réalisées avec ByteWave →
+    editor_alt: Éditeur ByteWave affichant un coucher de soleil et ses outils de montage local
+    layout_alt: Composition Layout de ByteWave réunissant six photos et vidéos de l’océan
+  credentials:
+    tag: Photos, vidéos et IA
+    title: Cette image a-t-elle été créée par IA ?
+    check: Vérifiez une photo ou une vidéo.
+    check_desc: >-
+      ByteWave lit les Content Credentials C2PA compatibles, dont les déclarations signées
+      indiquant un contenu généré par IA. La vérification se fait sur votre appareil.
+    how: Comment vérifier un fichier →
+    signed: Vos exportations sont signées.
+    signed_desc: >-
+      Chaque exportation vers Photos reçoit une empreinte de provenance ByteWave
+      avec signature numérique. Elle permet de vérifier l’origine ByteWave du fichier
+      et de détecter certaines modifications après la signature.
+    signed_link: Comprendre la signature des exportations →
+    caveat: >-
+      Aucune information de provenance ? Cela ne prouve ni l’authenticité ni la falsification.
+      Une signature ne prouve pas qu’une scène a réellement eu lieu.
+    newsrooms: Vous vérifiez des images pour un reportage ? Commencez ici →
+  geese:
+    tag: Tous les outils de montage. Gratuits.
+    opening: Libre comme
+    emphasis: les oies.
+    desc: Sans abonnement ni filigrane. Aucun compte requis pour monter en local.
+    fallback: Ouvrir la version compatible
+    caption: Des oies nagent dans le courant, avec le texte « Free as in geese » à l’écran.
+    alt: 'Free as in geese : aperçu de ByteWave'
+  privacy:
+    title: Vos vidéos restent sur votre appareil
+    intro: >-
+      Partez des moments que vous avez filmés. Coupez les plans, ajustez le son et choisissez
+      vos effets. ByteWave effectue le montage et le rendu sur votre appareil Apple compatible.
+    local: ByteWave traite le montage localement sur votre appareil Apple.
+    sharing: >-
+      Aucun compte n’est nécessaire pour monter en local. Vos vidéos ne sont pas envoyées
+      en ligne, sauf si vous choisissez explicitement de les publier ou de les partager
+      avec une fonction connectée.
+    stamp: >-
+      Chaque exportation vers Photos est signée de manière cryptographique avec des données
+      de provenance ByteWave pour aider à vérifier son origine et d’éventuelles modifications.
+      Cette signature ne prouve pas que les événements montrés ont eu lieu.
+    stamp_link: Ce que prouvent réellement les exportations signées.
+    guide: Monter une vidéo sans envoyer ses fichiers en ligne
+  creative:
+    title: Lassé des vidéos générées par IA dans votre fil ?
+    intro: >-
+      Si Facebook ou TikTok débordent de vidéos artificielles, ou si les fonctionnalités
+      d’IA de CapCut ne sont pas ce que vous recherchez, partez de vos propres images.
+    choice: Vos prises de vue, votre montage, votre choix de partager.
+    tools: >-
+      ByteWave met à votre disposition des sous-titres animés, des filtres personnalisés,
+      le ralenti et plusieurs pistes audio. L’amélioration de la résolution est disponible,
+      mais nul besoin de générer une scène à partir d’une instruction pour monter une vidéo.
+    feed: >-
+      Parcourez anonymement le fil public de ByteWave. La personnalisation facultative
+      se calcule sur votre appareil, sans historique de visionnage conservé sur le serveur.
+    feed_link: Comment fonctionne le fil.
+    facebook: Réduire les vidéos d’IA dans votre fil Facebook
+    tiktok: Voir moins de contenus d’IA sur TikTok
+    real: Vidéos d’IA, images réelles et liberté de création
+    capcut: Une alternative gratuite à CapCut pour monter vos propres images
+    gallery: Voir des vidéos réalisées avec ByteWave
+    or: ou
+    tutorial: essayez le tutoriel sur le flou de mouvement.
+    download: Montez vos propres vidéos gratuitement
+  compare:
+    title: ByteWave face à CapCut
+    intro: Les outils de montage ByteWave sont gratuits. CapCut réserve certains outils similaires à ses offres payantes.
+    feature: Fonctionnalité
+    price: Prix
+    free: 0 $
+    plans: Offres gratuites et payantes
+    watermarks: Filigranes
+    none: Aucun filigrane ByteWave
+    varies: Selon l’outil et l’exportation
+    editing: Montage
+    offline: Sur l’appareil, sans compte
+    cloud: Outils locaux et dans le cloud
+    data: Traitement des données
+    no_tracking: Pas de suivi comportemental ; comptes et publication facultatifs
+    policy: Consulter la politique de confidentialité de CapCut
+    provenance: Provenance vidéo
+    stamp: Empreinte ByteWave lors de l’enregistrement dans Photos
+    export_options: Consulter les options d’exportation actuelles
+    slow_motion: Ralenti
+    included: Inclus
+    optical: 'Flux optique : essai gratuit'
+    motion: Flou de mouvement
+    pro_motion: Présent dans Pro*
+    noise: Réduction du bruit vidéo
+    pro: Offre Pro
+    desktop: Ordinateur
+    upscale: Amélioration de la résolution par IA
+    device: Sur l’appareil
+    paid: Abonnement payant
+    mobile: Amélioration par IA sur mobile
+    tracks: Pistes audio
+    unlimited: Sans limite de pistes
+    limits: Consulter les limites de la plateforme
+    tts: Synthèse vocale
+    voices: Voix gratuites ; les voix premium utilisent des crédits
+    captions: Sous-titres automatiques
+    pro_captions: Accès complet avec Pro
+    code: Code source des filtres modifiable
+    metal: Code source des shaders Metal inclus
+    filter_tools: Vérifier les outils de filtre disponibles
+    community: Filtres communautaires
+    shared: Shaders modifiables partagés
+    effects: Effets et modèles gratuits et Pro
+    subject: Détourage du sujet pour les filtres
+    masks: Outils de masquage et de détourage
+    note: >-
+      Vérifié le 18 octobre 2026. Pro est un abonnement payant.
+      *CapCut répertorie le flou de mouvement dans Pro, mais annonce aussi des versions gratuites.
+      La disponibilité varie selon la plateforme, la région et l’offre.
+    full: Voir le comparatif complet
+  features:
+    title: Ce que vous obtenez
+    items:
+      - title: Vérification C2PA et provenance vidéo
+        body: >-
+          Vérifiez les Content Credentials compatibles de vos photos et vidéos,
+          dont les mentions de génération par IA. Chaque exportation vers Photos
+          reçoit aussi une empreinte ByteWave pour détecter les modifications ultérieures.
+      - title: Ralenti et flou de mouvement
+        body: >-
+          Fluidifiez les ralentis avec la conversion de fréquence d’images.
+          Le flou de mouvement et la réduction temporelle du bruit sont également
+          calculés localement avant l’aperçu.
+      - title: Amélioration de la résolution par IA
+        body: >-
+          Augmentez la résolution sur votre appareil. Aucun traitement dans le cloud,
+          aucune attente d’un serveur.
+      - title: Pistes audio illimitées
+        body: >-
+          Superposez autant de clips audio que nécessaire sur la timeline.
+          Effets sonores intégrés, sans limite de pistes.
+      - title: Synthèse vocale
+        body: >-
+          Écrivez du texte pour le transformer en voix ou générez des sous-titres
+          sur votre appareil. L’identification automatique facultative des sujets
+          aide à découvrir les vidéos partagées et nécessite un compte et un accord explicite.
+      - title: Effets de texte
+        body: >-
+          Étincelles, glitch, néon et bien plus. Du texte animé sans devoir
+          créer une composition d’animation.
+      - title: Détourage du sujet
+        body: >-
+          Séparez le sujet de l’arrière-plan pour appliquer des filtres différents.
+          Floutez le fond tout en gardant le sujet net, en un geste.
+      - title: Filtres personnalisés avec code source
+        body: >-
+          Chaque filtre révèle son code shader. Modifiez-le directement,
+          ou copiez-le et demandez à ChatGPT de créer un nouvel effet.
+      - title: Filtres communautaires
+        body: >-
+          Publiez vos filtres et découvrez ceux des autres créateurs.
+          Ajoutez-les à votre bibliothèque en un geste.
+  filters:
+    title: Des filtres que vous pouvez vraiment modifier
+    desc: >-
+      Contrairement aux éditeurs qui cachent le fonctionnement des filtres,
+      ByteWave vous montre le code. Modifiez-le, apprenez avec lui,
+      ou faites-le adapter par une IA avant de recoller le résultat.
+    comment: // Arrière-plan impressionniste, sujet net
+  cta:
+    desc: Montez hors ligne, sans compte. Envoyez votre vidéo uniquement si vous choisissez de la publier.
+    apple: Télécharger pour appareils Apple

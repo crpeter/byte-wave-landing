@@ -1,0 +1,35 @@
+<style>
+/* A compact locale menu keeps the shared navigation usable with many languages. */
+.site-nav .site-language { position: relative; flex: 0 0 auto; }
+.site-nav .site-language summary {
+  display: inline-flex; align-items: center; gap: .5rem; cursor: pointer;
+  min-height: 44px; padding: .55rem .75rem; border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); font-size: .84rem; list-style: none;
+}
+.site-nav .site-language summary::-webkit-details-marker { display: none; }
+.site-nav .site-language summary:focus-visible {
+  outline: 3px solid #e2b8df; outline-offset: 3px;
+}
+.site-language-options {
+  position: absolute; top: calc(100% + .5rem); right: 0; z-index: 150;
+  width: min(18rem, calc(100vw - 2rem)); max-height: min(68svh, 680px);
+  overflow: auto; padding: .45rem; border: 1px solid var(--border);
+  border-radius: 12px; background: #102331;
+  box-shadow: 0 12px 30px #0007;
+}
+.site-language-options a, .site-menu-languages a {
+  display: block; min-height: 44px; padding: .6rem .75rem;
+  color: #e8e6f0; text-decoration: none;
+}
+.site-language-options a:hover, .site-language-options a:focus-visible,
+.site-menu-languages a:hover, .site-menu-languages a:focus-visible {
+  background: #203b4a; border-radius: 6px;
+}
+.site-language-options a[aria-current="page"],
+.site-menu-languages a[aria-current="page"] {
+  font-weight: 700; color: #fff; background: #203b4a; border-radius: 6px;
+}
+.site-menu-languages { border-top: 1px solid var(--border); margin-top: .4rem; padding-top: .4rem; }
+@media (min-width: 961px) { .site-menu-languages { display: none; } }
+@media (max-width: 960px) { .site-nav .site-language { display: none; } }
+</style>
