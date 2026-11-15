@@ -69,7 +69,7 @@ home:
     captions: 'animoidut tekstitykset'
     captions_desc: 'Löydä oma tyylisi ja lisää omat sanasi.'
     audio: 'Äänityökalut'
-    audio_desc: 'Kerrostaa ääniraitoja ja muokkaa videosi ääntä.'
+    audio_desc: 'Kerrosta ääniraitoja ja muokkaa videosi ääntä.'
     gallery: 'Katso ByteWavella tehtyjä videoita →'
     editor_alt: 'ByteWave-editori, jossa auringonlasku ja paikalliset muokkaustyökalut'
     layout_alt: 'ByteWave Layout kuudesta merikuvasta ja videosta'
