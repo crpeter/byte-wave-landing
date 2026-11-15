@@ -25,6 +25,8 @@ with tempfile.TemporaryDirectory() as folder:
     cases = [
         ('es/blog/editor-de-video-sin-subir-archivos.html', 'generado con un modelo de lenguaje de IA (LLM)', 'editado', 'disclosure must explicitly identify'),
         ('es/index.html', 'hreflang="en" href="https://bytewaveai.com/"', 'hreflang="en" href="https://bytewaveai.com/es/"', 'missing reciprocal'),
+        ('fr/blog/editeur-video-prive-sans-cloud.html', 'texte généré à l’aide d’un modèle de langage', 'texte écrit à la main', 'disclosure must explicitly identify'),
+        ('fr/index.html', 'hreflang="en" href="https://bytewaveai.com/"', 'hreflang="en" href="https://bytewaveai.com/fr/"', 'missing reciprocal'),
         ('tutorials/frame-rate-conversion/index.html', 'class="disclosure ai-disclosure"', 'class="disclosure"', 'expected one visible AI disclosure'),
         ('blog/provenance.html', '"dateModified":"2026-10-18"', '"dateModified":"2026-01-01"', 'disagrees with sitemap'),
         ('about.html', '<a href="/free-expression.html">Free expression</a></div>', '</div>', 'missing shared footer links'),

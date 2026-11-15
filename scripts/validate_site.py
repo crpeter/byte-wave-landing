@@ -136,7 +136,11 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
                 else:
                     notice = notices[0]
                     text = re.sub(r"<[^>]+>", "", notice.group("text"))
-                    disclosure = ("Aviso sobre IA:", "generado con un modelo de lenguaje de IA (LLM)") if p.lang == "es" else ("AI disclosure:", "generated with an AI language model (LLM)")
+                    disclosures = {
+                        "es": ("Aviso sobre IA:", "generado con un modelo de lenguaje de IA (LLM)"),
+                        "fr": ("Information sur l’IA :", "texte généré à l’aide d’un modèle de langage"),
+                    }
+                    disclosure = disclosures.get(p.lang, ("AI disclosure:", "generated with an AI language model (LLM)"))
                     if not all(phrase in text for phrase in disclosure):
                         errors.append(f"{rel}: disclosure must explicitly identify AI-generated text")
                     prefix = re.sub(r'<(?P<tag>p|div) class="(?:eyebrow|meta)">.*?</(?P=tag)>', "", content[:notice.start()], flags=re.S)
@@ -166,7 +170,7 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
 
     for url, file in canon.items():
         page = pages[file]
-        if not page.alternates and file.relative_to(ROOT).parts[0] != "es": continue
+        if not page.alternates and file.relative_to(ROOT).parts[0] != page.lang: continue
         versions = dict(page.alternates)
         if (len(versions) != len(page.alternates) or len(versions) < 3 or versions.get(page.lang) != url
                 or not versions.get("en") or versions.get("x-default") != versions.get("en")):
