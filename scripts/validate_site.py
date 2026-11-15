@@ -160,7 +160,7 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
                         "es": ("Aviso sobre IA:", "generado con un modelo de lenguaje de IA (LLM)"),
                         "fr": ("Information sur l’IA :", "texte généré à l’aide d’un modèle de langage"),
                         "de": ("KI-Hinweis:", "KI-Sprachmodell"),
-                        "it": ("Informativa sull'IA:", "modello linguistico di intelligenza artificiale"),
+                        "it": ("Informativa sull", "modello linguistico di intelligenza artificiale"),
                         "nl": ("AI-vermelding:", "AI-taalmodel"),
                         "pt-PT": ("Aviso sobre IA:", "modelo de linguagem"),
                         "pt-BR": ("Aviso sobre IA:", "modelo de linguagem"),
