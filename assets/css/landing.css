@@ -127,3 +127,55 @@ a:focus-visible, video:focus-visible { outline: 3px solid #f5bda7; outline-offse
 @media (max-width: 600px) {
   .site-home .compare-section .comp-table tbody th { padding: .6rem .45rem; font-size: .76rem; overflow-wrap: anywhere; }
 }
+
+/* Localized emphasis: preserve italic strokes and keep whole words in narrow viewports. */
+@media (max-width: 640px) {
+  html:lang(pl) .hero h1 em {
+    font-size: clamp(3.1rem, 17vw, 4.15rem);
+    white-space: nowrap;
+    padding-inline: .08em .13em;
+  }
+  html:lang(pt-PT) .hero h1 em {
+    font-size: clamp(3.45rem, 20vw, 5rem);
+    white-space: nowrap;
+    padding-inline: .08em .13em;
+  }
+  html:lang(uk) .hero h1 em {
+    font-size: clamp(3.1rem, 16.5vw, 4.05rem);
+    white-space: nowrap;
+    padding-inline: .08em .13em;
+  }
+}
+@media (max-width: 360px) {
+  html:lang(ja) .hero h1 em,
+  html:lang(ko) .hero h1 em {
+    font-size: clamp(3.4rem, 21.5vw, 4.5rem);
+    white-space: nowrap;
+    padding-inline: .08em .13em;
+  }
+}
+
+/* Retain all three comparison columns without allowing content to cross cell borders. */
+@media (max-width: 600px) {
+  .site-home .compare-section .comp-table { width: 100%; table-layout: fixed; }
+  .site-home .compare-section .comp-table :is(thead th, tbody th, td) {
+    box-sizing: border-box;
+    min-width: 0;
+    padding: .6rem .35rem;
+    font-size: .72rem;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
+    vertical-align: top;
+  }
+  .site-home .compare-section .comp-table :is(.price-free, .price-paid) {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
+  }
+}

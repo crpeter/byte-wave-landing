@@ -32,4 +32,46 @@
 .site-menu-languages { border-top: 1px solid var(--border); margin-top: .4rem; padding-top: .4rem; }
 @media (min-width: 961px) { .site-menu-languages { display: none; } }
 @media (max-width: 960px) { .site-nav .site-language { display: none; } }
+/* Allow long localized download labels to wrap rather than clip the sticky header. */
+@media (max-width: 960px) {
+  .site-page .site-nav { gap: .5rem; padding-inline: .75rem; }
+  .site-nav .site-logo { min-width: 0; white-space: nowrap; }
+  .site-nav .site-menu { flex: 0 0 auto; margin-left: auto; }
+  .site-nav .site-menu > summary {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    white-space: nowrap;
+    word-break: keep-all;
+  }
+  .site-nav .site-download {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: min(45vw, 13rem);
+    min-height: 44px;
+    padding: .45rem .65rem;
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: auto;
+    text-align: center;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 480px) {
+  .site-page .site-nav { gap: .35rem; padding-inline: .5rem; }
+  .site-nav .site-logo { font-size: .88rem; gap: .25rem; }
+  .site-logo img { width: 25px; height: 25px; }
+  .site-nav .site-download {
+    max-width: min(41vw, 10rem);
+    font-size: .73rem;
+    padding: .4rem .45rem;
+  }
+}
+@media (max-width: 360px) {
+  .site-nav .site-logo { font-size: .79rem; gap: .2rem; }
+  .site-logo img { width: 23px; height: 23px; }
+  .site-nav .site-download { max-width: 42vw; font-size: .7rem; }
+  .site-menu summary { font-size: .81rem; }
+}
 </style>

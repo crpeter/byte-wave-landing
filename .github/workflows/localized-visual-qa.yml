@@ -1,0 +1,61 @@
+name: Localized visual regression QA
+on:
+  pull_request:
+    paths:
+      - 'assets/css/landing.css'
+      - 'assets/css/hero-motion.css'
+      - '_includes/localized-nav-styles.html'
+      - '_layouts/localized-home.html'
+      - '_layouts/localized-guide.html'
+      - '_data/i18n/**'
+      - 'index.html'
+      - 'scripts/test_localized_layout.cjs'
+      - '.github/workflows/localized-visual-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  responsive-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render website with the GitHub Pages builder
+        uses: actions/jekyll-build-pages@v1
+        with:
+          verbose: false
+      - name: Check out production main for accurate baseline screenshots
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: qa-main
+      - name: Build unmodified main as the before screenshot baseline
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./qa-main
+          destination: ./_qa_main_site
+          verbose: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser testing dependencies
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Run browser checks at 1440x900, 390x844, and 320x844
+        env:
+          SITE_URL: http://127.0.0.1:8765
+          BEFORE_URL: http://127.0.0.1:8766
+        run: |
+          python3 -m http.server 8765 --directory _site >/tmp/bytewave-browser-server.log 2>&1 &
+          python3 -m http.server 8766 --directory _qa_main_site >/tmp/bytewave-baseline-server.log 2>&1 &
+          sleep 2
+          node scripts/test_localized_layout.cjs
+      - name: Upload actual before-and-after browser screenshots and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: localized-visual-qa
+          path: qa-screenshots/
+          if-no-files-found: warn
+          retention-days: 30

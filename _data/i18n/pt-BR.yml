@@ -132,7 +132,7 @@ home:
     no_tracking: 'Sem rastreamento comportamental; contas e publicação opcionais'
     policy: 'Ver política de privacidade do CapCut'
     provenance: 'Proveniência do vídeo'
-    stamp: 'Selo ByteWave ao guardar em Fotos'
+    stamp: 'Selo do ByteWave ao salvar no app Fotos'
     export_options: 'Ver opções atuais de exportação'
     slow_motion: 'Câmera lenta'
     included: 'Incluído'
@@ -167,7 +167,7 @@ home:
     title: 'O que está incluído'
     items:
     - title: 'Verificação C2PA e proveniência'
-      body: 'Verifique as credenciais de conteúdo compatíveis em fotos e vídeos, incluindo identificações de geração por IA. Cada exportação para Fotos recebe um selo ByteWave para detetar alterações.'
+      body: 'Verifique as credenciais de conteúdo compatíveis em fotos e vídeos, incluindo identificações de geração por IA. Cada exportação para Fotos recebe um selo ByteWave para detectar alterações.'
     - title: 'Câmera lenta e desfoque de movimento'
       body: 'Deixe a câmera lenta mais fluida com a conversão de taxa de quadros. O desfoque de movimento e a redução de ruído também são processados no dispositivo.'
     - title: 'Aumento da resolução por IA'
