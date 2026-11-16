@@ -186,6 +186,11 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
             if is_localized:
                 required_footer.remove("/"); required_footer.add(f"/{locale_slug(p.lang)}/")
+                for slug, english in (("about", "/about.html"), ("free-expression", "/free-expression.html")):
+                    translated = f"/{locale_slug(p.lang)}/{slug}.html"
+                    if (ROOT / translated.lstrip("/")).is_file():
+                        required_footer.remove(english)
+                        required_footer.add(translated)
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
