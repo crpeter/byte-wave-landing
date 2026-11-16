@@ -1,3 +1,7 @@
+---
+lang: en
+translation_key: creation-import-custom-fonts
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to Import Custom Fonts for Video Captions on iPhone - ByteWave</title>
     <meta name="description" content="Import your own TTF or OTF fonts into ByteWave on iPhone. Find Import font, choose a file, and use My Fonts to style your video captions for free.">
-    <link rel="canonical" href="https://bytewaveai.com/tutorials/import-custom-fonts/">
+    {% assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" %}
+    {% assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first %}
+    {% assign t = site.data.i18n[page.lang] %}
+    {% include localized-alternates.html %}
     <meta property="og:type" content="article">
     <meta property="og:title" content="Your Fonts Shouldn’t Need a Subscription.">
     <meta property="og:description" content="Import your own TTF or OTF fonts into ByteWave on iPhone. Find Import font, choose a file, and use My Fonts to style your video captions for free.">
@@ -92,29 +99,10 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 </script>
     <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+    {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-<a class="site-skip" href="#main">Skip to content</a>
-<nav class="site-nav" aria-label="Main navigation">
-    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
-    <div class="site-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a></div>
-    <details class="site-menu">
-        <summary>Menu</summary>
-        <div class="site-menu-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/free-expression.html">Free expression</a></div>
-    </details>
-    <a class="site-download" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_custom_fonts&amp;mt=8">Download Free</a>
-</nav>
+{% include localized-nav.html %}
 <main id="main">
 <article>
     <p class="eyebrow">ByteWave tutorial</p>
