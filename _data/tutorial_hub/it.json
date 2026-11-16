@@ -1,0 +1,85 @@
+{
+  "title": "Tutorial di montaggio video",
+  "description": "Scopri come creare collage video, sottotitoli animati, sticker con keyframe, motion blur e controlli C2PA in ByteWave.",
+  "intro": "Crea una composizione, aggiungi sottotitoli, anima sticker o verifica un file. Guide rapide agli strumenti ByteWave.",
+  "language_note": "Le guide individuali collegate sono attualmente disponibili in inglese.",
+  "action": "Apri la guida (in inglese)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Collage video con Layout di ByteWave",
+      "description": "Sovrapponi clip, crea griglie e prova forme diverse.",
+      "format": "Tre esempi video",
+      "alt": "Collage video con Layout di ByteWave. Sovrapponi clip, crea griglie e prova forme diverse."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Aggiungere sottotitoli animati",
+      "description": "Le tue parole sul tuo video.",
+      "format": "Guida scritta",
+      "alt": "Aggiungere sottotitoli animati. Le tue parole sul tuo video."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Scegliere effetti di testo per i sottotitoli",
+      "description": "Orbital Letters, Supernova, Ember Ash e altro.",
+      "format": "Guida scritta",
+      "alt": "Scegliere effetti di testo per i sottotitoli. Orbital Letters, Supernova, Ember Ash e altro."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importare i propri caratteri",
+      "description": "Usa caratteri TTF e OTF nei sottotitoli.",
+      "format": "Guida scritta",
+      "alt": "Importare i propri caratteri. Usa caratteri TTF e OTF nei sottotitoli."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animare sticker con keyframe",
+      "description": "Posizione, dimensione, rotazione e keyframe.",
+      "format": "Guida scritta",
+      "alt": "Animare sticker con keyframe. Posizione, dimensione, rotazione e keyframe."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Aggiungere la sfocatura movimento",
+      "description": "Confronta le versioni e regola l’intensità della sfocatura.",
+      "format": "iPhone · Confronto di 20 s",
+      "alt": "Aggiungere la sfocatura movimento. Confronta le versioni e regola l’intensità della sfocatura.",
+      "left": "Originale",
+      "right": "Sfocatura movimento"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Conversione del frame rate per il rallentatore",
+      "description": "Confronta un colibrì rallentato a 0,1×.",
+      "format": "iPhone · Confronto di 30 s",
+      "alt": "Conversione del frame rate per il rallentatore. Confronta un colibrì rallentato a 0,1×.",
+      "left": "Normale · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Riduzione temporale del rumore",
+      "description": "Osserva il rumore e i dettagli fini in un video di esempio.",
+      "format": "iPhone · Confronto di 8 s",
+      "alt": "Riduzione temporale del rumore. Osserva il rumore e i dettagli fini in un video di esempio.",
+      "left": "Originale",
+      "right": "Riduzione del rumore"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Controllare le credenziali C2PA",
+      "description": "Apri il badge di provenienza e comprendi dichiarazioni IA verificate e prove mancanti.",
+      "format": "Foto e video · Guida scritta",
+      "alt": "Controllare le credenziali C2PA. Apri il badge di provenienza e comprendi dichiarazioni IA verificate e prove mancanti."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Rimuovere i metadati di posizione",
+      "description": "Esamina una copia di lavoro, elimina i campi modificabili e verifica ciò che resta.",
+      "format": "Privacy · Guida scritta",
+      "alt": "Rimuovere i metadati di posizione. Esamina una copia di lavoro, elimina i campi modificabili e verifica ciò che resta."
+    }
+  ]
+}
