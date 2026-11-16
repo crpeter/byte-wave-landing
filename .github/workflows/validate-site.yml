@@ -16,6 +16,8 @@ jobs:
           verbose: false
       - name: Validate rendered links and metadata
         run: python3 scripts/validate_site.py
+      - name: Verify localized About, free-expression, gallery and tutorial pages
+        run: python3 scripts/test_localized_secondary_pages.py
       - name: Test site validation rules
         run: python3 scripts/test_site_validation.py
       - uses: actions/setup-node@v4
