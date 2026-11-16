@@ -47,7 +47,11 @@ function report(ok, message, details) {
 }
 async function ready(page, address) {
   await page.goto(address, {waitUntil: 'domcontentloaded', timeout: 35000});
-  await page.evaluate(() => document.fonts.ready);
+  await page.evaluate(async () => {
+    await document.fonts.ready;
+    const image = document.querySelector('.hero-photo img');
+    if (image) await image.decode().catch(() => {});
+  });
 }
 async function inspect(page, lang, size, kind) {
   return page.evaluate(({lang, width, height, kind}) => {
@@ -114,7 +118,10 @@ async function inspect(page, lang, size, kind) {
       canonical:document.querySelector('link[rel="canonical"]')?.href,
       alternates:[...document.querySelectorAll('link[rel="alternate"][hreflang]')].map(x=>[x.hreflang,x.href]),
       store:cta?.href,
-      mobileHasStaticImage:!!document.querySelector('.hero-photo img'),
+      mobileHasStaticImage:(() => {
+        const img=document.querySelector('.hero-photo img');
+        return !!img && img.complete && img.naturalWidth>0;
+      })(),
       headingHeight:rect(document.querySelector('.hero'))?.height
     };
   }, {lang, width:size.width, height:size.height, kind});
