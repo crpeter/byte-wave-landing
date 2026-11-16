@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWaveチュートリアル",
+    "updatedLabel": "更新日",
+    "updatedDate": "2026年11月16日",
+    "relatedLabel": "関連ガイド"
+  },
+  "captionEffects": {
+    "title": "ByteWaveの字幕テキストエフェクト",
+    "description": "ByteWaveで字幕にテキストエフェクトを追加し、アニメーションを確認。Orbital Letters、Supernova、Ember Ashを試しましょう。",
+    "lead": "自分の言葉にエフェクトを適用し、書き出す前に動画上でプレビューします。",
+    "stepsHeading": "エフェクトを選ぶ",
+    "step1": "ByteWaveプロジェクトで字幕を選択します。",
+    "step2": "テキストエフェクトを開き、プリセットを選択します。",
+    "step3": "動画を再生して効果の動きを確認します。",
+    "presetsHeading": "試してみたい3つのエフェクト",
+    "tip": "それぞれに同じ短い文章を使い、映像に合わせてフォント、サイズ、色を調整します。",
+    "fromScratch": "最初から始めますか？",
+    "firstCaption": "最初の字幕を追加する",
+    "fontsPrompt": "別のフォントを使いたいですか？",
+    "importFont": "自分のフォントを読み込む",
+    "relatedSticker": "ステッカーをアニメーションさせる"
+  },
+  "customFonts": {
+    "title": "自分のフォントにサブスクは不要です。",
+    "description": "iPhoneのByteWaveにTTFやOTFフォントを読み込みます。ファイルを選び、My Fontsから無料で字幕のスタイルに適用できます。",
+    "lead": "自分のフォントを動画に使いましょう。ByteWaveへの読み込みは無料です。",
+    "stepsHeading": "iPhoneでフォントを読み込む",
+    "step1": "TrueType（.ttf）またはOpenType（.otf）ファイルを「ファイル」アプリに保存します。ZIPの場合は先に展開します。",
+    "step2": "ByteWaveのプロジェクトで字幕を選択し、Fontパネルを開きます。",
+    "step3": "Import fontをタップしてフォントファイルを選びます。",
+    "step4": "My Fontsの一覧からフォントを選び、字幕に適用します。",
+    "preview": "動画を再生してテキストを確認し、サイズと色を調整して書き出します。",
+    "unsupportedHeading": "ファイルを選択できない場合",
+    "unsupported": ".ttfまたは.otfファイル自体を選びます。.woffや.woff2形式のWebフォントには対応していません。",
+    "startPrompt": "空のプロジェクトから始めますか？",
+    "firstCaption": "最初の字幕を追加する",
+    "effectsPrompt": "次に",
+    "effectsLink": "字幕テキストエフェクトを試す",
+    "license": "ByteWaveはフォントの読み込みに料金を請求しません。ただしフォント自体が有料またはライセンス付きの場合があります。制作者の利用条件をご確認ください。"
+  }
+}
