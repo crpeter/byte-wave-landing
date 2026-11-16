@@ -80,6 +80,10 @@ for lang,slug in LOCALES.items():
         assert parsed.h1==1, (html, "h1 count", parsed.h1)
         if key=="tutorials":
             assert parsed.tutorial_cards==10, (html, "tutorial cards", parsed.tutorial_cards)
+            for short in ("animated-captions", "animate-stickers", "caption-text-effects", "import-custom-fonts"):
+                target=RENDERED / slug / "tutorials" / short / "index.html"
+                href=f"/{slug}/tutorials/{short}/" if target.is_file() else f"/tutorials/{short}/"
+                assert f'href="{href}"' in rendered, (html, short, "link must use translated guide when available")
         if key=="gallery":
             assert parsed.gallery_video==13, (html, "gallery videos",parsed.gallery_video)
             assert parsed.gallery_figcaption==13, (html, "gallery captions",parsed.gallery_figcaption)
