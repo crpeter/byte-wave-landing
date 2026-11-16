@@ -27,7 +27,7 @@ Les contenus illégaux, les menaces réelles et la fraude peuvent entraîner une
 
 Critiquer une entreprise, documenter une manifestation pacifique ou exprimer un désaccord ne constitue pas, en soi, du spam ou une menace.
 
-## Contester une décision. {#appeal}
+<h2 id="appeal">Contester une décision.</h2>
 
 Écrivez à [cpeter@codyworks.org](mailto:cpeter@codyworks.org?subject=ByteWave%20moderation%20appeal) avec pour objet « ByteWave moderation appeal ». Indiquez votre nom d’utilisateur, la vidéo ou le compte concerné, toute notification reçue et les raisons pour lesquelles vous estimez la décision incorrecte. N’envoyez jamais votre mot de passe.
 
