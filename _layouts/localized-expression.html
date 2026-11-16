@@ -1,0 +1,60 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign x = site.data.expression[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", "free-expression" | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
+{%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ x.title | escape }} - {{ t.name | escape }} - ByteWave</title>
+  <meta name="description" content="{{ x.description | escape }}">
+  {% include localized-alternates.html %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ x.title | escape }}">
+  <meta property="og:description" content="{{ x.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+  <meta property="og:site_name" content="ByteWave">
+  <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta property="og:image:alt" content="{{ t.social_alt | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ x.title | escape }}">
+  <meta name="twitter:description" content="{{ x.description | escape }}">
+  <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta name="twitter:image:alt" content="{{ t.social_alt | escape }}">
+  <link rel="icon" href="/favicon-48x48.png">
+  <style>
+    *,*::before,*::after{box-sizing:border-box}body{margin:0;background:#050508;color:#e8e6f0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}a{color:#00e5a0}a:focus-visible{outline:3px solid #00c8ff;outline-offset:4px}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;color:#000;padding:.6rem;z-index:20}nav{position:sticky;top:0;background:rgba(5,5,8,.94);border-bottom:1px solid #262633;padding:.9rem 5%;display:flex;justify-content:space-between;gap:1rem}.logo{font-weight:800;text-decoration:none}.links{display:flex;gap:1.2rem;flex-wrap:wrap}.links a{color:#bbb8ca;text-decoration:none}main{max-width:780px;margin:auto;padding:4rem 1.5rem}h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.08}h2{margin-top:2.6rem}p,li{color:#aaa7bb}.eyebrow{color:#00e5a0;text-transform:uppercase;letter-spacing:.17em;font-size:.75rem;font-weight:750}.callout{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}footer{border-top:1px solid #22212e;padding:2.5rem 5%;color:#858197}@media(max-width:700px){.links a:not(:last-child){display:none}}
+  </style>
+  <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+  {% include localized-nav-styles.html %}
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","url":{{ page.url | absolute_url | jsonify }},
+  "name":{{ x.title | jsonify }},"description":{{ x.description | jsonify }},"inLanguage":{{ page.lang | jsonify }},
+  "publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/"}}
+  </script>
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main id="main"><article>
+  <p class="eyebrow">{{ x.eyebrow | escape }}</p>
+  <h1>{{ x.headline | escape }}</h1>
+  <p><strong>{{ x.commitment | escape }}</strong></p>
+  <p>{{ x.intro | escape }}</p>
+  <h2>{{ x.meaningTitle | escape }}</h2>
+  <p>{{ x.meaning1 | escape }} <a href="https://constitution.congress.gov/browse/essay/amdt1-7-2-4/ALDE_00013541/" hreflang="en">First Amendment</a>.</p>
+  <p>{{ x.meaning2 | escape }}</p>
+  <h2>{{ x.moderationTitle | escape }}</h2>
+  <p>{{ x.moderation1 | escape }}</p>
+  <p>{{ x.moderation2 | escape }}</p>
+  <h2 id="appeal">{{ x.appealTitle | escape }}</h2>
+  <p>{{ x.appeal1 | escape }} <a href="mailto:cpeter@codyworks.org?subject=ByteWave%20moderation%20appeal">cpeter@codyworks.org</a></p>
+  <p>{{ x.appeal2 | escape }}</p>
+  <p><a href="{{ about_page.url | relative_url }}">{{ x.about | escape }}</a> · <a href="{{ privacy_page.url | relative_url }}">{{ x.privacy | escape }}</a></p>
+</article></main>
+{% include localized-footer.html %}
+<script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
+</body>
+</html>
