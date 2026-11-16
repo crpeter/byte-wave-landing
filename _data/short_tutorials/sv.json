@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-guide",
+    "updatedLabel": "Uppdaterad",
+    "updatedDate": "16 november 2026",
+    "relatedLabel": "Relaterade guider"
+  },
+  "captionEffects": {
+    "title": "Texteffekter för undertexter i ByteWave",
+    "description": "Välj en texteffekt för dina undertexter i ByteWave, förhandsgranska animationen och prova Orbital Letters, Supernova och Ember Ash.",
+    "lead": "Prova en effekt på dina egna ord. Förhandsgranska den ovanpå videon innan du exporterar.",
+    "stepsHeading": "Välj en effekt",
+    "step1": "Markera en undertext i ditt ByteWave-projekt.",
+    "step2": "Öppna dess texteffekter och välj en förinställning.",
+    "step3": "Spela upp videon för att se effekten i rörelse.",
+    "presetsHeading": "Tre effekter att prova",
+    "tip": "Prova samma korta fras med varje effekt. Anpassa typsnitt, storlek och färg efter dina bilder.",
+    "fromScratch": "Börjar du från början?",
+    "firstCaption": "Lägg till din första undertext",
+    "fontsPrompt": "Vill du använda ett annat typsnitt?",
+    "importFont": "Importera ditt eget typsnitt",
+    "relatedSticker": "Animera ett klistermärke"
+  },
+  "customFonts": {
+    "title": "Dina typsnitt borde inte kräva en prenumeration.",
+    "description": "Importera egna TTF- och OTF-typsnitt till ByteWave på iPhone. Välj en fil och använd My Fonts för att utforma undertexterna gratis.",
+    "lead": "Använd dina egna typsnitt i videon. Importen är gratis i ByteWave.",
+    "stepsHeading": "Importera ett typsnitt på iPhone",
+    "step1": "Spara en TrueType-fil (.ttf) eller OpenType-fil (.otf) i appen Filer. Packa först upp eventuella ZIP-arkiv.",
+    "step2": "Markera en undertext i ByteWave och öppna panelen Font.",
+    "step3": "Tryck på Import font och välj typsnittsfilen.",
+    "step4": "Hitta den under My Fonts och tryck på typsnittet för att använda det.",
+    "preview": "Spela upp videon för att kontrollera texten, ändra storlek och färg och exportera.",
+    "unsupportedHeading": "Kan du inte välja filen?",
+    "unsupported": "Välj själva .ttf- eller .otf-filen. Webbtypsnitt som .woff och .woff2 stöds inte.",
+    "startPrompt": "Börjar du med ett tomt projekt?",
+    "firstCaption": "Lägg till din första undertext",
+    "effectsPrompt": "Prova sedan",
+    "effectsLink": "texteffekter för undertexter",
+    "license": "ByteWave tar inte betalt för att importera typsnitt. Typsnittet kan ha eget pris eller licens; kontrollera upphovspersonens villkor."
+  }
+}
