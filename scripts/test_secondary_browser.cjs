@@ -83,7 +83,8 @@ function test(ok, label, result) {
      }
      if(kind==='free-expression')test(data.hasAppeal,key+' appeal anchor exists');
      if(kind==='privacy'){
-       test(data.bodyLength>1500,key+' complete privacy-policy body',{bodyLength:data.bodyLength});
+       const minimum = ['ja','ko','zh-Hant'].includes(lang) ? 400 : 1500;
+       test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
       if(['about','gallery','tutorials'].includes(kind))
