@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave rehberi",
+    "updatedLabel": "Güncellendi",
+    "updatedDate": "16 Kasım 2026",
+    "relatedLabel": "İlgili rehberler"
+  },
+  "captionEffects": {
+    "title": "ByteWave'de altyazı metin efektleri",
+    "description": "ByteWave'de altyazınıza bir metin efekti seçin, animasyonu izleyin ve Orbital Letters, Supernova ve Ember Ash'i deneyin.",
+    "lead": "Kendi sözlerinizle bir efekti deneyin. Dışa aktarmadan önce görüntülerinizin üzerinde önizleyin.",
+    "stepsHeading": "Bir efekt seçin",
+    "step1": "ByteWave projenizde bir altyazı seçin.",
+    "step2": "Metin efektlerini açın ve hazır bir efekt seçin.",
+    "step3": "Efekti hareketli görmek için videoyu oynatın.",
+    "presetsHeading": "Denemeye değer üç efekt",
+    "tip": "Her efektte aynı kısa ifadeyi kullanın. Yazı tipini, boyutu ve rengi videonuza göre ayarlayın.",
+    "fromScratch": "Sıfırdan mı başlıyorsunuz?",
+    "firstCaption": "İlk altyazınızı ekleyin",
+    "fontsPrompt": "Başka bir yazı tipi mi istiyorsunuz?",
+    "importFont": "Kendi yazı tipinizi içe aktarın",
+    "relatedSticker": "Çıkartma canlandırın"
+  },
+  "customFonts": {
+    "title": "Yazı tipleriniz için abonelik gerekmemeli.",
+    "description": "iPhone'da kendi TTF veya OTF yazı tiplerinizi ByteWave'e aktarın. Bir dosya seçin ve altyazılarınızı ücretsiz biçimlendirmek için My Fonts'u kullanın.",
+    "lead": "Videoda kendi yazı tipinizi kullanın. ByteWave'de içe aktarma ücretsizdir.",
+    "stepsHeading": "iPhone'da yazı tipi içe aktarma",
+    "step1": "TrueType (.ttf) veya OpenType (.otf) dosyasını Dosyalar uygulamasına kaydedin. ZIP dosyasındaysa önce ayıklayın.",
+    "step2": "ByteWave projenizde bir altyazı seçin ve Font panelini açın.",
+    "step3": "Import font'a dokunun ve yazı tipi dosyasını seçin.",
+    "step4": "My Fonts altında bulun. Altyazıya uygulamak için yazı tipine dokunun.",
+    "preview": "Metni kontrol etmek için videoyu oynatın, boyutunu ve rengini ayarlayıp dışa aktarın.",
+    "unsupportedHeading": "Dosya seçilemiyor mu?",
+    "unsupported": "Gerçek .ttf veya .otf dosyasını seçin. .woff ve .woff2 web fontları desteklenmez.",
+    "startPrompt": "Boş bir projeyle mi başlıyorsunuz?",
+    "firstCaption": "İlk altyazınızı ekleyin",
+    "effectsPrompt": "Ardından",
+    "effectsLink": "altyazı metin efektlerini",
+    "license": "deneyin. ByteWave yazı tipi içe aktarmak için ücret almaz. Yazı tipi ücretli veya lisanslı olabilir; oluşturucunun kullanım koşullarını kontrol edin."
+  }
+}
