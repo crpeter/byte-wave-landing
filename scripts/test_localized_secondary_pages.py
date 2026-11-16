@@ -36,6 +36,7 @@ class Markup(HTMLParser):
     def __init__(self):
         super().__init__()
         self.h1 = 0
+        self.h2 = 0
         self.gallery_video = 0
         self.gallery_figcaption = 0
         self.tutorial_cards = 0
@@ -43,6 +44,7 @@ class Markup(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a=dict(attrs)
         if tag=="h1": self.h1+=1
+        if tag=="h2": self.h2+=1
         if tag=="figcaption": self.gallery_figcaption+=1
         if tag=="video":
             self.gallery_video+=1
@@ -66,6 +68,7 @@ for lang,slug in LOCALES.items():
                 assert card[field].strip(), (lang, field)
     for source, html, key in [
         (f"{slug}/about.md", f"{slug}/about.html", "about"),
+        (f"{slug}/privacy.md", f"{slug}/privacy.html", "privacy"),
         (f"{slug}/free-expression.md", f"{slug}/free-expression.html", "free-expression"),
         (f"{slug}/tutorials/index.md", f"{slug}/tutorials/index.html", "tutorials"),
         (f"{slug}/gallery/index.md", f"{slug}/gallery/index.html", "gallery"),
@@ -84,6 +87,11 @@ for lang,slug in LOCALES.items():
             assert parsed.gallery_video==13, (html, "gallery videos",parsed.gallery_video)
             assert parsed.gallery_figcaption==13, (html, "gallery captions",parsed.gallery_figcaption)
             assert parsed.video_with_labels==13, (html, "translated video labels",parsed.video_with_labels)
+        if key=="privacy":
+            assert parsed.h2 >= 5, (html, "privacy policy sections")
+            assert "Google Firebase Authentication" in rendered, (html,"authentication details")
+            assert "cpeter@codyworks.org" in rendered, (html,"privacy contact")
+            assert len(rendered)>2000, (html,"policy must not be a summary")
         if key=="free-expression":
             assert 'id="appeal"' in rendered, (html,"appeal anchor")
             assert "cpeter@codyworks.org" in rendered, (html,"appeals contact")
