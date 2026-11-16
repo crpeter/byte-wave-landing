@@ -1,0 +1,103 @@
+{
+  "title": "ByteWave ile yapıldı",
+  "seo_title": "ByteWave ile hazırlanmış video galerisi",
+  "description": "ByteWave ile yapılmış videoları keşfedin: yatay kaydırma, Möbius ve dalga efektleri, gün batımı ızgaraları, ağır çekim ve daha fazlası.",
+  "aria_label": "ByteWave ile yapıldı",
+  "note": "Bağlantı verilen efekt rehberleri şu anda İngilizcedir.",
+  "open_video": "Videoyu aç",
+  "download": "ByteWave'i ücretsiz indir",
+  "credit": "Apple örnek görüntüleri, ByteWave ile düzenlendi.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Gün batımları, kıyılar ve gündelik anlardan kaydırılan sütunlar.",
+      "action": "Layout'u keşfet (İngilizce)",
+      "alt": "The All Scroll. Gün batımları, kıyılar ve gündelik anlardan kaydırılan sütunlar."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Yatay kaydırma · Möbius",
+      "effect": "Möbius bükümüne sahip ilk yatay kaydırma düzenimiz.",
+      "action": "Layout'u keşfet (İngilizce)",
+      "alt": "Yatay kaydırma · Möbius. Möbius bükümüne sahip ilk yatay kaydırma düzenimiz."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Yatay kaydırma · Dalgalar",
+      "effect": "Dalga bükümüyle yatay kaydırma.",
+      "action": "Layout'u keşfet (İngilizce)",
+      "alt": "Yatay kaydırma · Dalgalar. Dalga bükümüyle yatay kaydırma."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Gün batımı altıgenleri (yatay)",
+      "effect": "ByteWave Layout · Yatay.",
+      "action": "İki yönü de incele (İngilizce)",
+      "alt": "Gün batımı altıgenleri (yatay). ByteWave Layout · Yatay."
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Bükülmüş gün batımı",
+      "effect": "ByteWave Layout · Kıvrımlı gün batımı bantları.",
+      "action": "Layout'u keşfet (İngilizce)",
+      "alt": "Bükülmüş gün batımı. ByteWave Layout · Kıvrımlı gün batımı bantları."
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Sahil ızgarasından plaja",
+      "effect": "ByteWave Layout · Altı panelden tam ekrana.",
+      "action": "Layout'u keşfet (İngilizce)",
+      "alt": "Sahil ızgarasından plaja. ByteWave Layout · Altı panelden tam ekrana."
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Gün batımı altıgenleri (dikey)",
+      "effect": "ByteWave Layout · Dikey.",
+      "action": "İki yönü de incele (İngilizce)",
+      "alt": "Gün batımı altıgenleri (dikey). ByteWave Layout · Dikey."
+    },
+    {
+      "id": "air-show",
+      "title": "3D hava gösterisi",
+      "effect": "Animasyonlu 3D metin.",
+      "action": "Bu efekti dene (İngilizce)",
+      "alt": "3D hava gösterisi. Animasyonlu 3D metin."
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Orijinal hız → ağır çekim.",
+      "action": "Bu efekti dene (İngilizce)",
+      "alt": "The Quadruple Dive. Orijinal hız → ağır çekim."
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animasyonlu metin.",
+      "action": "Bu efekti dene (İngilizce)",
+      "alt": "Free as in Geese. Animasyonlu metin."
+    },
+    {
+      "id": "hummingbird",
+      "title": "Ağır çekimde sinek kuşu",
+      "effect": "0,1× hız · 8× kare hızı dönüştürme.",
+      "action": "Bu efekti dene (İngilizce)",
+      "alt": "Ağır çekimde sinek kuşu. 0,1× hız · 8× kare hızı dönüştürme."
+    },
+    {
+      "id": "harbor",
+      "title": "Limanda",
+      "effect": "Hareket bulanıklığı.",
+      "action": "Bu efekti dene (İngilizce)",
+      "alt": "Limanda. Hareket bulanıklığı."
+    },
+    {
+      "id": "red-leaves",
+      "title": "Kırmızı yapraklar",
+      "effect": "Zamansal gürültü azaltma.",
+      "action": "Bu efekti dene (İngilizce)",
+      "alt": "Kırmızı yapraklar. Zamansal gürültü azaltma."
+    }
+  ]
+}
