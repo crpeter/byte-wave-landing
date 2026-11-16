@@ -129,9 +129,11 @@ function test(ok, label, result) {
       const players = await page.locator('main figure video').evaluateAll(videos => videos.map(video => {
        const frame = video.getBoundingClientRect();
        const figure = video.closest('figure');
+       const play = figure.querySelector('.bw-play[aria-controls="' + video.id + '"]');
        return frame.width > 0 && frame.left >= -1 && frame.right <= document.documentElement.clientWidth + 1
-        && video.controls && video.playsInline && video.querySelectorAll('source').length === 2
-        && !!video.getAttribute('data-bw-labels') && !!figure.querySelector('.bw-play[aria-controls="' + video.id + '"]')
+        && video.playsInline && video.querySelectorAll('source').length === 2
+        && !!play && !play.hidden && !play.disabled
+        && play.getAttribute('aria-label') === JSON.parse(video.dataset.bwLabels).play
         && !!figure.querySelector('figcaption')?.textContent.trim();
       }));
       test(players.length===5 && players.every(Boolean) && data.instructionSteps===3,
@@ -177,6 +179,11 @@ function test(ok, label, result) {
    }
   }
   await page.setViewportSize({width:1440,height:900});
+  await page.goto(ORIGIN+'/de/layout/', {waitUntil:'domcontentloaded'});
+  const demo = page.locator('#layout-sunset-hexagons-portrait-video');
+  await page.locator('.bw-play[aria-controls="layout-sunset-hexagons-portrait-video"]').click();
+  await page.waitForFunction(() => document.querySelector('#layout-sunset-hexagons-portrait-video').currentTime > 0, null, {timeout: 40000});
+  test(await demo.evaluate(v => v.controls && !v.paused), 'Layout portrait demo plays with native controls after activation');
   await page.goto(ORIGIN+'/de/about.html',{waitUntil:'domcontentloaded'});
   await page.locator('.site-language > summary').click();
   await page.locator('.site-language a[href="/ja/about.html"]').click();
