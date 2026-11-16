@@ -1,0 +1,85 @@
+{
+  "title": "동영상 편집 튜토리얼",
+  "description": "ByteWave에서 영상 콜라주, 애니메이션 자막, 스티커 키프레임, 모션 블러, C2PA 검증 방법을 알아보세요.",
+  "intro": "레이아웃 제작, 자막 추가, 스티커 애니메이션, 파일 검증까지 ByteWave 도구를 짧은 가이드로 소개합니다.",
+  "language_note": "연결된 개별 튜토리얼 본문은 현재 영어로 제공됩니다.",
+  "action": "가이드 보기(영어)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "ByteWave Layout으로 동영상 콜라주 만들기",
+      "description": "클립을 겹치고 그리드를 만들어 새로운 모양을 시도하세요.",
+      "format": "동영상 예제 3개",
+      "alt": "ByteWave Layout으로 동영상 콜라주 만들기。클립을 겹치고 그리드를 만들어 새로운 모양을 시도하세요."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "애니메이션 자막 추가하기",
+      "description": "내 문구를 내 영상에 추가하세요.",
+      "format": "글로 된 가이드",
+      "alt": "애니메이션 자막 추가하기。내 문구를 내 영상에 추가하세요."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "자막 텍스트 효과 고르기",
+      "description": "Orbital Letters, Supernova, Ember Ash 등.",
+      "format": "글로 된 가이드",
+      "alt": "자막 텍스트 효과 고르기。Orbital Letters, Supernova, Ember Ash 등."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "내 글꼴 가져오기",
+      "description": "TTF와 OTF 글꼴을 자막에 활용하세요.",
+      "format": "글로 된 가이드",
+      "alt": "내 글꼴 가져오기。TTF와 OTF 글꼴을 자막에 활용하세요."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "키프레임으로 스티커 움직이기",
+      "description": "위치, 크기, 회전과 키프레임을 설정하세요.",
+      "format": "글로 된 가이드",
+      "alt": "키프레임으로 스티커 움직이기。위치, 크기, 회전과 키프레임을 설정하세요."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "동영상에 모션 블러 추가하기",
+      "description": "두 영상을 나란히 비교하고 효과 강도를 조절하세요.",
+      "format": "iPhone · 20초 비교",
+      "alt": "동영상에 모션 블러 추가하기。두 영상을 나란히 비교하고 효과 강도를 조절하세요.",
+      "left": "원본",
+      "right": "모션 블러"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "슬로 모션용 프레임 속도 변환",
+      "description": "0.1배속 벌새 영상의 움직임을 비교하세요.",
+      "format": "iPhone · 30초 비교",
+      "alt": "슬로 모션용 프레임 속도 변환。0.1배속 벌새 영상의 움직임을 비교하세요.",
+      "left": "일반 · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "시간축 노이즈 감소",
+      "description": "예제 영상에서 노이즈와 세부 묘사를 비교하세요.",
+      "format": "iPhone · 8초 비교",
+      "alt": "시간축 노이즈 감소。예제 영상에서 노이즈와 세부 묘사를 비교하세요.",
+      "left": "원본",
+      "right": "노이즈 감소"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "C2PA Content Credentials 확인하기",
+      "description": "출처 배지를 열고 검증된 AI 생성 선언과 누락된 근거의 의미를 알아보세요.",
+      "format": "사진과 동영상 · 가이드",
+      "alt": "C2PA Content Credentials 확인하기。출처 배지를 열고 검증된 AI 생성 선언과 누락된 근거의 의미를 알아보세요."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "위치 메타데이터 제거하기",
+      "description": "작업용 사본을 확인하고 수정 가능한 필드를 제거한 뒤 남은 정보를 검토하세요.",
+      "format": "개인정보 보호 · 가이드",
+      "alt": "위치 메타데이터 제거하기。작업용 사본을 확인하고 수정 가능한 필드를 제거한 뒤 남은 정보를 검토하세요."
+    }
+  ]
+}
