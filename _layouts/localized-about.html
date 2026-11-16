@@ -53,7 +53,8 @@
   <p>{{ a.technical | escape }}</p>
   <h2>{{ a.commitmentsHeading | escape }}</h2>
   <p>{{ a.commitments | escape }}</p>
-  <p><strong>{{ a.expressionBold | escape }}</strong> <a href="/free-expression.html" hreflang="en">{{ a.expressionLink | escape }}</a></p>
+  {%- assign expression_page = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
+  <p><strong>{{ a.expressionBold | escape }}</strong> <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}">{{ a.expressionLink | escape }}</a></p>
   <h2>{{ a.sourcesHeading | escape }}</h2>
   <ul>
     <li><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=about_{{ page.lang | replace: '-', '' }}&amp;mt=8">{{ a.appStore | escape }}</a></li>
