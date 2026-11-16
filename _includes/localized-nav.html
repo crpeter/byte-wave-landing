@@ -1,3 +1,4 @@
+{%- assign localized_tutorials = site.pages | where: "translation_key", "tutorials" | where: "lang", page.lang | first -%}
 {%- assign localized_about = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
 {%- assign localized_expression = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
 {% capture language_links -%}
@@ -9,7 +10,7 @@
 <a href="{{ home.url | relative_url }}#features">{{ t.nav.features | escape }}</a>
 <a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
 <a href="/gallery/" hreflang="en">{{ t.nav.gallery | escape }}</a>
-<a href="/tutorials/" hreflang="en">{{ t.nav.tutorials | escape }}</a>
+{% if localized_tutorials %}<a href="{{ localized_tutorials.url | relative_url }}">{{ t.nav.tutorials | escape }}</a>{% else %}<a href="/tutorials/" hreflang="en">{{ t.nav.tutorials | escape }}</a>{% endif %}
 <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
 {% endcapture -%}
 <a class="site-skip" href="#main">{{ t.nav.skip | escape }}</a>
