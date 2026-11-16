@@ -1,0 +1,362 @@
+{
+  "seo": "Gidsen over videomontage, AI-media en privacy",
+  "description": "ByteWave over video’s bewerken, herkomst onderzoeken en privacy beschermen op iPhone, iPad en Mac.",
+  "subtitle": "Maak video’s, controleer hun herkomst en houd privégegevens voor jezelf.",
+  "disclosure": "De artikelen bevatten tekst die met een AI-taalmodel (LLM) is gegenereerd. Uitgegeven door ByteWave.",
+  "topics": "Blogonderwerpen",
+  "english": "Artikel in het Engels",
+  "sections": {
+    "meta-record": {
+      "title": "Meta onder de loep",
+      "intro": "Geblokkeerde accounts, privacyvragen en ongevraagde AI. Onze berichtgeving met bronnen en open vragen."
+    },
+    "edit-videos": {
+      "title": "Video’s monteren",
+      "intro": "Maak iets met je eigen opnamen. Begin met deze handleidingen."
+    },
+    "check-ai-media": {
+      "title": "AI-media controleren",
+      "intro": "Ontdek wat een bestand over zijn herkomst kan vertellen."
+    },
+    "protect-your-privacy": {
+      "title": "Je privacy beschermen",
+      "intro": "Controleer welke informatie je met je beelden deelt."
+    },
+    "platforms-creators": {
+      "title": "Platforms en makers",
+      "intro": "Publiceren, vrije meningsuiting en zeggenschap over je gereedschap."
+    }
+  },
+  "tags": {
+    "ai-choice": "AI en keuzevrijheid",
+    "ai-media": "AI-media",
+    "ai-media-guide": "Gids voor AI-media",
+    "bytewave-tutorial": "ByteWave-handleiding",
+    "comparison": "Vergelijking",
+    "comparison-opinion": "Vergelijking en opinie",
+    "creator-opinion": "Makersopinie",
+    "current-analysis": "Actuele analyse",
+    "facebook-guide": "Facebook-gids",
+    "feature-guide": "Functiegids",
+    "guide": "Gids",
+    "incident-tracker": "Incidentenoverzicht",
+    "mission": "Missie",
+    "new-feature": "Nieuwe functie",
+    "news": "Nieuws",
+    "newsroom-guide": "Gids voor redacties",
+    "offline-editing-guide": "Offline monteren",
+    "opinion": "Opinie",
+    "perspective": "Perspectief",
+    "platform-accountability-opinion": "Platformverantwoordelijkheid en opinie",
+    "platform-control-opinion": "Platformcontrole en opinie",
+    "platform-ownership-opinion": "Platformeigendom en opinie",
+    "privacy": "Privacy",
+    "privacy-opinion": "Opinie over privacy",
+    "privacy-guide": "Privacygids",
+    "product-documentation": "Productdocumentatie",
+    "provenance": "Herkomst",
+    "provenance-guide": "Herkomstgids",
+    "provenance-tutorial": "Herkomst controleren",
+    "roundup": "Overzicht",
+    "strategy": "Strategie",
+    "technical": "Techniek",
+    "tiktok-guide": "TikTok-gids",
+    "tutorial": "Handleiding",
+    "youtube-guide": "YouTube-gids",
+    "vs-capcut": "Vergeleken met CapCut"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook en je filmrol",
+      "summary": "Italië legde Meta een boete van 805 miljoen euro op voor fototoegang op Android. Meta gaat in beroep."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Alweer een technische fout bij Meta?",
+      "summary": "Vier beperkingen, van Lula tot No Kings, en de uitleg van het bedrijf."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings verloor toegang tijdens de actie",
+      "summary": "Volgens Meta was de Instagram-schorsing een automatische fout. Wat betekent dat voor de organisatoren?"
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "Het verdwenen campagneaccount van Angie Nixon",
+      "summary": "Haar Instagram-account voor de Latino-gemeenschap verdween tijdens een bijeenkomst en kwam later terug."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "25 miljard dollar is onvoldoende",
+      "summary": "Onze kijk op de uitspraak in New Mexico en de afzonderlijke kinderbeschermingszaken."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave tegenover Meta",
+      "summary": "Lokale montage, zeggenschap over je beelden en de nieuwe commerciële voorwaarden."
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "Opgenomen zonder ‘Hey Meta’",
+      "summary": "Dragers van Ray-Ban Meta meldden onverwachte opnamen. Meta zegt het probleem te hebben opgelost."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "Onbekenden konden je Muse-chat vinden",
+      "summary": "GhostShares, Meta’s reactie en waarom privégegevens niet thuishoren in Muse."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "De verborgen instructies van WhatsApp",
+      "summary": "De hulpbot mocht privacytoezichthouders niet zomaar aanraden. Volgens Meta maakte een fout de instructies zichtbaar."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "De privacy-incidenten van Muse op een rij",
+      "summary": "Gedeelde links, contactprofielen, verwijderverzoeken, adressen op Marketplace en gemelde oplossingen."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "Je vriend gaf toestemming. En jij?",
+      "summary": "Het relatiegeheugen van Muse raakt ook mensen die zich nooit hebben aangemeld."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "Ook ongeplaatste foto’s kunnen worden geanalyseerd",
+      "summary": "Welke toestemming Facebook vraagt voor suggesties uit je filmrol."
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "Van chat naar aanbeveling",
+      "summary": "Meta legt uit hoe een gesprek berichten, reels en advertenties kan beïnvloeden."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "Beschermt een emoji het gezicht van je kind?",
+      "summary": "Je volgers zien het hartje. Welke foto kreeg Facebook zelf te zien?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Meta’s schikking over jongerenveiligheid",
+      "summary": "Betalingen, beperkingen en toezicht in de goedgekeurde schikking van 17,1 miljard dollar."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "Wat zegt ‘gemaakt met AI’ eigenlijk?",
+      "summary": "Een filter, een vervangen gezicht en een verzonnen scène verdienen elk een andere uitleg."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Waarom wij Meta Muse afraden",
+      "summary": "De toegang tot gegevens en de trainingsregels zijn redenen om geen accounts te koppelen."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Meta Muse ontkoppelen",
+      "summary": "Koppel diensten los, trek machtigingen in en controleer apart welke gegevens bewaard blijven."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "Minder AI-video’s op Facebook",
+      "summary": "Hoe feedback, ontvolgen, favorieten en feedkeuzes werken en waar hun grenzen liggen."
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave of VN Video Editor?",
+      "summary": "Vergelijk watermerkvrije export, abonnementen, keyframes, effecten en ondertitelvertaling."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "Geavanceerde montage in ByteWave",
+      "summary": "Keyframes, gedownloade talen, aanpasbare shaders en geometrie die op geluid reageert."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Een video afmaken in vliegtuigstand",
+      "summary": "Monteer een lokale clip zonder inloggen en bewaar het resultaat in Foto’s."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "Advertenties tijdens het maken van afbeeldingen",
+      "summary": "Wat OpenAI in oktober 2026 aankondigde over advertenties bij beeldgeneratie in ChatGPT."
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "Remixes van je Shorts beperken",
+      "summary": "Waar de instelling van YouTube staat en welke visuele remixes ze tegenhoudt."
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "Je video met woorden die jij niet koos",
+      "summary": "Automatische nasynchronisatie uitzetten, vertalingen beoordelen en bestaande tracks verwijderen."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "Je herinneringen hoeven geen opknapbeurt",
+      "summary": "Ook een gemiste glimlach hoort bij het gefotografeerde moment."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "Filters van de community",
+      "summary": "Publiceer eigen ByteWave-shaders en ontdek effecten van andere makers."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "Is CapCut verboden?",
+      "summary": "Controleer de actuele beschikbaarheid en verminder de afhankelijkheid van één app."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Gratis slow motion op de iPhone",
+      "summary": "Tussenbeelden maken beweging vloeiend, zonder abonnement of watermerk."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Op de iPhone monteren zonder account",
+      "summary": "ByteWave scheidt lokaal bewerken van optionele profielen en publicatie."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Wat zijn Metal-shaders?",
+      "summary": "Hoe de iPhone-GPU de aanpasbare filters van ByteWave mogelijk maakt."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "Een gratis alternatief voor CapCut",
+      "summary": "Stap over op ByteWave en monteer eigen beelden zonder abonnement of exportwatermerk."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Gratis editors zonder watermerk",
+      "summary": "Welke apps plakken bij het exporteren geen eigen logo op je video?"
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "Eigen filters maken met AI en code",
+      "summary": "Bekijk de shader, beschrijf je wijziging en plak de nieuwe code in de editor."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "Vier video-editors vergeleken",
+      "summary": "ByteWave, CapCut, iMovie en InShot op werkwijze, privacy en platformondersteuning."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "Echte handtekeningen op gegenereerde tekeningen",
+      "summary": "ChatGPT-beelden droegen namen van kunstenaars. Wat kun je controleren voordat je deelt?"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "Wie verkoopt dat product op TikTok?",
+      "summary": "Zowel de presentator als de productvideo kan gegenereerd zijn."
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "Wanneer een filter verandert wat er gebeurde",
+      "summary": "Een andere sfeer is iets anders dan kleding verzinnen die iemand nooit droeg."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, toestemming en overtuigende nepvideo’s",
+      "summary": "Waarom herkenning van een verzonnen scène niet alleen aan de kijker kan worden overgelaten."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "Een video controleren zonder upload",
+      "summary": "Wat ingebedde herkomstgegevens vertellen en wanneer het origineel nodig is."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Verdwijnt het AI-label met de metadata?",
+      "summary": "Het verschil tussen C2PA-gegevens, zichtbare watermerken en platformlabels."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "Controlehulpmiddelen voor redacties",
+      "summary": "ByteWave, Content Credentials Verify en InVID-WeVerify voor beeldonderzoek."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Geen AI-label betekent niet dat het echt is",
+      "summary": "Een deepfake op Facebook laat de beperkingen van ontbrekende labels zien."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "Waarom AI-beelden te controleren moeten zijn",
+      "summary": "Onderzoek de herkomst van bestanden met oog voor privacy en onzekerheid."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "Minder AI in je TikTok-feed",
+      "summary": "Gebruik onderwerpkeuzes, trefwoordfilters en ‘Niet geïnteresseerd’."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "De Gates Foundation en AI in de klas",
+      "summary": "De stichting wil zo’n 400 miljoen dollar besteden. Wat zouden leraren met dat budget doen?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "De AI-leraar had het mis",
+      "summary": "In Husks virale clip spelt het systeem ‘seventeen’ verkeerd en verbetert het de juiste spelling."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "Houd AI buiten het klaslokaal",
+      "summary": "Resultaten met en zonder chatbot roepen vragen op over Googles samenvattingen bij schoolzoekopdrachten."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "Meer mensen willen minder AI",
+      "summary": "57% van de Amerikanen noemt AI schadelijk voor de samenleving."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "Neem de creatieve regie terug",
+      "summary": "Feedinstellingen, bedrijven achter gegenereerde video’s en het monteren van je eigen beelden."
+    },
+    "/blog/provenance.html": {
+      "title": "Wat herkomstgegevens bewijzen",
+      "summary": "Een handtekening kan de oorsprong en integriteit van een bestand staven, maar niet de gebeurtenis."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "Wat toegang tot foto’s verraadt",
+      "summary": "Smartphoneonderzoek laat zien wat AI kan afleiden en waarom lokaal monteren telt."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Wat je foto over jou vertelt",
+      "summary": "Controleer naam, accounts en bewerkingsgeschiedenis in de herkomstgegevens voordat je deelt."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "Je gezicht uploaden om het te beschermen",
+      "summary": "YouTube vraagt om een identiteitsbewijs en selfie-video voor herkenning van nabootsingen."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Is je adres uit een video af te leiden?",
+      "summary": "Controleer metadata, zichtbare details en geluid, ook in de uiteindelijke export."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "Wie geeft toestemming voor AI-training?",
+      "summary": "OpenAI, Anthropic en het Australische debat over zeggenschap van makers."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "Een feed zonder kijkgeschiedenis op de server",
+      "summary": "Lokale aanbevelingen, anoniem kijken en bewust publiceren in ByteWave."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "Uploadt CapCut je video’s naar de cloud?",
+      "summary": "Wanneer materiaal wordt verstuurd en wat bij lokale montage op je apparaat blijft."
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "Wie beheert je account op X?",
+      "summary": "Volgens de regels kan X bereik beperken, verwijdering eisen en accounts schorsen."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "Je feed en Russische beïnvloeding",
+      "summary": "Waarom ByteWave de beschikbaarheid in Rusland beperkt en wat geoblokkering kan bereiken."
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "De interne waarschuwingen bij TikTok",
+      "summary": "Getuigenissen over kindveiligheid, de reactie van de leiding en informatie voor gezinnen."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe en de beperkingen in Venezuela",
+      "summary": "De dienstonderbreking van 2019 laat zien waarom een offline alternatief belangrijk is."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "Wanneer de betaaldienst ook modereert",
+      "summary": "Hoe betaalbeperkingen in 2025 de vindbaarheid op itch.io beïnvloedden."
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Google Nest verloor online functies",
+      "summary": "Oudere thermostaten verloren in 2025 verbonden diensten. De fysieke bediening werkt nog."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "Europa’s technologische afhankelijkheid",
+      "summary": "Wie beheert je gereedschap en kun je je werk meenemen als je overstapt?"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "Starlink in Oekraïne en satelliettelefonie",
+      "summary": "Beperkingen, Starshield en vertrouwen in de partij die de verbinding beheert."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "De Amerikaanse TikTok-deal",
+      "summary": "Welk belang, welke activiteiten en welke algoritmelicentie behoudt ByteDance?"
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Apples commissie en gratis alternatieven",
+      "summary": "Wat wegvalt zonder abonnement en waarom ByteWave de tools gratis aanbiedt."
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "De beweging voor vrije software vandaag",
+      "summary": "Welke vrijheden gebruikers nodig hebben nu de bedreigingen veranderen."
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "Begint de volgende TikTok als video-editor?",
+      "summary": "Een feed is makkelijker te kopiëren dan een cultuur van makers."
+    },
+    "/blog/your-feed.html": {
+      "title": "Je feed behoort jou toe",
+      "summary": "Onze visie op overheidsinvloed en zeggenschap over je aandacht."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTok zegde zijn optreden in het Congres af",
+      "summary": "Wat de commissievoorzitter zegt en welke uitleg platforms hun gebruikers verschuldigd zijn."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic moet vertrouwen verdienen",
+      "summary": "Claude, de vraag van een rabbijn en de grenzen van beloften over misleiding."
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "seo": "Videoschnitt, KI-Medien und Datenschutz",
+  "description": "Tipps zum Videoschnitt, zur Prüfung der Herkunft von Medien und zum Schutz privater Daten. Beiträge von ByteWave für iPhone, iPad und Mac.",
+  "subtitle": "Videos gestalten. Ihre Herkunft prüfen. Privates für dich behalten.",
+  "disclosure": "Die Beiträge enthalten mit einem KI-Sprachmodell (LLM) erstellten Text. Herausgegeben von ByteWave.",
+  "topics": "Blogthemen",
+  "english": "Artikel auf Englisch",
+  "sections": {
+    "meta-record": {
+      "title": "Meta im Fokus",
+      "intro": "Kontosperren, Datenschutz und ungefragte KI. Unsere Berichte mit Quellen und offenen Fragen."
+    },
+    "edit-videos": {
+      "title": "Videos schneiden",
+      "intro": "Gestalte etwas aus deinen eigenen Aufnahmen. Diese Anleitungen helfen beim Einstieg."
+    },
+    "check-ai-media": {
+      "title": "KI-Medien prüfen",
+      "intro": "Finde heraus, was eine Datei über ihre Herkunft verrät."
+    },
+    "protect-your-privacy": {
+      "title": "Privatsphäre schützen",
+      "intro": "Prüfe, welche Informationen du mit deinen Aufnahmen teilst."
+    },
+    "platforms-creators": {
+      "title": "Plattformen und Kreative",
+      "intro": "Veröffentlichung, Meinungsfreiheit und die Frage, wer deine Werkzeuge kontrolliert."
+    }
+  },
+  "tags": {
+    "ai-choice": "KI und Wahlfreiheit",
+    "ai-media": "KI-Medien",
+    "ai-media-guide": "Ratgeber zu KI-Medien",
+    "bytewave-tutorial": "ByteWave-Anleitung",
+    "comparison": "Vergleich",
+    "comparison-opinion": "Vergleich und Meinung",
+    "creator-opinion": "Meinung aus der Praxis",
+    "current-analysis": "Aktuelle Analyse",
+    "facebook-guide": "Facebook-Ratgeber",
+    "feature-guide": "Funktionsübersicht",
+    "guide": "Ratgeber",
+    "incident-tracker": "Chronik",
+    "mission": "Leitbild",
+    "new-feature": "Neue Funktion",
+    "news": "Nachrichten",
+    "newsroom-guide": "Ratgeber für Redaktionen",
+    "offline-editing-guide": "Offline-Schnitt",
+    "opinion": "Meinung",
+    "perspective": "Perspektive",
+    "platform-accountability-opinion": "Plattformverantwortung und Meinung",
+    "platform-control-opinion": "Plattformkontrolle und Meinung",
+    "platform-ownership-opinion": "Eigentum an Plattformen und Meinung",
+    "privacy": "Datenschutz",
+    "privacy-opinion": "Meinung zum Datenschutz",
+    "privacy-guide": "Datenschutzratgeber",
+    "product-documentation": "Produktdokumentation",
+    "provenance": "Herkunft",
+    "provenance-guide": "Ratgeber zur Herkunft",
+    "provenance-tutorial": "Anleitung zur Herkunftsprüfung",
+    "roundup": "Überblick",
+    "strategy": "Strategie",
+    "technical": "Technik",
+    "tiktok-guide": "TikTok-Ratgeber",
+    "tutorial": "Anleitung",
+    "youtube-guide": "YouTube-Ratgeber",
+    "vs-capcut": "Vergleich mit CapCut"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook und deine Fotoaufnahmen",
+      "summary": "Italien verhängte wegen des Fotozugriffs unter Android 805 Millionen Euro Bußgeld. Meta legt Rechtsmittel ein."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Wieder ein technischer Fehler bei Meta?",
+      "summary": "Vier Einschränkungen von Lula bis No Kings, Metas Erklärungen und die offenen Fragen."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings verlor im entscheidenden Moment den Zugang",
+      "summary": "Meta nennt die Instagram-Sperre einen automatisierten Fehler. Was der Ausfall für die Organisatoren bedeutete."
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "Das verschwundene Wahlkampfkonto von Angie Nixon",
+      "summary": "Der Instagram-Kanal für die Latino-Community verschwand während einer Kundgebung und kehrte später zurück."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "25 Milliarden Dollar reichen nicht",
+      "summary": "Unsere Sicht auf das Datenschutzurteil in New Mexico und die getrennten Verfahren zum Kinderschutz."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave und Meta im Vergleich",
+      "summary": "Lokaler Schnitt, Kontrolle über eigene Aufnahmen und Metas geänderte Geschäftsbedingungen."
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "Aufgenommen ohne „Hey Meta“",
+      "summary": "Nutzer der Ray-Ban Meta melden unerwartete Aufnahmen. Meta erklärt den Fehler für behoben."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "Wenn Fremde deinen Muse-Chat finden",
+      "summary": "GhostShares, Metas Reaktion und warum private Informationen nicht in Muse gehören."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "WhatsApps Anweisungen zum Datenschutz",
+      "summary": "Der Supportbot sollte Aufsichtsbehörden nur eingeschränkt erwähnen. Laut Meta machte ein Fehler die Vorgaben sichtbar."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Datenschutzvorfälle bei Muse im Zeitverlauf",
+      "summary": "Freigabelinks, Kontakte, Löschfragen, Marketplace-Adressen und gemeldete Korrekturen."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "Dein Freund hat zugestimmt. Und du?",
+      "summary": "Das Beziehungsgedächtnis von Muse kann auch Menschen betreffen, die nie ein Konto angelegt haben."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "Auch unveröffentlichte Fotos sind von Interesse",
+      "summary": "Welche Berechtigungen Facebook für Vorschläge aus deinen Aufnahmen anfragt."
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "Vom Chat zur Empfehlung",
+      "summary": "Meta beschreibt, wie Gespräche Beiträge, Reels und Werbung beeinflussen können."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "Schützt ein Emoji das Gesicht deines Kindes?",
+      "summary": "Deine Follower sehen das Herz. Welches Bild hat Facebook zuvor erhalten?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Metas Vergleich zum Jugendschutz",
+      "summary": "Zahlungen, Schutzfunktionen und Grenzen der Vereinbarung über 17,1 Milliarden Dollar."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "Was sagt „Mit KI erstellt“ aus?",
+      "summary": "Filter, ausgetauschte Gesichter und erfundene Szenen brauchen unterschiedliche Erklärungen."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Warum wir von Meta Muse abraten",
+      "summary": "Datenzugriff und Trainingsregeln sprechen aus unserer Sicht gegen die Nutzung und das Verknüpfen von Konten."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Meta Muse trennen und Zugriffe widerrufen",
+      "summary": "Dienste entkoppeln, Berechtigungen entziehen und gespeicherte Daten gesondert prüfen."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "Weniger KI-Videos auf Facebook",
+      "summary": "Was Beitragsfeedback, Entfolgen, Favoriten und Feeds tatsächlich bewirken."
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave und VN Video Editor",
+      "summary": "Exporte ohne Wasserzeichen, Abos, Keyframes, Effekte und Apples Untertitelübersetzung im Vergleich."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "Fortgeschrittener Schnitt mit ByteWave",
+      "summary": "Keyframes, geladene Sprachpakete, eigene Shader und Geometrie, die auf Ton reagiert."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Ein Video im Flugmodus fertigstellen",
+      "summary": "Lokalen Clip ohne Anmeldung schneiden und in Fotos sichern: der Praxistest."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "Werbung während der Bilderstellung",
+      "summary": "Was OpenAI im Oktober 2026 zu Werbetests bei der Bilderstellung in ChatGPT angekündigt hat."
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "Remixe deiner YouTube Shorts einschränken",
+      "summary": "Wo du die Einstellung für visuelle Remixe findest und wie weit sie reicht."
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "Dein Video mit fremden Worten",
+      "summary": "Automatische Synchronisation abschalten, Übersetzungen prüfen und vorhandene Tonspuren entfernen."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "Erinnerungen brauchen keine Korrektur",
+      "summary": "Auch ein verpasstes Lächeln gehört zum fotografierten Augenblick."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "Filter aus der Community",
+      "summary": "Eigene ByteWave-Shader veröffentlichen und Effekte anderer entdecken."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "Ist CapCut verboten?",
+      "summary": "Verfügbarkeit prüfen und Abhängigkeiten im eigenen Arbeitsablauf verringern."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Kostenlose Zeitlupe auf dem iPhone",
+      "summary": "Zwischenbildberechnung für flüssige Bewegung ohne Abo oder Wasserzeichen."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Videos auf dem iPhone ohne Konto schneiden",
+      "summary": "Wie ByteWave den lokalen Schnitt von Profilen und Veröffentlichung trennt."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Metal-Shader und die iPhone-GPU",
+      "summary": "Ein Blick auf die Technik hinter den veränderbaren Filtern von ByteWave."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "Eine kostenlose Alternative zu CapCut",
+      "summary": "Mit eigenem Material zu ByteWave wechseln und ohne Abo oder Wasserzeichen exportieren."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Kostenlose Videoeditoren ohne Wasserzeichen",
+      "summary": "Welche Programme beim Export auf ein eigenes Logo verzichten."
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "Eigene Filter mit KI und Shader-Code",
+      "summary": "Code ansehen, die gewünschte Änderung beschreiben und den neuen Shader einsetzen."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "Vier Videoeditoren im Vergleich",
+      "summary": "ByteWave, CapCut, iMovie und InShot nach Arbeitsablauf, Funktionen, Datenschutz und Plattform."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "Echte Signaturen auf generierten Bildern",
+      "summary": "ChatGPT-Zeichnungen trugen Namen realer Künstler. Was vor dem Teilen zu prüfen ist."
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "Wer präsentiert das Produkt auf TikTok?",
+      "summary": "TikTok kann sowohl die Person als auch das Werbevideo generieren. Was beweist das über die Ware?"
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "Wenn ein Filter das Geschehen verändert",
+      "summary": "Eine andere Bildstimmung ist etwas anderes als nachträglich erfundene Kleidung."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, Einwilligung und täuschend echte Videos",
+      "summary": "Warum das Erkennen erfundener Szenen nicht allein dem Publikum überlassen bleiben sollte."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "Video auf KI-Herkunft prüfen ohne Upload",
+      "summary": "Was eingebettete Nachweise zeigen, was offenbleibt und wann das Original nötig ist."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Verschwindet das KI-Label mit den Metadaten?",
+      "summary": "C2PA-Nachweise, sichtbare Wasserzeichen und Plattformkennzeichnungen unterscheiden."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "Prüfwerkzeuge für Redaktionen",
+      "summary": "ByteWave, Content Credentials Verify und InVID-WeVerify bei der Prüfung von Fotos und Videos."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Kein KI-Label ist kein Echtheitsbeweis",
+      "summary": "Ein Deepfake auf Facebook zeigt die Grenzen fehlender Kennzeichnungen."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "Warum KI-Bilder und -Videos überprüfbar sein müssen",
+      "summary": "Dateiherkunft datensparsam untersuchen und Unsicherheiten erkennen."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "Weniger KI-Inhalte auf TikTok sehen",
+      "summary": "Themen verwalten, „Nicht interessiert“ nutzen und Schlüsselwörter filtern."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "Die Gates-Stiftung und KI in Schulen",
+      "summary": "Geplant sind rund 400 Millionen Dollar. Wofür würden Lehrkräfte das Geld einsetzen?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "Der KI-Lehrer lag falsch",
+      "summary": "In Husks viralem Clip schreibt das System „seventeen“ falsch und korrigiert die richtige Schreibweise."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "KI aus dem Klassenzimmer halten",
+      "summary": "Was Ergebnisse mit und ohne Chatbot für Googles KI-Zusammenfassungen in der Schule bedeuten."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "Viele wünschen sich weniger KI",
+      "summary": "57 Prozent der US-Amerikaner halten KI für gesellschaftlich schädlich."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "Eigene Ideen statt endloser KI-Videos",
+      "summary": "Feed-Einstellungen, die Anbieter hinter generierten Videos und der Schnitt eigener Aufnahmen."
+    },
+    "/blog/provenance.html": {
+      "title": "Was ein Herkunftsnachweis belegt",
+      "summary": "Signaturen können Ursprung und Integrität der Datei belegen, aber nicht das dargestellte Ereignis."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "Was der Fotozugriff verrät",
+      "summary": "Smartphone-Forschung zeigt, welche Rückschlüsse KI ziehen kann und warum lokaler Schnitt zählt."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Welche Informationen dein Foto mitbringt",
+      "summary": "Namen, Konten und Bearbeitungsschritte in Herkunftsnachweisen vor dem Teilen prüfen."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "YouTube verlangt ein Gesicht zum Gesichtsschutz",
+      "summary": "Bei der Anmeldung zur Erkennung von Nachahmungen sind Ausweis und Selfie-Video gefragt."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Verrät ein Foto deine Adresse?",
+      "summary": "Metadaten, sichtbare Details und Ton prüfen, auch in der exportierten Datei."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "Wer entscheidet über KI-Training mit deinen Werken?",
+      "summary": "OpenAI, Anthropic und die australische Debatte um die Mitsprache von Urhebern."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "Ein persönlicher Feed ohne serverseitigen Verlauf",
+      "summary": "Lokale Empfehlungen, anonymes Ansehen und freiwillige Veröffentlichung in ByteWave."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "Lädt CapCut deine Videos in die Cloud?",
+      "summary": "Wann Material übertragen wird und was beim lokalen Schnitt mit ByteWave auf dem Gerät bleibt."
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "Wer kontrolliert dein Konto bei X?",
+      "summary": "Die Regeln erlauben Reichweitenbegrenzungen, Löschauflagen und Kontosperren."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "Dein Feed und russische Einflussnahme",
+      "summary": "Warum ByteWave die Verfügbarkeit in Russland einschränkt und wo Geoblocking an Grenzen stößt."
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "Interne Warnungen bei TikTok",
+      "summary": "Was Beschäftigte zu Kinderschutz, Reaktionen der Führung und Informationen für Familien aussagen."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe und die Einschränkungen in Venezuela",
+      "summary": "Die Dienstsperren von 2019 zeigen den Wert einer offline nutzbaren Alternative."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "Wenn der Zahlungsdienst moderiert",
+      "summary": "Wie Zahlungsbeschränkungen 2025 die Auffindbarkeit von Inhalten auf itch.io beeinflussten."
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Nest verliert vernetzte Funktionen",
+      "summary": "Bei frühen Thermostaten endeten 2025 die Onlinefunktionen. Die Bedienelemente am Gerät bleiben nutzbar."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "Europas technologische Abhängigkeit",
+      "summary": "Digitale Souveränität beginnt bei der Frage, ob du deine Arbeit beim Anbieterwechsel mitnehmen kannst."
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "Starlink in der Ukraine und Satellitenmobilfunk",
+      "summary": "Beschränkungen, Starshield und die Frage, wer die Verbindung kontrolliert."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "Was der US-Deal bei TikTok verändert hat",
+      "summary": "ByteDances Beteiligung, Geschäftstätigkeit und Lizenz für den Algorithmus."
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Apples Provision und kostenlose Alternativen",
+      "summary": "Wie sich die Kosten ohne Abo verändern und warum ByteWaves Werkzeuge kostenlos sind."
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "Die Bewegung für freie Software heute",
+      "summary": "Neue Bedrohungen verändern die Frage, welche Freiheiten Nutzer brauchen."
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "Beginnt das nächste TikTok als Videoeditor?",
+      "summary": "Ein Feed lässt sich leichter kopieren als eine Kultur des kreativen Austauschs."
+    },
+    "/blog/your-feed.html": {
+      "title": "Dein Feed gehört dir",
+      "summary": "Unsere Sicht auf staatlichen Einfluss und die Kontrolle über deine Aufmerksamkeit."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikToks abgesagter Auftritt im Kongress",
+      "summary": "Was der Ausschussvorsitzende sagt und welche Antworten Plattformen ihren Nutzern schulden."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic muss Vertrauen verdienen",
+      "summary": "Claude, die Frage eines Rabbiners und die Grenzen bloßer Versprechen."
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "seo": "Video düzenleme, yapay zekâ içerikleri ve gizlilik rehberleri",
+  "description": "iPhone, iPad ve Mac’te kurgu, dosya kökeni ve gizlilik hakkında ByteWave rehberleri ve görüşleri.",
+  "subtitle": "Video oluşturun, kaynağını inceleyin ve özel bilgilerinizi koruyun.",
+  "disclosure": "Yazılarda bir yapay zekâ dil modeliyle (LLM) üretilmiş metinler bulunur. Yayıncı ByteWave’dir.",
+  "topics": "Blog konuları",
+  "english": "İngilizce makale",
+  "sections": {
+    "meta-record": {
+      "title": "Meta’nın sicili",
+      "intro": "Kapatılan hesaplar, gizlilik kaygıları ve istenmeyen yapay zekâ. Kaynaklarımız ve yanıt bekleyen sorular."
+    },
+    "edit-videos": {
+      "title": "Video düzenleme",
+      "intro": "Kendi çekimlerinizle bir şeyler üretin. Bu rehberlerle başlayın."
+    },
+    "check-ai-media": {
+      "title": "Yapay zekâ içeriğini doğrulama",
+      "intro": "Bir dosyanın kökeni hakkında neler söyleyebileceğini görün."
+    },
+    "protect-your-privacy": {
+      "title": "Gizliliğinizi koruma",
+      "intro": "Görüntülerinizle birlikte hangi bilgileri paylaştığınızı kontrol edin."
+    },
+    "platforms-creators": {
+      "title": "Platformlar ve içerik üreticileri",
+      "intro": "Yayınlama, ifade özgürlüğü ve araçlarınızı kimin kontrol ettiği."
+    }
+  },
+  "tags": {
+    "ai-choice": "Yapay zekâ ve seçim",
+    "ai-media": "Yapay zekâ medyası",
+    "ai-media-guide": "Yapay zekâ medyası rehberi",
+    "bytewave-tutorial": "ByteWave eğitimi",
+    "comparison": "Karşılaştırma",
+    "comparison-opinion": "Karşılaştırma ve görüş",
+    "creator-opinion": "Üreticinin görüşü",
+    "current-analysis": "Güncel analiz",
+    "facebook-guide": "Facebook rehberi",
+    "feature-guide": "Özellik rehberi",
+    "guide": "Rehber",
+    "incident-tracker": "Olay takibi",
+    "mission": "Amaç",
+    "new-feature": "Yeni özellik",
+    "news": "Haber",
+    "newsroom-guide": "Haber merkezleri rehberi",
+    "offline-editing-guide": "Çevrimdışı kurgu rehberi",
+    "opinion": "Görüş",
+    "perspective": "Bakış açısı",
+    "platform-accountability-opinion": "Platform sorumluluğu ve görüş",
+    "platform-control-opinion": "Platform denetimi ve görüş",
+    "platform-ownership-opinion": "Platform sahipliği ve görüş",
+    "privacy": "Gizlilik",
+    "privacy-opinion": "Gizlilik üzerine görüş",
+    "privacy-guide": "Gizlilik rehberi",
+    "product-documentation": "Ürün belgeleri",
+    "provenance": "Köken",
+    "provenance-guide": "Köken bilgisi rehberi",
+    "provenance-tutorial": "Köken doğrulama eğitimi",
+    "roundup": "Derleme",
+    "strategy": "Strateji",
+    "technical": "Teknik",
+    "tiktok-guide": "TikTok rehberi",
+    "tutorial": "Eğitim",
+    "youtube-guide": "YouTube rehberi",
+    "vs-capcut": "CapCut ile karşılaştırma"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook ve telefonunuzdaki fotoğraflar",
+      "summary": "İtalya, Android’de fotoğraf erişimi nedeniyle Meta’ya 805 milyon avro ceza verdi. Meta itiraz ediyor."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Meta’da yine mi teknik hata?",
+      "summary": "Lula’dan No Kings’e dört kısıtlama, şirketin açıklamaları ve yanıtsız sorular."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings en kritik anda hesabına erişemedi",
+      "summary": "Meta, Instagram’daki askıya alma işlemini otomatik bir hata olarak açıklıyor."
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "Angie Nixon’ın kaybolan kampanya hesabı",
+      "summary": "Latin kökenli seçmenlere yönelik hesap miting sırasında kayboldu ve sonra geri geldi."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "25 milyar dolar yeterli değil",
+      "summary": "New Mexico’daki gizlilik kararı ve ayrı çocuk güvenliği davaları hakkında görüşümüz."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave ile Meta karşılaştırması",
+      "summary": "Yerel kurgu, çekimlerin denetimi ve Meta’nın değişen ticari koşulları."
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "“Hey Meta” demeden kayıt",
+      "summary": "Ray-Ban Meta kullanıcıları beklenmedik kayıtlar bildirdi. Meta sorunu giderdiğini söylüyor."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "Yabancılar Muse sohbetinizi bulabiliyordu",
+      "summary": "GhostShares, Meta’nın yanıtı ve özel bilgileri Muse’dan uzak tutma nedenlerimiz."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "WhatsApp’ın gizli talimatları",
+      "summary": "Destek botunun gizlilik makamlarından söz etmesi kısıtlanmıştı. Meta’ya göre talimatları bir hata açığa çıkardı."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Muse gizlilik olaylarının zaman çizelgesi",
+      "summary": "Açığa çıkan bağlantılar, kişiler, veri silme, Marketplace adresleri ve bildirilen düzeltmeler."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "Arkadaşınız onay verdi. Peki ya siz?",
+      "summary": "Muse’un ilişkileri hatırlaması hiç kayıt olmayanları da ilgilendiriyor."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "Paylaşmadığınız fotoğraflar",
+      "summary": "Facebook, galeriden gönderi önermek için hangi izinleri istiyor?"
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "Sohbetten önerilere",
+      "summary": "Meta’ya göre bir sohbet gönderileri, Reels videolarını ve reklamları etkileyebilir."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "Emoji çocuğunuzun yüzünü korur mu?",
+      "summary": "Takipçileriniz kalbi görür. Facebook önce hangi görüntüyü gördü?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Meta’nın gençlerin güvenliğine ilişkin uzlaşması",
+      "summary": "17,1 milyar dolarlık anlaşmanın ödemeleri, denetimleri ve sınırları."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "“Yapay zekâyla üretildi” ne anlatır?",
+      "summary": "Filtre, değiştirilmiş yüz ve uydurulmuş sahne farklı açıklamalar gerektirir."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Meta Muse’u neden önermiyoruz?",
+      "summary": "Veri erişimi ve eğitim politikaları nedeniyle Muse’u kullanmamanızı ve hesap bağlamamanızı öneriyoruz."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Meta Muse bağlantısını kesmek",
+      "summary": "Hizmetlerin bağlantısını kesin, izinleri geri alın ve saklanan verileri ayrıca inceleyin."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "Facebook’ta daha az yapay zekâ videosu",
+      "summary": "Geri bildirim, takipten çıkma, favoriler ve akış tercihlerinin sınırları."
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave mi VN Video Editor mı?",
+      "summary": "Filigransız dışa aktarma, abonelik, anahtar kareler, efektler ve altyazı çevirisi karşılaştırması."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "ByteWave’de ileri düzey kurgu",
+      "summary": "Anahtar kareler, indirilen diller, düzenlenebilir gölgelendiriciler ve sese tepki veren geometri."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Uçak modunda video bitirmek",
+      "summary": "Oturum açmadan yerel klibi düzenleyip Fotoğraflar’a kaydetmeyi deneyin."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "Görsel üretirken reklam",
+      "summary": "OpenAI’ın Ekim 2026’da ChatGPT’de görsel üretimi sırasında reklam denemeleri hakkında açıkladıkları."
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "Shorts videolarınızın remikslenmesini sınırlayın",
+      "summary": "YouTube’daki görsel remiks ayarını bulun ve neleri engellediğini öğrenin."
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "Sizin videonuz, onaylamadığınız sözler",
+      "summary": "Otomatik dublajı kapatın, çevirileri inceleyin veya yayımlanmış ses parçasını kaldırın."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "Anılarınızın düzeltilmesi gerekmiyor",
+      "summary": "Kaçırılmış bir gülümseme de o anın parçasıdır."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "Topluluk filtreleri",
+      "summary": "Kendi ByteWave gölgelendiricilerinizi paylaşın ve başka üreticilerin efektlerini deneyin."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "CapCut yasak mı?",
+      "summary": "Güncel erişimi kontrol edin ve tek bir uygulamaya bağımlılığı azaltın."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "iPhone’da ücretsiz ağır çekim",
+      "summary": "Kare enterpolasyonu, abonelik veya filigran olmadan hareketi akıcı kılar."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "iPhone’da hesap açmadan kurgu",
+      "summary": "ByteWave yerel düzenlemeyi isteğe bağlı profillerden ve yayından ayırır."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Metal gölgelendiriciler nasıl çalışır?",
+      "summary": "iPhone GPU’sunun değiştirilebilir ByteWave filtrelerindeki rolü."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "CapCut’a ücretsiz bir alternatif",
+      "summary": "ByteWave’e geçip kendi çekimlerinizi abonelik ve filigran olmadan düzenleyin."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Filigransız ücretsiz video düzenleyiciler",
+      "summary": "Hangi uygulamalar videoya kendi logosunu eklemeden dışa aktarır?"
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "Yapay zekâ ve kodla filtre oluşturun",
+      "summary": "Gölgelendiriciyi inceleyin, değişikliği tarif edin ve yeni kodu düzenleyiciye yapıştırın."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "Dört video düzenleyicinin karşılaştırması",
+      "summary": "İş akışı, gizlilik ve platform desteği açısından ByteWave, CapCut, iMovie ve InShot."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "Üretilmiş çizimlerde gerçek sanatçı imzaları",
+      "summary": "Bazı ChatGPT görsellerinde sanatçıların imzaları çıktı. Paylaşmadan önce ne doğrulanabilir?"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "TikTok’ta ürünü kim tanıtıyor?",
+      "summary": "Hem sunucu hem reklam videosu yapay zekâyla üretilebilir."
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "Filtre yaşananları değiştirdiğinde",
+      "summary": "Fotoğrafın havasını değiştirmekle birinin kıyafetini uydurmak aynı müdahale değildir."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, rıza ve inandırıcı sahte videolar",
+      "summary": "Uydurma sahneleri ayırt etme sorumluluğu yalnızca izleyiciye bırakılmamalı."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "Videoyu yüklemeden kontrol edin",
+      "summary": "Gömülü kimlik bilgilerinin gösterdikleri ve özgün dosyanın gerektiği durumlar."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Meta verileri silmek yapay zekâ etiketini kaldırır mı?",
+      "summary": "C2PA kayıtları, görünür filigranlar ve platform etiketleri arasındaki fark."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "Haber merkezleri için doğrulama araçları",
+      "summary": "Fotoğraf ve videolarda ByteWave, Content Credentials Verify ve InVID-WeVerify karşılaştırması."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Etiketin olmaması gerçeklik kanıtı değil",
+      "summary": "Facebook’ta kalan bir deepfake, eksik etiketlerin sınırlarını gösteriyor."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "Üretilmiş görüntüleri neden doğrulamalıyız?",
+      "summary": "Gizliliği koruyarak dosyanın kökenini incelemek ve belirsizliği anlamak."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "TikTok’ta daha az yapay zekâ içeriği",
+      "summary": "Konu tercihlerini, anahtar kelime filtrelerini ve “İlgilenmiyorum” seçeneğini deneyin."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "Gates Vakfı ve eğitimde yapay zekâ",
+      "summary": "Vakıf yaklaşık 400 milyon dolar harcamayı planlıyor. Öğretmenler bu bütçeyi nasıl kullanırdı?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "Yapay zekâ öğretmeni yanıldı",
+      "summary": "Husk’ın videosunda sistem “seventeen” sözcüğünü yanlış yazıp doğru yazan kişiyi düzeltiyor."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "Yapay zekâyı sınıfın dışında tutalım",
+      "summary": "Sohbet botuyla ve botsuz sonuçlar, okul aramalarındaki Google özetlerini tartışmaya açıyor."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "Daha az yapay zekâ isteyen tek kişi siz değilsiniz",
+      "summary": "Amerikalıların %57’si yapay zekânın toplum için zararlı olduğunu düşünüyor."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "Üretimde denetimi geri alın",
+      "summary": "Akış ayarları, üretilmiş videoları öne çıkaran şirketler ve kendi çekimlerinizi düzenleme seçenekleri."
+    },
+    "/blog/provenance.html": {
+      "title": "Köken bilgisi neyi kanıtlar?",
+      "summary": "İmza, dosyanın kökenini ve bütünlüğünü doğrulayabilir; olayın yaşandığını kanıtlamaz."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "Fotoğraf erişiminin açığa çıkardıkları",
+      "summary": "Telefon araştırmaları, yapay zekânın neler çıkarabildiğini ve yerel kurgunun önemini gösteriyor."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Fotoğrafınız sizin hakkınızda ne söylüyor?",
+      "summary": "Paylaşmadan önce kimlik bilgilerindeki adı, hesapları ve düzenleme geçmişini inceleyin."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "Yüzünüzü korumak için YouTube’a yüzünüzü yüklemek",
+      "summary": "Taklitleri tespit hizmetine kayıt için kimlik ve selfie videosu isteniyor."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Videonuz adresinizi ele veriyor mu?",
+      "summary": "Meta verileri, görünen ayrıntıları ve sesi dışa aktarılan dosyada da kontrol edin."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "Eserinizle yapay zekâ eğitimine kim izin verir?",
+      "summary": "OpenAI, Anthropic ve Avustralya’daki telif tartışmasında üreticilerin söz hakkı."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "Sunucuda izleme geçmişi tutmayan akış",
+      "summary": "ByteWave’de yerel öneriler, anonim gezinme ve isteğe bağlı yayın."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "CapCut videoları buluta yüklüyor mu?",
+      "summary": "Çekimlerin ne zaman aktarıldığı ve ByteWave ile nelerin cihazda kaldığı."
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "X hesabınızı kim kontrol ediyor?",
+      "summary": "Kurallar erişimi sınırlamaya, gönderi kaldırılmasını istemeye ve hesapları askıya almaya izin veriyor."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "Akışınız ve Rusya’nın etki operasyonları",
+      "summary": "ByteWave’in Rusya’daki erişimi sınırlama nedenleri ve coğrafi engellemenin sınırları."
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "TikTok’taki kurum içi uyarılar",
+      "summary": "Çocuk güvenliği, yönetimin tepkisi ve ailelere verilen bilgiler üzerine çalışan ifadeleri."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe ve Venezuela’daki kısıtlamalar",
+      "summary": "2019’daki hizmet kesintileri çevrimdışı bir alternatifin değerini gösteriyor."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "Ödeme aracısı içerik denetlediğinde",
+      "summary": "2025’te ödeme kısıtlamaları itch.io’daki içeriklerin keşfedilmesini nasıl etkiledi?"
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Nest’in kaldırılan özellikleri",
+      "summary": "Eski termostatlar 2025’te çevrimiçi hizmetlerini kaybetti. Fiziksel kontroller çalışmaya devam ediyor."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "Avrupa’nın teknoloji bağımlılığı",
+      "summary": "Araçlarınızı kim yönetiyor ve sağlayıcı değiştirirken çalışmanızı yanınıza alabiliyor musunuz?"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "Ukrayna’da Starlink ve uydu üzerinden telefon",
+      "summary": "Kısıtlamalar, Starshield ve bağlantıyı denetleyen tarafa güven meselesi."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "TikTok’un ABD anlaşması",
+      "summary": "ByteDance’in elinde kalan pay, ticari faaliyetler ve algoritma lisansı."
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Apple komisyonu ve ücretsiz alternatifler",
+      "summary": "Abonelik olmayınca maliyet nasıl değişiyor ve ByteWave araçları neden ücretsiz?"
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "Bugün özgür yazılım hareketi",
+      "summary": "Tehditler değişirken kullanıcıların hangi özgürlüklere ihtiyacı var?"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "Bir sonraki TikTok video düzenleyici olarak mı doğacak?",
+      "summary": "Akışı kopyalamak, bir üretim kültürünü kopyalamaktan daha kolay."
+    },
+    "/blog/your-feed.html": {
+      "title": "Akışınız size ait",
+      "summary": "Devletlerin içerik üzerindeki baskısı ve dikkatinizi kimin yönettiği üzerine görüşümüz."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTok Kongre oturumundan çekildi",
+      "summary": "Komite başkanının açıklaması ve platformların kullanıcılara vermesi gereken yanıtlar."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic güveni kazanmalı",
+      "summary": "Claude, bir hahamın sorusu ve aldatmaya karşı şirket vaatlerinin sınırları."
+    }
+  }
+}

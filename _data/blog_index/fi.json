@@ -1,0 +1,362 @@
+{
+  "seo": "Oppaita videoeditointiin, tekoälysisältöihin ja yksityisyyteen",
+  "description": "ByteWaven oppaat ja näkökulmat videoeditointiin, tiedostojen alkuperään ja tietosuojaan iPhonella, iPadilla ja Macilla.",
+  "subtitle": "Tee videoita, selvitä niiden alkuperä ja pidä yksityiset tietosi ominasi.",
+  "disclosure": "Artikkeleissa on tekoälyn kielimallilla (LLM) tuotettua tekstiä. Julkaisija on ByteWave.",
+  "topics": "Blogin aiheet",
+  "english": "Artikkeli englanniksi",
+  "sections": {
+    "meta-record": {
+      "title": "Meta tarkastelussa",
+      "intro": "Suljettuja tilejä, tietosuojakysymyksiä ja pyytämättä lisättyä tekoälyä. Artikkelimme, lähteet ja avoimet kysymykset."
+    },
+    "edit-videos": {
+      "title": "Videoiden muokkaus",
+      "intro": "Luo jotakin omista tallenteistasi. Aloita näistä oppaista."
+    },
+    "check-ai-media": {
+      "title": "Tekoälysisällön tarkistus",
+      "intro": "Selvitä, mitä tiedosto kertoo alkuperästään."
+    },
+    "protect-your-privacy": {
+      "title": "Yksityisyyden suoja",
+      "intro": "Tarkista, mitä tietoja jaat kuviesi mukana."
+    },
+    "platforms-creators": {
+      "title": "Alustat ja tekijät",
+      "intro": "Julkaiseminen, sananvapaus ja työkalujen hallinta."
+    }
+  },
+  "tags": {
+    "ai-choice": "Tekoäly ja valinnanvapaus",
+    "ai-media": "Tekoälymedia",
+    "ai-media-guide": "Tekoälymedian opas",
+    "bytewave-tutorial": "ByteWave-ohje",
+    "comparison": "Vertailu",
+    "comparison-opinion": "Vertailu ja mielipide",
+    "creator-opinion": "Tekijän näkemys",
+    "current-analysis": "Ajankohtainen analyysi",
+    "facebook-guide": "Facebook-opas",
+    "feature-guide": "Toiminto-opas",
+    "guide": "Opas",
+    "incident-tracker": "Tapahtumaseuranta",
+    "mission": "Tavoite",
+    "new-feature": "Uusi toiminto",
+    "news": "Uutiset",
+    "newsroom-guide": "Opas toimituksille",
+    "offline-editing-guide": "Muokkaus ilman verkkoyhteyttä",
+    "opinion": "Mielipide",
+    "perspective": "Näkökulma",
+    "platform-accountability-opinion": "Alustojen vastuu ja mielipide",
+    "platform-control-opinion": "Alustojen määräysvalta ja mielipide",
+    "platform-ownership-opinion": "Alustojen omistus ja mielipide",
+    "privacy": "Yksityisyys",
+    "privacy-opinion": "Mielipide tietosuojasta",
+    "privacy-guide": "Tietosuojaopas",
+    "product-documentation": "Tuotedokumentaatio",
+    "provenance": "Alkuperä",
+    "provenance-guide": "Alkuperätietojen opas",
+    "provenance-tutorial": "Alkuperän tarkistusohje",
+    "roundup": "Kooste",
+    "strategy": "Strategia",
+    "technical": "Tekniikka",
+    "tiktok-guide": "TikTok-opas",
+    "tutorial": "Ohje",
+    "youtube-guide": "YouTube-opas",
+    "vs-capcut": "Vertailussa CapCut"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook ja puhelimesi kuvat",
+      "summary": "Italia määräsi Metalle 805 miljoonan euron sakon Androidin kuvien käytöstä. Meta valittaa päätöksestä."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Taas tekninen virhe Metalla?",
+      "summary": "Neljä rajoitusta Lulasta No Kingsiin sekä Metan selitykset ja avoimet kysymykset."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings menetti Instagram-tilinsä kesken kampanjan",
+      "summary": "Meta kertoo automaation erehtyneen. Järjestäjät tarvitsivat tiliä juuri silloin."
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "Angie Nixonin kampanjatili katosi",
+      "summary": "Latinotaustaisille äänestäjille suunnattu tili katosi tilaisuuden aikana ja palautettiin myöhemmin."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "25 miljardia dollaria ei riitä",
+      "summary": "Näkemyksemme New Mexicon tietosuojatuomiosta ja erillisistä lasten turvallisuutta koskevista oikeusjutuista."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave ja Meta vertailussa",
+      "summary": "Paikallinen editointi, omien tallenteiden hallinta ja Metan muuttuneet kaupalliset ehdot."
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "Tallennus alkoi ilman Hey Meta -komentoa",
+      "summary": "Ray-Ban Metan käyttäjät kertoivat odottamattomista tallennuksista. Meta sanoo korjanneensa vian."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "Vieraat saattoivat löytää Muse-keskustelusi",
+      "summary": "GhostShares, Metan vastaus ja syyt pitää yksityiset tiedot poissa Musesta."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "WhatsAppin piilotetut ohjeet",
+      "summary": "Tukibotin puhetta tietosuojaviranomaisista rajoitettiin. Metan mukaan virhe paljasti ohjeet."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Musen tietosuojatapausten aikajana",
+      "summary": "Jaetut linkit, yhteystiedot, poistopyynnöt, Marketplace-osoitteet ja ilmoitetut korjaukset."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "Ystäväsi suostui. Entä sinä?",
+      "summary": "Musen ihmissuhdemuisti koskettaa myös ihmisiä, jotka eivät ole rekisteröityneet."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "Kuvat, joita et julkaissut",
+      "summary": "Mitä käyttöoikeuksia Facebookin kuvakirjastoehdotukset pyytävät?"
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "Keskustelusta suosituksiin",
+      "summary": "Metan mukaan keskustelu voi vaikuttaa julkaisuihin, keloihin ja mainoksiin."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "Suojaako emoji lapsen kasvoja?",
+      "summary": "Seuraajasi näkevät sydämen. Minkä kuvan Facebook näki ensin?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Metan sopimus nuorten turvallisuudesta",
+      "summary": "17,1 miljardin dollarin sovinnon maksut, suojatoimet ja rajat."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "Mitä tekoälymerkintä kertoo?",
+      "summary": "Suodatin, vaihdetut kasvot ja keksitty tilanne tarvitsevat erilaiset selitykset."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Miksi emme suosittele Meta Musea",
+      "summary": "Tietojen käyttö ja koulutusehdot ovat syitä välttää palvelua ja tilien yhdistämistä."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Meta Musen käyttöoikeuksien poistaminen",
+      "summary": "Irrota palvelut, peru oikeudet ja tarkista erikseen tallennetut tiedot."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "Vähemmän tekoälyvideoita Facebookissa",
+      "summary": "Mihin palaute, seuraamisen lopettaminen, suosikit ja syötevalinnat vaikuttavat?"
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave vai VN Video Editor?",
+      "summary": "Vertaa vesileimattomia vientejä, tilauksia, avainruutuja, tehosteita ja tekstitysten käännöksiä."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "Edistynyt editointi ByteWavessa",
+      "summary": "Avainruudut, ladatut kielet, muokattavat varjostimet ja ääneen reagoiva geometria."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Video valmiiksi lentotilassa",
+      "summary": "Kokeile paikallisen leikkeen editointia ilman kirjautumista ja tallenna se Kuviin."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "Mainoksia kuvien luomisen aikana",
+      "summary": "Mitä OpenAI ilmoitti lokakuussa 2026 ChatGPT:n kuvatoiminnon mainoskokeilusta?"
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "Rajoita Shorts-videoidesi remiksausta",
+      "summary": "Mistä YouTuben visuaalisen remiksauksen asetus löytyy ja mitä se estää?"
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "Sinun videosi jonkun toisen sanoin",
+      "summary": "Poista automaattinen dubbaus käytöstä, tarkista käännökset tai poista julkaistu ääniraita."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "Muistosi eivät tarvitse korjausta",
+      "summary": "Hymyilemättä jääminenkin on osa kuvattua hetkeä."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "Yhteisön suodattimet",
+      "summary": "Julkaise omia ByteWave-varjostimia ja kokeile muiden tekemiä tehosteita."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "Onko CapCut kielletty?",
+      "summary": "Tarkista saatavuus ja vähennä riippuvuutta yhdestä sovelluksesta."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Maksuton hidastus iPhonella",
+      "summary": "Välikuvien laskenta pehmentää liikettä ilman tilausta tai vesileimaa."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Editoi iPhonella ilman tiliä",
+      "summary": "ByteWavessa paikallinen muokkaus on erillään profiileista ja julkaisemisesta."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Miten Metal-varjostimet toimivat?",
+      "summary": "Näin iPhonen grafiikkasuoritin pyörittää muokattavia suodattimia."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "Maksuton vaihtoehto CapCutille",
+      "summary": "Vaihda ByteWaveen ja editoi omia tallenteitasi ilman tilausta tai vientivesileimaa."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Maksuttomat editorit ilman vesileimaa",
+      "summary": "Mitkä sovellukset antavat viedä videon lisäämättä omaa logoaan?"
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "Luo suodattimia tekoälyn ja koodin avulla",
+      "summary": "Tarkista varjostin, kuvaile muutos ja liitä uusi koodi editoriin."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "Neljä videoeditoria vertailussa",
+      "summary": "ByteWaven, CapCutin, iMovien ja InShotin työkalut, tietosuoja ja laitetuki."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "Aito nimi luodussa piirroksessa",
+      "summary": "ChatGPT-kuvissa on nähty taiteilijoiden signeerauksia. Mitä kannattaa tarkistaa ennen jakamista?"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "Kuka esittelee tuotteen TikTokissa?",
+      "summary": "Sekä juontaja että mainosvideo voivat olla tekoälyn luomia."
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "Kun suodatin muuttaa tapahtumia",
+      "summary": "Tunnelman säätäminen ja kuvassa näkyvien vaatteiden keksiminen ovat eri asioita."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, suostumus ja uskottavat valevideot",
+      "summary": "Keksittyjen tilanteiden tunnistaminen ei saa jäädä yksin katsojalle."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "Tarkista video lähettämättä sitä verkkoon",
+      "summary": "Mitä upotetut alkuperätiedot osoittavat ja milloin tarvitaan alkuperäistiedosto?"
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Katoaako tekoälymerkintä metatietojen mukana?",
+      "summary": "C2PA-tiedot, näkyvät vesileimat ja alustan merkinnät eroavat toisistaan."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "Tarkistustyökalut toimituksille",
+      "summary": "ByteWave, Content Credentials Verify ja InVID-WeVerify kuvia ja videoita tutkittaessa."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Puuttuva merkintä ei todista aitoutta",
+      "summary": "Facebookiin jäänyt syväväärennös osoittaa merkintöjen rajat."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "Miksi tekoälykuvia ja -videoita pitää voida tarkistaa?",
+      "summary": "Tutki tiedoston alkuperää yksityisyyttä suojaten ja epävarmuus huomioiden."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "Vähemmän tekoälysisältöä TikTokissa",
+      "summary": "Kokeile aihevalintoja, avainsanasuodattimia ja Ei kiinnosta -toimintoa."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "Gatesin säätiö ja koulujen tekoäly",
+      "summary": "Säätiö suunnittelee noin 400 miljoonan dollarin panostusta. Mihin opettajat käyttäisivät rahat?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "Tekoälyopettaja oli väärässä",
+      "summary": "Huskin videolla järjestelmä kirjoittaa sanan ”seventeen” väärin ja korjaa oikeaa vastausta."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "Pidetään tekoäly poissa luokkahuoneesta",
+      "summary": "Tulokset chatbotin kanssa ja ilman sitä herättävät kysymyksiä Googlen kouluhakujen tiivistelmistä."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "Moni muukin haluaa vähemmän tekoälyä",
+      "summary": "57 prosenttia yhdysvaltalaisista pitää tekoälyä yhteiskunnalle haitallisena."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "Ota luova työ omiin käsiisi",
+      "summary": "Syötteen säädöt, luotua videota edistävät yhtiöt ja omien tallenteiden editointi."
+    },
+    "/blog/provenance.html": {
+      "title": "Mitä alkuperätieto todistaa?",
+      "summary": "Allekirjoitus voi vahvistaa tiedoston alkuperän ja eheyden todistamatta, että tapahtuma on aito."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "Mitä pääsy kuviisi paljastaa?",
+      "summary": "Puhelintutkimus osoittaa, mitä tekoäly voi päätellä ja miksi paikallisella muokkauksella on merkitystä."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Mitä kuvatiedosto kertoo sinusta?",
+      "summary": "Tarkista nimi, tilit ja muokkaushistoria alkuperätiedoista ennen jakamista."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "Kasvot YouTubeen niiden suojaamiseksi",
+      "summary": "Jäljitelmien tunnistukseen rekisteröityminen edellyttää henkilötodistusta ja selfievideota."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Paljastuuko osoitteesi videosta?",
+      "summary": "Tarkista metatiedot, näkyvät vihjeet ja ääni myös lopullisesta tiedostosta."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "Kuka antaa luvan teosten käyttöön tekoälyn koulutuksessa?",
+      "summary": "OpenAI, Anthropic ja Australian kiista tekijöiden oikeuksista."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "Syöte ilman palvelimelle tallennettua katseluhistoriaa",
+      "summary": "ByteWaven paikalliset suositukset, nimetön selaus ja vapaaehtoinen julkaisu."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "Lataako CapCut videot pilveen?",
+      "summary": "Milloin materiaalia siirretään ja mikä jää laitteelle ByteWavessa?"
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "Kuka hallitsee tiliäsi X:ssä?",
+      "summary": "Säännöt sallivat näkyvyyden rajoitukset, poistovaatimukset ja tilin sulkemisen."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "Syötteesi ja Venäjän vaikuttaminen",
+      "summary": "Miksi ByteWave rajoittaa saatavuuttaan Venäjällä ja mihin maarajoitus pystyy?"
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "TikTokin sisäiset varoitukset",
+      "summary": "Työntekijöiden kertomukset lasten turvallisuudesta, johdon vastauksista ja perheille annetuista tiedoista."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe ja Venezuelan käyttörajoitukset",
+      "summary": "Vuoden 2019 katkokset osoittavat verkottoman vaihtoehdon arvon."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "Kun maksunvälittäjä moderoi",
+      "summary": "Maksurajoitukset vaikuttivat teosten löydettävyyteen itch.io:ssa vuonna 2025."
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Nest menetti verkkotoimintoja",
+      "summary": "Vanhojen termostaattien verkkopalveluja suljettiin vuonna 2025. Laitteen omat säätimet toimivat edelleen."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "Euroopan teknologiariippuvuus",
+      "summary": "Kuka hallitsee työkaluja ja saatko työsi mukaasi vaihtaessasi palvelua?"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "Starlink Ukrainassa ja satelliittipuhelut",
+      "summary": "Rajoitukset, Starshield ja luottamus yhteyden hallitsijaan."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "TikTokin Yhdysvaltain-sopimus",
+      "summary": "Mitä ByteDancelle jää omistuksesta, liiketoiminnasta ja algoritmin lisenssistä?"
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Applen palkkio ja maksuttomat vaihtoehdot",
+      "summary": "Mikä muuttuu ilman tilausta ja miksi ByteWaven työkalut ovat maksuttomia?"
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "Vapaiden ohjelmistojen liike tänään",
+      "summary": "Mitä vapauksia käyttäjät tarvitsevat uhkien muuttuessa?"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "Voiko seuraava TikTok syntyä videoeditorista?",
+      "summary": "Syöte on helpompi kopioida kuin tekijöiden yhteinen kulttuuri."
+    },
+    "/blog/your-feed.html": {
+      "title": "Syötteesi kuuluu sinulle",
+      "summary": "Näkemyksemme valtioiden vaikutuksesta sisältöihin ja huomioosi."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTok perui esiintymisensä kongressissa",
+      "summary": "Valiokunnan puheenjohtajan näkemys ja vastaukset, joita alustojen pitäisi antaa käyttäjille."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropicin on ansaittava luottamus",
+      "summary": "Claude, rabbin kysymys ja yritysten lupausten rajat harhaanjohtamisen torjunnassa."
+    }
+  }
+}

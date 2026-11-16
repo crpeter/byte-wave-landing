@@ -1,0 +1,362 @@
+{
+  "seo": "영상 편집, AI 미디어 검증 및 개인정보 보호 가이드",
+  "description": "iPhone, iPad, Mac의 영상 편집과 파일 출처 확인, 개인정보 보호에 관한 ByteWave의 가이드와 견해입니다.",
+  "subtitle": "영상을 만들고, 출처를 확인하고, 사적인 정보는 지키세요.",
+  "disclosure": "게시물에는 인공지능 언어 모델(LLM)로 생성한 텍스트가 포함되어 있습니다. ByteWave가 발행합니다.",
+  "topics": "블로그 주제",
+  "english": "영문 기사",
+  "sections": {
+    "meta-record": {
+      "title": "메타의 행보",
+      "intro": "계정 정지, 개인정보 문제, 원치 않는 AI 기능. 출처와 함께 남은 의문을 살펴봅니다."
+    },
+    "edit-videos": {
+      "title": "영상 편집",
+      "intro": "직접 촬영한 영상으로 만들어 보세요. 다음 가이드부터 시작할 수 있습니다."
+    },
+    "check-ai-media": {
+      "title": "AI 미디어 검증",
+      "intro": "파일에서 출처에 대해 무엇을 알 수 있는지 확인하세요."
+    },
+    "protect-your-privacy": {
+      "title": "개인정보 보호",
+      "intro": "이미지와 함께 어떤 정보를 공유하는지 살펴보세요."
+    },
+    "platforms-creators": {
+      "title": "플랫폼과 창작자",
+      "intro": "작품 게시, 표현의 자유, 제작 도구를 누가 통제하는지 살펴봅니다."
+    }
+  },
+  "tags": {
+    "ai-choice": "AI와 선택권",
+    "ai-media": "AI 미디어",
+    "ai-media-guide": "AI 미디어 가이드",
+    "bytewave-tutorial": "ByteWave 튜토리얼",
+    "comparison": "비교",
+    "comparison-opinion": "비교와 의견",
+    "creator-opinion": "창작자의 의견",
+    "current-analysis": "현안 분석",
+    "facebook-guide": "페이스북 가이드",
+    "feature-guide": "기능 가이드",
+    "guide": "가이드",
+    "incident-tracker": "사건 기록",
+    "mission": "목표",
+    "new-feature": "새 기능",
+    "news": "뉴스",
+    "newsroom-guide": "언론사 가이드",
+    "offline-editing-guide": "오프라인 편집 가이드",
+    "opinion": "의견",
+    "perspective": "관점",
+    "platform-accountability-opinion": "플랫폼 책임과 의견",
+    "platform-control-opinion": "플랫폼 통제와 의견",
+    "platform-ownership-opinion": "플랫폼 소유와 의견",
+    "privacy": "개인정보 보호",
+    "privacy-opinion": "개인정보 보호에 관한 의견",
+    "privacy-guide": "개인정보 보호 가이드",
+    "product-documentation": "제품 문서",
+    "provenance": "출처",
+    "provenance-guide": "출처 가이드",
+    "provenance-tutorial": "출처 확인 방법",
+    "roundup": "모음",
+    "strategy": "전략",
+    "technical": "기술",
+    "tiktok-guide": "틱톡 가이드",
+    "tutorial": "튜토리얼",
+    "youtube-guide": "유튜브 가이드",
+    "vs-capcut": "CapCut과 비교"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "페이스북과 휴대폰 사진 접근 권한",
+      "summary": "이탈리아는 안드로이드 사진 접근 문제로 메타에 8억 500만 유로의 벌금을 부과했습니다. 메타는 불복했습니다."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "메타의 또 다른 기술적 오류일까?",
+      "summary": "룰라부터 노 킹스까지 네 건의 제한과 회사의 해명을 살펴봅니다."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "노 킹스가 결정적인 순간에 잃어버린 계정",
+      "summary": "메타는 인스타그램 정지가 자동화 오류였다고 설명합니다. 주최 측에는 접근이 절실한 때였습니다."
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "사라졌던 앤지 닉슨의 선거 계정",
+      "summary": "라틴계 유권자를 대상으로 한 인스타그램 계정이 집회 도중 사라졌다가 복구됐습니다."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "250억 달러로는 부족하다",
+      "summary": "뉴멕시코주의 개인정보 보호 판결과 별도의 아동 안전 소송에 대한 의견입니다."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave와 메타 비교",
+      "summary": "기기 내 편집, 촬영 원본에 대한 통제권, 메타의 변경된 상업 조건을 살펴봅니다."
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "“헤이 메타” 없이 시작된 녹음",
+      "summary": "레이밴 메타 사용자들이 예상치 못한 녹음을 신고했습니다. 메타는 문제를 해결했다고 밝혔습니다."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "낯선 사람도 찾을 수 있었던 Muse 대화",
+      "summary": "GhostShares와 메타의 대응, 그리고 Muse에 사적인 정보를 남기지 않도록 권하는 이유입니다."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "왓츠앱 지원 챗봇의 숨은 지침",
+      "summary": "개인정보 감독 기관을 안내하는 답변에 제한이 있었습니다. 메타는 오류로 지침이 노출됐다고 합니다."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Muse 개인정보 사고 연표",
+      "summary": "공유 링크, 연락처, 삭제 문제, 마켓플레이스 주소와 보고된 수정 사항을 정리합니다."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "친구가 동의하면 내 정보는 어떻게 될까?",
+      "summary": "Muse의 관계 기억 기능은 가입하지 않은 사람에게도 영향을 줄 수 있습니다."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "게시하지 않은 사진도 분석할 수 있을까?",
+      "summary": "페이스북의 사진첩 추천이 요청하는 권한을 살펴봅니다."
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "챗봇 대화에서 피드 추천까지",
+      "summary": "메타의 설명을 바탕으로 대화가 게시물, 릴스, 광고에 미칠 영향을 짚습니다."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "이모지가 아이 얼굴을 보호할까?",
+      "summary": "팔로워는 하트를 보지만 페이스북이 처음 받은 사진은 무엇일까요?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "메타의 청소년 안전 합의",
+      "summary": "승인된 171억 달러 합의의 지급 구조, 청소년 보호 기능과 한계를 알아봅니다."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "“AI로 제작”이라는 표시가 알려주는 것",
+      "summary": "필터, 얼굴 교체, 지어낸 장면은 서로 다른 설명이 필요합니다."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "메타 Muse를 권하지 않는 이유",
+      "summary": "데이터 접근 및 학습 정책을 근거로 Muse 사용과 계정 연결을 권하지 않는 이유를 설명합니다."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "메타 Muse 연결 해제하기",
+      "summary": "서비스 연결을 끊고 권한을 취소한 뒤 저장된 데이터도 별도로 확인하세요."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "페이스북에서 AI 영상 줄이기",
+      "summary": "게시물 반응, 팔로우 해제, 즐겨찾기, 피드 설정이 바꿀 수 있는 범위를 살펴봅니다."
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave와 VN Video Editor",
+      "summary": "워터마크 없는 내보내기, 구독, 키프레임, 효과, 자막 번역을 비교합니다."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "ByteWave 고급 편집",
+      "summary": "키프레임, 다운로드한 언어, 편집 가능한 셰이더와 소리에 반응하는 도형을 소개합니다."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "비행기 모드에서 영상 완성하기",
+      "summary": "로그인 없이 기기 안의 클립을 편집해 사진 앱에 저장해 보세요."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "이미지를 만드는 동안 나오는 광고",
+      "summary": "OpenAI가 2026년 10월 발표한 ChatGPT 이미지 생성 중 광고 테스트 계획을 살펴봅니다."
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "내 쇼츠의 리믹스 제한하기",
+      "summary": "유튜브의 영상 리믹스 설정 위치와 그 설정으로 막을 수 있는 범위입니다."
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "내 영상에 내가 승인하지 않은 말이 나올 때",
+      "summary": "자동 더빙을 끄고 번역을 검토하거나 이미 게시한 음성 트랙을 삭제하세요."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "추억을 꼭 보정해야 할까?",
+      "summary": "미소를 짓지 않은 순간도 사진에 남길 가치가 있습니다."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "커뮤니티 필터",
+      "summary": "ByteWave에서 직접 만든 셰이더를 공유하고 다른 제작자의 효과를 써 보세요."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "CapCut은 금지됐을까?",
+      "summary": "현재 제공 여부를 확인하고 한 앱에 의존하는 위험을 줄이는 방법입니다."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "iPhone에서 무료 슬로 모션 만들기",
+      "summary": "프레임 보간으로 구독이나 워터마크 없이 움직임을 부드럽게 만듭니다."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "계정 없이 iPhone에서 편집하기",
+      "summary": "ByteWave가 기기 내 편집과 선택형 프로필 및 게시 기능을 구분하는 방식입니다."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Metal 셰이더란?",
+      "summary": "iPhone의 GPU가 수정 가능한 ByteWave 필터를 구동하는 원리를 살펴봅니다."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "CapCut을 대신할 무료 편집기",
+      "summary": "ByteWave로 옮겨 직접 촬영한 영상을 편집하고 워터마크 없이 내보내세요."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "워터마크가 없는 무료 편집기",
+      "summary": "내보낸 영상에 자체 로고를 붙이지 않는 앱을 소개합니다."
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "AI와 코드로 나만의 필터 만들기",
+      "summary": "셰이더 코드를 열고 원하는 효과를 설명한 뒤 새 코드를 편집기에 붙여 넣으세요."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "영상 편집 앱 네 가지 비교",
+      "summary": "ByteWave, CapCut, iMovie, InShot의 작업 방식과 개인정보 보호, 지원 기기를 비교합니다."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "생성된 그림에 들어간 실제 작가의 서명",
+      "summary": "ChatGPT 그림에 작가 이름이 등장한 사례를 통해 공유 전 확인할 점을 짚습니다."
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "틱톡에서 제품을 소개하는 사람은 누구일까?",
+      "summary": "진행자와 광고 영상 모두 생성할 수 있습니다. 그 영상이 상품에 대해 증명하는 것은 무엇일까요?"
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "필터가 실제 사건까지 바꿀 때",
+      "summary": "사진 분위기를 바꾸는 것과 입지 않은 옷을 지어내는 일은 다릅니다."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, 동의, 진짜 같은 가짜 영상",
+      "summary": "허구의 장면을 알아보는 책임을 시청자에게만 맡겨서는 안 되는 이유입니다."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "업로드 없이 영상 확인하기",
+      "summary": "내장된 출처 정보로 알 수 있는 것과 원본 파일이 필요한 경우를 설명합니다."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "메타데이터를 지우면 AI 표시도 사라질까?",
+      "summary": "C2PA 정보, 보이는 워터마크, 플랫폼이 붙인 라벨의 차이를 알아봅니다."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "언론사를 위한 검증 도구",
+      "summary": "사진과 영상을 분석하는 ByteWave, Content Credentials Verify, InVID-WeVerify를 비교합니다."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "AI 표시가 없어도 진짜라는 뜻은 아니다",
+      "summary": "페이스북에 남은 딥페이크를 통해 라벨이 없다는 사실의 한계를 살펴봅니다."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "AI 이미지와 영상을 검증해야 하는 이유",
+      "summary": "개인정보를 보호하면서 파일의 출처를 살피고 불확실성을 파악하는 방법입니다."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "틱톡에서 AI 콘텐츠 줄이기",
+      "summary": "주제 설정, 키워드 필터와 ‘관심 없음’을 활용해 보세요."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "게이츠 재단과 학교 교육의 AI",
+      "summary": "재단은 약 4억 달러를 투입할 계획입니다. 교사들에게 같은 예산이 있다면 무엇을 선택할까요?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "AI 교사의 답이 틀렸다",
+      "summary": "Husk의 영상에서 시스템은 ‘seventeen’의 철자를 틀리고 정답을 쓴 사람을 지적합니다."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "교실에 AI를 들이지 말아야 하는 이유",
+      "summary": "챗봇 사용 전후의 성적을 바탕으로 학교 검색에서 구글의 AI 요약이 미치는 영향을 살펴봅니다."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "AI를 줄이길 원하는 사람은 많다",
+      "summary": "미국인의 57%가 AI가 사회에 해롭다고 답했습니다."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "창작의 주도권 되찾기",
+      "summary": "피드 설정, 생성 영상을 밀어주는 기업과 직접 촬영한 영상 편집을 살펴봅니다."
+    },
+    "/blog/provenance.html": {
+      "title": "출처 정보가 입증하는 것",
+      "summary": "서명은 파일 출처와 무결성을 확인해도 해당 사건 자체를 증명하지는 못합니다."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "사진 접근 권한이 드러내는 것",
+      "summary": "스마트폰 연구에서 나타난 AI의 추론 범위와 기기 내 편집의 의미를 살펴봅니다."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "사진 한 장에 담긴 내 정보",
+      "summary": "공유하기 전 출처 정보에 들어 있는 이름, 계정, 편집 기록을 확인하세요."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "얼굴을 보호하려고 유튜브에 얼굴 올리기",
+      "summary": "사칭 탐지 서비스 등록에는 신분증과 셀프 동영상이 필요합니다."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "영상에서 집 주소가 드러날까?",
+      "summary": "메타데이터, 화면 속 단서와 소리를 살피고 내보낸 파일도 확인하세요."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "내 작품으로 AI를 학습시킬 권한은 누가 줄까?",
+      "summary": "OpenAI와 Anthropic, 호주에서 벌어진 창작자 권리 논의를 살펴봅니다."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "서버에 시청 기록을 남기지 않는 피드",
+      "summary": "ByteWave의 기기 내 추천, 익명 탐색과 사용자가 선택하는 게시 방식입니다."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "CapCut은 영상을 클라우드에 올릴까?",
+      "summary": "영상이 전송되는 시점과 ByteWave에서 기기에 남는 항목을 알아봅니다."
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "X 계정을 통제하는 사람은 누구일까?",
+      "summary": "도달 범위 제한, 게시물 삭제 요구와 계정 정지를 허용하는 규정을 봅니다."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "내 피드와 러시아의 영향력 공작",
+      "summary": "ByteWave가 러시아에서 제공을 제한하는 이유와 지역 차단의 한계입니다."
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "틱톡 내부의 아동 안전 경고",
+      "summary": "직원 증언을 바탕으로 경영진의 대응과 가족들에게 전달된 내용을 살펴봅니다."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "어도비와 베네수엘라의 서비스 제한",
+      "summary": "2019년의 제한은 오프라인 편집 수단이 왜 중요한지 보여줍니다."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "결제 업체가 콘텐츠를 관리할 때",
+      "summary": "2025년 itch.io 사례에서 결제 제한이 작품의 노출에 미친 영향을 살펴봅니다."
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "구글 Nest에서 사라진 기능",
+      "summary": "초기 온도조절기는 2025년 온라인 기능을 잃었지만 물리적 조작은 여전히 가능합니다."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "유럽의 기술 의존 문제",
+      "summary": "도구를 통제하는 주체는 누구이며 서비스를 바꿀 때 작품을 가져갈 수 있을까요?"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "우크라이나의 스타링크와 위성 이동통신",
+      "summary": "서비스 제한, 스타실드와 연결을 통제하는 기업에 대한 신뢰를 살펴봅니다."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "틱톡의 미국 거래에서 달라진 것",
+      "summary": "바이트댄스에 남은 지분, 상업 활동과 알고리즘 라이선스입니다."
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "애플의 수수료와 무료 대안",
+      "summary": "구독이 없을 때 달라지는 비용과 ByteWave가 도구를 무료로 제공하는 이유입니다."
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "오늘날의 자유 소프트웨어 운동",
+      "summary": "위협이 달라질 때 이용자에게 어떤 자유가 필요할까요?"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "다음 틱톡은 영상 편집기에서 시작할까?",
+      "summary": "피드는 복제하기 쉽지만 창작 문화는 그렇지 않습니다."
+    },
+    "/blog/your-feed.html": {
+      "title": "내 피드는 내 것이다",
+      "summary": "정부의 개입과 이용자의 관심을 누가 통제하는지에 대한 견해입니다."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "틱톡의 미 의회 출석 취소",
+      "summary": "위원장의 설명과 플랫폼이 이용자에게 제공해야 할 답변을 살펴봅니다."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic은 신뢰를 얻어야 한다",
+      "summary": "Claude와 랍비의 질문을 통해 기만을 막기 위한 기업 약속의 한계를 생각합니다."
+    }
+  }
+}

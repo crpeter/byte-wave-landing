@@ -1,3 +1,4 @@
+{%- assign blog_page = site.pages | where: "translation_key", "blog-index" | where: "lang", page.lang | first -%}
 {%- assign press_page = site.pages | where: "translation_key", "press" | where: "lang", page.lang | first -%}
 {%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
 {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
@@ -9,7 +10,7 @@
         <a href="{{ home.url | relative_url }}">{{ t.nav.home | escape }}</a>
         <a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}">{{ t.nav.gallery | escape }}</a>
         <a href="{{ tutorials_page.url | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a>
-        <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
+        <a href="{{ blog_page.url | relative_url }}">{{ t.nav.blog | escape }}</a>
         <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
         <a href="{{ press_page.url | relative_url }}">{{ t.nav.press | escape }}</a>
         <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ t.nav.privacy | escape }}</a>

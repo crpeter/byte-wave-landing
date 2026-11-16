@@ -1,3 +1,4 @@
+{%- assign blog_page = site.pages | where: "translation_key", "blog-index" | where: "lang", page.lang | first -%}
 {% capture language_links -%}
 {% for variant in variants -%}
 <a href="{{ variant.url | relative_url }}" lang="{{ variant.lang }}" hreflang="{{ variant.lang }}"{% if variant.lang == page.lang %} aria-current="page"{% endif %}>{{ site.data.i18n[variant.lang].name | escape }}</a>
@@ -13,7 +14,7 @@
 <a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
 <a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}">{{ t.nav.gallery | escape }}</a>
 <a href="{{ tutorials_page.url | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a>
-<a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
+<a href="{{ blog_page.url | relative_url }}">{{ t.nav.blog | escape }}</a>
 {% endcapture -%}
 <a class="site-skip" href="#main">{{ t.nav.skip | escape }}</a>
 <nav class="site-nav" aria-label="{{ t.nav.label | escape }}">

@@ -194,7 +194,7 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
                 required_footer.add(f"/{locale_slug(p.lang)}/privacy.html")
                 required_footer.remove("/free-expression.html")
                 required_footer.add(f"/{locale_slug(p.lang)}/free-expression.html")
-                for section in ("gallery", "tutorials"):
+                for section in ("blog", "gallery", "tutorials"):
                     required_footer.remove(f"/{section}/")
                     required_footer.add(f"/{locale_slug(p.lang)}/{section}/")
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")

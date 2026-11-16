@@ -1,0 +1,365 @@
+{
+  "meta-record": [
+    {
+      "href": "/blog/meta-italy-facebook-camera-roll-fine.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/meta-technical-errors-political-accounts.html",
+      "tag": "platform-control-opinion"
+    },
+    {
+      "href": "/blog/meta-no-kings-instagram-suspension.html",
+      "tag": "platform-control-opinion"
+    },
+    {
+      "href": "/blog/meta-angie-nixon-instagram-suspension.html",
+      "tag": "platform-control-opinion"
+    },
+    {
+      "href": "/blog/meta-25-billion-privacy-judgment.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/bytewave-vs-meta-creative-control.html",
+      "tag": "comparison-opinion"
+    },
+    {
+      "href": "/blog/meta-ray-ban-glasses-unwanted-recordings.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/meta-muse-shared-chats-exposed.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/whatsapp-ai-support-hidden-instructions.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/meta-muse-privacy-security-incidents.html",
+      "tag": "incident-tracker"
+    },
+    {
+      "href": "/blog/meta-muse-profiles-people-who-never-signed-up.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/facebook-camera-roll-unposted-photos.html",
+      "tag": "opinion"
+    },
+    {
+      "href": "/blog/meta-ai-chats-feed-ads-personalization.html",
+      "tag": "opinion"
+    },
+    {
+      "href": "/blog/does-emoji-protect-child-face-facebook.html",
+      "tag": "privacy"
+    },
+    {
+      "href": "/blog/meta-settlement-youth-safety-social-media-design.html",
+      "tag": "current-analysis"
+    },
+    {
+      "href": "/blog/facebook-ai-labels-filters-generated-images.html",
+      "tag": "opinion"
+    },
+    {
+      "href": "/blog/meta-muse-privacy-security.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/disconnect-meta-muse.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/reduce-ai-videos-facebook-feed.html",
+      "tag": "facebook-guide"
+    }
+  ],
+  "edit-videos": [
+    {
+      "href": "/blog/bytewave-vs-vn-video-editor-2026.html",
+      "tag": "comparison"
+    },
+    {
+      "href": "/blog/bytewave-advanced-editing-keyframes-translation.html",
+      "tag": "feature-guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/chatgpt-image-generation-ads.html",
+      "tag": "opinion",
+      "brand": "OpenAI",
+      "image": "/assets/brands/openai.svg"
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "tag": "bytewave-tutorial",
+      "tutorial": 3
+    },
+    {
+      "href": "/blog/disable-youtube-ai-remix.html",
+      "tag": "youtube-guide",
+      "brand": "YouTube",
+      "image": "/assets/brands/youtube.svg"
+    },
+    {
+      "href": "/blog/turn-off-youtube-automatic-dubbing.html",
+      "tag": "youtube-guide",
+      "brand": "YouTube",
+      "image": "/assets/brands/youtube.svg"
+    },
+    {
+      "href": "/blog/google-photos-ai-memories-dont-need-fixing.html",
+      "tag": "opinion",
+      "brand": "Google Photos",
+      "image": "/assets/brands/google.svg"
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "tag": "tutorial",
+      "tutorial": 5
+    },
+    {
+      "href": "/blog/community-filters-bytewave.html",
+      "tag": "new-feature"
+    },
+    {
+      "href": "/blog/is-capcut-banned-2026.html",
+      "tag": "news"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
+    },
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/what-are-metal-shaders-iphone-gpu.html",
+      "tag": "technical"
+    },
+    {
+      "href": "/blog/free-capcut-alternative-2026.html",
+      "tag": "vs-capcut"
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
+    },
+    {
+      "href": "/blog/custom-video-filters-ai-tutorial.html",
+      "tag": "tutorial"
+    },
+    {
+      "href": "/blog/video-editing-app-comparison-2026.html",
+      "tag": "comparison"
+    }
+  ],
+  "check-ai-media": [
+    {
+      "href": "/blog/chatgpt-fake-artist-signatures.html",
+      "tag": "creator-opinion",
+      "brand": "OpenAI",
+      "image": "/assets/brands/openai.svg"
+    },
+    {
+      "href": "/blog/tiktok-ai-avatars-product-ads.html",
+      "tag": "opinion",
+      "brand": "TikTok",
+      "image": "/assets/brands/tiktok.svg"
+    },
+    {
+      "href": "/blog/when-ai-filters-change-what-happened.html",
+      "tag": "opinion"
+    },
+    {
+      "href": "/blog/openai-sora-deepfakes-public-trust.html",
+      "tag": "opinion",
+      "brand": "OpenAI",
+      "image": "/assets/brands/openai.svg"
+    },
+    {
+      "href": "/blog/check-ai-video-without-uploading.html",
+      "tag": "ai-media-guide"
+    },
+    {
+      "href": "/blog/does-removing-metadata-remove-ai-labels.html",
+      "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/tools-newsrooms-check-ai-generated-media.html",
+      "tag": "newsroom-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
+    },
+    {
+      "href": "/blog/how-to-check-ai-generated-photos-videos.html",
+      "tag": "perspective"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "tag": "provenance-tutorial",
+      "tutorial": 8
+    },
+    {
+      "href": "/blog/reduce-ai-content-tiktok-feed.html",
+      "tag": "tiktok-guide",
+      "brand": "TikTok",
+      "image": "/assets/brands/tiktok.svg"
+    },
+    {
+      "href": "/blog/gates-foundation-ai-in-schools.html",
+      "tag": "ai-choice"
+    },
+    {
+      "href": "/blog/the-ai-teacher-was-wrong.html",
+      "tag": "ai-choice"
+    },
+    {
+      "href": "/blog/keep-ai-out-of-the-classroom.html",
+      "tag": "ai-choice"
+    },
+    {
+      "href": "/blog/youre-not-alone-wanting-less-ai.html",
+      "tag": "ai-choice"
+    },
+    {
+      "href": "/blog/tired-of-ai-videos-social-media.html",
+      "tag": "perspective"
+    },
+    {
+      "href": "/blog/provenance.html",
+      "tag": "provenance"
+    }
+  ],
+  "protect-your-privacy": [
+    {
+      "href": "/blog/photo-access-ai-privacy-inferences.html",
+      "tag": "privacy-opinion"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/youtube-likeness-detection-privacy.html",
+      "tag": "privacy-opinion",
+      "brand": "YouTube",
+      "image": "/assets/brands/youtube.svg"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/ai-training-creator-consent.html",
+      "tag": "creator-opinion"
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "tag": "bytewave-tutorial",
+      "tutorial": 9
+    },
+    {
+      "href": "/blog/how-bytewave-feed-works-without-server-watch-history.html",
+      "tag": "product-documentation"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
+    },
+    {
+      "href": "/blog/capcut-privacy-video-upload.html",
+      "tag": "privacy"
+    }
+  ],
+  "platforms-creators": [
+    {
+      "href": "/blog/x-free-speech-account-control.html",
+      "tag": "platform-control-opinion",
+      "brand": "X / Twitter",
+      "image": "/assets/brands/x.svg"
+    },
+    {
+      "href": "/blog/russia-geoblocking-disinformation.html",
+      "tag": "platform-accountability-opinion"
+    },
+    {
+      "href": "/blog/tiktok-internal-child-safety-warnings.html",
+      "tag": "platform-accountability-opinion",
+      "brand": "TikTok",
+      "image": "/assets/brands/tiktok.svg"
+    },
+    {
+      "href": "/blog/adobe-venezuela-creative-cloud-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Adobe",
+      "image": "/assets/brands/adobe.svg"
+    },
+    {
+      "href": "/blog/payment-processors-itch-io-content-control.html",
+      "tag": "platform-control-opinion",
+      "brand": "itch.io",
+      "image": "/assets/brands/itchdotio.svg"
+    },
+    {
+      "href": "/blog/google-nest-cloud-features-end-support.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google Nest",
+      "image": "/assets/brands/google.svg"
+    },
+    {
+      "href": "/blog/europe-digital-sovereignty-cloud-dependence.html",
+      "tag": "platform-control-opinion"
+    },
+    {
+      "href": "/blog/starlink-ukraine-cell-service-trust.html",
+      "tag": "platform-control-opinion"
+    },
+    {
+      "href": "/blog/tiktok-us-deal-bytedance-china-ties.html",
+      "tag": "platform-ownership-opinion",
+      "brand": "TikTok",
+      "image": "/assets/brands/tiktok.svg"
+    },
+    {
+      "href": "/blog/apple-app-store-commissions-free-alternatives.html",
+      "tag": "opinion",
+      "brand": "Apple",
+      "image": "/assets/brands/apple.svg"
+    },
+    {
+      "href": "/blog/free-software-movement-2.0.html",
+      "tag": "mission"
+    },
+    {
+      "href": "/blog/the-next-tiktok-may-start-as-a-video-editor.html",
+      "tag": "strategy"
+    },
+    {
+      "href": "/blog/your-feed.html",
+      "tag": "perspective"
+    },
+    {
+      "href": "/blog/tiktok-congress-child-safety-platform-accountability.html",
+      "tag": "opinion",
+      "brand": "TikTok",
+      "image": "/assets/brands/tiktok.svg"
+    },
+    {
+      "href": "/blog/anthropic-claude-public-trust.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    }
+  ]
+}

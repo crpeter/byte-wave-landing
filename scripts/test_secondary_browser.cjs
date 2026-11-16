@@ -13,7 +13,7 @@ const locales = [
  ['pl','pl'], ['tr','tr'], ['uk','uk'], ['ja','ja'], ['ko','ko'], ['zh-Hant','zh-hant']
 ];
 const routes = [
- ['about','about.html'], ['press','press.html'], ['free-expression','free-expression.html'],
+ ['about','about.html'], ['press','press.html'], ['blog','blog/'], ['free-expression','free-expression.html'],
  ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'], ['layout','layout/'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
  ['metadata','tutorials/remove-location-metadata/'],
@@ -120,6 +120,15 @@ function test(ok, label, result) {
            data.menu.height>=44&&data.cta.height>=44,
         key+' mobile header usable',{logo:data.logo,menu:data.menu,cta:data.cta});
      }
+     if(kind==='blog'){
+      const broken = await page.locator('main .post-card').evaluateAll(cards => cards.filter(card => {
+       const bounds = card.getBoundingClientRect();
+       const label = card.querySelector('.article-language');
+       return bounds.left < -1 || bounds.right > innerWidth + 1 || !bounds.height ||
+        (card.hreflang === 'en' && !label?.getBoundingClientRect().height);
+      }).map(card => card.getAttribute('href')));
+      test(!broken.length,key+' article cards fit and English destinations have visible labels',broken);
+     }
      if(kind==='press'){
       const facts=await page.locator('#facts .fact-row').count();
       const copyBlocks=page.locator('.block:has(button.copy)');
@@ -189,7 +198,7 @@ function test(ok, label, result) {
        test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
-      if(['about','press','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout'].includes(kind)) {
+      if(['about','press','blog','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout'].includes(kind)) {
        if(kind==='c2pa') await page.locator('main table').scrollIntoViewIfNeeded();
        if(kind==='metadata') await page.locator('main ol').scrollIntoViewIfNeeded();
        if(['motion','frc','noise','layout'].includes(kind)) await page.locator('main figure').first().scrollIntoViewIfNeeded();
@@ -200,6 +209,16 @@ function test(ok, label, result) {
    }
   }
   await page.setViewportSize({width:1440,height:900});
+  await page.goto(ORIGIN+'/de/blog/');
+  await page.locator('.site-language > summary').click();
+  await page.locator('.site-language a[href="/ja/blog/"]').click();
+  await page.locator('.topic-links a[href="#edit-videos"]').click();
+  test(page.url().endsWith('/ja/blog/#edit-videos'),'Blog language and topic links preserve the selected index');
+  await page.locator('.post-card[hreflang="ja"]').first().click();
+  test(await page.locator('html').getAttribute('lang')==='ja','Translated blog card opens Japanese content');
+  await page.goto(ORIGIN+'/de/blog/');
+  await page.locator('.post-card[hreflang="en"]').first().click();
+  test(await page.locator('html').getAttribute('lang')==='en','Labeled English card opens English content');
   await page.goto(ORIGIN+'/de/press.html');
   await page.locator('.site-language > summary').click();
   await page.locator('.site-language a[href="/ja/press.html"]').click();
