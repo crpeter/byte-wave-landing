@@ -14,7 +14,9 @@ const locales = [
 ];
 const routes = [
  ['about','about.html'], ['free-expression','free-expression.html'],
- ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/']
+ ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'],
+ ['c2pa','tutorials/check-c2pa-content-credentials/'],
+ ['metadata','tutorials/remove-location-metadata/']
 ];
 const issues=[], checks=[];
 function test(ok, label, result) {
@@ -56,7 +58,13 @@ function test(ok, label, result) {
        firstAlt:[...document.querySelectorAll('.gallery-grid video')].every(v=>!!v.getAttribute('aria-label')),
        visibleLangNav:!!document.querySelector('.site-language'),
        bodyLength:document.querySelector('main')?.textContent.trim().length,
-       downloadURL:cta?.href
+       downloadURL:cta?.href,
+       instructionSteps:document.querySelectorAll('main article ol > li').length,
+       verificationRows:document.querySelectorAll('main article tbody tr').length,
+       hasC2paSpec:!!document.querySelector('a[href*="spec.c2pa.org/specifications"]'),
+       hasIrishRegulator:!!document.querySelector('a[href*="dataprotection.ie/en/news-media/latest-news"]'),
+       hasOriginalAssessment:document.querySelector('main')?.textContent.includes('Recorded at import'),
+       hasSignedCredentials:document.querySelector('main')?.textContent.includes('Content Credentials')
       };
      },size);
      const key=lang+' '+kind+' '+size.width+'x'+size.height;
@@ -82,13 +90,26 @@ function test(ok, label, result) {
        {videoCount:data.galleryVideos,labels:data.mediaLabels,missingPosters:data.missingPoster});
      }
      if(kind==='free-expression')test(data.hasAppeal,key+' appeal anchor exists');
+     if(kind==='c2pa') {
+       test(data.instructionSteps===3 && data.verificationRows===5 && data.hasC2paSpec,
+            key+' three steps and five provenance results with C2PA source',
+            {steps:data.instructionSteps,rows:data.verificationRows,source:data.hasC2paSpec});
+     }
+     if(kind==='metadata') {
+       test(data.instructionSteps===5 && data.hasIrishRegulator && data.hasOriginalAssessment && data.hasSignedCredentials,
+            key+' five metadata steps, official source and provenance cautions',
+            {steps:data.instructionSteps,regulator:data.hasIrishRegulator,assessment:data.hasOriginalAssessment,credentials:data.hasSignedCredentials});
+     }
      if(kind==='privacy'){
        const minimum = ['ja','ko','zh-Hant'].includes(lang) ? 400 : 1500;
        test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
-      if(['about','gallery','tutorials'].includes(kind))
+      if(['about','gallery','tutorials','c2pa','metadata'].includes(kind)) {
+       if(kind==='c2pa') await page.locator('main table').scrollIntoViewIfNeeded();
+       if(kind==='metadata') await page.locator('main ol').scrollIntoViewIfNeeded();
        await page.screenshot({path:path.join(OUT,lang+'-'+kind+'-'+size.width+'.png'),animations:'disabled'});
+      }
      }
     }
    }
@@ -107,6 +128,18 @@ function test(ok, label, result) {
   await page.locator('.site-menu > summary').click();
   await page.locator('.site-menu a[href="/pt-br/gallery/"]').click();
   test(page.url().endsWith('/pt-br/gallery/'),'Gallery language switching preserves page type',{url:page.url()});
+  await page.setViewportSize({width:1440,height:900});
+  await page.goto(ORIGIN+'/de/tutorials/check-c2pa-content-credentials/',{waitUntil:'domcontentloaded'});
+  await page.locator('.site-language > summary').click();
+  await page.locator('.site-language a[href="/ja/tutorials/check-c2pa-content-credentials/"]').click();
+  test(page.url().endsWith('/ja/tutorials/check-c2pa-content-credentials/'),
+       'C2PA guide language switch preserves corresponding translated guide',{url:page.url()});
+  await page.setViewportSize({width:390,height:844});
+  await page.goto(ORIGIN+'/pt-br/tutorials/remove-location-metadata/',{waitUntil:'domcontentloaded'});
+  await page.locator('.site-menu > summary').click();
+  await page.locator('.site-menu a[href="/fr/tutorials/remove-location-metadata/"]').click();
+  test(page.url().endsWith('/fr/tutorials/remove-location-metadata/'),
+       'Metadata mobile language switch preserves corresponding guide',{url:page.url()});
  } finally {
   await browser.close();
   fs.writeFileSync(path.join(OUT,'report.json'),JSON.stringify({url:ORIGIN,locales:locales.length,types:routes.length,
