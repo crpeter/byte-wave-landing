@@ -1,0 +1,69 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign a = site.data.about[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", "about" | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign about_page = page -%}
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ a.title | escape }} - ByteWave</title>
+  <meta name="description" content="{{ a.description | escape }}">
+  {% include localized-alternates.html %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ a.title | escape }}">
+  <meta property="og:description" content="{{ a.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+  <meta property="og:site_name" content="ByteWave">
+  <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ t.social_alt | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ a.title | escape }}">
+  <meta name="twitter:description" content="{{ a.description | escape }}">
+  <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta name="twitter:image:alt" content="{{ t.social_alt | escape }}">
+  <link rel="icon" href="/favicon-48x48.png">
+  <style>
+    *,*::before,*::after{box-sizing:border-box}body{margin:0;background:#050508;color:#e8e6f0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}a{color:#00e5a0}a:focus-visible{outline:3px solid #00c8ff;outline-offset:4px}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;color:#000;padding:.6rem;z-index:20}nav{position:sticky;top:0;background:rgba(5,5,8,.94);border-bottom:1px solid #262633;padding:.9rem 5%;display:flex;justify-content:space-between;gap:1rem}.logo{font-weight:800;text-decoration:none}.links{display:flex;gap:1.2rem;flex-wrap:wrap}.links a{color:#bbb8ca;text-decoration:none}main{max-width:780px;margin:auto;padding:4rem 1.5rem}h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.08}h2{margin-top:2.6rem}p,li{color:#aaa7bb}.eyebrow{color:#00e5a0;text-transform:uppercase;letter-spacing:.17em;font-size:.75rem;font-weight:750}.callout{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}footer{border-top:1px solid #22212e;padding:2.5rem 5%;color:#858197}@media(max-width:700px){.links a:not(:last-child){display:none}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {"@type":"Organization","@id":"https://bytewaveai.com/#organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":"https://bytewaveai.com/logo.png"},
+      {"@type":"WebPage","@id":{{ page.url | absolute_url | append: "#page" | jsonify }},
+       "url":{{ page.url | absolute_url | jsonify }},"name":{{ a.title | jsonify }},
+       "inLanguage":{{ page.lang | jsonify }},"description":{{ a.description | jsonify }},
+       "publisher":{"@id":"https://bytewaveai.com/#organization"}}
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+  {% include localized-nav-styles.html %}
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main id="main"><article>
+  <p class="eyebrow">{{ a.eyebrow | escape }}</p>
+  <h1>{{ a.heading | escape }}</h1>
+  <p>{{ a.intro | escape }}</p>
+  <p>{{ a.technical | escape }}</p>
+  <h2>{{ a.commitmentsHeading | escape }}</h2>
+  <p>{{ a.commitments | escape }}</p>
+  <p><strong>{{ a.expressionBold | escape }}</strong> <a href="/free-expression.html" hreflang="en">{{ a.expressionLink | escape }}</a></p>
+  <h2>{{ a.sourcesHeading | escape }}</h2>
+  <ul>
+    <li><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=about_{{ page.lang | replace: '-', '' }}&amp;mt=8">{{ a.appStore | escape }}</a></li>
+    <li><a href="/privacy.html" hreflang="en">{{ a.privacy | escape }}</a></li>
+    <li><a href="/press.html" hreflang="en">{{ a.press | escape }}</a></li>
+    <li><a href="/blog/how-bytewave-feed-works-without-server-watch-history.html" hreflang="en">{{ a.feed | escape }}</a></li>
+    <li><a href="/blog/provenance.html" hreflang="en">{{ a.provenance | escape }}</a></li>
+  </ul>
+</article></main>
+{% include localized-footer.html %}
+<script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
+</body>
+</html>
