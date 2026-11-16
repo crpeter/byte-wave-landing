@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Tutorial do ByteWave",
+    "updatedLabel": "Atualizado em",
+    "updatedDate": "16 de novembro de 2026",
+    "relatedLabel": "Tutoriais relacionados"
+  },
+  "animatedCaptions": {
+    "title": "Como adicionar legendas animadas no ByteWave",
+    "description": "Adicione texto ao seu vídeo, escolha um efeito animado e posicione a legenda no ByteWave. Tutorial rápido para iPhone, iPad e Mac.",
+    "lead": "Adicione suas próprias palavras a um vídeo e aplique um efeito animado.",
+    "stepsHeading": "Adicione uma legenda",
+    "step1": "Abra o vídeo no ByteWave e adicione uma legenda.",
+    "step2": "Digite o texto e selecione a legenda para editar seu estilo.",
+    "step3": "Escolha fonte, tamanho e cor. Posicione o texto sobre o vídeo.",
+    "step4": "Escolha um efeito de texto e reproduza o vídeo para visualizar a animação.",
+    "readabilityHeading": "Mantenha a legibilidade",
+    "readabilityText": "Use uma frase curta e uma cor que se destaque das imagens. Confira se a animação permite tempo suficiente para a leitura.",
+    "relatedIntro": "Quer um estilo específico? O",
+    "relatedAnchor": "tutorial de efeitos de texto (em inglês)",
+    "relatedTail": "explica opções como Orbital Letters e Ember Ash.",
+    "relatedSticker": "Anime um adesivo"
+  },
+  "animateStickers": {
+    "title": "Como animar adesivos no ByteWave",
+    "description": "Faça um adesivo se mover pelo vídeo no ByteWave. Use os controles de tempo e os quadros-chave para mudar posição, tamanho e rotação.",
+    "lead": "Use quadros-chave para mover, redimensionar ou girar um adesivo ao longo do tempo.",
+    "stepsHeading": "Configure o movimento",
+    "step1": "Adicione um adesivo ao vídeo e selecione-o.",
+    "step2": "Defina quando ele aparece com os controles de tempo.",
+    "step3": "Use os quadros-chave para registrar posição, tamanho e rotação iniciais.",
+    "step4": "Vá para um momento posterior e crie outro quadro-chave com uma posição, tamanho ou rotação diferentes.",
+    "step5": "Reproduza o vídeo para conferir o movimento entre eles.",
+    "readabilityHeading": "Comece com dois quadros-chave",
+    "readabilityText": "Experimente mover um adesivo de um lado do quadro ao outro. Depois acrescente uma mudança de tamanho ou uma rotação.",
+    "relatedCaption": "Adicione legendas animadas",
+    "relatedLayout": "Crie uma colagem de vídeos (em inglês)"
+  }
+}

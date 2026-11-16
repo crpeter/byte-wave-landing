@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Poradnik ByteWave",
+    "updatedLabel": "Zaktualizowano",
+    "updatedDate": "16 listopada 2026 r.",
+    "relatedLabel": "Powiązane poradniki"
+  },
+  "animatedCaptions": {
+    "title": "Jak dodać animowane napisy w ByteWave",
+    "description": "Dodaj tekst do filmu, wybierz animowany efekt i ustaw napis w ByteWave. Krótki poradnik na iPhone, iPad i Mac.",
+    "lead": "Dodaj do filmu własny tekst i nadaj mu animowany efekt.",
+    "stepsHeading": "Dodaj napis",
+    "step1": "Otwórz film w ByteWave i dodaj napis.",
+    "step2": "Wpisz tekst, a potem zaznacz napis, aby zmienić jego styl.",
+    "step3": "Wybierz czcionkę, rozmiar i kolor. Umieść tekst na filmie.",
+    "step4": "Wybierz efekt tekstowy, a potem odtwórz film, aby zobaczyć animację.",
+    "readabilityHeading": "Zadbaj o czytelność",
+    "readabilityText": "Użyj krótkiego zdania i koloru kontrastującego z nagraniem. Sprawdź, czy animacja daje czas na przeczytanie napisu.",
+    "relatedIntro": "Szukasz konkretnego stylu? ",
+    "relatedAnchor": "Poradnik efektów tekstowych (po angielsku)",
+    "relatedTail": "opisuje efekty takie jak Orbital Letters i Ember Ash.",
+    "relatedSticker": "Animuj naklejkę"
+  },
+  "animateStickers": {
+    "title": "Animowanie naklejek w ByteWave",
+    "description": "Przesuwaj naklejkę po filmie. Używaj osi czasu i klatek kluczowych, aby zmieniać pozycję, rozmiar i obrót w ByteWave.",
+    "lead": "Klatki kluczowe pozwalają przesuwać, skalować i obracać naklejkę w czasie.",
+    "stepsHeading": "Ustaw ruch",
+    "step1": "Dodaj naklejkę do filmu i zaznacz ją.",
+    "step2": "Ustaw moment jej pojawienia się za pomocą sterowania czasem.",
+    "step3": "Zapisz początkową pozycję, rozmiar i obrót w klatce kluczowej.",
+    "step4": "Przejdź do późniejszego momentu i dodaj kolejną klatkę kluczową z inną pozycją, rozmiarem lub obrotem.",
+    "step5": "Odtwórz film, aby zobaczyć ruch pomiędzy klatkami.",
+    "readabilityHeading": "Zacznij od dwóch klatek kluczowych",
+    "readabilityText": "Spróbuj przesunąć naklejkę z jednej strony kadru na drugą. Następnie dodaj zmianę rozmiaru lub obrót.",
+    "relatedCaption": "Dodaj animowane napisy",
+    "relatedLayout": "Utwórz kolaż wideo (po angielsku)"
+  }
+}

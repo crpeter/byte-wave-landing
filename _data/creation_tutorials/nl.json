@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-handleiding",
+    "updatedLabel": "Bijgewerkt op",
+    "updatedDate": "16 november 2026",
+    "relatedLabel": "Gerelateerde handleidingen"
+  },
+  "animatedCaptions": {
+    "title": "Geanimeerde ondertitels toevoegen in ByteWave",
+    "description": "Voeg tekst aan je video toe, kies een animatie-effect en plaats de ondertiteling in ByteWave. Korte handleiding voor iPhone, iPad en Mac.",
+    "lead": "Voeg je eigen tekst aan een video toe en geef die een animatie-effect.",
+    "stepsHeading": "Ondertiteling toevoegen",
+    "step1": "Open je video in ByteWave en voeg een tekstonderschrift toe.",
+    "step2": "Voer je tekst in en selecteer het onderschrift om de opmaak te wijzigen.",
+    "step3": "Kies lettertype, grootte en kleur. Plaats de tekst boven je video.",
+    "step4": "Kies een teksteffect en speel de video af om de animatie te bekijken.",
+    "readabilityHeading": "Houd het leesbaar",
+    "readabilityText": "Gebruik een korte zin en een kleur die afsteekt tegen de beelden. Zorg dat de animatie voldoende leestijd geeft.",
+    "relatedIntro": "Zoek je een bepaald effect? De",
+    "relatedAnchor": "handleiding voor teksteffecten (Engels)",
+    "relatedTail": "beschrijft presets als Orbital Letters en Ember Ash.",
+    "relatedSticker": "Sticker animeren"
+  },
+  "animateStickers": {
+    "title": "Stickers animeren in ByteWave",
+    "description": "Laat een sticker door je video bewegen. Gebruik tijdinstellingen en keyframes om positie, grootte en rotatie in ByteWave aan te passen.",
+    "lead": "Gebruik keyframes om een sticker gaandeweg te verplaatsen, te vergroten of te draaien.",
+    "stepsHeading": "De beweging instellen",
+    "step1": "Voeg een sticker aan je video toe en selecteer deze.",
+    "step2": "Stel via de tijdinstellingen in wanneer de sticker verschijnt.",
+    "step3": "Leg met keyframes de beginpositie, grootte en rotatie vast.",
+    "step4": "Ga naar een later moment en voeg een keyframe toe met een andere positie, grootte of rotatie.",
+    "step5": "Speel de video af om de beweging tussen de keyframes te zien.",
+    "readabilityHeading": "Begin met twee keyframes",
+    "readabilityText": "Verplaats een sticker van de ene kant van het beeld naar de andere. Voeg daarna een verandering van grootte of rotatie toe.",
+    "relatedCaption": "Geanimeerde ondertitels toevoegen",
+    "relatedLayout": "Videocollage maken (Engels)"
+  }
+}

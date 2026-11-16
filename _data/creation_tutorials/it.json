@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Tutorial ByteWave",
+    "updatedLabel": "Aggiornato il",
+    "updatedDate": "16 novembre 2026",
+    "relatedLabel": "Guide correlate"
+  },
+  "animatedCaptions": {
+    "title": "Aggiungere sottotitoli animati in ByteWave",
+    "description": "Aggiungi testo ai tuoi video, scegli un effetto animato e posiziona i sottotitoli con ByteWave. Guida breve per iPhone, iPad e Mac.",
+    "lead": "Aggiungi le tue parole a un video e applica un effetto animato.",
+    "stepsHeading": "Aggiungi i sottotitoli",
+    "step1": "Apri il video in ByteWave e aggiungi un sottotitolo.",
+    "step2": "Scrivi il testo, poi seleziona il sottotitolo per modificarne lo stile.",
+    "step3": "Scegli carattere, dimensione e colore. Posiziona il testo sul video.",
+    "step4": "Scegli un effetto di testo e riproduci il video per vedere l’animazione.",
+    "readabilityHeading": "Mantieni il testo leggibile",
+    "readabilityText": "Usa una frase breve e un colore che risalti sulle immagini. Assicurati che l’animazione lasci il tempo di leggere.",
+    "relatedIntro": "Cerchi un effetto particolare? La",
+    "relatedAnchor": "guida agli effetti di testo (in inglese)",
+    "relatedTail": "presenta preset come Orbital Letters ed Ember Ash.",
+    "relatedSticker": "Anima uno sticker"
+  },
+  "animateStickers": {
+    "title": "Come animare gli sticker in ByteWave",
+    "description": "Sposta uno sticker nel video con ByteWave usando i controlli temporali e i fotogrammi chiave per modificarne posizione, dimensione e rotazione.",
+    "lead": "Usa i fotogrammi chiave per muovere, ridimensionare o ruotare uno sticker nel tempo.",
+    "stepsHeading": "Imposta il movimento",
+    "step1": "Aggiungi uno sticker al video e selezionalo.",
+    "step2": "Imposta quando deve apparire tramite i controlli temporali.",
+    "step3": "Registra posizione, dimensione e rotazione iniziali con i fotogrammi chiave.",
+    "step4": "Vai a un momento successivo e imposta un altro fotogramma chiave con posizione, dimensione o rotazione diverse.",
+    "step5": "Riproduci il video per controllare il movimento tra i fotogrammi chiave.",
+    "readabilityHeading": "Inizia con due fotogrammi chiave",
+    "readabilityText": "Prova a spostare uno sticker da un lato all’altro dell’immagine. Poi aggiungi un cambio di dimensione o una rotazione.",
+    "relatedCaption": "Aggiungi sottotitoli animati",
+    "relatedLayout": "Crea un collage video (in inglese)"
+  }
+}

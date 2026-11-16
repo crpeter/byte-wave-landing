@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Tutoriel ByteWave",
+    "updatedLabel": "Mis à jour le",
+    "updatedDate": "16 novembre 2026",
+    "relatedLabel": "Guides associés"
+  },
+  "animatedCaptions": {
+    "title": "Ajouter des sous-titres animés dans ByteWave",
+    "description": "Ajoutez du texte à vos vidéos, choisissez un effet animé et placez vos sous-titres dans ByteWave. Un guide rapide pour iPhone, iPad et Mac.",
+    "lead": "Ajoutez vos propres mots à une vidéo et donnez-leur un effet animé.",
+    "stepsHeading": "Ajouter un sous-titre",
+    "step1": "Ouvrez votre vidéo dans ByteWave et ajoutez un sous-titre.",
+    "step2": "Saisissez votre texte, puis sélectionnez le sous-titre pour modifier son style.",
+    "step3": "Choisissez la police, la taille et la couleur. Placez le texte sur la vidéo.",
+    "step4": "Choisissez un effet de texte, puis lancez la vidéo pour prévisualiser l’animation.",
+    "readabilityHeading": "Veiller à la lisibilité",
+    "readabilityText": "Utilisez une phrase courte et une couleur contrastant avec les images. Vérifiez que l’animation laisse le temps de lire.",
+    "relatedIntro": "Vous cherchez un style particulier ? Le",
+    "relatedAnchor": "guide des effets de texte (en anglais)",
+    "relatedTail": "présente des effets comme Orbital Letters et Ember Ash.",
+    "relatedSticker": "Animer un sticker"
+  },
+  "animateStickers": {
+    "title": "Animer des stickers avec ByteWave",
+    "description": "Déplacez un sticker dans votre vidéo avec ByteWave. Réglez le moment d’apparition et utilisez des images clés pour changer sa position, sa taille et sa rotation.",
+    "lead": "Utilisez des images clés pour déplacer un sticker, changer sa taille ou le faire pivoter au fil du temps.",
+    "stepsHeading": "Préparer le mouvement",
+    "step1": "Ajoutez un sticker à votre vidéo et sélectionnez-le.",
+    "step2": "Définissez son moment d’apparition avec les commandes de durée.",
+    "step3": "Utilisez les images clés pour enregistrer sa position, sa taille et sa rotation initiales.",
+    "step4": "Avancez dans le temps et définissez une autre image clé avec une position, une taille ou une rotation différente.",
+    "step5": "Lisez la vidéo pour prévisualiser le mouvement entre les deux.",
+    "readabilityHeading": "Commencer par deux images clés",
+    "readabilityText": "Essayez de déplacer un sticker d’un bord de l’image à l’autre. Une fois satisfait, ajoutez un changement de taille ou de rotation.",
+    "relatedCaption": "Ajouter des sous-titres animés",
+    "relatedLayout": "Créer un collage vidéo (en anglais)"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-veiledning",
+    "updatedLabel": "Oppdatert",
+    "updatedDate": "16. november 2026",
+    "relatedLabel": "Relaterte veiledninger"
+  },
+  "animatedCaptions": {
+    "title": "Legg til animerte undertekster i ByteWave",
+    "description": "Legg til tekst i videoen, velg en animasjonseffekt og plasser teksten i ByteWave. Kort veiledning for iPhone, iPad og Mac.",
+    "lead": "Legg til dine egne ord i en video og gi dem en animert effekt.",
+    "stepsHeading": "Legg til en teksting",
+    "step1": "Åpne videoen i ByteWave og legg til en teksting.",
+    "step2": "Skriv teksten, og velg tekstingen for å endre utseendet.",
+    "step3": "Velg skrifttype, størrelse og farge. Plasser teksten over videoen.",
+    "step4": "Velg en teksteffekt og spill av videoen for å forhåndsvise animasjonen.",
+    "readabilityHeading": "Sørg for god lesbarhet",
+    "readabilityText": "Bruk en kort setning og en farge som skiller seg ut fra bildene. Kontroller at animasjonen gir nok tid til å lese.",
+    "relatedIntro": "Leter du etter et bestemt uttrykk? ",
+    "relatedAnchor": "Veiledningen for teksteffekter (på engelsk)",
+    "relatedTail": "viser effekter som Orbital Letters og Ember Ash.",
+    "relatedSticker": "Animer et klistremerke"
+  },
+  "animateStickers": {
+    "title": "Animer klistremerker i ByteWave",
+    "description": "Flytt et klistremerke gjennom videoen. Bruk tidskontroller og nøkkelbilder for å endre posisjon, størrelse og rotasjon i ByteWave.",
+    "lead": "Bruk nøkkelbilder til å flytte, endre størrelse på eller rotere et klistremerke over tid.",
+    "stepsHeading": "Sett opp bevegelsen",
+    "step1": "Legg til et klistremerke i videoen og velg det.",
+    "step2": "Angi når det skal vises med tidskontrollene.",
+    "step3": "Bruk nøkkelbilder til å lagre startposisjon, størrelse og rotasjon.",
+    "step4": "Gå til et senere tidspunkt og legg til et nytt nøkkelbilde med annen posisjon, størrelse eller rotasjon.",
+    "step5": "Spill av videoen for å forhåndsvise bevegelsen mellom dem.",
+    "readabilityHeading": "Begynn med to nøkkelbilder",
+    "readabilityText": "Prøv å flytte et klistremerke fra den ene siden av bildet til den andre. Legg så til en endring i størrelse eller rotasjon.",
+    "relatedCaption": "Legg til animerte undertekster",
+    "relatedLayout": "Lag en videokollasj (på engelsk)"
+  }
+}

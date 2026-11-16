@@ -1,0 +1,123 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign locale_data = site.data.creation_tutorials[page.lang] -%}
+{%- assign g = locale_data[page.guide] -%}
+{%- assign c = locale_data.common -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
+{%- assign captions_page = site.pages | where: "translation_key", "creation-animated-captions" | where: "lang", page.lang | first -%}
+{%- assign stickers_page = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
+{%- assign social_image = '/assets/social/' | append: page.guide_slug | append: '.jpg' -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ g.title | escape }}</title>
+    <meta name="description" content="{{ g.description | escape }}">
+    {% include localized-alternates.html %}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ g.title | escape }}">
+    <meta property="og:description" content="{{ g.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+    <meta property="og:site_name" content="ByteWave">
+    <meta property="og:image" content="{{ social_image | absolute_url | escape }}">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ g.title | escape }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ g.title | escape }}">
+    <meta name="twitter:description" content="{{ g.description | escape }}">
+    <meta name="twitter:image" content="{{ social_image | absolute_url | escape }}">
+    <meta name="twitter:image:alt" content="{{ g.title | escape }}">
+    <meta property="article:published_time" content="{{ page.published_on }}">
+    <meta property="article:modified_time" content="{{ page.updated_on }}">
+    <link rel="icon" href="/favicon-48x48.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#050508;color:#e8e6f0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}a{color:#9bbaff}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}.skip{position:absolute;left:-999px;top:.5rem}.skip:focus{left:1rem;z-index:999;background:#fff;color:#000;padding:.6rem}nav{position:sticky;top:0;z-index:10;background:rgba(5,5,8,.94);border-bottom:1px solid #262633;padding:.8rem 5%;display:flex;align-items:center;justify-content:space-between}.logo{font-family:ui-monospace,monospace;font-weight:800;font-size:1.25rem;text-decoration:none;background:linear-gradient(135deg,#9bbaff,#e2b8df);color:transparent;background-clip:text}.navlinks{display:flex;gap:1.25rem;align-items:center}.navlinks a{color:#bbb8ca;text-decoration:none}.menu{display:none}.button{display:inline-block;padding:.7rem 1.1rem;border-radius:8px;background:linear-gradient(135deg,#9bbaff,#e2b8df);color:#050508!important;font-weight:750;text-decoration:none}main{max-width:1120px;margin:auto;padding:4rem 1.5rem}article{max-width:780px;margin:auto}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.035em}h2{margin-top:2.7rem;line-height:1.2}p,li{color:#aaa7bb}.eyebrow{color:#9bbaff;text-transform:uppercase;letter-spacing:.18em;font:700 .75rem ui-monospace,monospace}.meta,.disclosure{color:#858197;font-size:.92rem}.disclosure,.callout,.flow,.card{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}.hero{padding:5rem 0}.hero p{font-size:1.2rem;max-width:720px}.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem}.flow div{padding:1rem;background:#11111a;border-radius:8px}.flow strong{display:block;color:#fff}.source-list li{margin:.7rem 0}table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{padding:.75rem;border:1px solid #292838;text-align:left}footer{border-top:1px solid #22212e;padding:2.5rem 5%;color:#858197}.footerlinks{display:flex;gap:1rem;flex-wrap:wrap}.social{width:100%;height:auto;border-radius:14px}.press-copy{white-space:pre-wrap}.copy{border:1px solid #9bbaff;background:transparent;color:#9bbaff;padding:.5rem;border-radius:6px}@media(max-width:720px){nav{gap:.65rem;flex-wrap:wrap}.logo{font-size:1.1rem}.navlinks{display:flex;margin-left:auto}.navlinks a:not(.button){display:none}.navlinks .button{display:inline-flex;align-items:center;font-size:.8rem;padding:.55rem .65rem;min-height:44px;white-space:nowrap}.menu summary{padding:.55rem 0}.menu{display:block}.menu summary{cursor:pointer;color:#e8e6f0}.menu div{position:absolute;right:1rem;top:3.4rem;background:#11111a;border:1px solid #333244;padding:1rem;display:grid;gap:.8rem}.menu a{color:#e8e6f0}main{padding-top:2rem}}
+article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.65rem}.quick-links{display:flex;gap:.8rem 1.2rem;flex-wrap:wrap}.lead{font-size:1.16rem}.company-list dt{font-weight:750;margin-top:1.3rem;color:#e8e6f0}.company-list dd{margin:.4rem 0 1.2rem;color:#aaa7bb}strong{color:#e8e6f0}.meta,.disclosure{color:#aaa7bb}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@graph":[
+        {
+          "@type":"TechArticle",
+          "headline":{{ g.title | jsonify }},
+          "description":{{ g.description | jsonify }},
+          "url":{{ page.url | absolute_url | jsonify }},
+          "mainEntityOfPage":{{ page.url | absolute_url | jsonify }},
+          "inLanguage":{{ page.lang | jsonify }},
+          "datePublished":{{ page.published_on | jsonify }},
+          "dateModified":{{ page.updated_on | jsonify }},
+          "author":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/about.html"},
+          "publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":{"@type":"ImageObject","url":"https://bytewaveai.com/logo.png"}},
+          "image":{{ social_image | absolute_url | jsonify }},
+          "isPartOf":{"@type":"CollectionPage","name":"ByteWave Tutorials","url":"https://bytewaveai.com/tutorials/"}
+        },
+        {
+          "@type":"BreadcrumbList",
+          "itemListElement":[
+            {"@type":"ListItem","position":1,"name":{{ t.nav.home | jsonify }},"item":{{ home.url | absolute_url | jsonify }}},
+            {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":"https://bytewaveai.com/tutorials/"},
+            {"@type":"ListItem","position":3,"name":{{ g.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
+          ]
+        }
+      ]
+    }
+    </script>
+    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
+    <link rel="stylesheet" href="/assets/css/creation-guides.css?v=67c0fd0f031d">
+    <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+    {% include localized-nav-styles.html %}
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main id="main">
+<article class="creation-guide">
+    <p class="eyebrow">{{ c.eyebrow | escape }}</p>
+    <h1>{{ g.title | escape }}</h1>
+    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | relative_url }}">ByteWave</a> · {{ c.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ c.updatedDate | escape }}</time></p>
+    {% if page.lang == 'en' %}
+    <p class="disclosure ai-disclosure"><strong>AI disclosure:</strong> This article includes text generated with an AI language model (LLM). Published by ByteWave, which makes the app discussed here.</p>
+    {% else %}
+    <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ t.disclosure.review | escape }}</p>
+    {% endif %}
+
+    <p class="lead">{{ g.lead | escape }}</p>
+    <h2>{{ g.stepsHeading | escape }}</h2>
+    <ol>
+        <li>{{ g.step1 | escape }}</li>
+        <li>{{ g.step2 | escape }}</li>
+        <li>{{ g.step3 | escape }}</li>
+        <li>{{ g.step4 | escape }}</li>
+        {% if page.guide == 'animateStickers' %}
+        <li>{{ g.step5 | escape }}</li>
+        {% endif %}
+    </ol>
+    <h2>{{ g.readabilityHeading | escape }}</h2>
+    <p>{{ g.readabilityText | escape }}</p>
+    {% if page.guide == 'animatedCaptions' %}
+    <p>{{ g.relatedIntro | escape }} <a href="/tutorials/caption-text-effects/" hreflang="en">{{ g.relatedAnchor | escape }}</a> {{ g.relatedTail | escape }}</p>
+    {% endif %}
+    <p><a class="button" href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a></p>
+    <aside class="guide-related" aria-label="{{ c.relatedLabel | escape }}">
+      <ul>
+        {% if page.guide == 'animatedCaptions' %}
+        <li><a href="/tutorials/caption-text-effects/" hreflang="en">{{ g.relatedAnchor | escape }}</a></li>
+        <li><a href="{{ stickers_page.url | relative_url }}">{{ g.relatedSticker | escape }}</a></li>
+        {% else %}
+        <li><a href="{{ captions_page.url | relative_url }}">{{ g.relatedCaption | escape }}</a></li>
+        <li><a href="/layout/" hreflang="en">{{ g.relatedLayout | escape }}</a></li>
+        {% endif %}
+      </ul>
+    </aside>
+</article>
+</main>
+{% include localized-footer.html %}
+<script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
+</body>
+</html>
