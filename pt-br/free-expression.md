@@ -3,7 +3,7 @@ layout: localized-information
 translation_key: free-expression
 lang: 'pt-BR'
 permalink: /pt-br/free-expression.html
-title: 'Liberdade de expressão e recursos'
+title: 'Liberdade de expressão e contestação'
 description: 'O compromisso voluntário do ByteWave com a expressão protegida pela Constituição dos EUA, os limites da moderação e as contestações.'
 eyebrow: 'Nosso compromisso · 18 de outubro de 2026'
 store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=expression_ptbr&mt=8
