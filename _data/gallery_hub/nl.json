@@ -1,0 +1,103 @@
+{
+  "title": "Gemaakt met ByteWave",
+  "seo_title": "Galerij met video's gemaakt in ByteWave",
+  "description": "Bekijk video's uit ByteWave: horizontale scrolllayouts, Möbius- en golfvervormingen, zonsondergangrasters, slowmotion en meer.",
+  "aria_label": "Gemaakt met ByteWave",
+  "note": "De handleidingen bij deze effecten zijn momenteel in het Engels.",
+  "open_video": "Video openen",
+  "download": "ByteWave gratis downloaden",
+  "credit": "Apple-voorbeeldbeelden, bewerkt met ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Scrollende kolommen met zonsondergangen, kustlijnen en alledaagse momenten.",
+      "action": "Ontdek Layout (Engels)",
+      "alt": "The All Scroll. Scrollende kolommen met zonsondergangen, kustlijnen en alledaagse momenten."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Horizontaal scrollen · Möbius",
+      "effect": "Onze eerste horizontaal scrollende layout met Möbius-vervorming.",
+      "action": "Ontdek Layout (Engels)",
+      "alt": "Horizontaal scrollen · Möbius. Onze eerste horizontaal scrollende layout met Möbius-vervorming."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Horizontaal scrollen · Golven",
+      "effect": "Horizontaal scrollen met golvende vervorming.",
+      "action": "Ontdek Layout (Engels)",
+      "alt": "Horizontaal scrollen · Golven. Horizontaal scrollen met golvende vervorming."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Zonsondergangzeshoeken (liggend)",
+      "effect": "ByteWave Layout · Liggend.",
+      "action": "Bekijk beide oriëntaties (Engels)",
+      "alt": "Zonsondergangzeshoeken (liggend). ByteWave Layout · Liggend."
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Vervormde zonsondergang",
+      "effect": "ByteWave Layout · Gebogen zonsondergangbanden.",
+      "action": "Ontdek Layout (Engels)",
+      "alt": "Vervormde zonsondergang. ByteWave Layout · Gebogen zonsondergangbanden."
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Zeekustraster naar strand",
+      "effect": "ByteWave Layout · Zes vlakken naar volledig beeld.",
+      "action": "Ontdek Layout (Engels)",
+      "alt": "Zeekustraster naar strand. ByteWave Layout · Zes vlakken naar volledig beeld."
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Zonsondergangzeshoeken (staand)",
+      "effect": "ByteWave Layout · Staand.",
+      "action": "Bekijk beide oriëntaties (Engels)",
+      "alt": "Zonsondergangzeshoeken (staand). ByteWave Layout · Staand."
+    },
+    {
+      "id": "air-show",
+      "title": "Luchtshow in 3D",
+      "effect": "Geanimeerde 3D-tekst.",
+      "action": "Probeer dit effect (Engels)",
+      "alt": "Luchtshow in 3D. Geanimeerde 3D-tekst."
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Oorspronkelijke snelheid → slowmotion.",
+      "action": "Probeer dit effect (Engels)",
+      "alt": "The Quadruple Dive. Oorspronkelijke snelheid → slowmotion."
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Geanimeerde tekst.",
+      "action": "Probeer dit effect (Engels)",
+      "alt": "Free as in Geese. Geanimeerde tekst."
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibrie in slowmotion",
+      "effect": "0,1× snelheid · 8× framerateconversie.",
+      "action": "Probeer dit effect (Engels)",
+      "alt": "Kolibrie in slowmotion. 0,1× snelheid · 8× framerateconversie."
+    },
+    {
+      "id": "harbor",
+      "title": "In de haven",
+      "effect": "Bewegingsonscherpte.",
+      "action": "Probeer dit effect (Engels)",
+      "alt": "In de haven. Bewegingsonscherpte."
+    },
+    {
+      "id": "red-leaves",
+      "title": "Rode bladeren",
+      "effect": "Tijdelijke ruisonderdrukking.",
+      "action": "Probeer dit effect (Engels)",
+      "alt": "Rode bladeren. Tijdelijke ruisonderdrukking."
+    }
+  ]
+}

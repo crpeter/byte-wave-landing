@@ -1,0 +1,85 @@
+{
+  "title": "Veiledninger for videoredigering",
+  "description": "Lær videocollager, animerte undertekster, sticker-keyframes, bevegelsesuskarphet og C2PA-kontroller med ByteWave.",
+  "intro": "Lag et oppsett, legg til undertekster, animer stickers eller sjekk en fil. Korte veiledninger til ByteWaves verktøy.",
+  "language_note": "Noen av de lenkede veiledningene er fortsatt bare tilgjengelige på engelsk.",
+  "action": "Åpne veiledning (engelsk)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Videocollager med Layout fra ByteWave",
+      "description": "Legg klipp i lag, bygg rutenett og prøv nye former.",
+      "format": "Tre videoeksempler",
+      "alt": "Videocollager med Layout fra ByteWave. Legg klipp i lag, bygg rutenett og prøv nye former."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Legg til animerte undertekster",
+      "description": "Dine ord på din video.",
+      "format": "Skriftlig veiledning",
+      "alt": "Legg til animerte undertekster. Dine ord på din video."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Velg teksteffekter for undertekster",
+      "description": "Orbital Letters, Supernova, Ember Ash og flere effekter.",
+      "format": "Skriftlig veiledning",
+      "alt": "Velg teksteffekter for undertekster. Orbital Letters, Supernova, Ember Ash og flere effekter."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importer egne skrifttyper",
+      "description": "Bruk TTF- og OTF-skrifttyper i undertekster.",
+      "format": "Skriftlig veiledning",
+      "alt": "Importer egne skrifttyper. Bruk TTF- og OTF-skrifttyper i undertekster."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animer stickers med nøkkelbilder",
+      "description": "Posisjon, størrelse, rotasjon og nøkkelbilder.",
+      "format": "Skriftlig veiledning",
+      "alt": "Animer stickers med nøkkelbilder. Posisjon, størrelse, rotasjon og nøkkelbilder."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Legg til bevegelsesuskarphet",
+      "description": "Sammenlign resultatene og juster styrken på uskarpheten.",
+      "format": "iPhone · 20 sekunders sammenligning",
+      "alt": "Legg til bevegelsesuskarphet. Sammenlign resultatene og juster styrken på uskarpheten.",
+      "left": "Original",
+      "right": "Bevegelsesuskarphet"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Bildefrekvenskonvertering for sakte film",
+      "description": "Sammenlign en kolibri i sakte film med 0,1× hastighet.",
+      "format": "iPhone · 30 sekunders sammenligning",
+      "alt": "Bildefrekvenskonvertering for sakte film. Sammenlign en kolibri i sakte film med 0,1× hastighet.",
+      "left": "Vanlig · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Tidsbasert støyreduksjon",
+      "description": "Sammenlign støy og detaljer i eksempelfilm.",
+      "format": "iPhone · 8 sekunders sammenligning",
+      "alt": "Tidsbasert støyreduksjon. Sammenlign støy og detaljer i eksempelfilm.",
+      "left": "Original",
+      "right": "Støyreduksjon"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Kontroller C2PA Content Credentials",
+      "description": "Åpne opprinnelsesmerket og forstå verifiserte KI-erklæringer og manglende bevis.",
+      "format": "Bilder og videoer · Veiledning",
+      "alt": "Kontroller C2PA Content Credentials. Åpne opprinnelsesmerket og forstå verifiserte KI-erklæringer og manglende bevis."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Fjern posisjonsmetadata",
+      "description": "Sjekk arbeidskopien, fjern redigerbare felt og kontroller hva som gjenstår.",
+      "format": "Personvern · Skriftlig veiledning",
+      "alt": "Fjern posisjonsmetadata. Sjekk arbeidskopien, fjern redigerbare felt og kontroller hva som gjenstår."
+    }
+  ]
+}

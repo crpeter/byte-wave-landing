@@ -1,0 +1,103 @@
+{
+  "title": "Stworzone w ByteWave",
+  "seo_title": "Galeria filmów utworzonych w ByteWave",
+  "description": "Odkryj filmy z ByteWave: poziomy przewijany układ, efekty Möbiusa i fal, siatki zachodów słońca, zwolnione tempo i więcej.",
+  "aria_label": "Stworzone w ByteWave",
+  "note": "Powiązane instrukcje efektów są obecnie dostępne po angielsku.",
+  "open_video": "Otwórz film",
+  "download": "Pobierz ByteWave za darmo",
+  "credit": "Przykładowe nagrania Apple, zmontowane w ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Przewijane kolumny zachodów słońca, wybrzeży i codziennych chwil.",
+      "action": "Poznaj Layout (po angielsku)",
+      "alt": "The All Scroll. Przewijane kolumny zachodów słońca, wybrzeży i codziennych chwil."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Przewijanie poziome · Möbius",
+      "effect": "Nasz pierwszy przewijany poziomo układ z efektem Möbiusa.",
+      "action": "Poznaj Layout (po angielsku)",
+      "alt": "Przewijanie poziome · Möbius. Nasz pierwszy przewijany poziomo układ z efektem Möbiusa."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Przewijanie poziome · Fale",
+      "effect": "Przewijanie poziome z falistym zniekształceniem.",
+      "action": "Poznaj Layout (po angielsku)",
+      "alt": "Przewijanie poziome · Fale. Przewijanie poziome z falistym zniekształceniem."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Sześciokąty zachodu słońca (poziomo)",
+      "effect": "ByteWave Layout · Poziomo.",
+      "action": "Zobacz oba układy (po angielsku)",
+      "alt": "Sześciokąty zachodu słońca (poziomo). ByteWave Layout · Poziomo."
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Zniekształcony zachód słońca",
+      "effect": "ByteWave Layout · Zakrzywione pasy zachodu słońca.",
+      "action": "Poznaj Layout (po angielsku)",
+      "alt": "Zniekształcony zachód słońca. ByteWave Layout · Zakrzywione pasy zachodu słońca."
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Siatka nadmorska przechodząca w plażę",
+      "effect": "ByteWave Layout · Z sześciu paneli do pełnego kadru.",
+      "action": "Poznaj Layout (po angielsku)",
+      "alt": "Siatka nadmorska przechodząca w plażę. ByteWave Layout · Z sześciu paneli do pełnego kadru."
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Sześciokąty zachodu słońca (pionowo)",
+      "effect": "ByteWave Layout · Pionowo.",
+      "action": "Zobacz oba układy (po angielsku)",
+      "alt": "Sześciokąty zachodu słońca (pionowo). ByteWave Layout · Pionowo."
+    },
+    {
+      "id": "air-show",
+      "title": "Pokaz lotniczy 3D",
+      "effect": "Animowany tekst 3D.",
+      "action": "Wypróbuj efekt (po angielsku)",
+      "alt": "Pokaz lotniczy 3D. Animowany tekst 3D."
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Oryginalna prędkość → zwolnione tempo.",
+      "action": "Wypróbuj efekt (po angielsku)",
+      "alt": "The Quadruple Dive. Oryginalna prędkość → zwolnione tempo."
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animowany tekst.",
+      "action": "Wypróbuj efekt (po angielsku)",
+      "alt": "Free as in Geese. Animowany tekst."
+    },
+    {
+      "id": "hummingbird",
+      "title": "Koliber w zwolnionym tempie",
+      "effect": "Prędkość 0,1× · 8× konwersja klatek.",
+      "action": "Wypróbuj efekt (po angielsku)",
+      "alt": "Koliber w zwolnionym tempie. Prędkość 0,1× · 8× konwersja klatek."
+    },
+    {
+      "id": "harbor",
+      "title": "W porcie",
+      "effect": "Rozmycie ruchu.",
+      "action": "Wypróbuj efekt (po angielsku)",
+      "alt": "W porcie. Rozmycie ruchu."
+    },
+    {
+      "id": "red-leaves",
+      "title": "Czerwone liście",
+      "effect": "Czasowa redukcja szumów.",
+      "action": "Wypróbuj efekt (po angielsku)",
+      "alt": "Czerwone liście. Czasowa redukcja szumów."
+    }
+  ]
+}

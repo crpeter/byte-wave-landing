@@ -1,0 +1,103 @@
+{
+  "title": "Criado com o ByteWave",
+  "seo_title": "Galeria de vídeos criados com o ByteWave",
+  "description": "Explore vídeos feitos no ByteWave: layouts de deslocação horizontal, distorções Möbius e ondas, grelhas ao pôr do sol, câmara lenta e muito mais.",
+  "aria_label": "Criado com o ByteWave",
+  "note": "Os tutoriais dos efeitos estão atualmente disponíveis em inglês.",
+  "open_video": "Abrir vídeo",
+  "download": "Transferir ByteWave gratuitamente",
+  "credit": "Imagens de exemplo da Apple, editadas no ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Colunas de pôr do sol, costa e momentos do quotidiano em movimento.",
+      "action": "Explorar Layout (em inglês)",
+      "alt": "The All Scroll. Colunas de pôr do sol, costa e momentos do quotidiano em movimento."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Deslocação horizontal · Möbius",
+      "effect": "O nosso primeiro layout de deslocação horizontal com distorção Möbius.",
+      "action": "Explorar Layout (em inglês)",
+      "alt": "Deslocação horizontal · Möbius. O nosso primeiro layout de deslocação horizontal com distorção Möbius."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Deslocação horizontal · Ondas",
+      "effect": "Deslocação horizontal com distorção em ondas.",
+      "action": "Explorar Layout (em inglês)",
+      "alt": "Deslocação horizontal · Ondas. Deslocação horizontal com distorção em ondas."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Hexágonos ao pôr do sol (paisagem)",
+      "effect": "Layout do ByteWave · Paisagem.",
+      "action": "Explorar ambas as orientações (em inglês)",
+      "alt": "Hexágonos ao pôr do sol (paisagem). Layout do ByteWave · Paisagem."
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Pôr do sol distorcido",
+      "effect": "Layout do ByteWave · Faixas curvas do pôr do sol.",
+      "action": "Explorar Layout (em inglês)",
+      "alt": "Pôr do sol distorcido. Layout do ByteWave · Faixas curvas do pôr do sol."
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Grelha costeira até à praia",
+      "effect": "Layout do ByteWave · De seis painéis a ecrã inteiro.",
+      "action": "Explorar Layout (em inglês)",
+      "alt": "Grelha costeira até à praia. Layout do ByteWave · De seis painéis a ecrã inteiro."
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Hexágonos ao pôr do sol (retrato)",
+      "effect": "Layout do ByteWave · Retrato.",
+      "action": "Explorar ambas as orientações (em inglês)",
+      "alt": "Hexágonos ao pôr do sol (retrato). Layout do ByteWave · Retrato."
+    },
+    {
+      "id": "air-show",
+      "title": "Exibição aérea em 3D",
+      "effect": "Texto 3D animado.",
+      "action": "Experimentar este efeito (em inglês)",
+      "alt": "Exibição aérea em 3D. Texto 3D animado."
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Velocidade original → câmara lenta.",
+      "action": "Experimentar este efeito (em inglês)",
+      "alt": "The Quadruple Dive. Velocidade original → câmara lenta."
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Texto animado.",
+      "action": "Experimentar este efeito (em inglês)",
+      "alt": "Free as in Geese. Texto animado."
+    },
+    {
+      "id": "hummingbird",
+      "title": "Colibri em câmara lenta",
+      "effect": "Velocidade 0,1× · Conversão FRC de 8×.",
+      "action": "Experimentar este efeito (em inglês)",
+      "alt": "Colibri em câmara lenta. Velocidade 0,1× · Conversão FRC de 8×."
+    },
+    {
+      "id": "harbor",
+      "title": "No porto",
+      "effect": "Desfoque de movimento.",
+      "action": "Experimentar este efeito (em inglês)",
+      "alt": "No porto. Desfoque de movimento."
+    },
+    {
+      "id": "red-leaves",
+      "title": "Folhas vermelhas",
+      "effect": "Redução temporal do ruído.",
+      "action": "Experimentar este efeito (em inglês)",
+      "alt": "Folhas vermelhas. Redução temporal do ruído."
+    }
+  ]
+}

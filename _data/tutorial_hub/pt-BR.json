@@ -1,0 +1,85 @@
+{
+  "title": "Tutoriais de vídeo para criadores no Brasil",
+  "description": "Aprenda a criar colagens de vídeo, legendas animadas, stickers com keyframes, desfoque de movimento e verificações C2PA no ByteWave.",
+  "intro": "Crie um layout, adicione legendas, anime stickers ou confira um arquivo. Guias rápidos das ferramentas do ByteWave.",
+  "language_note": "Alguns tutoriais vinculados ainda estão disponíveis apenas em inglês.",
+  "action": "Ver tutorial (em inglês)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Colagens de vídeo com Layout do ByteWave",
+      "description": "Sobreponha clipes, crie grades e experimente novos formatos.",
+      "format": "Três exemplos em vídeo",
+      "alt": "Colagens de vídeo com Layout do ByteWave. Sobreponha clipes, crie grades e experimente novos formatos."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Adicionar legendas animadas",
+      "description": "Suas palavras no seu vídeo.",
+      "format": "Guia escrito",
+      "alt": "Adicionar legendas animadas. Suas palavras no seu vídeo."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Escolher efeitos de texto para legendas",
+      "description": "Orbital Letters, Supernova, Ember Ash e outros efeitos.",
+      "format": "Guia escrito",
+      "alt": "Escolher efeitos de texto para legendas. Orbital Letters, Supernova, Ember Ash e outros efeitos."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importar suas próprias fontes",
+      "description": "Use fontes TTF e OTF nas legendas.",
+      "format": "Guia escrito",
+      "alt": "Importar suas próprias fontes. Use fontes TTF e OTF nas legendas."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animar stickers com quadros-chave",
+      "description": "Posição, tamanho, rotação e quadros-chave.",
+      "format": "Guia escrito",
+      "alt": "Animar stickers com quadros-chave. Posição, tamanho, rotação e quadros-chave."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Aplicar desfoque de movimento",
+      "description": "Compare versões lado a lado e ajuste a intensidade do efeito.",
+      "format": "iPhone · Comparação de 20 s",
+      "alt": "Aplicar desfoque de movimento. Compare versões lado a lado e ajuste a intensidade do efeito.",
+      "left": "Original",
+      "right": "Desfoque de movimento"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Conversão da taxa de quadros para câmera lenta",
+      "description": "Compare um beija-flor em câmera lenta a 0,1×.",
+      "format": "iPhone · Comparação de 30 s",
+      "alt": "Conversão da taxa de quadros para câmera lenta. Compare um beija-flor em câmera lenta a 0,1×.",
+      "left": "Normal · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Redução temporal de ruído",
+      "description": "Compare ruído e detalhes finos em imagens de exemplo.",
+      "format": "iPhone · Comparação de 8 s",
+      "alt": "Redução temporal de ruído. Compare ruído e detalhes finos em imagens de exemplo.",
+      "left": "Original",
+      "right": "Redução de ruído"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Verificar credenciais C2PA",
+      "description": "Abra o selo de procedência para entender declarações de IA verificadas e evidências ausentes.",
+      "format": "Fotos e vídeos · Guia escrito",
+      "alt": "Verificar credenciais C2PA. Abra o selo de procedência para entender declarações de IA verificadas e evidências ausentes."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Remover metadados de localização",
+      "description": "Confira uma cópia de trabalho, remova campos editáveis e veja o que permanece.",
+      "format": "Privacidade · Guia escrito",
+      "alt": "Remover metadados de localização. Confira uma cópia de trabalho, remova campos editáveis e veja o que permanece."
+    }
+  ]
+}

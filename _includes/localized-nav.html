@@ -6,11 +6,13 @@
 {%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
 {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
 {%- assign expression_page = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
+{%- assign gallery_page = site.pages | where: "translation_key", "gallery" | where: "lang", page.lang | first -%}
+{%- assign tutorials_page = site.pages | where: "translation_key", "tutorials" | where: "lang", page.lang | first -%}
 {% capture primary_links -%}
 <a href="{{ home.url | relative_url }}#features">{{ t.nav.features | escape }}</a>
 <a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
-<a href="/gallery/" hreflang="en">{{ t.nav.gallery | escape }}</a>
-<a href="/tutorials/" hreflang="en">{{ t.nav.tutorials | escape }}</a>
+<a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}">{{ t.nav.gallery | escape }}</a>
+<a href="{{ tutorials_page.url | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a>
 <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
 {% endcapture -%}
 <a class="site-skip" href="#main">{{ t.nav.skip | escape }}</a>

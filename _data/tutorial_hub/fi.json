@@ -1,0 +1,85 @@
+{
+  "title": "Videonmuokkauksen oppaat",
+  "description": "Opi tekemään videokollaaseja, animoituja tekstityksiä, tarra-animaatioita, liike-epäterävyyttä ja C2PA-tarkistuksia ByteWavella.",
+  "intro": "Luo layout, lisää tekstityksiä, animoi tarroja tai tarkista tiedosto. Lyhyitä oppaita ByteWaven työkaluihin.",
+  "language_note": "Osa linkitetyistä oppaista on edelleen saatavilla vain englanniksi.",
+  "action": "Avaa opas (englanniksi)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Videokollaasit ByteWave Layoutilla",
+      "description": "Kerrosta leikkeitä, rakenna ruudukoita ja kokeile uusia muotoja.",
+      "format": "Kolme videoesimerkkiä",
+      "alt": "Videokollaasit ByteWave Layoutilla. Kerrosta leikkeitä, rakenna ruudukoita ja kokeile uusia muotoja."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Lisää animoituja tekstityksiä",
+      "description": "Omat sanasi omaan videoosi.",
+      "format": "Kirjoitettu opas",
+      "alt": "Lisää animoituja tekstityksiä. Omat sanasi omaan videoosi."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Valitse tekstitysten tekstitehosteet",
+      "description": "Orbital Letters, Supernova, Ember Ash ja muita tehosteita.",
+      "format": "Kirjoitettu opas",
+      "alt": "Valitse tekstitysten tekstitehosteet. Orbital Letters, Supernova, Ember Ash ja muita tehosteita."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Tuo omia fontteja",
+      "description": "Käytä TTF- ja OTF-fontteja tekstityksissä.",
+      "format": "Kirjoitettu opas",
+      "alt": "Tuo omia fontteja. Käytä TTF- ja OTF-fontteja tekstityksissä."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animoi tarroja avainruuduilla",
+      "description": "Sijainti, koko, kierto ja avainruudut.",
+      "format": "Kirjoitettu opas",
+      "alt": "Animoi tarroja avainruuduilla. Sijainti, koko, kierto ja avainruudut."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Lisää videoon liike-epäterävyyttä",
+      "description": "Vertaa tulosta rinnakkain ja säädä epäterävyyden voimakkuutta.",
+      "format": "iPhone · 20 sekunnin vertailu",
+      "alt": "Lisää videoon liike-epäterävyyttä. Vertaa tulosta rinnakkain ja säädä epäterävyyden voimakkuutta.",
+      "left": "Alkuperäinen",
+      "right": "Liike-epäterävyys"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Ruutunopeuden muunnos hidastukseen",
+      "description": "Vertaa kolibrin liikettä hidastettuna 0,1-kertaiseksi.",
+      "format": "iPhone · 30 sekunnin vertailu",
+      "alt": "Ruutunopeuden muunnos hidastukseen. Vertaa kolibrin liikettä hidastettuna 0,1-kertaiseksi.",
+      "left": "Tavallinen · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Ajallinen kohinanpoisto",
+      "description": "Vertaa kohinaa ja pieniä yksityiskohtia esimerkkikuvassa.",
+      "format": "iPhone · 8 sekunnin vertailu",
+      "alt": "Ajallinen kohinanpoisto. Vertaa kohinaa ja pieniä yksityiskohtia esimerkkikuvassa.",
+      "left": "Alkuperäinen",
+      "right": "Kohinanpoisto"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Tarkista C2PA Content Credentials",
+      "description": "Avaa alkuperämerkintä ja opi tulkitsemaan vahvistetut tekoälyilmoitukset ja puuttuvat todisteet.",
+      "format": "Kuvat ja videot · Opas",
+      "alt": "Tarkista C2PA Content Credentials. Avaa alkuperämerkintä ja opi tulkitsemaan vahvistetut tekoälyilmoitukset ja puuttuvat todisteet."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Poista sijaintimetatiedot",
+      "description": "Tarkista työkopio, poista muokattavat kentät ja katso, mitä jää ennen jakamista.",
+      "format": "Tietosuoja · Kirjoitettu opas",
+      "alt": "Poista sijaintimetatiedot. Tarkista työkopio, poista muokattavat kentät ja katso, mitä jää ennen jakamista."
+    }
+  ]
+}

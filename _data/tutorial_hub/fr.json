@@ -1,0 +1,85 @@
+{
+  "title": "Tutoriels de montage vidéo",
+  "description": "Apprenez les collages vidéo, les sous-titres animés, les stickers, le flou de mouvement et la vérification C2PA avec ByteWave.",
+  "intro": "Créez une composition, ajoutez des sous-titres, animez des stickers ou vérifiez un fichier. Des guides courts pour découvrir ByteWave.",
+  "language_note": "Certains tutoriels proposés sont encore disponibles uniquement en anglais.",
+  "action": "Voir le guide (en anglais)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Compositions avec Layout de ByteWave",
+      "description": "Superposez les clips, créez des grilles et explorez différentes formes.",
+      "format": "Trois exemples vidéo",
+      "alt": "Compositions avec Layout de ByteWave. Superposez les clips, créez des grilles et explorez différentes formes."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Ajouter des sous-titres animés",
+      "description": "Vos mots, sur votre vidéo.",
+      "format": "Guide écrit",
+      "alt": "Ajouter des sous-titres animés. Vos mots, sur votre vidéo."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Choisir des effets de texte pour les sous-titres",
+      "description": "Orbital Letters, Supernova, Ember Ash et d’autres effets.",
+      "format": "Guide écrit",
+      "alt": "Choisir des effets de texte pour les sous-titres. Orbital Letters, Supernova, Ember Ash et d’autres effets."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importer vos propres polices",
+      "description": "Utilisez des polices TTF et OTF dans les sous-titres.",
+      "format": "Guide écrit",
+      "alt": "Importer vos propres polices. Utilisez des polices TTF et OTF dans les sous-titres."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animer des stickers avec des images clés",
+      "description": "Position, taille, rotation et images clés.",
+      "format": "Guide écrit",
+      "alt": "Animer des stickers avec des images clés. Position, taille, rotation et images clés."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Appliquer un flou de mouvement",
+      "description": "Comparez les résultats et réglez l’intensité du flou sur votre vidéo.",
+      "format": "iPhone · Comparatif de 20 s",
+      "alt": "Appliquer un flou de mouvement. Comparez les résultats et réglez l’intensité du flou sur votre vidéo.",
+      "left": "Original",
+      "right": "Flou de mouvement"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Conversion de fréquence d’images pour le ralenti",
+      "description": "Observez un colibri à 0,1× pour comparer les mouvements ralentis.",
+      "format": "iPhone · Comparatif de 30 s",
+      "alt": "Conversion de fréquence d’images pour le ralenti. Observez un colibri à 0,1× pour comparer les mouvements ralentis.",
+      "left": "Normal · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Réduction temporelle du bruit",
+      "description": "Comparez le bruit et les détails fins sur des images d’exemple.",
+      "format": "iPhone · Comparatif de 8 s",
+      "alt": "Réduction temporelle du bruit. Comparez le bruit et les détails fins sur des images d’exemple.",
+      "left": "Original",
+      "right": "Réduction du bruit"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Vérifier les Content Credentials C2PA",
+      "description": "Ouvrez un badge de provenance et comprenez les déclarations d’IA vérifiées et les preuves manquantes.",
+      "format": "Photos et vidéos · Guide écrit",
+      "alt": "Vérifier les Content Credentials C2PA. Ouvrez un badge de provenance et comprenez les déclarations d’IA vérifiées et les preuves manquantes."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Supprimer les métadonnées de localisation",
+      "description": "Inspectez une copie de travail, supprimez les champs modifiables et vérifiez ce qui reste.",
+      "format": "Confidentialité · Guide écrit",
+      "alt": "Supprimer les métadonnées de localisation. Inspectez une copie de travail, supprimez les champs modifiables et vérifiez ce qui reste."
+    }
+  ]
+}

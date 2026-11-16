@@ -1,0 +1,85 @@
+{
+  "title": "動画編集チュートリアル",
+  "description": "ByteWaveで動画コラージュ、アニメーション字幕、ステッカー、モーションブラー、C2PA確認の方法を学べます。",
+  "intro": "レイアウトを作り、字幕を加え、ステッカーを動かし、ファイルを確認。ByteWaveの機能を短いガイドで紹介します。",
+  "language_note": "リンク先の一部のチュートリアルは、引き続き英語のみで提供されています。",
+  "action": "ガイドを見る（英語）",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "ByteWave Layoutで動画コラージュ",
+      "description": "クリップを重ね、グリッドや新しい形を作ります。",
+      "format": "3つの動画例",
+      "alt": "ByteWave Layoutで動画コラージュ。クリップを重ね、グリッドや新しい形を作ります。"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "アニメーション字幕を追加",
+      "description": "自分の言葉を、自分の動画に。",
+      "format": "文章ガイド",
+      "alt": "アニメーション字幕を追加。自分の言葉を、自分の動画に。"
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "字幕のテキストエフェクトを選ぶ",
+      "description": "Orbital Letters、Supernova、Ember Ashなど。",
+      "format": "文章ガイド",
+      "alt": "字幕のテキストエフェクトを選ぶ。Orbital Letters、Supernova、Ember Ashなど。"
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "自分のフォントを読み込む",
+      "description": "字幕にTTF・OTFフォントを使います。",
+      "format": "文章ガイド",
+      "alt": "自分のフォントを読み込む。字幕にTTF・OTFフォントを使います。"
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "キーフレームでステッカーを動かす",
+      "description": "位置、サイズ、回転、キーフレームを設定。",
+      "format": "文章ガイド",
+      "alt": "キーフレームでステッカーを動かす。位置、サイズ、回転、キーフレームを設定。"
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "動画にモーションブラーを加える",
+      "description": "左右で比較し、ブラーの強さを調整します。",
+      "format": "iPhone · 20秒の比較",
+      "alt": "動画にモーションブラーを加える。左右で比較し、ブラーの強さを調整します。",
+      "left": "元の映像",
+      "right": "モーションブラー"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "スローモーション用のフレームレート変換",
+      "description": "0.1倍速のハチドリ映像で動きを比べます。",
+      "format": "iPhone · 30秒の比較",
+      "alt": "スローモーション用のフレームレート変換。0.1倍速のハチドリ映像で動きを比べます。",
+      "left": "通常 · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "時間方向ノイズ除去",
+      "description": "サンプル映像のノイズと細部を比較します。",
+      "format": "iPhone · 8秒の比較",
+      "alt": "時間方向ノイズ除去。サンプル映像のノイズと細部を比較します。",
+      "left": "元の映像",
+      "right": "ノイズ除去"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "C2PA Content Credentialsを確認",
+      "description": "来歴の表示から、署名付きAI申告や証拠不足の意味を学びます。",
+      "format": "写真と動画 · 文章ガイド",
+      "alt": "C2PA Content Credentialsを確認。来歴の表示から、署名付きAI申告や証拠不足の意味を学びます。"
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "位置情報メタデータを削除",
+      "description": "作業用コピーから編集可能な情報を削除し、残る情報を確認します。",
+      "format": "プライバシー · 文章ガイド",
+      "alt": "位置情報メタデータを削除。作業用コピーから編集可能な情報を削除し、残る情報を確認します。"
+    }
+  ]
+}

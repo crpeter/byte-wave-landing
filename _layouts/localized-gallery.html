@@ -1,0 +1,559 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign h = site.data.gallery_hub[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ h.seo_title | escape }} - ByteWave</title>
+  <meta name="description" content="{{ h.description | escape }}">
+  {% include localized-alternates.html %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ h.seo_title | escape }} - ByteWave">
+  <meta property="og:description" content="{{ h.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+  <meta property="og:site_name" content="ByteWave">
+  <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta property="og:image:alt" content="{{ t.social_alt | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ h.seo_title | escape }} - ByteWave">
+  <meta name="twitter:description" content="{{ h.description | escape }}">
+  <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta name="twitter:image:alt" content="{{ t.social_alt | escape }}">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ h.title | jsonify }},
+  "description": {{ h.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 13,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": {{ h.cards[0].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#all-scroll" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[0].title | jsonify }},
+          "description": {{ h.cards[0].effect | jsonify }},
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/all-scroll/original.m3u8",
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/all-scroll.jpg",
+          "width": 3840,
+          "height": 2160,
+          "uploadDate": "2026-10-29",
+          "duration": "PT30.1S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": {{ h.cards[1].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#horizontal-scroll-mobius-warp" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[1].title | jsonify }},
+          "description": {{ h.cards[1].effect | jsonify }},
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/horizontal-scroll-mobius-warp/original.m3u8",
+          "width": 2570,
+          "height": 1446,
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/horizontal-scroll-mobius-warp.jpg",
+          "uploadDate": "2026-10-28",
+          "duration": "PT34.267S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": {{ h.cards[2].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#horizontal-scroll-waves" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[2].title | jsonify }},
+          "description": {{ h.cards[2].effect | jsonify }},
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/horizontal-scroll-waves/original.m3u8",
+          "width": 2570,
+          "height": 1446,
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/horizontal-scroll-waves.jpg",
+          "uploadDate": "2026-10-28",
+          "duration": "PT34.267S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": {{ h.cards[3].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#sunset-hexagons-landscape" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[3].title | jsonify }},
+          "description": {{ h.cards[3].effect | jsonify }},
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons-landscape.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/sunset-hexagons-landscape/web.m3u8",
+          "uploadDate": "2026-10-18T20:17:41-04:00",
+          "duration": "PT54.717S",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": {{ h.cards[4].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#warped-sunset-4k" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[4].title | jsonify }},
+          "description": {{ h.cards[4].effect | jsonify }},
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/warped-sunset-4k/poster.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/warped-sunset-4k/original.m3u8",
+          "uploadDate": "2026-10-18T18:11:09-04:00",
+          "duration": "PT19.933S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": {{ h.cards[5].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#seaside-grid-to-beach" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[5].title | jsonify }},
+          "description": {{ h.cards[5].effect | jsonify }},
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/seaside-grid-to-beach/poster.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/seaside-grid-to-beach/original.m3u8",
+          "uploadDate": "2026-10-18T18:11:09-04:00",
+          "duration": "PT39.7S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": {{ h.cards[6].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#sunset-hexagons" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[6].title | jsonify }},
+          "description": {{ h.cards[6].effect | jsonify }},
+          "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/layout/sunset-hexagons-portrait/web.m3u8",
+          "uploadDate": "2026-10-18T20:17:41-04:00",
+          "duration": "PT54.717S",
+          "width": 1080,
+          "height": 1920
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": {{ h.cards[7].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#air-show" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[7].title | jsonify }},
+          "description": {{ h.cards[7].effect | jsonify }},
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/air-show/poster.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/gallery/air-show/original.m3u8",
+          "uploadDate": "2026-10-18T17:42:07-04:00",
+          "duration": "PT1M7.967S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": {{ h.cards[8].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#quadruple-dive" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[8].title | jsonify }},
+          "description": {{ h.cards[8].effect | jsonify }},
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/gallery/quadruple-dive/video.m3u8",
+          "uploadDate": "2026-10-17T17:24:06-04:00",
+          "duration": "PT18.785S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": {{ h.cards[9].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#free-as-in-geese" | jsonify }},
+        "item": {
+          "@type": "VideoObject",
+          "name": {{ h.cards[9].title | jsonify }},
+          "description": {{ h.cards[9].effect | jsonify }},
+          "thumbnailUrl": "https://bytewaveai.com/assets/videos/gallery/free-as-in-geese.jpg",
+          "contentUrl": "https://bytewaveai.com/assets/videos/gallery/free-as-in-geese/video.m3u8",
+          "uploadDate": "2026-10-17T17:38:49-04:00",
+          "duration": "PT32.45S"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": {{ h.cards[10].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#hummingbird" | jsonify }}
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": {{ h.cards[11].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#harbor" | jsonify }}
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": {{ h.cards[12].title | jsonify }},
+        "url": {{ page.url | absolute_url | append: "#red-leaves" | jsonify }}
+      }
+    ]
+  },
+  "inLanguage": {{ page.lang | jsonify }}
+}
+</script>
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--bg:#08080c;--surface:#101016;--border:rgba(255,255,255,.1);--text:#d8d6e1;--text-dim:#a6a3b7;--accent:#789ae2}
+    body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    a:focus-visible,video:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+    .skip{position:absolute;left:-9999px}
+    .skip:focus{position:fixed;left:1rem;top:1rem;z-index:200;background:var(--text);color:var(--bg);padding:.75rem}
+    nav{position:sticky;top:0;z-index:100;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;backdrop-filter:blur(16px);background:rgba(8,8,12,.94);border-bottom:1px solid var(--border)}
+    .logo{font-weight:700;font-size:1.1rem;letter-spacing:-.4px}
+    .nav-links{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;justify-content:flex-end;font-size:.875rem;color:var(--text-dim)}
+    .nav-links a:hover,.nav-links [aria-current]{color:var(--text)}
+    .nav-links [aria-current]{text-decoration:underline;text-underline-offset:.4rem;text-decoration-color:var(--accent)}
+    main{max-width:1040px;margin:auto;padding:3rem 2rem}
+    h1{font-size:clamp(2rem,5vw,2.8rem);font-weight:800;letter-spacing:-1.2px;line-height:1.15;color:#efeff4;margin-bottom:2rem}
+    .gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem 1.5rem;list-style:none}
+    figure{scroll-margin-top:6rem}
+    .gallery-image,video{display:block;width:100%;height:clamp(20rem,60vh,36rem);object-fit:contain;background:#050508;border:1px solid var(--border);border-radius:10px}
+    .stream-player{position:relative}
+    .stream-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:64px;height:64px;border:1px solid rgba(255,255,255,.65);border-radius:50%;background:rgba(0,0,0,.65);color:#fff;cursor:pointer;box-shadow:0 2px 16px rgba(0,0,0,.3)}
+    .stream-play:hover{background:rgba(0,0,0,.85)}
+    .stream-play svg{margin-left:3px}
+    .stream-play[hidden]{display:none}
+    .stream-play:focus-visible{outline:3px solid white;outline-offset:5px}
+    .stream-status{color:var(--text-dim);font-size:.875rem}
+    .landscape{grid-column:1/-1}
+    .landscape video,.landscape .gallery-image{height:auto;max-height:36rem;aspect-ratio:16/9}
+    figcaption{padding:1rem 0}
+    h2{font-size:1.25rem;line-height:1.3;margin-bottom:.35rem}
+    .effect,.credit{color:var(--text-dim);font-size:.875rem}
+    .effect{margin-bottom:.65rem}
+    .credit{margin-top:.65rem}
+    .tutorial-link{color:var(--accent);font-weight:600}
+    .tutorial-link:hover,footer a:hover{text-decoration:underline}
+    .download{margin-top:2.5rem;text-align:center}
+    .button{display:inline-block;background:var(--accent);color:var(--bg);padding:.8rem 1.2rem;border-radius:8px;font-weight:700}
+    .button:hover{opacity:.85}
+    footer{border-top:1px solid var(--border);padding:2rem;color:var(--text-dim);font-size:.875rem;text-align:center}
+    @media(max-width:768px){nav{padding:1rem 1.5rem}.nav-links{gap:.75rem}.nav-links .secondary{display:none}main{padding:2.5rem 1.5rem}.gallery-grid{grid-template-columns:1fr}.landscape{grid-column:auto}}
+    @media(max-width:380px){nav{flex-wrap:wrap}}
+  .gallery-locale-note{color:var(--text-dim);margin:-.3rem 0 2rem;font-size:.92rem;line-height:1.6}
+</style>
+    <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+{% include localized-nav-styles.html %}
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+
+
+  <main id="main">
+    <h1>{{ h.title | escape }}</h1>
+    <p class="gallery-locale-note">{{ h.note | escape }}</p>
+    <ul class="gallery-grid" aria-label="{{ h.aria_label | escape }}">
+      <li class="landscape">
+        <figure id="all-scroll">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="all-scroll-video" controls playsinline preload="none" width="3840" height="2160" poster="/assets/images/gallery/all-scroll.jpg" data-stream="/assets/videos/layout/all-scroll/original.m3u8" data-compatible="/assets/videos/layout/all-scroll/compatible.mp4" aria-label="{{ h.cards[0].alt | escape }}">
+                <source src="/assets/videos/layout/all-scroll/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/all-scroll/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="all-scroll-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/all-scroll/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[0].title | escape }}</h2>
+            <p class="effect">{{ h.cards[0].effect | escape }}</p>
+            <a class="tutorial-link" href="/layout/">{{ h.cards[0].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="landscape">
+        <figure id="horizontal-scroll-mobius-warp">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="horizontal-scroll-mobius-warp-video" controls playsinline preload="none" width="2570" height="1446" poster="/assets/images/gallery/horizontal-scroll-mobius-warp.jpg" data-stream="/assets/videos/layout/horizontal-scroll-mobius-warp/original.m3u8" data-compatible="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4" aria-label="{{ h.cards[1].alt | escape }}">
+                <source src="/assets/videos/layout/horizontal-scroll-mobius-warp/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="horizontal-scroll-mobius-warp-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[1].title | escape }}</h2>
+            <p class="effect">{{ h.cards[1].effect | escape }}</p>
+            <a class="tutorial-link" href="/layout/">{{ h.cards[1].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="landscape">
+        <figure id="horizontal-scroll-waves">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="horizontal-scroll-waves-video" controls playsinline preload="none" width="2570" height="1446" poster="/assets/images/gallery/horizontal-scroll-waves.jpg" data-stream="/assets/videos/layout/horizontal-scroll-waves/original.m3u8" data-compatible="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4" aria-label="{{ h.cards[2].alt | escape }}">
+                <source src="/assets/videos/layout/horizontal-scroll-waves/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="horizontal-scroll-waves-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[2].title | escape }}</h2>
+            <p class="effect">{{ h.cards[2].effect | escape }}</p>
+            <a class="tutorial-link" href="/layout/">{{ h.cards[2].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="landscape">
+        <figure id="sunset-hexagons-landscape">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="sunset-hexagons-landscape-video" controls playsinline preload="none" width="1920" height="1080" poster="/assets/images/gallery/sunset-hexagons-landscape.jpg" data-stream="/assets/videos/layout/sunset-hexagons-landscape/web.m3u8" data-compatible="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4" aria-label="{{ h.cards[3].alt | escape }}">
+                <source src="/assets/videos/layout/sunset-hexagons-landscape/web.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="sunset-hexagons-landscape-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[3].title | escape }}</h2>
+            <p class="effect">{{ h.cards[3].effect | escape }}</p>
+            <a class="tutorial-link" href="/layout/#sunset-layouts">{{ h.cards[3].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="warped-sunset-4k">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="warped-sunset-4k-video" controls playsinline preload="none" width="2160" height="3840" poster="/assets/videos/layout/warped-sunset-4k/poster.jpg" data-stream="/assets/videos/layout/warped-sunset-4k/original.m3u8" data-compatible="/assets/videos/layout/warped-sunset-4k/compatible.mp4" aria-label="{{ h.cards[4].alt | escape }}">
+                <source src="/assets/videos/layout/warped-sunset-4k/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/warped-sunset-4k/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="warped-sunset-4k-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/warped-sunset-4k/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[4].title | escape }}</h2>
+            <p class="effect">{{ h.cards[4].effect | escape }}</p>
+            <a class="tutorial-link" href="/layout/#warped-sunset-video">{{ h.cards[4].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="seaside-grid-to-beach">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="seaside-grid-to-beach-video" controls playsinline preload="none" width="2160" height="3840" poster="/assets/videos/layout/seaside-grid-to-beach/poster.jpg" data-stream="/assets/videos/layout/seaside-grid-to-beach/original.m3u8" data-compatible="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4" aria-label="{{ h.cards[5].alt | escape }}">
+                <source src="/assets/videos/layout/seaside-grid-to-beach/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="seaside-grid-to-beach-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[5].title | escape }}</h2>
+            <p class="effect">{{ h.cards[5].effect | escape }}</p>
+            <a class="tutorial-link" href="/layout/#ocean-grid-video">{{ h.cards[5].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="sunset-hexagons">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="sunset-hexagons-portrait-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/images/gallery/sunset-hexagons.jpg" data-stream="/assets/videos/layout/sunset-hexagons-portrait/web.m3u8" data-compatible="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4" aria-label="{{ h.cards[6].alt | escape }}">
+                <source src="/assets/videos/layout/sunset-hexagons-portrait/web.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="sunset-hexagons-portrait-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[6].title | escape }}</h2>
+            <p class="effect">{{ h.cards[6].effect | escape }}</p>
+            <a class="tutorial-link" href="/layout/#sunset-layouts">{{ h.cards[6].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="air-show">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="air-show-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/videos/gallery/air-show/poster.jpg" data-stream="/assets/videos/gallery/air-show/original.m3u8" data-compatible="/assets/videos/gallery/air-show/compatible.mp4" aria-label="{{ h.cards[7].alt | escape }}">
+                <source src="/assets/videos/gallery/air-show/original.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/gallery/air-show/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="air-show-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/gallery/air-show/compatible.mp4">Open video</a></p>
+          </div>
+          <figcaption>
+            <h2>{{ h.cards[7].title | escape }}</h2>
+            <p class="effect">{{ h.cards[7].effect | escape }}</p>
+            <a class="tutorial-link" href="/tutorials/caption-text-effects/">{{ h.cards[7].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="quadruple-dive">
+          <div class="stream-player">
+          <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="quadruple-dive-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/videos/gallery/quadruple-dive.jpg" aria-label="{{ h.cards[8].alt | escape }}">
+            <source src="/assets/videos/gallery/quadruple-dive/video.m3u8" type="application/vnd.apple.mpegurl">
+
+          </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="quadruple-dive-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/quadruple-dive/video.m3u8">Open video</a></p>
+</div>
+
+          </div>
+
+          <figcaption>
+            <h2>{{ h.cards[8].title | escape }}</h2>
+            <p class="effect">{{ h.cards[8].effect | escape }}</p>
+            <a class="tutorial-link" href="/tutorials/frame-rate-conversion/">{{ h.cards[8].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="free-as-in-geese">
+          <div class="stream-player">
+          <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="free-as-in-geese-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/videos/gallery/free-as-in-geese.jpg" aria-label="{{ h.cards[9].alt | escape }}">
+            <source src="/assets/videos/gallery/free-as-in-geese/video.m3u8" type="application/vnd.apple.mpegurl">
+
+          </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="free-as-in-geese-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/free-as-in-geese/video.m3u8">Open video</a></p>
+</div>
+
+          </div>
+
+          <figcaption>
+            <h2>{{ h.cards[9].title | escape }}</h2>
+            <p class="effect">{{ h.cards[9].effect | escape }}</p>
+            <a class="tutorial-link" href="/tutorials/caption-text-effects/">{{ h.cards[9].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="hummingbird">
+          <div class="stream-player">
+          <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="hummingbird-video" controls playsinline preload="none" width="336" height="720" poster="/assets/videos/gallery/hummingbird.jpg" aria-label="{{ h.cards[10].alt | escape }}">
+            <source src="/assets/videos/gallery/hummingbird.mp4" type="video/mp4">
+
+          </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="hummingbird-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/hummingbird.mp4">Open video</a></p>
+</div>
+
+          </div>
+
+          <figcaption>
+            <h2>{{ h.cards[10].title | escape }}</h2>
+            <p class="effect">{{ h.cards[10].effect | escape }}</p>
+            <a class="tutorial-link" href="/tutorials/frame-rate-conversion/">{{ h.cards[10].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure id="harbor">
+          <div class="stream-player">
+          <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="harbor-video" controls playsinline preload="none" width="406" height="720" poster="/assets/videos/gallery/harbor.jpg" aria-label="{{ h.cards[11].alt | escape }}">
+            <source src="/assets/videos/gallery/harbor.mp4" type="video/mp4">
+
+          </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="harbor-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/harbor.mp4">Open video</a></p>
+</div>
+
+          </div>
+
+          <figcaption>
+            <h2>{{ h.cards[11].title | escape }}</h2>
+            <p class="effect">{{ h.cards[11].effect | escape }}</p>
+            <a class="tutorial-link" href="/tutorials/motion-blur/">{{ h.cards[11].action | escape }}</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="landscape">
+        <figure id="red-leaves">
+          <div class="stream-player">
+          <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="red-leaves-video" controls playsinline preload="none" width="1280" height="720" poster="/assets/videos/gallery/red-leaves.jpg" aria-label="{{ h.cards[12].alt | escape }}">
+            <source src="/assets/videos/gallery/red-leaves.mp4" type="video/mp4">
+
+          </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="red-leaves-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/red-leaves.mp4">Open video</a></p>
+</div>
+
+          </div>
+
+          <figcaption>
+            <h2>{{ h.cards[12].title | escape }}</h2>
+            <p class="effect">{{ h.cards[12].effect | escape }}</p>
+            <a class="tutorial-link" href="/tutorials/temporal-noise-reduction/">{{ h.cards[12].action | escape }}</a>
+            <p class="credit">{{ h.credit | escape }}</p>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+    <div class="download"><a class="button" href="{{ page.store_url | escape }}">{{ h.download | escape }}</a></div>
+  </main>
+  {% include localized-footer.html %}
+
+
+<script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
+<script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
+</body>
+</html>

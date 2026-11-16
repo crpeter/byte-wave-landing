@@ -1,0 +1,85 @@
+{
+  "title": "Anleitungen zur Videobearbeitung",
+  "description": "Lerne Video-Collagen, animierte Untertitel, Sticker-Keyframes, Bewegungsunschärfe und C2PA-Prüfungen mit ByteWave.",
+  "intro": "Erstelle Layouts, füge Untertitel hinzu, animiere Sticker oder prüfe eine Datei. Kurze Anleitungen zu ByteWaves Werkzeugen.",
+  "language_note": "Einige der verlinkten Anleitungen sind weiterhin nur auf Englisch verfügbar.",
+  "action": "Anleitung ansehen (Englisch)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Video-Collagen mit Layout von ByteWave",
+      "description": "Überlagere Clips, baue Raster und probiere neue Formen aus.",
+      "format": "Drei Videobeispiele",
+      "alt": "Video-Collagen mit Layout von ByteWave. Überlagere Clips, baue Raster und probiere neue Formen aus."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Animierte Untertitel hinzufügen",
+      "description": "Deine Worte auf deinem Video.",
+      "format": "Schritt-für-Schritt-Anleitung",
+      "alt": "Animierte Untertitel hinzufügen. Deine Worte auf deinem Video."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Texteffekte für Untertitel auswählen",
+      "description": "Orbital Letters, Supernova, Ember Ash und weitere Effekte.",
+      "format": "Schritt-für-Schritt-Anleitung",
+      "alt": "Texteffekte für Untertitel auswählen. Orbital Letters, Supernova, Ember Ash und weitere Effekte."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Eigene Schriftarten importieren",
+      "description": "Verwende TTF- und OTF-Schriften für Untertitel.",
+      "format": "Schritt-für-Schritt-Anleitung",
+      "alt": "Eigene Schriftarten importieren. Verwende TTF- und OTF-Schriften für Untertitel."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Sticker mit Keyframes animieren",
+      "description": "Position, Größe, Drehung und Keyframes.",
+      "format": "Schritt-für-Schritt-Anleitung",
+      "alt": "Sticker mit Keyframes animieren. Position, Größe, Drehung und Keyframes."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Bewegungsunschärfe hinzufügen",
+      "description": "Vergleiche beide Varianten und passe die Stärke des Effekts an.",
+      "format": "iPhone · 20-Sekunden-Vergleich",
+      "alt": "Bewegungsunschärfe hinzufügen. Vergleiche beide Varianten und passe die Stärke des Effekts an.",
+      "left": "Original",
+      "right": "Bewegungsunschärfe"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Bildratenumwandlung für Zeitlupe",
+      "description": "Vergleiche einen Kolibri mit 0,1-facher Geschwindigkeit.",
+      "format": "iPhone · 30-Sekunden-Vergleich",
+      "alt": "Bildratenumwandlung für Zeitlupe. Vergleiche einen Kolibri mit 0,1-facher Geschwindigkeit.",
+      "left": "Normal · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Zeitliche Rauschreduzierung",
+      "description": "Beurteile Rauschen und feine Details anhand von Beispielaufnahmen.",
+      "format": "iPhone · 8-Sekunden-Vergleich",
+      "alt": "Zeitliche Rauschreduzierung. Beurteile Rauschen und feine Details anhand von Beispielaufnahmen.",
+      "left": "Original",
+      "right": "Rauschreduzierung"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "C2PA Content Credentials prüfen",
+      "description": "Öffne den Herkunftsstatus und verstehe verifizierte KI-Deklarationen und fehlende Nachweise.",
+      "format": "Fotos und Videos · Anleitung",
+      "alt": "C2PA Content Credentials prüfen. Öffne den Herkunftsstatus und verstehe verifizierte KI-Deklarationen und fehlende Nachweise."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Standort-Metadaten entfernen",
+      "description": "Prüfe eine Arbeitskopie, entferne bearbeitbare Felder und kontrolliere die verbleibenden Angaben.",
+      "format": "Datenschutz · Anleitung",
+      "alt": "Standort-Metadaten entfernen. Prüfe eine Arbeitskopie, entferne bearbeitbare Felder und kontrolliere die verbleibenden Angaben."
+    }
+  ]
+}

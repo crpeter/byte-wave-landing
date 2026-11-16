@@ -1,0 +1,103 @@
+{
+  "title": "ByteWaveで作った作品",
+  "seo_title": "ByteWaveで作成した動画のギャラリー",
+  "description": "ByteWaveの作品を紹介。横スクロール、メビウスや波の変形、夕焼けのレイアウト、スローモーションなど。",
+  "aria_label": "ByteWaveで作った作品",
+  "note": "各エフェクトにリンクした詳しいチュートリアルは現在英語で提供しています。",
+  "open_video": "動画を開く",
+  "download": "ByteWaveを無料で入手",
+  "credit": "Appleのサンプル映像をByteWaveで編集しました。",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "夕焼け、海岸、日常の瞬間が列になって流れます。",
+      "action": "Layoutを詳しく見る（英語）",
+      "alt": "The All Scroll. 夕焼け、海岸、日常の瞬間が列になって流れます。"
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "横スクロール · メビウス",
+      "effect": "初めての横スクロールレイアウトをメビウス状に変形。",
+      "action": "Layoutを詳しく見る（英語）",
+      "alt": "横スクロール · メビウス. 初めての横スクロールレイアウトをメビウス状に変形。"
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "横スクロール · 波",
+      "effect": "波のようにゆがむ横スクロール。",
+      "action": "Layoutを詳しく見る（英語）",
+      "alt": "横スクロール · 波. 波のようにゆがむ横スクロール。"
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "夕焼けの六角形（横向き）",
+      "effect": "ByteWave Layout · 横向き。",
+      "action": "両方の向きを見る（英語）",
+      "alt": "夕焼けの六角形（横向き）. ByteWave Layout · 横向き。"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "ゆがんだ夕焼け",
+      "effect": "ByteWave Layout · 湾曲した夕焼けの帯。",
+      "action": "Layoutを詳しく見る（英語）",
+      "alt": "ゆがんだ夕焼け. ByteWave Layout · 湾曲した夕焼けの帯。"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "海辺のグリッドから砂浜へ",
+      "effect": "ByteWave Layout · 6分割から全面表示へ。",
+      "action": "Layoutを詳しく見る（英語）",
+      "alt": "海辺のグリッドから砂浜へ. ByteWave Layout · 6分割から全面表示へ。"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "夕焼けの六角形（縦向き）",
+      "effect": "ByteWave Layout · 縦向き。",
+      "action": "両方の向きを見る（英語）",
+      "alt": "夕焼けの六角形（縦向き）. ByteWave Layout · 縦向き。"
+    },
+    {
+      "id": "air-show",
+      "title": "3Dの航空ショー",
+      "effect": "アニメーションする3Dテキスト。",
+      "action": "このエフェクトを試す（英語）",
+      "alt": "3Dの航空ショー. アニメーションする3Dテキスト。"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "通常速度 → スローモーション。",
+      "action": "このエフェクトを試す（英語）",
+      "alt": "The Quadruple Dive. 通常速度 → スローモーション。"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "アニメーションテキスト。",
+      "action": "このエフェクトを試す（英語）",
+      "alt": "Free as in Geese. アニメーションテキスト。"
+    },
+    {
+      "id": "hummingbird",
+      "title": "ハチドリのスローモーション",
+      "effect": "0.1倍速 · 8倍のフレームレート変換。",
+      "action": "このエフェクトを試す（英語）",
+      "alt": "ハチドリのスローモーション. 0.1倍速 · 8倍のフレームレート変換。"
+    },
+    {
+      "id": "harbor",
+      "title": "港にて",
+      "effect": "モーションブラー。",
+      "action": "このエフェクトを試す（英語）",
+      "alt": "港にて. モーションブラー。"
+    },
+    {
+      "id": "red-leaves",
+      "title": "赤い葉",
+      "effect": "時間方向ノイズ除去。",
+      "action": "このエフェクトを試す（英語）",
+      "alt": "赤い葉. 時間方向ノイズ除去。"
+    }
+  ]
+}

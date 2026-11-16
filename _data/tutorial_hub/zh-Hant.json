@@ -1,0 +1,85 @@
+{
+  "title": "影片編輯教學",
+  "description": "學習在 ByteWave 製作影片拼貼、動態字幕、貼圖關鍵影格、動態模糊，以及 C2PA 內容查證。",
+  "intro": "建立 Layout、加入字幕、讓貼圖動起來或檢查檔案。用簡短教學認識 ByteWave 的工具。",
+  "language_note": "部分連結的教學目前仍僅提供英文版本。",
+  "action": "查看教學（英文）",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "使用 ByteWave Layout 製作影片拼貼",
+      "description": "疊加片段、建立網格，試試不同形狀。",
+      "format": "三段影片範例",
+      "alt": "使用 ByteWave Layout 製作影片拼貼。疊加片段、建立網格，試試不同形狀。"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "加入動態字幕",
+      "description": "自己的文字，放在自己的影片上。",
+      "format": "文字教學",
+      "alt": "加入動態字幕。自己的文字，放在自己的影片上。"
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "選擇字幕文字特效",
+      "description": "Orbital Letters、Supernova、Ember Ash 等效果。",
+      "format": "文字教學",
+      "alt": "選擇字幕文字特效。Orbital Letters、Supernova、Ember Ash 等效果。"
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "匯入自己的字型",
+      "description": "在字幕中使用 TTF 和 OTF 字型。",
+      "format": "文字教學",
+      "alt": "匯入自己的字型。在字幕中使用 TTF 和 OTF 字型。"
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "使用關鍵影格讓貼圖動起來",
+      "description": "設定位置、大小、旋轉與關鍵影格。",
+      "format": "文字教學",
+      "alt": "使用關鍵影格讓貼圖動起來。設定位置、大小、旋轉與關鍵影格。"
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "為影片加入動態模糊",
+      "description": "左右比較效果並調整模糊程度。",
+      "format": "iPhone · 20 秒比較",
+      "alt": "為影片加入動態模糊。左右比較效果並調整模糊程度。",
+      "left": "原始畫面",
+      "right": "動態模糊"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "慢動作影格率轉換",
+      "description": "比較 0.1 倍速的蜂鳥影片。",
+      "format": "iPhone · 30 秒比較",
+      "alt": "慢動作影格率轉換。比較 0.1 倍速的蜂鳥影片。",
+      "left": "一般 · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "時間性降噪",
+      "description": "比較範例影片中的雜訊與細節。",
+      "format": "iPhone · 8 秒比較",
+      "alt": "時間性降噪。比較範例影片中的雜訊與細節。",
+      "left": "原始畫面",
+      "right": "降低雜訊"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "檢查 C2PA Content Credentials",
+      "description": "開啟來源標記，了解已驗證的 AI 聲明與證據不足的意義。",
+      "format": "照片與影片 · 教學",
+      "alt": "檢查 C2PA Content Credentials。開啟來源標記，了解已驗證的 AI 聲明與證據不足的意義。"
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "移除位置中繼資料",
+      "description": "檢查工作副本、移除可編輯欄位，並查看分享前保留的內容。",
+      "format": "隱私權 · 文字教學",
+      "alt": "移除位置中繼資料。檢查工作副本、移除可編輯欄位，並查看分享前保留的內容。"
+    }
+  ]
+}

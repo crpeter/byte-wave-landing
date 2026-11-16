@@ -1,0 +1,85 @@
+{
+  "title": "Poradniki montażu wideo",
+  "description": "Naucz się tworzyć kolaże wideo, animowane napisy, naklejki z klatkami kluczowymi, rozmycie ruchu i kontrole C2PA w ByteWave.",
+  "intro": "Stwórz układ, dodaj napisy, animuj naklejki lub sprawdź plik. Krótkie poradniki o narzędziach ByteWave.",
+  "language_note": "Niektóre z podlinkowanych poradników są nadal dostępne tylko po angielsku.",
+  "action": "Zobacz poradnik (po angielsku)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Kolaże wideo z Layout od ByteWave",
+      "description": "Nakładaj klipy, twórz siatki i próbuj nowych kształtów.",
+      "format": "Trzy przykłady wideo",
+      "alt": "Kolaże wideo z Layout od ByteWave. Nakładaj klipy, twórz siatki i próbuj nowych kształtów."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Dodaj animowane napisy",
+      "description": "Twoje słowa na twoim filmie.",
+      "format": "Poradnik tekstowy",
+      "alt": "Dodaj animowane napisy. Twoje słowa na twoim filmie."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Wybierz efekty tekstowe napisów",
+      "description": "Orbital Letters, Supernova, Ember Ash i inne.",
+      "format": "Poradnik tekstowy",
+      "alt": "Wybierz efekty tekstowe napisów. Orbital Letters, Supernova, Ember Ash i inne."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importuj własne czcionki",
+      "description": "Używaj czcionek TTF i OTF w napisach.",
+      "format": "Poradnik tekstowy",
+      "alt": "Importuj własne czcionki. Używaj czcionek TTF i OTF w napisach."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animuj naklejki klatkami kluczowymi",
+      "description": "Położenie, wielkość, obrót i klatki kluczowe.",
+      "format": "Poradnik tekstowy",
+      "alt": "Animuj naklejki klatkami kluczowymi. Położenie, wielkość, obrót i klatki kluczowe."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Dodaj rozmycie ruchu do wideo",
+      "description": "Porównaj wynik i dostosuj natężenie rozmycia.",
+      "format": "iPhone · Porównanie 20 s",
+      "alt": "Dodaj rozmycie ruchu do wideo. Porównaj wynik i dostosuj natężenie rozmycia.",
+      "left": "Oryginał",
+      "right": "Rozmycie ruchu"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Konwersja liczby klatek dla zwolnionego tempa",
+      "description": "Porównaj nagranie kolibra spowolnione do 0,1×.",
+      "format": "iPhone · Porównanie 30 s",
+      "alt": "Konwersja liczby klatek dla zwolnionego tempa. Porównaj nagranie kolibra spowolnione do 0,1×.",
+      "left": "Zwykłe · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Czasowa redukcja szumów",
+      "description": "Porównaj szum i drobne szczegóły na przykładowym nagraniu.",
+      "format": "iPhone · Porównanie 8 s",
+      "alt": "Czasowa redukcja szumów. Porównaj szum i drobne szczegóły na przykładowym nagraniu.",
+      "left": "Oryginał",
+      "right": "Redukcja szumów"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Sprawdź C2PA Content Credentials",
+      "description": "Otwórz oznaczenie pochodzenia i dowiedz się, co oznaczają zweryfikowane deklaracje AI i brak dowodów.",
+      "format": "Zdjęcia i filmy · Poradnik",
+      "alt": "Sprawdź C2PA Content Credentials. Otwórz oznaczenie pochodzenia i dowiedz się, co oznaczają zweryfikowane deklaracje AI i brak dowodów."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Usuń metadane lokalizacji",
+      "description": "Sprawdź kopię roboczą, usuń edytowalne pola i zobacz, co pozostaje.",
+      "format": "Prywatność · Poradnik",
+      "alt": "Usuń metadane lokalizacji. Sprawdź kopię roboczą, usuń edytowalne pola i zobacz, co pozostaje."
+    }
+  ]
+}
