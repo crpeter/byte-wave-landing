@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-guide",
+    "updatedLabel": "Uppdaterad",
+    "updatedDate": "28 september 2026",
+    "relatedLabel": "Relaterade guider"
+  },
+  "animatedCaptions": {
+    "title": "Lägg till animerade undertexter i ByteWave",
+    "description": "Lägg till text i din video, välj en animationseffekt och placera texten i ByteWave. Kort guide för iPhone, iPad och Mac.",
+    "lead": "Lägg till dina egna ord i videon och ge dem en animerad effekt.",
+    "stepsHeading": "Lägg till en textning",
+    "step1": "Öppna din video i ByteWave och lägg till en textning.",
+    "step2": "Skriv din text och välj textningen för att ändra utseendet.",
+    "step3": "Välj typsnitt, storlek och färg. Placera texten över videon.",
+    "step4": "Välj en texteffekt och spela upp videon för att förhandsgranska animationen.",
+    "readabilityHeading": "Gör texten lättläst",
+    "readabilityText": "Använd en kort fras och en färg som syns mot videon. Se till att animationen ger tillräckligt med tid att läsa.",
+    "relatedIntro": "Vill du ha ett särskilt uttryck? ",
+    "relatedAnchor": "Guiden till texteffekter (på engelska)",
+    "relatedTail": "beskriver effekter som Orbital Letters och Ember Ash.",
+    "relatedSticker": "Animera ett klistermärke"
+  },
+  "animateStickers": {
+    "title": "Animera klistermärken med nyckelrutor i ByteWave",
+    "description": "Få ett klistermärke att röra sig i videon. Använd tidsinställningar och nyckelrutor för position, storlek och rotation i ByteWave.",
+    "lead": "Använd nyckelrutor för att flytta, ändra storlek på eller rotera ett klistermärke över tid.",
+    "stepsHeading": "Ställ in rörelsen",
+    "step1": "Lägg till ett klistermärke i videon och välj det.",
+    "step2": "Ange när det ska visas med tidsinställningarna.",
+    "step3": "Spara startposition, storlek och rotation med nyckelrutorna.",
+    "step4": "Flytta till en senare tidpunkt och lägg in en ny nyckelruta med annan position, storlek eller rotation.",
+    "step5": "Spela upp videon för att se rörelsen mellan rutorna.",
+    "readabilityHeading": "Börja med två nyckelrutor",
+    "readabilityText": "Prova att flytta klistermärket från ena sidan av bilden till den andra. Lägg sedan till en storleksändring eller rotation.",
+    "relatedCaption": "Lägg till animerade undertexter",
+    "relatedLayout": "Skapa ett videokollage (på engelska)"
+  }
+}
