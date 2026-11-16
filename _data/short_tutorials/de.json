@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-Anleitung",
+    "updatedLabel": "Aktualisiert am",
+    "updatedDate": "16. November 2026",
+    "relatedLabel": "Verwandte Anleitungen"
+  },
+  "captionEffects": {
+    "title": "Texteffekte für Untertitel in ByteWave",
+    "description": "Wähle einen Texteffekt für deine Untertitel in ByteWave, sieh dir die Animation an und probiere Orbital Letters, Supernova und Ember Ash.",
+    "lead": "Probiere einen Effekt mit deinen eigenen Worten aus. Sieh ihn dir vor dem Export über deinen Aufnahmen an.",
+    "stepsHeading": "Einen Effekt auswählen",
+    "step1": "Wähle einen Untertitel in deinem ByteWave-Projekt aus.",
+    "step2": "Öffne die Texteffekte und wähle eine Vorlage.",
+    "step3": "Spiele das Video ab, um den Effekt in Bewegung zu sehen.",
+    "presetsHeading": "Drei Effekte zum Ausprobieren",
+    "tip": "Verwende für jeden Effekt denselben kurzen Satz. Passe Schrift, Größe und Farbe an deine Aufnahmen an.",
+    "fromScratch": "Fängst du gerade erst an?",
+    "firstCaption": "Füge deinen ersten Untertitel hinzu",
+    "fontsPrompt": "Möchtest du eine andere Schriftart?",
+    "importFont": "Importiere deine eigene Schrift",
+    "relatedSticker": "Sticker animieren"
+  },
+  "customFonts": {
+    "title": "Deine Schriftarten brauchen kein Abo.",
+    "description": "Importiere eigene TTF- oder OTF-Schriften in ByteWave auf dem iPhone. Wähle eine Datei und verwende My Fonts, um deine Untertitel kostenlos zu gestalten.",
+    "lead": "Verwende eigene Schriftarten für deine Videos. Der Import in ByteWave ist kostenlos.",
+    "stepsHeading": "Schriftart auf dem iPhone importieren",
+    "step1": "Speichere eine TrueType- (.ttf) oder OpenType-Datei (.otf) in der App Dateien. Entpacke eine ZIP-Datei vorher.",
+    "step2": "Wähle einen Untertitel in deinem ByteWave-Projekt und öffne die Schrift-Einstellungen Font.",
+    "step3": "Tippe auf Import font und wähle die Schriftdatei.",
+    "step4": "Du findest sie unter My Fonts. Tippe darauf, um sie deinem Untertitel zuzuweisen.",
+    "preview": "Spiele das Video zur Textkontrolle ab, passe Größe und Farbe an und exportiere.",
+    "unsupportedHeading": "Datei nicht auswählbar?",
+    "unsupported": "Wähle die eigentliche .ttf- oder .otf-Datei. Webschriften wie .woff und .woff2 werden nicht unterstützt.",
+    "startPrompt": "Du startest mit einem leeren Projekt?",
+    "firstCaption": "Füge deinen ersten Untertitel hinzu",
+    "effectsPrompt": "Probiere anschließend",
+    "effectsLink": "Texteffekte für Untertitel",
+    "license": "ByteWave berechnet keine Gebühr für den Schriftimport. Die Schrift selbst kann kostenpflichtig oder lizenziert sein; prüfe die Bedingungen des Urhebers."
+  }
+}
