@@ -84,6 +84,11 @@
     <style>
       /* A long localized card title must not establish the grid track's minimum width. */
       @media (max-width: 768px) {
+        .site-editorial main > h1, .site-editorial main > .intro {
+          max-width: 100%;
+          overflow-wrap: anywhere;
+          hyphens: auto;
+        }
         .tutorial-grid { grid-template-columns: minmax(0, 1fr); min-width: 0; }
         .tutorial-grid > li, .tutorial-card, .card-copy { min-width: 0; max-width: 100%; }
         .tutorial-card :is(h2, .description, .format) { overflow-wrap: anywhere; }
