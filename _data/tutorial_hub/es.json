@@ -1,0 +1,85 @@
+{
+  "title": "Tutoriales de edición de video",
+  "description": "Aprende a crear composiciones, animar subtítulos y stickers, aplicar desenfoque y verificar credenciales con ByteWave.",
+  "intro": "Crea composiciones, añade subtítulos, anima stickers o verifica archivos. Una colección de guías breves sobre ByteWave.",
+  "language_note": "Las guías individuales enlazadas están disponibles en inglés.",
+  "action": "Ver guía (en inglés)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Composiciones con Layout de ByteWave",
+      "description": "Superpón clips, crea cuadrículas y prueba nuevas formas.",
+      "format": "Tres ejemplos en video",
+      "alt": "Composiciones con Layout de ByteWave. Superpón clips, crea cuadrículas y prueba nuevas formas."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Añadir subtítulos animados",
+      "description": "Tus palabras sobre tu video.",
+      "format": "Guía escrita",
+      "alt": "Añadir subtítulos animados. Tus palabras sobre tu video."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Elegir efectos de texto para subtítulos",
+      "description": "Orbital Letters, Supernova, Ember Ash y más.",
+      "format": "Guía escrita",
+      "alt": "Elegir efectos de texto para subtítulos. Orbital Letters, Supernova, Ember Ash y más."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importar tus propias fuentes",
+      "description": "Usa fuentes TTF y OTF en los subtítulos.",
+      "format": "Guía escrita",
+      "alt": "Importar tus propias fuentes. Usa fuentes TTF y OTF en los subtítulos."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animar stickers con fotogramas clave",
+      "description": "Posición, tamaño, rotación y fotogramas clave.",
+      "format": "Guía escrita",
+      "alt": "Animar stickers con fotogramas clave. Posición, tamaño, rotación y fotogramas clave."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Aplicar desenfoque de movimiento",
+      "description": "Compara resultados lado a lado y ajusta la intensidad del desenfoque.",
+      "format": "iPhone · Comparación de 20 s",
+      "alt": "Aplicar desenfoque de movimiento. Compara resultados lado a lado y ajusta la intensidad del desenfoque.",
+      "left": "Original",
+      "right": "Desenfoque de movimiento"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Conversión de fotogramas para cámara lenta",
+      "description": "Compara un colibrí a 0,1× y observa cómo cambia el movimiento.",
+      "format": "iPhone · Comparación de 30 s",
+      "alt": "Conversión de fotogramas para cámara lenta. Compara un colibrí a 0,1× y observa cómo cambia el movimiento.",
+      "left": "Normal · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Reducción temporal de ruido",
+      "description": "Compara ruido y detalle fino en imágenes de ejemplo.",
+      "format": "iPhone · Comparación de 8 s",
+      "alt": "Reducción temporal de ruido. Compara ruido y detalle fino en imágenes de ejemplo.",
+      "left": "Original",
+      "right": "Reducción de ruido"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Verificar credenciales C2PA",
+      "description": "Abre la insignia de procedencia y comprende qué significan las declaraciones verificadas y las pruebas ausentes.",
+      "format": "Fotos y videos · Guía escrita",
+      "alt": "Verificar credenciales C2PA. Abre la insignia de procedencia y comprende qué significan las declaraciones verificadas y las pruebas ausentes."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Eliminar metadatos de ubicación",
+      "description": "Revisa una copia de trabajo, elimina campos editables y comprueba qué queda antes de compartir.",
+      "format": "Privacidad · Guía escrita",
+      "alt": "Eliminar metadatos de ubicación. Revisa una copia de trabajo, elimina campos editables y comprueba qué queda antes de compartir."
+    }
+  ]
+}
