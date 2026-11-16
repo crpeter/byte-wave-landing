@@ -27,7 +27,8 @@ function test(ok, label, result) {
  if (!ok) issues.push({label,result});
 }
 (async () => {
- const browser = await chromium.launch({headless:true,args:['--no-sandbox']});
+ const chrome = ['/usr/bin/google-chrome', '/usr/bin/google-chrome-stable'].find(file => fs.existsSync(file));
+ const browser = await chromium.launch({headless:true, executablePath:chrome, args:['--no-sandbox']});
  const page = await browser.newPage();
  try {
   for (const [lang, slug] of locales) {
@@ -182,8 +183,15 @@ function test(ok, label, result) {
   await page.goto(ORIGIN+'/de/layout/', {waitUntil:'domcontentloaded'});
   const demo = page.locator('#layout-sunset-hexagons-portrait-video');
   await page.locator('.bw-play[aria-controls="layout-sunset-hexagons-portrait-video"]').click();
-  await page.waitForFunction(() => document.querySelector('#layout-sunset-hexagons-portrait-video').currentTime > 0, null, {timeout: 40000});
-  test(await demo.evaluate(v => v.controls && !v.paused), 'Layout portrait demo plays with native controls after activation');
+  await page.waitForFunction(() => document.querySelector('#layout-sunset-hexagons-portrait-video').currentTime > 0,
+    null, {timeout: 40000}).catch(error => { if (error.name !== 'TimeoutError') throw error; });
+  const playback = await demo.evaluate(v => ({
+   time:v.currentTime, controls:v.controls, paused:v.paused, source:v.currentSrc,
+   error:v.error?.message, readyState:v.readyState, mp4:v.canPlayType('video/mp4; codecs="avc1.42E01E"'),
+   status:v.closest('.bw-player').querySelector('[role="status"]').textContent
+  }));
+  test(playback.time > 0 && playback.controls && !playback.paused,
+       'Layout portrait demo plays with native controls after activation', playback);
   await page.goto(ORIGIN+'/de/about.html',{waitUntil:'domcontentloaded'});
   await page.locator('.site-language > summary').click();
   await page.locator('.site-language a[href="/ja/about.html"]').click();
