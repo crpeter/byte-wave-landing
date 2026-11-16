@@ -3,6 +3,7 @@
 <a href="{{ variant.url | relative_url }}" lang="{{ variant.lang }}" hreflang="{{ variant.lang }}"{% if variant.lang == page.lang %} aria-current="page"{% endif %}>{{ site.data.i18n[variant.lang].name | escape }}</a>
 {% endfor -%}
 {% endcapture -%}
+{%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
 {% capture primary_links -%}
 <a href="{{ home.url | relative_url }}#features">{{ t.nav.features | escape }}</a>
 <a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
@@ -24,7 +25,7 @@
         <summary>{{ t.nav.menu | escape }}</summary>
         <div class="site-menu-links">
             {{ primary_links }}
-            <a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>
+            <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
             <a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>
             <a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>
             <div class="site-menu-languages">
