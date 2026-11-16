@@ -1,3 +1,11 @@
+---
+lang: en
+translation_key: free-expression
+store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=site_free_expression_en&mt=8
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,7 +13,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Free Expression & Appeals - ByteWave</title>
   <meta name="description" content="ByteWave will not censor constitutionally protected expression. Read our commitment, moderation boundaries, and how to appeal a decision.">
-  <link rel="canonical" href="https://bytewaveai.com/free-expression.html">
+  {% include localized-alternates.html %}
   <meta property="og:type" content="website">
   <meta property="og:title" content="Free Expression & Appeals - ByteWave">
   <meta property="og:description" content="ByteWave will not censor constitutionally protected expression. Read our commitment, moderation boundaries, and how to appeal a decision.">
@@ -28,29 +36,10 @@
   {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://bytewaveai.com/#organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":"https://bytewaveai.com/logo.png"},{"@type":"WebPage","@id":"https://bytewaveai.com/free-expression.html#page","url":"https://bytewaveai.com/free-expression.html","name":"Free Expression & Appeals - ByteWave","description":"ByteWave will not censor constitutionally protected expression. Read our commitment, moderation boundaries, and how to appeal a decision.","publisher":{"@id":"https://bytewaveai.com/#organization"}}]}
   </script>
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+{% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-<a class="site-skip" href="#main">Skip to content</a>
-<nav class="site-nav" aria-label="Main navigation">
-    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
-    <div class="site-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a></div>
-    <details class="site-menu">
-        <summary>Menu</summary>
-        <div class="site-menu-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/free-expression.html">Free expression</a></div>
-    </details>
-    <a class="site-download" href="https://apps.apple.com/us/app/bytewave/id6752225642">Download Free</a>
-</nav>
+{% include localized-nav.html %}
 <main id="main"><article>
     <p class="eyebrow">Our commitment · October 18, 2026</p>
     <h1>Your voice does not need our agreement.</h1>
