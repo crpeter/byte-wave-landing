@@ -1,0 +1,154 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign locale_data = site.data.comparison_tutorials[page.lang] -%}
+{%- assign c = locale_data.common -%}
+{%- assign g = locale_data[page.guide] -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
+{%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+{%- assign motion_page = site.pages | where: "translation_key", "creation-motion-blur" | where: "lang", page.lang | first -%}
+{%- assign frc_page = site.pages | where: "translation_key", "creation-frame-rate-conversion" | where: "lang", page.lang | first -%}
+{%- if page.guide == 'motionBlur' -%}
+  {%- assign video_src = '/assets/videos/comparison.mp4' -%}
+  {%- assign video_poster = '/assets/videos/motion-blur-comparison-poster.jpg' -%}
+  {%- assign video_id = 'demo-video-10' -%}
+  {%- assign video_width = 1216 -%}
+  {%- assign video_height = 1080 -%}
+{%- elsif page.guide == 'frameRate' -%}
+  {%- assign video_src = '/assets/videos/hummingbird-comparison.mp4' -%}
+  {%- assign video_poster = '/assets/videos/hummingbird-comparison-poster.jpg' -%}
+  {%- assign video_id = 'comparison-video' -%}
+  {%- assign video_width = 672 -%}
+  {%- assign video_height = 720 -%}
+{%- else -%}
+  {%- assign video_src = '/assets/videos/temporal-noise-comparison.mp4' -%}
+  {%- assign video_poster = '/assets/videos/temporal-noise-comparison-poster.jpg' -%}
+  {%- assign video_id = 'comparison-video' -%}
+  {%- assign video_width = 2560 -%}
+  {%- assign video_height = 720 -%}
+{%- endif -%}
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ g.title | escape }} - {{ t.name | escape }} - ByteWave</title>
+<meta name="description" content="{{ g.description | escape }}">
+{% include localized-alternates.html %}
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ g.title | escape }}">
+<meta property="og:description" content="{{ g.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+<meta property="og:site_name" content="ByteWave">
+<meta property="og:image" content="{{ page.social_image | absolute_url | escape }}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ g.aria | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ g.title | escape }}">
+<meta name="twitter:description" content="{{ g.description | escape }}">
+<meta name="twitter:image" content="{{ page.social_image | absolute_url | escape }}">
+<meta name="twitter:image:alt" content="{{ g.aria | escape }}">
+<meta property="article:published_time" content="{{ page.published_on }}">
+<meta property="article:modified_time" content="{{ page.updated_on }}">
+<link rel="icon" href="/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+    *,*::before,*::after{box-sizing:border-box}body{margin:0;background:#050508;color:#e8e6f0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.75}a{color:#789ae2}a:focus-visible{outline:3px solid #00c8ff;outline-offset:4px}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;color:#000;padding:.6rem;z-index:20}nav{position:sticky;top:0;background:rgba(5,5,8,.94);border-bottom:1px solid #262633;padding:.9rem 5%;display:flex;justify-content:space-between;gap:1rem;z-index:10}.logo{font-weight:800;text-decoration:none}.links{display:flex;gap:1.2rem;flex-wrap:wrap}.links a{color:#bbb8ca;text-decoration:none}main{max-width:780px;margin:auto;padding:4rem 1.5rem}h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.08;letter-spacing:-.035em}h2{margin-top:2.6rem;line-height:1.25}p,li{color:#aaa7bb}.eyebrow{color:#789ae2;text-transform:uppercase;letter-spacing:.17em;font-size:.75rem;font-weight:750}.meta,.disclosure{font-size:.92rem;color:#858197}.disclosure,.thesis,.callout{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}.thesis{border-color:#789ae2;font-size:1.15rem;color:#e8e6f0}.loop{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:1.5rem 0}.loop div{padding:1rem;border:1px solid #292838;border-radius:10px;background:#0c0c12;color:#aaa7bb}.loop strong{display:block;color:#e8e6f0}.sources li{margin:.7rem 0}footer{border-top:1px solid #22212e;padding:2.5rem 5%;color:#858197}@media(max-width:700px){.links a:not(:last-child){display:none}main{padding-top:2.5rem}.loop{grid-template-columns:1fr}}
+    figure{margin:1.5rem 0}video{display:block;width:100%;height:auto;background:#000;border:1px solid #292838;border-radius:10px}.comparison-labels{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;text-align:center;font-size:.85rem;font-weight:700;margin-bottom:.5rem}.comparison-labels span:last-child{color:#aac4ff}figcaption{font-size:.9rem;color:#aaa7bb;margin-top:.7rem}.steps li{margin:1rem 0}.steps strong{color:#e8e6f0}.button{display:inline-block;background:#789ae2;color:#050508;padding:.7rem 1.1rem;border-radius:8px;font-weight:700;text-decoration:none}.quick-links{display:flex;flex-wrap:wrap;gap:1rem}
+  @media(max-width:700px){.links{column-gap:.75rem;justify-content:flex-end}.links a.tutorials-link{display:inline}}
+  </style>
+{% include localized-nav-styles.html %}
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@graph":[
+  {"@type":"TechArticle",
+   "headline":{{ g.title | jsonify }},
+   "description":{{ g.description | jsonify }},
+   "url":{{ page.url | absolute_url | jsonify }},
+   "mainEntityOfPage":{{ page.url | absolute_url | jsonify }},
+   "inLanguage":{{ page.lang | jsonify }},
+   "datePublished":{{ page.published_on | jsonify }},
+   "dateModified":{{ page.updated_on | jsonify }},
+   "author":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/about.html"},
+   "publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":{"@type":"ImageObject","url":"https://bytewaveai.com/logo.png"}},
+   "image":{{ page.social_image | absolute_url | jsonify }},
+   "isPartOf":{"@type":"CollectionPage","name":"ByteWave Tutorials","url":"https://bytewaveai.com/tutorials/"}},
+  {"@type":"BreadcrumbList","itemListElement":[
+   {"@type":"ListItem","position":1,"name":{{ t.nav.home | jsonify }},"item":{{ home.url | absolute_url | jsonify }}},
+   {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":"https://bytewaveai.com/tutorials/"},
+   {"@type":"ListItem","position":3,"name":{{ g.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
+  ]}
+ ]
+}
+</script>
+<link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
+<link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main id="main"><article>
+  <p class="eyebrow"><a href="{{ site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | map: 'url' | first | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a> / {{ g.title | escape }}</p>
+  <h1>{{ g.title | escape }}</h1>
+  <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | relative_url }}">ByteWave</a> · {{ site.data.creation_tutorials[page.lang].common.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ site.data.creation_tutorials[page.lang].common.updatedDate | escape }}</time></p>
+  <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ t.disclosure.review | escape }}</p>
+  <p>{{ g.intro | escape }}</p>
+  <p class="quick-links">
+    {% if page.guide == 'motionBlur' %}<a href="#steps">{{ c.jump | escape }}</a>{% endif %}
+    <a href="#comparison">{{ c.watch | escape }}</a>
+    {% unless page.guide == 'motionBlur' %}<a href="#{% if page.guide == 'frameRate' %}settings{% else %}steps{% endif %}">{{ c.try | escape }}</a>{% endif %}
+    <a href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a>
+  </p>
+
+  <h2 id="comparison">{{ g.comparisonTitle | escape }}</h2>
+  <figure>
+    <div class="comparison-labels" aria-hidden="true"><span>{{ g.left | escape }}</span><span>{{ g.right | escape }}</span></div>
+    <div class="bw-player">
+      <div class="bw-media">
+        <video data-bw-player id="{{ video_id }}" controls playsinline preload="none" width="{{ video_width }}" height="{{ video_height }}" poster="{{ video_poster }}" aria-label="{{ g.aria | escape }}" aria-describedby="comparison-description">
+          <source src="{{ video_src }}" type="video/mp4">
+          {{ c.fallback | escape }}
+        </video>
+        <button class="bw-play" type="button" aria-label="{{ c.playVideo | escape }}" aria-controls="{{ video_id }}" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+      </div>
+      <p class="bw-video-status" role="status"></p>
+      <p class="bw-video-link"><a href="{{ video_src }}">{{ c.openVideo | escape }}</a></p>
+    </div>
+    <figcaption id="comparison-description">{{ g.caption | escape }}</figcaption>
+  </figure>
+
+  {% if page.guide == 'motionBlur' %}
+    <p>{{ g.observe | escape }}</p>
+    <h2 id="steps">{{ g.stepsTitle | escape }}</h2>
+    <ol class="steps"><li>{{ g.step1 | escape }}</li><li>{{ g.step2 | escape }}</li><li>{{ g.step3 | escape }}</li><li>{{ g.step4 | escape }}</li><li>{{ g.step5 | escape }}</li></ol>
+    <p>{{ g.exportNote | escape }}</p>
+    <h2>{{ g.strengthTitle | escape }}</h2>
+    <p>{{ g.strength1 | escape }}</p><p>{{ g.strength2 | escape }}</p>
+    <h2>{{ g.differenceTitle | escape }}</h2>
+    <p>{{ g.differenceText | escape }} <a href="{{ frc_page.url | relative_url }}">{{ g.frcLink | escape }}</a>.</p>
+    <h2>{{ g.freeTitle | escape }}</h2>
+    <p>{{ g.privacyText | escape }} <a href="{{ privacy_page.url | relative_url }}">{{ g.privacyLink | escape }}</a>.</p>
+  {% elsif page.guide == 'frameRate' %}
+    <h2 id="settings">{{ g.stepsTitle | escape }}</h2>
+    <ol class="steps"><li>{{ g.step1 | escape }}</li><li>{{ g.step2 | escape }}</li><li>{{ g.step3 | escape }}</li></ol>
+    <p>{{ g.warp | escape }}</p>
+    <p>{{ g.relatedIntro | escape }} <a href="{{ motion_page.url | relative_url }}">{{ g.motionLink | escape }}</a>.</p>
+  {% else %}
+    <h2 id="steps">{{ g.stepsTitle | escape }}</h2>
+    <ol class="steps"><li>{{ g.step1 | escape }}</li><li>{{ g.step2 | escape }}</li><li>{{ g.step3 | escape }}</li></ol>
+    <p id="look-for">{{ g.lookFor | escape }}</p>
+    <p>{{ g.relatedIntro | escape }} <a href="{{ motion_page.url | relative_url }}">{{ g.motionLink | escape }}</a> / <a href="{{ frc_page.url | relative_url }}">{{ g.frcLink | escape }}</a>.</p>
+  {% endif %}
+
+  <div class="callout">
+    <p><strong>{{ g.cta | escape }}</strong></p>
+    <a class="button" href="{{ page.store_url | escape }}">{{ c.download | escape }}</a>
+  </div>
+</article></main>
+{% include localized-footer.html %}
+<script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
+<script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
+</body>
+</html>
