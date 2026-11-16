@@ -27,7 +27,7 @@ Podemos eliminar contenido ilegal, amenazas reales y fraudes. El spam, el acceso
 
 Criticar a una empresa, documentar una protesta pacífica o discrepar de nosotros no constituye, por sí solo, spam ni una amenaza.
 
-## Apela una decisión. {#appeal}
+<h2 id="appeal">Apela una decisión.</h2>
 
 Envía un correo electrónico a [cpeter@codyworks.org](mailto:cpeter@codyworks.org?subject=ByteWave%20moderation%20appeal) con el asunto «ByteWave moderation appeal». Incluye tu nombre de usuario, el video o la cuenta afectados, cualquier aviso recibido y por qué crees que la decisión fue incorrecta. Nunca envíes tu contraseña.
 
