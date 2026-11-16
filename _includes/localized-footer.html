@@ -1,3 +1,4 @@
+{%- assign localized_privacy = site.pages | where: "translation_key", "privacy" | where: "lang", page.lang | first -%}
 {%- assign localized_gallery = site.pages | where: "translation_key", "gallery" | where: "lang", page.lang | first -%}
 {%- assign localized_tutorials = site.pages | where: "translation_key", "tutorials" | where: "lang", page.lang | first -%}
 {%- assign localized_about = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
@@ -10,7 +11,7 @@
         <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
         {% if localized_about %}<a href="{{ localized_about.url | relative_url }}">{{ t.nav.about | escape }}</a>{% else %}<a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>{% endif %}
         <a href="/press.html" hreflang="en">{{ t.nav.press | escape }}</a>
-        <a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>
+        {% if localized_privacy %}<a href="{{ localized_privacy.url | relative_url }}">{{ t.nav.privacy | escape }}</a>{% else %}<a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>{% endif %}
         {% if localized_expression %}<a href="{{ localized_expression.url | relative_url }}">{{ t.nav.expression | escape }}</a>{% else %}<a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>{% endif %}
     </div>
     <p>© 2026 ByteWave. {{ t.footer.motto | escape }}</p>
