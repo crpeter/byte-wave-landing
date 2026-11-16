@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-Anleitung",
+    "updatedLabel": "Aktualisiert am",
+    "updatedDate": "28. September 2026",
+    "relatedLabel": "Verwandte Anleitungen"
+  },
+  "animatedCaptions": {
+    "title": "Animierte Untertitel in ByteWave hinzufügen",
+    "description": "Füge deinem Video Text hinzu, wähle einen Animationseffekt und positioniere die Untertitel mit ByteWave. Kurzanleitung für iPhone, iPad und Mac.",
+    "lead": "Füge einem Video deinen eigenen Text und einen animierten Effekt hinzu.",
+    "stepsHeading": "Untertitel hinzufügen",
+    "step1": "Öffne dein Video in ByteWave und füge einen Untertitel hinzu.",
+    "step2": "Gib den Text ein und wähle den Untertitel aus, um seinen Stil zu bearbeiten.",
+    "step3": "Wähle Schriftart, Größe und Farbe und platziere den Text im Video.",
+    "step4": "Wähle einen Texteffekt und spiele das Video ab, um die Animation anzusehen.",
+    "readabilityHeading": "Auf Lesbarkeit achten",
+    "readabilityText": "Verwende kurze Formulierungen und eine Farbe mit gutem Kontrast zum Bild. Die Animation sollte genügend Zeit zum Lesen lassen.",
+    "relatedIntro": "Suchst du einen bestimmten Look? Die",
+    "relatedAnchor": "Anleitung für Texteffekte (auf Englisch)",
+    "relatedTail": "zeigt Vorlagen wie Orbital Letters und Ember Ash.",
+    "relatedSticker": "Sticker animieren"
+  },
+  "animateStickers": {
+    "title": "Sticker in ByteWave mit Keyframes animieren",
+    "description": "Bewege einen Sticker in deinem Video. Verwende Zeitsteuerung und Keyframes, um Position, Größe und Drehung in ByteWave zu ändern.",
+    "lead": "Verwende Keyframes, um einen Sticker im Laufe des Videos zu verschieben, zu skalieren oder zu drehen.",
+    "stepsHeading": "Bewegung einrichten",
+    "step1": "Füge deinem Video einen Sticker hinzu und wähle ihn aus.",
+    "step2": "Lege mit den Zeitsteuerungen fest, wann er erscheint.",
+    "step3": "Erfasse mit Keyframes seine Ausgangsposition, Größe und Drehung.",
+    "step4": "Springe zu einem späteren Zeitpunkt und setze einen weiteren Keyframe mit anderer Position, Größe oder Drehung.",
+    "step5": "Spiele das Video ab, um die Bewegung dazwischen zu prüfen.",
+    "readabilityHeading": "Mit zwei Keyframes beginnen",
+    "readabilityText": "Verschiebe einen Sticker von einer Bildseite zur anderen. Wenn das gut aussieht, füge eine Größenänderung oder Drehung hinzu.",
+    "relatedCaption": "Animierte Untertitel hinzufügen",
+    "relatedLayout": "Videocollage erstellen (auf Englisch)"
+  }
+}
