@@ -1,10 +1,11 @@
+{%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
 <footer class="site-footer">
     <div class="site-footer-links">
         <a href="{{ home.url | relative_url }}">{{ t.nav.home | escape }}</a>
         <a href="/gallery/" hreflang="en">{{ t.nav.gallery | escape }}</a>
         <a href="/tutorials/" hreflang="en">{{ t.nav.tutorials | escape }}</a>
         <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
-        <a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>
+        <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
         <a href="/press.html" hreflang="en">{{ t.nav.press | escape }}</a>
         <a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>
         <a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>
