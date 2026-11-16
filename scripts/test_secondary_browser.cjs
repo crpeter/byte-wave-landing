@@ -14,7 +14,7 @@ const locales = [
 ];
 const routes = [
  ['about','about.html'], ['free-expression','free-expression.html'],
- ['tutorials','tutorials/'], ['gallery','gallery/']
+ ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/']
 ];
 const issues=[], checks=[];
 function test(ok, label, result) {
@@ -82,6 +82,9 @@ function test(ok, label, result) {
        {videoCount:data.galleryVideos,labels:data.mediaLabels,missingPosters:data.missingPoster});
      }
      if(kind==='free-expression')test(data.hasAppeal,key+' appeal anchor exists');
+     if(kind==='privacy'){
+       test(data.bodyLength>1500,key+' complete privacy-policy body',{bodyLength:data.bodyLength});
+     }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
       if(['about','gallery','tutorials'].includes(kind))
        await page.screenshot({path:path.join(OUT,lang+'-'+kind+'-'+size.width+'.png'),animations:'disabled'});
