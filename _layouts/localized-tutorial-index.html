@@ -8,6 +8,9 @@
 {%- assign import_custom_fonts_page = site.pages | where: "translation_key", "creation-import-custom-fonts" | where: "lang", page.lang | first -%}
 {%- assign c2pa_page = site.pages | where: "translation_key", "creation-check-c2pa-content-credentials" | where: "lang", page.lang | first -%}
 {%- assign metadata_page = site.pages | where: "translation_key", "creation-remove-location-metadata" | where: "lang", page.lang | first -%}
+{%- assign motion_page = site.pages | where: "translation_key", "creation-motion-blur" | where: "lang", page.lang | first -%}
+{%- assign frame_rate_page = site.pages | where: "translation_key", "creation-frame-rate-conversion" | where: "lang", page.lang | first -%}
+{%- assign noise_page = site.pages | where: "translation_key", "creation-temporal-noise-reduction" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
@@ -55,6 +58,12 @@
         {%- if c2pa_page -%}{%- assign card_url = c2pa_page.url -%}{%- endif -%}
       {%- when '/tutorials/remove-location-metadata/' -%}
         {%- if metadata_page -%}{%- assign card_url = metadata_page.url -%}{%- endif -%}
+      {%- when '/tutorials/motion-blur/' -%}
+        {%- if motion_page -%}{%- assign card_url = motion_page.url -%}{%- endif -%}
+      {%- when '/tutorials/frame-rate-conversion/' -%}
+        {%- if frame_rate_page -%}{%- assign card_url = frame_rate_page.url -%}{%- endif -%}
+      {%- when '/tutorials/temporal-noise-reduction/' -%}
+        {%- if noise_page -%}{%- assign card_url = noise_page.url -%}{%- endif -%}
     {%- endcase -%}
     {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.title | jsonify }},"url":{{ card_url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
@@ -184,7 +193,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/motion-blur/" aria-labelledby="motion-blur-title">
+        <a class="tutorial-card" href="{{ motion_page.url | default: '/tutorials/motion-blur/' | relative_url }}" aria-labelledby="motion-blur-title">
           <div class="preview-labels" aria-hidden="true"><span>{{ h.cards[5].left | escape }}</span><span>{{ h.cards[5].right | escape }}</span></div>
           <img src="/assets/videos/motion-blur-comparison-poster.jpg" width="1216" height="1080" alt="{{ h.cards[5].alt | escape }}">
           <div class="card-copy">
@@ -196,7 +205,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/frame-rate-conversion/" aria-labelledby="frame-rate-title">
+        <a class="tutorial-card" href="{{ frame_rate_page.url | default: '/tutorials/frame-rate-conversion/' | relative_url }}" aria-labelledby="frame-rate-title">
           <div class="preview-labels" aria-hidden="true"><span>{{ h.cards[6].left | escape }}</span><span>{{ h.cards[6].right | escape }}</span></div>
           <img src="/assets/videos/hummingbird-comparison-poster.jpg" loading="lazy" width="672" height="720" alt="{{ h.cards[6].alt | escape }}">
           <div class="card-copy">
@@ -208,7 +217,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/temporal-noise-reduction/" aria-labelledby="temporal-noise-title">
+        <a class="tutorial-card" href="{{ noise_page.url | default: '/tutorials/temporal-noise-reduction/' | relative_url }}" aria-labelledby="temporal-noise-title">
           <div class="preview-labels" aria-hidden="true"><span>{{ h.cards[7].left | escape }}</span><span>{{ h.cards[7].right | escape }}</span></div>
           <img class="wide-preview" src="/assets/videos/temporal-noise-comparison-poster.jpg" loading="lazy" width="1280" height="360" alt="{{ h.cards[7].alt | escape }}">
           <div class="card-copy">
