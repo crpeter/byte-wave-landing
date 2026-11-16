@@ -62,7 +62,7 @@ for lang,slug in LOCALES.items():
         for field in ("title","description","note" if data is gallery else "language_note"):
             assert data[field].strip(), (lang, field)
         for card in data["cards"]:
-            for field in ("title", "alt", "effect" if data is gallery else "description", "action"):
+            for field in ("title", "alt", "effect" if data is gallery else "description", "action" if data is gallery else "format"):
                 assert card[field].strip(), (lang, field)
     for source, html, key in [
         (f"{slug}/about.md", f"{slug}/about.html", "about"),
