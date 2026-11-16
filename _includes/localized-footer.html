@@ -1,13 +1,15 @@
+{%- assign localized_about = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
+{%- assign localized_expression = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
 <footer class="site-footer">
     <div class="site-footer-links">
         <a href="{{ home.url | relative_url }}">{{ t.nav.home | escape }}</a>
         <a href="/gallery/" hreflang="en">{{ t.nav.gallery | escape }}</a>
         <a href="/tutorials/" hreflang="en">{{ t.nav.tutorials | escape }}</a>
         <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
-        <a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>
+        {% if localized_about %}<a href="{{ localized_about.url | relative_url }}">{{ t.nav.about | escape }}</a>{% else %}<a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>{% endif %}
         <a href="/press.html" hreflang="en">{{ t.nav.press | escape }}</a>
         <a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>
-        <a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>
+        {% if localized_expression %}<a href="{{ localized_expression.url | relative_url }}">{{ t.nav.expression | escape }}</a>{% else %}<a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>{% endif %}
     </div>
     <p>© 2026 ByteWave. {{ t.footer.motto | escape }}</p>
     <p class="compatibility">{{ t.footer.devices | escape }}</p>
