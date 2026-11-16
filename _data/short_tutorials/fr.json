@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Tutoriel ByteWave",
+    "updatedLabel": "Mis à jour le",
+    "updatedDate": "16 novembre 2026",
+    "relatedLabel": "Guides associés"
+  },
+  "captionEffects": {
+    "title": "Effets de texte pour les sous-titres dans ByteWave",
+    "description": "Choisissez un effet de texte dans ByteWave, prévisualisez son animation et essayez Orbital Letters, Supernova et Ember Ash.",
+    "lead": "Essayez un effet avec vos propres mots. Prévisualisez-le sur vos images avant l’exportation.",
+    "stepsHeading": "Choisir un effet",
+    "step1": "Sélectionnez un sous-titre dans votre projet ByteWave.",
+    "step2": "Ouvrez ses effets de texte et sélectionnez un préréglage.",
+    "step3": "Lisez votre vidéo pour voir l’effet animé.",
+    "presetsHeading": "Trois effets à essayer",
+    "tip": "Essayez la même phrase courte avec chaque effet. Adaptez la police, la taille et la couleur à vos images.",
+    "fromScratch": "Vous débutez ?",
+    "firstCaption": "Ajoutez votre premier sous-titre",
+    "fontsPrompt": "Vous voulez une autre police ?",
+    "importFont": "Importez votre propre police",
+    "relatedSticker": "Animer un sticker"
+  },
+  "customFonts": {
+    "title": "Vos polices ne devraient pas nécessiter d’abonnement.",
+    "description": "Importez vos polices TTF ou OTF dans ByteWave sur iPhone. Choisissez un fichier et retrouvez-le dans My Fonts pour personnaliser vos sous-titres gratuitement.",
+    "lead": "Utilisez vos propres polices dans vos vidéos. L’importation dans ByteWave est gratuite.",
+    "stepsHeading": "Importer une police sur iPhone",
+    "step1": "Enregistrez un fichier TrueType (.ttf) ou OpenType (.otf) dans l’app Fichiers. S’il est compressé en ZIP, décompressez-le d’abord.",
+    "step2": "Sélectionnez un sous-titre dans votre projet ByteWave et ouvrez son panneau Font.",
+    "step3": "Touchez Import font, puis choisissez le fichier.",
+    "step4": "Retrouvez-le dans My Fonts et touchez la police pour l’appliquer au sous-titre.",
+    "preview": "Lisez la vidéo pour vérifier le texte, ajustez sa taille et sa couleur, puis exportez.",
+    "unsupportedHeading": "Fichier impossible à sélectionner ?",
+    "unsupported": "Choisissez le fichier .ttf ou .otf lui-même. Les polices web .woff et .woff2 ne sont pas prises en charge.",
+    "startPrompt": "Vous commencez un projet vide ?",
+    "firstCaption": "Ajoutez votre premier sous-titre",
+    "effectsPrompt": "Essayez ensuite",
+    "effectsLink": "les effets de texte des sous-titres",
+    "license": "L’importation de polices dans ByteWave est gratuite. La police peut être payante ou soumise à une licence ; vérifiez les conditions de son créateur."
+  }
+}

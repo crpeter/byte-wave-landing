@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave tutorial",
+    "updatedLabel": "Updated",
+    "updatedDate": "November 16, 2026",
+    "relatedLabel": "Related guides"
+  },
+  "captionEffects": {
+    "title": "Caption Text Effects in ByteWave",
+    "description": "Choose a caption text effect in ByteWave, preview its animation and compare Orbital Letters, Supernova and Ember Ash.",
+    "lead": "Try an effect on your own words. Preview it over your footage before exporting.",
+    "stepsHeading": "Choose an effect",
+    "step1": "Select a caption in your ByteWave project.",
+    "step2": "Open its text effects and choose a preset.",
+    "step3": "Play your video to see the effect in motion.",
+    "presetsHeading": "Three to try",
+    "tip": "Try the same short phrase with each effect. Adjust the font, size, and color to suit your footage.",
+    "fromScratch": "Starting from scratch?",
+    "firstCaption": "Add your first caption",
+    "fontsPrompt": "Want a different typeface?",
+    "importFont": "Import your own font",
+    "relatedSticker": "Animate a sticker"
+  },
+  "customFonts": {
+    "title": "Your Fonts Shouldn’t Need a Subscription.",
+    "description": "Import your own TTF or OTF fonts into ByteWave on iPhone. Choose a file and use My Fonts to style captions for free.",
+    "lead": "Bring your own font to your video. ByteWave’s font import is free.",
+    "stepsHeading": "Import a font on iPhone",
+    "step1": "Save a TrueType (.ttf) or OpenType (.otf) font in the Files app. Extract any ZIP archive first.",
+    "step2": "Select a caption in your ByteWave project and open its Font panel.",
+    "step3": "Tap Import font and choose the file.",
+    "step4": "Find it under My Fonts. Tap the font to apply it to your caption.",
+    "preview": "Play the video to check your text, adjust its size and color, then export.",
+    "unsupportedHeading": "File not selectable?",
+    "unsupported": "Choose the actual .ttf or .otf file. Web fonts such as .woff and .woff2 are not supported by this importer.",
+    "startPrompt": "Starting with an empty project?",
+    "firstCaption": "Add your first caption",
+    "effectsPrompt": "Then try",
+    "effectsLink": "caption text effects",
+    "license": "ByteWave does not charge for importing fonts. The font itself may have its own price and license; check the creator’s terms for your use."
+  }
+}

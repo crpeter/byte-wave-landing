@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Tutorial de ByteWave",
+    "updatedLabel": "Actualizado",
+    "updatedDate": "16 de noviembre de 2026",
+    "relatedLabel": "Guías relacionadas"
+  },
+  "captionEffects": {
+    "title": "Efectos de texto para subtítulos en ByteWave",
+    "description": "Elige efectos de texto para los subtítulos de ByteWave, visualiza su animación y prueba Orbital Letters, Supernova y Ember Ash.",
+    "lead": "Prueba un efecto con tus propias palabras. Previsualízalo sobre tus imágenes antes de exportar.",
+    "stepsHeading": "Elegir un efecto",
+    "step1": "Selecciona un subtítulo en tu proyecto de ByteWave.",
+    "step2": "Abre los efectos de texto y elige un ajuste preestablecido.",
+    "step3": "Reproduce el vídeo para ver el efecto en movimiento.",
+    "presetsHeading": "Tres efectos para probar",
+    "tip": "Utiliza la misma frase corta con cada efecto. Ajusta la fuente, el tamaño y el color a tus imágenes.",
+    "fromScratch": "¿Empiezas desde cero?",
+    "firstCaption": "Añade tu primer subtítulo",
+    "fontsPrompt": "¿Quieres otra tipografía?",
+    "importFont": "Importa tu propia fuente",
+    "relatedSticker": "Anima un sticker"
+  },
+  "customFonts": {
+    "title": "Tus fuentes no deberían necesitar una suscripción.",
+    "description": "Importa tus propias fuentes TTF u OTF en ByteWave para iPhone. Elige el archivo y utiliza My Fonts para dar estilo a tus subtítulos gratis.",
+    "lead": "Usa tus propias fuentes en los vídeos. Importarlas a ByteWave es gratis.",
+    "stepsHeading": "Importar una fuente en iPhone",
+    "step1": "Guarda una fuente TrueType (.ttf) u OpenType (.otf) en Archivos. Si viene en un ZIP, descomprímelo primero.",
+    "step2": "Selecciona un subtítulo de tu proyecto de ByteWave y abre el panel Font.",
+    "step3": "Toca Import font y selecciona el archivo de la fuente.",
+    "step4": "Busca la fuente en My Fonts y tócala para aplicarla al subtítulo.",
+    "preview": "Reproduce el vídeo, comprueba el texto, ajusta el tamaño y color y exporta.",
+    "unsupportedHeading": "¿No puedes seleccionar el archivo?",
+    "unsupported": "Elige un archivo .ttf u .otf. Este importador no admite fuentes web .woff ni .woff2.",
+    "startPrompt": "¿Empiezas con un proyecto vacío?",
+    "firstCaption": "Añade tu primer subtítulo",
+    "effectsPrompt": "Después prueba",
+    "effectsLink": "los efectos de texto de los subtítulos",
+    "license": "ByteWave no cobra por importar fuentes. La fuente en sí puede tener un precio o una licencia; consulta las condiciones de su creador antes de usarla."
+  }
+}

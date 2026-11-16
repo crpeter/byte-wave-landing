@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Poradnik ByteWave",
+    "updatedLabel": "Zaktualizowano",
+    "updatedDate": "16 listopada 2026 r.",
+    "relatedLabel": "Powiązane poradniki"
+  },
+  "captionEffects": {
+    "title": "Efekty tekstowe napisów w ByteWave",
+    "description": "Wybierz efekt tekstowy napisów w ByteWave, obejrzyj animację i wypróbuj Orbital Letters, Supernova i Ember Ash.",
+    "lead": "Wypróbuj efekt na własnym tekście. Zobacz jego podgląd na nagraniu przed eksportem.",
+    "stepsHeading": "Wybierz efekt",
+    "step1": "Zaznacz napis w projekcie ByteWave.",
+    "step2": "Otwórz efekty tekstowe i wybierz gotowy efekt.",
+    "step3": "Odtwórz film, aby zobaczyć efekt w ruchu.",
+    "presetsHeading": "Trzy efekty do wypróbowania",
+    "tip": "Użyj tego samego krótkiego zdania dla każdego efektu. Dostosuj czcionkę, rozmiar i kolor do nagrania.",
+    "fromScratch": "Zaczynasz od zera?",
+    "firstCaption": "Dodaj pierwszy napis",
+    "fontsPrompt": "Chcesz inną czcionkę?",
+    "importFont": "Zaimportuj własną czcionkę",
+    "relatedSticker": "Animuj naklejkę"
+  },
+  "customFonts": {
+    "title": "Twoje czcionki nie powinny wymagać abonamentu.",
+    "description": "Zaimportuj własne czcionki TTF lub OTF do ByteWave na iPhonie. Wybierz plik i użyj My Fonts do stylizacji napisów bez opłat.",
+    "lead": "Używaj własnych czcionek w filmach. Import do ByteWave jest darmowy.",
+    "stepsHeading": "Zaimportuj czcionkę na iPhonie",
+    "step1": "Zapisz plik TrueType (.ttf) lub OpenType (.otf) w aplikacji Pliki. Jeśli jest w archiwum ZIP, najpierw go rozpakuj.",
+    "step2": "Zaznacz napis w projekcie ByteWave i otwórz panel Font.",
+    "step3": "Dotknij Import font i wybierz plik czcionki.",
+    "step4": "Znajdź ją w My Fonts. Dotknij czcionki, aby zastosować ją do napisu.",
+    "preview": "Odtwórz film, sprawdź tekst, popraw rozmiar i kolor, a następnie eksportuj.",
+    "unsupportedHeading": "Nie możesz wybrać pliku?",
+    "unsupported": "Wybierz właściwy plik .ttf lub .otf. Ten importer nie obsługuje czcionek internetowych .woff ani .woff2.",
+    "startPrompt": "Zaczynasz od pustego projektu?",
+    "firstCaption": "Dodaj pierwszy napis",
+    "effectsPrompt": "Następnie wypróbuj",
+    "effectsLink": "efekty tekstowe napisów",
+    "license": "ByteWave nie pobiera opłat za import czcionek. Sama czcionka może być płatna lub objęta licencją. Sprawdź warunki jej autora."
+  }
+}

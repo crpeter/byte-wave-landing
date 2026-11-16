@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave 教學",
+    "updatedLabel": "更新日期",
+    "updatedDate": "2026 年 11 月 16 日",
+    "relatedLabel": "相關教學"
+  },
+  "captionEffects": {
+    "title": "ByteWave 字幕文字特效",
+    "description": "在 ByteWave 選擇字幕文字特效、預覽動畫，試試 Orbital Letters、Supernova 和 Ember Ash。",
+    "lead": "在自己的文字上套用特效，匯出前先在影片上預覽。",
+    "stepsHeading": "選擇特效",
+    "step1": "在 ByteWave 專案中選取字幕。",
+    "step2": "開啟文字特效並選擇預設效果。",
+    "step3": "播放影片，查看特效的動態呈現。",
+    "presetsHeading": "三種值得嘗試的特效",
+    "tip": "每個特效都使用同一句簡短文字，並依照影片調整字型、大小和顏色。",
+    "fromScratch": "剛開始使用嗎？",
+    "firstCaption": "加入第一段字幕",
+    "fontsPrompt": "想用其他字型？",
+    "importFont": "匯入自己的字型",
+    "relatedSticker": "讓貼圖動起來"
+  },
+  "customFonts": {
+    "title": "使用自己的字型不該需要訂閱。",
+    "description": "在 iPhone 的 ByteWave 匯入 TTF 或 OTF 字型，選取檔案後在 My Fonts 中免費套用到字幕。",
+    "lead": "在影片中使用自己的字型。ByteWave 的匯入功能免費。",
+    "stepsHeading": "在 iPhone 匯入字型",
+    "step1": "將 TrueType（.ttf）或 OpenType（.otf）字型檔案儲存到「檔案」App。如果是 ZIP，請先解壓縮。",
+    "step2": "在 ByteWave 專案中選取字幕並開啟 Font 面板。",
+    "step3": "點選 Import font 並選擇字型檔案。",
+    "step4": "在 My Fonts 中找到字型，點選即可套用到字幕。",
+    "preview": "播放影片檢查文字，調整大小與顏色後匯出。",
+    "unsupportedHeading": "無法選取檔案？",
+    "unsupported": "請選取真正的 .ttf 或 .otf 檔案。此功能不支援 .woff 或 .woff2 網頁字型。",
+    "startPrompt": "從空白專案開始？",
+    "firstCaption": "加入第一段字幕",
+    "effectsPrompt": "接著試試",
+    "effectsLink": "字幕文字特效",
+    "license": "ByteWave 不會收取字型匯入費用。字型本身可能收費或有授權條款，請確認字型創作者的使用規定。"
+  }
+}

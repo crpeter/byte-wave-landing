@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-handleiding",
+    "updatedLabel": "Bijgewerkt op",
+    "updatedDate": "16 november 2026",
+    "relatedLabel": "Gerelateerde handleidingen"
+  },
+  "captionEffects": {
+    "title": "Teksteffecten voor ondertitels in ByteWave",
+    "description": "Kies een teksteffect voor ondertitels in ByteWave, bekijk de animatie en probeer Orbital Letters, Supernova en Ember Ash.",
+    "lead": "Probeer een effect met je eigen woorden. Bekijk het boven je beelden voordat je exporteert.",
+    "stepsHeading": "Een effect kiezen",
+    "step1": "Selecteer een ondertitel in je ByteWave-project.",
+    "step2": "Open de teksteffecten en kies een voorinstelling.",
+    "step3": "Speel je video af om het effect in beweging te zien.",
+    "presetsHeading": "Drie effecten om uit te proberen",
+    "tip": "Gebruik dezelfde korte zin voor elk effect. Pas lettertype, grootte en kleur aan je beelden aan.",
+    "fromScratch": "Begin je net?",
+    "firstCaption": "Voeg je eerste ondertitel toe",
+    "fontsPrompt": "Wil je een ander lettertype?",
+    "importFont": "Importeer je eigen lettertype",
+    "relatedSticker": "Sticker animeren"
+  },
+  "customFonts": {
+    "title": "Voor je eigen lettertypes hoort geen abonnement nodig te zijn.",
+    "description": "Importeer je eigen TTF- of OTF-lettertypes in ByteWave op iPhone. Kies een bestand en gebruik My Fonts voor gratis opgemaakte ondertitels.",
+    "lead": "Gebruik je eigen lettertype in je video. Importeren in ByteWave is gratis.",
+    "stepsHeading": "Een lettertype op iPhone importeren",
+    "step1": "Bewaar een TrueType- (.ttf) of OpenType-bestand (.otf) in de Bestanden-app. Pak een ZIP-bestand eerst uit.",
+    "step2": "Selecteer een ondertitel in je ByteWave-project en open het paneel Font.",
+    "step3": "Tik op Import font en kies het lettertypebestand.",
+    "step4": "Zoek het onder My Fonts en tik op het lettertype om het toe te passen.",
+    "preview": "Speel de video af, controleer je tekst, pas grootte en kleur aan en exporteer.",
+    "unsupportedHeading": "Kun je het bestand niet selecteren?",
+    "unsupported": "Kies het daadwerkelijke .ttf- of .otf-bestand. Weblettertypes .woff en .woff2 worden niet ondersteund.",
+    "startPrompt": "Begin je met een leeg project?",
+    "firstCaption": "Voeg je eerste ondertitel toe",
+    "effectsPrompt": "Probeer daarna",
+    "effectsLink": "teksteffecten voor ondertitels",
+    "license": "ByteWave rekent niets voor het importeren van lettertypes. Het lettertype zelf kan geld kosten of onder een licentie vallen; controleer de voorwaarden van de maker."
+  }
+}

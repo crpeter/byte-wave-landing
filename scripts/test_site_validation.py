@@ -53,3 +53,4 @@ print('Site gates reject content regressions, excluded resources, missing poster
 # Verify all newly rendered creation-guide translations under the existing CI suite.
 from runpy import run_path
 run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_creation_tutorials.py'))
+run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_short_tutorial_translations.py'))

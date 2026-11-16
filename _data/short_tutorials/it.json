@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Tutorial ByteWave",
+    "updatedLabel": "Aggiornato il",
+    "updatedDate": "16 novembre 2026",
+    "relatedLabel": "Guide correlate"
+  },
+  "captionEffects": {
+    "title": "Effetti di testo per sottotitoli in ByteWave",
+    "description": "Scegli un effetto di testo per i sottotitoli in ByteWave, guarda l’animazione e prova Orbital Letters, Supernova ed Ember Ash.",
+    "lead": "Prova un effetto con le tue parole. Guardalo sui tuoi filmati prima di esportare.",
+    "stepsHeading": "Scegli un effetto",
+    "step1": "Seleziona un sottotitolo nel progetto ByteWave.",
+    "step2": "Apri gli effetti di testo e scegli un effetto preimpostato.",
+    "step3": "Riproduci il video per vedere l’effetto animato.",
+    "presetsHeading": "Tre effetti da provare",
+    "tip": "Usa la stessa frase breve con ogni effetto. Adatta carattere, dimensione e colore al filmato.",
+    "fromScratch": "Parti da zero?",
+    "firstCaption": "Aggiungi il tuo primo sottotitolo",
+    "fontsPrompt": "Vuoi un carattere diverso?",
+    "importFont": "Importa il tuo font",
+    "relatedSticker": "Anima uno sticker"
+  },
+  "customFonts": {
+    "title": "I tuoi font non dovrebbero richiedere un abbonamento.",
+    "description": "Importa i tuoi font TTF o OTF in ByteWave su iPhone. Scegli un file e ritrovalo in My Fonts per personalizzare i sottotitoli gratis.",
+    "lead": "Usa il tuo font nei video. L’importazione in ByteWave è gratuita.",
+    "stepsHeading": "Importa un font su iPhone",
+    "step1": "Salva un file TrueType (.ttf) o OpenType (.otf) nell’app File. Se è in uno ZIP, estrailo prima.",
+    "step2": "Seleziona un sottotitolo nel progetto ByteWave e apri il pannello Font.",
+    "step3": "Tocca Import font e scegli il file.",
+    "step4": "Trova il carattere in My Fonts. Toccalo per applicarlo al sottotitolo.",
+    "preview": "Riproduci il video, controlla il testo, regola dimensioni e colore, poi esporta.",
+    "unsupportedHeading": "Non riesci a selezionare il file?",
+    "unsupported": "Seleziona un file .ttf o .otf. I font web .woff e .woff2 non sono supportati.",
+    "startPrompt": "Inizi con un progetto vuoto?",
+    "firstCaption": "Aggiungi il tuo primo sottotitolo",
+    "effectsPrompt": "Poi prova",
+    "effectsLink": "gli effetti di testo per sottotitoli",
+    "license": "ByteWave non fa pagare l’importazione dei font. Il font stesso può avere un prezzo o una licenza: controlla le condizioni dell’autore."
+  }
+}

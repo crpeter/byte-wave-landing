@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Tutorial do ByteWave",
+    "updatedLabel": "Atualizado em",
+    "updatedDate": "16 de novembro de 2026",
+    "relatedLabel": "Tutoriais relacionados"
+  },
+  "captionEffects": {
+    "title": "Efeitos de texto para legendas no ByteWave",
+    "description": "Escolha um efeito de texto para legendas no ByteWave, veja a animação e experimente Orbital Letters, Supernova e Ember Ash.",
+    "lead": "Experimente um efeito com suas próprias palavras. Veja a prévia sobre seu vídeo antes de exportar.",
+    "stepsHeading": "Escolha um efeito",
+    "step1": "Selecione uma legenda no seu projeto ByteWave.",
+    "step2": "Abra os efeitos de texto e escolha uma opção predefinida.",
+    "step3": "Reproduza o vídeo para ver o efeito em movimento.",
+    "presetsHeading": "Três efeitos para experimentar",
+    "tip": "Use a mesma frase curta com cada efeito. Ajuste a fonte, o tamanho e a cor ao vídeo.",
+    "fromScratch": "Está começando?",
+    "firstCaption": "Adicione sua primeira legenda",
+    "fontsPrompt": "Quer usar outra fonte?",
+    "importFont": "Importe sua própria fonte",
+    "relatedSticker": "Anime um adesivo"
+  },
+  "customFonts": {
+    "title": "Suas fontes não deveriam precisar de assinatura.",
+    "description": "Importe fontes TTF ou OTF no ByteWave para iPhone. Escolha um arquivo e utilize My Fonts para estilizar legendas gratuitamente.",
+    "lead": "Use sua própria fonte no vídeo. Importá-la no ByteWave é grátis.",
+    "stepsHeading": "Importe uma fonte no iPhone",
+    "step1": "Salve um arquivo TrueType (.ttf) ou OpenType (.otf) no app Arquivos. Se estiver em um ZIP, extraia-o antes.",
+    "step2": "Selecione uma legenda do seu projeto ByteWave e abra o painel Font.",
+    "step3": "Toque em Import font e escolha o arquivo.",
+    "step4": "Encontre-a em My Fonts. Toque na fonte para aplicá-la à legenda.",
+    "preview": "Reproduza o vídeo, confira o texto, ajuste o tamanho e a cor e exporte.",
+    "unsupportedHeading": "Não consegue selecionar o arquivo?",
+    "unsupported": "Escolha o arquivo .ttf ou .otf. Fontes para a Web .woff e .woff2 não são aceitas pelo importador.",
+    "startPrompt": "Está começando com um projeto vazio?",
+    "firstCaption": "Adicione sua primeira legenda",
+    "effectsPrompt": "Depois experimente",
+    "effectsLink": "efeitos de texto para legendas",
+    "license": "O ByteWave não cobra pela importação de fontes. A própria fonte pode ter preço ou licença; confira os termos de uso do criador."
+  }
+}

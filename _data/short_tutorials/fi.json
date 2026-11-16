@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-opas",
+    "updatedLabel": "Päivitetty",
+    "updatedDate": "16. marraskuuta 2026",
+    "relatedLabel": "Aiheeseen liittyvät oppaat"
+  },
+  "captionEffects": {
+    "title": "Tekstitysten tekstitehosteet ByteWavessa",
+    "description": "Valitse tekstitykselle tekstitehoste ByteWavessa, esikatsele animaatio ja kokeile Orbital Letters-, Supernova- ja Ember Ash -tehosteita.",
+    "lead": "Kokeile tehostetta omilla sanoillasi. Katso esikatselu videosi päällä ennen vientiä.",
+    "stepsHeading": "Valitse tehoste",
+    "step1": "Valitse tekstitys ByteWave-projektistasi.",
+    "step2": "Avaa tekstitehosteet ja valitse valmis tehoste.",
+    "step3": "Toista video, niin näet tehosteen liikkeessä.",
+    "presetsHeading": "Kolme kokeiltavaa tehostetta",
+    "tip": "Käytä samaa lyhyttä lausetta jokaisessa tehosteessa. Säädä fontti, koko ja väri videoon sopiviksi.",
+    "fromScratch": "Aloitatko alusta?",
+    "firstCaption": "Lisää ensimmäinen tekstitys",
+    "fontsPrompt": "Haluatko toisen fontin?",
+    "importFont": "Tuo oma fontti",
+    "relatedSticker": "Animoi tarra"
+  },
+  "customFonts": {
+    "title": "Omien fonttien käyttö ei saisi vaatia tilausta.",
+    "description": "Tuo omia TTF- tai OTF-fontteja ByteWaveen iPhonella. Valitse tiedosto ja käytä My Fonts -valikoimaa tekstitysten muotoiluun maksutta.",
+    "lead": "Käytä omia fonttejasi videossa. ByteWaveen tuonti on maksutonta.",
+    "stepsHeading": "Tuo fontti iPhonella",
+    "step1": "Tallenna TrueType- (.ttf) tai OpenType-fonttitiedosto (.otf) Tiedostot-appiin. Pura ZIP-paketti ensin.",
+    "step2": "Valitse ByteWave-projektisi tekstitys ja avaa Font-paneeli.",
+    "step3": "Napauta Import font ja valitse fonttitiedosto.",
+    "step4": "Etsi se My Fonts -kohdasta. Ota fontti käyttöön napauttamalla sitä.",
+    "preview": "Toista video tarkistaaksesi tekstin, säädä kokoa ja väriä ja vie video.",
+    "unsupportedHeading": "Etkö voi valita tiedostoa?",
+    "unsupported": "Valitse varsinainen .ttf- tai .otf-tiedosto. .woff- ja .woff2-verkkofontteja ei tueta.",
+    "startPrompt": "Aloitatko tyhjästä projektista?",
+    "firstCaption": "Lisää ensimmäinen tekstitys",
+    "effectsPrompt": "Kokeile sitten",
+    "effectsLink": "tekstitysten tekstitehosteita",
+    "license": "ByteWave ei veloita fonttien tuonnista. Fontti voi kuitenkin olla maksullinen tai lisensoitu; tarkista tekijän käyttöehdot."
+  }
+}
