@@ -1,3 +1,8 @@
+---
+lang: en
+translation_key: creation-motion-blur
+store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=tutorial_motion_blur&mt=8
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,7 +10,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>How to Add Motion Blur to Video on iPhone for Free — ByteWave</title>
   <meta name="description" content="Watch a ByteWave motion blur before-and-after comparison, then follow the iPhone tutorial to apply the effect and choose a strength.">
-  <link rel="canonical" href="https://bytewaveai.com/tutorials/motion-blur/">
+  {% assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" %}
+    {% assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first %}
+    {% assign t = site.data.i18n[page.lang] %}
+    {% include localized-alternates.html %}
   <meta property="og:type" content="article">
   <meta property="og:title" content="How to Add Motion Blur to Video on iPhone for Free">
   <meta property="og:description" content="Watch a ByteWave motion blur before-and-after comparison, then follow the iPhone tutorial to apply the effect and choose a strength.">
@@ -76,30 +84,11 @@
 }
   </script>
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+  {% include localized-nav-styles.html %}
 <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
 </head>
 <body class="site-page site-editorial">
-<a class="site-skip" href="#main">Skip to content</a>
-<nav class="site-nav" aria-label="Main navigation">
-    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
-    <div class="site-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a></div>
-    <details class="site-menu">
-        <summary>Menu</summary>
-        <div class="site-menu-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/free-expression.html">Free expression</a></div>
-    </details>
-    <a class="site-download" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=tutorial_motion_blur&amp;mt=8">Download Free</a>
-</nav>
+{% include localized-nav.html %}
 <main id="main"><article>
     <p class="eyebrow"><a href="/tutorials/">Tutorials</a> / Motion blur</p>
     <h1>How to add motion blur to video on iPhone for free</h1>
@@ -150,18 +139,7 @@
     </div>
 
   </article></main>
-  <footer class="site-footer">
-    <div class="site-footer-links"><a href="/">Home</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about.html">About</a>
-        <a href="/press.html">Press</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/free-expression.html">Free expression</a></div>
-    <p>© 2026 ByteWave. Video editing should be free.</p>
-    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
-</footer>
+  {% include localized-footer.html %}
 <script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
 <script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>

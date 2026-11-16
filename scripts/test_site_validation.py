@@ -55,3 +55,4 @@ from runpy import run_path
 run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_creation_tutorials.py'))
 run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_short_tutorial_translations.py'))
 run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_technical_provenance_guides.py'))
+run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_comparison_tutorial_translations.py'))
