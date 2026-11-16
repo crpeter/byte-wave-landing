@@ -125,10 +125,10 @@ function test(ok, label, result) {
       const copyBlocks=page.locator('.block:has(button.copy)');
       test(facts===9 && await copyBlocks.count()===4 && await page.locator('#angles .angle').count()===3,
            key+' complete fact sheet, four copy blocks and three story angles');
-      const bounds=await page.locator('main h1, .fact-value, .block [data-copy], .asset-dl').evaluateAll(elements =>
-       elements.every(el => el.getBoundingClientRect().width > 0 && el.scrollWidth <= el.clientWidth + 1 &&
-        el.getBoundingClientRect().right <= innerWidth + 1));
-      test(bounds,key+' press text and download controls fit the viewport');
+      const clipped=await page.locator('main h1, .fact-value, .block [data-copy], .asset-dl').evaluateAll(elements =>
+       elements.filter(el => el.getBoundingClientRect().width === 0 || el.scrollWidth > el.clientWidth + 1 ||
+        el.getBoundingClientRect().right > innerWidth + 1).map(el => el.textContent.slice(0,80)));
+      test(clipped.length===0,key+' press text and download controls fit the viewport',clipped);
       if(size.width===390){
        for(const block of await copyBlocks.all()){
         const expected=(await block.locator('[data-copy]').innerText()).trim();
