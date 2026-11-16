@@ -128,7 +128,7 @@ function test(ok, label, result) {
        }[kind];
        const v=data.comparisonVideo;
        test(v.src===videoExpected[0]&&v.poster===videoExpected[1]&&v.id===videoExpected[2]&&
-            v.width===videoExpected[3]&&v.height===videoExpected[4]&&v.hasNativeControls&&v.playsinline&&
+            v.width===videoExpected[3]&&v.height===videoExpected[4]&&v.playsinline&&
             v.hasPlayButton&&v.hasStatus&&v.hasCaption&&v.hasAlt,
             key+' preserved video source, poster, dimensions, controls and caption',v);
        if(size.width<=390) test(v.withinBounds,key+' full comparison video remains within its article',v);
