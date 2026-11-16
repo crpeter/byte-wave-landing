@@ -1,0 +1,103 @@
+{
+  "title": "Créé avec ByteWave",
+  "seo_title": "Galerie de vidéos créées avec ByteWave",
+  "description": "Découvrez les vidéos ByteWave : défilement horizontal, déformations Möbius, grilles de couchers de soleil, ralentis et bien plus.",
+  "aria_label": "Créé avec ByteWave",
+  "note": "Les tutoriels liés à ces effets sont pour le moment en anglais.",
+  "open_video": "Ouvrir la vidéo",
+  "download": "Télécharger ByteWave gratuitement",
+  "credit": "Images d’exemple Apple, montées avec ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Colonnes défilantes de couchers de soleil, côtes et moments du quotidien.",
+      "action": "Explorer Layout (en anglais)",
+      "alt": "The All Scroll. Colonnes défilantes de couchers de soleil, côtes et moments du quotidien."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Défilement horizontal · Möbius",
+      "effect": "Notre première composition à défilement horizontal avec déformation Möbius.",
+      "action": "Explorer Layout (en anglais)",
+      "alt": "Défilement horizontal · Möbius. Notre première composition à défilement horizontal avec déformation Möbius."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Défilement horizontal · Vagues",
+      "effect": "Défilement horizontal avec déformation en vagues.",
+      "action": "Explorer Layout (en anglais)",
+      "alt": "Défilement horizontal · Vagues. Défilement horizontal avec déformation en vagues."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Hexagones de coucher de soleil (paysage)",
+      "effect": "Layout de ByteWave · Format paysage.",
+      "action": "Voir les deux orientations (en anglais)",
+      "alt": "Hexagones de coucher de soleil (paysage). Layout de ByteWave · Format paysage."
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Coucher de soleil déformé",
+      "effect": "Layout de ByteWave · Bandes courbes de coucher de soleil.",
+      "action": "Explorer Layout (en anglais)",
+      "alt": "Coucher de soleil déformé. Layout de ByteWave · Bandes courbes de coucher de soleil."
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Grille de bord de mer puis plage",
+      "effect": "Layout de ByteWave · Six panneaux vers le plein cadre.",
+      "action": "Explorer Layout (en anglais)",
+      "alt": "Grille de bord de mer puis plage. Layout de ByteWave · Six panneaux vers le plein cadre."
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Hexagones de coucher de soleil (portrait)",
+      "effect": "Layout de ByteWave · Format portrait.",
+      "action": "Voir les deux orientations (en anglais)",
+      "alt": "Hexagones de coucher de soleil (portrait). Layout de ByteWave · Format portrait."
+    },
+    {
+      "id": "air-show",
+      "title": "Spectacle aérien en 3D",
+      "effect": "Texte animé en 3D.",
+      "action": "Essayer cet effet (en anglais)",
+      "alt": "Spectacle aérien en 3D. Texte animé en 3D."
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Vitesse normale → ralenti.",
+      "action": "Essayer cet effet (en anglais)",
+      "alt": "The Quadruple Dive. Vitesse normale → ralenti."
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Texte animé.",
+      "action": "Essayer cet effet (en anglais)",
+      "alt": "Free as in Geese. Texte animé."
+    },
+    {
+      "id": "hummingbird",
+      "title": "Colibri au ralenti",
+      "effect": "Vitesse 0,1× · Conversion FRC ×8.",
+      "action": "Essayer cet effet (en anglais)",
+      "alt": "Colibri au ralenti. Vitesse 0,1× · Conversion FRC ×8."
+    },
+    {
+      "id": "harbor",
+      "title": "Dans le port",
+      "effect": "Flou de mouvement.",
+      "action": "Essayer cet effet (en anglais)",
+      "alt": "Dans le port. Flou de mouvement."
+    },
+    {
+      "id": "red-leaves",
+      "title": "Feuilles rouges",
+      "effect": "Réduction temporelle du bruit.",
+      "action": "Essayer cet effet (en anglais)",
+      "alt": "Feuilles rouges. Réduction temporelle du bruit."
+    }
+  ]
+}
