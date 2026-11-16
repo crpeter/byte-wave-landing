@@ -1,3 +1,5 @@
+{%- assign localized_about = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
+{%- assign localized_expression = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
 {% capture language_links -%}
 {% for variant in variants -%}
 <a href="{{ variant.url | relative_url }}" lang="{{ variant.lang }}" hreflang="{{ variant.lang }}"{% if variant.lang == page.lang %} aria-current="page"{% endif %}>{{ site.data.i18n[variant.lang].name | escape }}</a>
@@ -24,9 +26,9 @@
         <summary>{{ t.nav.menu | escape }}</summary>
         <div class="site-menu-links">
             {{ primary_links }}
-            <a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>
+            {% if localized_about %}<a href="{{ localized_about.url | relative_url }}">{{ t.nav.about | escape }}</a>{% else %}<a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>{% endif %}
             <a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>
-            <a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>
+            {% if localized_expression %}<a href="{{ localized_expression.url | relative_url }}">{{ t.nav.expression | escape }}</a>{% else %}<a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>{% endif %}
             <div class="site-menu-languages">
                 {{ language_links }}
             </div>
