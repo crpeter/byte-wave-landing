@@ -27,7 +27,7 @@ Contenuti illegali, minacce reali e frodi possono essere rimossi. Spam, compromi
 
 Criticare un’azienda, documentare una protesta pacifica o essere in disaccordo con noi non costituisce, di per sé, spam o una minaccia.
 
-## Contestare una decisione. {#appeal}
+<h2 id="appeal">Contestare una decisione.</h2>
 
 Invia un’email a [cpeter@codyworks.org](mailto:cpeter@codyworks.org?subject=ByteWave%20moderation%20appeal) con oggetto «ByteWave moderation appeal». Includi nome utente, video o account interessato, eventuali comunicazioni ricevute e il motivo per cui ritieni errata la decisione. Non inviare mai la password.
 
