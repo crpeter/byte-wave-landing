@@ -57,7 +57,8 @@
   <h2>{{ a.sourcesHeading | escape }}</h2>
   <ul>
     <li><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=about_{{ page.lang | replace: '-', '' }}&amp;mt=8">{{ a.appStore | escape }}</a></li>
-    <li><a href="/privacy.html" hreflang="en">{{ a.privacy | escape }}</a></li>
+    {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+    <li><a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ a.privacy | escape }}</a></li>
     <li><a href="/press.html" hreflang="en">{{ a.press | escape }}</a></li>
     <li><a href="/blog/how-bytewave-feed-works-without-server-watch-history.html" hreflang="en">{{ a.feed | escape }}</a></li>
     <li><a href="/blog/provenance.html" hreflang="en">{{ a.provenance | escape }}</a></li>
