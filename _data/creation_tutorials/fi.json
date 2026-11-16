@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-opas",
+    "updatedLabel": "Päivitetty",
+    "updatedDate": "16. marraskuuta 2026",
+    "relatedLabel": "Aiheeseen liittyvät oppaat"
+  },
+  "animatedCaptions": {
+    "title": "Lisää animoituja tekstityksiä ByteWavessa",
+    "description": "Lisää videolle tekstiä, valitse animaatiotehoste ja sijoita teksti ByteWavessa. Lyhyt opas iPhonelle, iPadille ja Macille.",
+    "lead": "Lisää videoon omat sanasi ja anna niille animoitu tehoste.",
+    "stepsHeading": "Lisää tekstitys",
+    "step1": "Avaa video ByteWavessa ja lisää tekstitys.",
+    "step2": "Kirjoita teksti ja valitse tekstitys muokataksesi sen tyyliä.",
+    "step3": "Valitse fontti, koko ja väri. Sijoita teksti videon päälle.",
+    "step4": "Valitse tekstitehoste ja katso animaation esikatselu toistamalla video.",
+    "readabilityHeading": "Pidä teksti luettavana",
+    "readabilityText": "Käytä lyhyttä lausetta ja videosta erottuvaa väriä. Varmista, että tekstiä ehtii lukea animaation aikana.",
+    "relatedIntro": "Etsitkö tiettyä tyyliä? ",
+    "relatedAnchor": "Tekstitehosteiden opas (englanniksi)",
+    "relatedTail": "esittelee muun muassa Orbital Letters- ja Ember Ash -tehosteet.",
+    "relatedSticker": "Animoi tarra"
+  },
+  "animateStickers": {
+    "title": "Animoi tarroja avainruuduilla ByteWavessa",
+    "description": "Liikuta tarraa videossa. Muuta sen sijaintia, kokoa ja kiertoa ajoituksen ja avainruutujen avulla ByteWavessa.",
+    "lead": "Avainruuduilla voit siirtää, skaalata tai kiertää tarraa ajan myötä.",
+    "stepsHeading": "Määritä liike",
+    "step1": "Lisää tarra videoon ja valitse se.",
+    "step2": "Määritä ajoitustoiminnoilla, milloin tarra näkyy.",
+    "step3": "Tallenna avainruutuihin aloitussijainti, koko ja kierto.",
+    "step4": "Siirry myöhempään kohtaan ja lisää toinen avainruutu, jossa sijainti, koko tai kierto on erilainen.",
+    "step5": "Toista video nähdäksesi liikkeen avainruutujen välillä.",
+    "readabilityHeading": "Aloita kahdesta avainruudusta",
+    "readabilityText": "Kokeile siirtää tarra kuvan laidasta toiseen. Lisää sitten koon muutos tai kierto.",
+    "relatedCaption": "Lisää animoituja tekstityksiä",
+    "relatedLayout": "Tee videokollaasi (englanniksi)"
+  }
+}

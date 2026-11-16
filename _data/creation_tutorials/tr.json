@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave rehberi",
+    "updatedLabel": "Güncellendi",
+    "updatedDate": "16 Kasım 2026",
+    "relatedLabel": "İlgili rehberler"
+  },
+  "animatedCaptions": {
+    "title": "ByteWave'de animasyonlu altyazı ekleme",
+    "description": "Videonuza metin ekleyin, bir animasyon efekti seçin ve altyazıyı ByteWave'de konumlandırın. iPhone, iPad ve Mac için kısa rehber.",
+    "lead": "Videonuza kendi sözlerinizi ekleyin ve animasyonlu bir efekt uygulayın.",
+    "stepsHeading": "Altyazı ekleyin",
+    "step1": "Videonuzu ByteWave'de açın ve bir altyazı ekleyin.",
+    "step2": "Metninizi yazın, ardından stilini değiştirmek için altyazıyı seçin.",
+    "step3": "Yazı tipini, boyutu ve rengi seçin. Metni videonuzun üzerine yerleştirin.",
+    "step4": "Bir metin efekti seçin ve animasyonu önizlemek için videoyu oynatın.",
+    "readabilityHeading": "Okunabilir tutun",
+    "readabilityText": "Kısa bir ifade ve görüntülerden ayrışan bir renk kullanın. Animasyonun okumak için yeterince süre bıraktığını kontrol edin.",
+    "relatedIntro": "Belirli bir stil mi arıyorsunuz? ",
+    "relatedAnchor": "Metin efektleri rehberi (İngilizce)",
+    "relatedTail": "Orbital Letters ve Ember Ash gibi hazır efektleri açıklar.",
+    "relatedSticker": "Çıkartma canlandırın"
+  },
+  "animateStickers": {
+    "title": "ByteWave'de çıkartmaları anahtar karelerle canlandırma",
+    "description": "Videonuzdaki bir çıkartmayı hareket ettirin. ByteWave'de zamanlama ve anahtar karelerle konumunu, boyutunu ve dönüşünü değiştirin.",
+    "lead": "Bir çıkartmayı zaman içinde taşımak, yeniden boyutlandırmak veya döndürmek için anahtar kareleri kullanın.",
+    "stepsHeading": "Hareketi ayarlayın",
+    "step1": "Videonuza bir çıkartma ekleyin ve seçin.",
+    "step2": "Zamanlama denetimleriyle ne zaman görüneceğini belirleyin.",
+    "step3": "Başlangıç konumunu, boyutunu ve dönüşünü anahtar kareye kaydedin.",
+    "step4": "Daha sonraki bir zamana gidin ve farklı konum, boyut veya dönüşe sahip ikinci bir anahtar kare oluşturun.",
+    "step5": "Aralarındaki hareketi önizlemek için videoyu oynatın.",
+    "readabilityHeading": "İki anahtar kareyle başlayın",
+    "readabilityText": "Çıkartmayı çerçevenin bir yanından diğerine taşımayı deneyin. Ardından boyut değişimi veya dönüş ekleyin.",
+    "relatedCaption": "Animasyonlu altyazı ekleyin",
+    "relatedLayout": "Video kolajı oluşturun (İngilizce)"
+  }
+}

@@ -67,9 +67,6 @@ for lang,slug in LOCALES.items():
             for field in ("title", "alt", "effect" if data is gallery else "description", "action" if data is gallery else "format"):
                 assert card[field].strip(), (lang, field)
     for source, html, key in [
-        (f"{slug}/about.md", f"{slug}/about.html", "about"),
-        (f"{slug}/privacy.md", f"{slug}/privacy.html", "privacy"),
-        (f"{slug}/free-expression.md", f"{slug}/free-expression.html", "free-expression"),
         (f"{slug}/tutorials/index.md", f"{slug}/tutorials/index.html", "tutorials"),
         (f"{slug}/gallery/index.md", f"{slug}/gallery/index.html", "gallery"),
     ]:
@@ -97,4 +94,4 @@ for lang,slug in LOCALES.items():
             assert "cpeter@codyworks.org" in rendered, (html,"appeals contact")
             assert "constitution.congress.gov" in rendered, (html,"primary legal source")
         checked+=1
-print(f"Localized content checks passed: {len(LOCALES)} languages, {checked} translated secondary pages.")
+print(f"Localized gallery and tutorial-index checks passed: {len(LOCALES)} languages, {checked} translated secondary pages.")

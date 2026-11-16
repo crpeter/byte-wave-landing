@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Tutorial ByteWave",
+    "updatedLabel": "Atualizado em",
+    "updatedDate": "16 de novembro de 2026",
+    "relatedLabel": "Guias relacionados"
+  },
+  "animatedCaptions": {
+    "title": "Adicionar legendas animadas no ByteWave",
+    "description": "Adicione texto a vídeos, escolha um efeito animado e posicione as legendas no ByteWave. Guia breve para iPhone, iPad e Mac.",
+    "lead": "Adicione as suas próprias palavras a um vídeo e dê-lhes um efeito animado.",
+    "stepsHeading": "Adicionar legendas",
+    "step1": "Abra o vídeo no ByteWave e adicione uma legenda.",
+    "step2": "Escreva o texto e selecione a legenda para editar o estilo.",
+    "step3": "Escolha o tipo de letra, o tamanho e a cor. Coloque o texto sobre o vídeo.",
+    "step4": "Escolha um efeito de texto e reproduza o vídeo para pré-visualizar a animação.",
+    "readabilityHeading": "Manter a legibilidade",
+    "readabilityText": "Use uma frase curta e uma cor que contraste com as imagens. Confirme que a animação permite tempo suficiente para ler.",
+    "relatedIntro": "Procura um efeito específico? O",
+    "relatedAnchor": "guia de efeitos de texto (em inglês)",
+    "relatedTail": "explica efeitos como Orbital Letters e Ember Ash.",
+    "relatedSticker": "Animar um autocolante"
+  },
+  "animateStickers": {
+    "title": "Animar autocolantes no ByteWave",
+    "description": "Mova um autocolante ao longo do vídeo com o ByteWave. Use os controlos de tempo e fotogramas-chave para alterar posição, tamanho e rotação.",
+    "lead": "Use fotogramas-chave para mover, redimensionar ou rodar um autocolante ao longo do tempo.",
+    "stepsHeading": "Preparar o movimento",
+    "step1": "Adicione um autocolante ao vídeo e selecione-o.",
+    "step2": "Defina quando aparece usando os controlos de tempo.",
+    "step3": "Use os fotogramas-chave para registar a posição, o tamanho e a rotação iniciais.",
+    "step4": "Avance para um momento posterior e defina outro fotograma-chave com posição, tamanho ou rotação diferentes.",
+    "step5": "Reproduza o vídeo para pré-visualizar o movimento entre os fotogramas-chave.",
+    "readabilityHeading": "Começar com dois fotogramas-chave",
+    "readabilityText": "Experimente mover um autocolante de um lado da imagem para o outro. Depois acrescente uma mudança de tamanho ou rotação.",
+    "relatedCaption": "Adicionar legendas animadas",
+    "relatedLayout": "Criar uma colagem de vídeos (em inglês)"
+  }
+}

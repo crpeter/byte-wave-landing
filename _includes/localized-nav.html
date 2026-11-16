@@ -1,18 +1,18 @@
-{%- assign localized_privacy = site.pages | where: "translation_key", "privacy" | where: "lang", page.lang | first -%}
-{%- assign localized_gallery = site.pages | where: "translation_key", "gallery" | where: "lang", page.lang | first -%}
-{%- assign localized_tutorials = site.pages | where: "translation_key", "tutorials" | where: "lang", page.lang | first -%}
-{%- assign localized_about = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
-{%- assign localized_expression = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
 {% capture language_links -%}
 {% for variant in variants -%}
 <a href="{{ variant.url | relative_url }}" lang="{{ variant.lang }}" hreflang="{{ variant.lang }}"{% if variant.lang == page.lang %} aria-current="page"{% endif %}>{{ site.data.i18n[variant.lang].name | escape }}</a>
 {% endfor -%}
 {% endcapture -%}
+{%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
+{%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+{%- assign expression_page = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
+{%- assign gallery_page = site.pages | where: "translation_key", "gallery" | where: "lang", page.lang | first -%}
+{%- assign tutorials_page = site.pages | where: "translation_key", "tutorials" | where: "lang", page.lang | first -%}
 {% capture primary_links -%}
 <a href="{{ home.url | relative_url }}#features">{{ t.nav.features | escape }}</a>
 <a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
-{% if localized_gallery %}<a href="{{ localized_gallery.url | relative_url }}">{{ t.nav.gallery | escape }}</a>{% else %}<a href="/gallery/" hreflang="en">{{ t.nav.gallery | escape }}</a>{% endif %}
-{% if localized_tutorials %}<a href="{{ localized_tutorials.url | relative_url }}">{{ t.nav.tutorials | escape }}</a>{% else %}<a href="/tutorials/" hreflang="en">{{ t.nav.tutorials | escape }}</a>{% endif %}
+<a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}">{{ t.nav.gallery | escape }}</a>
+<a href="{{ tutorials_page.url | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a>
 <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
 {% endcapture -%}
 <a class="site-skip" href="#main">{{ t.nav.skip | escape }}</a>
@@ -29,9 +29,9 @@
         <summary>{{ t.nav.menu | escape }}</summary>
         <div class="site-menu-links">
             {{ primary_links }}
-            {% if localized_about %}<a href="{{ localized_about.url | relative_url }}">{{ t.nav.about | escape }}</a>{% else %}<a href="/about.html" hreflang="en">{{ t.nav.about | escape }}</a>{% endif %}
-            {% if localized_privacy %}<a href="{{ localized_privacy.url | relative_url }}">{{ t.nav.privacy | escape }}</a>{% else %}<a href="/privacy.html" hreflang="en">{{ t.nav.privacy | escape }}</a>{% endif %}
-            {% if localized_expression %}<a href="{{ localized_expression.url | relative_url }}">{{ t.nav.expression | escape }}</a>{% else %}<a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>{% endif %}
+            <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
+            <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ t.nav.privacy | escape }}</a>
+            <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}">{{ t.nav.expression | escape }}</a>
             <div class="site-menu-languages">
                 {{ language_links }}
             </div>

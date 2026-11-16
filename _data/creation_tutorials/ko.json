@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave 튜토리얼",
+    "updatedLabel": "업데이트",
+    "updatedDate": "2026년 11월 16일",
+    "relatedLabel": "관련 가이드"
+  },
+  "animatedCaptions": {
+    "title": "ByteWave에서 애니메이션 자막 추가하기",
+    "description": "동영상에 텍스트를 추가하고 애니메이션 효과를 선택한 뒤 ByteWave에서 자막 위치를 지정하는 방법입니다. iPhone, iPad, Mac을 위한 짧은 가이드입니다.",
+    "lead": "영상에 직접 쓴 문구를 추가하고 애니메이션 효과를 적용하세요.",
+    "stepsHeading": "자막 추가하기",
+    "step1": "ByteWave에서 동영상을 열고 자막을 추가합니다.",
+    "step2": "텍스트를 입력한 다음 자막을 선택해 스타일을 편집합니다.",
+    "step3": "글꼴, 크기, 색상을 정하고 영상 위에 텍스트를 배치합니다.",
+    "step4": "텍스트 효과를 선택한 뒤 동영상을 재생해 애니메이션을 미리 봅니다.",
+    "readabilityHeading": "읽기 쉽게 만들기",
+    "readabilityText": "짧은 문구와 영상에서 잘 드러나는 색상을 사용하세요. 애니메이션 중 텍스트를 읽을 시간이 충분한지 확인하세요.",
+    "relatedIntro": "특정한 스타일을 찾고 계신가요? ",
+    "relatedAnchor": "텍스트 효과 가이드(영어)",
+    "relatedTail": "에서는 Orbital Letters와 Ember Ash 등의 효과를 소개합니다.",
+    "relatedSticker": "스티커에 애니메이션 적용하기"
+  },
+  "animateStickers": {
+    "title": "ByteWave에서 스티커 애니메이션 만들기",
+    "description": "시간 조절과 키프레임으로 ByteWave에서 스티커의 위치, 크기, 회전을 바꿔 움직이게 하는 방법입니다.",
+    "lead": "키프레임을 사용해 시간에 따라 스티커를 이동하거나 크기를 바꾸거나 회전시키세요.",
+    "stepsHeading": "움직임 설정하기",
+    "step1": "동영상에 스티커를 추가하고 선택합니다.",
+    "step2": "시간 조절 기능으로 스티커가 표시될 시점을 정합니다.",
+    "step3": "키프레임으로 시작 위치, 크기, 회전을 기록합니다.",
+    "step4": "나중 시점으로 이동해 위치, 크기, 회전 중 하나를 변경한 새 키프레임을 만듭니다.",
+    "step5": "동영상을 재생해 키프레임 사이의 움직임을 확인합니다.",
+    "readabilityHeading": "키프레임 두 개로 시작하기",
+    "readabilityText": "스티커를 화면 한쪽에서 반대쪽으로 이동해 보세요. 만족스러우면 크기를 변경하거나 회전을 추가하세요.",
+    "relatedCaption": "애니메이션 자막 추가하기",
+    "relatedLayout": "동영상 콜라주 만들기(영어)"
+  }
+}

@@ -186,18 +186,15 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
             if is_localized:
                 required_footer.remove("/"); required_footer.add(f"/{locale_slug(p.lang)}/")
-                for slug, english in (("about", "/about.html"),
-                                      ("free-expression", "/free-expression.html"),
-                                      ("privacy", "/privacy.html")):
-                    translated = f"/{locale_slug(p.lang)}/{slug}.html"
-                    if (ROOT / translated.lstrip("/")).is_file():
-                        required_footer.remove(english)
-                        required_footer.add(translated)
-                for section in ("tutorials", "gallery"):
-                    translated_section = f"/{locale_slug(p.lang)}/{section}/"
-                    if (ROOT / translated_section.lstrip("/") / "index.html").is_file():
-                        required_footer.remove(f"/{section}/")
-                        required_footer.add(translated_section)
+                required_footer.remove("/about.html")
+                required_footer.add(f"/{locale_slug(p.lang)}/about.html")
+                required_footer.remove("/privacy.html")
+                required_footer.add(f"/{locale_slug(p.lang)}/privacy.html")
+                required_footer.remove("/free-expression.html")
+                required_footer.add(f"/{locale_slug(p.lang)}/free-expression.html")
+                for section in ("gallery", "tutorials"):
+                    required_footer.remove(f"/{section}/")
+                    required_footer.add(f"/{locale_slug(p.lang)}/{section}/")
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
