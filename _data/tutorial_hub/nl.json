@@ -60,10 +60,10 @@
     },
     {
       "href": "/tutorials/temporal-noise-reduction/",
-      "title": "Tijdelijke ruisonderdrukking",
+      "title": "Temporele ruisonderdrukking",
       "description": "Vergelijk ruis en fijne details in voorbeeldvideo’s.",
       "format": "iPhone · Vergelijking van 8 sec.",
-      "alt": "Tijdelijke ruisonderdrukking. Vergelijk ruis en fijne details in voorbeeldvideo’s.",
+      "alt": "Temporele ruisonderdrukking. Vergelijk ruis en fijne details in voorbeeldvideo’s.",
       "left": "Origineel",
       "right": "Ruisonderdrukking"
     },
