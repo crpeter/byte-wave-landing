@@ -24,6 +24,8 @@
 }
 #motion-toggle[hidden] { display: none; }
 @media (min-width: 901px) {
+  /* The hero begins below the sticky nav: place the control inside the first viewport. */
+  #motion-toggle { top: max(20px, calc(100svh - 158px)); bottom: auto; }
   .hero::before { background: linear-gradient(to bottom, rgba(8,19,27,0) 86%, #08131b 100%); }
 }
 @media (max-width: 900px) {
