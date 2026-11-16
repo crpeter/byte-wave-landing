@@ -55,14 +55,20 @@ function test(ok, label, result) {
        docWidth:html.scrollWidth,viewWidth:html.clientWidth,
        overflowingElements:[...document.body.querySelectorAll('*')]
          .map(el=>{
-           const r=el.getBoundingClientRect();
+           const r=el.getBoundingClientRect(),range=document.createRange();
+           range.selectNodeContents(el);
+           const ink=range.getBoundingClientRect();
            return {tag:el.tagName.toLowerCase(),className:typeof el.className==='string'?el.className.slice(0,90):'',
-             text:(el.textContent||'').trim().slice(0,75),
+             text:(el.textContent||'').trim().slice(0,95),
              left:Math.round(r.left*10)/10,right:Math.round(r.right*10)/10,
+             inkRight:Math.round(ink.right*10)/10,
              scrollWidth:el.scrollWidth,clientWidth:el.clientWidth};
          })
-         .filter(x=>x.right>width+1 && x.left<width && x.left>=-100 && x.scrollWidth>0)
-         .slice(0,18),
+         .filter(x=>x.scrollWidth>x.clientWidth+1 ||
+           x.right>width+1 || x.inkRight>width+1)
+         .sort((a,b)=>Math.max(b.inkRight-width,b.scrollWidth-b.clientWidth,b.right-width)-
+                       Math.max(a.inkRight-width,a.scrollWidth-a.clientWidth,a.right-width))
+         .slice(0,22),
        tutorialCards:cards.length,galleryVideos:media.length,
        mediaLabels:media.filter(v=>v.hasAttribute('data-bw-labels')).length,
        brokenCardBounds:cards.map((e,i)=>({r:e.getBoundingClientRect(),i})).filter(x=>x.r.left<-1||x.r.right>width+1).map(x=>x.i),
