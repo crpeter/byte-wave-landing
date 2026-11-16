@@ -27,7 +27,7 @@ Illegale Inhalte, ernsthafte Drohungen und Betrug können entfernt werden. Spam,
 
 Ein Unternehmen zu kritisieren, friedliche Proteste zu dokumentieren oder anderer Meinung zu sein, ist für sich genommen weder Spam noch eine Drohung.
 
-## Eine Entscheidung anfechten. {#appeal}
+<h2 id="appeal">Eine Entscheidung anfechten.</h2>
 
 Schreibe eine E-Mail an [cpeter@codyworks.org](mailto:cpeter@codyworks.org?subject=ByteWave%20moderation%20appeal) mit dem Betreff „ByteWave moderation appeal“. Gib deinen Nutzernamen, das betroffene Video oder Konto, erhaltene Benachrichtigungen und den Grund an, warum du die Entscheidung für falsch hältst. Sende niemals dein Passwort.
 
