@@ -1,0 +1,85 @@
+{
+  "title": "Handleidingen voor videobewerking",
+  "description": "Leer videocollages, geanimeerde ondertitels, stickerkeyframes, bewegingsonscherpte en C2PA-controles maken met ByteWave.",
+  "intro": "Maak een layout, voeg ondertitels toe, animeer stickers of controleer een bestand. Korte handleidingen voor ByteWave.",
+  "language_note": "De afzonderlijke handleidingen waarnaar wordt gelinkt, zijn momenteel in het Engels.",
+  "action": "Handleiding bekijken (Engels)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Videocollages met Layout van ByteWave",
+      "description": "Stapel clips, bouw rasters en probeer nieuwe vormen.",
+      "format": "Drie videovoorbeelden",
+      "alt": "Videocollages met Layout van ByteWave. Stapel clips, bouw rasters en probeer nieuwe vormen."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Geanimeerde ondertitels toevoegen",
+      "description": "Jouw woorden op jouw video.",
+      "format": "Geschreven handleiding",
+      "alt": "Geanimeerde ondertitels toevoegen. Jouw woorden op jouw video."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Teksteffecten voor ondertitels kiezen",
+      "description": "Orbital Letters, Supernova, Ember Ash en meer.",
+      "format": "Geschreven handleiding",
+      "alt": "Teksteffecten voor ondertitels kiezen. Orbital Letters, Supernova, Ember Ash en meer."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Eigen lettertypen importeren",
+      "description": "Gebruik TTF- en OTF-lettertypen voor ondertitels.",
+      "format": "Geschreven handleiding",
+      "alt": "Eigen lettertypen importeren. Gebruik TTF- en OTF-lettertypen voor ondertitels."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Stickers animeren met keyframes",
+      "description": "Positie, grootte, rotatie en keyframes.",
+      "format": "Geschreven handleiding",
+      "alt": "Stickers animeren met keyframes. Positie, grootte, rotatie en keyframes."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Bewegingsonscherpte toevoegen",
+      "description": "Vergelijk de beelden en pas de sterkte van de onscherpte aan.",
+      "format": "iPhone · Vergelijking van 20 sec.",
+      "alt": "Bewegingsonscherpte toevoegen. Vergelijk de beelden en pas de sterkte van de onscherpte aan.",
+      "left": "Origineel",
+      "right": "Bewegingsonscherpte"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Framerateconversie voor slowmotion",
+      "description": "Bekijk een kolibrie in 0,1× slowmotion.",
+      "format": "iPhone · Vergelijking van 30 sec.",
+      "alt": "Framerateconversie voor slowmotion. Bekijk een kolibrie in 0,1× slowmotion.",
+      "left": "Normaal · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Tijdelijke ruisonderdrukking",
+      "description": "Vergelijk ruis en fijne details in voorbeeldvideo’s.",
+      "format": "iPhone · Vergelijking van 8 sec.",
+      "alt": "Tijdelijke ruisonderdrukking. Vergelijk ruis en fijne details in voorbeeldvideo’s.",
+      "left": "Origineel",
+      "right": "Ruisonderdrukking"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "C2PA Content Credentials controleren",
+      "description": "Open het herkomstlabel en bekijk geverifieerde AI-verklaringen en ontbrekende bewijzen.",
+      "format": "Foto’s en video’s · Handleiding",
+      "alt": "C2PA Content Credentials controleren. Open het herkomstlabel en bekijk geverifieerde AI-verklaringen en ontbrekende bewijzen."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Locatiemetadata verwijderen",
+      "description": "Controleer je werkkopie, verwijder bewerkbare velden en kijk wat overblijft.",
+      "format": "Privacy · Handleiding",
+      "alt": "Locatiemetadata verwijderen. Controleer je werkkopie, verwijder bewerkbare velden en kijk wat overblijft."
+    }
+  ]
+}
