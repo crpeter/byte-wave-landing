@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Tutorial ByteWave",
+    "updatedLabel": "Atualizado em",
+    "updatedDate": "16 de novembro de 2026",
+    "relatedLabel": "Guias relacionados"
+  },
+  "captionEffects": {
+    "title": "Efeitos de texto para legendas no ByteWave",
+    "description": "Escolha um efeito de texto para legendas no ByteWave, pré-visualize a animação e experimente Orbital Letters, Supernova e Ember Ash.",
+    "lead": "Experimente um efeito nas suas palavras. Pré-visualize-o sobre as gravações antes de exportar.",
+    "stepsHeading": "Escolher um efeito",
+    "step1": "Selecione uma legenda no seu projeto ByteWave.",
+    "step2": "Abra os efeitos de texto e escolha uma predefinição.",
+    "step3": "Reproduza o vídeo para ver o efeito em movimento.",
+    "presetsHeading": "Três efeitos para experimentar",
+    "tip": "Use a mesma frase curta com cada efeito. Ajuste o tipo de letra, tamanho e cor à gravação.",
+    "fromScratch": "Está a começar?",
+    "firstCaption": "Adicione a primeira legenda",
+    "fontsPrompt": "Quer outro tipo de letra?",
+    "importFont": "Importe o seu próprio tipo de letra",
+    "relatedSticker": "Animar um autocolante"
+  },
+  "customFonts": {
+    "title": "Os seus tipos de letra não deviam exigir subscrição.",
+    "description": "Importe tipos de letra TTF ou OTF para o ByteWave no iPhone. Escolha um ficheiro e utilize My Fonts para personalizar legendas gratuitamente.",
+    "lead": "Use o seu tipo de letra no vídeo. A importação no ByteWave é gratuita.",
+    "stepsHeading": "Importar um tipo de letra no iPhone",
+    "step1": "Guarde um ficheiro TrueType (.ttf) ou OpenType (.otf) na aplicação Ficheiros. Se vier num ZIP, descomprima-o primeiro.",
+    "step2": "Selecione uma legenda no projeto ByteWave e abra o painel Font.",
+    "step3": "Toque em Import font e escolha o ficheiro.",
+    "step4": "Encontre-o em My Fonts e toque no tipo de letra para o aplicar à legenda.",
+    "preview": "Reproduza o vídeo, verifique o texto, ajuste tamanho e cor e exporte.",
+    "unsupportedHeading": "Não consegue selecionar o ficheiro?",
+    "unsupported": "Escolha o próprio ficheiro .ttf ou .otf. Os tipos de letra para a Web .woff e .woff2 não são suportados.",
+    "startPrompt": "Está a começar com um projeto vazio?",
+    "firstCaption": "Adicione a primeira legenda",
+    "effectsPrompt": "Depois, experimente",
+    "effectsLink": "efeitos de texto para legendas",
+    "license": "O ByteWave não cobra pela importação de tipos de letra. O tipo de letra pode ter um preço ou uma licença própria; consulte os termos do criador."
+  }
+}
