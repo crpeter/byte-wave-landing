@@ -1,0 +1,49 @@
+name: Localized secondary pages browser QA
+on:
+  pull_request:
+    paths:
+      - '_data/gallery_hub/**'
+      - '_data/tutorial_hub/**'
+      - '_layouts/localized-information.html'
+      - '_layouts/localized-tutorial-index.html'
+      - '_layouts/localized-gallery.html'
+      - '_includes/localized-nav.html'
+      - '_includes/localized-footer.html'
+      - '**/about.md'
+      - '**/free-expression.md'
+      - '**/gallery/index.md'
+      - '**/tutorials/index.md'
+      - 'scripts/test_secondary_browser.cjs'
+      - '.github/workflows/secondary-browser-qa.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render the site with GitHub Pages
+        uses: actions/jekyll-build-pages@v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser testing dependencies
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Check secondary pages in real Chromium
+        env:
+          SITE_URL: http://127.0.0.1:8765
+        run: |
+          python3 -m http.server 8765 --directory _site >/tmp/bytewave-secondary-http.log 2>&1 &
+          sleep 2
+          node scripts/test_secondary_browser.cjs
+      - name: Upload localized screenshots and checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: secondary-localization-qa
+          path: qa-secondary/
+          if-no-files-found: warn
+          retention-days: 30
