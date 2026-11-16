@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave tutorial",
+    "updatedLabel": "Updated",
+    "updatedDate": "September 28, 2026",
+    "relatedLabel": "Related guides"
+  },
+  "animatedCaptions": {
+    "title": "How to Add Animated Captions in ByteWave",
+    "description": "Add text to your video, choose an animated effect, and position your caption in ByteWave. A short guide for iPhone, iPad, and Mac.",
+    "lead": "Add your own text to a video and give it an animated effect.",
+    "stepsHeading": "Add your caption",
+    "step1": "Open your video in ByteWave and add a caption.",
+    "step2": "Enter your text, then select the caption to edit its style.",
+    "step3": "Choose a font, size, and color. Position the text over your video.",
+    "step4": "Choose a text effect, then play the video to preview the animation.",
+    "readabilityHeading": "Keep it readable",
+    "readabilityText": "Use a short phrase and a color that stands out against the footage. Check that the animation leaves enough time to read it.",
+    "relatedIntro": "Looking for a particular look? The",
+    "relatedAnchor": "caption effects guide",
+    "relatedTail": "covers presets such as Orbital Letters and Ember Ash.",
+    "relatedSticker": "Animate a sticker"
+  },
+  "animateStickers": {
+    "title": "How to Animate Stickers in ByteWave",
+    "description": "Make a sticker move across your video in ByteWave. Use timing and keyframes to change its position, size, and rotation.",
+    "lead": "Use keyframes to move a sticker, change its size, or rotate it over time.",
+    "stepsHeading": "Set up the movement",
+    "step1": "Add a sticker to your video and select it.",
+    "step2": "Set when it appears using the timing controls.",
+    "step3": "Use the keyframe controls to record its starting position, size, and rotation.",
+    "step4": "Move to a later time and set another keyframe with a different position, size, or rotation.",
+    "step5": "Play the video to preview the movement between them.",
+    "readabilityHeading": "Start with two keyframes",
+    "readabilityText": "Try moving a sticker from one side of the frame to the other. Once that looks right, add a size change or a rotation.",
+    "relatedCaption": "Add animated captions",
+    "relatedLayout": "Make a video collage"
+  }
+}
