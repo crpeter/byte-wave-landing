@@ -16,7 +16,10 @@ const routes = [
  ['about','about.html'], ['free-expression','free-expression.html'],
  ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
- ['metadata','tutorials/remove-location-metadata/']
+ ['metadata','tutorials/remove-location-metadata/'],
+ ['motion','tutorials/motion-blur/'],
+ ['frc','tutorials/frame-rate-conversion/'],
+ ['noise','tutorials/temporal-noise-reduction/']
 ];
 const issues=[], checks=[];
 function test(ok, label, result) {
@@ -64,7 +67,24 @@ function test(ok, label, result) {
        hasC2paSpec:!!document.querySelector('a[href*="spec.c2pa.org/specifications"]'),
        hasIrishRegulator:!!document.querySelector('a[href*="dataprotection.ie/en/news-media/latest-news"]'),
        hasOriginalAssessment:document.querySelector('main')?.textContent.includes('Recorded at import'),
-       hasSignedCredentials:document.querySelector('main')?.textContent.includes('Content Credentials')
+       hasSignedCredentials:document.querySelector('main')?.textContent.includes('Content Credentials'),
+       comparisonVideo:(()=>{
+         const player=document.querySelector('main .bw-player');
+         const video=player?.querySelector('video[data-bw-player]');
+         const bb=video?.getBoundingClientRect();
+         const region=document.querySelector('main article')?.getBoundingClientRect();
+         return {
+           src:video?.querySelector('source')?.getAttribute('src'),
+           poster:video?.getAttribute('poster'),
+           id:video?.id, width:video?.getAttribute('width'),height:video?.getAttribute('height'),
+           hasNativeControls:video?.hasAttribute('controls'), playsinline:video?.hasAttribute('playsinline'),
+           hasPlayButton:!!player?.querySelector('.bw-play[aria-controls="'+video?.id+'"]'),
+           hasStatus:!!player?.querySelector('.bw-video-status[role="status"]'),
+           hasCaption:!!document.querySelector('#comparison-description'),
+           withinBounds:!bb||!region ? false : bb.left>=Math.max(0,region.left)-2&&bb.right<=Math.min(width,region.right)+2,
+           hasAlt:!!video?.getAttribute('aria-label')
+         };
+       })()
       };
      },size);
      const key=lang+' '+kind+' '+size.width+'x'+size.height;
@@ -100,14 +120,28 @@ function test(ok, label, result) {
             key+' five metadata steps, official source and provenance cautions',
             {steps:data.instructionSteps,regulator:data.hasIrishRegulator,assessment:data.hasOriginalAssessment,credentials:data.hasSignedCredentials});
      }
+     if(['motion','frc','noise'].includes(kind)){
+       const videoExpected={
+         motion:['/assets/videos/comparison.mp4','/assets/videos/motion-blur-comparison-poster.jpg','demo-video-10','1216','1080'],
+         frc:['/assets/videos/hummingbird-comparison.mp4','/assets/videos/hummingbird-comparison-poster.jpg','comparison-video','672','720'],
+         noise:['/assets/videos/temporal-noise-comparison.mp4','/assets/videos/temporal-noise-comparison-poster.jpg','comparison-video','2560','720']
+       }[kind];
+       const v=data.comparisonVideo;
+       test(v.src===videoExpected[0]&&v.poster===videoExpected[1]&&v.id===videoExpected[2]&&
+            v.width===videoExpected[3]&&v.height===videoExpected[4]&&v.hasNativeControls&&v.playsinline&&
+            v.hasPlayButton&&v.hasStatus&&v.hasCaption&&v.hasAlt,
+            key+' preserved video source, poster, dimensions, controls and caption',v);
+       if(size.width<=390) test(v.withinBounds,key+' full comparison video remains within its article',v);
+     }
      if(kind==='privacy'){
        const minimum = ['ja','ko','zh-Hant'].includes(lang) ? 400 : 1500;
        test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
-      if(['about','gallery','tutorials','c2pa','metadata'].includes(kind)) {
+      if(['about','gallery','tutorials','c2pa','metadata','motion','frc','noise'].includes(kind)) {
        if(kind==='c2pa') await page.locator('main table').scrollIntoViewIfNeeded();
        if(kind==='metadata') await page.locator('main ol').scrollIntoViewIfNeeded();
+       if(['motion','frc','noise'].includes(kind)) await page.locator('main figure').scrollIntoViewIfNeeded();
        await page.screenshot({path:path.join(OUT,lang+'-'+kind+'-'+size.width+'.png'),animations:'disabled'});
       }
      }
@@ -140,6 +174,18 @@ function test(ok, label, result) {
   await page.locator('.site-menu a[href="/fr/tutorials/remove-location-metadata/"]').click();
   test(page.url().endsWith('/fr/tutorials/remove-location-metadata/'),
        'Metadata mobile language switch preserves corresponding guide',{url:page.url()});
+  await page.setViewportSize({width:1440,height:900});
+  await page.goto(ORIGIN+'/de/tutorials/motion-blur/',{waitUntil:'domcontentloaded'});
+  await page.locator('.site-language > summary').click();
+  await page.locator('.site-language a[href="/ja/tutorials/motion-blur/"]').click();
+  test(page.url().endsWith('/ja/tutorials/motion-blur/'),
+       'Motion blur desktop language switch preserves the comparison',{url:page.url()});
+  await page.setViewportSize({width:390,height:844});
+  await page.goto(ORIGIN+'/pt-br/tutorials/temporal-noise-reduction/',{waitUntil:'domcontentloaded'});
+  await page.locator('.site-menu > summary').click();
+  await page.locator('.site-menu a[href="/fr/tutorials/temporal-noise-reduction/"]').click();
+  test(page.url().endsWith('/fr/tutorials/temporal-noise-reduction/'),
+       'Noise reduction mobile language switch preserves comparison',{url:page.url()});
  } finally {
   await browser.close();
   fs.writeFileSync(path.join(OUT,'report.json'),JSON.stringify({url:ORIGIN,locales:locales.length,types:routes.length,
