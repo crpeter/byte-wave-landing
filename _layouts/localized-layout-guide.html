@@ -30,7 +30,7 @@
     <meta name="twitter:image" content="https://bytewaveai.com/assets/social/layout.jpg">
     <meta name="twitter:image:alt" content="{{ g.socialAlt | escape }}">
     <meta property="article:published_time" content="2026-09-28">
-    <meta property="article:modified_time" content="2026-10-18">
+    <meta property="article:modified_time" content="{{ g.modified }}">
     <link rel="icon" href="/favicon-48x48.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <style>
@@ -54,7 +54,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
       "url": "{{ page.url | absolute_url }}",
       "mainEntityOfPage": "{{ page.url | absolute_url }}",
       "datePublished": "2026-09-28",
-      "dateModified": "2026-10-18",
+      "dateModified": {{ g.modified | jsonify }},
       "author": {
         "@type": "Organization",
         "name": "ByteWave",
@@ -173,9 +173,9 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 {% include localized-nav.html %}
 <main id="main">
 <article class="creation-guide layout-page">
-    <p class="eyebrow">{{ g.eyebrow | escape }}</p>
+    <p class="eyebrow">{{ t.home.showcase.layout | escape }}</p>
     <h1>{{ g.title | escape }}</h1>
-    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ g.updated | escape }} <time datetime="2026-10-18">{{ g.date | escape }}</time></p>
+    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ g.updated | escape }} <time datetime="{{ g.modified }}">{{ g.date | escape }}</time></p>
     <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ g.publisher | escape }}</p>
 
     <p class="lead">{{ g.lead | escape }}</p>

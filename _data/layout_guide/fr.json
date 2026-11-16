@@ -2,7 +2,6 @@
   "title": "Créer gratuitement un collage vidéo sur iPhone, iPad et Mac",
   "lead": "Mélangez photos et vidéos, empilez des plans ou disposez-les en grille ou en nid d’abeilles. ByteWave est gratuit sur iPhone, iPad et Mac avec puce Apple.",
   "orientations": "Une composition, deux orientations",
-  "honey": "Nid d’abeilles",
   "honeyText": "Sept cases hexagonales montrent la lune, un chien et un champ ensoleillé.",
   "seasideText": "Six plans du littoral se partagent l’image, puis un chien joue sur la plage en plein écran.",
   "warpedText": "Les images du soleil couchant sur l’océan forment des bandes courbes qui se reflètent les unes dans les autres.",
@@ -17,11 +16,10 @@
   "step2": "Choisissez une disposition et ajoutez vos photos et vidéos.",
   "step3": "Ajustez la composition, vérifiez l’aperçu et exportez le résultat.",
   "pricing": "Le montage se fait sur votre appareil, sans abonnement ni filigrane ByteWave à l’export.",
-  "date": "18 octobre 2026",
+  "date": "16 novembre 2026",
   "publisher": "Publié par ByteWave, qui développe l’application présentée ici.",
   "description": "Mélangez photos et vidéos, empilez des plans ou disposez-les en grille ou en nid d’abeilles. ByteWave est gratuit sur iPhone, iPad et Mac avec puce Apple.",
   "socialAlt": "Compositions avec Layout de ByteWave. Superposez les clips, créez des grilles et explorez différentes formes.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Mis à jour le",
   "related": "Guides associés",
   "open": "Ouvrir la vidéo",
@@ -37,5 +35,6 @@
     "Coucher de soleil déformé",
     "Hexagones de coucher de soleil (portrait)",
     "Hexagones de coucher de soleil (paysage)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

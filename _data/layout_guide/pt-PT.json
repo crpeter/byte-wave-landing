@@ -2,7 +2,6 @@
   "title": "Crie colagens de vídeo grátis no iPhone, iPad e Mac",
   "lead": "Combine fotografias e vídeos, empilhe clipes ou disponha-os em grelhas e favos de mel. O ByteWave é gratuito no iPhone, iPad e Mac com processador Apple.",
   "orientations": "Uma composição em duas orientações",
-  "honey": "Favo de mel",
   "honeyText": "Sete células hexagonais mostram a lua, um cão e um campo ao sol.",
   "seasideText": "Seis clipes do litoral partilham o mesmo enquadramento. A seguir, vê-se um cão a brincar na praia em ecrã inteiro.",
   "warpedText": "As imagens do pôr do sol no mar curvam-se em faixas espelhadas.",
@@ -17,11 +16,10 @@
   "step2": "Escolha uma disposição e adicione as fotografias e os vídeos.",
   "step3": "Ajuste a composição, veja a pré-visualização e exporte.",
   "pricing": "A edição decorre no seu dispositivo, sem assinatura nem marca de água do ByteWave na exportação.",
-  "date": "18 de outubro de 2026",
+  "date": "16 de novembro de 2026",
   "publisher": "Publicado pelo ByteWave, responsável pela aplicação apresentada neste artigo.",
   "description": "Combine fotografias e vídeos, empilhe clipes ou disponha-os em grelhas e favos de mel. O ByteWave é gratuito no iPhone, iPad e Mac com processador Apple.",
   "socialAlt": "Colagens de vídeo com Layout do ByteWave. Sobreponha clips, construa grelhas e experimente novas formas.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Atualizado em",
   "related": "Guias relacionados",
   "open": "Abrir vídeo",
@@ -37,5 +35,6 @@
     "Pôr do sol distorcido",
     "Hexágonos ao pôr do sol (retrato)",
     "Hexágonos ao pôr do sol (paisagem)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

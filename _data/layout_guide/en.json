@@ -2,7 +2,6 @@
   "title": "Free Video Collage Maker for iPhone, iPad & Mac",
   "lead": "Stack videos. Mix photos and clips. Build grids or honeycomb layouts with ByteWave, free on iPhone, iPad, and Apple Silicon Mac.",
   "orientations": "One layout, two orientations",
-  "honey": "Honeycomb",
   "honeyText": "Seven hexagonal cells showing the moon, a dog, and a sunny field.",
   "seasideText": "Six seaside clips share one frame, then the edit cuts to a dog playing on the beach.",
   "warpedText": "Ocean sunset footage bent into curved, mirrored bands.",
@@ -21,7 +20,6 @@
   "publisher": "Published by ByteWave, which makes the app discussed here.",
   "description": "Make video collages with ByteWave. Stack clips, mix photos and videos, and build grids or honeycomb layouts. Free, with no subscription or export watermark.",
   "socialAlt": "Photos and videos. One layout. Stack clips, build grids, and try new shapes.",
-  "eyebrow": "Layout from ByteWave",
   "updated": "Updated",
   "related": "Related guides",
   "open": "Open video",
@@ -58,5 +56,6 @@
     "Ocean sunset footage bent into curved, mirrored bands with Layout from ByteWave.",
     "Ocean sunsets and waves arranged in four hexagonal panels over a full-frame sunset background in ByteWave.",
     "Four hexagonal panels of ocean sunsets and waves centered over a wide orange sunset and ocean background."
-  ]
+  ],
+  "modified": "2026-10-18"
 }

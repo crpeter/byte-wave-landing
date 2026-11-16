@@ -2,7 +2,6 @@
   "title": "Crea collages de vídeo gratis en iPhone, iPad y Mac",
   "lead": "Combina fotos y vídeos, apila clips o distribúyelos en cuadrículas y panales. ByteWave es gratis en iPhone, iPad y Mac con chip de Apple.",
   "orientations": "Un diseño en dos orientaciones",
-  "honey": "Panal",
   "honeyText": "Siete celdas hexagonales muestran la luna, un perro y un campo soleado.",
   "seasideText": "Seis clips de la costa comparten un encuadre. Después, un perro juega en la playa a pantalla completa.",
   "warpedText": "Las imágenes de la puesta de sol en el mar se curvan en franjas que se reflejan entre sí.",
@@ -17,11 +16,10 @@
   "step2": "Elige una distribución y añade tus fotos y vídeos.",
   "step3": "Ajusta la composición, revisa la vista previa y exporta el resultado.",
   "pricing": "La edición se realiza en tu dispositivo. Sin suscripción ni marca de agua de ByteWave al exportar.",
-  "date": "18 de octubre de 2026",
+  "date": "16 de noviembre de 2026",
   "publisher": "Publicado por ByteWave, responsable de la aplicación que se describe aquí.",
   "description": "Combina fotos y vídeos, apila clips o distribúyelos en cuadrículas y panales. ByteWave es gratis en iPhone, iPad y Mac con chip de Apple.",
   "socialAlt": "Composiciones con Layout de ByteWave. Superpón clips, crea cuadrículas y prueba nuevas formas.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Actualizado",
   "related": "Guías relacionadas",
   "open": "Abrir video",
@@ -37,5 +35,6 @@
     "Atardecer deformado",
     "Hexágonos de atardecer (vertical)",
     "Hexágonos de atardecer (horizontal)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

@@ -2,7 +2,6 @@
   "title": "Crea collage video gratis su iPhone, iPad e Mac",
   "lead": "Combina foto e video, sovrapponi le clip o disponile in griglie e motivi a nido d’ape. ByteWave è gratis su iPhone, iPad e Mac con chip Apple.",
   "orientations": "Una composizione, due orientamenti",
-  "honey": "Nido d’ape",
   "honeyText": "Sette celle esagonali mostrano la luna, un cane e un prato al sole.",
   "seasideText": "Sei riprese della costa condividono l’inquadratura, poi un cane gioca sulla spiaggia a tutto schermo.",
   "warpedText": "Le immagini del tramonto sul mare si piegano in fasce curve e speculari.",
@@ -17,11 +16,10 @@
   "step2": "Scegli una disposizione e aggiungi foto e video.",
   "step3": "Regola la composizione, controlla l’anteprima ed esporta il risultato.",
   "pricing": "Il montaggio avviene sul tuo dispositivo, senza abbonamento né filigrana ByteWave sui video esportati.",
-  "date": "18 ottobre 2026",
+  "date": "16 novembre 2026",
   "publisher": "Pubblicato da ByteWave, che sviluppa l’app descritta in questa guida.",
   "description": "Combina foto e video, sovrapponi le clip o disponile in griglie e motivi a nido d’ape. ByteWave è gratis su iPhone, iPad e Mac con chip Apple.",
   "socialAlt": "Collage video con Layout di ByteWave. Sovrapponi clip, crea griglie e prova forme diverse.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Aggiornato il",
   "related": "Guide correlate",
   "open": "Apri video",
@@ -37,5 +35,6 @@
     "Tramonto deformato",
     "Esagoni al tramonto (verticale)",
     "Esagoni al tramonto (orizzontale)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

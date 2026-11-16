@@ -2,7 +2,6 @@
   "title": "Tee videokollaaseja ilmaiseksi iPhonella, iPadilla ja Macilla",
   "lead": "Yhdistä kuvia ja videoita, pinoa leikkeitä tai sommittele ne ruudukoksi tai kennoksi. ByteWave on ilmainen iPhonella, iPadilla ja Applen sirulla varustetulla Macilla.",
   "orientations": "Sama sommitelma pysty- ja vaakasuunnassa",
-  "honey": "Hunajakenno",
   "honeyText": "Seitsemässä kuusikulmaisessa ruudussa näkyy kuu, koira ja aurinkoinen niitty.",
   "seasideText": "Kuusi rannikkovideota näkyy rinnakkain. Sitten kuva vaihtuu rannalla leikkivään koiraan, joka näkyy koko ruudun kokoisena.",
   "warpedText": "Meren yllä laskeva aurinko taipuu kaareviksi, toisiaan peilaaviksi raidoiksi.",
@@ -17,11 +16,10 @@
   "step2": "Valitse asettelu ja lisää kuvat ja videot.",
   "step3": "Säädä sommittelua, tarkista esikatselu ja vie valmis video.",
   "pricing": "Muokkaus tapahtuu laitteellasi ilman tilausta. Vientiin ei lisätä ByteWaven vesileimaa.",
-  "date": "18. lokakuuta 2026",
+  "date": "16. marraskuuta 2026",
   "publisher": "Julkaisija on ByteWave, joka kehittää tässä oppaassa esiteltyä sovellusta.",
   "description": "Yhdistä kuvia ja videoita, pinoa leikkeitä tai sommittele ne ruudukoksi tai kennoksi. ByteWave on ilmainen iPhonella, iPadilla ja Applen sirulla varustetulla Macilla.",
   "socialAlt": "Videokollaasit ByteWave Layoutilla. Kerrosta leikkeitä, rakenna ruudukoita ja kokeile uusia muotoja.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Päivitetty",
   "related": "Aiheeseen liittyvät oppaat",
   "open": "Avaa video",
@@ -37,5 +35,6 @@
     "Vääristynyt auringonlasku",
     "Auringonlaskuheksagonit (pysty)",
     "Auringonlaskuheksagonit (vaaka)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

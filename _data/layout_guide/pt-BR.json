@@ -2,7 +2,6 @@
   "title": "Crie colagens de vídeo grátis no iPhone, iPad e Mac",
   "lead": "Misture fotos e vídeos, empilhe clipes ou organize tudo em grades e colmeias. O ByteWave é grátis no iPhone, iPad e Mac com chip da Apple.",
   "orientations": "Um layout em duas orientações",
-  "honey": "Colmeia",
   "honeyText": "Sete células hexagonais mostram a lua, um cachorro e um campo ensolarado.",
   "seasideText": "Seis vídeos do litoral dividem o quadro. Em seguida, um cachorro brinca na praia em tela cheia.",
   "warpedText": "As imagens do pôr do sol no mar formam faixas curvas e espelhadas.",
@@ -17,11 +16,10 @@
   "step2": "Escolha uma disposição e adicione suas fotos e vídeos.",
   "step3": "Ajuste a composição, confira a prévia e exporte.",
   "pricing": "A edição acontece no seu dispositivo. Não há assinatura nem marca-d’água do ByteWave na exportação.",
-  "date": "18 de outubro de 2026",
+  "date": "16 de novembro de 2026",
   "publisher": "Publicado pelo ByteWave, responsável pelo app apresentado neste artigo.",
   "description": "Misture fotos e vídeos, empilhe clipes ou organize tudo em grades e colmeias. O ByteWave é grátis no iPhone, iPad e Mac com chip da Apple.",
   "socialAlt": "Colagens de vídeo com Layout do ByteWave. Sobreponha clipes, crie grades e experimente novos formatos.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Atualizado em",
   "related": "Tutoriais relacionados",
   "open": "Abrir vídeo",
@@ -37,5 +35,6 @@
     "Pôr do sol distorcido",
     "Hexágonos de pôr do sol (retrato)",
     "Hexágonos de pôr do sol (paisagem)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

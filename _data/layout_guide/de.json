@@ -2,7 +2,6 @@
   "title": "Kostenlose Videocollagen für iPhone, iPad und Mac",
   "lead": "Kombiniere Fotos und Videos, staple Clips oder ordne sie in einem Raster oder Wabenmuster an. ByteWave ist kostenlos für iPhone, iPad und Mac mit Apple-Chip.",
   "orientations": "Ein Layout in zwei Ausrichtungen",
-  "honey": "Wabenmuster",
   "honeyText": "Sieben sechseckige Felder zeigen den Mond, einen Hund und eine sonnige Wiese.",
   "seasideText": "Sechs Küstenaufnahmen teilen sich ein Bild. Danach ist ein spielender Hund am Strand im Vollbild zu sehen.",
   "warpedText": "Die Aufnahmen des Sonnenuntergangs am Meer krümmen sich zu spiegelbildlichen Bändern.",
@@ -17,11 +16,10 @@
   "step2": "Wähle eine Anordnung und füge deine Fotos und Videos hinzu.",
   "step3": "Passe die Komposition an, prüfe die Vorschau und exportiere das Ergebnis.",
   "pricing": "Die Bearbeitung läuft auf deinem Gerät. Ohne Abo und ohne ByteWave-Wasserzeichen beim Export.",
-  "date": "18. Oktober 2026",
+  "date": "16. November 2026",
   "publisher": "Veröffentlicht von ByteWave, dem Entwickler der hier vorgestellten App.",
   "description": "Kombiniere Fotos und Videos, staple Clips oder ordne sie in einem Raster oder Wabenmuster an. ByteWave ist kostenlos für iPhone, iPad und Mac mit Apple-Chip.",
   "socialAlt": "Video-Collagen mit Layout von ByteWave. Überlagere Clips, baue Raster und probiere neue Formen aus.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Aktualisiert am",
   "related": "Verwandte Anleitungen",
   "open": "Video öffnen",
@@ -37,5 +35,6 @@
     "Verzerrter Sonnenuntergang",
     "Sonnenuntergangs-Sechsecke (Hochformat)",
     "Sonnenuntergangs-Sechsecke (Querformat)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

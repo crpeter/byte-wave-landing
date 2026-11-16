@@ -2,7 +2,6 @@
   "title": "Twórz bezpłatne kolaże wideo na iPhonie, iPadzie i Macu",
   "lead": "Łącz zdjęcia i filmy, układaj klipy jeden nad drugim albo w siatkę lub plaster miodu. ByteWave jest bezpłatny na iPhonie, iPadzie i Macu z układem Apple.",
   "orientations": "Jeden układ w dwóch orientacjach",
-  "honey": "Plaster miodu",
   "honeyText": "Siedem sześciokątnych pól pokazuje księżyc, psa i słoneczną łąkę.",
   "seasideText": "Sześć ujęć wybrzeża dzieli jeden kadr. Po cięciu cały obraz zajmuje pies bawiący się na plaży.",
   "warpedText": "Ujęcie zachodu słońca nad oceanem wygina się w lustrzane pasma.",
@@ -17,11 +16,10 @@
   "step2": "Wybierz układ i dodaj zdjęcia oraz filmy.",
   "step3": "Dopasuj kompozycję, sprawdź podgląd i wyeksportuj film.",
   "pricing": "Montaż odbywa się na urządzeniu. Nie wymaga subskrypcji, a na wyeksportowanym filmie nie ma znaku wodnego ByteWave.",
-  "date": "18 października 2026",
+  "date": "16 listopada 2026 r.",
   "publisher": "Wydawcą jest ByteWave, twórca opisanej aplikacji.",
   "description": "Łącz zdjęcia i filmy, układaj klipy jeden nad drugim albo w siatkę lub plaster miodu. ByteWave jest bezpłatny na iPhonie, iPadzie i Macu z układem Apple.",
   "socialAlt": "Kolaże wideo z Layout od ByteWave. Nakładaj klipy, twórz siatki i próbuj nowych kształtów.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Zaktualizowano",
   "related": "Powiązane poradniki",
   "open": "Otwórz film",
@@ -37,5 +35,6 @@
     "Zniekształcony zachód słońca",
     "Sześciokąty zachodu słońca (pionowo)",
     "Sześciokąty zachodu słońca (poziomo)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

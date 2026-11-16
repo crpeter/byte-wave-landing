@@ -2,7 +2,6 @@
   "title": "Lag gratis videokollasjer på iPhone, iPad og Mac",
   "lead": "Bland bilder og videoer, stable klipp eller fordel dem i rutenett og bikubemønstre. ByteWave er gratis på iPhone, iPad og Mac med Apple-chip.",
   "orientations": "Samme oppsett i stående og liggende format",
-  "honey": "Bikubemønster",
   "honeyText": "Sju sekskantede ruter viser månen, en hund og en solfylt eng.",
   "seasideText": "Seks klipp fra kysten deler bildeflaten. Deretter fyller en hund som leker på stranden, hele bildet.",
   "warpedText": "Opptaket av solnedgangen over havet bøyes til buede, speilvendte bånd.",
@@ -17,11 +16,10 @@
   "step2": "Velg et oppsett og legg til bilder og videoer.",
   "step3": "Juster komposisjonen, se gjennom forhåndsvisningen og eksporter.",
   "pricing": "Redigeringen skjer på enheten din, uten abonnement eller ByteWave-vannmerke ved eksport.",
-  "date": "18. oktober 2026",
+  "date": "16. november 2026",
   "publisher": "Publisert av ByteWave, som utvikler appen denne veiledningen handler om.",
   "description": "Bland bilder og videoer, stable klipp eller fordel dem i rutenett og bikubemønstre. ByteWave er gratis på iPhone, iPad og Mac med Apple-chip.",
   "socialAlt": "Videocollager med Layout fra ByteWave. Legg klipp i lag, bygg rutenett og prøv nye former.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Oppdatert",
   "related": "Relaterte veiledninger",
   "open": "Åpne video",
@@ -37,5 +35,6 @@
     "Forvrengt solnedgang",
     "Solnedgangsheksagoner (stående)",
     "Solnedgangsheksagoner (liggende)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }

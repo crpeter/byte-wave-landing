@@ -2,7 +2,6 @@
   "title": "Gratis videocollages maken op iPhone, iPad en Mac",
   "lead": "Combineer foto’s en video’s, stapel clips of verdeel ze over een raster of honingraat. ByteWave is gratis op iPhone, iPad en Mac met Apple silicon.",
   "orientations": "Eén indeling, twee beeldrichtingen",
-  "honey": "Honingraat",
   "honeyText": "Zeven zeshoekige vakken tonen de maan, een hond en een zonnig weiland.",
   "seasideText": "Zes kustbeelden delen één kader. Daarna zie je een hond die op het strand speelt, over het hele beeld.",
   "warpedText": "Beelden van de zonsondergang op zee buigen mee met gebogen, gespiegelde stroken.",
@@ -17,11 +16,10 @@
   "step2": "Kies een indeling en voeg je foto’s en video’s toe.",
   "step3": "Pas de compositie aan, bekijk het voorbeeld en exporteer het resultaat.",
   "pricing": "Je bewerkt op je eigen apparaat, zonder abonnement of ByteWave-watermerk bij het exporteren.",
-  "date": "18 oktober 2026",
+  "date": "16 november 2026",
   "publisher": "Gepubliceerd door ByteWave, de ontwikkelaar van de hier besproken app.",
   "description": "Combineer foto’s en video’s, stapel clips of verdeel ze over een raster of honingraat. ByteWave is gratis op iPhone, iPad en Mac met Apple silicon.",
   "socialAlt": "Videocollages met Layout van ByteWave. Stapel clips, bouw rasters en probeer nieuwe vormen.",
-  "eyebrow": "ByteWave Layout",
   "updated": "Bijgewerkt op",
   "related": "Gerelateerde handleidingen",
   "open": "Video openen",
@@ -37,5 +35,6 @@
     "Vervormde zonsondergang",
     "Zonsondergangzeshoeken (staand)",
     "Zonsondergangzeshoeken (liggend)"
-  ]
+  ],
+  "modified": "2026-11-16"
 }
