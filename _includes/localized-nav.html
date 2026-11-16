@@ -5,6 +5,7 @@
 {% endcapture -%}
 {%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
 {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+{%- assign expression_page = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
 {% capture primary_links -%}
 <a href="{{ home.url | relative_url }}#features">{{ t.nav.features | escape }}</a>
 <a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
@@ -28,7 +29,7 @@
             {{ primary_links }}
             <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
             <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ t.nav.privacy | escape }}</a>
-            <a href="/free-expression.html" hreflang="en">{{ t.nav.expression | escape }}</a>
+            <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}">{{ t.nav.expression | escape }}</a>
             <div class="site-menu-languages">
                 {{ language_links }}
             </div>
