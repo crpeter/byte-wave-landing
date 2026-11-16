@@ -2,6 +2,10 @@
 {%- assign h = site.data.tutorial_hub[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
 {%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign animated_captions_page = site.pages | where: "translation_key", "creation-animated-captions" | where: "lang", page.lang | first -%}
+{%- assign animate_stickers_page = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
+{%- assign caption_text_effects_page = site.pages | where: "translation_key", "creation-caption-text-effects" | where: "lang", page.lang | first -%}
+{%- assign import_custom_fonts_page = site.pages | where: "translation_key", "creation-import-custom-fonts" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
@@ -35,7 +39,18 @@
   "isPartOf":{"@type":"WebSite","name":"ByteWave","url":"https://bytewaveai.com/"},
   "mainEntity":{"@type":"ItemList","itemListElement":[
   {%- for item in h.cards -%}
-    {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.title | jsonify }},"url":{{ item.href | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {%- assign card_url = item.href -%}
+    {%- case item.href -%}
+      {%- when '/tutorials/animated-captions/' -%}
+        {%- if animated_captions_page -%}{%- assign card_url = animated_captions_page.url -%}{%- endif -%}
+      {%- when '/tutorials/animate-stickers/' -%}
+        {%- if animate_stickers_page -%}{%- assign card_url = animate_stickers_page.url -%}{%- endif -%}
+      {%- when '/tutorials/caption-text-effects/' -%}
+        {%- if caption_text_effects_page -%}{%- assign card_url = caption_text_effects_page.url -%}{%- endif -%}
+      {%- when '/tutorials/import-custom-fonts/' -%}
+        {%- if import_custom_fonts_page -%}{%- assign card_url = import_custom_fonts_page.url -%}{%- endif -%}
+    {%- endcase -%}
+    {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.title | jsonify }},"url":{{ card_url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
   ]}
 }
@@ -119,7 +134,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/animated-captions/" aria-labelledby="animated-captions-title">
+        <a class="tutorial-card" href="{{ animated_captions_page.url | default: '/tutorials/animated-captions/' | relative_url }}" aria-labelledby="animated-captions-title">
           <img class="wide-preview" src="/assets/social/animated-captions.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[1].alt | escape }}">
           <div class="card-copy">
             <p class="format">{{ h.cards[1].format | escape }}</p>
@@ -130,7 +145,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/caption-text-effects/" aria-labelledby="caption-text-effects-title">
+        <a class="tutorial-card" href="{{ caption_text_effects_page.url | default: '/tutorials/caption-text-effects/' | relative_url }}" aria-labelledby="caption-text-effects-title">
           <img class="wide-preview" src="/assets/social/caption-text-effects.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[2].alt | escape }}">
           <div class="card-copy">
             <p class="format">{{ h.cards[2].format | escape }}</p>
@@ -141,7 +156,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/import-custom-fonts/" aria-labelledby="custom-fonts-title">
+        <a class="tutorial-card" href="{{ import_custom_fonts_page.url | default: '/tutorials/import-custom-fonts/' | relative_url }}" aria-labelledby="custom-fonts-title">
           <img class="wide-preview" src="/assets/social/import-custom-fonts.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[3].alt | escape }}">
           <div class="card-copy">
             <p class="format">{{ h.cards[3].format | escape }}</p>
@@ -152,7 +167,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/animate-stickers/" aria-labelledby="animate-stickers-title">
+        <a class="tutorial-card" href="{{ animate_stickers_page.url | default: '/tutorials/animate-stickers/' | relative_url }}" aria-labelledby="animate-stickers-title">
           <img class="wide-preview" src="/assets/social/animate-stickers.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[4].alt | escape }}">
           <div class="card-copy">
             <p class="format">{{ h.cards[4].format | escape }}</p>
