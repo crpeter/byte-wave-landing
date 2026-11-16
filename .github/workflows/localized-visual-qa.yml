@@ -24,6 +24,17 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           verbose: false
+      - name: Check out production main for accurate baseline screenshots
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: qa-main
+      - name: Build unmodified main as the before screenshot baseline
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./qa-main
+          destination: ./_qa_main_site
+          verbose: false
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -34,9 +45,10 @@ jobs:
       - name: Run browser checks at 1440x900, 390x844, and 320x844
         env:
           SITE_URL: http://127.0.0.1:8765
-          BEFORE_URL: https://bytewaveai.com
+          BEFORE_URL: http://127.0.0.1:8766
         run: |
           python3 -m http.server 8765 --directory _site >/tmp/bytewave-browser-server.log 2>&1 &
+          python3 -m http.server 8766 --directory _qa_main_site >/tmp/bytewave-baseline-server.log 2>&1 &
           sleep 2
           node scripts/test_localized_layout.cjs
       - name: Upload actual before-and-after browser screenshots and results
