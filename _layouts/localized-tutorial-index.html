@@ -6,6 +6,8 @@
 {%- assign animate_stickers_page = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
 {%- assign caption_text_effects_page = site.pages | where: "translation_key", "creation-caption-text-effects" | where: "lang", page.lang | first -%}
 {%- assign import_custom_fonts_page = site.pages | where: "translation_key", "creation-import-custom-fonts" | where: "lang", page.lang | first -%}
+{%- assign c2pa_page = site.pages | where: "translation_key", "creation-check-c2pa-content-credentials" | where: "lang", page.lang | first -%}
+{%- assign metadata_page = site.pages | where: "translation_key", "creation-remove-location-metadata" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
@@ -49,6 +51,10 @@
         {%- if caption_text_effects_page -%}{%- assign card_url = caption_text_effects_page.url -%}{%- endif -%}
       {%- when '/tutorials/import-custom-fonts/' -%}
         {%- if import_custom_fonts_page -%}{%- assign card_url = import_custom_fonts_page.url -%}{%- endif -%}
+      {%- when '/tutorials/check-c2pa-content-credentials/' -%}
+        {%- if c2pa_page -%}{%- assign card_url = c2pa_page.url -%}{%- endif -%}
+      {%- when '/tutorials/remove-location-metadata/' -%}
+        {%- if metadata_page -%}{%- assign card_url = metadata_page.url -%}{%- endif -%}
     {%- endcase -%}
     {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.title | jsonify }},"url":{{ card_url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
@@ -214,7 +220,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/check-c2pa-content-credentials/" aria-labelledby="c2pa-title">
+        <a class="tutorial-card" href="{{ c2pa_page.url | default: '/tutorials/check-c2pa-content-credentials/' | relative_url }}" aria-labelledby="c2pa-title">
           <img class="wide-preview" src="/assets/social/check-c2pa-content-credentials.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[8].alt | escape }}">
           <div class="card-copy">
             <p class="format">{{ h.cards[8].format | escape }}</p>
@@ -225,7 +231,7 @@
         </a>
       </li>
       <li>
-        <a class="tutorial-card" href="/tutorials/remove-location-metadata/" aria-labelledby="metadata-title">
+        <a class="tutorial-card" href="{{ metadata_page.url | default: '/tutorials/remove-location-metadata/' | relative_url }}" aria-labelledby="metadata-title">
           <img class="wide-preview" src="/assets/social/remove-location-metadata.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[9].alt | escape }}">
           <div class="card-copy">
             <p class="format">{{ h.cards[9].format | escape }}</p>
