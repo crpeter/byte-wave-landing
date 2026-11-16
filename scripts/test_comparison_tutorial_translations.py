@@ -98,7 +98,7 @@ for lang,slug in slugs.items():
             if guide=="temporal-noise-reduction":
                 assert "Advanced → Temporal Noise Reduction" in body,(file,"effect control")
         else:
-            assert '<meta property="article:modified_time" content="2026-10-18">' in html,(file,"source date")
+            assert '<time datetime="2026-10-18">' in html and '"dateModified": "2026-10-18"' in html,(file,"original English publication date")
         if guide=="motion-blur":
             assert "Advanced" in body and "Motion Blur" in body,(file,"effect controls")
         else:
