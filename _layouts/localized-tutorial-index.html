@@ -34,7 +34,7 @@
   "inLanguage":{{ page.lang | jsonify }},
   "isPartOf":{"@type":"WebSite","name":"ByteWave","url":"https://bytewaveai.com/"},
   "mainEntity":{"@type":"ItemList","itemListElement":[
-  {%- for item in h.items -%}
+  {%- for item in h.cards -%}
     {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.title | jsonify }},"url":{{ item.href | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
   ]}
@@ -95,113 +95,113 @@
     <ul class="tutorial-grid" aria-label="{{ h.title | escape }}">
       <li>
         <a class="tutorial-card" href="/layout/" aria-labelledby="layout-title">
-          <img class="wide-preview" src="/assets/videos/layout/honeycomb/poster.jpg" loading="lazy" width="720" height="720" alt="{{ h.items[0].alt | escape }}">
+          <img class="wide-preview" src="/assets/videos/layout/honeycomb/poster.jpg" loading="lazy" width="720" height="720" alt="{{ h.cards[0].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[0].format | escape }}</p>
-            <h2 id="layout-title">{{ h.items[0].title | escape }}</h2>
-            <p class="description">{{ h.items[0].description | escape }}</p>
+            <p class="format">{{ h.cards[0].format | escape }}</p>
+            <h2 id="layout-title">{{ h.cards[0].title | escape }}</h2>
+            <p class="description">{{ h.cards[0].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/animated-captions/" aria-labelledby="animated-captions-title">
-          <img class="wide-preview" src="/assets/social/animated-captions.jpg" loading="lazy" width="1200" height="630" alt="{{ h.items[1].alt | escape }}">
+          <img class="wide-preview" src="/assets/social/animated-captions.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[1].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[1].format | escape }}</p>
-            <h2 id="animated-captions-title">{{ h.items[1].title | escape }}</h2>
-            <p class="description">{{ h.items[1].description | escape }}</p>
+            <p class="format">{{ h.cards[1].format | escape }}</p>
+            <h2 id="animated-captions-title">{{ h.cards[1].title | escape }}</h2>
+            <p class="description">{{ h.cards[1].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/caption-text-effects/" aria-labelledby="caption-text-effects-title">
-          <img class="wide-preview" src="/assets/social/caption-text-effects.jpg" loading="lazy" width="1200" height="630" alt="{{ h.items[2].alt | escape }}">
+          <img class="wide-preview" src="/assets/social/caption-text-effects.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[2].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[2].format | escape }}</p>
-            <h2 id="caption-text-effects-title">{{ h.items[2].title | escape }}</h2>
-            <p class="description">{{ h.items[2].description | escape }}</p>
+            <p class="format">{{ h.cards[2].format | escape }}</p>
+            <h2 id="caption-text-effects-title">{{ h.cards[2].title | escape }}</h2>
+            <p class="description">{{ h.cards[2].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/import-custom-fonts/" aria-labelledby="custom-fonts-title">
-          <img class="wide-preview" src="/assets/social/import-custom-fonts.jpg" loading="lazy" width="1200" height="630" alt="{{ h.items[3].alt | escape }}">
+          <img class="wide-preview" src="/assets/social/import-custom-fonts.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[3].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[3].format | escape }}</p>
-            <h2 id="custom-fonts-title">{{ h.items[3].title | escape }}</h2>
-            <p class="description">{{ h.items[3].description | escape }}</p>
+            <p class="format">{{ h.cards[3].format | escape }}</p>
+            <h2 id="custom-fonts-title">{{ h.cards[3].title | escape }}</h2>
+            <p class="description">{{ h.cards[3].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/animate-stickers/" aria-labelledby="animate-stickers-title">
-          <img class="wide-preview" src="/assets/social/animate-stickers.jpg" loading="lazy" width="1200" height="630" alt="{{ h.items[4].alt | escape }}">
+          <img class="wide-preview" src="/assets/social/animate-stickers.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[4].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[4].format | escape }}</p>
-            <h2 id="animate-stickers-title">{{ h.items[4].title | escape }}</h2>
-            <p class="description">{{ h.items[4].description | escape }}</p>
+            <p class="format">{{ h.cards[4].format | escape }}</p>
+            <h2 id="animate-stickers-title">{{ h.cards[4].title | escape }}</h2>
+            <p class="description">{{ h.cards[4].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/motion-blur/" aria-labelledby="motion-blur-title">
-          <div class="preview-labels" aria-hidden="true"><span>{{ h.items[5].left | escape }}</span><span>{{ h.items[5].right | escape }}</span></div>
-          <img src="/assets/videos/motion-blur-comparison-poster.jpg" width="1216" height="1080" alt="{{ h.items[5].alt | escape }}">
+          <div class="preview-labels" aria-hidden="true"><span>{{ h.cards[5].left | escape }}</span><span>{{ h.cards[5].right | escape }}</span></div>
+          <img src="/assets/videos/motion-blur-comparison-poster.jpg" width="1216" height="1080" alt="{{ h.cards[5].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[5].format | escape }}</p>
-            <h2 id="motion-blur-title">{{ h.items[5].title | escape }}</h2>
-            <p class="description">{{ h.items[5].description | escape }}</p>
+            <p class="format">{{ h.cards[5].format | escape }}</p>
+            <h2 id="motion-blur-title">{{ h.cards[5].title | escape }}</h2>
+            <p class="description">{{ h.cards[5].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/frame-rate-conversion/" aria-labelledby="frame-rate-title">
-          <div class="preview-labels" aria-hidden="true"><span>{{ h.items[6].left | escape }}</span><span>{{ h.items[6].right | escape }}</span></div>
-          <img src="/assets/videos/hummingbird-comparison-poster.jpg" loading="lazy" width="672" height="720" alt="{{ h.items[6].alt | escape }}">
+          <div class="preview-labels" aria-hidden="true"><span>{{ h.cards[6].left | escape }}</span><span>{{ h.cards[6].right | escape }}</span></div>
+          <img src="/assets/videos/hummingbird-comparison-poster.jpg" loading="lazy" width="672" height="720" alt="{{ h.cards[6].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[6].format | escape }}</p>
-            <h2 id="frame-rate-title">{{ h.items[6].title | escape }}</h2>
-            <p class="description">{{ h.items[6].description | escape }}</p>
+            <p class="format">{{ h.cards[6].format | escape }}</p>
+            <h2 id="frame-rate-title">{{ h.cards[6].title | escape }}</h2>
+            <p class="description">{{ h.cards[6].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/temporal-noise-reduction/" aria-labelledby="temporal-noise-title">
-          <div class="preview-labels" aria-hidden="true"><span>{{ h.items[7].left | escape }}</span><span>{{ h.items[7].right | escape }}</span></div>
-          <img class="wide-preview" src="/assets/videos/temporal-noise-comparison-poster.jpg" loading="lazy" width="1280" height="360" alt="{{ h.items[7].alt | escape }}">
+          <div class="preview-labels" aria-hidden="true"><span>{{ h.cards[7].left | escape }}</span><span>{{ h.cards[7].right | escape }}</span></div>
+          <img class="wide-preview" src="/assets/videos/temporal-noise-comparison-poster.jpg" loading="lazy" width="1280" height="360" alt="{{ h.cards[7].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[7].format | escape }}</p>
-            <h2 id="temporal-noise-title">{{ h.items[7].title | escape }}</h2>
-            <p class="description">{{ h.items[7].description | escape }}</p>
+            <p class="format">{{ h.cards[7].format | escape }}</p>
+            <h2 id="temporal-noise-title">{{ h.cards[7].title | escape }}</h2>
+            <p class="description">{{ h.cards[7].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/check-c2pa-content-credentials/" aria-labelledby="c2pa-title">
-          <img class="wide-preview" src="/assets/social/check-c2pa-content-credentials.jpg" loading="lazy" width="1200" height="630" alt="{{ h.items[8].alt | escape }}">
+          <img class="wide-preview" src="/assets/social/check-c2pa-content-credentials.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[8].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[8].format | escape }}</p>
-            <h2 id="c2pa-title">{{ h.items[8].title | escape }}</h2>
-            <p class="description">{{ h.items[8].description | escape }}</p>
+            <p class="format">{{ h.cards[8].format | escape }}</p>
+            <h2 id="c2pa-title">{{ h.cards[8].title | escape }}</h2>
+            <p class="description">{{ h.cards[8].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
       </li>
       <li>
         <a class="tutorial-card" href="/tutorials/remove-location-metadata/" aria-labelledby="metadata-title">
-          <img class="wide-preview" src="/assets/social/remove-location-metadata.jpg" loading="lazy" width="1200" height="630" alt="{{ h.items[9].alt | escape }}">
+          <img class="wide-preview" src="/assets/social/remove-location-metadata.jpg" loading="lazy" width="1200" height="630" alt="{{ h.cards[9].alt | escape }}">
           <div class="card-copy">
-            <p class="format">{{ h.items[9].format | escape }}</p>
-            <h2 id="metadata-title">{{ h.items[9].title | escape }}</h2>
-            <p class="description">{{ h.items[9].description | escape }}</p>
+            <p class="format">{{ h.cards[9].format | escape }}</p>
+            <h2 id="metadata-title">{{ h.cards[9].title | escape }}</h2>
+            <p class="description">{{ h.cards[9].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>
