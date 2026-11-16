@@ -180,6 +180,9 @@ async function screenshots(browser, base, kind) {
       await ready(page, home);
       for (const size of sizes) {
         await page.setViewportSize(size);
+        // The responsive picture source changes when desktop becomes mobile.
+        // Decode the newly selected still before asserting its availability.
+        await page.locator('.hero-photo img').evaluate(img => img.decode().catch(() => {}));
         const data = await inspect(page, lang, size, 'after');
         const id = lang+' home '+viewportName(size);
         report(data.actual.width===size.width && data.actual.height===size.height, id+' exact viewport', {requested:size,actual:data.actual});
