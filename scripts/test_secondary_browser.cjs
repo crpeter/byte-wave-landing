@@ -27,7 +27,7 @@ function test(ok, label, result) {
  try {
   for (const [lang, slug] of locales) {
    for (const [kind, route] of routes) {
-    for (const size of [{width:1440,height:900},{width:390,height:844}]) {
+    for (const size of [{width:1440,height:900},{width:390,height:844},{width:320,height:844}]) {
      await page.setViewportSize(size);
      const url = ORIGIN+'/'+slug+'/'+route;
      const response = await page.goto(url,{waitUntil:'domcontentloaded',timeout:25000});
@@ -68,7 +68,7 @@ function test(ok, label, result) {
      test(data.hreflangs.length>=20 && data.hreflangs.some(v=>v[0]===lang&&v[1]===canonical),key+' reciprocal alternates',{count:data.hreflangs.length});
      test(!!data.heading && data.bodyLength>150,key+' visible translated content',{heading:data.heading,length:data.bodyLength});
      test(data.docWidth<=data.viewWidth+1,key+' no page-level horizontal overflow',{scroll:data.docWidth,client:data.viewWidth});
-     if (size.width===390){
+     if (size.width<=390){
       test(!!data.logo&&!!data.menu&&!!data.cta &&
            data.logo.left>=-1&&data.cta.right<=size.width+1 &&
            data.menu.height>=44&&data.cta.height>=44,
@@ -82,9 +82,9 @@ function test(ok, label, result) {
        {videoCount:data.galleryVideos,labels:data.mediaLabels,missingPosters:data.missingPoster});
      }
      if(kind==='free-expression')test(data.hasAppeal,key+' appeal anchor exists');
-     if (size.width===390 && ['de','pt-BR','ja','uk'].includes(lang)) {
+     if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
       if(['about','gallery','tutorials'].includes(kind))
-       await page.screenshot({path:path.join(OUT,lang+'-'+kind+'-390.png'),animations:'disabled'});
+       await page.screenshot({path:path.join(OUT,lang+'-'+kind+'-'+size.width+'.png'),animations:'disabled'});
      }
     }
    }
