@@ -1,0 +1,265 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign p = site.data.privacy[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", "privacy-policy" | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ p.title | escape }} - ByteWave</title>
+  <meta name="description" content="{{ p.description | escape }}">
+  {% include localized-alternates.html %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ p.title | escape }} - ByteWave">
+  <meta property="og:description" content="{{ p.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+  <meta property="og:site_name" content="ByteWave">
+  <meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta property="og:image:alt" content="{{ t.social_alt | escape }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ p.title | escape }} - ByteWave">
+  <meta name="twitter:description" content="{{ p.description | escape }}">
+  <meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+  <meta name="twitter:image:alt" content="{{ t.social_alt | escape }}">
+  <link rel="icon" href="/favicon-48x48.png">
+  <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #000;
+            color: #e5e5e5;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.25rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        nav .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        nav .links {
+            display: flex;
+            gap: 1.75rem;
+            align-items: center;
+        }
+
+        nav .links a {
+            color: #999;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        nav .links a:hover {
+            color: #fff;
+        }
+
+        nav .links a.cta {
+            background: #fff;
+            color: #000;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+
+        nav .links a.cta:hover {
+            background: #e0e0e0;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 2rem 5rem;
+        }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #888;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+
+        .updated {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #fff;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: #ccc;
+            font-size: 1rem;
+        }
+
+        strong {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        a {
+            color: #6cb4ff;
+        }
+
+        a:hover {
+            color: #9dcfff;
+        }
+
+        .highlight-box {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0.75rem;
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .download-cta {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2.5rem;
+            border-top: 1px solid #222;
+        }
+
+        .download-cta p {
+            font-size: 1.1rem;
+            color: #999;
+            margin-bottom: 1.25rem;
+        }
+
+        .download-cta a {
+            display: inline-block;
+            background: #fff;
+            color: #000;
+            padding: 0.75rem 1.75rem;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .download-cta a:hover {
+            background: #e0e0e0;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #444;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 1rem;
+            }
+
+            nav .links {
+                gap: 1rem;
+            }
+
+            nav .links a {
+                font-size: 0.8rem;
+            }
+
+            main {
+                padding: 2rem 1.25rem 3rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.15rem;
+            }
+        }
+    </style>
+  <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+  {% include localized-nav-styles.html %}
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","url":{{ page.url | absolute_url | jsonify }},
+   "name":{{ p.title | jsonify }},"description":{{ p.description | jsonify }},
+   "inLanguage":{{ page.lang | jsonify }},"publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/"}}
+  </script>
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main id="main">
+  <span class="tag">{{ p.tag | escape }}</span>
+  <h1>{{ p.heading | escape }}</h1>
+  <p class="updated">{{ p.date | escape }}</p>
+  <p>{{ p.intro | escape }}</p>
+  <h2>{{ p.editorHeading | escape }}</h2>
+  <p>{{ p.editorP1 | escape }}</p>
+  <p>{{ p.editorP2 | escape }}</p>
+  <div class="highlight-box"><p><strong>{{ p.captionsLabel | escape }}</strong> {{ p.captionsP | escape }}</p></div>
+  <h2>{{ p.feedHeading | escape }}</h2>
+  <p>{{ p.feedP1 | escape }}</p>
+  <p>{{ p.feedP2 | escape }}</p>
+  <h2>{{ p.socialHeading | escape }}</h2>
+  <p>{{ p.socialP1 | escape }}</p>
+  <p><strong>{{ p.taggingLabel | escape }}</strong> {{ p.taggingP | escape }}</p>
+  <p>{{ p.speechP | escape }}</p>
+  <h2>{{ p.thirdHeading | escape }}</h2>
+  <p>{{ p.thirdP | escape }}</p>
+  <h2>{{ p.contactHeading | escape }}</h2>
+  <p>{{ p.contactP | escape }} <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a>.</p>
+  <div class="download-cta">
+    <p>{{ p.cta | escape }}</p>
+    <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=privacy_{{ page.lang | replace: '-', '' }}&amp;mt=8">{{ p.download | escape }}</a>
+  </div>
+</main>
+{% include localized-footer.html %}
+<script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
+</body>
+</html>
