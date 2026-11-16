@@ -98,7 +98,7 @@
   <p class="quick-links">
     {% if page.guide == 'motionBlur' %}<a href="#steps">{{ c.jump | escape }}</a>{% endif %}
     <a href="#comparison">{{ c.watch | escape }}</a>
-    {% unless page.guide == 'motionBlur' %}<a href="#{% if page.guide == 'frameRate' %}settings{% else %}steps{% endif %}">{{ c.try | escape }}</a>{% endif %}
+    {% unless page.guide == 'motionBlur' %}<a href="#{% if page.guide == 'frameRate' %}settings{% else %}steps{% endif %}">{{ c.try | escape }}</a>{% endunless %}
     <a href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a>
   </p>
 
