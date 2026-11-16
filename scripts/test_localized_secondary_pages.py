@@ -9,6 +9,7 @@ import re
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlsplit
 
 SOURCE = Path(__file__).resolve().parents[1]
 RENDERED = SOURCE / "_site"
@@ -152,12 +153,11 @@ print("Verified 17 press kits, 68 copy blocks, source facts, asset links and loc
 
 # Match the cards in editorial order, including the destination's own advertised
 # translation when one exists. This also covers translated article filenames.
-from urllib.parse import urlsplit
 
 catalog = json.loads((SOURCE / "_data/blog_sections.json").read_text())
 entries = [entry for section in catalog.values() for entry in section]
 assert len(entries) == 78 and len(catalog) == 5
-assert catalog["platforms-creators"][0]["brand"] == "X / Twitter" or "twitter" in catalog["platforms-creators"][0]["href"]
+assert catalog["platforms-creators"][0]["brand"] == "X / Twitter"
 for lang, slug in {"en": "", **LOCALES}.items():
     rendered = (RENDERED / slug / "blog/index.html").read_text()
     strings = json.loads((SOURCE / "_data/blog_index" / f"{lang}.json").read_text())
