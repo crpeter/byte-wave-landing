@@ -1,0 +1,67 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign page_url = page.url | absolute_url -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title | escape }} - ByteWave</title>
+<meta name="description" content="{{ page.description | escape }}">
+{% include localized-alternates.html %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | escape }} - ByteWave">
+<meta property="og:description" content="{{ page.description | escape }}">
+<meta property="og:url" content="{{ page_url | escape }}">
+<meta property="og:site_name" content="ByteWave">
+<meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+<meta property="og:image:alt" content="{{ t.social_alt | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }} - ByteWave">
+<meta name="twitter:description" content="{{ page.description | escape }}">
+<meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="{{ t.social_alt | escape }}">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":{{ page.title | jsonify }},
+  "description":{{ page.description | jsonify }},
+  "url":{{ page_url | jsonify }},
+  "inLanguage":{{ page.lang | jsonify }},
+  "publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/"},
+  "isPartOf":{"@type":"WebSite","name":"ByteWave","url":"https://bytewaveai.com/"}
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#050508;color:#e8e6f0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}
+a{color:#9bbaff}
+a:focus-visible,summary:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
+.site-editorial main{max-width:780px;margin:auto;padding:3rem 1.5rem}
+.site-editorial main>article{max-width:780px}
+h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.08;letter-spacing:-.035em}
+h2{margin-top:2.6rem;line-height:1.2}
+p,li{color:#aaa7bb}
+strong{color:#e8e6f0}
+.eyebrow{color:#9bbaff;text-transform:uppercase;letter-spacing:.17em;font-size:.75rem;font-weight:750}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+{% include localized-nav-styles.html %}
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main id="main"><article>
+<p class="eyebrow">{{ page.eyebrow | escape }}</p>
+<h1>{{ page.title | escape }}</h1>
+{{ content }}
+</article></main>
+{% include localized-footer.html %}
+<script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
+</body>
+</html>
