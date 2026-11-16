@@ -1,0 +1,85 @@
+{
+  "title": "Guider för videoredigering",
+  "description": "Lär dig skapa videocollage, animerade undertexter, keyframes för stickers, rörelseoskärpa och C2PA-kontroller med ByteWave.",
+  "intro": "Skapa en layout, lägg till undertexter, animera stickers eller granska en fil. Korta guider till ByteWaves verktyg.",
+  "language_note": "De enskilda guiderna som länkas här finns för närvarande på engelska.",
+  "action": "Visa guide (på engelska)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Videocollage med Layout från ByteWave",
+      "description": "Lägg klipp i lager, bygg rutnät och prova nya former.",
+      "format": "Tre videoexempel",
+      "alt": "Videocollage med Layout från ByteWave. Lägg klipp i lager, bygg rutnät och prova nya former."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Lägg till animerade undertexter",
+      "description": "Dina ord på din video.",
+      "format": "Skriftlig guide",
+      "alt": "Lägg till animerade undertexter. Dina ord på din video."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Välj texteffekter för undertexter",
+      "description": "Orbital Letters, Supernova, Ember Ash och mer.",
+      "format": "Skriftlig guide",
+      "alt": "Välj texteffekter för undertexter. Orbital Letters, Supernova, Ember Ash och mer."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importera egna typsnitt",
+      "description": "Använd TTF- och OTF-typsnitt i undertexter.",
+      "format": "Skriftlig guide",
+      "alt": "Importera egna typsnitt. Använd TTF- och OTF-typsnitt i undertexter."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animera stickers med nyckelrutor",
+      "description": "Position, storlek, rotation och nyckelrutor.",
+      "format": "Skriftlig guide",
+      "alt": "Animera stickers med nyckelrutor. Position, storlek, rotation och nyckelrutor."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Lägg till rörelseoskärpa",
+      "description": "Jämför resultaten sida vid sida och ändra effekten.",
+      "format": "iPhone · 20 sekunders jämförelse",
+      "alt": "Lägg till rörelseoskärpa. Jämför resultaten sida vid sida och ändra effekten.",
+      "left": "Original",
+      "right": "Rörelseoskärpa"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Bildfrekvensomvandling för slowmotion",
+      "description": "Jämför en kolibri i 0,1× slowmotion.",
+      "format": "iPhone · 30 sekunders jämförelse",
+      "alt": "Bildfrekvensomvandling för slowmotion. Jämför en kolibri i 0,1× slowmotion.",
+      "left": "Vanlig · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Tidsbaserad brusreducering",
+      "description": "Jämför brus och fina detaljer i exempelmaterial.",
+      "format": "iPhone · 8 sekunders jämförelse",
+      "alt": "Tidsbaserad brusreducering. Jämför brus och fina detaljer i exempelmaterial.",
+      "left": "Original",
+      "right": "Brusreducering"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Kontrollera C2PA Content Credentials",
+      "description": "Öppna en proveniensindikator och förstå verifierade AI-deklarationer och saknade bevis.",
+      "format": "Foton och videor · Guide",
+      "alt": "Kontrollera C2PA Content Credentials. Öppna en proveniensindikator och förstå verifierade AI-deklarationer och saknade bevis."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Ta bort platsmetadata",
+      "description": "Granska arbetskopian, ta bort redigerbara fält och kontrollera vad som återstår.",
+      "format": "Integritet · Skriftlig guide",
+      "alt": "Ta bort platsmetadata. Granska arbetskopian, ta bort redigerbara fält och kontrollera vad som återstår."
+    }
+  ]
+}
