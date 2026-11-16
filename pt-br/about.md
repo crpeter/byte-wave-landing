@@ -3,7 +3,7 @@ layout: localized-information
 translation_key: about
 lang: 'pt-BR'
 permalink: /pt-br/about.html
-title: 'O ByteWave é desenvolvido de forma independente'
+title: 'O ByteWave é um aplicativo desenvolvido de forma independente'
 description: 'Conheça o ByteWave, editor de vídeo e aplicativo de compartilhamento desenvolvido de forma independente para iPhone, iPad e Mac com chip Apple.'
 eyebrow: 'Sobre o ByteWave'
 store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=about_ptbr&mt=8
