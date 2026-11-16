@@ -81,6 +81,15 @@
       .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
     }
   </style>
+    <style>
+      /* A long localized card title must not establish the grid track's minimum width. */
+      @media (max-width: 768px) {
+        .tutorial-grid { grid-template-columns: minmax(0, 1fr); min-width: 0; }
+        .tutorial-grid > li, .tutorial-card, .card-copy { min-width: 0; max-width: 100%; }
+        .tutorial-card :is(h2, .description, .format) { overflow-wrap: anywhere; }
+        .tutorial-card img { max-width: 100%; }
+      }
+    </style>
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
 {% include localized-nav-styles.html %}
 </head>
