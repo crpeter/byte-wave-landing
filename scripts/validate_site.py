@@ -191,10 +191,11 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
                     if (ROOT / translated.lstrip("/")).is_file():
                         required_footer.remove(english)
                         required_footer.add(translated)
-                translated_tutorials = f"/{locale_slug(p.lang)}/tutorials/"
-                if (ROOT / translated_tutorials.lstrip("/") / "index.html").is_file():
-                    required_footer.remove("/tutorials/")
-                    required_footer.add(translated_tutorials)
+                for section in ("tutorials", "gallery"):
+                    translated_section = f"/{locale_slug(p.lang)}/{section}/"
+                    if (ROOT / translated_section.lstrip("/") / "index.html").is_file():
+                        required_footer.remove(f"/{section}/")
+                        required_footer.add(translated_section)
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:
