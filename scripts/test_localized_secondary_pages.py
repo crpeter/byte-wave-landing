@@ -130,3 +130,22 @@ for lang, slug in LOCALES.items():
             target = RENDERED / path.strip("/") / "index.html"
             assert target.is_file() and (not fragment or f'id="{fragment}"' in target.read_text()), link
 print("Validated 16 translated Layout guides, 80 video schema objects and all gallery and directory destinations.")
+
+for lang, slug in {"en": "", **LOCALES}.items():
+    prefix = f"/{slug}" if slug else ""
+    directory = RENDERED / slug
+    press_url = f"{prefix}/press.html"
+    page = (directory / "press.html").read_text()
+    copy = json.loads((SOURCE / "_data/press" / f"{lang}.json").read_text())
+    assert f'<html lang="{lang}">' in page
+    body = page.split('<main id="main">')[1].split('</main>')[0]
+    blurbs = [unescape(t) for t in re.findall(r"<p data-copy>(.*?)</p>", body)]
+    assert blurbs == [copy[field] for field in ("shortText", "mediumText", "longText", "bioText")], lang
+    assert body.count('class="fact-row"') == 9 and body.count('class="angle"') == 3
+    for field in ("permission", "privacyText", "hardwareText", "freeText", "updated"):
+        assert copy[field].strip() in unescape(body), (lang, field)
+    assert f'href="{prefix}/privacy.html"' in body
+    assert re.findall(r'class="asset-dl" href="([^"]+)"', body) == ["/logo.png", "/assets/og-image.jpg"]
+    for name in ("index.html", "about.html"):
+        assert f'href="{press_url}"' in (directory / name).read_text(), (lang, name)
+print("Verified 17 press kits, 68 copy blocks, source facts, asset links and localized navigation.")

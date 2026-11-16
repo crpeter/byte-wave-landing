@@ -1,0 +1,527 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign p = site.data.press[page.lang] -%}
+{%- assign a = site.data.about[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign privacy = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ a.press | escape }} — ByteWave</title>
+<meta name="description" content="{% if page.lang == 'en' %}Verified press facts, boilerplate, product information, story angles, and available brand assets for ByteWave.{% else %}{{ p.intro | escape }}{% endif %}">
+{% include localized-alternates.html %}
+<meta property="og:title" content="{{ a.press | escape }} — ByteWave">
+<meta property="og:description" content="{% if page.lang == 'en' %}Boilerplate, facts, and assets for writing about ByteWave.{% else %}{{ p.intro | escape }}{% endif %}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+<meta property="og:site_name" content="ByteWave">
+<meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+<meta property="og:image:alt" content="{% if page.lang == 'en' %}ByteWave logo on a dark background{% else %}{{ t.social_alt | escape }}{% endif %}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ a.press | escape }} — ByteWave">
+<meta name="twitter:description" content="{% if page.lang == 'en' %}Verified facts, boilerplate, story angles, and brand assets for coverage of ByteWave.{% else %}{{ p.intro | escape }}{% endif %}">
+<meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="{% if page.lang == 'en' %}ByteWave logo on a dark background{% else %}{{ t.social_alt | escape }}{% endif %}">
+<style>
+:root {
+  --bg: #0B0F14;
+  --surface: #131A22;
+  --line: #232D3A;
+  --text: #E4EAF2;
+  --muted: #8496A8;
+  --signal: #4FD1E0;
+  --fill: #E8A33D;
+  --display: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a { color: var(--signal); }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ---------- wrapper ---------- */
+.wrap {
+  max-width: 740px;
+  margin: 0 auto;
+  padding-left: clamp(1.5rem, 5vw, 4rem);
+  padding-right: clamp(1.5rem, 5vw, 4rem);
+}
+
+/* ---------- progress scrubber ---------- */
+#scrub {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2px; width: 0;
+  background: var(--signal);
+  z-index: 100;
+}
+
+/* ---------- masthead ---------- */
+.mast {
+  border-bottom: 1px solid var(--line);
+  padding: 1.1rem 0;
+  position: sticky;
+  top: 0;
+  background: rgba(11, 15, 20, 0.88);
+  backdrop-filter: blur(10px);
+  z-index: 50;
+}
+.mast .wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+.mark {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+}
+.mast .tag {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.mast .home {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: var(--muted);
+}
+.mast .home:hover { color: var(--text); }
+
+/* ---------- hero ---------- */
+.hero {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid var(--line);
+}
+.hero h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin: 0 0 1rem;
+}
+.hero p {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 1rem;
+}
+.hero .updated {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 1.5rem;
+}
+.btn {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  background: var(--signal);
+  color: #06282D;
+  text-decoration: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.btn:hover { filter: brightness(1.1); }
+
+.btn.disabled,
+.asset-dl.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+  user-select: none;
+}
+
+.btn.disabled {
+  filter: grayscale(0.35);
+}
+
+.asset-dl.disabled {
+  color: var(--muted);
+  border-bottom-color: transparent;
+}
+
+/* ---------- nav pills ---------- */
+.nav-bar {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.nav-bar ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.nav-bar a {
+  display: block;
+  padding: 0.35rem 0.75rem;
+  text-decoration: none;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+.nav-bar a:hover {
+  color: var(--text);
+  border-color: var(--signal);
+}
+
+/* ---------- sections ---------- */
+section {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--line);
+}
+section:last-child { border-bottom: none; }
+
+h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+}
+.lede {
+  color: var(--muted);
+  font-size: 0.94rem;
+  margin: 0 0 1.5rem;
+}
+
+/* ---------- copyable blocks ---------- */
+.block {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 1.25rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.block-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.count {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--signal);
+  letter-spacing: 0.06em;
+}
+.block p { margin: 0; font-size: 0.95rem; line-height: 1.6; }
+
+.copy {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.copy:hover { border-color: var(--signal); color: var(--signal); }
+.copy[data-done="1"] { border-color: var(--signal); color: var(--signal); }
+
+/* ---------- facts ---------- */
+.fact-row {
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+  flex-wrap: wrap;
+}
+.fact-row:first-child { border-top: 1px solid var(--line); }
+.fact-label {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  min-width: 10rem;
+  flex-shrink: 0;
+}
+.fact-value {
+  font-size: 0.95rem;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+
+/* ---------- angles ---------- */
+.angle {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.angle:last-child { border-bottom: none; }
+.angle h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+.angle p {
+  margin: 0;
+  color: #C3CEDB;
+  font-size: 0.95rem;
+}
+
+/* ---------- assets ---------- */
+.asset-row {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.asset-row:first-child { border-top: 1px solid var(--line); }
+.asset-name { flex: 1; min-width: 10rem; font-size: 0.95rem; }
+.asset-meta { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
+.asset-dl {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.asset-dl:hover { border-bottom-color: var(--signal); }
+
+/* placeholders */
+.fill { color: var(--fill); border-bottom: 1px dotted var(--fill); }
+
+/* ---------- footer ---------- */
+footer {
+  padding: 2.5rem 0 4rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+footer p { margin: 0 0 0.5rem; }
+
+#live {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+@media (max-width: 500px) {
+  .fact-row { flex-direction: column; gap: .25rem; }
+  .fact-label { min-width: 0; }
+  .hero { padding: 3rem 0 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+    <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+    {% include localized-nav-styles.html %}
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<div id="scrub" aria-hidden="true"></div>
+
+
+
+
+<main id="main">
+<div class="hero">
+  <div class="wrap">
+    <h1>{{ p.heading | escape }}</h1>
+    <p>{{ p.intro | escape }}</p>
+    <p class="updated">{{ p.updated | escape }} · {{ p.questions | escape }} <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a></p>
+  </div>
+</div>
+
+
+
+<div class="wrap">
+
+    <section id="facts">
+      <h2>{{ p.factsTitle | escape }}</h2>
+      <p class="lede">{{ p.factsIntro | escape }}</p>
+
+      <div class="fact-row"><span class="fact-label">{{ p.app | escape }}</span><span class="fact-value">ByteWave</span></div>
+      <div class="fact-row"><span class="fact-label">{{ p.developer | escape }}</span><span class="fact-value">{{ p.developerText | escape }}</span></div>
+      <div class="fact-row"><span class="fact-label">{{ p.platforms | escape }}</span><span class="fact-value">{{ p.platformText | escape }}</span></div>
+      <div class="fact-row"><span class="fact-label">{{ p.price | escape }}</span><span class="fact-value">{{ p.priceText | escape }}</span></div>
+      <div class="fact-row"><span class="fact-label">{{ p.local | escape }}</span><span class="fact-value">{{ p.localText | escape }}</span></div>
+      <div class="fact-row"><span class="fact-label">{{ p.online | escape }}</span><span class="fact-value">{{ p.onlineText | escape }}</span></div>
+      <div class="fact-row"><span class="fact-label">{{ p.website | escape }}</span><span class="fact-value"><a href="{{ home.url | absolute_url | escape }}">bytewaveai.com</a></span></div>
+      <div class="fact-row"><span class="fact-label">App Store</span><span class="fact-value"><a href="{{ page.store_url | escape }}">App Store</a></span></div>
+      <div class="fact-row"><span class="fact-label">{{ p.pressContact | escape }}</span><span class="fact-value"><a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a></span></div>
+    </section>
+
+    <section id="boilerplate">
+      <h2>{{ p.blurbsTitle | escape }}</h2>
+      <p class="lede">{{ p.blurbsIntro | escape }}</p>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">{{ p.shortLabel | escape }}</span>
+          <button class="copy" type="button">{{ p.copy | escape }}</button>
+        </div>
+        <p data-copy>{{ p.shortText | escape }}</p>
+      </div>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">{{ p.mediumLabel | escape }}</span>
+          <button class="copy" type="button">{{ p.copy | escape }}</button>
+        </div>
+        <p data-copy>{{ p.mediumText | escape }}</p>
+      </div>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">{{ p.longLabel | escape }}</span>
+          <button class="copy" type="button">{{ p.copy | escape }}</button>
+        </div>
+        <p data-copy>{{ p.longText | escape }}</p>
+      </div>
+    </section>
+
+    <section id="angles">
+      <h2>{{ p.anglesTitle | escape }}</h2>
+      <p class="lede">{{ p.anglesIntro | escape }}</p>
+
+      <div class="angle">
+        <h3>{{ p.privacyTitle | escape }}</h3>
+        <p>{{ p.privacyText | strip | escape }} <a href="{{ privacy.url | relative_url }}">{{ a.privacy | escape }}</a>{% if page.lang == "en" %}.{% endif %}</p>
+      </div>
+
+      <div class="angle">
+        <h3>{{ p.hardwareTitle | escape }}</h3>
+        <p>{{ p.hardwareText | escape }}</p>
+      </div>
+
+      <div class="angle">
+        <h3>{{ p.freeTitle | escape }}</h3>
+        <p>{{ p.freeText | escape }}</p>
+      </div>
+    </section>
+
+    <section id="bio">
+      <h2>{{ a.title | escape }}</h2>
+      <p class="lede">{{ p.bioIntro | escape }}</p>
+
+      <div class="block">
+        <div class="block-head">
+          <span class="count">{{ p.singleLabel | escape }}</span>
+          <button class="copy" type="button">{{ p.copy | escape }}</button>
+        </div>
+        <p data-copy>{{ p.bioText | escape }}</p>
+      </div>
+    </section>
+
+    <section id="assets">
+      <h2>{{ p.assetsTitle | escape }}</h2>
+      <p class="lede">{{ p.assetsIntro | escape }}</p>
+      <div class="asset-row"><span class="asset-name">{{ p.logo | escape }}</span><span class="asset-meta">PNG</span><a class="asset-dl" href="/logo.png">{{ p.download | escape }}</a></div>
+      <div class="asset-row"><span class="asset-name">{{ p.social | escape }}</span><span class="asset-meta">JPG · 1200×630</span><a class="asset-dl" href="/assets/og-image.jpg">{{ p.download | escape }}</a></div>
+    </section>
+
+    <section id="usage">
+      <h2>{{ p.usageTitle | escape }}</h2>
+      <p class="lede">{{ p.permission | escape }}</p>
+      <p class="lede">{{ p.contactText | strip | escape }} <a href="mailto:cpeter@codyworks.org">cpeter@codyworks.org</a>{{ p.contactTail | escape }}</p>
+    </section>
+
+  </div>
+</main>
+
+{% include localized-footer.html %}
+
+<div id="live" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var scrub = document.getElementById('scrub');
+  function onScroll(){
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    scrub.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  var live = document.getElementById('live');
+  document.querySelectorAll('.copy').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var src = btn.closest('.block').querySelector('[data-copy]');
+      if(!src) return;
+      var text = src.textContent.replace(/\s+/g,' ').trim();
+      function copied() {
+        btn.textContent = {{ p.copied | jsonify }};
+        btn.dataset.done = '1';
+        live.textContent = {{ p.clipboard | jsonify }};
+        setTimeout(function(){ btn.textContent = {{ p.copy | jsonify }}; delete btn.dataset.done; }, 1800);
+      }
+      function copySelection() {
+        var selection = window.getSelection();
+        var range = document.createRange();
+        range.selectNodeContents(src);
+        selection.removeAllRanges();
+        selection.addRange(range);
+        try {
+          if (document.execCommand('copy')) {
+            selection.removeAllRanges();
+            copied();
+            return;
+          }
+        } catch (error) { /* Keep the text selected for manual copying. */ }
+        live.textContent = {{ p.manual | jsonify }};
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(copied, copySelection);
+      } else {
+        copySelection();
+      }
+    });
+  });
+})();
+</script>
+
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
+</body>
+</html>
