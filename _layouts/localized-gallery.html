@@ -1,3 +1,8 @@
+{%- assign temporal_noise_reduction_page = site.pages | where: "translation_key", "creation-temporal-noise-reduction" | where: "lang", page.lang | first -%}
+{%- assign caption_text_effects_page = site.pages | where: "translation_key", "creation-caption-text-effects" | where: "lang", page.lang | first -%}
+{%- assign frame_rate_conversion_page = site.pages | where: "translation_key", "creation-frame-rate-conversion" | where: "lang", page.lang | first -%}
+{%- assign motion_blur_page = site.pages | where: "translation_key", "creation-motion-blur" | where: "lang", page.lang | first -%}
+{%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign h = site.data.gallery_hub[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
@@ -258,7 +263,6 @@
     footer{border-top:1px solid var(--border);padding:2rem;color:var(--text-dim);font-size:.875rem;text-align:center}
     @media(max-width:768px){nav{padding:1rem 1.5rem}.nav-links{gap:.75rem}.nav-links .secondary{display:none}main{padding:2.5rem 1.5rem}.gallery-grid{grid-template-columns:1fr}.landscape{grid-column:auto}}
     @media(max-width:380px){nav{flex-wrap:wrap}}
-  .gallery-locale-note{color:var(--text-dim);margin:-.3rem 0 2rem;font-size:.92rem;line-height:1.6}
 </style>
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
 {% include localized-nav-styles.html %}
@@ -269,7 +273,6 @@
 
   <main id="main">
     <h1>{{ h.title | escape }}</h1>
-    <p class="gallery-locale-note">{{ h.note | escape }}</p>
     <ul class="gallery-grid" aria-label="{{ h.aria_label | escape }}">
       <li class="landscape">
         <figure id="all-scroll">
@@ -282,12 +285,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="all-scroll-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/layout/all-scroll/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/all-scroll/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[0].title | escape }}</h2>
             <p class="effect">{{ h.cards[0].effect | escape }}</p>
-            <a class="tutorial-link" href="/layout/">{{ h.cards[0].action | escape }}</a>
+            <a class="tutorial-link" href="{{ layout_page.url | relative_url }}">{{ h.cards[0].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -302,12 +305,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="horizontal-scroll-mobius-warp-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-mobius-warp/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[1].title | escape }}</h2>
             <p class="effect">{{ h.cards[1].effect | escape }}</p>
-            <a class="tutorial-link" href="/layout/">{{ h.cards[1].action | escape }}</a>
+            <a class="tutorial-link" href="{{ layout_page.url | relative_url }}">{{ h.cards[1].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -322,12 +325,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="horizontal-scroll-waves-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/horizontal-scroll-waves/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[2].title | escape }}</h2>
             <p class="effect">{{ h.cards[2].effect | escape }}</p>
-            <a class="tutorial-link" href="/layout/">{{ h.cards[2].action | escape }}</a>
+            <a class="tutorial-link" href="{{ layout_page.url | relative_url }}">{{ h.cards[2].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -342,12 +345,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="sunset-hexagons-landscape-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[3].title | escape }}</h2>
             <p class="effect">{{ h.cards[3].effect | escape }}</p>
-            <a class="tutorial-link" href="/layout/#sunset-layouts">{{ h.cards[3].action | escape }}</a>
+            <a class="tutorial-link" href="{{ layout_page.url | relative_url }}#sunset-layouts">{{ h.cards[3].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -362,12 +365,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="warped-sunset-4k-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/layout/warped-sunset-4k/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/warped-sunset-4k/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[4].title | escape }}</h2>
             <p class="effect">{{ h.cards[4].effect | escape }}</p>
-            <a class="tutorial-link" href="/layout/#warped-sunset-video">{{ h.cards[4].action | escape }}</a>
+            <a class="tutorial-link" href="{{ layout_page.url | relative_url }}#warped-sunset-video">{{ h.cards[4].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -382,12 +385,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="seaside-grid-to-beach-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[5].title | escape }}</h2>
             <p class="effect">{{ h.cards[5].effect | escape }}</p>
-            <a class="tutorial-link" href="/layout/#ocean-grid-video">{{ h.cards[5].action | escape }}</a>
+            <a class="tutorial-link" href="{{ layout_page.url | relative_url }}#ocean-grid-video">{{ h.cards[5].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -402,12 +405,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="sunset-hexagons-portrait-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[6].title | escape }}</h2>
             <p class="effect">{{ h.cards[6].effect | escape }}</p>
-            <a class="tutorial-link" href="/layout/#sunset-layouts">{{ h.cards[6].action | escape }}</a>
+            <a class="tutorial-link" href="{{ layout_page.url | relative_url }}#sunset-layouts">{{ h.cards[6].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -422,12 +425,12 @@
               <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="air-show-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
             </div>
             <p class="bw-video-status" role="status"></p>
-            <p class="bw-video-link"><a href="/assets/videos/gallery/air-show/compatible.mp4">Open video</a></p>
+            <p class="bw-video-link"><a href="/assets/videos/gallery/air-show/compatible.mp4">{{ h.open_video | escape }}</a></p>
           </div>
           <figcaption>
             <h2>{{ h.cards[7].title | escape }}</h2>
             <p class="effect">{{ h.cards[7].effect | escape }}</p>
-            <a class="tutorial-link" href="/tutorials/caption-text-effects/">{{ h.cards[7].action | escape }}</a>
+            <a class="tutorial-link" href="{{ caption_text_effects_page.url | relative_url }}">{{ h.cards[7].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -442,7 +445,7 @@
     <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="quadruple-dive-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
   </div>
   <p class="bw-video-status" role="status"></p>
-  <p class="bw-video-link"><a href="/assets/videos/gallery/quadruple-dive/video.m3u8">Open video</a></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/quadruple-dive/video.m3u8">{{ h.open_video | escape }}</a></p>
 </div>
 
           </div>
@@ -450,7 +453,7 @@
           <figcaption>
             <h2>{{ h.cards[8].title | escape }}</h2>
             <p class="effect">{{ h.cards[8].effect | escape }}</p>
-            <a class="tutorial-link" href="/tutorials/frame-rate-conversion/">{{ h.cards[8].action | escape }}</a>
+            <a class="tutorial-link" href="{{ frame_rate_conversion_page.url | relative_url }}">{{ h.cards[8].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -465,7 +468,7 @@
     <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="free-as-in-geese-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
   </div>
   <p class="bw-video-status" role="status"></p>
-  <p class="bw-video-link"><a href="/assets/videos/gallery/free-as-in-geese/video.m3u8">Open video</a></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/free-as-in-geese/video.m3u8">{{ h.open_video | escape }}</a></p>
 </div>
 
           </div>
@@ -473,7 +476,7 @@
           <figcaption>
             <h2>{{ h.cards[9].title | escape }}</h2>
             <p class="effect">{{ h.cards[9].effect | escape }}</p>
-            <a class="tutorial-link" href="/tutorials/caption-text-effects/">{{ h.cards[9].action | escape }}</a>
+            <a class="tutorial-link" href="{{ caption_text_effects_page.url | relative_url }}">{{ h.cards[9].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -488,7 +491,7 @@
     <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="hummingbird-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
   </div>
   <p class="bw-video-status" role="status"></p>
-  <p class="bw-video-link"><a href="/assets/videos/gallery/hummingbird.mp4">Open video</a></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/hummingbird.mp4">{{ h.open_video | escape }}</a></p>
 </div>
 
           </div>
@@ -496,7 +499,7 @@
           <figcaption>
             <h2>{{ h.cards[10].title | escape }}</h2>
             <p class="effect">{{ h.cards[10].effect | escape }}</p>
-            <a class="tutorial-link" href="/tutorials/frame-rate-conversion/">{{ h.cards[10].action | escape }}</a>
+            <a class="tutorial-link" href="{{ frame_rate_conversion_page.url | relative_url }}">{{ h.cards[10].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -511,7 +514,7 @@
     <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="harbor-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
   </div>
   <p class="bw-video-status" role="status"></p>
-  <p class="bw-video-link"><a href="/assets/videos/gallery/harbor.mp4">Open video</a></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/harbor.mp4">{{ h.open_video | escape }}</a></p>
 </div>
 
           </div>
@@ -519,7 +522,7 @@
           <figcaption>
             <h2>{{ h.cards[11].title | escape }}</h2>
             <p class="effect">{{ h.cards[11].effect | escape }}</p>
-            <a class="tutorial-link" href="/tutorials/motion-blur/">{{ h.cards[11].action | escape }}</a>
+            <a class="tutorial-link" href="{{ motion_blur_page.url | relative_url }}">{{ h.cards[11].action | escape }}</a>
           </figcaption>
         </figure>
       </li>
@@ -534,7 +537,7 @@
     <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="red-leaves-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
   </div>
   <p class="bw-video-status" role="status"></p>
-  <p class="bw-video-link"><a href="/assets/videos/gallery/red-leaves.mp4">Open video</a></p>
+  <p class="bw-video-link"><a href="/assets/videos/gallery/red-leaves.mp4">{{ h.open_video | escape }}</a></p>
 </div>
 
           </div>
@@ -542,7 +545,7 @@
           <figcaption>
             <h2>{{ h.cards[12].title | escape }}</h2>
             <p class="effect">{{ h.cards[12].effect | escape }}</p>
-            <a class="tutorial-link" href="/tutorials/temporal-noise-reduction/">{{ h.cards[12].action | escape }}</a>
+            <a class="tutorial-link" href="{{ temporal_noise_reduction_page.url | relative_url }}">{{ h.cards[12].action | escape }}</a>
             <p class="credit">{{ h.credit | escape }}</p>
           </figcaption>
         </figure>

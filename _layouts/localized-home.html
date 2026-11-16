@@ -1,3 +1,4 @@
+{%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign h = t.home -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
@@ -551,7 +552,7 @@
         <h2 id="showcase-title">{{ h.showcase.footage | escape }}<br>{{ h.showcase.edit | escape }}</h2>
         <p>{{ h.showcase.intro | escape }}</p>
         <ul class="showcase-points">
-            <li><strong><a href="/layout/">{{ h.showcase.layout | escape }}</a></strong><span>{{ h.showcase.layout_desc | escape }}</span></li>
+            <li><strong><a href="{{ layout_page.url | relative_url }}">{{ h.showcase.layout | escape }}</a></strong><span>{{ h.showcase.layout_desc | escape }}</span></li>
             <li><strong>{{ h.showcase.effects | escape }} <a href="/tutorials/animated-captions/">{{ h.showcase.captions | escape }}</a></strong><span>{{ h.showcase.captions_desc | escape }}</span></li>
             <li><strong>{{ h.showcase.audio | escape }}</strong><span>{{ h.showcase.audio_desc | escape }}</span></li>
         </ul>

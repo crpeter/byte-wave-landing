@@ -3,7 +3,6 @@
   "seo_title": "Galleri med videoer laget i ByteWave",
   "description": "Utforsk videoer laget med ByteWave: vannrette rulleoppsett, Möbius- og bølgeeffekter, solnedgangsrutenett, sakte film og mer.",
   "aria_label": "Laget med ByteWave",
-  "note": "De tilknyttede effektveiledningene er foreløpig tilgjengelige på engelsk.",
   "open_video": "Åpne video",
   "download": "Last ned ByteWave gratis",
   "credit": "Apple-eksempelopptak, redigert i ByteWave.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "Rullende kolonner med solnedganger, kystlinjer og hverdagsøyeblikk.",
-      "action": "Utforsk Layout (engelsk)",
+      "action": "Utforsk Layout",
       "alt": "The All Scroll. Rullende kolonner med solnedganger, kystlinjer og hverdagsøyeblikk."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "Horisontal rulling · Möbius",
       "effect": "Vårt første horisontalt rullende oppsett med Möbius-effekt.",
-      "action": "Utforsk Layout (engelsk)",
+      "action": "Utforsk Layout",
       "alt": "Horisontal rulling · Möbius. Vårt første horisontalt rullende oppsett med Möbius-effekt."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "Horisontal rulling · Bølger",
       "effect": "Horisontal rulling med bølgeforvrengning.",
-      "action": "Utforsk Layout (engelsk)",
+      "action": "Utforsk Layout",
       "alt": "Horisontal rulling · Bølger. Horisontal rulling med bølgeforvrengning."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "Solnedgangsheksagoner (liggende)",
       "effect": "ByteWave Layout · Liggende.",
-      "action": "Se begge retninger (engelsk)",
+      "action": "Se begge retninger",
       "alt": "Solnedgangsheksagoner (liggende). ByteWave Layout · Liggende."
     },
     {
       "id": "warped-sunset-4k",
       "title": "Forvrengt solnedgang",
       "effect": "ByteWave Layout · Buede solnedgangsbånd.",
-      "action": "Utforsk Layout (engelsk)",
+      "action": "Utforsk Layout",
       "alt": "Forvrengt solnedgang. ByteWave Layout · Buede solnedgangsbånd."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "Kyst-rutenett til strand",
       "effect": "ByteWave Layout · Fra seks felt til fullskjerm.",
-      "action": "Utforsk Layout (engelsk)",
+      "action": "Utforsk Layout",
       "alt": "Kyst-rutenett til strand. ByteWave Layout · Fra seks felt til fullskjerm."
     },
     {
       "id": "sunset-hexagons",
       "title": "Solnedgangsheksagoner (stående)",
       "effect": "ByteWave Layout · Stående.",
-      "action": "Se begge retninger (engelsk)",
+      "action": "Se begge retninger",
       "alt": "Solnedgangsheksagoner (stående). ByteWave Layout · Stående."
     },
     {
       "id": "air-show",
       "title": "Flyshow i 3D",
       "effect": "Animert 3D-tekst.",
-      "action": "Prøv effekten (engelsk)",
+      "action": "Prøv effekten",
       "alt": "Flyshow i 3D. Animert 3D-tekst."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "Vanlig hastighet → sakte film.",
-      "action": "Prøv effekten (engelsk)",
+      "action": "Prøv effekten",
       "alt": "The Quadruple Dive. Vanlig hastighet → sakte film."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "Animert tekst.",
-      "action": "Prøv effekten (engelsk)",
+      "action": "Prøv effekten",
       "alt": "Free as in Geese. Animert tekst."
     },
     {
       "id": "hummingbird",
       "title": "Kolibri i sakte film",
       "effect": "0,1× hastighet · 8× bildefrekvenskonvertering.",
-      "action": "Prøv effekten (engelsk)",
+      "action": "Prøv effekten",
       "alt": "Kolibri i sakte film. 0,1× hastighet · 8× bildefrekvenskonvertering."
     },
     {
       "id": "harbor",
       "title": "I havnen",
       "effect": "Bevegelsesuskarphet.",
-      "action": "Prøv effekten (engelsk)",
+      "action": "Prøv effekten",
       "alt": "I havnen. Bevegelsesuskarphet."
     },
     {
       "id": "red-leaves",
       "title": "Røde blader",
       "effect": "Tidsbasert støyreduksjon.",
-      "action": "Prøv effekten (engelsk)",
+      "action": "Prøv effekten",
       "alt": "Røde blader. Tidsbasert støyreduksjon."
     }
   ]

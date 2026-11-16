@@ -1,0 +1,306 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign g = site.data.layout_guide[page.lang] -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign about = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
+{%- assign gallery = site.pages | where: "translation_key", "gallery" | where: "lang", page.lang | first -%}
+{%- assign captions = site.pages | where: "translation_key", "creation-animated-captions" | where: "lang", page.lang | first -%}
+{%- assign stickers = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ g.title | escape }}</title>
+    <meta name="description" content="{{ g.description | escape }}">
+    {% include localized-alternates.html %}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ g.title | escape }}">
+    <meta property="og:description" content="{{ g.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="ByteWave">
+    <meta property="og:image" content="https://bytewaveai.com/assets/social/layout.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ g.socialAlt | escape }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ g.title | escape }}">
+    <meta name="twitter:description" content="{{ g.description | escape }}">
+    <meta name="twitter:image" content="https://bytewaveai.com/assets/social/layout.jpg">
+    <meta name="twitter:image:alt" content="{{ g.socialAlt | escape }}">
+    <meta property="article:published_time" content="2026-09-28">
+    <meta property="article:modified_time" content="2026-10-18">
+    <link rel="icon" href="/favicon-48x48.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#050508;color:#e8e6f0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}a{color:#9bbaff}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}.skip{position:absolute;left:-999px;top:.5rem}.skip:focus{left:1rem;z-index:999;background:#fff;color:#000;padding:.6rem}nav{position:sticky;top:0;z-index:10;background:rgba(5,5,8,.94);border-bottom:1px solid #262633;padding:.8rem 5%;display:flex;align-items:center;justify-content:space-between}.logo{font-family:ui-monospace,monospace;font-weight:800;font-size:1.25rem;text-decoration:none;background:linear-gradient(135deg,#9bbaff,#e2b8df);color:transparent;background-clip:text}.navlinks{display:flex;gap:1.25rem;align-items:center}.navlinks a{color:#bbb8ca;text-decoration:none}.menu{display:none}.button{display:inline-block;padding:.7rem 1.1rem;border-radius:8px;background:linear-gradient(135deg,#9bbaff,#e2b8df);color:#050508!important;font-weight:750;text-decoration:none}main{max-width:1120px;margin:auto;padding:4rem 1.5rem}article{max-width:780px;margin:auto}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.035em}h2{margin-top:2.7rem;line-height:1.2}p,li{color:#aaa7bb}.eyebrow{color:#9bbaff;text-transform:uppercase;letter-spacing:.18em;font:700 .75rem ui-monospace,monospace}.meta,.disclosure{color:#858197;font-size:.92rem}.disclosure,.callout,.flow,.card{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}.hero{padding:5rem 0}.hero p{font-size:1.2rem;max-width:720px}.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem}.flow div{padding:1rem;background:#11111a;border-radius:8px}.flow strong{display:block;color:#fff}.source-list li{margin:.7rem 0}table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{padding:.75rem;border:1px solid #292838;text-align:left}footer{border-top:1px solid #22212e;padding:2.5rem 5%;color:#858197}.footerlinks{display:flex;gap:1rem;flex-wrap:wrap}.social{width:100%;height:auto;border-radius:14px}.press-copy{white-space:pre-wrap}.copy{border:1px solid #9bbaff;background:transparent;color:#9bbaff;padding:.5rem;border-radius:6px}@media(max-width:720px){nav{gap:.65rem;flex-wrap:wrap}.logo{font-size:1.1rem}.navlinks{display:flex;margin-left:auto}.navlinks a:not(.button){display:none}.navlinks .button{display:inline-flex;align-items:center;font-size:.8rem;padding:.55rem .65rem;min-height:44px;white-space:nowrap}.menu summary{padding:.55rem 0}.menu{display:block}.menu summary{cursor:pointer;color:#e8e6f0}.menu div{position:absolute;right:1rem;top:3.4rem;background:#11111a;border:1px solid #333244;padding:1rem;display:grid;gap:.8rem}.menu a{color:#e8e6f0}main{padding-top:2rem}}
+article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.65rem}.quick-links{display:flex;gap:.8rem 1.2rem;flex-wrap:wrap}.lead{font-size:1.16rem}.company-list dt{font-weight:750;margin-top:1.3rem;color:#e8e6f0}.company-list dd{margin:.4rem 0 1.2rem;color:#aaa7bb}strong{color:#e8e6f0}.meta,.disclosure{color:#aaa7bb}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+.layout-orientations{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:1.5rem;align-items:center;margin:1.5rem 0 3rem}
+.layout-orientation{margin:0;min-width:0}.layout-orientation video{display:block;width:100%;height:auto;border-radius:14px}.layout-orientation figcaption{margin-top:.6rem;color:#bbc9d1;font-size:.9rem}
+@media(max-width:640px){.layout-orientations{grid-template-columns:1fr}.layout-orientation:first-child{width:100%;max-width:320px;justify-self:center}}
+    </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "inLanguage": {{ page.lang | jsonify }},
+      "headline": {{ g.title | jsonify }},
+      "description": {{ g.description | jsonify }},
+      "url": "{{ page.url | absolute_url }}",
+      "mainEntityOfPage": "{{ page.url | absolute_url }}",
+      "datePublished": "2026-09-28",
+      "dateModified": "2026-10-18",
+      "author": {
+        "@type": "Organization",
+        "name": "ByteWave",
+        "url": "{{ about.url | absolute_url }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "ByteWave",
+        "url": {{ home.url | absolute_url | jsonify }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://bytewaveai.com/logo.png"
+        }
+      },
+      "image": "https://bytewaveai.com/assets/social/layout.jpg",
+      "video": [
+        {
+          "@id": "{{ page.url | absolute_url }}#honeycomb-video"
+        },
+        {
+          "@id": "{{ page.url | absolute_url }}#ocean-grid-video"
+        },
+        {
+          "@id": "{{ page.url | absolute_url }}#warped-sunset-video"
+        },
+        {
+          "@id": "{{ page.url | absolute_url }}#layout-sunset-hexagons-portrait-video"
+        },
+        {
+          "@id": "{{ page.url | absolute_url }}#layout-sunset-hexagons-landscape-video"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": {{ t.nav.home | jsonify }},
+          "item": {{ home.url | absolute_url | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ g.title | jsonify }},
+          "item": "{{ page.url | absolute_url }}"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "{{ page.url | absolute_url }}#honeycomb-video",
+      "name": {{ g.schemaNames[0] | default: g.videoTitles[0] | jsonify }},
+      "description": {{ g.videoDescriptions[0] | default: g.honeyText | jsonify }},
+      "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/honeycomb/poster.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/honeycomb/original.m3u8",
+      "uploadDate": "2026-09-29",
+      "duration": "PT20.02S"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "{{ page.url | absolute_url }}#ocean-grid-video",
+      "name": {{ g.schemaNames[1] | default: g.videoTitles[1] | jsonify }},
+      "description": {{ g.videoDescriptions[1] | default: g.seasideText | jsonify }},
+      "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/seaside-grid-to-beach/poster.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/seaside-grid-to-beach/original.m3u8",
+      "uploadDate": "2026-10-18T18:11:09-04:00",
+      "duration": "PT39.7S"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "{{ page.url | absolute_url }}#warped-sunset-video",
+      "name": {{ g.schemaNames[2] | default: g.videoTitles[2] | jsonify }},
+      "description": {{ g.videoDescriptions[2] | default: g.warpedText | jsonify }},
+      "thumbnailUrl": "https://bytewaveai.com/assets/videos/layout/warped-sunset-4k/poster.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/warped-sunset-4k/original.m3u8",
+      "uploadDate": "2026-10-18T18:11:09-04:00",
+      "duration": "PT19.933S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": {{ g.schemaNames[3] | default: g.videoTitles[3] | jsonify }},
+      "description": {{ g.videoDescriptions[3] | default: g.hexText | jsonify }},
+      "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/sunset-hexagons-portrait/web.m3u8",
+      "uploadDate": "2026-10-18T20:17:41-04:00",
+      "duration": "PT54.717S",
+      "width": 1080,
+      "height": 1920,
+      "@id": "{{ page.url | absolute_url }}#layout-sunset-hexagons-portrait-video"
+    },
+    {
+      "@type": "VideoObject",
+      "name": {{ g.schemaNames[4] | default: g.videoTitles[4] | jsonify }},
+      "description": {{ g.videoDescriptions[4] | default: g.hexText | jsonify }},
+      "thumbnailUrl": "https://bytewaveai.com/assets/images/gallery/sunset-hexagons-landscape.jpg",
+      "contentUrl": "https://bytewaveai.com/assets/videos/layout/sunset-hexagons-landscape/web.m3u8",
+      "uploadDate": "2026-10-18T20:17:41-04:00",
+      "duration": "PT54.717S",
+      "width": 1920,
+      "height": 1080,
+      "@id": "{{ page.url | absolute_url }}#layout-sunset-hexagons-landscape-video"
+    }
+  ]
+}
+</script>
+    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
+    <link rel="stylesheet" href="/assets/css/creation-guides.css?v=67c0fd0f031d">
+    <link rel="stylesheet" href="/assets/css/layout-demos.css?v=d44cea509b76">
+
+    <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+    {% include localized-nav-styles.html %}
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main id="main">
+<article class="creation-guide layout-page">
+    <p class="eyebrow">{{ g.eyebrow | escape }}</p>
+    <h1>{{ g.title | escape }}</h1>
+    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ g.updated | escape }} <time datetime="2026-10-18">{{ g.date | escape }}</time></p>
+    <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ g.publisher | escape }}</p>
+
+    <p class="lead">{{ g.lead | escape }}</p>
+    <section aria-labelledby="sunset-layouts">
+      <h2 id="sunset-layouts">{{ g.orientations | escape }}</h2>
+      <div class="layout-orientations">
+        <figure class="layout-orientation">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="layout-sunset-hexagons-portrait-video" controls playsinline preload="none" width="1080" height="1920" poster="/assets/images/gallery/sunset-hexagons.jpg" data-stream="/assets/videos/layout/sunset-hexagons-portrait/web.m3u8" data-compatible="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4" aria-label="{{ g.videoAlt[3] | default: g.videoTitles[3] | escape }}">
+                <source src="/assets/videos/layout/sunset-hexagons-portrait/web.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="layout-sunset-hexagons-portrait-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-portrait/compatible.mp4">{{ g.open | escape }}</a></p>
+          </div>
+          <figcaption>{{ g.videoTitles[3] | escape }}</figcaption>
+        </figure>
+        <figure class="layout-orientation">
+          <div class="bw-player">
+            <div class="bw-media">
+              <video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="layout-sunset-hexagons-landscape-video" controls playsinline preload="none" width="1920" height="1080" poster="/assets/images/gallery/sunset-hexagons-landscape.jpg" data-stream="/assets/videos/layout/sunset-hexagons-landscape/web.m3u8" data-compatible="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4" aria-label="{{ g.videoAlt[4] | default: g.videoTitles[4] | escape }}">
+                <source src="/assets/videos/layout/sunset-hexagons-landscape/web.m3u8" type="application/vnd.apple.mpegurl">
+                <source src="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4" type="video/mp4">
+              </video>
+              <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="layout-sunset-hexagons-landscape-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+            </div>
+            <p class="bw-video-status" role="status"></p>
+            <p class="bw-video-link"><a href="/assets/videos/layout/sunset-hexagons-landscape/compatible.mp4">{{ g.open | escape }}</a></p>
+          </div>
+          <figcaption>{{ g.videoTitles[4] | escape }}</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="layout-demos" aria-label="{{ g.demos | escape }}">
+        <figure class="layout-demo">
+            <div class="layout-player">
+                <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="honeycomb-video" class="layout-video" controls playsinline preload="none"
+                       poster="/assets/videos/layout/honeycomb/poster.jpg" width="2160" height="2160"
+                       data-stream="/assets/videos/layout/honeycomb/original.m3u8" data-compatible="/assets/videos/layout/honeycomb/compatible.mp4"
+                       aria-label="{{ g.videoAlt[0] | default: g.videoTitles[0] | escape }}" aria-describedby="honeycomb-caption">
+                    <source src="/assets/videos/layout/honeycomb/original.m3u8" type="application/vnd.apple.mpegurl">
+                    <source src="/assets/videos/layout/honeycomb/compatible.mp4" type="video/mp4">
+
+                </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="honeycomb-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/layout/honeycomb/compatible.mp4">{{ g.openCompatible | escape }}</a></p>
+</div>
+
+            </div>
+
+            <figcaption id="honeycomb-caption"><strong>{{ g.videoTitles[0] | escape }}</strong>{{ g.honeyText | escape }}</figcaption>
+            <a class="layout-download" href="/assets/videos/layout/honeycomb/compatible.mp4">{{ g.watch | escape }}</a>
+        </figure>
+        <figure class="layout-demo">
+            <div class="layout-player">
+                <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="ocean-grid-video" class="layout-video" controls playsinline preload="none"
+                       poster="/assets/videos/layout/seaside-grid-to-beach/poster.jpg" width="2160" height="3840"
+                       data-stream="/assets/videos/layout/seaside-grid-to-beach/original.m3u8" data-compatible="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4"
+                       aria-label="{{ g.videoAlt[1] | default: g.videoTitles[1] | escape }}" aria-describedby="ocean-grid-caption">
+                    <source src="/assets/videos/layout/seaside-grid-to-beach/original.m3u8" type="application/vnd.apple.mpegurl">
+                    <source src="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4" type="video/mp4">
+
+                </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="ocean-grid-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4">{{ g.openCompatible | escape }}</a></p>
+</div>
+
+            </div>
+
+            <figcaption id="ocean-grid-caption"><strong>{{ g.videoTitles[1] | escape }}</strong>{{ g.seasideText | escape }}</figcaption>
+            <a class="layout-download" href="/assets/videos/layout/seaside-grid-to-beach/compatible.mp4">{{ g.watch | escape }}</a>
+        </figure>
+        <figure class="layout-demo">
+            <div class="layout-player">
+                <div class="bw-player">
+  <div class="bw-media"><video data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}" id="warped-sunset-video" class="layout-video" controls playsinline preload="none"
+                       poster="/assets/videos/layout/warped-sunset-4k/poster.jpg" width="2160" height="3840"
+                       data-stream="/assets/videos/layout/warped-sunset-4k/original.m3u8" data-compatible="/assets/videos/layout/warped-sunset-4k/compatible.mp4"
+                       aria-label="{{ g.videoAlt[2] | default: g.videoTitles[2] | escape }}" aria-describedby="warped-sunset-caption">
+                    <source src="/assets/videos/layout/warped-sunset-4k/original.m3u8" type="application/vnd.apple.mpegurl">
+                    <source src="/assets/videos/layout/warped-sunset-4k/compatible.mp4" type="video/mp4">
+
+                </video>
+    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="warped-sunset-video" hidden><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+  </div>
+  <p class="bw-video-status" role="status"></p>
+  <p class="bw-video-link"><a href="/assets/videos/layout/warped-sunset-4k/compatible.mp4">{{ g.openCompatible | escape }}</a></p>
+</div>
+
+            </div>
+
+            <figcaption id="warped-sunset-caption"><strong>{{ g.videoTitles[2] | escape }}</strong>{{ g.warpedText | escape }}</figcaption>
+            <a class="layout-download" href="/assets/videos/layout/warped-sunset-4k/compatible.mp4">{{ g.watch | escape }}</a>
+        </figure>
+    </section>
+    <h2>{{ g.features | escape }}</h2>
+    <ul>
+        <li>{{ g.feature1 | escape }}</li>
+        <li>{{ g.feature2 | escape }}</li>
+        <li>{{ g.feature3 | escape }}</li>
+        <li>{{ g.feature4 | escape }}</li>
+    </ul>
+    <h2>{{ g.make | escape }}</h2>
+    <ol>
+        <li>{% if page.lang == "en" %}Open <strong>Layout from ByteWave</strong>.{% else %}{{ g.step1 | escape }}{% endif %}</li>
+        <li>{{ g.step2 | escape }}</li>
+        <li>{{ g.step3 | escape }}</li>
+    </ol>
+    <p>{{ g.pricing | escape }}</p>
+
+    <p><a class="button" href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a></p>
+    <aside class="guide-related" aria-label="{{ g.related | escape }}"><ul><li><a href="{{ gallery.url | relative_url }}">{{ g.gallery | escape }}</a></li><li><a href="{{ captions.url | relative_url }}">{{ g.captions | escape }}</a></li><li><a href="{{ stickers.url | relative_url }}">{{ g.stickers | escape }}</a></li></ul></aside>
+</article>
+</main>
+{% include localized-footer.html %}
+<script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
+</body>
+</html>

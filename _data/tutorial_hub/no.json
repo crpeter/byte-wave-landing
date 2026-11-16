@@ -2,8 +2,7 @@
   "title": "Veiledninger for videoredigering",
   "description": "Lær videocollager, animerte undertekster, sticker-keyframes, bevegelsesuskarphet og C2PA-kontroller med ByteWave.",
   "intro": "Lag et oppsett, legg til undertekster, animer stickers eller sjekk en fil. Korte veiledninger til ByteWaves verktøy.",
-  "language_note": "Noen av de lenkede veiledningene er fortsatt bare tilgjengelige på engelsk.",
-  "action": "Åpne veiledning (engelsk)",
+  "action": "Åpne veiledning",
   "cards": [
     {
       "href": "/layout/",

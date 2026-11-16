@@ -3,7 +3,6 @@
   "seo_title": "ByteWave Galerie mit Videos und Effekten",
   "description": "Entdecke mit ByteWave erstellte Videos: horizontale Bildläufe, Möbius- und Welleneffekte, Sonnenuntergänge, Zeitlupe und mehr.",
   "aria_label": "Mit ByteWave erstellt",
-  "note": "Die verlinkten Anleitungen zu den Effekten sind derzeit auf Englisch verfügbar.",
   "open_video": "Video öffnen",
   "download": "ByteWave kostenlos laden",
   "credit": "Apple-Beispielmaterial, bearbeitet mit ByteWave.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "Scrollende Spalten mit Sonnenuntergängen, Küsten und Alltagsmomenten.",
-      "action": "Layout entdecken (Englisch)",
+      "action": "Layout entdecken",
       "alt": "The All Scroll. Scrollende Spalten mit Sonnenuntergängen, Küsten und Alltagsmomenten."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "Horizontaler Bildlauf · Möbius",
       "effect": "Unser erstes horizontal scrollendes Layout mit Möbius-Verzerrung.",
-      "action": "Layout entdecken (Englisch)",
+      "action": "Layout entdecken",
       "alt": "Horizontaler Bildlauf · Möbius. Unser erstes horizontal scrollendes Layout mit Möbius-Verzerrung."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "Horizontaler Bildlauf · Wellen",
       "effect": "Horizontaler Bildlauf mit Wellenverformung.",
-      "action": "Layout entdecken (Englisch)",
+      "action": "Layout entdecken",
       "alt": "Horizontaler Bildlauf · Wellen. Horizontaler Bildlauf mit Wellenverformung."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "Sonnenuntergangs-Sechsecke (Querformat)",
       "effect": "ByteWave Layout · Querformat.",
-      "action": "Beide Ausrichtungen ansehen (Englisch)",
+      "action": "Beide Ausrichtungen ansehen",
       "alt": "Sonnenuntergangs-Sechsecke (Querformat). ByteWave Layout · Querformat."
     },
     {
       "id": "warped-sunset-4k",
       "title": "Verzerrter Sonnenuntergang",
       "effect": "ByteWave Layout · Gebogene Sonnenuntergangsbänder.",
-      "action": "Layout entdecken (Englisch)",
+      "action": "Layout entdecken",
       "alt": "Verzerrter Sonnenuntergang. ByteWave Layout · Gebogene Sonnenuntergangsbänder."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "Küstenraster bis zum Strand",
       "effect": "ByteWave Layout · Vom Sechsfeldraster zum Vollbild.",
-      "action": "Layout entdecken (Englisch)",
+      "action": "Layout entdecken",
       "alt": "Küstenraster bis zum Strand. ByteWave Layout · Vom Sechsfeldraster zum Vollbild."
     },
     {
       "id": "sunset-hexagons",
       "title": "Sonnenuntergangs-Sechsecke (Hochformat)",
       "effect": "ByteWave Layout · Hochformat.",
-      "action": "Beide Ausrichtungen ansehen (Englisch)",
+      "action": "Beide Ausrichtungen ansehen",
       "alt": "Sonnenuntergangs-Sechsecke (Hochformat). ByteWave Layout · Hochformat."
     },
     {
       "id": "air-show",
       "title": "Flugshow in 3D",
       "effect": "Animierter 3D-Text.",
-      "action": "Effekt ausprobieren (Englisch)",
+      "action": "Effekt ausprobieren",
       "alt": "Flugshow in 3D. Animierter 3D-Text."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "Originalgeschwindigkeit → Zeitlupe.",
-      "action": "Effekt ausprobieren (Englisch)",
+      "action": "Effekt ausprobieren",
       "alt": "The Quadruple Dive. Originalgeschwindigkeit → Zeitlupe."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "Animierter Text.",
-      "action": "Effekt ausprobieren (Englisch)",
+      "action": "Effekt ausprobieren",
       "alt": "Free as in Geese. Animierter Text."
     },
     {
       "id": "hummingbird",
       "title": "Kolibri in Zeitlupe",
       "effect": "0,1× Geschwindigkeit · 8× Bildratenumwandlung.",
-      "action": "Effekt ausprobieren (Englisch)",
+      "action": "Effekt ausprobieren",
       "alt": "Kolibri in Zeitlupe. 0,1× Geschwindigkeit · 8× Bildratenumwandlung."
     },
     {
       "id": "harbor",
       "title": "Im Hafen",
       "effect": "Bewegungsunschärfe.",
-      "action": "Effekt ausprobieren (Englisch)",
+      "action": "Effekt ausprobieren",
       "alt": "Im Hafen. Bewegungsunschärfe."
     },
     {
       "id": "red-leaves",
       "title": "Rote Blätter",
       "effect": "Zeitliche Rauschreduzierung.",
-      "action": "Effekt ausprobieren (Englisch)",
+      "action": "Effekt ausprobieren",
       "alt": "Rote Blätter. Zeitliche Rauschreduzierung."
     }
   ]

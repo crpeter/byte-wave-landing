@@ -3,7 +3,6 @@
   "seo_title": "ByteWave 影片作品集",
   "description": "欣賞 ByteWave 製作的影片：水平捲動、莫比烏斯與波浪變形、夕陽拼貼、慢動作等效果。",
   "aria_label": "使用 ByteWave 製作的作品",
-  "note": "各效果連結的詳細教學目前提供英文版。",
   "open_video": "開啟影片",
   "download": "免費下載 ByteWave",
   "credit": "Apple 範例影片，由 ByteWave 編輯。",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "夕陽、海岸與日常片刻沿著欄位滑動。",
-      "action": "探索 Layout（英文）",
+      "action": "探索 Layout",
       "alt": "The All Scroll. 夕陽、海岸與日常片刻沿著欄位滑動。"
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "水平捲動 · 莫比烏斯",
       "effect": "第一個水平捲動 Layout，加上莫比烏斯變形。",
-      "action": "探索 Layout（英文）",
+      "action": "探索 Layout",
       "alt": "水平捲動 · 莫比烏斯. 第一個水平捲動 Layout，加上莫比烏斯變形。"
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "水平捲動 · 波浪",
       "effect": "水平捲動搭配波浪形變。",
-      "action": "探索 Layout（英文）",
+      "action": "探索 Layout",
       "alt": "水平捲動 · 波浪. 水平捲動搭配波浪形變。"
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "夕陽六角形（橫向）",
       "effect": "ByteWave Layout · 橫向。",
-      "action": "查看兩種方向（英文）",
+      "action": "查看兩種方向",
       "alt": "夕陽六角形（橫向）. ByteWave Layout · 橫向。"
     },
     {
       "id": "warped-sunset-4k",
       "title": "扭曲的夕陽",
       "effect": "ByteWave Layout · 彎曲的夕陽色帶。",
-      "action": "探索 Layout（英文）",
+      "action": "探索 Layout",
       "alt": "扭曲的夕陽. ByteWave Layout · 彎曲的夕陽色帶。"
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "海邊網格轉成沙灘全景",
       "effect": "ByteWave Layout · 六分割轉成全畫面。",
-      "action": "探索 Layout（英文）",
+      "action": "探索 Layout",
       "alt": "海邊網格轉成沙灘全景. ByteWave Layout · 六分割轉成全畫面。"
     },
     {
       "id": "sunset-hexagons",
       "title": "夕陽六角形（直向）",
       "effect": "ByteWave Layout · 直向。",
-      "action": "查看兩種方向（英文）",
+      "action": "查看兩種方向",
       "alt": "夕陽六角形（直向）. ByteWave Layout · 直向。"
     },
     {
       "id": "air-show",
       "title": "3D 飛行表演",
       "effect": "動態 3D 文字。",
-      "action": "試用這個效果（英文）",
+      "action": "試用這個效果",
       "alt": "3D 飛行表演. 動態 3D 文字。"
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "原始速度 → 慢動作。",
-      "action": "試用這個效果（英文）",
+      "action": "試用這個效果",
       "alt": "The Quadruple Dive. 原始速度 → 慢動作。"
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "動態文字。",
-      "action": "試用這個效果（英文）",
+      "action": "試用這個效果",
       "alt": "Free as in Geese. 動態文字。"
     },
     {
       "id": "hummingbird",
       "title": "蜂鳥慢動作",
       "effect": "0.1 倍速 · 8 倍影格率轉換。",
-      "action": "試用這個效果（英文）",
+      "action": "試用這個效果",
       "alt": "蜂鳥慢動作. 0.1 倍速 · 8 倍影格率轉換。"
     },
     {
       "id": "harbor",
       "title": "港口",
       "effect": "動態模糊。",
-      "action": "試用這個效果（英文）",
+      "action": "試用這個效果",
       "alt": "港口. 動態模糊。"
     },
     {
       "id": "red-leaves",
       "title": "紅葉",
       "effect": "時間性降噪。",
-      "action": "試用這個效果（英文）",
+      "action": "試用這個效果",
       "alt": "紅葉. 時間性降噪。"
     }
   ]

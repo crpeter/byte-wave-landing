@@ -2,8 +2,7 @@
   "title": "Tutoriales de edición de video",
   "description": "Aprende a crear composiciones, animar subtítulos y stickers, aplicar desenfoque y verificar credenciales con ByteWave.",
   "intro": "Crea composiciones, añade subtítulos, anima stickers o verifica archivos. Una colección de guías breves sobre ByteWave.",
-  "language_note": "Algunos de los tutoriales enlazados todavía están disponibles únicamente en inglés.",
-  "action": "Ver guía (en inglés)",
+  "action": "Ver guía",
   "cards": [
     {
       "href": "/layout/",

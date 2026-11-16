@@ -3,7 +3,6 @@
   "seo_title": "ByteWavella tehtyjen videoiden galleria",
   "description": "Tutustu ByteWavella tehtyihin videoihin: vaakasuuntaiset vieritykset, Möbius- ja aaltotehosteet, auringonlaskuruudukot, hidastukset ja muuta.",
   "aria_label": "Tehty ByteWavella",
-  "note": "Tehosteiden linkitetyt ohjeet ovat toistaiseksi saatavilla englanniksi.",
   "open_video": "Avaa video",
   "download": "Lataa ByteWave maksutta",
   "credit": "Applen esimerkkimateriaalia, muokattu ByteWavella.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "Vierittäviä sarakkeita, joissa näkyy auringonlaskuja, rantoja ja arjen hetkiä.",
-      "action": "Tutustu Layoutiin (englanniksi)",
+      "action": "Tutustu Layoutiin",
       "alt": "The All Scroll. Vierittäviä sarakkeita, joissa näkyy auringonlaskuja, rantoja ja arjen hetkiä."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "Vaakavieritys · Möbius",
       "effect": "Ensimmäinen vaakavierityslayoutimme Möbius-vääristymällä.",
-      "action": "Tutustu Layoutiin (englanniksi)",
+      "action": "Tutustu Layoutiin",
       "alt": "Vaakavieritys · Möbius. Ensimmäinen vaakavierityslayoutimme Möbius-vääristymällä."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "Vaakavieritys · Aallot",
       "effect": "Vaakavieritys aaltovääristymällä.",
-      "action": "Tutustu Layoutiin (englanniksi)",
+      "action": "Tutustu Layoutiin",
       "alt": "Vaakavieritys · Aallot. Vaakavieritys aaltovääristymällä."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "Auringonlaskuheksagonit (vaaka)",
       "effect": "ByteWave Layout · Vaaka.",
-      "action": "Katso molemmat suunnat (englanniksi)",
+      "action": "Katso molemmat suunnat",
       "alt": "Auringonlaskuheksagonit (vaaka). ByteWave Layout · Vaaka."
     },
     {
       "id": "warped-sunset-4k",
       "title": "Vääristynyt auringonlasku",
       "effect": "ByteWave Layout · Kaarevat auringonlaskukaistat.",
-      "action": "Tutustu Layoutiin (englanniksi)",
+      "action": "Tutustu Layoutiin",
       "alt": "Vääristynyt auringonlasku. ByteWave Layout · Kaarevat auringonlaskukaistat."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "Rantaruudukosta kokoruutuiseksi",
       "effect": "ByteWave Layout · Kuuden paneelin ruudukosta kokoruutuiseksi.",
-      "action": "Tutustu Layoutiin (englanniksi)",
+      "action": "Tutustu Layoutiin",
       "alt": "Rantaruudukosta kokoruutuiseksi. ByteWave Layout · Kuuden paneelin ruudukosta kokoruutuiseksi."
     },
     {
       "id": "sunset-hexagons",
       "title": "Auringonlaskuheksagonit (pysty)",
       "effect": "ByteWave Layout · Pysty.",
-      "action": "Katso molemmat suunnat (englanniksi)",
+      "action": "Katso molemmat suunnat",
       "alt": "Auringonlaskuheksagonit (pysty). ByteWave Layout · Pysty."
     },
     {
       "id": "air-show",
       "title": "Lentonäytös 3D:nä",
       "effect": "Animoitu 3D-teksti.",
-      "action": "Kokeile tehostetta (englanniksi)",
+      "action": "Kokeile tehostetta",
       "alt": "Lentonäytös 3D:nä. Animoitu 3D-teksti."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "Alkuperäinen nopeus → hidastus.",
-      "action": "Kokeile tehostetta (englanniksi)",
+      "action": "Kokeile tehostetta",
       "alt": "The Quadruple Dive. Alkuperäinen nopeus → hidastus."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "Animoitu teksti.",
-      "action": "Kokeile tehostetta (englanniksi)",
+      "action": "Kokeile tehostetta",
       "alt": "Free as in Geese. Animoitu teksti."
     },
     {
       "id": "hummingbird",
       "title": "Kolibri hidastettuna",
       "effect": "0,1× nopeus · 8× ruutunopeuden muunnos.",
-      "action": "Kokeile tehostetta (englanniksi)",
+      "action": "Kokeile tehostetta",
       "alt": "Kolibri hidastettuna. 0,1× nopeus · 8× ruutunopeuden muunnos."
     },
     {
       "id": "harbor",
       "title": "Satamassa",
       "effect": "Liike-epäterävyys.",
-      "action": "Kokeile tehostetta (englanniksi)",
+      "action": "Kokeile tehostetta",
       "alt": "Satamassa. Liike-epäterävyys."
     },
     {
       "id": "red-leaves",
       "title": "Punaiset lehdet",
       "effect": "Ajallinen kohinanpoisto.",
-      "action": "Kokeile tehostetta (englanniksi)",
+      "action": "Kokeile tehostetta",
       "alt": "Punaiset lehdet. Ajallinen kohinanpoisto."
     }
   ]

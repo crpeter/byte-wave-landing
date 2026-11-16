@@ -1,0 +1,62 @@
+{
+  "title": "Free Video Collage Maker for iPhone, iPad & Mac",
+  "lead": "Stack videos. Mix photos and clips. Build grids or honeycomb layouts with ByteWave, free on iPhone, iPad, and Apple Silicon Mac.",
+  "orientations": "One layout, two orientations",
+  "honey": "Honeycomb",
+  "honeyText": "Seven hexagonal cells showing the moon, a dog, and a sunny field.",
+  "seasideText": "Six seaside clips share one frame, then the edit cuts to a dog playing on the beach.",
+  "warpedText": "Ocean sunset footage bent into curved, mirrored bands.",
+  "hexText": "Ocean sunsets and waves arranged in four hexagonal panels over a full-frame sunset background in ByteWave.",
+  "features": "More than a photo collage",
+  "feature1": "Combine photos and videos in the same layout.",
+  "feature2": "Stack clips vertically or arrange them side by side.",
+  "feature3": "Build grids with up to 144 cells.",
+  "feature4": "Try symmetry and polygon shapes with up to twelve sides.",
+  "make": "Make a layout",
+  "step1": "Open Layout from ByteWave.",
+  "step2": "Choose an arrangement and add your photos and videos.",
+  "step3": "Adjust the composition, preview it, and export.",
+  "pricing": "Free on iPhone, iPad, and Apple Silicon Mac. Editing runs locally on your device. No subscription or ByteWave export watermark.",
+  "date": "October 18, 2026",
+  "publisher": "Published by ByteWave, which makes the app discussed here.",
+  "description": "Make video collages with ByteWave. Stack clips, mix photos and videos, and build grids or honeycomb layouts. Free, with no subscription or export watermark.",
+  "socialAlt": "Photos and videos. One layout. Stack clips, build grids, and try new shapes.",
+  "eyebrow": "Layout from ByteWave",
+  "updated": "Updated",
+  "related": "Related guides",
+  "open": "Open video",
+  "openCompatible": "Open compatibility copy",
+  "watch": "Watch MP4",
+  "demos": "Videos made with Layout from ByteWave",
+  "gallery": "See more edits in the gallery",
+  "captions": "Add animated captions",
+  "stickers": "Add moving stickers",
+  "videoTitles": [
+    "Honeycomb",
+    "Seaside grid to beach",
+    "Warped sunset",
+    "Sunset hexagons · Portrait",
+    "Sunset hexagons · Landscape"
+  ],
+  "videoAlt": [
+    "Honeycomb layout video",
+    "Six-panel seaside layout followed by a dog on the beach",
+    "Warped sunset layout video",
+    "Sunset hexagons portrait layout video",
+    "Sunset hexagons landscape layout video"
+  ],
+  "schemaNames": [
+    "Honeycomb layout in ByteWave",
+    "Seaside grid to beach",
+    "Warped sunset",
+    "Sunset hexagons (portrait)",
+    "Sunset hexagons (landscape)"
+  ],
+  "videoDescriptions": [
+    "Seven hexagonal cells showing the moon, a dog, and a sunny field.",
+    "A six-panel seaside layout followed by a full-frame clip of a dog playing on the beach.",
+    "Ocean sunset footage bent into curved, mirrored bands with Layout from ByteWave.",
+    "Ocean sunsets and waves arranged in four hexagonal panels over a full-frame sunset background in ByteWave.",
+    "Four hexagonal panels of ocean sunsets and waves centered over a wide orange sunset and ocean background."
+  ]
+}

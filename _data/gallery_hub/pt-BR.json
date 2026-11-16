@@ -3,7 +3,6 @@
   "seo_title": "Galeria de criações do ByteWave no Brasil",
   "description": "Explore vídeos feitos com o ByteWave: layouts com rolagem horizontal, efeitos Möbius e ondas, grades de pôr do sol, câmera lenta e mais.",
   "aria_label": "Feito com o ByteWave",
-  "note": "Os tutoriais vinculados aos efeitos estão disponíveis em inglês no momento.",
   "open_video": "Abrir vídeo",
   "download": "Baixar ByteWave grátis",
   "credit": "Imagens de exemplo da Apple, editadas no ByteWave.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "Colunas rolando com pôr do sol, litorais e momentos do dia a dia.",
-      "action": "Explorar Layout (em inglês)",
+      "action": "Explorar Layout",
       "alt": "The All Scroll. Colunas rolando com pôr do sol, litorais e momentos do dia a dia."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "Rolagem horizontal · Möbius",
       "effect": "Nosso primeiro layout com rolagem horizontal e distorção Möbius.",
-      "action": "Explorar Layout (em inglês)",
+      "action": "Explorar Layout",
       "alt": "Rolagem horizontal · Möbius. Nosso primeiro layout com rolagem horizontal e distorção Möbius."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "Rolagem horizontal · Ondas",
       "effect": "Rolagem horizontal com distorção de ondas.",
-      "action": "Explorar Layout (em inglês)",
+      "action": "Explorar Layout",
       "alt": "Rolagem horizontal · Ondas. Rolagem horizontal com distorção de ondas."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "Hexágonos de pôr do sol (paisagem)",
       "effect": "Layout do ByteWave · Paisagem.",
-      "action": "Ver as duas orientações (em inglês)",
+      "action": "Ver as duas orientações",
       "alt": "Hexágonos de pôr do sol (paisagem). Layout do ByteWave · Paisagem."
     },
     {
       "id": "warped-sunset-4k",
       "title": "Pôr do sol distorcido",
       "effect": "Layout do ByteWave · Faixas curvas de pôr do sol.",
-      "action": "Explorar Layout (em inglês)",
+      "action": "Explorar Layout",
       "alt": "Pôr do sol distorcido. Layout do ByteWave · Faixas curvas de pôr do sol."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "Grade à beira-mar até a praia",
       "effect": "Layout do ByteWave · De seis painéis para tela cheia.",
-      "action": "Explorar Layout (em inglês)",
+      "action": "Explorar Layout",
       "alt": "Grade à beira-mar até a praia. Layout do ByteWave · De seis painéis para tela cheia."
     },
     {
       "id": "sunset-hexagons",
       "title": "Hexágonos de pôr do sol (retrato)",
       "effect": "Layout do ByteWave · Retrato.",
-      "action": "Ver as duas orientações (em inglês)",
+      "action": "Ver as duas orientações",
       "alt": "Hexágonos de pôr do sol (retrato). Layout do ByteWave · Retrato."
     },
     {
       "id": "air-show",
       "title": "Show aéreo em 3D",
       "effect": "Texto 3D animado.",
-      "action": "Experimentar este efeito (em inglês)",
+      "action": "Experimentar este efeito",
       "alt": "Show aéreo em 3D. Texto 3D animado."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "Velocidade original → câmera lenta.",
-      "action": "Experimentar este efeito (em inglês)",
+      "action": "Experimentar este efeito",
       "alt": "The Quadruple Dive. Velocidade original → câmera lenta."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "Texto animado.",
-      "action": "Experimentar este efeito (em inglês)",
+      "action": "Experimentar este efeito",
       "alt": "Free as in Geese. Texto animado."
     },
     {
       "id": "hummingbird",
       "title": "Beija-flor em câmera lenta",
       "effect": "Velocidade 0,1× · Conversão FRC de 8×.",
-      "action": "Experimentar este efeito (em inglês)",
+      "action": "Experimentar este efeito",
       "alt": "Beija-flor em câmera lenta. Velocidade 0,1× · Conversão FRC de 8×."
     },
     {
       "id": "harbor",
       "title": "No porto",
       "effect": "Desfoque de movimento.",
-      "action": "Experimentar este efeito (em inglês)",
+      "action": "Experimentar este efeito",
       "alt": "No porto. Desfoque de movimento."
     },
     {
       "id": "red-leaves",
       "title": "Folhas vermelhas",
       "effect": "Redução temporal de ruído.",
-      "action": "Experimentar este efeito (em inglês)",
+      "action": "Experimentar este efeito",
       "alt": "Folhas vermelhas. Redução temporal de ruído."
     }
   ]

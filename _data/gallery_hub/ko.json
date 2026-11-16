@@ -3,7 +3,6 @@
   "seo_title": "ByteWave로 제작한 동영상 갤러리",
   "description": "ByteWave로 만든 가로 스크롤, 뫼비우스 및 물결 왜곡, 석양 그리드, 슬로 모션 동영상 등을 감상하세요.",
   "aria_label": "ByteWave로 만든 작품",
-  "note": "효과와 연결된 상세 튜토리얼은 현재 영어로 제공됩니다.",
   "open_video": "동영상 열기",
   "download": "ByteWave 무료 다운로드",
   "credit": "Apple 예제 영상을 ByteWave에서 편집했습니다.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "석양, 해안선, 일상의 순간이 열을 따라 스크롤됩니다.",
-      "action": "Layout 살펴보기(영어)",
+      "action": "Layout 살펴보기",
       "alt": "The All Scroll. 석양, 해안선, 일상의 순간이 열을 따라 스크롤됩니다."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "가로 스크롤 · 뫼비우스",
       "effect": "뫼비우스 왜곡을 적용한 첫 번째 가로 스크롤 레이아웃.",
-      "action": "Layout 살펴보기(영어)",
+      "action": "Layout 살펴보기",
       "alt": "가로 스크롤 · 뫼비우스. 뫼비우스 왜곡을 적용한 첫 번째 가로 스크롤 레이아웃."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "가로 스크롤 · 파도",
       "effect": "물결 형태로 왜곡되는 가로 스크롤.",
-      "action": "Layout 살펴보기(영어)",
+      "action": "Layout 살펴보기",
       "alt": "가로 스크롤 · 파도. 물결 형태로 왜곡되는 가로 스크롤."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "석양 육각형(가로)",
       "effect": "ByteWave Layout · 가로 방향.",
-      "action": "두 방향 모두 보기(영어)",
+      "action": "두 방향 모두 보기",
       "alt": "석양 육각형(가로). ByteWave Layout · 가로 방향."
     },
     {
       "id": "warped-sunset-4k",
       "title": "왜곡된 석양",
       "effect": "ByteWave Layout · 굽이치는 석양 띠.",
-      "action": "Layout 살펴보기(영어)",
+      "action": "Layout 살펴보기",
       "alt": "왜곡된 석양. ByteWave Layout · 굽이치는 석양 띠."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "해안 그리드에서 해변으로",
       "effect": "ByteWave Layout · 6분할 화면에서 전체 화면으로.",
-      "action": "Layout 살펴보기(영어)",
+      "action": "Layout 살펴보기",
       "alt": "해안 그리드에서 해변으로. ByteWave Layout · 6분할 화면에서 전체 화면으로."
     },
     {
       "id": "sunset-hexagons",
       "title": "석양 육각형(세로)",
       "effect": "ByteWave Layout · 세로 방향.",
-      "action": "두 방향 모두 보기(영어)",
+      "action": "두 방향 모두 보기",
       "alt": "석양 육각형(세로). ByteWave Layout · 세로 방향."
     },
     {
       "id": "air-show",
       "title": "3D 에어쇼",
       "effect": "애니메이션 3D 텍스트.",
-      "action": "이 효과 사용해 보기(영어)",
+      "action": "이 효과 사용해 보기",
       "alt": "3D 에어쇼. 애니메이션 3D 텍스트."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "원래 속도 → 슬로 모션.",
-      "action": "이 효과 사용해 보기(영어)",
+      "action": "이 효과 사용해 보기",
       "alt": "The Quadruple Dive. 원래 속도 → 슬로 모션."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "애니메이션 텍스트.",
-      "action": "이 효과 사용해 보기(영어)",
+      "action": "이 효과 사용해 보기",
       "alt": "Free as in Geese. 애니메이션 텍스트."
     },
     {
       "id": "hummingbird",
       "title": "슬로 모션 벌새",
       "effect": "0.1배속 · 8배 프레임 속도 변환.",
-      "action": "이 효과 사용해 보기(영어)",
+      "action": "이 효과 사용해 보기",
       "alt": "슬로 모션 벌새. 0.1배속 · 8배 프레임 속도 변환."
     },
     {
       "id": "harbor",
       "title": "항구에서",
       "effect": "모션 블러.",
-      "action": "이 효과 사용해 보기(영어)",
+      "action": "이 효과 사용해 보기",
       "alt": "항구에서. 모션 블러."
     },
     {
       "id": "red-leaves",
       "title": "붉은 잎",
       "effect": "시간축 노이즈 감소.",
-      "action": "이 효과 사용해 보기(영어)",
+      "action": "이 효과 사용해 보기",
       "alt": "붉은 잎. 시간축 노이즈 감소."
     }
   ]

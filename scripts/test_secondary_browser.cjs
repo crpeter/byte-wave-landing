@@ -14,7 +14,7 @@ const locales = [
 ];
 const routes = [
  ['about','about.html'], ['free-expression','free-expression.html'],
- ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'],
+ ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'], ['layout','layout/'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
  ['metadata','tutorials/remove-location-metadata/'],
  ['motion','tutorials/motion-blur/'],
@@ -125,6 +125,18 @@ function test(ok, label, result) {
       test(data.galleryVideos===13&&data.mediaLabels===13&&data.missingPoster===0&&data.firstAlt,key+' thirteen intact localized video players',
        {videoCount:data.galleryVideos,labels:data.mediaLabels,missingPosters:data.missingPoster});
      }
+     if(kind==='layout'){
+      const players = await page.locator('main figure video').evaluateAll(videos => videos.map(video => {
+       const frame = video.getBoundingClientRect();
+       const figure = video.closest('figure');
+       return frame.width > 0 && frame.left >= -1 && frame.right <= document.documentElement.clientWidth + 1
+        && video.controls && video.playsInline && video.querySelectorAll('source').length === 2
+        && !!video.getAttribute('data-bw-labels') && !!figure.querySelector('.bw-play[aria-controls="' + video.id + '"]')
+        && !!figure.querySelector('figcaption')?.textContent.trim();
+      }));
+      test(players.length===5 && players.every(Boolean) && data.instructionSteps===3,
+           key+' five accessible players fit the viewport and all three steps render', players);
+     }
      if(kind==='free-expression')test(data.hasAppeal,key+' appeal anchor exists');
      if(kind==='c2pa') {
        test(data.instructionSteps===3 && data.verificationRows===5 && data.hasC2paSpec,
@@ -154,10 +166,10 @@ function test(ok, label, result) {
        test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
-      if(['about','gallery','tutorials','c2pa','metadata','motion','frc','noise'].includes(kind)) {
+      if(['about','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout'].includes(kind)) {
        if(kind==='c2pa') await page.locator('main table').scrollIntoViewIfNeeded();
        if(kind==='metadata') await page.locator('main ol').scrollIntoViewIfNeeded();
-       if(['motion','frc','noise'].includes(kind)) await page.locator('main figure').scrollIntoViewIfNeeded();
+       if(['motion','frc','noise','layout'].includes(kind)) await page.locator('main figure').first().scrollIntoViewIfNeeded();
        await page.screenshot({path:path.join(OUT,lang+'-'+kind+'-'+size.width+'.png'),animations:'disabled'});
       }
      }
