@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave 教學",
+    "updatedLabel": "更新日期",
+    "updatedDate": "2026 年 9 月 28 日",
+    "relatedLabel": "相關教學"
+  },
+  "animatedCaptions": {
+    "title": "在 ByteWave 加入動態字幕",
+    "description": "在影片中加入文字，選擇動畫效果並調整字幕位置。適用於 iPhone、iPad、Mac 的簡短 ByteWave 教學。",
+    "lead": "在影片加入自己的文字，並套用動畫效果。",
+    "stepsHeading": "加入字幕",
+    "step1": "在 ByteWave 開啟影片並加入字幕。",
+    "step2": "輸入文字，再選取字幕以修改樣式。",
+    "step3": "選擇字型、大小及顏色，將文字放在影片上的適當位置。",
+    "step4": "選擇文字特效，再播放影片預覽動畫。",
+    "readabilityHeading": "保持字幕清楚易讀",
+    "readabilityText": "使用簡短句子及與背景對比明顯的顏色。確認動畫顯示時間足夠閱讀文字。",
+    "relatedIntro": "想找特定風格？ ",
+    "relatedAnchor": "文字特效教學（英文）",
+    "relatedTail": "介紹 Orbital Letters 和 Ember Ash 等預設效果。",
+    "relatedSticker": "讓貼圖動起來"
+  },
+  "animateStickers": {
+    "title": "在 ByteWave 製作貼圖動畫",
+    "description": "透過時間控制和關鍵影格，讓 ByteWave 中的貼圖隨時間改變位置、大小或旋轉角度。",
+    "lead": "使用關鍵影格讓貼圖移動、縮放或隨時間旋轉。",
+    "stepsHeading": "設定動作",
+    "step1": "將貼圖加入影片並選取。",
+    "step2": "使用時間控制設定貼圖出現的時機。",
+    "step3": "透過關鍵影格記錄開始的位置、大小與旋轉角度。",
+    "step4": "移至稍後的時間點，設定另一個位置、大小或旋轉角度不同的關鍵影格。",
+    "step5": "播放影片以預覽關鍵影格之間的動作。",
+    "readabilityHeading": "先從兩個關鍵影格開始",
+    "readabilityText": "嘗試讓貼圖從畫面一側移到另一側。確認效果後，再加入大小變化或旋轉。",
+    "relatedCaption": "加入動態字幕",
+    "relatedLayout": "製作影片拼貼（英文）"
+  }
+}
