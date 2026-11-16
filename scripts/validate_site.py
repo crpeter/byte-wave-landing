@@ -186,7 +186,9 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
             if is_localized:
                 required_footer.remove("/"); required_footer.add(f"/{locale_slug(p.lang)}/")
-                for slug, english in (("about", "/about.html"), ("free-expression", "/free-expression.html")):
+                for slug, english in (("about", "/about.html"),
+                                      ("free-expression", "/free-expression.html"),
+                                      ("privacy", "/privacy.html")):
                     translated = f"/{locale_slug(p.lang)}/{slug}.html"
                     if (ROOT / translated.lstrip("/")).is_file():
                         required_footer.remove(english)
