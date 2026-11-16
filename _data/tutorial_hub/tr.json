@@ -1,0 +1,85 @@
+{
+  "title": "Video düzenleme rehberleri",
+  "description": "ByteWave ile video kolajı, animasyonlu altyazı, keyframe'li sticker, hareket bulanıklığı ve C2PA kontrolünü öğrenin.",
+  "intro": "Bir düzen oluşturun, altyazı ekleyin, sticker animasyonu yapın veya dosya kontrol edin. ByteWave araçları için kısa rehberler.",
+  "language_note": "Bağlantı verilen ayrıntılı rehberler şu anda İngilizce sunulmaktadır.",
+  "action": "Rehberi aç (İngilizce)",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "ByteWave Layout ile video kolajları",
+      "description": "Klipleri katmanlayın, ızgaralar oluşturun ve yeni şekiller deneyin.",
+      "format": "Üç video örneği",
+      "alt": "ByteWave Layout ile video kolajları. Klipleri katmanlayın, ızgaralar oluşturun ve yeni şekiller deneyin."
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Animasyonlu altyazı ekleyin",
+      "description": "Sizin sözleriniz, sizin videonuz.",
+      "format": "Yazılı rehber",
+      "alt": "Animasyonlu altyazı ekleyin. Sizin sözleriniz, sizin videonuz."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Altyazı metin efektlerini seçin",
+      "description": "Orbital Letters, Supernova, Ember Ash ve diğerleri.",
+      "format": "Yazılı rehber",
+      "alt": "Altyazı metin efektlerini seçin. Orbital Letters, Supernova, Ember Ash ve diğerleri."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Kendi yazı tiplerinizi içe aktarın",
+      "description": "Altyazılarda TTF ve OTF yazı tiplerini kullanın.",
+      "format": "Yazılı rehber",
+      "alt": "Kendi yazı tiplerinizi içe aktarın. Altyazılarda TTF ve OTF yazı tiplerini kullanın."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Sticker'ları anahtar karelerle canlandırın",
+      "description": "Konum, boyut, döndürme ve anahtar kareler.",
+      "format": "Yazılı rehber",
+      "alt": "Sticker'ları anahtar karelerle canlandırın. Konum, boyut, döndürme ve anahtar kareler."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Videoya hareket bulanıklığı ekleyin",
+      "description": "Sonuçları yan yana karşılaştırın ve bulanıklık gücünü ayarlayın.",
+      "format": "iPhone · 20 saniyelik karşılaştırma",
+      "alt": "Videoya hareket bulanıklığı ekleyin. Sonuçları yan yana karşılaştırın ve bulanıklık gücünü ayarlayın.",
+      "left": "Orijinal",
+      "right": "Hareket bulanıklığı"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Ağır çekim için kare hızı dönüştürme",
+      "description": "0,1× hızdaki bir sinek kuşunun hareketini karşılaştırın.",
+      "format": "iPhone · 30 saniyelik karşılaştırma",
+      "alt": "Ağır çekim için kare hızı dönüştürme. 0,1× hızdaki bir sinek kuşunun hareketini karşılaştırın.",
+      "left": "Normal · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Zamansal gürültü azaltma",
+      "description": "Örnek videoda gürültüyü ve ince ayrıntıları inceleyin.",
+      "format": "iPhone · 8 saniyelik karşılaştırma",
+      "alt": "Zamansal gürültü azaltma. Örnek videoda gürültüyü ve ince ayrıntıları inceleyin.",
+      "left": "Orijinal",
+      "right": "Gürültü azaltma"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "C2PA Content Credentials bilgilerini kontrol edin",
+      "description": "Köken işaretini açın; doğrulanmış yapay zekâ beyanlarını ve eksik kanıtları anlayın.",
+      "format": "Fotoğraf ve video · Rehber",
+      "alt": "C2PA Content Credentials bilgilerini kontrol edin. Köken işaretini açın; doğrulanmış yapay zekâ beyanlarını ve eksik kanıtları anlayın."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Konum metaverilerini kaldırın",
+      "description": "Çalışma kopyasını inceleyin, düzenlenebilir alanları kaldırın ve kalanları kontrol edin.",
+      "format": "Gizlilik · Yazılı rehber",
+      "alt": "Konum metaverilerini kaldırın. Çalışma kopyasını inceleyin, düzenlenebilir alanları kaldırın ve kalanları kontrol edin."
+    }
+  ]
+}
