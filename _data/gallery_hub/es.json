@@ -3,7 +3,6 @@
   "seo_title": "Galería de videos hechos con ByteWave",
   "description": "Descubre videos creados con ByteWave: desplazamiento horizontal, deformaciones, cuadrículas de atardeceres, cámara lenta y más.",
   "aria_label": "Hecho con ByteWave",
-  "note": "Las guías de los efectos enlazados están disponibles en inglés.",
   "open_video": "Abrir video",
   "download": "Descargar ByteWave gratis",
   "credit": "Imágenes de ejemplo de Apple, editadas con ByteWave.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "Columnas de atardeceres, costas y momentos cotidianos que se desplazan.",
-      "action": "Explorar Layout (en inglés)",
+      "action": "Explorar Layout",
       "alt": "The All Scroll. Columnas de atardeceres, costas y momentos cotidianos que se desplazan."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "Desplazamiento horizontal · Möbius",
       "effect": "Nuestro primer diseño de desplazamiento horizontal con deformación Möbius.",
-      "action": "Explorar Layout (en inglés)",
+      "action": "Explorar Layout",
       "alt": "Desplazamiento horizontal · Möbius. Nuestro primer diseño de desplazamiento horizontal con deformación Möbius."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "Desplazamiento horizontal · Olas",
       "effect": "Desplazamiento horizontal con efecto de olas.",
-      "action": "Explorar Layout (en inglés)",
+      "action": "Explorar Layout",
       "alt": "Desplazamiento horizontal · Olas. Desplazamiento horizontal con efecto de olas."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "Hexágonos de atardecer (horizontal)",
       "effect": "Layout de ByteWave · Formato horizontal.",
-      "action": "Ver ambas orientaciones (en inglés)",
+      "action": "Ver ambas orientaciones",
       "alt": "Hexágonos de atardecer (horizontal). Layout de ByteWave · Formato horizontal."
     },
     {
       "id": "warped-sunset-4k",
       "title": "Atardecer deformado",
       "effect": "Layout de ByteWave · Bandas curvas de atardecer.",
-      "action": "Explorar Layout (en inglés)",
+      "action": "Explorar Layout",
       "alt": "Atardecer deformado. Layout de ByteWave · Bandas curvas de atardecer."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "Cuadrícula costera que se abre a la playa",
       "effect": "Layout de ByteWave · De seis paneles a pantalla completa.",
-      "action": "Explorar Layout (en inglés)",
+      "action": "Explorar Layout",
       "alt": "Cuadrícula costera que se abre a la playa. Layout de ByteWave · De seis paneles a pantalla completa."
     },
     {
       "id": "sunset-hexagons",
       "title": "Hexágonos de atardecer (vertical)",
       "effect": "Layout de ByteWave · Formato vertical.",
-      "action": "Ver ambas orientaciones (en inglés)",
+      "action": "Ver ambas orientaciones",
       "alt": "Hexágonos de atardecer (vertical). Layout de ByteWave · Formato vertical."
     },
     {
       "id": "air-show",
       "title": "Exhibición aérea en 3D",
       "effect": "Texto 3D animado.",
-      "action": "Probar este efecto (en inglés)",
+      "action": "Probar este efecto",
       "alt": "Exhibición aérea en 3D. Texto 3D animado."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "Velocidad original → cámara lenta.",
-      "action": "Probar este efecto (en inglés)",
+      "action": "Probar este efecto",
       "alt": "The Quadruple Dive. Velocidad original → cámara lenta."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "Texto animado.",
-      "action": "Probar este efecto (en inglés)",
+      "action": "Probar este efecto",
       "alt": "Free as in Geese. Texto animado."
     },
     {
       "id": "hummingbird",
       "title": "Colibrí a cámara lenta",
       "effect": "Velocidad 0,1× · Conversión FRC de 8×.",
-      "action": "Probar este efecto (en inglés)",
+      "action": "Probar este efecto",
       "alt": "Colibrí a cámara lenta. Velocidad 0,1× · Conversión FRC de 8×."
     },
     {
       "id": "harbor",
       "title": "En el puerto",
       "effect": "Desenfoque de movimiento.",
-      "action": "Probar este efecto (en inglés)",
+      "action": "Probar este efecto",
       "alt": "En el puerto. Desenfoque de movimiento."
     },
     {
       "id": "red-leaves",
       "title": "Hojas rojas",
       "effect": "Reducción temporal de ruido.",
-      "action": "Probar este efecto (en inglés)",
+      "action": "Probar este efecto",
       "alt": "Hojas rojas. Reducción temporal de ruido."
     }
   ]

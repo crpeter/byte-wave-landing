@@ -1,3 +1,4 @@
+{%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign locale_data = site.data.creation_tutorials[page.lang] -%}
 {%- assign g = locale_data[page.guide] -%}
@@ -111,7 +112,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
         <li><a href="{{ stickers_page.url | relative_url }}">{{ g.relatedSticker | escape }}</a></li>
         {% else %}
         <li><a href="{{ captions_page.url | relative_url }}">{{ g.relatedCaption | escape }}</a></li>
-        <li><a href="/layout/" hreflang="en">{{ g.relatedLayout | escape }}</a></li>
+        <li><a href="{{ layout_page.url | relative_url }}">{{ g.relatedLayout | escape }}</a></li>
         {% endif %}
       </ul>
     </aside>

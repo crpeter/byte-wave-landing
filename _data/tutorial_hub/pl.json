@@ -2,8 +2,7 @@
   "title": "Poradniki montażu wideo",
   "description": "Naucz się tworzyć kolaże wideo, animowane napisy, naklejki z klatkami kluczowymi, rozmycie ruchu i kontrole C2PA w ByteWave.",
   "intro": "Stwórz układ, dodaj napisy, animuj naklejki lub sprawdź plik. Krótkie poradniki o narzędziach ByteWave.",
-  "language_note": "Niektóre z podlinkowanych poradników są nadal dostępne tylko po angielsku.",
-  "action": "Zobacz poradnik (po angielsku)",
+  "action": "Zobacz poradnik",
   "cards": [
     {
       "href": "/layout/",

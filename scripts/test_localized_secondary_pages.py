@@ -6,6 +6,7 @@ passing generic canonical/link checks while showing blank gallery/tutorial cards
 """
 import json
 import re
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -61,7 +62,7 @@ for lang,slug in LOCALES.items():
     assert len(tutorials["cards"]) == 10, (lang, "tutorial count")
     assert [x["href"] for x in tutorials["cards"]] == TUTORIAL_HREFS, (lang, "tutorial links")
     for data in [gallery,tutorials]:
-        for field in ("title","description","note" if data is gallery else "language_note"):
+        for field in ("title","description"):
             assert data[field].strip(), (lang, field)
         for card in data["cards"]:
             for field in ("title", "alt", "effect" if data is gallery else "description", "action" if data is gallery else "format"):
@@ -99,3 +100,33 @@ for lang,slug in LOCALES.items():
             assert "constitution.congress.gov" in rendered, (html,"primary legal source")
         checked+=1
 print(f"Localized gallery and tutorial-index checks passed: {len(LOCALES)} languages, {checked} translated secondary pages.")
+
+# Layout is the tenth guide in each directory. Check all gallery and
+# directory links, including fragments, against their rendered destinations.
+for lang, slug in LOCALES.items():
+    layout = (RENDERED / slug / "layout/index.html").read_text()
+    data = json.loads((SOURCE / "_data/layout_guide" / f"{lang}.json").read_text())
+    body_text = unescape(re.sub(r"<[^>]+>", "", layout))
+    for field in ("lead", "feature1", "feature2", "feature3", "feature4",
+                  "step1", "step2", "step3", "pricing", "publisher"):
+        assert data[field] in body_text, (lang, field)
+
+    graph = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', layout, re.S)[1])["@graph"]
+    videos = [item for item in graph if item["@type"] == "VideoObject"]
+    assert len(videos) == 5, (lang, "video schema")
+    for video in videos:
+        url, anchor = video["@id"].split("#")
+        assert url == f"https://bytewaveai.com/{slug}/layout/" and f'id="{anchor}"' in layout
+        assert video["name"] and video["description"], (lang, anchor)
+        for key in ("thumbnailUrl", "contentUrl"):
+            assert (RENDERED / video[key].removeprefix("https://bytewaveai.com/")).is_file()
+    for hub, css_class, count in [("gallery", "tutorial-link", 13), ("tutorials", "tutorial-card", 10)]:
+        hub_html = (RENDERED / slug / hub / "index.html").read_text()
+        links = re.findall(r'<a class="' + css_class + r'" href="([^"]+)"', hub_html)
+        assert len(links) == count, (lang, hub, links)
+        for link in links:
+            path, _, fragment = link.partition("#")
+            assert path.startswith(f"/{slug}/"), (lang, hub, path)
+            target = RENDERED / path.strip("/") / "index.html"
+            assert target.is_file() and (not fragment or f'id="{fragment}"' in target.read_text()), link
+print("Validated 16 translated Layout guides, 80 video schema objects and all gallery and directory destinations.")

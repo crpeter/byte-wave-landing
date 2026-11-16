@@ -2,8 +2,7 @@
   "title": "Tutoriais de vídeo para criadores no Brasil",
   "description": "Aprenda a criar colagens de vídeo, legendas animadas, stickers com keyframes, desfoque de movimento e verificações C2PA no ByteWave.",
   "intro": "Crie um layout, adicione legendas, anime stickers ou confira um arquivo. Guias rápidos das ferramentas do ByteWave.",
-  "language_note": "Alguns tutoriais vinculados ainda estão disponíveis apenas em inglês.",
-  "action": "Ver tutorial (em inglês)",
+  "action": "Ver tutorial",
   "cards": [
     {
       "href": "/layout/",

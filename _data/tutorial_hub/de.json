@@ -2,8 +2,7 @@
   "title": "Anleitungen zur Videobearbeitung",
   "description": "Lerne Video-Collagen, animierte Untertitel, Sticker-Keyframes, Bewegungsunschärfe und C2PA-Prüfungen mit ByteWave.",
   "intro": "Erstelle Layouts, füge Untertitel hinzu, animiere Sticker oder prüfe eine Datei. Kurze Anleitungen zu ByteWaves Werkzeugen.",
-  "language_note": "Einige der verlinkten Anleitungen sind weiterhin nur auf Englisch verfügbar.",
-  "action": "Anleitung ansehen (Englisch)",
+  "action": "Anleitung ansehen",
   "cards": [
     {
       "href": "/layout/",

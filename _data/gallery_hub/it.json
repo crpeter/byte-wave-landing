@@ -3,7 +3,6 @@
   "seo_title": "Galleria di video realizzati con ByteWave",
   "description": "Scopri i video realizzati con ByteWave: scroll orizzontali, effetti Möbius e onde, griglie al tramonto, rallentatori e altro.",
   "aria_label": "Creato con ByteWave",
-  "note": "Le guide degli effetti collegate sono attualmente disponibili in inglese.",
   "open_video": "Apri video",
   "download": "Scarica ByteWave gratis",
   "credit": "Filmati di esempio Apple, montati con ByteWave.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "Colonne in scorrimento con tramonti, coste e momenti quotidiani.",
-      "action": "Scopri Layout (in inglese)",
+      "action": "Scopri Layout",
       "alt": "The All Scroll. Colonne in scorrimento con tramonti, coste e momenti quotidiani."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "Scorrimento orizzontale · Möbius",
       "effect": "Il nostro primo layout a scorrimento orizzontale, deformato a Möbius.",
-      "action": "Scopri Layout (in inglese)",
+      "action": "Scopri Layout",
       "alt": "Scorrimento orizzontale · Möbius. Il nostro primo layout a scorrimento orizzontale, deformato a Möbius."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "Scorrimento orizzontale · Onde",
       "effect": "Scorrimento orizzontale con deformazione a onda.",
-      "action": "Scopri Layout (in inglese)",
+      "action": "Scopri Layout",
       "alt": "Scorrimento orizzontale · Onde. Scorrimento orizzontale con deformazione a onda."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "Esagoni al tramonto (orizzontale)",
       "effect": "Layout di ByteWave · Orizzontale.",
-      "action": "Esplora entrambi gli orientamenti (in inglese)",
+      "action": "Esplora entrambi gli orientamenti",
       "alt": "Esagoni al tramonto (orizzontale). Layout di ByteWave · Orizzontale."
     },
     {
       "id": "warped-sunset-4k",
       "title": "Tramonto deformato",
       "effect": "Layout di ByteWave · Fasce curve del tramonto.",
-      "action": "Scopri Layout (in inglese)",
+      "action": "Scopri Layout",
       "alt": "Tramonto deformato. Layout di ByteWave · Fasce curve del tramonto."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "Griglia sul mare verso la spiaggia",
       "effect": "Layout di ByteWave · Da sei pannelli a pieno schermo.",
-      "action": "Scopri Layout (in inglese)",
+      "action": "Scopri Layout",
       "alt": "Griglia sul mare verso la spiaggia. Layout di ByteWave · Da sei pannelli a pieno schermo."
     },
     {
       "id": "sunset-hexagons",
       "title": "Esagoni al tramonto (verticale)",
       "effect": "Layout di ByteWave · Verticale.",
-      "action": "Esplora entrambi gli orientamenti (in inglese)",
+      "action": "Esplora entrambi gli orientamenti",
       "alt": "Esagoni al tramonto (verticale). Layout di ByteWave · Verticale."
     },
     {
       "id": "air-show",
       "title": "Spettacolo aereo in 3D",
       "effect": "Testo animato in 3D.",
-      "action": "Prova questo effetto (in inglese)",
+      "action": "Prova questo effetto",
       "alt": "Spettacolo aereo in 3D. Testo animato in 3D."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "Velocità originale → rallentatore.",
-      "action": "Prova questo effetto (in inglese)",
+      "action": "Prova questo effetto",
       "alt": "The Quadruple Dive. Velocità originale → rallentatore."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "Testo animato.",
-      "action": "Prova questo effetto (in inglese)",
+      "action": "Prova questo effetto",
       "alt": "Free as in Geese. Testo animato."
     },
     {
       "id": "hummingbird",
       "title": "Colibrì al rallentatore",
       "effect": "Velocità 0,1× · Conversione FRC 8×.",
-      "action": "Prova questo effetto (in inglese)",
+      "action": "Prova questo effetto",
       "alt": "Colibrì al rallentatore. Velocità 0,1× · Conversione FRC 8×."
     },
     {
       "id": "harbor",
       "title": "Al porto",
       "effect": "Sfocatura movimento.",
-      "action": "Prova questo effetto (in inglese)",
+      "action": "Prova questo effetto",
       "alt": "Al porto. Sfocatura movimento."
     },
     {
       "id": "red-leaves",
       "title": "Foglie rosse",
       "effect": "Riduzione temporale del rumore.",
-      "action": "Prova questo effetto (in inglese)",
+      "action": "Prova questo effetto",
       "alt": "Foglie rosse. Riduzione temporale del rumore."
     }
   ]

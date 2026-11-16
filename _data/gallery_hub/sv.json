@@ -3,7 +3,6 @@
   "seo_title": "Galleri med videor skapade i ByteWave",
   "description": "Se videor från ByteWave: horisontellt rullande layouter, Möbius- och vågeffekter, solnedgångsrutnät, slowmotion och mer.",
   "aria_label": "Skapat med ByteWave",
-  "note": "De länkade guiderna för effekterna finns för närvarande på engelska.",
   "open_video": "Öppna video",
   "download": "Hämta ByteWave gratis",
   "credit": "Apples exempelmaterial, redigerat med ByteWave.",
@@ -12,91 +11,91 @@
       "id": "all-scroll",
       "title": "The All Scroll",
       "effect": "Rullande kolumner med solnedgångar, kust och vardagliga ögonblick.",
-      "action": "Utforska Layout (på engelska)",
+      "action": "Utforska Layout",
       "alt": "The All Scroll. Rullande kolumner med solnedgångar, kust och vardagliga ögonblick."
     },
     {
       "id": "horizontal-scroll-mobius-warp",
       "title": "Horisontell rullning · Möbius",
       "effect": "Vår första horisontellt rullande layout med Möbius-effekt.",
-      "action": "Utforska Layout (på engelska)",
+      "action": "Utforska Layout",
       "alt": "Horisontell rullning · Möbius. Vår första horisontellt rullande layout med Möbius-effekt."
     },
     {
       "id": "horizontal-scroll-waves",
       "title": "Horisontell rullning · Vågor",
       "effect": "Horisontell rullning med vågförvrängning.",
-      "action": "Utforska Layout (på engelska)",
+      "action": "Utforska Layout",
       "alt": "Horisontell rullning · Vågor. Horisontell rullning med vågförvrängning."
     },
     {
       "id": "sunset-hexagons-landscape",
       "title": "Solnedgångshexagoner (liggande)",
       "effect": "ByteWave Layout · Liggande.",
-      "action": "Se båda orienteringarna (på engelska)",
+      "action": "Se båda orienteringarna",
       "alt": "Solnedgångshexagoner (liggande). ByteWave Layout · Liggande."
     },
     {
       "id": "warped-sunset-4k",
       "title": "Förvrängd solnedgång",
       "effect": "ByteWave Layout · Böjda solnedgångsband.",
-      "action": "Utforska Layout (på engelska)",
+      "action": "Utforska Layout",
       "alt": "Förvrängd solnedgång. ByteWave Layout · Böjda solnedgångsband."
     },
     {
       "id": "seaside-grid-to-beach",
       "title": "Rutnät vid havet till strand",
       "effect": "ByteWave Layout · Sex paneler som blir helbild.",
-      "action": "Utforska Layout (på engelska)",
+      "action": "Utforska Layout",
       "alt": "Rutnät vid havet till strand. ByteWave Layout · Sex paneler som blir helbild."
     },
     {
       "id": "sunset-hexagons",
       "title": "Solnedgångshexagoner (stående)",
       "effect": "ByteWave Layout · Stående.",
-      "action": "Se båda orienteringarna (på engelska)",
+      "action": "Se båda orienteringarna",
       "alt": "Solnedgångshexagoner (stående). ByteWave Layout · Stående."
     },
     {
       "id": "air-show",
       "title": "Flyguppvisning i 3D",
       "effect": "Animerad 3D-text.",
-      "action": "Prova effekten (på engelska)",
+      "action": "Prova effekten",
       "alt": "Flyguppvisning i 3D. Animerad 3D-text."
     },
     {
       "id": "quadruple-dive",
       "title": "The Quadruple Dive",
       "effect": "Originalhastighet → slowmotion.",
-      "action": "Prova effekten (på engelska)",
+      "action": "Prova effekten",
       "alt": "The Quadruple Dive. Originalhastighet → slowmotion."
     },
     {
       "id": "free-as-in-geese",
       "title": "Free as in Geese",
       "effect": "Animerad text.",
-      "action": "Prova effekten (på engelska)",
+      "action": "Prova effekten",
       "alt": "Free as in Geese. Animerad text."
     },
     {
       "id": "hummingbird",
       "title": "Kolibri i slowmotion",
       "effect": "0,1× hastighet · 8× bildfrekvensomvandling.",
-      "action": "Prova effekten (på engelska)",
+      "action": "Prova effekten",
       "alt": "Kolibri i slowmotion. 0,1× hastighet · 8× bildfrekvensomvandling."
     },
     {
       "id": "harbor",
       "title": "I hamnen",
       "effect": "Rörelseoskärpa.",
-      "action": "Prova effekten (på engelska)",
+      "action": "Prova effekten",
       "alt": "I hamnen. Rörelseoskärpa."
     },
     {
       "id": "red-leaves",
       "title": "Röda löv",
       "effect": "Tidsbaserad brusreducering.",
-      "action": "Prova effekten (på engelska)",
+      "action": "Prova effekten",
       "alt": "Röda löv. Tidsbaserad brusreducering."
     }
   ]
