@@ -1,3 +1,4 @@
+{%- assign press_page = site.pages | where: "translation_key", "press" | where: "lang", page.lang | first -%}
 {%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
 {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
 {%- assign expression_page = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
@@ -10,7 +11,7 @@
         <a href="{{ tutorials_page.url | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a>
         <a href="/blog/" hreflang="en">{{ t.nav.blog | escape }}</a>
         <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
-        <a href="/press.html" hreflang="en">{{ t.nav.press | escape }}</a>
+        <a href="{{ press_page.url | relative_url }}">{{ t.nav.press | escape }}</a>
         <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ t.nav.privacy | escape }}</a>
         <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}">{{ t.nav.expression | escape }}</a>
     </div>

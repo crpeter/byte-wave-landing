@@ -13,7 +13,7 @@ const locales = [
  ['pl','pl'], ['tr','tr'], ['uk','uk'], ['ja','ja'], ['ko','ko'], ['zh-Hant','zh-hant']
 ];
 const routes = [
- ['about','about.html'], ['free-expression','free-expression.html'],
+ ['about','about.html'], ['press','press.html'], ['free-expression','free-expression.html'],
  ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'], ['layout','layout/'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
  ['metadata','tutorials/remove-location-metadata/'],
@@ -31,6 +31,7 @@ function test(ok, label, result) {
  const browser = await chromium.launch({headless:true, executablePath:chrome, args:['--no-sandbox']});
  const page = await browser.newPage();
  try {
+  await page.context().grantPermissions(['clipboard-read','clipboard-write'], {origin:ORIGIN});
   for (const [lang, slug] of locales) {
    for (const [kind, route] of routes) {
     for (const size of [{width:1440,height:900},{width:390,height:844},{width:320,height:844}]) {
@@ -119,6 +120,25 @@ function test(ok, label, result) {
            data.menu.height>=44&&data.cta.height>=44,
         key+' mobile header usable',{logo:data.logo,menu:data.menu,cta:data.cta});
      }
+     if(kind==='press'){
+      const facts=await page.locator('#facts .fact-row').count();
+      const copyBlocks=page.locator('.block:has(button.copy)');
+      test(facts===9 && await copyBlocks.count()===4 && await page.locator('#angles .angle').count()===3,
+           key+' complete fact sheet, four copy blocks and three story angles');
+      const clipped=await page.locator('main h1, .fact-value, .block [data-copy], .asset-dl').evaluateAll(elements =>
+       elements.filter(el => el.getBoundingClientRect().width === 0 || el.scrollWidth > el.clientWidth + 1 ||
+        el.getBoundingClientRect().right > innerWidth + 1).map(el => el.textContent.slice(0,80)));
+      test(clipped.length===0,key+' press text and download controls fit the viewport',clipped);
+      if(size.width===390){
+       for(const block of await copyBlocks.all()){
+        const expected=(await block.locator('[data-copy]').innerText()).trim();
+        await block.locator('.copy').click();
+        await block.locator('.copy[data-done="1"]').waitFor();
+        const copied=await page.evaluate(()=>navigator.clipboard.readText());
+        test(copied===expected,key+' copy button writes the corresponding localized text');
+       }
+      }
+     }
      if(kind==='tutorials'){
       test(data.tutorialCards===10&&data.brokenCardBounds.length===0,key+' ten readable tutorial cards',{count:data.tutorialCards,overflow:data.brokenCardBounds});
      }
@@ -169,7 +189,7 @@ function test(ok, label, result) {
        test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
-      if(['about','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout'].includes(kind)) {
+      if(['about','press','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout'].includes(kind)) {
        if(kind==='c2pa') await page.locator('main table').scrollIntoViewIfNeeded();
        if(kind==='metadata') await page.locator('main ol').scrollIntoViewIfNeeded();
        if(['motion','frc','noise','layout'].includes(kind)) await page.locator('main figure').first().scrollIntoViewIfNeeded();
@@ -180,6 +200,16 @@ function test(ok, label, result) {
    }
   }
   await page.setViewportSize({width:1440,height:900});
+  await page.goto(ORIGIN+'/de/press.html');
+  await page.locator('.site-language > summary').click();
+  await page.locator('.site-language a[href="/ja/press.html"]').click();
+  test(page.url().endsWith('/ja/press.html'),'Press language switch opens the equivalent kit');
+  for(const link of await page.locator('#assets .asset-dl').all()){
+   const href=await link.getAttribute('href');
+   const response=await page.request.get(ORIGIN+href);
+   test(response.ok() && response.headers()['content-type']?.startsWith('image/'),
+        'Press asset returns an image', {href,status:response.status()});
+  }
   await page.goto(ORIGIN+'/de/layout/', {waitUntil:'domcontentloaded'});
   const demo = page.locator('#layout-sunset-hexagons-portrait-video');
   await page.locator('.bw-play[aria-controls="layout-sunset-hexagons-portrait-video"]').click();
