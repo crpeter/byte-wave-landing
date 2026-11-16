@@ -53,6 +53,16 @@ function test(ok, label, result) {
        hreflangs:[...document.querySelectorAll('link[rel="alternate"][hreflang]')].map(l=>[l.hreflang,l.href]),
        menu:all[2],logo:all[0],cta:all[1],ctaText:cta?.textContent.trim(),
        docWidth:html.scrollWidth,viewWidth:html.clientWidth,
+       overflowingElements:[...document.body.querySelectorAll('*')]
+         .map(el=>{
+           const r=el.getBoundingClientRect();
+           return {tag:el.tagName.toLowerCase(),className:typeof el.className==='string'?el.className.slice(0,90):'',
+             text:(el.textContent||'').trim().slice(0,75),
+             left:Math.round(r.left*10)/10,right:Math.round(r.right*10)/10,
+             scrollWidth:el.scrollWidth,clientWidth:el.clientWidth};
+         })
+         .filter(x=>x.right>width+1 && x.left<width && x.left>=-100 && x.scrollWidth>0)
+         .slice(0,18),
        tutorialCards:cards.length,galleryVideos:media.length,
        mediaLabels:media.filter(v=>v.hasAttribute('data-bw-labels')).length,
        brokenCardBounds:cards.map((e,i)=>({r:e.getBoundingClientRect(),i})).filter(x=>x.r.left<-1||x.r.right>width+1).map(x=>x.i),
@@ -95,7 +105,7 @@ function test(ok, label, result) {
      test(data.canonical===canonical,key+' self canonical',data.canonical);
      test(data.hreflangs.length>=20 && data.hreflangs.some(v=>v[0]===lang&&v[1]===canonical),key+' reciprocal alternates',{count:data.hreflangs.length});
      test(!!data.heading && data.bodyLength>150,key+' visible translated content',{heading:data.heading,length:data.bodyLength});
-     test(data.docWidth<=data.viewWidth+1,key+' no page-level horizontal overflow',{scroll:data.docWidth,client:data.viewWidth});
+     test(data.docWidth<=data.viewWidth+1,key+' no page-level horizontal overflow',{scroll:data.docWidth,client:data.viewWidth,offenders:data.overflowingElements});
      if (size.width<=390){
       test(!!data.logo&&!!data.menu&&!!data.cta &&
            data.logo.left>=-1&&data.cta.right<=size.width+1 &&
