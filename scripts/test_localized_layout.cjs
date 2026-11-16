@@ -106,9 +106,11 @@ async function inspect(page, lang, size, kind) {
       emphasizedText:em?.textContent?.trim(),
       emphasizedInk, heroHeading:parentRect,
       emphasizedFits:!em || !emRange || !emRange.getClientRects().length ||
-        [...emRange.getClientRects()].every(r => r.left >= -1 && r.right <= width + 1),
+        [...emRange.getClientRects()].every(r =>
+          r.left >= Math.max(-1, parentRect.left + 1) &&
+          r.right <= Math.min(width + 1, parentRect.right - 1)),
       cellOverflow:badCells,
-      button, buttonFits, videoDisplay,
+      button, buttonFits, buttonVisible: !!target && !target.hidden, videoDisplay,
       canonical:document.querySelector('link[rel="canonical"]')?.href,
       alternates:[...document.querySelectorAll('link[rel="alternate"][hreflang]')].map(x=>[x.hreflang,x.href]),
       store:cta?.href,
@@ -170,7 +172,9 @@ async function screenshots(browser, base, kind) {
         report(data.headerFits, id+' header bounds', {logo:data.logo,menu:data.menu,cta:data.cta});
         report(data.emphasizedFits, id+' hero emphasis bounds', {text:data.emphasizedText, ink:data.emphasizedInk});
         if (size.width<=390) report(data.cellOverflow.length===0,id+' table cell bounds',{overflow:data.cellOverflow});
-        if (size.width===1440) report(data.buttonFits,id+' pause button in viewport',{button:data.button});
+        if (size.width===1440) {
+          report(data.buttonVisible && data.buttonFits,id+' pause button in initial viewport',{button:data.button,visible:data.buttonVisible});
+        }
         if (size.width<=390) report(data.videoDisplay==='none' && data.mobileHasStaticImage,id+' static mobile ocean',{videoDisplay:data.videoDisplay});
         if (size.width===1440) {
           const expected=SITE_URL+(slug?'/'+slug+'/':'/');
@@ -240,8 +244,7 @@ async function screenshots(browser, base, kind) {
     await ready(page,SITE_URL+'/');
     await page.setViewportSize(sizes[0]);
     const video=page.locator('#ocean-motion');
-    await video.evaluate(v => {v.load();});
-    await page.waitForFunction(() => document.querySelector('#ocean-motion').readyState>=1,{timeout:15000});
+     await page.waitForFunction(() => document.querySelector('#ocean-motion').readyState>=1,{timeout:15000});
     const duration=await video.evaluate(v=>v.duration);
     report(duration>24 && duration<25,'full Cloud Glow video duration',{duration});
     await page.waitForTimeout(750);
