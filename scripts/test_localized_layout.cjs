@@ -107,9 +107,8 @@ async function inspect(page, lang, size, kind) {
       emphasizedText:em?.textContent?.trim(),
       emphasizedInk, heroHeading:parentRect,
       emphasizedFits:!em || !emRange || !emRange.getClientRects().length ||
-        [...emRange.getClientRects()].every(r =>
-          r.left >= Math.max(-1, parentRect.left + 1) &&
-          r.right <= Math.min(width + 1, parentRect.right - 1)),
+        [...emRange.getClientRects()].every(r => r.left >= 1 && r.right <= width - 1),
+      emphasisOnOneLine:!em || [...emRange.getClientRects()].length === 1,
       cellOverflow:badCells,
       button, buttonFits, buttonVisible: !!target && !target.hidden, videoDisplay,
       canonical:document.querySelector('link[rel="canonical"]')?.href,
@@ -155,7 +154,14 @@ async function screenshots(browser, base, kind) {
   await page.close();
 }
 (async () => {
-  const browser = await chromium.launch({headless:true, args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
+  // Google Chrome includes H.264 decoding; Playwright's bundled Chromium may not.
+  const chrome = ['/usr/bin/google-chrome', '/usr/bin/google-chrome-stable']
+    .find(candidate => fs.existsSync(candidate));
+  console.log('Browser executable:', chrome || 'Playwright Chromium (H.264 may be unavailable)');
+  const browser = await chromium.launch({
+    headless:true, ...(chrome ? {executablePath:chrome} : {}),
+    args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']
+  });
   try {
     await screenshots(browser, BEFORE_URL, 'before');
     await screenshots(browser, SITE_URL, 'after');
@@ -171,7 +177,10 @@ async function screenshots(browser, base, kind) {
         const id = lang+' home '+viewportName(size);
         report(data.actual.width===size.width && data.actual.height===size.height, id+' exact viewport', {requested:size,actual:data.actual});
         report(data.headerFits, id+' header bounds', {logo:data.logo,menu:data.menu,cta:data.cta});
-        report(data.emphasizedFits, id+' hero emphasis bounds', {text:data.emphasizedText, ink:data.emphasizedInk});
+        report(data.emphasizedFits, id+' hero emphasis viewport bounds', {text:data.emphasizedText, ink:data.emphasizedInk});
+        if (size.width <= 390 && ['pl','pt-PT','uk','ja','ko','zh-Hant'].includes(lang)) {
+          report(data.emphasisOnOneLine, id+' keeps emphasized phrase together',{text:data.emphasizedText});
+        }
         if (size.width<=390) report(data.cellOverflow.length===0,id+' table cell bounds',{overflow:data.cellOverflow});
         if (size.width===1440) {
           report(data.buttonVisible && data.buttonFits,id+' pause button in initial viewport',{button:data.button,visible:data.buttonVisible});
@@ -245,7 +254,19 @@ async function screenshots(browser, base, kind) {
     await ready(page,SITE_URL+'/');
     await page.setViewportSize(sizes[0]);
     const video=page.locator('#ocean-motion');
-     await page.waitForFunction(() => document.querySelector('#ocean-motion').readyState>=1,{timeout:15000});
+     let hasVideoMetadata = false;
+    try {
+      await page.waitForFunction(() => document.querySelector('#ocean-motion').readyState >= 1,
+        null, {timeout:15000});
+      hasVideoMetadata = true;
+    } catch {
+      const diagnostics = await video.evaluate(v => ({
+        src:v.currentSrc, readyState:v.readyState, networkState:v.networkState,
+        errorCode:v.error?.code || null, canPlay:v.canPlayType('video/mp4')
+      }));
+      report(false,'Cloud Glow H.264 metadata must load',diagnostics);
+    }
+    if (hasVideoMetadata) {
     const duration=await video.evaluate(v=>v.duration);
     report(duration>24 && duration<25,'full Cloud Glow video duration',{duration});
     await page.waitForTimeout(750);
@@ -262,6 +283,7 @@ async function screenshots(browser, base, kind) {
     await page.waitForTimeout(550);
     state=await video.evaluate(v=>({paused:v.paused,currentTime:v.currentTime,loop:v.loop}));
     report(state.loop && !state.paused && state.currentTime<2,'Cloud Glow returns to start after looping',state);
+    }
     const reduced=await browser.newPage({viewport:sizes[0],reducedMotion:'reduce'});
     await ready(reduced,SITE_URL+'/');
     const noMotion=await reduced.locator('#ocean-motion').evaluate(v=>({paused:v.paused,src:v.getAttribute('src')}));
