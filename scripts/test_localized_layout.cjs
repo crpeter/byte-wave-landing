@@ -10,6 +10,7 @@ const { chromium } = require('playwright');
 const SITE_URL = (process.env.SITE_URL || 'http://127.0.0.1:8765').replace(/\/$/, '');
 const BEFORE_URL = (process.env.BEFORE_URL || '').replace(/\/$/, '');
 const OUTPUT = path.resolve('qa-screenshots');
+const CANONICAL_URL = 'https://bytewaveai.com';
 const sizes = [{width: 1440, height: 900}, {width: 390, height: 844}, {width: 320, height: 844}];
 const locales = [
   ['en', '', 'blog/best-video-editor-privacy-no-upload.html'],
@@ -177,7 +178,7 @@ async function screenshots(browser, base, kind) {
         }
         if (size.width<=390) report(data.videoDisplay==='none' && data.mobileHasStaticImage,id+' static mobile ocean',{videoDisplay:data.videoDisplay});
         if (size.width===1440) {
-          const expected=SITE_URL+(slug?'/'+slug+'/':'/');
+          const expected=CANONICAL_URL+(slug?'/'+slug+'/':'/');
           report(data.canonical===expected,id+' self canonical',{canonical:data.canonical});
           report(data.alternates.length>=20 && data.alternates.find(a=>a[0]===lang)?.[1]===expected,
             id+' hreflang',{count:data.alternates.length});
@@ -190,8 +191,8 @@ async function screenshots(browser, base, kind) {
         const data=await inspect(page,lang,size,'guide');
         report(data.headerFits,lang+' guide '+viewportName(size)+' header bounds',{logo:data.logo,menu:data.menu,cta:data.cta});
         if (size.width===390) {
-          report(data.canonical===SITE_URL+'/'+guide,lang+' guide self canonical',{canonical:data.canonical});
-          report(data.alternates.length>=20 && data.alternates.find(a=>a[0]===lang)?.[1]===SITE_URL+'/'+guide,
+          report(data.canonical===CANONICAL_URL+'/'+guide,lang+' guide self canonical',{canonical:data.canonical});
+          report(data.alternates.length>=20 && data.alternates.find(a=>a[0]===lang)?.[1]===CANONICAL_URL+'/'+guide,
             lang+' guide hreflang',{count:data.alternates.length});
         }
       }
