@@ -245,6 +245,14 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "meta-technical-errors-political-accounts": (6, 16, 0),
+    "meta-no-kings-instagram-suspension": (4, 19, 0),
+    "meta-angie-nixon-instagram-suspension": (3, 12, 0),
+    "meta-25-billion-privacy-judgment": (3, 10, 0),
+    "tiktok-internal-child-safety-warnings": (3, 13, 0),
+    "gates-foundation-ai-in-schools": (0, 9, 0),
+    "youre-not-alone-wanting-less-ai": (2, 13, 0),
+    "openai-sora-deepfakes-public-trust": (3, 15, 0),
     "offline-video-editor-airplane-mode-test": (4, 14, 4),
     "adobe-venezuela-creative-cloud-access": (3, 13, 3),
     "google-nest-cloud-features-end-support": (3, 13, 3),
@@ -297,6 +305,11 @@ for name, counts in article_counts.items():
             assert article.count('role="listitem"') == 4 and "Firebase Authentication" in article, lang
         if name == "tiktok-us-deal-bytedance-china-ties":
             assert re.search(r"(?:19[.,]9\s*[%％]|[%％]19[.,]9)", article), lang
+        if name == "meta-angie-nixon-instagram-suspension":
+            assert "<strong>@LatinosConAngie</strong>" in article, lang
+        if name == "youre-not-alone-wanting-less-ai":
+            for value in ("57", "42", "65", "50"):
+                assert re.search(rf"(?:{value}\s*[%％]|[%％]\s*{value})", article), (lang, value)
         expected = []
         for link in links:
             if link.startswith("/"):
