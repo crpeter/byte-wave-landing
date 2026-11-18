@@ -46,6 +46,6 @@ Vérifiez aussi l’image et le son : un panneau de rue ou une adresse prononcé
 
 [ce que peut révéler une photo ou une vidéo](/fr/blog/can-photos-videos-reveal-your-address.html) · [CapCut et les fichiers envoyés dans le cloud](/fr/blog/capcut-privacy-video-upload.html).
 
-Faites l’essai : [montez et exportez une vidéo en mode avion (en anglais)](/blog/offline-video-editor-airplane-mode-test.html).
+Faites l’essai : [montez et exportez une vidéo en mode avion](/fr/blog/offline-video-editor-airplane-mode-test.html).
 
 Vous comparez les garanties de confidentialité ? [ByteWave face à VN (en anglais)](/blog/bytewave-vs-vn-video-editor-2026.html) présente l’édition locale, les étiquettes de confidentialité de l’App Store et la traduction native des sous-titres.

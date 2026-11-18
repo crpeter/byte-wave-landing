@@ -46,6 +46,6 @@ Se også på bilde og lyd: Et gatenavn eller en adresse som blir sagt, kan avsl�
 
 [Hva bilder og videoer kan røpe](/no/blog/can-photos-videos-reveal-your-address.html) · [CapCut og skyopplasting](/no/blog/capcut-privacy-video-upload.html).
 
-Test selv: [Rediger og eksporter video i flymodus (på engelsk)](/blog/offline-video-editor-airplane-mode-test.html).
+Test selv: [Rediger og eksporter video i flymodus](/no/blog/offline-video-editor-airplane-mode-test.html).
 
 Sammenlign personvern: [ByteWave mot VN (på engelsk)](/blog/bytewave-vs-vn-video-editor-2026.html) om lokal redigering, App Store-personvernmerker og innebygd undertekstoversettelse.

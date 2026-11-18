@@ -1,0 +1,36 @@
+---
+layout: "localized-editorial"
+lang: "ja"
+translation_key: "how-bytewave-feed-works-without-server-watch-history"
+permalink: "/ja/blog/how-bytewave-feed-works-without-server-watch-history.html"
+published_on: "2026-08-28"
+updated_on: "2026-11-18"
+published_label: "公開日"
+display_date: "2026年8月28日"
+seo_title: "ByteWaveがサーバーに視聴履歴を保存せず動画をおすすめする仕組み"
+section_tag: "product-documentation"
+store_url: "https://apps.apple.com/app/id6752225642"
+show_article_cta: false
+source_updated_on: "2026-10-18"
+display_source_update: "2026年10月18日"
+updated_label: "更新日"
+publisher_note: "製品と方針に関する記述は、リンク先の一次資料と照合してByteWaveが確認しました。"
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWaveの紹介画像"
+---
+<h2>データを扱う四つの場面</h2>
+<div class="flow" role="list" aria-label="データを扱う四つの場面"><div role="listitem"><strong>1. 編集</strong> 元の映像は端末内で処理し、ByteWaveにはアップロードしない。</div><div role="listitem"><strong>2. 認証</strong> 任意のプロフィールにはFirebase Authenticationを使う。認証情報と映像は別のデータだ。</div><div role="listitem"><strong>3. 公開</strong> オンライン機能で自分から公開または共有したときにだけ、動画をアップロードする。</div><div role="listitem"><strong>4. 閲覧</strong> 推薦に使う情報と「いいね」した動画の履歴は端末に残る。ByteWaveのサーバーが視聴履歴を受け取ることはない。</div></div>
+<h2>プロフィールを作らない場合</h2>
+<p>端末で編集とレンダリングができ、公開フィードは匿名で閲覧できる。匿名でもログイン中でも、ByteWaveは視聴履歴をサーバーに保存しない。</p>
+<h2>プロフィールを作ると何が変わるか</h2>
+<p>任意の交流機能が使え、認証はFirebase Authenticationが担当する。公開したコンテンツやプロフィール情報はオンラインサービスを利用するが、端末内の編集で素材がアップロードされるわけではない。</p>
+<h2>おすすめと「いいね」</h2>
+<p>おすすめの個別化は任意で、計算は端末内で行う。プライバシーポリシーに記載した「いいね」した動画の履歴も端末内に保存する。プロフィールを作っても、それがサーバーの視聴履歴に変わることはない。</p>
+<h2>字幕と検索用タグ</h2>
+<p>字幕の文字起こしはアカウント不要で端末内で行う。自動タグ付けは共有動画を見つけやすくする別の任意機能で、音声認識と映像解析を組み合わせる。アカウントと音声認識の許可が必要だ。タグ用の文字起こしも端末内で行う。端末で認識できない場合はこの工程を飛ばし、文字起こしのために音声を送ることはない。<a href="/ja/privacy.html">プライバシーポリシー</a>を参照。</p>
+<h2>この設計から分かること</h2>
+<p>ByteWaveは視聴履歴をサーバーに保持せず、行動データをターゲティング広告に使わずに、端末内編集と任意のフィード個別化を提供できる。収集量が少ないだけで、心身の健康や子どもの安全が守られたり、過度な利用のリスクがなくなったりすると証明できるわけではない。</p>
+<h2>出典と関連記事</h2>
+<ul class="source-list"><li><a href="/ja/privacy.html">ByteWaveのプライバシーポリシー</a></li><li><a href="https://apps.apple.com/app/id6752225642">App StoreのByteWave公式ページ</a></li><li><a href="/blog/meta-settlement-youth-safety-social-media-design.html" hreflang="en">この設計とMetaの和解との関係</a> (本文は英語)</li><li><a href="/blog/provenance.html" hreflang="en">署名付きの書き出しで確かめられること</a> (本文は英語)</li></ul>
+<div class="callout"><h2>プロフィールを作らずに編集する</h2><p>端末内の編集にアカウントは要らない。公開するかは自分で選べる。</p><a class="button" href="https://apps.apple.com/app/id6752225642">ByteWaveを無料で入手</a></div>
+<p>プラットフォームの所有関係も重要だ。<a href="/ja/blog/tiktok-us-deal-bytedance-china-ties.html">TikTokの米国事業に残るByteDanceとのつながり</a>を参照。</p>

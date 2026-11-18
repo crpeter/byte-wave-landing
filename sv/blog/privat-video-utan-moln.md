@@ -46,6 +46,6 @@ Kontrollera också bild och ljud. En gatuskylt eller uttalad adress kan avslöja
 
 [Vad en bild eller video kan avslöja](/sv/blog/can-photos-videos-reveal-your-address.html) · [CapCut och molnuppladdningar](/sv/blog/capcut-privacy-video-upload.html).
 
-Testa själv: [redigera och exportera i flygplansläge (på engelska)](/blog/offline-video-editor-airplane-mode-test.html).
+Testa själv: [redigera och exportera i flygplansläge](/sv/blog/offline-video-editor-airplane-mode-test.html).
 
 Jämför integritet: [ByteWave jämfört med VN (på engelska)](/blog/bytewave-vs-vn-video-editor-2026.html) om lokal redigering, App Store-integritetsetiketter och inbyggd undertextöversättning.

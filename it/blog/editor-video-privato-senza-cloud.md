@@ -46,6 +46,6 @@ Controlla anche immagini e audio: un cartello stradale o un indirizzo pronunciat
 
 [cosa può rivelare una foto o un video](/it/blog/can-photos-videos-reveal-your-address.html) · [CapCut e il caricamento nel cloud](/it/blog/capcut-privacy-video-upload.html).
 
-Prova tu stesso: [monta ed esporta un video in modalità aereo (in inglese)](/blog/offline-video-editor-airplane-mode-test.html).
+Prova tu stesso: [monta ed esporta un video in modalità aereo](/it/blog/offline-video-editor-airplane-mode-test.html).
 
 Confronta le informative: [ByteWave e VN (in inglese)](/blog/bytewave-vs-vn-video-editor-2026.html) parla di montaggio locale, etichette privacy dell'App Store e traduzione nativa dei sottotitoli.

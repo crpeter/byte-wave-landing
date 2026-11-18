@@ -46,6 +46,6 @@ Görüntü ve sesi de kontrol edin. Sokak tabelası veya sesli söylenen adres, 
 
 [Bir fotoğraf veya video neleri açığa çıkarabilir?](/tr/blog/can-photos-videos-reveal-your-address.html) · [CapCut ve bulut yüklemeleri](/tr/blog/capcut-privacy-video-upload.html).
 
-Kendiniz deneyin: [Uçak modunda video düzenleyin ve dışa aktarın (İngilizce)](/blog/offline-video-editor-airplane-mode-test.html).
+Kendiniz deneyin: [Uçak modunda video düzenleyin ve dışa aktarın](/tr/blog/offline-video-editor-airplane-mode-test.html).
 
 Gizlilik karşılaştırması: [ByteWave ve VN (İngilizce)](/blog/bytewave-vs-vn-video-editor-2026.html) cihazda düzenleme, App Store gizlilik etiketleri ve yerel altyazı çevirisini açıklar.

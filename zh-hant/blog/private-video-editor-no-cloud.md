@@ -46,6 +46,6 @@ ByteWave 可以移除工作副本中可編輯的中繼資料。每次匯出至�
 
 [照片和影片可能透露的資訊](/zh-hant/blog/can-photos-videos-reveal-your-address.html) · [CapCut 與雲端上傳](/zh-hant/blog/capcut-privacy-video-upload.html)。
 
-自行測試：[開啟飛航模式後剪輯並匯出影片（英文）](/blog/offline-video-editor-airplane-mode-test.html)。
+自行測試：[開啟飛航模式後剪輯並匯出影片](/zh-hant/blog/offline-video-editor-airplane-mode-test.html)。
 
 比較隱私保護：[ByteWave 與 VN（英文）](/blog/bytewave-vs-vn-video-editor-2026.html)，了解本機剪輯、App Store 隱私權標籤及系統原生字幕翻譯。
