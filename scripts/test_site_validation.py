@@ -32,7 +32,7 @@ with tempfile.TemporaryDirectory() as folder:
         ('pt-br/blog/editor-video-privado-sem-nuvem.html', 'modelo de linguagem', 'texto editado', 'disclosure must explicitly identify'),
         ('zh-hant/blog/private-video-editor-no-cloud.html', '語言模型', '一般文字', 'disclosure must explicitly identify'),
         ('tutorials/frame-rate-conversion/index.html', 'class="disclosure ai-disclosure"', 'class="disclosure"', 'expected one visible AI disclosure'),
-        ('blog/provenance.html', '"dateModified":"2026-10-18"', '"dateModified":"2026-01-01"', 'disagrees with sitemap'),
+        ('blog/provenance.html', '"dateModified": "2026-10-18"', '"dateModified": "2026-01-01"', 'disagrees with sitemap'),
         ('about.html', '<a href="/free-expression.html">Free expression</a>', '', 'missing shared footer links'),
         ('pt-br/about.html', 'hreflang="en" href="https://bytewaveai.com/about.html"', 'hreflang="en" href="https://bytewaveai.com/pt-br/about.html"', 'missing reciprocal'),
         ('de/privacy.html', 'hreflang="en" href="https://bytewaveai.com/privacy.html"', 'hreflang="en" href="https://bytewaveai.com/de/privacy.html"', 'missing reciprocal'),

@@ -245,6 +245,14 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "best-free-video-editor-no-watermark": (4, 10, 0),
+    "slow-motion-video-iphone-free": (4, 18, 0),
+    "custom-video-filters-ai-tutorial": (4, 19, 0),
+    "community-filters-bytewave": (5, 15, 0),
+    "tools-newsrooms-check-ai-generated-media": (4, 11, 4),
+    "provenance": (5, 21, 0),
+    "your-feed": (2, 14, 0),
+    "anthropic-claude-public-trust": (3, 15, 0),
     "meta-technical-errors-political-accounts": (6, 16, 0),
     "meta-no-kings-instagram-suspension": (4, 19, 0),
     "meta-angie-nixon-instagram-suspension": (3, 12, 0),
@@ -310,6 +318,10 @@ for name, counts in article_counts.items():
         if name == "youre-not-alone-wanting-less-ai":
             for value in ("57", "42", "65", "50"):
                 assert re.search(rf"(?:{value}\s*[%％]|[%％]\s*{value})", article), (lang, value)
+        if name == "tools-newsrooms-check-ai-generated-media":
+            assert article.count('<th scope="row">') == 3 and article.count("</td>") == 3, lang
+        if name == "provenance":
+            assert 'id="signed-exports"' in article and 'href="#signed-exports"' in article, lang
         expected = []
         for link in links:
             if link.startswith("/"):
