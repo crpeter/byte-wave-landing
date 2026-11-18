@@ -30,7 +30,7 @@ Las etiquetas opcionales que ayudan a otros a encontrar los videos que compartes
 
 ## ¿Necesito una cuenta?
 
-No necesitas registrarte para editar ni para exportar. El perfil y las funciones sociales son opcionales. [Cómo empezar sin crear una cuenta (en inglés)](/blog/edit-videos-no-account-iphone.html).
+No necesitas registrarte para editar ni para exportar. El perfil y las funciones sociales son opcionales. [Cómo empezar sin crear una cuenta](/es/blog/edit-videos-no-account-iphone.html).
 
 ## ¿Hay suscripción o marca de agua?
 
@@ -44,7 +44,7 @@ Revisa también la imagen y el sonido. Un letrero con el nombre de una calle o u
 
 {% include localized-guide-cta.html %}
 
-[qué puede revelar una foto o un video](/es/blog/can-photos-videos-reveal-your-address.html) · [CapCut y los archivos en la nube](/blog/capcut-privacy-video-upload.html) (Artículo en inglés).
+[qué puede revelar una foto o un video](/es/blog/can-photos-videos-reveal-your-address.html) · [CapCut y los archivos en la nube](/es/blog/capcut-privacy-video-upload.html).
 
 Haz la prueba: [edita y exporta un video en modo avión (en inglés)](/blog/offline-video-editor-airplane-mode-test.html).
 

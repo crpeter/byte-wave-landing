@@ -30,7 +30,7 @@ As etiquetas automáticas opcionais ajudam outras pessoas a encontrar os vídeos
 
 ## Preciso criar uma conta?
 
-Não. Você não precisa de conta para editar ou exportar. Perfis e recursos sociais são opcionais. [Saiba como começar sem se cadastrar (em inglês)](/blog/edit-videos-no-account-iphone.html).
+Não. Você não precisa de conta para editar ou exportar. Perfis e recursos sociais são opcionais. [Saiba como começar sem se cadastrar](/pt-br/blog/edit-videos-no-account-iphone.html).
 
 ## Há assinatura ou marca d’água?
 
@@ -44,7 +44,7 @@ Confira também a imagem e o áudio. Uma placa com o nome de uma rua ou um ender
 
 {% include localized-guide-cta.html %}
 
-[o que fotos e vídeos podem revelar](/pt-br/blog/can-photos-videos-reveal-your-address.html) · [CapCut e uploads para a nuvem](/blog/capcut-privacy-video-upload.html) (Artigo em inglês).
+[o que fotos e vídeos podem revelar](/pt-br/blog/can-photos-videos-reveal-your-address.html) · [CapCut e uploads para a nuvem](/pt-br/blog/capcut-privacy-video-upload.html).
 
 Faça o teste: [edite e exporte um vídeo em modo avião (em inglês)](/blog/offline-video-editor-airplane-mode-test.html).
 

@@ -30,7 +30,7 @@ A identificação automática opcional ajuda outras pessoas a encontrar vídeos 
 
 ## Preciso de uma conta?
 
-Não. Pode editar e exportar sem se registar. Os perfis e funcionalidades sociais são opcionais. [Começar sem conta (em inglês)](/blog/edit-videos-no-account-iphone.html).
+Não. Pode editar e exportar sem se registar. Os perfis e funcionalidades sociais são opcionais. [Começar sem conta](/pt/blog/edit-videos-no-account-iphone.html).
 
 ## Há subscrição ou marca de água?
 
@@ -44,7 +44,7 @@ Verifique também a imagem e o som. Uma placa de rua ou uma morada dita em voz a
 
 {% include localized-guide-cta.html %}
 
-[o que revelam fotografias e vídeos](/pt/blog/can-photos-videos-reveal-your-address.html) · [CapCut e transferências para a nuvem](/blog/capcut-privacy-video-upload.html) (Artigo em inglês).
+[o que revelam fotografias e vídeos](/pt/blog/can-photos-videos-reveal-your-address.html) · [CapCut e transferências para a nuvem](/pt/blog/capcut-privacy-video-upload.html).
 
 Experimente: [editar e exportar um vídeo em modo de avião (em inglês)](/blog/offline-video-editor-airplane-mode-test.html).
 

@@ -30,7 +30,7 @@ Valgfri automatisk merking hjelper andre med å finne videoer du deler. Den bruk
 
 ## Trenger jeg en konto?
 
-Nei. Du trenger ingen konto for å redigere eller eksportere. Profiler og sosiale funksjoner er valgfrie. [Slik begynner du uten konto (på engelsk)](/blog/edit-videos-no-account-iphone.html).
+Nei. Du trenger ingen konto for å redigere eller eksportere. Profiler og sosiale funksjoner er valgfrie. [Slik begynner du uten konto](/no/blog/edit-videos-no-account-iphone.html).
 
 ## Er det abonnement eller vannmerke?
 
@@ -44,7 +44,7 @@ Se også på bilde og lyd: Et gatenavn eller en adresse som blir sagt, kan avsl�
 
 {% include localized-guide-cta.html %}
 
-[Hva bilder og videoer kan røpe](/no/blog/can-photos-videos-reveal-your-address.html) · [CapCut og skyopplasting](/blog/capcut-privacy-video-upload.html) (Artikkel på engelsk).
+[Hva bilder og videoer kan røpe](/no/blog/can-photos-videos-reveal-your-address.html) · [CapCut og skyopplasting](/no/blog/capcut-privacy-video-upload.html).
 
 Test selv: [Rediger og eksporter video i flymodus (på engelsk)](/blog/offline-video-editor-airplane-mode-test.html).
 

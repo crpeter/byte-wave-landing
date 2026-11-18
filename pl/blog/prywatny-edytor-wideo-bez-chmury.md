@@ -30,7 +30,7 @@ Opcjonalne automatyczne tagi pomagają innym znaleźć udostępnione filmy. One 
 
 ## Czy potrzebuję konta?
 
-Nie. Do montażu i eksportu nie musisz się rejestrować. Profile i funkcje społecznościowe są opcjonalne. [Zacznij bez konta (po angielsku)](/blog/edit-videos-no-account-iphone.html).
+Nie. Do montażu i eksportu nie musisz się rejestrować. Profile i funkcje społecznościowe są opcjonalne. [Zacznij bez konta](/pl/blog/edit-videos-no-account-iphone.html).
 
 ## Czy jest abonament lub znak wodny?
 
@@ -44,7 +44,7 @@ Sprawdź też obraz i dźwięk: nazwa ulicy lub wypowiedziany adres mogą zdradz
 
 {% include localized-guide-cta.html %}
 
-[Co można wywnioskować ze zdjęcia lub filmu](/pl/blog/can-photos-videos-reveal-your-address.html) · [CapCut i przesyłanie do chmury](/blog/capcut-privacy-video-upload.html) (Artykuł po angielsku).
+[Co można wywnioskować ze zdjęcia lub filmu](/pl/blog/can-photos-videos-reveal-your-address.html) · [CapCut i przesyłanie do chmury](/pl/blog/capcut-privacy-video-upload.html).
 
 Przetestuj samodzielnie: [montaż i eksport filmu w trybie samolotowym (po angielsku)](/blog/offline-video-editor-airplane-mode-test.html).
 

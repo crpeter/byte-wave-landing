@@ -30,7 +30,7 @@ cta_text: iPhone、iPad 與 Apple 晶片 Mac 免費使用。
 
 ## 我需要註冊帳號嗎？
 
-不需要。剪輯和匯出都不必登入。個人檔案及社群功能完全選用。[了解如何不註冊就開始剪輯（英文）](/blog/edit-videos-no-account-iphone.html)。
+不需要。剪輯和匯出都不必登入。個人檔案及社群功能完全選用。[了解如何不註冊就開始剪輯](/zh-hant/blog/edit-videos-no-account-iphone.html)。
 
 ## 要訂閱或加上浮水印嗎？
 
@@ -44,7 +44,7 @@ ByteWave 可以移除工作副本中可編輯的中繼資料。每次匯出至�
 
 {% include localized-guide-cta.html %}
 
-[照片和影片可能透露的資訊](/zh-hant/blog/can-photos-videos-reveal-your-address.html) · [CapCut 與雲端上傳](/blog/capcut-privacy-video-upload.html) (英文文章)。
+[照片和影片可能透露的資訊](/zh-hant/blog/can-photos-videos-reveal-your-address.html) · [CapCut 與雲端上傳](/zh-hant/blog/capcut-privacy-video-upload.html)。
 
 自行測試：[開啟飛航模式後剪輯並匯出影片（英文）](/blog/offline-video-editor-airplane-mode-test.html)。
 

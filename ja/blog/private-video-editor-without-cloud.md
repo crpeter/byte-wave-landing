@@ -30,7 +30,7 @@ cta_text: iPhone、iPad、Appleチップ搭載Macで無料。
 
 ## アカウントは必要ですか？
 
-いいえ。編集や書き出しに登録は不要です。プロフィールやソーシャル機能は任意です。[アカウントなしで始める方法（英語）](/blog/edit-videos-no-account-iphone.html)。
+いいえ。編集や書き出しに登録は不要です。プロフィールやソーシャル機能は任意です。[アカウントなしで始める方法](/ja/blog/edit-videos-no-account-iphone.html)。
 
 ## サブスクや透かしはありますか？
 
@@ -44,7 +44,7 @@ ByteWaveは作業用コピーから編集可能なメタデータを削除でき
 
 {% include localized-guide-cta.html %}
 
-[写真や動画からわかること](/ja/blog/can-photos-videos-reveal-your-address.html) · [CapCutとクラウドへのアップロード](/blog/capcut-privacy-video-upload.html) (本文は英語)。
+[写真や動画からわかること](/ja/blog/can-photos-videos-reveal-your-address.html) · [CapCutとクラウドへのアップロード](/ja/blog/capcut-privacy-video-upload.html)。
 
 試してみる：[機内モードで動画を編集して書き出す（英語）](/blog/offline-video-editor-airplane-mode-test.html)。
 
