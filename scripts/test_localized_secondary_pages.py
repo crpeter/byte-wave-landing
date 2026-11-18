@@ -211,6 +211,7 @@ for lang, slug in {"en": "", **LOCALES}.items():
         assert f"ct={campaign}&amp;mt=8" in article, (lang, path)
         schema = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', rendered, re.S)[1])
         post = next(node for node in schema["@graph"] if node["@type"] == "BlogPosting")
-        assert post["inLanguage"] == lang and post["datePublished"] == post["dateModified"] == "2026-10-06"
+        assert post["inLanguage"] == lang and post["datePublished"] == "2026-10-06"
+        assert post["dateModified"] == ("2026-10-06" if lang == "en" else "2026-11-18")
         assert post["image"] == f"https://bytewaveai.com/assets/social/{article_slug}.jpg"
 print("Verified 34 editorial articles, source links, local reading paths, dates and original artwork.")
