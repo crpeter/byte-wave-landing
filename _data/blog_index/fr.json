@@ -1,0 +1,362 @@
+{
+  "seo": "Montage vidéo, contenus générés par IA et vie privée",
+  "description": "Des guides et points de vue de ByteWave pour monter des vidéos, examiner leur provenance et protéger vos données sur iPhone, iPad et Mac.",
+  "subtitle": "Créez des vidéos. Vérifiez leur origine. Préservez votre vie privée.",
+  "disclosure": "Les articles comprennent du texte généré à l’aide d’un modèle de langage d’IA (LLM). Publication de ByteWave.",
+  "topics": "Thèmes du blog",
+  "english": "Article en anglais",
+  "sections": {
+    "meta-record": {
+      "title": "Meta à la loupe",
+      "intro": "Comptes suspendus, confidentialité et IA imposée. Nos articles, leurs sources et les questions en suspens."
+    },
+    "edit-videos": {
+      "title": "Monter des vidéos",
+      "intro": "Partez de vos propres images. Voici quelques guides pour commencer."
+    },
+    "check-ai-media": {
+      "title": "Vérifier les contenus IA",
+      "intro": "Découvrez ce qu’un fichier peut révéler sur sa provenance."
+    },
+    "protect-your-privacy": {
+      "title": "Protéger sa vie privée",
+      "intro": "Vérifiez quelles informations accompagnent vos images."
+    },
+    "platforms-creators": {
+      "title": "Plateformes et créateurs",
+      "intro": "Publication, liberté d’expression et contrôle des outils de création."
+    }
+  },
+  "tags": {
+    "ai-choice": "IA et liberté de choix",
+    "ai-media": "Médias générés par IA",
+    "ai-media-guide": "Guide des médias IA",
+    "bytewave-tutorial": "Tutoriel ByteWave",
+    "comparison": "Comparatif",
+    "comparison-opinion": "Comparatif et opinion",
+    "creator-opinion": "Point de vue de créateur",
+    "current-analysis": "Analyse de l’actualité",
+    "facebook-guide": "Guide Facebook",
+    "feature-guide": "Guide des fonctionnalités",
+    "guide": "Guide",
+    "incident-tracker": "Suivi des incidents",
+    "mission": "Notre mission",
+    "new-feature": "Nouvelle fonctionnalité",
+    "news": "Actualité",
+    "newsroom-guide": "Guide pour les rédactions",
+    "offline-editing-guide": "Montage hors ligne",
+    "opinion": "Opinion",
+    "perspective": "Point de vue",
+    "platform-accountability-opinion": "Responsabilité des plateformes et opinion",
+    "platform-control-opinion": "Contrôle des plateformes et opinion",
+    "platform-ownership-opinion": "Propriété des plateformes et opinion",
+    "privacy": "Vie privée",
+    "privacy-opinion": "Opinion sur la vie privée",
+    "privacy-guide": "Guide de confidentialité",
+    "product-documentation": "Documentation produit",
+    "provenance": "Provenance",
+    "provenance-guide": "Guide de la provenance",
+    "provenance-tutorial": "Tutoriel de vérification",
+    "roundup": "Sélection",
+    "strategy": "Stratégie",
+    "technical": "Technique",
+    "tiktok-guide": "Guide TikTok",
+    "tutorial": "Tutoriel",
+    "youtube-guide": "Guide YouTube",
+    "vs-capcut": "Face à CapCut"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook et votre photothèque",
+      "summary": "L’Italie a infligé à Meta une amende de 805 millions d’euros pour l’accès aux photos sur Android. Meta fait appel."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Encore une « erreur technique » de Meta ?",
+      "summary": "De Lula à No Kings, quatre restrictions, les explications de Meta et les questions en suspens."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings privé d’Instagram en pleine mobilisation",
+      "summary": "Meta évoque une erreur automatique. Le compte manquait aux organisateurs au moment décisif."
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "Le compte de campagne disparu d’Angie Nixon",
+      "summary": "Son compte Instagram destiné au public latino a disparu pendant un rassemblement avant d’être rétabli."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "25 milliards de dollars ne suffisent pas",
+      "summary": "Notre point de vue sur le jugement au Nouveau-Mexique et les procédures distinctes concernant la sécurité des enfants."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave et Meta face au contrôle des images",
+      "summary": "Montage local, publicité par IA et nouvelles conditions commerciales : qui décide de l’usage de vos rushes ?"
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "Des lunettes qui enregistrent sans « Hey Meta »",
+      "summary": "Des utilisateurs de Ray-Ban Meta ont signalé des enregistrements imprévus. Meta dit avoir corrigé le problème."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "Des inconnus pouvaient retrouver vos conversations Muse",
+      "summary": "GhostShares, la réponse de Meta et nos raisons de déconseiller de confier des informations privées à Muse."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "Les consignes cachées de WhatsApp",
+      "summary": "Le chatbot d’assistance devait limiter ses réponses sur les autorités de protection des données. Meta évoque un bug."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Les incidents de confidentialité de Muse",
+      "summary": "Chronologie des liens exposés, des contacts, des suppressions, des adresses sur Marketplace et des correctifs annoncés."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "Votre ami s’est inscrit. Et vous ?",
+      "summary": "La mémoire relationnelle de Muse soulève des questions pour ceux qui n’ont jamais créé de compte."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "Vos photos inédites peuvent aussi intéresser Facebook",
+      "summary": "Les autorisations demandées pour suggérer des publications à partir de votre photothèque."
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "Du chatbot à votre fil d’actualité",
+      "summary": "Selon Meta, une conversation peut influencer les publications, les reels et les publicités proposés."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "Un emoji protège-t-il le visage d’un enfant ?",
+      "summary": "Vos abonnés voient le cœur superposé à la photo. Quelle image Facebook a-t-il pu analyser ?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "L’accord de Meta sur la sécurité des jeunes",
+      "summary": "Versements, contrôles et limites de l’accord approuvé de 17,1 milliards de dollars, sources à l’appui."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "Que dit vraiment la mention « créé avec l’IA » ?",
+      "summary": "Un filtre, un visage remplacé et une scène inventée appellent des explications différentes."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Pourquoi nous déconseillons Meta Muse",
+      "summary": "L’accès aux données et les règles d’entraînement nous conduisent à déconseiller Muse et la connexion de comptes."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Comment déconnecter Meta Muse",
+      "summary": "Dissociez les services, révoquez les autorisations et vérifiez les données conservées même après désinstallation."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "Moins de vidéos IA sur Facebook",
+      "summary": "Masquer des publications, se désabonner, utiliser les favoris : possibilités et limites des réglages du fil."
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave face à VN Video Editor",
+      "summary": "Comparez exports sans filigrane, abonnements, images clés, effets personnalisés et traduction native des sous-titres."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "Montage avancé avec ByteWave",
+      "summary": "Images clés, langues téléchargées d’Apple, shaders modifiables et géométrie réagissant au son."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Finir un montage en mode avion",
+      "summary": "Testez l’importation d’un plan local, le montage sans compte et l’enregistrement dans Photos."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "Des publicités pendant la création d’images",
+      "summary": "Ce qu’OpenAI a annoncé en octobre 2026 sur ses essais publicitaires dans ChatGPT."
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "Limiter les remix de vos Shorts",
+      "summary": "Où trouver le réglage YouTube qui limite les remix visuels et ce qu’il permet réellement."
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "Vos vidéos doublées sans votre accord",
+      "summary": "Désactivez le doublage automatique, vérifiez les traductions avant publication ou retirez une piste."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "Vos souvenirs n’ont pas besoin de retouches",
+      "summary": "Un sourire manqué fait aussi partie de l’instant. Pourquoi conserver certaines photos telles quelles."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "Les filtres de la communauté",
+      "summary": "Partagez vos shaders ByteWave et découvrez les effets d’autres créateurs."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "CapCut est-il interdit ?",
+      "summary": "Comment vérifier sa disponibilité et limiter les risques pour votre flux de production."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Créer un ralenti gratuit sur iPhone",
+      "summary": "L’interpolation rend le mouvement plus fluide, sans abonnement ni filigrane."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Monter sur iPhone sans créer de compte",
+      "summary": "Comment ByteWave distingue le montage local des profils et de la publication facultative."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Comprendre les shaders Metal",
+      "summary": "Le rôle du GPU de l’iPhone dans les filtres que vous pouvez modifier."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "Une alternative gratuite à CapCut",
+      "summary": "Passer à ByteWave pour monter ses propres images, sans abonnement ni filigrane à l’export."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Quels éditeurs gratuits exportent sans filigrane ?",
+      "summary": "Des applications qui vous laissent exporter sans apposer leur logo sur vos images."
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "Des filtres personnalisés avec l’IA et du code",
+      "summary": "Affichez le shader, décrivez l’effet souhaité et collez le code obtenu dans l’éditeur."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "Quatre applications de montage comparées",
+      "summary": "ByteWave, CapCut, iMovie et InShot face aux usages, à la confidentialité et aux plateformes prises en charge."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "Une vraie signature sur un dessin généré",
+      "summary": "Des dessins de ChatGPT portent des signatures d’artistes. Quels éléments vérifier avant de partager ?"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "Qui présente ce produit sur TikTok ?",
+      "summary": "TikTok peut générer à la fois le présentateur et la vidéo publicitaire. Que prouve cette démonstration ?"
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "Quand un filtre change les faits",
+      "summary": "Modifier l’ambiance d’une photo et inventer la tenue d’une personne sont deux interventions différentes."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, le consentement et les fausses vidéos",
+      "summary": "Pourquoi la détection des scènes fabriquées ne devrait pas reposer entièrement sur le public."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "Vérifier une vidéo sans la téléverser",
+      "summary": "Examinez les justificatifs intégrés sur l’appareil et apprenez quand demander le fichier d’origine."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Supprimer les métadonnées efface-t-il la mention IA ?",
+      "summary": "Distinguez les justificatifs C2PA, les filigranes visibles et les étiquettes ajoutées par les plateformes."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "Des outils de vérification pour les rédactions",
+      "summary": "ByteWave, Content Credentials Verify et InVID-WeVerify : que disent-ils d’une image ou d’une vidéo ?"
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "L’absence de mention IA ne prouve rien",
+      "summary": "Une vidéo truquée sur Facebook illustre les limites des étiquettes et des justificatifs manquants."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "Pourquoi vérifier les images et vidéos générées",
+      "summary": "Examiner l’origine d’un fichier tout en protégeant la vie privée et en reconnaissant les incertitudes."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "Voir moins de contenus IA sur TikTok",
+      "summary": "Essayez les réglages de thèmes, les mots-clés et « Pas intéressé »."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "La Fondation Gates et l’IA à l’école",
+      "summary": "La fondation prévoit environ 400 millions de dollars. Quels choix feraient les enseignants avec ce budget ?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "Le professeur IA s’est trompé",
+      "summary": "Dans la vidéo virale de Husk, le système écrit mal « seventeen » et reprend la personne qui l’épelle correctement."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "Gardons l’IA hors des classes",
+      "summary": "Les résultats d’élèves avec puis sans chatbot interrogent l’usage des résumés Google en milieu scolaire."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "Vous n’êtes pas seul à vouloir moins d’IA",
+      "summary": "57 % des Américains jugent l’IA néfaste à la société. On peut apprécier un outil sans le vouloir partout."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "Reprendre la main face aux vidéos générées",
+      "summary": "Réglages des fils, plateformes qui poussent ces contenus et montage de vos propres images."
+    },
+    "/blog/provenance.html": {
+      "title": "Ce que prouve la provenance",
+      "summary": "Une signature peut documenter l’origine et l’intégrité du fichier sans établir que la scène a eu lieu."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "Ce que révèle l’accès à vos photos",
+      "summary": "Des recherches sur smartphone montrent ce que l’IA peut déduire et l’intérêt d’un montage local."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Ce que votre photo dit de vous",
+      "summary": "Nom, comptes associés et historique des retouches peuvent accompagner les justificatifs. Vérifiez avant publication."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "Confier son visage à YouTube pour le protéger",
+      "summary": "Le dispositif de détection des usurpations demande une pièce d’identité et une vidéo selfie."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Votre adresse est-elle visible dans une vidéo ?",
+      "summary": "Inspectez les métadonnées, les détails visuels et le son, puis vérifiez le fichier exporté."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "Qui autorise l’entraînement de l’IA ?",
+      "summary": "OpenAI, Anthropic et le débat australien sur le droit des créateurs à décider de l’usage de leurs œuvres."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "Un fil personnalisé sans historique côté serveur",
+      "summary": "Recommandations locales, consultation anonyme et publication volontaire dans ByteWave."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "CapCut envoie-t-il vos vidéos dans le cloud ?",
+      "summary": "Quand ses fonctions en ligne transmettent les rushes et ce qui reste sur l’appareil avec ByteWave."
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "Qui contrôle votre compte sur X ?",
+      "summary": "Les règles de X permettent de limiter la portée, d’exiger un retrait et de suspendre un compte."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "Votre fil et l’influence russe",
+      "summary": "Pourquoi ByteWave restreint sa diffusion en Russie et quelles sont les limites du géoblocage."
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "Les alertes internes de TikTok",
+      "summary": "Des témoignages interrogent la réaction de la direction face aux risques pour les enfants et l’information des familles."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe et la coupure au Venezuela",
+      "summary": "Les restrictions de 2019 illustrent l’intérêt d’une solution de montage hors ligne."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "Quand le prestataire de paiement devient modérateur",
+      "summary": "En 2025, le déréférencement sur itch.io a montré comment les paiements influencent la visibilité des œuvres."
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Google Nest perd des fonctions connectées",
+      "summary": "En 2025, les premiers thermostats ont perdu des services en ligne, mais les commandes physiques fonctionnent encore."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "La dépendance technologique de l’Europe",
+      "summary": "Qui contrôle l’accès aux outils de création, et peut-on partir avec son travail ?"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "Starlink en Ukraine et la téléphonie par satellite",
+      "summary": "Restrictions, Starshield et confiance envers ceux qui contrôlent la connexion."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "L’accord américain de TikTok",
+      "summary": "Ce que ByteDance conserve en capital, en exploitation commerciale et en licence sur l’algorithme."
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Commission d’Apple et alternatives gratuites",
+      "summary": "Comment éviter le coût d’un abonnement et pourquoi ByteWave rend ses outils gratuits."
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "Le mouvement du logiciel libre aujourd’hui",
+      "summary": "Quelles libertés défendre lorsque les menaces qui pèsent sur les utilisateurs changent ?"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "Le prochain TikTok naîtra-t-il d’un éditeur vidéo ?",
+      "summary": "Un fil se copie plus facilement qu’une culture de création."
+    },
+    "/blog/your-feed.html": {
+      "title": "Votre fil vous appartient",
+      "summary": "Notre point de vue sur l’intervention des gouvernements et le contrôle de votre attention."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTok annule sa comparution au Congrès",
+      "summary": "Les propos du président de la commission et les réponses que doivent les plateformes à leurs utilisateurs."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic doit mériter la confiance du public",
+      "summary": "Claude, la question d’un rabbin et les limites des promesses face à la tromperie."
+    }
+  }
+}

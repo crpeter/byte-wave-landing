@@ -1,0 +1,362 @@
+{
+  "seo": "影片剪輯、AI 內容查驗與隱私指南",
+  "description": "ByteWave 分享 iPhone、iPad 與 Mac 上的影片剪輯、檔案來源查驗與隱私保護指南及觀點。",
+  "subtitle": "製作影片、查驗來源，也保護自己的私人資訊。",
+  "disclosure": "文章包含由 AI 語言模型（LLM）生成的文字，由 ByteWave 發布。",
+  "topics": "部落格主題",
+  "english": "英文文章",
+  "sections": {
+    "meta-record": {
+      "title": "檢視 Meta 的作為",
+      "intro": "從帳號停權、隱私疑慮到未經要求加入的 AI 功能，我們整理報導、資料來源與待解問題。"
+    },
+    "edit-videos": {
+      "title": "剪輯影片",
+      "intro": "用自己的素材創作，可以從這些教學開始。"
+    },
+    "check-ai-media": {
+      "title": "查驗 AI 內容",
+      "intro": "看看檔案能透露哪些來源資訊。"
+    },
+    "protect-your-privacy": {
+      "title": "保護隱私",
+      "intro": "確認分享影像時也一併送出了哪些資訊。"
+    },
+    "platforms-creators": {
+      "title": "平台與創作者",
+      "intro": "探討發布作品、言論自由，以及誰掌控你使用的工具。"
+    }
+  },
+  "tags": {
+    "ai-choice": "AI 與選擇",
+    "ai-media": "AI 媒體",
+    "ai-media-guide": "AI 媒體指南",
+    "bytewave-tutorial": "ByteWave 教學",
+    "comparison": "比較",
+    "comparison-opinion": "比較與評論",
+    "creator-opinion": "創作者觀點",
+    "current-analysis": "時事分析",
+    "facebook-guide": "Facebook 指南",
+    "feature-guide": "功能指南",
+    "guide": "指南",
+    "incident-tracker": "事件追蹤",
+    "mission": "理念",
+    "new-feature": "新功能",
+    "news": "新聞",
+    "newsroom-guide": "新聞編輯室指南",
+    "offline-editing-guide": "離線剪輯指南",
+    "opinion": "評論",
+    "perspective": "觀點",
+    "platform-accountability-opinion": "平台責任與評論",
+    "platform-control-opinion": "平台控制與評論",
+    "platform-ownership-opinion": "平台所有權與評論",
+    "privacy": "隱私",
+    "privacy-opinion": "隱私觀點",
+    "privacy-guide": "隱私指南",
+    "product-documentation": "產品文件",
+    "provenance": "來源",
+    "provenance-guide": "來源指南",
+    "provenance-tutorial": "來源查驗教學",
+    "roundup": "彙整",
+    "strategy": "策略",
+    "technical": "技術",
+    "tiktok-guide": "TikTok 指南",
+    "tutorial": "教學",
+    "youtube-guide": "YouTube 指南",
+    "vs-capcut": "與 CapCut 比較"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook 與手機相簿的存取權",
+      "summary": "義大利因 Android 照片存取問題對 Meta 開罰 8.05 億歐元。Meta 提出上訴。"
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Meta 又說是技術錯誤？",
+      "summary": "從魯拉到 No Kings，回顧四起限制事件、Meta 的解釋與未解的疑問。"
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings 在關鍵時刻遭停權",
+      "summary": "Meta 稱 Instagram 停權是自動系統誤判；主辦方卻在需要聯絡群眾時失去管道。"
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "競選期間突然消失的帳號",
+      "summary": "Angie Nixon 面向拉丁裔社群的 Instagram 帳號在集會期間消失，之後才恢復。"
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "250 億美元仍不夠",
+      "summary": "我們對新墨西哥州隱私判決及其他兒少安全案件的看法。"
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave 與 Meta 比一比",
+      "summary": "從裝置端剪輯、素材控制權到 Meta 更新的商業條款。"
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "沒說「Hey Meta」也開始錄音",
+      "summary": "Ray-Ban Meta 用戶回報意外錄音。Meta 表示問題已修正。"
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "陌生人也找得到你分享的 Muse 對話",
+      "summary": "GhostShares、Meta 的回應，以及為什麼不該把私人資訊交給 Muse。"
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "WhatsApp 客服 AI 的隱藏指令",
+      "summary": "客服機器人提及隱私監管機關時受到限制。Meta 稱指令因程式錯誤而曝光。"
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Muse 隱私事件時間軸",
+      "summary": "整理分享連結外洩、聯絡人、資料刪除、Marketplace 地址和已通報的修正。"
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "朋友同意了，你呢？",
+      "summary": "Muse 對人際關係的記憶也可能牽涉從未註冊的人。"
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "沒有發布的照片也可能被分析",
+      "summary": "Facebook 的相簿貼文建議要求你開放哪些權限？"
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "從聊天內容到動態推薦",
+      "summary": "依 Meta 的說明，對話可能影響貼文、Reels 短片與廣告。"
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "用表情符號就能保護孩子的臉嗎？",
+      "summary": "追蹤者看到的是愛心，但 Facebook 最先收到的是哪一張圖？"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Meta 的青少年安全和解案",
+      "summary": "從一手資料看 171 億美元和解案的付款方式、保護措施與限制。"
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "「以 AI 製作」到底說明了什麼？",
+      "summary": "套濾鏡、換臉與虛構整個場景，需要不同的說明。"
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "我們為何不建議使用 Meta Muse",
+      "summary": "從資料存取與訓練政策說明不使用 Muse、不連結帳號的理由。"
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "如何中斷 Meta Muse 的連結",
+      "summary": "解除服務綁定、撤銷權限，再另外檢查仍然儲存的資料。"
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "在 Facebook 減少 AI 影片",
+      "summary": "貼文回饋、取消追蹤、最愛與動態選擇能改變什麼？"
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave 與 VN Video Editor 比較",
+      "summary": "比較無浮水印匯出、訂閱、關鍵影格、自訂效果及字幕翻譯。"
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "ByteWave 進階剪輯",
+      "summary": "認識關鍵影格、已下載的語言、可編輯的著色器與隨聲音變化的幾何圖形。"
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "在飛航模式完成影片",
+      "summary": "不登入帳號，用本機片段剪輯後儲存到「照片」。"
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "生成圖片時出現廣告",
+      "summary": "OpenAI 在 2026 年 10 月公布的 ChatGPT 圖片生成廣告測試計畫。"
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "限制別人混剪你的 Shorts",
+      "summary": "找到 YouTube 的影像混剪設定，了解它能防止哪些使用方式。"
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "你的影片，配上你沒說過的話",
+      "summary": "關閉自動配音、發布前審核翻譯，或移除現有配音。"
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "回憶不一定需要修圖",
+      "summary": "沒來得及露出的笑容，也是當下的一部分。"
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "來自社群的濾鏡",
+      "summary": "分享自己的 ByteWave 著色器，試用其他創作者製作的效果。"
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "CapCut 被禁用了嗎？",
+      "summary": "查證目前可用狀態，降低整套工作流程依賴單一 App 的風險。"
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "在 iPhone 免費製作慢動作",
+      "summary": "用補幀讓動作更流暢，不需訂閱，也沒有浮水印。"
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "在 iPhone 不開帳號也能剪片",
+      "summary": "ByteWave 如何區分本機剪輯、選用的個人檔案與線上發布。"
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "什麼是 Metal 著色器？",
+      "summary": "看看 iPhone 的 GPU 如何驅動可修改的 ByteWave 濾鏡。"
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "CapCut 的免費替代方案",
+      "summary": "轉用 ByteWave 剪輯自己的素材，不需訂閱，匯出也不加浮水印。"
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "不加浮水印的免費剪輯器",
+      "summary": "哪些 App 能在匯出影片時不印上自己的標誌？"
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "用 AI 與程式碼製作濾鏡",
+      "summary": "查看著色器、描述想要的改動，再把新程式碼貼回編輯器。"
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "四款剪輯 App 比較",
+      "summary": "從工作流程、隱私與平台支援比較 ByteWave、CapCut、iMovie 及 InShot。"
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "生成圖上出現真實藝術家的簽名",
+      "summary": "ChatGPT 生成的漫畫曾帶有藝術家簽名。分享前可以查證什麼？"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "TikTok 上賣東西的人是真的嗎？",
+      "summary": "主持人和產品廣告都能生成，這段影片究竟能證明什麼？"
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "當濾鏡改變了事情的經過",
+      "summary": "改變照片氣氛和捏造人物當時的衣著，是不同的改動。"
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora、同意權與逼真的假影片",
+      "summary": "辨識虛構場景的責任不應全落在觀眾身上。"
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "不必上傳也能查驗影片嗎？",
+      "summary": "內嵌的來源憑證能說明什麼，哪些情況又需要原始檔案？"
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "刪除中繼資料也會消除 AI 標籤嗎？",
+      "summary": "分清 C2PA 憑證、可見浮水印與平台標籤。"
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "新聞編輯室的查驗工具",
+      "summary": "比較 ByteWave、Content Credentials Verify 和 InVID-WeVerify 能如何檢查影像。"
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "沒有 AI 標籤不代表影片是真的",
+      "summary": "Facebook 上的一段深偽影片說明缺少標籤不能證明真實性。"
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "為何需要查驗 AI 圖片與影片？",
+      "summary": "在保護隱私的前提下檢查檔案來源，理解證據的限制。"
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "在 TikTok 減少 AI 內容",
+      "summary": "試用主題管理、關鍵字篩選及「不感興趣」。"
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "蓋茲基金會與校園 AI",
+      "summary": "基金會計畫投入約 4 億美元。如果由教師決定，他們會怎麼用？"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "AI 老師答錯了",
+      "summary": "在 Husk 的熱門影片中，系統拼錯「seventeen」，卻糾正了拼對的人。"
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "別讓 AI 走進教室",
+      "summary": "學生在有無聊天機器人時的成績差異，讓人重新思考校園搜尋中的 Google AI 摘要。"
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "想要少一點 AI 的不只你",
+      "summary": "57% 的美國人認為 AI 對社會有害；喜歡某項工具不代表每個地方都需要它。"
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "把創作主導權拿回來",
+      "summary": "調整動態、認識推動生成影片的企業，並動手剪輯自己的素材。"
+    },
+    "/blog/provenance.html": {
+      "title": "來源資訊可以證明什麼？",
+      "summary": "簽章可佐證檔案的來源與完整性，卻不能證明拍到的事件確實發生。"
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "允許存取照片還會透露什麼？",
+      "summary": "手機研究顯示 AI 能做出哪些推論，以及裝置端剪輯的價值。"
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "照片可能攜帶姓名與編輯紀錄",
+      "summary": "分享前檢查來源憑證中包含的名字、帳號與修改歷史。"
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "為了保護自己的臉，先把臉上傳給 YouTube",
+      "summary": "加入冒用偵測功能時，需要提供身分證件與自拍影片。"
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "有人能從影片找到你的住址嗎？",
+      "summary": "檢查中繼資料、畫面細節和聲音，匯出後也要再看一次。"
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "誰能同意拿你的作品訓練 AI？",
+      "summary": "OpenAI、Anthropic 與澳洲著作權討論中創作者的決定權。"
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "伺服器不保存觀看紀錄的動態推薦",
+      "summary": "ByteWave 如何處理本機推薦、匿名瀏覽與主動發布。"
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "CapCut 會把影片上傳到雲端嗎？",
+      "summary": "哪些功能會傳送素材，以及 ByteWave 在裝置上保留什麼。"
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "誰掌控你在 X 的帳號？",
+      "summary": "平台規則可限制觸及、要求刪文或停用帳號。"
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "你的動態與俄羅斯的影響行動",
+      "summary": "ByteWave 為何限制在俄羅斯的供應，以及地區封鎖的侷限。"
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "TikTok 內部的兒少安全警訊",
+      "summary": "員工證詞引出對管理階層回應和家庭知情權的疑問。"
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe 在委內瑞拉的服務限制",
+      "summary": "2019 年的中斷讓人看見離線剪輯工具的重要性。"
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "當支付業者也成了內容管理者",
+      "summary": "2025 年 itch.io 的案例說明支付限制如何影響作品曝光。"
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Google Nest 消失的功能",
+      "summary": "早期恆溫器在 2025 年失去連網服務，但實體控制仍可使用。"
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "歐洲的科技依賴",
+      "summary": "誰控制工具的存取權？更換供應商時，你能帶走自己的作品嗎？"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "烏克蘭的 Starlink 與衛星行動通訊",
+      "summary": "從服務限制到 Starshield，探討掌控連線者是否值得信任。"
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "TikTok 在美國的交易改變了什麼？",
+      "summary": "字節跳動保留的持股、商業營運與演算法授權。"
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Apple 抽成與免費替代方案",
+      "summary": "不需訂閱時成本如何改變，以及 ByteWave 工具免費的原因。"
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "今天的自由軟體運動",
+      "summary": "威脅改變時，使用者需要哪些自由？"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "下一個 TikTok 會從剪輯器起步嗎？",
+      "summary": "動態牆容易複製，創作文化卻難以複製。"
+    },
+    "/blog/your-feed.html": {
+      "title": "你的動態屬於你",
+      "summary": "我們對政府介入內容與觀眾注意力自主權的看法。"
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTok 取消赴美國國會作證",
+      "summary": "委員會主席的說法，以及平台應向使用者說明的問題。"
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic 必須贏得信任",
+      "summary": "從 Claude 與一位拉比的提問，思考僅靠企業承諾能否防止欺騙。"
+    }
+  }
+}

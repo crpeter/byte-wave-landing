@@ -1,0 +1,29 @@
+{%- assign original = english_pages | where: "url", card.href | first -%}
+{%- assign destination = nil -%}
+{%- if original.translation_key -%}
+  {%- assign destination = locale_pages | where: "translation_key", original.translation_key | first -%}
+{%- endif -%}
+{%- assign article_url = destination.url | default: card.href -%}
+{%- assign article_lang = destination.lang | default: "en" -%}
+{%- assign copy = b.cards[card.href] -%}
+{%- assign title = copy.title -%}
+{%- assign summary = copy.summary -%}
+{%- if page.lang != "en" -%}
+  {%- if card.tutorial -%}
+    {%- assign guide_card = hub.cards[card.tutorial] -%}
+    {%- assign title = guide_card.title -%}
+    {%- assign summary = guide_card.description -%}
+  {%- elsif card.guide -%}
+    {%- assign title = private_guide.title -%}
+    {%- assign summary = private_guide.description -%}
+  {%- endif -%}
+{%- endif -%}
+<a href="{{ article_url | relative_url }}" hreflang="{{ article_lang }}" class="post-card">
+  {% if card.brand or include.meta %}<span class="post-card-heading">{% endif %}
+  {% if card.brand %}<span class="post-brand"><img src="{{ card.image }}" alt="" width="40" height="40" loading="lazy" decoding="async"><span>{{ card.brand | escape }}</span></span>{% endif %}
+  <span class="tag">{{ b.tags[card.tag] | escape }}</span>
+  {% if card.brand or include.meta %}</span>{% endif %}
+  <h3>{{ title | escape }}</h3>
+  <p>{{ summary | escape }}</p>
+  {% if article_lang != page.lang %}<small class="article-language">{{ b.english | escape }}</small>{% endif %}
+</a>

@@ -9,6 +9,7 @@ import re
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlsplit
 
 SOURCE = Path(__file__).resolve().parents[1]
 RENDERED = SOURCE / "_site"
@@ -149,3 +150,38 @@ for lang, slug in {"en": "", **LOCALES}.items():
     for name in ("index.html", "about.html"):
         assert f'href="{press_url}"' in (directory / name).read_text(), (lang, name)
 print("Verified 17 press kits, 68 copy blocks, source facts, asset links and localized navigation.")
+
+# Match the cards in editorial order, including the destination's own advertised
+# translation when one exists. This also covers translated article filenames.
+
+catalog = json.loads((SOURCE / "_data/blog_sections.json").read_text())
+entries = [entry for section in catalog.values() for entry in section]
+assert len(entries) == 78 and len(catalog) == 5
+assert catalog["platforms-creators"][0]["brand"] == "X / Twitter"
+for lang, slug in {"en": "", **LOCALES}.items():
+    rendered = (RENDERED / slug / "blog/index.html").read_text()
+    strings = json.loads((SOURCE / "_data/blog_index" / f"{lang}.json").read_text())
+    cards = re.findall(r'<a href="([^"]+)" hreflang="([^"]+)" class="post-card">(.*?)</a>', rendered, re.S)
+    assert len(cards) == len(entries), (lang, "blog card count", len(cards))
+    assert strings["disclosure"] in unescape(rendered), (lang, "AI disclosure")
+    for entry, (href, destination_lang, body) in zip(entries, cards):
+        path = entry["href"]
+        english_file = RENDERED / path.lstrip("/")
+        if english_file.is_dir():
+            english_file = english_file / "index.html"
+        alternate = re.search(r'<link rel="alternate" hreflang="' + re.escape(lang) + r'" href="([^"]+)"', english_file.read_text())
+        expected = urlsplit(alternate[1]).path if alternate else path
+        assert href == expected, (lang, path, expected, href)
+        assert destination_lang == (lang if alternate else "en"), (lang, path, destination_lang)
+        label = re.search(r'<small class="article-language">([^<]+)</small>', body)
+        assert bool(label) == (destination_lang != lang), (lang, path, "English label")
+        if label:
+            assert unescape(label[1]) == strings["english"], (lang, path)
+        for tag in ("h3", "p"):
+            field = re.search(r"<" + tag + r">([^<]+)</" + tag + r">", body)
+            assert field and field[1].strip(), (lang, path, tag)
+        assert unescape(re.search(r'<span class="tag">([^<]+)</span>', body)[1]) == strings["tags"][entry["tag"]]
+    for key, section in strings["sections"].items():
+        assert f'href="#{key}"' in rendered and f'id="{key}"' in rendered and section["title"] in unescape(rendered)
+    assert all(f"ct=blog_{campaign}" in rendered for campaign in ("edit_videos", "check_ai_media", "protect_your_privacy"))
+print(f"Verified {len(entries)} ordered blog cards in {len(LOCALES)+1} languages.")

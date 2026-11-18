@@ -1,0 +1,362 @@
+{
+  "seo": "Guider om videoredigering, AI-medier och integritet",
+  "description": "ByteWaves guider och perspektiv på videoredigering, mediers ursprung och integritet för iPhone, iPad och Mac.",
+  "subtitle": "Skapa videor. Kontrollera deras ursprung. Behåll det privata för dig själv.",
+  "disclosure": "Artiklarna innehåller text som har genererats med en AI-språkmodell (LLM). Publiceras av ByteWave.",
+  "topics": "Bloggens ämnen",
+  "english": "Artikel på engelska",
+  "sections": {
+    "meta-record": {
+      "title": "Meta under lupp",
+      "intro": "Avstängda konton, integritetsfrågor och oönskad AI. Våra artiklar med källor och obesvarade frågor."
+    },
+    "edit-videos": {
+      "title": "Redigera video",
+      "intro": "Skapa något med egna inspelningar. Börja med de här guiderna."
+    },
+    "check-ai-media": {
+      "title": "Granska AI-medier",
+      "intro": "Se vad en fil kan berätta om sitt ursprung."
+    },
+    "protect-your-privacy": {
+      "title": "Skydda din integritet",
+      "intro": "Granska vilka uppgifter du delar tillsammans med dina bilder."
+    },
+    "platforms-creators": {
+      "title": "Plattformar och skapare",
+      "intro": "Publicering, yttrandefrihet och vem som styr dina verktyg."
+    }
+  },
+  "tags": {
+    "ai-choice": "AI och valfrihet",
+    "ai-media": "AI-medier",
+    "ai-media-guide": "Guide till AI-medier",
+    "bytewave-tutorial": "ByteWave-guide",
+    "comparison": "Jämförelse",
+    "comparison-opinion": "Jämförelse och opinion",
+    "creator-opinion": "Skaparperspektiv",
+    "current-analysis": "Aktuell analys",
+    "facebook-guide": "Facebook-guide",
+    "feature-guide": "Funktionsguide",
+    "guide": "Guide",
+    "incident-tracker": "Incidentöversikt",
+    "mission": "Uppdrag",
+    "new-feature": "Ny funktion",
+    "news": "Nyheter",
+    "newsroom-guide": "Guide för redaktioner",
+    "offline-editing-guide": "Redigering offline",
+    "opinion": "Opinion",
+    "perspective": "Perspektiv",
+    "platform-accountability-opinion": "Plattformsansvar och opinion",
+    "platform-control-opinion": "Plattformskontroll och opinion",
+    "platform-ownership-opinion": "Plattformsägande och opinion",
+    "privacy": "Integritet",
+    "privacy-opinion": "Åsikt om integritet",
+    "privacy-guide": "Integritetsguide",
+    "product-documentation": "Produktdokumentation",
+    "provenance": "Ursprung",
+    "provenance-guide": "Guide till ursprung",
+    "provenance-tutorial": "Kontrollera ursprung",
+    "roundup": "Översikt",
+    "strategy": "Strategi",
+    "technical": "Teknik",
+    "tiktok-guide": "TikTok-guide",
+    "tutorial": "Handledning",
+    "youtube-guide": "YouTube-guide",
+    "vs-capcut": "Jämfört med CapCut"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook och din kamerarulle",
+      "summary": "Italien bötfällde Meta med 805 miljoner euro för fototillgång i Android. Meta överklagar."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Ännu ett tekniskt fel hos Meta?",
+      "summary": "Fyra begränsningar, från Lula till No Kings, och företagets förklaringar."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings stängdes av mitt under mobiliseringen",
+      "summary": "Meta kallar Instagramspärren ett automatiskt misstag. Arrangörerna förlorade tillgången när den behövdes."
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "Angie Nixons försvunna kampanjkonto",
+      "summary": "Instagramkontot för latinamerikanska väljare försvann under ett möte och återställdes senare."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "25 miljarder dollar räcker inte",
+      "summary": "Vår syn på domen i New Mexico och de separata målen om barns säkerhet."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave jämfört med Meta",
+      "summary": "Lokal redigering, kontroll över råmaterial och Metas nya affärsvillkor."
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "Inspelning utan ”Hej Meta”",
+      "summary": "Ägare av Ray-Ban Meta har rapporterat oväntade inspelningar. Meta säger att felet är åtgärdat."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "Främlingar kunde hitta din Muse-chatt",
+      "summary": "GhostShares, Metas svar och varför privata uppgifter bör hållas borta från Muse."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "WhatsApps dolda instruktioner",
+      "summary": "Supportboten hade regler om vad den fick säga om tillsynsmyndigheter. Enligt Meta röjdes de av ett fel."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Muse och integritetsincidenterna",
+      "summary": "En tidslinje över delningslänkar, kontakter, radering, Marketplace-adresser och rapporterade åtgärder."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "Din vän sa ja. Gjorde du?",
+      "summary": "Muse kan minnas relationer även till människor som aldrig registrerat sig."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "Foton du aldrig lade upp",
+      "summary": "Vilken åtkomst Facebook begär för förslag från kamerarullen."
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "Från chatt till rekommendation",
+      "summary": "Meta beskriver hur samtal kan påverka inlägg, reels och annonser."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "Skyddar en emoji ditt barns ansikte?",
+      "summary": "Följarna ser hjärtat. Vilken bild fick Facebook se först?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Metas uppgörelse om ungas säkerhet",
+      "summary": "Betalningar, ungdomsskydd och begränsningar i den godkända uppgörelsen på 17,1 miljarder dollar."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "Vad betyder ”skapat med AI”?",
+      "summary": "Ett filter, ett utbytt ansikte och en påhittad scen kräver olika förklaringar."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Därför avråder vi från Meta Muse",
+      "summary": "Dataåtkomst och träningsvillkor ligger bakom rådet att inte använda Muse eller länka konton."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Koppla bort Meta Muse",
+      "summary": "Koppla från tjänster, återkalla behörigheter och granska sparade uppgifter separat."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "Färre AI-videor på Facebook",
+      "summary": "Vad respons på inlägg, avföljning, favoriter och flödesval faktiskt påverkar."
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave eller VN Video Editor?",
+      "summary": "Jämför export utan vattenstämpel, abonnemang, nyckelbilder, effekter och textöversättning."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "Avancerad redigering i ByteWave",
+      "summary": "Nyckelbilder, hämtade språk, egna shaders och geometri som reagerar på ljud."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Gör klart en video i flygplansläge",
+      "summary": "Prova att klippa en lokal fil utan inloggning och spara den i Bilder."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "Annonser medan du skapar bilder",
+      "summary": "Vad OpenAI i oktober 2026 berättade om annonstester vid bildgenerering i ChatGPT."
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "Begränsa remix av dina Shorts",
+      "summary": "Hitta YouTubes inställning för visuella remixar och se vad den kan stoppa."
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "Din video med ord du aldrig valde",
+      "summary": "Stäng av automatisk dubbning, granska översättningar och ta bort en publicerad dubbning."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "Dina minnen behöver ingen retusch",
+      "summary": "Även ett uteblivet leende är en del av ögonblicket."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "Filter från andra skapare",
+      "summary": "Publicera egna ByteWave-shaders och upptäck andras effekter."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "Är CapCut förbjudet?",
+      "summary": "Kontrollera tillgängligheten och minska beroendet av en enskild app."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Gratis slowmotion på iPhone",
+      "summary": "Interpolerade bildrutor ger jämn rörelse utan abonnemang eller vattenstämpel."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Redigera på iPhone utan konto",
+      "summary": "ByteWave skiljer lokal redigering från frivilliga profiler och publicering."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Så fungerar Metal-shaders",
+      "summary": "Hur iPhones grafikprocessor driver ByteWaves ändringsbara filter."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "Ett gratis alternativ till CapCut",
+      "summary": "Byt till ByteWave för att redigera egna inspelningar utan abonnemang eller exportstämpel."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Gratis videoredigerare utan vattenstämpel",
+      "summary": "Vilka appar låter dig exportera utan att lägga in sin logotyp?"
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "Skapa egna filter med AI och kod",
+      "summary": "Läs koden, beskriv förändringen och klistra in resultatet i redigeraren."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "Fyra redigeringsappar jämförda",
+      "summary": "ByteWave, CapCut, iMovie och InShot utifrån arbetsflöde, integritet och plattform."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "Riktiga signaturer på genererade teckningar",
+      "summary": "ChatGPT-bilder har burit konstnärers namn. Vad bör du kontrollera före delning?"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "Vem säljer produkten på TikTok?",
+      "summary": "Både presentatören och reklamfilmen kan vara genererade."
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "När filtret ändrar det som hände",
+      "summary": "Att byta stämning och att hitta på någons kläder är olika ingrepp."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, samtycke och övertygande falska videor",
+      "summary": "Ansvaret att upptäcka påhittade scener bör inte enbart ligga på tittaren."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "Granska en video utan uppladdning",
+      "summary": "Vad inbäddade ursprungsuppgifter visar och när originalfilen behövs."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Försvinner AI-märkningen med metadata?",
+      "summary": "Skillnaden mellan C2PA-uppgifter, synliga vattenstämplar och plattformens märkning."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "Verifieringsverktyg för redaktioner",
+      "summary": "ByteWave, Content Credentials Verify och InVID-WeVerify vid granskning av bilder och video."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Utebliven AI-märkning bevisar inte äkthet",
+      "summary": "En deepfake på Facebook visar begränsningarna med saknade märkningar."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "Varför AI-bilder och videor behöver kunna granskas",
+      "summary": "Undersök filens ursprung med respekt för integritet och osäkerhet."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "Se mindre AI-innehåll på TikTok",
+      "summary": "Prova ämnesval, sökordsfilter och ”Inte intresserad”."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "Gatesstiftelsen och AI i skolan",
+      "summary": "Stiftelsen planerar att lägga omkring 400 miljoner dollar. Vad skulle lärarna välja?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "AI-läraren hade fel",
+      "summary": "I Husks klipp stavar systemet ”seventeen” fel och rättar den som stavar rätt."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "Håll AI utanför klassrummet",
+      "summary": "Resultat med och utan chattbot väcker frågor om Googles sammanfattningar vid skolsökningar."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "Fler vill ha mindre AI",
+      "summary": "57 procent av amerikanerna anser att AI är dåligt för samhället."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "Ta tillbaka den kreativa kontrollen",
+      "summary": "Flödesval, företagen bakom genererad video och redigering av eget material."
+    },
+    "/blog/provenance.html": {
+      "title": "Vad ursprungsuppgifter bevisar",
+      "summary": "En signatur kan styrka filens ursprung och integritet men inte att händelsen inträffade."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "Vad åtkomst till foton avslöjar",
+      "summary": "Mobilforskning visar vad AI kan sluta sig till och varför lokal redigering spelar roll."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Vad fotot berättar om dig",
+      "summary": "Kontrollera namn, konton och redigeringshistorik i uppgifterna innan du delar."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "Ladda upp ditt ansikte för att skydda det",
+      "summary": "YouTubes skydd mot imitation kräver legitimation och en selfievideo vid registrering."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Syns din adress i videon?",
+      "summary": "Granska metadata, synliga detaljer och ljud även i exporten."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "Vem godkänner AI-träning på ditt verk?",
+      "summary": "OpenAI, Anthropic och den australiska debatten om skapares rättigheter."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "Ett flöde utan tittarhistorik på servern",
+      "summary": "Lokala rekommendationer, anonym visning och frivillig publicering i ByteWave."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "Laddar CapCut upp dina videor till molnet?",
+      "summary": "När material överförs och vad som stannar på enheten med ByteWave."
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "Vem styr ditt konto på X?",
+      "summary": "Reglerna tillåter begränsad räckvidd, krav på borttagning och avstängningar."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "Ditt flöde och ryska påverkansförsök",
+      "summary": "Varför ByteWave begränsar tillgången i Ryssland och var geoblockeringens gränser går."
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "TikToks interna varningar",
+      "summary": "Vittnesmål om barns säkerhet, ledningens svar och information till familjer."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe och begränsningarna i Venezuela",
+      "summary": "Avbrotten 2019 visar värdet av redigeringsverktyg som fungerar offline."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "När betaltjänsten modererar",
+      "summary": "Hur betalningskrav påverkade synligheten på itch.io under 2025."
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Nest förlorade uppkopplade funktioner",
+      "summary": "Äldre termostater miste onlinetjänster 2025. De fysiska reglagen fungerar fortfarande."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "Europas teknikberoende",
+      "summary": "Vem styr verktygen och kan du ta med dig arbetet när du byter leverantör?"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "Starlink i Ukraina och satellittelefoni",
+      "summary": "Begränsningar, Starshield och tilliten till den som styr förbindelsen."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "Det amerikanska TikTok-avtalet",
+      "summary": "ByteDances ägarandel, affärsverksamhet och licens för algoritmen."
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Apples provision och gratis alternativ",
+      "summary": "Hur kostnaden ändras utan abonnemang och varför ByteWaves verktyg är gratis."
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "Rörelsen för fri programvara i dag",
+      "summary": "Vilka friheter behöver användarna när hoten förändras?"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "Börjar nästa TikTok som videoredigerare?",
+      "summary": "Ett flöde är lättare att kopiera än en skaparkultur."
+    },
+    "/blog/your-feed.html": {
+      "title": "Ditt flöde tillhör dig",
+      "summary": "Vår syn på statlig påverkan och kontroll över din uppmärksamhet."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTok ställde in sitt framträdande i kongressen",
+      "summary": "Vad utskottsordföranden säger och vilka svar plattformarna är skyldiga användarna."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic måste förtjäna förtroendet",
+      "summary": "Claude, en rabbins fråga och gränserna för företagens löften."
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "seo": "Посібники з відеомонтажу, перевірки ШІ-контенту та приватності",
+  "description": "Посібники й думки ByteWave про монтаж, походження файлів і захист приватності на iPhone, iPad та Mac.",
+  "subtitle": "Створюйте відео, перевіряйте їхнє походження й бережіть особисті дані.",
+  "disclosure": "Статті містять текст, згенерований мовною моделлю ШІ (LLM). Видавець — ByteWave.",
+  "topics": "Теми блогу",
+  "english": "Стаття англійською",
+  "sections": {
+    "meta-record": {
+      "title": "Meta під лупою",
+      "intro": "Блокування акаунтів, питання приватності та нав’язаний ШІ. Наші матеріали з джерелами й відкритими запитаннями."
+    },
+    "edit-videos": {
+      "title": "Відеомонтаж",
+      "intro": "Створіть щось із власних записів. Почніть із цих посібників."
+    },
+    "check-ai-media": {
+      "title": "Перевірка ШІ-контенту",
+      "intro": "Дізнайтеся, що файл може розповісти про своє походження."
+    },
+    "protect-your-privacy": {
+      "title": "Захист приватності",
+      "intro": "Перевірте, які відомості ви поширюєте разом із зображеннями."
+    },
+    "platforms-creators": {
+      "title": "Платформи й автори",
+      "intro": "Публікація, свобода слова й контроль над інструментами творчості."
+    }
+  },
+  "tags": {
+    "ai-choice": "ШІ й право вибору",
+    "ai-media": "ШІ-медіа",
+    "ai-media-guide": "Посібник із ШІ-медіа",
+    "bytewave-tutorial": "Посібник ByteWave",
+    "comparison": "Порівняння",
+    "comparison-opinion": "Порівняння й думка",
+    "creator-opinion": "Погляд автора",
+    "current-analysis": "Актуальний аналіз",
+    "facebook-guide": "Посібник із Facebook",
+    "feature-guide": "Огляд функцій",
+    "guide": "Посібник",
+    "incident-tracker": "Хронологія інцидентів",
+    "mission": "Місія",
+    "new-feature": "Нова функція",
+    "news": "Новини",
+    "newsroom-guide": "Посібник для редакцій",
+    "offline-editing-guide": "Монтаж офлайн",
+    "opinion": "Думка",
+    "perspective": "Погляд",
+    "platform-accountability-opinion": "Відповідальність платформ і думка",
+    "platform-control-opinion": "Контроль платформ і думка",
+    "platform-ownership-opinion": "Власність платформ і думка",
+    "privacy": "Приватність",
+    "privacy-opinion": "Думка про приватність",
+    "privacy-guide": "Посібник із приватності",
+    "product-documentation": "Документація продукту",
+    "provenance": "Походження",
+    "provenance-guide": "Посібник із походження",
+    "provenance-tutorial": "Перевірка походження",
+    "roundup": "Добірка",
+    "strategy": "Стратегія",
+    "technical": "Технології",
+    "tiktok-guide": "Посібник із TikTok",
+    "tutorial": "Інструкція",
+    "youtube-guide": "Посібник із YouTube",
+    "vs-capcut": "Порівняння з CapCut"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebook і фотографії у вашому телефоні",
+      "summary": "Італія оштрафувала Meta на 805 млн євро за доступ до фото на Android. Компанія оскаржує рішення."
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "Знову технічна помилка Meta?",
+      "summary": "Чотири обмеження — від Лули до No Kings. Що пояснила компанія і які питання залишилися."
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "No Kings втратила доступ до Instagram під час мобілізації",
+      "summary": "Meta називає блокування автоматичною помилкою. Організатори залишилися без важливого каналу зв’язку."
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "Зникнення передвиборчого акаунта Енджі Ніксон",
+      "summary": "Профіль для латиноамериканської спільноти зник під час мітингу, а згодом був відновлений."
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "25 мільярдів доларів недостатньо",
+      "summary": "Наша думка про рішення суду в Нью-Мексико та окремі справи щодо безпеки дітей."
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWave і Meta у порівнянні",
+      "summary": "Локальний монтаж, контроль над знятим матеріалом і нові комерційні умови Meta."
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "Запис без команди «Hey Meta»",
+      "summary": "Власники окулярів Ray-Ban Meta повідомили про несподівані записи. Meta каже, що усунула проблему."
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "Сторонні могли знайти вашу розмову з Muse",
+      "summary": "GhostShares, відповідь Meta й наші аргументи проти передавання особистих даних у Muse."
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "Приховані інструкції WhatsApp",
+      "summary": "Боту підтримки обмежили згадки про регуляторів захисту даних. За словами Meta, інструкції розкрила помилка."
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Хронологія інцидентів із Muse",
+      "summary": "Відкриті посилання, профілі контактів, видалення даних, адреси з Marketplace і заявлені виправлення."
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "Ваш друг погодився. А ви?",
+      "summary": "Пам’ять Muse про взаємини зачіпає і тих, хто ніколи не реєструвався."
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "Фото, яких ви не публікували",
+      "summary": "Які дозволи просить Facebook, пропонуючи дописи з фототеки."
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "Від розмови з ботом до рекомендацій",
+      "summary": "Meta пояснює, як чат може впливати на дописи, Reels і рекламу."
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "Чи захищає емодзі обличчя дитини?",
+      "summary": "Підписники бачать сердечко. А яке зображення спершу отримав Facebook?"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Угода Meta щодо безпеки підлітків",
+      "summary": "Виплати, засоби захисту та обмеження затвердженої угоди на 17,1 млрд доларів."
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "Що означає «створено за допомогою ШІ»?",
+      "summary": "Фільтр, підміна обличчя й вигадана сцена потребують різних пояснень."
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Чому ми не радимо Meta Muse",
+      "summary": "Доступ до даних і правила навчання — причини не використовувати Muse й не прив’язувати облікові записи."
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Як від’єднати Meta Muse",
+      "summary": "Від’єднайте сервіси, відкличте дозволи й окремо перевірте збережені дані."
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "Менше ШІ-відео у Facebook",
+      "summary": "Що змінюють реакції на дописи, відписки, обране й налаштування стрічки."
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWave чи VN Video Editor?",
+      "summary": "Порівняння експорту без водяного знака, підписок, ключових кадрів і перекладу субтитрів."
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "Розширений монтаж у ByteWave",
+      "summary": "Ключові кадри, завантажені мови, редагування шейдерів і геометрія, що реагує на звук."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Змонтуйте відео в авіарежимі",
+      "summary": "Відредагуйте локальний кліп без входу в акаунт і збережіть результат у «Фотографіях»."
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "Реклама під час створення зображень",
+      "summary": "Що OpenAI оголосила в жовтні 2026 року про тестування реклами в генераторі зображень ChatGPT."
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "Обмежте ремікси ваших Shorts",
+      "summary": "Де знайти налаштування візуальних реміксів YouTube і що воно справді обмежує."
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "Ваше відео зі словами, яких ви не затверджували",
+      "summary": "Вимкніть автоматичне дублювання, перевірте переклади або видаліть опубліковану доріжку."
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "Ваші спогади не потребують ретуші",
+      "summary": "Навіть усмішка, якої не було, — частина зафіксованої миті."
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "Фільтри від спільноти",
+      "summary": "Публікуйте власні шейдери ByteWave і пробуйте ефекти інших авторів."
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "Чи заборонено CapCut?",
+      "summary": "Як перевірити доступність і зменшити залежність від одного застосунку."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Безкоштовне сповільнення відео на iPhone",
+      "summary": "Інтерполяція кадрів згладжує рух без підписки та водяних знаків."
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Монтаж на iPhone без облікового запису",
+      "summary": "ByteWave відокремлює локальне редагування від профілів і публікації."
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Як працюють шейдери Metal?",
+      "summary": "Роль графічного процесора iPhone у фільтрах ByteWave, які можна змінювати."
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "Безкоштовна альтернатива CapCut",
+      "summary": "Перейдіть на ByteWave для монтажу власних записів та експорту без водяного знака."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Безкоштовні редактори без водяного знака",
+      "summary": "Які застосунки дозволяють експортувати відео без свого логотипа?"
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "Власні фільтри за допомогою ШІ й коду",
+      "summary": "Перегляньте шейдер, опишіть зміну та вставте новий код у редактор."
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "Чотири відеоредактори у порівнянні",
+      "summary": "ByteWave, CapCut, iMovie й InShot за інструментами, приватністю та платформами."
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "Справжні підписи на згенерованих малюнках",
+      "summary": "На зображеннях ChatGPT з’являлися підписи художників. Що перевірити перед поширенням?"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "Хто рекламує вам товар у TikTok?",
+      "summary": "І ведучий, і весь рекламний ролик можуть бути згенерованими."
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "Коли фільтр змінює подію",
+      "summary": "Зміна настрою світлини й вигаданий одяг людини — різні види втручання."
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Sora, згода й переконливі підробки",
+      "summary": "Розпізнавання вигаданих сцен не має бути обов’язком лише глядача."
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "Перевірте відео без завантаження на сервер",
+      "summary": "Що показують вбудовані відомості про походження і коли потрібен оригінал."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Чи зникає позначка ШІ з метаданими?",
+      "summary": "Чим відрізняються дані C2PA, видимі водяні знаки й позначки платформ."
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "Інструменти перевірки для редакцій",
+      "summary": "ByteWave, Content Credentials Verify та InVID-WeVerify для аналізу фото й відео."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Відсутність позначки ШІ не доводить справжності",
+      "summary": "Дипфейк у Facebook показує обмеження таких позначок."
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "Навіщо перевіряти згенеровані фото й відео?",
+      "summary": "Як дослідити походження файлу, враховуючи приватність і невизначеність."
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "Як бачити менше ШІ-контенту в TikTok",
+      "summary": "Спробуйте налаштування тем, фільтри ключових слів і «Не цікавить»."
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "Фонд Гейтсів і ШІ в школах",
+      "summary": "Фонд планує витратити близько 400 млн доларів. Що обрали б учителі?"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "ШІ-вчитель помилився",
+      "summary": "У відео Husk система неправильно пише «seventeen» і виправляє людину, яка написала правильно."
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "Залишмо ШІ за межами класу",
+      "summary": "Результати учнів із чатботом і без нього ставлять під сумнів користь ШІ-оглядів Google для шкільного пошуку."
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "Не лише ви хочете менше ШІ",
+      "summary": "57% американців вважають ШІ шкідливим для суспільства."
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "Поверніть собі творчий контроль",
+      "summary": "Налаштування стрічки, компанії, що просувають згенеровані відео, і монтаж власних записів."
+    },
+    "/blog/provenance.html": {
+      "title": "Що доводять дані про походження?",
+      "summary": "Підпис може підтвердити походження й цілісність файлу, але не те, що подія відбулася."
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "Що розкриває доступ до фотографій?",
+      "summary": "Дослідження смартфонів показують, які висновки робить ШІ та чому важливий локальний монтаж."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Що ваша фотографія розповідає про вас?",
+      "summary": "Перед публікацією перевірте ім’я, акаунти та історію змін у відомостях про походження."
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "Надіслати обличчя YouTube, щоб його захистити",
+      "summary": "Для реєстрації в системі виявлення імітацій потрібні документ і селфі-відео."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Чи видає відео вашу адресу?",
+      "summary": "Перевірте метадані, видимі деталі та звук, зокрема в експортованому файлі."
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "Хто дозволяє навчати ШІ на ваших творах?",
+      "summary": "OpenAI, Anthropic і дискусія в Австралії про права авторів."
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "Стрічка без історії переглядів на сервері",
+      "summary": "Локальні рекомендації, анонімний перегляд і добровільна публікація в ByteWave."
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "Чи завантажує CapCut відео у хмару?",
+      "summary": "Коли матеріал передається та що залишається на пристрої під час монтажу в ByteWave."
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "Хто контролює ваш акаунт у X?",
+      "summary": "Правила дозволяють обмежувати охоплення, вимагати видалення дописів і блокувати акаунти."
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "Ваша стрічка й російські операції впливу",
+      "summary": "Чому ByteWave обмежує доступність у Росії та де межі геоблокування."
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "Внутрішні попередження TikTok",
+      "summary": "Свідчення працівників про безпеку дітей, реакцію керівництва й інформацію для родин."
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "Adobe та обмеження у Венесуелі",
+      "summary": "Перебої 2019 року показують цінність інструментів, здатних працювати офлайн."
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "Коли платіжний сервіс стає модератором",
+      "summary": "Як обмеження платежів вплинули на видимість матеріалів в itch.io у 2025 році."
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Які функції зникли з Google Nest?",
+      "summary": "У 2025 році ранні термостати втратили онлайн-сервіси. Фізичні регулятори досі працюють."
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "Технологічна залежність Європи",
+      "summary": "Хто контролює інструменти й чи можна забрати результати роботи при зміні постачальника?"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "Starlink в Україні та супутниковий мобільний зв’язок",
+      "summary": "Обмеження, Starshield і питання довіри до тих, хто контролює з’єднання."
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "Американська угода щодо TikTok",
+      "summary": "Частка ByteDance, комерційна діяльність і ліцензія на алгоритм після угоди."
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Комісія Apple і безкоштовні альтернативи",
+      "summary": "Як відсутність підписки впливає на витрати й чому інструменти ByteWave безкоштовні."
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "Рух за вільне програмне забезпечення сьогодні",
+      "summary": "Яких свобод потребують користувачі, коли змінюються загрози?"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "Чи може наступний TikTok початися з відеоредактора?",
+      "summary": "Стрічку легше скопіювати, ніж культуру творчості."
+    },
+    "/blog/your-feed.html": {
+      "title": "Ваша стрічка належить вам",
+      "summary": "Наш погляд на втручання урядів і контроль над увагою глядача."
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTok скасував виступ у Конгресі",
+      "summary": "Що сказав голова комітету й які пояснення платформи мають дати користувачам."
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropic має заслужити довіру",
+      "summary": "Claude, запитання рабина й межі обіцянок компанії у захисті від обману."
+    }
+  }
+}

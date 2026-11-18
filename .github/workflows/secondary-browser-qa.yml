@@ -2,6 +2,12 @@ name: Localized secondary pages browser QA
 on:
   pull_request:
     paths:
+      - '_data/blog_index/**'
+      - '_data/blog_sections.json'
+      - '_layouts/localized-blog-index.html'
+      - '_includes/blog-index-card.html'
+      - '**/blog/index.html'
+      - 'blog/index.html'
       - '_data/gallery_hub/**'
       - '_data/tutorial_hub/**'
       - '_layouts/localized-information.html'

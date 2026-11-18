@@ -1,0 +1,271 @@
+{%- assign b = site.data.blog_index[page.lang] -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign hub = site.data.tutorial_hub[page.lang] -%}
+{%- assign catalog = site.data.blog_sections -%}
+{%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
+{%- assign english_pages = site.pages | where: "lang", "en" -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
+{%- assign private_guide = locale_pages | where: "translation_key", "private-editor" | first -%}
+{%- assign layout_guide = locale_pages | where: "translation_key", "layout-guide" | first -%}
+{%- assign caps = locale_pages | where: "translation_key", "creation-animated-captions" | first -%}
+{%- assign stickers = locale_pages | where: "translation_key", "creation-animate-stickers" | first -%}
+{%- assign verify = locale_pages | where: "translation_key", "creation-check-c2pa-content-credentials" | first -%}
+{%- assign metadata = locale_pages | where: "translation_key", "creation-remove-location-metadata" | first -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ b.seo | escape }} - ByteWave</title>
+<meta name="twitter:title" content="{{ b.seo | escape }} - ByteWave">
+<meta name="description" content="{{ b.description | escape }}">
+<meta name="twitter:description" content="{{ b.description | escape }}">
+{% include localized-alternates.html %}
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ b.seo | escape }} - ByteWave">
+<meta property="og:description" content="{{ b.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+<meta property="og:site_name" content="ByteWave">
+<meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
+<meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="{{ t.social_alt | escape }}">
+<meta property="og:image:alt" content="{{ t.social_alt | escape }}">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ByteWave",
+  "url": "https://bytewaveai.com",
+  "logo": "https://bytewaveai.com/logo.png"
+}
+</script>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#08080c;
+  --surface:#101016;
+  --border:rgba(255,255,255,0.06);
+  --text:#d8d6e1;
+  --text-dim:#9390a5;
+  --text-muted:#5c5970;
+  --accent:#789ae2;
+  --accent-dim:rgba(120,154,226,0.08);
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  line-height:1.6;-webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+
+/* --- NAV --- */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;
+  backdrop-filter:blur(16px);background:rgba(8,8,12,0.85);
+  border-bottom:1px solid var(--border);
+}
+.logo{font-weight:700;font-size:1.1rem;letter-spacing:-0.4px;color:var(--text)}
+.nav-links{display:flex;gap:1.8rem;align-items:center;font-size:.84rem;color:var(--text-dim)}
+.nav-links a:hover{color:var(--text)}
+.nav-cta{
+  background:var(--text);color:var(--bg);
+  padding:.42rem 1.1rem;border-radius:5px;
+  font-weight:600;font-size:.8rem;transition:opacity .2s;
+}
+.nav-cta:hover{opacity:.8}
+
+/* --- PAGE --- */
+.container{max-width:720px;margin:0 auto;padding:8rem 2rem 4rem}
+
+h1{
+  font-size:clamp(1.8rem,4vw,2.4rem);
+  font-weight:800;letter-spacing:-1.2px;
+  margin-bottom:.6rem;color:#efeff4;
+}
+.subtitle{color:var(--text-dim);font-size:.95rem;margin-bottom:3rem;font-weight:400}
+
+/* --- CARDS --- */
+.post-card{
+  display:block;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:1.6rem 1.8rem;
+  margin-bottom:1.1rem;
+  transition:border-color .25s, transform .25s;
+}
+.post-card:hover{
+  border-color:rgba(120,154,226,0.2);
+  transform:translateY(-1px);
+}
+.post-card .tag{
+  display:inline-block;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.65rem;font-weight:500;
+  text-transform:uppercase;letter-spacing:1.5px;
+  color:var(--accent);
+  background:var(--accent-dim);
+  padding:.2rem .55rem;border-radius:4px;
+  margin-bottom:.7rem;
+}
+.post-card h3{
+  font-size:1.05rem;font-weight:700;
+  letter-spacing:-0.3px;margin-bottom:.35rem;
+  color:var(--text);line-height:1.35;
+}
+.post-card p{
+  color:var(--text-dim);font-size:.86rem;
+  line-height:1.6;font-weight:400;
+}
+
+/* --- FOOTER --- */
+footer{
+  border-top:1px solid var(--border);
+  padding:2.5rem 2rem;text-align:center;
+  color:var(--text-muted);font-size:.76rem;
+  margin-top:3rem;
+}
+footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
+
+@media(max-width:768px){
+  .nav-links{display:none}
+  .container{padding:7rem 1.5rem 3rem}
+  h1{font-size:1.7rem}
+}
+@media(max-width:768px){nav{gap:1rem;flex-wrap:wrap}.nav-links{display:flex;gap:1rem}.nav-links>a:not(.tutorials-link):not(.gallery-link):not(.nav-cta){display:none}}
+/* Keep the App Store link visible while secondary links wrap on small screens. */
+.nav-links .nav-cta:hover{color:var(--bg)}
+@media(max-width:768px){
+  nav{padding:.75rem 1rem;gap:.75rem;flex-wrap:nowrap}
+  nav .logo{flex-shrink:0}
+  .nav-links{min-width:0;gap:.35rem .75rem;flex-wrap:wrap;justify-content:flex-end}
+  .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+}
+/* Topic links and section headings stay readable without JavaScript. */
+.topic-links{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:2.5rem}
+.topic-links a{padding:.65rem .9rem;border:1px solid var(--border);border-radius:6px;background:var(--surface);font-size:.9rem}
+.topic-links a:hover{border-color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.blog-section{margin-top:3rem}
+.blog-section>h2{font-size:1.5rem;letter-spacing:-.5px;scroll-margin-top:8rem}
+.section-intro{color:var(--text-dim);margin:.6rem 0 1.5rem}
+.section-intro a,.section-download a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.section-download{margin:1.4rem 0 2.5rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.post-card{transition:none}}
+
+/* Editorial subject marks: names are visible and icons are decorative. */
+.post-card .post-card-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem 1rem; margin-bottom: 1rem; }
+.post-card .post-brand { display: inline-flex; align-items: center; gap: .7rem; color: var(--text); font-size: .9rem; font-weight: 700; }
+.post-card .post-brand img { display: block; flex: 0 0 40px; width: 40px; height: 40px; padding: 8px; border-radius: 9px; background: #f8f4ec; }
+.post-card .post-card-heading .tag { margin: 0; }
+
+/* Lead the blog with the Meta coverage. */
+.site-editorial .container > .subtitle { margin-bottom: 1rem; }
+.site-editorial .container > .ai-disclosure { margin: .75rem 0 1rem; }
+.topic-links { margin-bottom: 1.5rem; }
+.site-page .topic-links .meta-topic { border-color: #d97b7b; color: #ffb9b9; }
+.meta-section { margin-top: 0; padding: clamp(1rem, 3vw, 2rem); border: 1px solid #8c4e53; border-top: 4px solid #f49c9c; border-radius: 16px; background: var(--bg); }
+.meta-section-header { text-align: center; margin-bottom: 1.75rem; }
+.meta-section-logo { display: block; width: 144px; height: 104px; object-fit: contain; padding: 12px 20px; margin: 0 auto 1rem; border-radius: 14px; background: #f8f4ec; }
+.site-page .meta-section-label { color: #ffb9b9; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.meta-section-header h2 { font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.04em; line-height: 1.15; margin: .4rem 0 .8rem; scroll-margin-top: 8rem; }
+.meta-section-header .section-intro { max-width: 42rem; margin: 0 auto; }
+.meta-posts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.meta-posts .post-card { margin: 0; padding: 1.25rem; overflow-wrap: anywhere; }
+.site-page .meta-section .post-card { border-color: #67434c; background: #15222d; }
+.site-page .meta-section .post-card:hover { border-color: #f49c9c; }
+.site-page .meta-section .tag { color: #ffb9b9; background: #392b35; }
+.meta-section .post-card-heading { margin-bottom: .75rem; }
+@media (max-width: 640px) {
+  .meta-posts { grid-template-columns: 1fr; }
+  .meta-section-header .section-intro { font-size: .9rem; }
+  .meta-section-logo { width: 120px; height: 88px; }
+  .topic-links { gap: .4rem; }
+  .topic-links a { padding: .55rem .65rem; font-size: .8rem; }
+}
+
+.post-card, .section-intro, .topic-links a { overflow-wrap: anywhere; }
+.post-card .article-language { display: block; margin-top: .45rem; font-size: .78rem; color: var(--text-dim); }
+</style>
+    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
+    <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+    {% include localized-nav-styles.html %}
+</head>
+<body class="site-page site-editorial">
+{% include localized-nav.html %}
+<main class="container" id="main">
+  <h1>{{ t.nav.blog | escape }}</h1>
+  <p class="ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ b.disclosure | escape }}</p>
+  <p class="subtitle">{{ b.subtitle | escape }}</p>
+
+  <div class="topic-links" aria-label="{{ b.topics | escape }}">
+    <a href="#meta-record" class="meta-topic">{{ b.sections["meta-record"].title | escape }}</a>
+    <a href="#edit-videos">{{ b.sections["edit-videos"].title | escape }}</a>
+    <a href="#check-ai-media">{{ b.sections["check-ai-media"].title | escape }}</a>
+    <a href="#protect-your-privacy">{{ b.sections["protect-your-privacy"].title | escape }}</a>
+    <a href="#platforms-creators">{{ b.sections["platforms-creators"].title | escape }}</a>
+  </div>
+
+  <section class="blog-section meta-section" aria-labelledby="meta-record">
+    <header class="meta-section-header">
+      <img class="meta-section-logo" src="/assets/brands/meta.svg" width="144" height="104" alt="Meta" decoding="async">
+      <p class="meta-section-label">Facebook · Instagram · WhatsApp · Muse · Ray-Ban Meta</p>
+      <h2 id="meta-record">{{ b.sections["meta-record"].title | escape }}{% if page.lang == "en" %}.{% endif %}</h2>
+      <p class="section-intro">{% if page.lang == "en" %}Account shutdowns. Privacy concerns. AI you didn’t ask for.<br>Our coverage, with sources and the questions that remain.{% else %}{{ b.sections["meta-record"].intro | escape }}{% endif %}</p>
+    </header>
+    <div class="meta-posts">
+      {% for card in catalog["meta-record"] %}
+      {% include blog-index-card.html meta=true %}
+    {% endfor %}
+    </div>
+  </section>
+
+  <section class="blog-section" aria-labelledby="edit-videos">
+    <h2 id="edit-videos">{{ b.sections["edit-videos"].title | escape }}</h2>
+    <p class="section-intro">{% if page.lang == "en" %}Make something with your own footage. Start with <a href="/layout/">video collages</a>, <a href="/tutorials/animated-captions/">animated captions</a>, or <a href="/tutorials/animate-stickers/">moving stickers</a>.{% else %}{{ b.sections["edit-videos"].intro | escape }} <a href="{{ layout_guide.url | relative_url }}">{{ hub.cards[0].title | escape }}</a> · <a href="{{ caps.url | relative_url }}">{{ hub.cards[1].title | escape }}</a> · <a href="{{ stickers.url | relative_url }}">{{ hub.cards[4].title | escape }}</a>{% endif %}</p>
+
+  {% for card in catalog["edit-videos"] %}
+      {% include blog-index-card.html %}
+    {% endfor %}
+    <p class="section-download"><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=blog_edit_videos&amp;mt=8">{{ t.get_free | escape }}</a></p>
+  </section>
+
+  <section class="blog-section" aria-labelledby="check-ai-media">
+    <h2 id="check-ai-media">{{ b.sections["check-ai-media"].title | escape }}</h2>
+    <p class="section-intro">{% if page.lang == "en" %}Find out what a file can tell you. Start with <a href="/tutorials/check-c2pa-content-credentials/">checking Content Credentials in ByteWave</a>.{% else %}{{ b.sections["check-ai-media"].intro | escape }} <a href="{{ verify.url | relative_url }}">{{ hub.cards[8].title | escape }}</a>{% endif %}</p>
+
+  {% for card in catalog["check-ai-media"] %}
+      {% include blog-index-card.html %}
+    {% endfor %}
+    <p class="section-download"><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=blog_check_ai_media&amp;mt=8">{{ t.get_free | escape }}</a></p>
+  </section>
+
+  <section class="blog-section" aria-labelledby="protect-your-privacy">
+    <h2 id="protect-your-privacy">{{ b.sections["protect-your-privacy"].title | escape }}</h2>
+    <p class="section-intro">{% if page.lang == "en" %}Know what you share. Start with <a href="/tutorials/remove-location-metadata/">removing location metadata</a> or <a href="/blog/best-video-editor-privacy-no-upload.html">editing without cloud uploads</a>.{% else %}{{ b.sections["protect-your-privacy"].intro | escape }} <a href="{{ metadata.url | relative_url }}">{{ hub.cards[9].title | escape }}</a> · <a href="{{ private_guide.url | relative_url }}">{{ private_guide.title | escape }}</a>{% endif %}</p>
+
+  {% for card in catalog["protect-your-privacy"] %}
+      {% include blog-index-card.html %}
+    {% endfor %}
+    <p class="section-download"><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=blog_protect_your_privacy&amp;mt=8">{{ t.get_free | escape }}</a></p>
+  </section>
+<section class="blog-section" aria-labelledby="platforms-creators"><h2 id="platforms-creators">{{ b.sections["platforms-creators"].title | escape }}</h2><p class="section-intro">{% if page.lang == "en" %}Publishing, free expression, and who controls the tools you use.{% else %}{{ b.sections["platforms-creators"].intro | escape }}{% endif %}</p><div class="posts">
+<!-- Keep X / Twitter coverage first in Platforms & creators. -->
+{% for card in catalog["platforms-creators"] %}
+      {% include blog-index-card.html %}
+    {% endfor %}
+</div></section>
+</main>
+
+{% include localized-footer.html %}
+
+<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
+</body>
+</html>

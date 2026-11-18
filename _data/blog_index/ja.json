@@ -1,0 +1,362 @@
+{
+  "seo": "動画編集・AIコンテンツの検証・プライバシーのガイド",
+  "description": "iPhone、iPad、Macでの動画編集、ファイルの出所の確認、プライバシー保護について、ByteWaveが解説します。",
+  "subtitle": "動画を作る。出所を確かめる。個人情報を守る。",
+  "disclosure": "記事にはAI言語モデル（LLM）が生成した文章が含まれます。発行元はByteWaveです。",
+  "topics": "ブログのトピック",
+  "english": "本文は英語",
+  "sections": {
+    "meta-record": {
+      "title": "Metaの動向",
+      "intro": "アカウント停止、プライバシーへの懸念、望まないAI機能。出典を示しながら、残された疑問を追います。"
+    },
+    "edit-videos": {
+      "title": "動画を編集する",
+      "intro": "自分で撮った素材を作品にしてみましょう。まずはこちらのガイドから。"
+    },
+    "check-ai-media": {
+      "title": "AIコンテンツを検証する",
+      "intro": "ファイルから読み取れる出所の情報を確かめましょう。"
+    },
+    "protect-your-privacy": {
+      "title": "プライバシーを守る",
+      "intro": "画像と一緒に共有している情報を確認しましょう。"
+    },
+    "platforms-creators": {
+      "title": "プラットフォームと制作者",
+      "intro": "作品の公開、表現の自由、制作ツールを誰が管理するのかを考えます。"
+    }
+  },
+  "tags": {
+    "ai-choice": "AIと選択",
+    "ai-media": "AIメディア",
+    "ai-media-guide": "AIメディアガイド",
+    "bytewave-tutorial": "ByteWaveチュートリアル",
+    "comparison": "比較",
+    "comparison-opinion": "比較・論評",
+    "creator-opinion": "制作者の意見",
+    "current-analysis": "時事分析",
+    "facebook-guide": "Facebookガイド",
+    "feature-guide": "機能ガイド",
+    "guide": "ガイド",
+    "incident-tracker": "インシデント記録",
+    "mission": "ミッション",
+    "new-feature": "新機能",
+    "news": "ニュース",
+    "newsroom-guide": "報道向けガイド",
+    "offline-editing-guide": "オフライン編集ガイド",
+    "opinion": "意見",
+    "perspective": "視点",
+    "platform-accountability-opinion": "プラットフォームの責任・論評",
+    "platform-control-opinion": "プラットフォームの管理・論評",
+    "platform-ownership-opinion": "プラットフォームの所有・論評",
+    "privacy": "プライバシー",
+    "privacy-opinion": "プライバシーへの意見",
+    "privacy-guide": "プライバシーガイド",
+    "product-documentation": "製品資料",
+    "provenance": "来歴",
+    "provenance-guide": "来歴ガイド",
+    "provenance-tutorial": "来歴確認の手順",
+    "roundup": "まとめ",
+    "strategy": "戦略",
+    "technical": "技術",
+    "tiktok-guide": "TikTokガイド",
+    "tutorial": "チュートリアル",
+    "youtube-guide": "YouTubeガイド",
+    "vs-capcut": "CapCutとの比較"
+  },
+  "cards": {
+    "/blog/meta-italy-facebook-camera-roll-fine.html": {
+      "title": "Facebookとスマホの写真へのアクセス",
+      "summary": "Androidの写真へのアクセスをめぐり、イタリアがMetaに8億500万ユーロの制裁金を科しました。Metaは不服を申し立てています。"
+    },
+    "/blog/meta-technical-errors-political-accounts.html": {
+      "title": "またMetaの「技術的なエラー」？",
+      "summary": "ルラ大統領からNo Kingsまで、4件の制限とMetaの説明を検討します。"
+    },
+    "/blog/meta-no-kings-instagram-suspension.html": {
+      "title": "大事な時期に停止されたNo Kingsのアカウント",
+      "summary": "MetaはInstagramの自動処理の誤りと説明しました。主催者にどんな影響があったのでしょうか。"
+    },
+    "/blog/meta-angie-nixon-instagram-suspension.html": {
+      "title": "選挙集会中に消えたアンジー・ニクソンのアカウント",
+      "summary": "ラテン系住民に向けたInstagramアカウントは復旧しましたが、疑問は残ります。"
+    },
+    "/blog/meta-25-billion-privacy-judgment.html": {
+      "title": "250億ドルでは足りない",
+      "summary": "ニューメキシコ州のプライバシー判決と、別件の子どもの安全をめぐる訴訟についての見解です。"
+    },
+    "/blog/bytewave-vs-meta-creative-control.html": {
+      "title": "ByteWaveとMetaを比較する",
+      "summary": "端末上の編集、撮影素材の管理、Metaの広告と変更後の商用条件を考えます。"
+    },
+    "/blog/meta-ray-ban-glasses-unwanted-recordings.html": {
+      "title": "「Hey Meta」と呼ばずに始まった録音",
+      "summary": "Ray-Ban Metaの利用者が予期しない録音を報告しました。Metaは修正したとしています。"
+    },
+    "/blog/meta-muse-shared-chats-exposed.html": {
+      "title": "共有したMuseのチャットが他人に見つかる",
+      "summary": "GhostSharesとMetaの対応から、Museに個人情報を預けないよう勧める理由を説明します。"
+    },
+    "/blog/whatsapp-ai-support-hidden-instructions.html": {
+      "title": "WhatsAppのサポートAIへの非公開指示",
+      "summary": "プライバシー当局の案内に制約がありました。Metaは不具合で指示が露出したと説明しています。"
+    },
+    "/blog/meta-muse-privacy-security-incidents.html": {
+      "title": "Museのプライバシー問題を時系列で見る",
+      "summary": "共有リンク、連絡先、削除時の問題、Marketplaceの住所、報告された修正を整理します。"
+    },
+    "/blog/meta-muse-profiles-people-who-never-signed-up.html": {
+      "title": "同意したのは友人。あなたは？",
+      "summary": "人間関係を記憶するMuseは、登録したことのない人にも影響します。"
+    },
+    "/blog/facebook-camera-roll-unposted-photos.html": {
+      "title": "投稿していない写真とFacebook",
+      "summary": "カメラロールからの投稿候補は、何へのアクセスを求めているのでしょうか。"
+    },
+    "/blog/meta-ai-chats-feed-ads-personalization.html": {
+      "title": "チャットの後でフィードが変わる理由",
+      "summary": "会話が投稿、リール、広告の手掛かりになる仕組みをMetaの説明から読み解きます。"
+    },
+    "/blog/does-emoji-protect-child-face-facebook.html": {
+      "title": "絵文字で子どもの顔は守れる？",
+      "summary": "フォロワーに見えるのはハートでも、その前にFacebookが受け取った画像は何でしょうか。"
+    },
+    "/blog/meta-settlement-youth-safety-social-media-design.html": {
+      "title": "Metaの若者の安全をめぐる和解",
+      "summary": "承認された171億ドルの和解について、支払い、保護機能、限界を一次資料で確認します。"
+    },
+    "/blog/facebook-ai-labels-filters-generated-images.html": {
+      "title": "「AIで作成」の表示で何が分かる？",
+      "summary": "フィルター、顔の置き換え、架空の場面にはそれぞれ別の説明が必要です。"
+    },
+    "/blog/meta-muse-privacy-security.html": {
+      "title": "Meta Museの利用を勧めない理由",
+      "summary": "データへのアクセスと学習方針から、Museの利用やアカウント連携を勧めない理由を説明します。"
+    },
+    "/blog/disconnect-meta-muse.html": {
+      "title": "Meta Museの連携を解除する",
+      "summary": "サービスを切り離し、権限を取り消し、保存済みデータを別途確認します。"
+    },
+    "/blog/reduce-ai-videos-facebook-feed.html": {
+      "title": "FacebookでAI動画を減らす",
+      "summary": "投稿への反応、フォロー解除、お気に入り、フィード設定で変えられる範囲を確認します。"
+    },
+    "/blog/bytewave-vs-vn-video-editor-2026.html": {
+      "title": "ByteWaveとVN Video Editor",
+      "summary": "透かしなしの書き出し、サブスクリプション、キーフレーム、字幕翻訳を比較します。"
+    },
+    "/blog/bytewave-advanced-editing-keyframes-translation.html": {
+      "title": "ByteWaveの高度な編集機能",
+      "summary": "キーフレーム、ダウンロードした言語、編集可能なシェーダ、音に反応する図形を紹介します。"
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "機内モードで動画を完成させる",
+      "summary": "ログインせずに端末内のクリップを編集し、「写真」に保存できるか試します。"
+    },
+    "/blog/chatgpt-image-generation-ads.html": {
+      "title": "画像生成中に広告が入るとき",
+      "summary": "ChatGPTの画像生成で広告を試す計画について、OpenAIの2026年10月の発表を読みます。"
+    },
+    "/blog/disable-youtube-ai-remix.html": {
+      "title": "自分のショート動画のリミックスを制限する",
+      "summary": "YouTubeの映像リミックス設定の場所と効力を確認します。"
+    },
+    "/blog/turn-off-youtube-automatic-dubbing.html": {
+      "title": "自分の動画に知らない言葉が載る",
+      "summary": "自動吹き替えの停止、公開前の翻訳確認、既存の音声トラックの削除方法です。"
+    },
+    "/blog/google-photos-ai-memories-dont-need-fixing.html": {
+      "title": "思い出を修正する必要はない",
+      "summary": "笑顔にならなかった瞬間にも、そのまま残す価値があります。"
+    },
+    "/blog/community-filters-bytewave.html": {
+      "title": "コミュニティのフィルター",
+      "summary": "ByteWaveの自作シェーダを公開し、ほかの制作者のエフェクトを試せます。"
+    },
+    "/blog/is-capcut-banned-2026.html": {
+      "title": "CapCutは禁止されている？",
+      "summary": "現在の提供状況を確かめ、一つのアプリに依存するリスクを減らします。"
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "iPhoneで無料のスローモーション動画を作る",
+      "summary": "フレーム補間で動きを滑らかに。透かしやサブスクリプションは不要です。"
+    },
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "アカウントなしでiPhoneの動画を編集する",
+      "summary": "ByteWaveでの端末上の編集と、任意のプロフィールや公開機能の違いです。"
+    },
+    "/blog/what-are-metal-shaders-iphone-gpu.html": {
+      "title": "Metalシェーダとは？",
+      "summary": "iPhoneのGPUがByteWaveの書き換え可能なフィルターを動かす仕組みを見ます。"
+    },
+    "/blog/free-capcut-alternative-2026.html": {
+      "title": "CapCutから無料で乗り換える",
+      "summary": "ByteWaveで自分の撮影素材を編集し、透かしなしで書き出すためのガイドです。"
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "透かしが付かない無料の動画エディタ",
+      "summary": "書き出した映像にアプリのロゴが入らない選択肢を紹介します。"
+    },
+    "/blog/custom-video-filters-ai-tutorial.html": {
+      "title": "AIとコードでフィルターを作る",
+      "summary": "シェーダを開き、変更内容を伝え、得られたコードをエディタに貼り付けます。"
+    },
+    "/blog/video-editing-app-comparison-2026.html": {
+      "title": "動画編集アプリ4本を比較",
+      "summary": "ByteWave、CapCut、iMovie、InShotの操作、機能、プライバシー、対応環境を比べます。"
+    },
+    "/blog/chatgpt-fake-artist-signatures.html": {
+      "title": "生成画像に実在の作家の署名",
+      "summary": "ChatGPTの絵に作家の署名が現れた事例から、共有前に確認すべきことを考えます。"
+    },
+    "/blog/tiktok-ai-avatars-product-ads.html": {
+      "title": "TikTokで商品を紹介するのは誰？",
+      "summary": "出演者も広告映像も生成できます。その動画は商品の何を証明しているのでしょうか。"
+    },
+    "/blog/when-ai-filters-change-what-happened.html": {
+      "title": "フィルターが出来事まで変えるとき",
+      "summary": "写真の雰囲気を変えることと、着ていなかった服を作ることは別です。"
+    },
+    "/blog/openai-sora-deepfakes-public-trust.html": {
+      "title": "Soraと同意、本物そっくりの偽動画",
+      "summary": "架空の場面を見抜く責任を視聴者だけに負わせるべきではありません。"
+    },
+    "/blog/check-ai-video-without-uploading.html": {
+      "title": "アップロードせずに動画を検証する",
+      "summary": "埋め込みの来歴情報から分かる範囲と、元ファイルが必要な場面を説明します。"
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "メタデータを消すとAIラベルも消える？",
+      "summary": "C2PA情報、映像上の透かし、サービス側のラベルの違いを整理します。"
+    },
+    "/blog/tools-newsrooms-check-ai-generated-media.html": {
+      "title": "報道現場の画像検証ツール",
+      "summary": "ByteWave、Content Credentials Verify、InVID-WeVerifyで何を調べられるか比較します。"
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "AIラベルがなくても本物とは限らない",
+      "summary": "Facebookに残ったディープフェイクから、ラベルがないことの意味を考えます。"
+    },
+    "/blog/how-to-check-ai-generated-photos-videos.html": {
+      "title": "AI生成画像や動画を検証できることの大切さ",
+      "summary": "プライバシーを守りながらファイルの出所と証拠の限界を確かめます。"
+    },
+    "/blog/reduce-ai-content-tiktok-feed.html": {
+      "title": "TikTokでAIコンテンツを減らす",
+      "summary": "トピック管理、キーワードフィルター、「興味ありません」の使い方です。"
+    },
+    "/blog/gates-foundation-ai-in-schools.html": {
+      "title": "ゲイツ財団と教育現場のAI",
+      "summary": "財団は約4億ドルの支出を計画しています。同じ予算を教師ならどう使うでしょうか。"
+    },
+    "/blog/the-ai-teacher-was-wrong.html": {
+      "title": "AI教師の答えは間違っていた",
+      "summary": "Huskの動画ではAIが「seventeen」のつづりを誤り、正しく書いた相手を訂正します。"
+    },
+    "/blog/keep-ai-out-of-the-classroom.html": {
+      "title": "教室にAIを持ち込まないで",
+      "summary": "チャットボットの有無で変わった成績から、学校の検索でのGoogleのAI要約を考えます。"
+    },
+    "/blog/youre-not-alone-wanting-less-ai.html": {
+      "title": "AIを減らしたいのはあなただけではない",
+      "summary": "米国人の57％がAIは社会に悪いと回答。便利な道具をあらゆる場面に求める必要はありません。"
+    },
+    "/blog/tired-of-ai-videos-social-media.html": {
+      "title": "自分の映像で創作の主導権を取り戻す",
+      "summary": "フィード設定、生成動画を広める企業、自分で撮った映像の編集を取り上げます。"
+    },
+    "/blog/provenance.html": {
+      "title": "来歴情報は何を証明する？",
+      "summary": "署名はファイルの出所や完全性を示せても、写った出来事までは証明できません。"
+    },
+    "/blog/photo-access-ai-privacy-inferences.html": {
+      "title": "写真へのアクセスが明かすこと",
+      "summary": "スマホの研究から、AIが推測できる情報と端末上で編集する意義を見ます。"
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "写真に含まれる名前や編集履歴",
+      "summary": "共有前に、来歴情報に含める名前、アカウント、編集履歴を確認しましょう。"
+    },
+    "/blog/youtube-likeness-detection-privacy.html": {
+      "title": "顔を守るためにYouTubeへ顔を送る",
+      "summary": "なりすまし検出への登録で求められる身分証と自撮り動画について説明します。"
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "写真や動画から住所が分かる？",
+      "summary": "メタデータ、映り込み、音声を調べ、書き出し後のファイルも確認します。"
+    },
+    "/blog/ai-training-creator-consent.html": {
+      "title": "作品をAI学習に使う許可は誰が出す？",
+      "summary": "OpenAIとAnthropic、オーストラリアでの著作権議論と制作者の発言権を考えます。"
+    },
+    "/blog/how-bytewave-feed-works-without-server-watch-history.html": {
+      "title": "サーバーに視聴履歴を残さないフィード",
+      "summary": "ByteWaveの端末内のおすすめ、匿名閲覧、任意の公開の仕組みです。"
+    },
+    "/blog/capcut-privacy-video-upload.html": {
+      "title": "CapCutは動画をクラウドに送る？",
+      "summary": "素材が送信される場面と、ByteWaveで端末内に残るものを説明します。"
+    },
+    "/blog/x-free-speech-account-control.html": {
+      "title": "Xのアカウントを管理するのは誰？",
+      "summary": "表示範囲の制限、投稿削除の要求、アカウント停止に関する規則を確認します。"
+    },
+    "/blog/russia-geoblocking-disinformation.html": {
+      "title": "フィードとロシアの影響工作",
+      "summary": "ByteWaveがロシアでの提供を制限する理由と地域制限の限界を説明します。"
+    },
+    "/blog/tiktok-internal-child-safety-warnings.html": {
+      "title": "TikTok社内の子どもの安全をめぐる警告",
+      "summary": "従業員の証言から、経営陣の対応と家族に伝えられた内容を考えます。"
+    },
+    "/blog/adobe-venezuela-creative-cloud-access.html": {
+      "title": "ベネズエラでのAdobeの利用制限",
+      "summary": "2019年のサービス制限から、オフラインで編集できる選択肢の大切さを学びます。"
+    },
+    "/blog/payment-processors-itch-io-content-control.html": {
+      "title": "決済会社が掲載内容を左右するとき",
+      "summary": "2025年のitch.ioの事例から、決済上の制限が作品の見つけやすさに与える影響を見ます。"
+    },
+    "/blog/google-nest-cloud-features-end-support.html": {
+      "title": "Google Nestから消えた機能",
+      "summary": "初期のサーモスタットは2025年にオンライン機能を失いました。本体での操作は今もできます。"
+    },
+    "/blog/europe-digital-sovereignty-cloud-dependence.html": {
+      "title": "欧州の技術依存は他人事ではない",
+      "summary": "道具へのアクセスは誰が握り、乗り換えるときに作品を持ち出せるでしょうか。"
+    },
+    "/blog/starlink-ukraine-cell-service-trust.html": {
+      "title": "ウクライナのStarlinkと衛星携帯通信",
+      "summary": "通信制限とStarshieldの事例から、接続を管理する企業への信頼を考えます。"
+    },
+    "/blog/tiktok-us-deal-bytedance-china-ties.html": {
+      "title": "米国でのTikTokの取引",
+      "summary": "ByteDanceの持ち分、事業、アルゴリズムのライセンスに何が残ったのでしょうか。"
+    },
+    "/blog/apple-app-store-commissions-free-alternatives.html": {
+      "title": "Appleの手数料と無料の選択肢",
+      "summary": "月額契約を使わない場合の費用と、ByteWaveがツールを無料にする理由です。"
+    },
+    "/blog/free-software-movement-2.0.html": {
+      "title": "いま考える自由ソフトウェア運動",
+      "summary": "利用者を取り巻く脅威が変わったとき、どんな自由が必要でしょうか。"
+    },
+    "/blog/the-next-tiktok-may-start-as-a-video-editor.html": {
+      "title": "次のTikTokは動画エディタから生まれる？",
+      "summary": "フィードの仕組みよりも、作品を作る文化のほうが真似しにくいものです。"
+    },
+    "/blog/your-feed.html": {
+      "title": "あなたのフィードはあなたのもの",
+      "summary": "政府の介入と、何を見るかを決める権利についての見解です。"
+    },
+    "/blog/tiktok-congress-child-safety-platform-accountability.html": {
+      "title": "TikTokが米議会での証言を取りやめた理由",
+      "summary": "委員長の説明と、プラットフォームが利用者に対して負う説明責任を考えます。"
+    },
+    "/blog/anthropic-claude-public-trust.html": {
+      "title": "Anthropicは信頼を得られるか",
+      "summary": "Claudeとラビの問いを通じ、欺瞞から人を守るには約束だけで足りるのかを考えます。"
+    }
+  }
+}
