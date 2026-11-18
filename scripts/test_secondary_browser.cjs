@@ -15,6 +15,8 @@ const locales = [
 const routes = [
  ['about','about.html'], ['press','press.html'], ['blog','blog/'], ['free-expression','free-expression.html'],
  ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'], ['layout','layout/'],
+ ['filters','blog/when-ai-filters-change-what-happened.html'],
+ ['labels','blog/facebook-ai-labels-filters-generated-images.html'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
  ['metadata','tutorials/remove-location-metadata/'],
  ['motion','tutorials/motion-blur/'],
