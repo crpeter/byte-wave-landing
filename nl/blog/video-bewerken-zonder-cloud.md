@@ -44,7 +44,7 @@ Controleer ook het beeld en geluid. Een straatnaam of uitgesproken adres kan je 
 
 {% include localized-guide-cta.html %}
 
-Meer lezen (Engels): [Wat foto's en video's kunnen verraden](/blog/can-photos-videos-reveal-your-address.html) · [CapCut en clouduploads](/blog/capcut-privacy-video-upload.html).
+[Wat foto's en video's kunnen verraden](/nl/blog/can-photos-videos-reveal-your-address.html) · [CapCut en clouduploads](/blog/capcut-privacy-video-upload.html) (Artikel in het Engels).
 
 Probeer het zelf: [een video monteren en exporteren in vliegtuigmodus (Engels)](/blog/offline-video-editor-airplane-mode-test.html).
 

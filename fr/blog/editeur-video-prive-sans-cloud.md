@@ -44,7 +44,7 @@ Vérifiez aussi l’image et le son : un panneau de rue ou une adresse prononcé
 
 {% include localized-guide-cta.html %}
 
-Pour aller plus loin (en anglais) : [ce que peut révéler une photo ou une vidéo](/blog/can-photos-videos-reveal-your-address.html) · [CapCut et les fichiers envoyés dans le cloud](/blog/capcut-privacy-video-upload.html).
+[ce que peut révéler une photo ou une vidéo](/fr/blog/can-photos-videos-reveal-your-address.html) · [CapCut et les fichiers envoyés dans le cloud](/blog/capcut-privacy-video-upload.html) (Article en anglais).
 
 Faites l’essai : [montez et exportez une vidéo en mode avion (en anglais)](/blog/offline-video-editor-airplane-mode-test.html).
 

@@ -44,7 +44,7 @@ Controlla anche immagini e audio: un cartello stradale o un indirizzo pronunciat
 
 {% include localized-guide-cta.html %}
 
-Approfondimenti (in inglese): [cosa può rivelare una foto o un video](/blog/can-photos-videos-reveal-your-address.html) · [CapCut e il caricamento nel cloud](/blog/capcut-privacy-video-upload.html).
+[cosa può rivelare una foto o un video](/it/blog/can-photos-videos-reveal-your-address.html) · [CapCut e il caricamento nel cloud](/blog/capcut-privacy-video-upload.html) (Articolo in inglese).
 
 Prova tu stesso: [monta ed esporta un video in modalità aereo (in inglese)](/blog/offline-video-editor-airplane-mode-test.html).
 

@@ -24,7 +24,7 @@
     "limitsP2": "A signature cannot prove a scene happened, and a score is not a percentage chance that it is real.",
     "specLink": "About C2PA",
     "localIntro": "Want to keep the file local? Read",
-    "localLink": "what an AI-video check without uploading can tell you (English)"
+    "localLink": "what an AI-video check without uploading can tell you"
   },
   "es": {
     "title": "Cómo comprobar las credenciales C2PA en ByteWave",
@@ -51,7 +51,7 @@
     "limitsP2": "Una firma no demuestra que la escena ocurriera, y una puntuación no representa la probabilidad porcentual de que sea real.",
     "specLink": "Acerca de C2PA (en inglés)",
     "localIntro": "¿Quieres mantener el archivo en tu dispositivo? Lee",
-    "localLink": "qué revela una comprobación de vídeo con IA sin subirlo (en inglés)"
+    "localLink": "qué revela una comprobación de vídeo con IA sin subirlo"
   },
   "fr": {
     "title": "Vérifier les Content Credentials C2PA dans ByteWave",
@@ -78,7 +78,7 @@
     "limitsP2": "Une signature ne prouve pas qu’une scène s’est produite, et un score n’est pas un pourcentage de probabilité qu’elle soit réelle.",
     "specLink": "À propos de C2PA (en anglais)",
     "localIntro": "Vous souhaitez garder le fichier en local ? Découvrez",
-    "localLink": "ce qu’une vérification sans envoi peut révéler (en anglais)"
+    "localLink": "ce qu’une vérification sans envoi peut révéler"
   },
   "de": {
     "title": "C2PA Content Credentials mit ByteWave prüfen",
@@ -105,7 +105,7 @@
     "limitsP2": "Eine Signatur beweist nicht, dass eine Szene stattgefunden hat, und ein Wert ist keine Prozentwahrscheinlichkeit für Echtheit.",
     "specLink": "Über C2PA (Englisch)",
     "localIntro": "Die Datei soll auf dem Gerät bleiben? Lies",
-    "localLink": "was die KI-Videoprüfung ohne Upload aussagt (Englisch)"
+    "localLink": "was die KI-Videoprüfung ohne Upload aussagt"
   },
   "it": {
     "title": "Controllare le Content Credentials C2PA con ByteWave",
@@ -132,7 +132,7 @@
     "limitsP2": "Una firma non dimostra che una scena sia avvenuta e un punteggio non esprime la probabilità percentuale che sia reale.",
     "specLink": "Informazioni su C2PA (in inglese)",
     "localIntro": "Vuoi mantenere il file sul dispositivo? Leggi",
-    "localLink": "cosa può rivelare un controllo IA senza caricamento (in inglese)"
+    "localLink": "cosa può rivelare un controllo IA senza caricamento"
   },
   "nl": {
     "title": "C2PA Content Credentials controleren in ByteWave",
@@ -159,7 +159,7 @@
     "limitsP2": "Een handtekening bewijst niet dat een scène is gebeurd, en een score is geen procentuele kans dat iets echt is.",
     "specLink": "Over C2PA (Engels)",
     "localIntro": "Wil je het bestand op je apparaat houden? Lees",
-    "localLink": "wat AI-videocontrole zonder upload wel en niet kan laten zien (Engels)"
+    "localLink": "wat AI-videocontrole zonder upload wel en niet kan laten zien"
   },
   "pt-PT": {
     "title": "Verificar Content Credentials C2PA no ByteWave",
@@ -186,7 +186,7 @@
     "limitsP2": "Uma assinatura não prova que a cena aconteceu e uma pontuação não é a probabilidade percentual de ser real.",
     "specLink": "Sobre C2PA (em inglês)",
     "localIntro": "Quer manter o ficheiro local? Leia",
-    "localLink": "o que uma verificação de vídeo por IA sem envio pode dizer (em inglês)"
+    "localLink": "o que uma verificação de vídeo por IA sem envio pode dizer"
   },
   "pt-BR": {
     "title": "Como verificar Content Credentials C2PA no ByteWave",
@@ -213,6 +213,6 @@
     "limitsP2": "Uma assinatura não prova que uma cena aconteceu, e uma pontuação não é a probabilidade percentual de ser verdadeira.",
     "specLink": "Sobre C2PA (em inglês)",
     "localIntro": "Quer manter o arquivo no dispositivo? Leia",
-    "localLink": "o que uma verificação de vídeo por IA sem upload pode revelar (em inglês)"
+    "localLink": "o que uma verificação de vídeo por IA sem upload pode revelar"
   }
 }

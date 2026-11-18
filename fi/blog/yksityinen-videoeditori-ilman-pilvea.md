@@ -44,7 +44,7 @@ Tarkista myös kuva ja ääni: kadunnimi tai ääneen sanottu osoite voi paljast
 
 {% include localized-guide-cta.html %}
 
-Lue lisää (englanniksi): [Mitä kuva tai video voi paljastaa](/blog/can-photos-videos-reveal-your-address.html) · [CapCut ja pilvilataukset](/blog/capcut-privacy-video-upload.html).
+[Mitä kuva tai video voi paljastaa](/fi/blog/can-photos-videos-reveal-your-address.html) · [CapCut ja pilvilataukset](/blog/capcut-privacy-video-upload.html) (Artikkeli englanniksi).
 
 Kokeile itse: [muokkaa ja vie video lentotilassa (englanniksi)](/blog/offline-video-editor-airplane-mode-test.html).
 

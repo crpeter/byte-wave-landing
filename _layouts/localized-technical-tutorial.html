@@ -111,7 +111,7 @@
     <p>{{ d.limitsP1 | escape }}</p>
     <p>{{ d.limitsP2 | escape }} <a href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html" hreflang="en">{{ d.specLink | escape }}</a>.</p>
     <p><a class="button" href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a></p>
-    <p>{{ d.localIntro | escape }} <a href="/blog/check-ai-video-without-uploading.html" hreflang="en">{{ d.localLink | escape }}</a>.</p>
+    <p>{{ d.localIntro | escape }} <a href="{{ home.url | relative_url }}blog/check-ai-video-without-uploading.html">{{ d.localLink | escape }}</a>.</p>
   {% else %}
     <p class="lead">{{ d.lead | escape }}</p>
     <p>{{ d.regulatorText | escape }} <a href="https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location" hreflang="en">{{ d.regulatorLink | escape }}</a>.</p>
@@ -130,7 +130,7 @@
     <p>{{ d.photosP | escape }}</p>
     <p>{{ d.credentialsP | escape }}</p>
     <p>{{ d.visibleP | escape }} <a href="/blog/does-emoji-protect-child-face-facebook.html" hreflang="en">{{ d.emojiLink | escape }}</a>.</p>
-    <p>{{ d.beforeShare | escape }} <a href="/blog/can-photos-videos-reveal-your-address.html" hreflang="en">{{ d.locationLink | escape }}</a> {{ d.and | escape }} <a href="/blog/does-removing-metadata-remove-ai-labels.html" hreflang="en">{{ d.evidenceLink | escape }}</a>.</p>
+    <p>{{ d.beforeShare | escape }} <a href="{{ home.url | relative_url }}blog/can-photos-videos-reveal-your-address.html">{{ d.locationLink | escape }}</a> {{ d.and | escape }} <a href="{{ home.url | relative_url }}blog/does-removing-metadata-remove-ai-labels.html">{{ d.evidenceLink | escape }}</a>.</p>
   {% endif %}
 </article>
 </main>

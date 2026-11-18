@@ -60,7 +60,7 @@ for lang, slug in slugs.items():
                               "unverifiedMeaning", "bytewaveVerifiedMeaning", "limitsP1", "limitsP2"):
                     assert data[field] in plain, (page, field)
                 assert "spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html" in html, (page, "C2PA source")
-                assert 'href="/blog/check-ai-video-without-uploading.html" hreflang="en"' in html, (page, "English related link")
+                assert f'href="/{slug}/blog/check-ai-video-without-uploading.html"' in html, (page, "localized related link")
             else:
                 for field in ("regulatorText", "formatText", "workingP1", "lockedP", "photosP",
                               "credentialsP", "visibleP"):

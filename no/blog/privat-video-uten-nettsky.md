@@ -44,7 +44,7 @@ Se også på bilde og lyd: Et gatenavn eller en adresse som blir sagt, kan avsl�
 
 {% include localized-guide-cta.html %}
 
-Les mer (på engelsk): [Hva bilder og videoer kan røpe](/blog/can-photos-videos-reveal-your-address.html) · [CapCut og skyopplasting](/blog/capcut-privacy-video-upload.html).
+[Hva bilder og videoer kan røpe](/no/blog/can-photos-videos-reveal-your-address.html) · [CapCut og skyopplasting](/blog/capcut-privacy-video-upload.html) (Artikkel på engelsk).
 
 Test selv: [Rediger og eksporter video i flymodus (på engelsk)](/blog/offline-video-editor-airplane-mode-test.html).
 

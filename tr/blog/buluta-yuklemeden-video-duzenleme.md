@@ -44,7 +44,7 @@ Görüntü ve sesi de kontrol edin. Sokak tabelası veya sesli söylenen adres, 
 
 {% include localized-guide-cta.html %}
 
-Daha fazla bilgi (İngilizce): [Bir fotoğraf veya video neleri açığa çıkarabilir?](/blog/can-photos-videos-reveal-your-address.html) · [CapCut ve bulut yüklemeleri](/blog/capcut-privacy-video-upload.html).
+[Bir fotoğraf veya video neleri açığa çıkarabilir?](/tr/blog/can-photos-videos-reveal-your-address.html) · [CapCut ve bulut yüklemeleri](/blog/capcut-privacy-video-upload.html) (İngilizce makale).
 
 Kendiniz deneyin: [Uçak modunda video düzenleyin ve dışa aktarın (İngilizce)](/blog/offline-video-editor-airplane-mode-test.html).
 

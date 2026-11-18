@@ -44,7 +44,7 @@ Kontrollera också bild och ljud. En gatuskylt eller uttalad adress kan avslöja
 
 {% include localized-guide-cta.html %}
 
-Läs mer (på engelska): [Vad en bild eller video kan avslöja](/blog/can-photos-videos-reveal-your-address.html) · [CapCut och molnuppladdningar](/blog/capcut-privacy-video-upload.html).
+[Vad en bild eller video kan avslöja](/sv/blog/can-photos-videos-reveal-your-address.html) · [CapCut och molnuppladdningar](/blog/capcut-privacy-video-upload.html) (Artikel på engelska).
 
 Testa själv: [redigera och exportera i flygplansläge (på engelska)](/blog/offline-video-editor-airplane-mode-test.html).
 

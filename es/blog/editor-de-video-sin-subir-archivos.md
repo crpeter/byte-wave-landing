@@ -44,7 +44,7 @@ Revisa también la imagen y el sonido. Un letrero con el nombre de una calle o u
 
 {% include localized-guide-cta.html %}
 
-Más información en inglés: [qué puede revelar una foto o un video](/blog/can-photos-videos-reveal-your-address.html) · [CapCut y los archivos en la nube](/blog/capcut-privacy-video-upload.html).
+[qué puede revelar una foto o un video](/es/blog/can-photos-videos-reveal-your-address.html) · [CapCut y los archivos en la nube](/blog/capcut-privacy-video-upload.html) (Artículo en inglés).
 
 Haz la prueba: [edita y exporta un video en modo avión (en inglés)](/blog/offline-video-editor-airplane-mode-test.html).
 

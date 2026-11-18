@@ -44,7 +44,7 @@ Verifique também a imagem e o som. Uma placa de rua ou uma morada dita em voz a
 
 {% include localized-guide-cta.html %}
 
-Continue a ler (em inglês): [o que revelam fotografias e vídeos](/blog/can-photos-videos-reveal-your-address.html) · [CapCut e transferências para a nuvem](/blog/capcut-privacy-video-upload.html).
+[o que revelam fotografias e vídeos](/pt/blog/can-photos-videos-reveal-your-address.html) · [CapCut e transferências para a nuvem](/blog/capcut-privacy-video-upload.html) (Artigo em inglês).
 
 Experimente: [editar e exportar um vídeo em modo de avião (em inglês)](/blog/offline-video-editor-airplane-mode-test.html).
 
