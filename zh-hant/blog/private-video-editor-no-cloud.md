@@ -44,7 +44,7 @@ ByteWave 可以移除工作副本中可編輯的中繼資料。每次匯出至�
 
 {% include localized-guide-cta.html %}
 
-延伸閱讀（英文）：[照片和影片可能透露的資訊](/blog/can-photos-videos-reveal-your-address.html) · [CapCut 與雲端上傳](/blog/capcut-privacy-video-upload.html)。
+[照片和影片可能透露的資訊](/zh-hant/blog/can-photos-videos-reveal-your-address.html) · [CapCut 與雲端上傳](/blog/capcut-privacy-video-upload.html) (英文文章)。
 
 自行測試：[開啟飛航模式後剪輯並匯出影片（英文）](/blog/offline-video-editor-airplane-mode-test.html)。
 

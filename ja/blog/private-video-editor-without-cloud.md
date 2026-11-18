@@ -44,7 +44,7 @@ ByteWaveは作業用コピーから編集可能なメタデータを削除でき
 
 {% include localized-guide-cta.html %}
 
-関連記事（英語）：[写真や動画からわかること](/blog/can-photos-videos-reveal-your-address.html) · [CapCutとクラウドへのアップロード](/blog/capcut-privacy-video-upload.html)。
+[写真や動画からわかること](/ja/blog/can-photos-videos-reveal-your-address.html) · [CapCutとクラウドへのアップロード](/blog/capcut-privacy-video-upload.html) (本文は英語)。
 
 試してみる：[機内モードで動画を編集して書き出す（英語）](/blog/offline-video-editor-airplane-mode-test.html)。
 

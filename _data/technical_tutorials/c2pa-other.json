@@ -24,7 +24,7 @@
     "limitsP2": "En signatur bevisar inte att en scen inträffat, och ett poängvärde är inte en procentuell sannolikhet för äkthet.",
     "specLink": "Om C2PA (på engelska)",
     "localIntro": "Vill du hålla filen på enheten? Läs",
-    "localLink": "vad en AI-videokontroll utan uppladdning kan visa (på engelska)"
+    "localLink": "vad en AI-videokontroll utan uppladdning kan visa"
   },
   "no": {
     "title": "Kontroller C2PA Content Credentials i ByteWave",
@@ -51,7 +51,7 @@
     "limitsP2": "En signatur beviser ikke at en scene fant sted, og en poengsum er ikke en prosentvis sannsynlighet for at den er ekte.",
     "specLink": "Om C2PA (på engelsk)",
     "localIntro": "Vil du beholde filen lokalt? Les",
-    "localLink": "hva KI-videokontroll uten opplasting kan fortelle (på engelsk)"
+    "localLink": "hva KI-videokontroll uten opplasting kan fortelle"
   },
   "fi": {
     "title": "Tarkista C2PA Content Credentials ByteWavessa",
@@ -78,7 +78,7 @@
     "limitsP2": "Allekirjoitus ei todista tapahtumaa, eikä pistemäärä kerro prosentuaalista todennäköisyyttä aitoudelle.",
     "specLink": "Tietoa C2PA:sta (englanniksi)",
     "localIntro": "Haluatko pitää tiedoston laitteella? Lue",
-    "localLink": "mitä tekoälyvideon tarkistus ilman lähetystä voi kertoa (englanniksi)"
+    "localLink": "mitä tekoälyvideon tarkistus ilman lähetystä voi kertoa"
   },
   "pl": {
     "title": "Sprawdzanie C2PA Content Credentials w ByteWave",
@@ -105,7 +105,7 @@
     "limitsP2": "Podpis nie dowodzi, że scena się wydarzyła, a wynik punktowy nie jest procentowym prawdopodobieństwem autentyczności.",
     "specLink": "O C2PA (po angielsku)",
     "localIntro": "Chcesz zachować plik na urządzeniu? Przeczytaj",
-    "localLink": "co można sprawdzić w filmie AI bez wysyłania go (po angielsku)"
+    "localLink": "co można sprawdzić w filmie AI bez wysyłania go"
   },
   "tr": {
     "title": "ByteWave'de C2PA Content Credentials kontrolü",
@@ -132,7 +132,7 @@
     "limitsP2": "İmza bir sahnenin yaşandığını kanıtlamaz; puan da gerçek olma olasılığının yüzdesi değildir.",
     "specLink": "C2PA hakkında (İngilizce)",
     "localIntro": "Dosya cihazınızda mı kalsın? Şunu okuyun:",
-    "localLink": "yüklemeden yapay zekâ video kontrolünün neler gösterebileceği (İngilizce)"
+    "localLink": "yüklemeden yapay zekâ video kontrolünün neler gösterebileceği"
   },
   "uk": {
     "title": "Як перевірити C2PA Content Credentials у ByteWave",
@@ -159,7 +159,7 @@
     "limitsP2": "Підпис не доводить, що подія відбулася, а бал не є відсотковою ймовірністю справжності.",
     "specLink": "Про C2PA (англійською)",
     "localIntro": "Хочете залишити файл на пристрої? Читайте",
-    "localLink": "що може показати перевірка відео на ШІ без завантаження (англійською)"
+    "localLink": "що може показати перевірка відео на ШІ без завантаження"
   },
   "ja": {
     "title": "ByteWaveでC2PA Content Credentialsを確認する",
@@ -186,7 +186,7 @@
     "limitsP2": "署名は映像の出来事が実際に起きた証明にはなりません。スコアも本物である確率の割合ではありません。",
     "specLink": "C2PAの説明（英語）",
     "localIntro": "ファイルを端末内に保ちたい場合は、",
-    "localLink": "アップロードせずにAI動画を確認するとわかること（英語）"
+    "localLink": "アップロードせずにAI動画を確認するとわかること"
   },
   "ko": {
     "title": "ByteWave에서 C2PA Content Credentials 확인하기",
@@ -213,7 +213,7 @@
     "limitsP2": "서명은 장면이 실제로 일어났음을 증명하지 않으며, 점수는 진짜일 확률을 퍼센트로 나타내지 않습니다.",
     "specLink": "C2PA 소개(영어)",
     "localIntro": "파일을 기기에 보관하고 싶다면",
-    "localLink": "업로드 없이 AI 동영상을 확인하면 알 수 있는 것(영어)"
+    "localLink": "업로드 없이 AI 동영상을 확인하면 알 수 있는 것"
   },
   "zh-Hant": {
     "title": "在 ByteWave 檢查 C2PA Content Credentials",
@@ -240,6 +240,6 @@
     "limitsP2": "數位簽章不能證明畫面事件確實發生，分數也不是內容真實機率的百分比。",
     "specLink": "關於 C2PA（英文）",
     "localIntro": "想讓檔案留在裝置內嗎？請閱讀",
-    "localLink": "不必上傳影片也能從 AI 檢查得知的資訊（英文）"
+    "localLink": "不必上傳影片也能從 AI 檢查得知的資訊"
   }
 }

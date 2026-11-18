@@ -20,9 +20,9 @@
     "visibleP": "Metadata removal cannot hide street signs, spoken addresses, or visible locations. For another privacy boundary, read",
     "emojiLink": "Does an Emoji Really Protect Your Child’s Face on Facebook? (English)",
     "beforeShare": "Before sharing, check",
-    "locationLink": "visible and audible location clues (English)",
+    "locationLink": "visible and audible location clues",
     "and": "and",
-    "evidenceLink": "what metadata removal means for origin evidence (English)"
+    "evidenceLink": "what metadata removal means for origin evidence"
   },
   "es": {
     "title": "Cómo eliminar metadatos de ubicación con ByteWave",
@@ -45,9 +45,9 @@
     "visibleP": "Eliminar metadatos no oculta señales de tráfico, direcciones habladas ni lugares visibles. Sobre otro límite de privacidad, lee",
     "emojiLink": "¿Un emoji protege la cara de tu hijo en Facebook? (en inglés)",
     "beforeShare": "Antes de compartir, comprueba",
-    "locationLink": "pistas visuales y sonoras de ubicación (en inglés)",
+    "locationLink": "pistas visuales y sonoras de ubicación",
     "and": "y",
-    "evidenceLink": "cómo afecta eliminar metadatos a las pruebas de procedencia (en inglés)"
+    "evidenceLink": "cómo afecta eliminar metadatos a las pruebas de procedencia"
   },
   "fr": {
     "title": "Supprimer les métadonnées de localisation dans ByteWave",
@@ -70,9 +70,9 @@
     "visibleP": "Retirer les métadonnées ne masque ni panneaux de rue, ni adresses prononcées, ni lieux visibles. Sur une autre limite de confidentialité, consultez",
     "emojiLink": "Un emoji protège-t-il le visage de votre enfant sur Facebook ? (en anglais)",
     "beforeShare": "Avant de partager, vérifiez",
-    "locationLink": "les indices visuels et sonores de localisation (en anglais)",
+    "locationLink": "les indices visuels et sonores de localisation",
     "and": "et",
-    "evidenceLink": "l’effet de la suppression des métadonnées sur les preuves de provenance (en anglais)"
+    "evidenceLink": "l’effet de la suppression des métadonnées sur les preuves de provenance"
   },
   "de": {
     "title": "Standort-Metadaten mit ByteWave entfernen",
@@ -95,9 +95,9 @@
     "visibleP": "Das Entfernen von Metadaten verbirgt keine Straßenschilder, gesprochenen Adressen oder sichtbaren Orte. Lies dazu",
     "emojiLink": "Schützt ein Emoji das Gesicht deines Kindes auf Facebook? (Englisch)",
     "beforeShare": "Prüfe vor dem Teilen",
-    "locationLink": "sichtbare und hörbare Standortmerkmale (Englisch)",
+    "locationLink": "sichtbare und hörbare Standortmerkmale",
     "and": "und",
-    "evidenceLink": "was Metadatenentfernung für Herkunftsnachweise bedeutet (Englisch)"
+    "evidenceLink": "was Metadatenentfernung für Herkunftsnachweise bedeutet"
   },
   "it": {
     "title": "Rimuovere metadati di posizione con ByteWave",
@@ -120,9 +120,9 @@
     "visibleP": "Rimuovere i metadati non nasconde cartelli stradali, indirizzi pronunciati o luoghi visibili. Un altro tema importante:",
     "emojiLink": "Un emoji protegge il volto di tuo figlio su Facebook? (in inglese)",
     "beforeShare": "Prima di condividere, verifica",
-    "locationLink": "gli indizi visivi e sonori di posizione (in inglese)",
+    "locationLink": "gli indizi visivi e sonori di posizione",
     "and": "e",
-    "evidenceLink": "cosa comporta la rimozione dei metadati per le prove di origine (in inglese)"
+    "evidenceLink": "cosa comporta la rimozione dei metadati per le prove di origine"
   },
   "nl": {
     "title": "Locatiemetadata verwijderen in ByteWave",
@@ -145,9 +145,9 @@
     "visibleP": "Metadata verwijderen verbergt geen straatnaamborden, uitgesproken adressen of herkenbare locaties. Lees ook",
     "emojiLink": "Beschermt een emoji het gezicht van je kind op Facebook? (Engels)",
     "beforeShare": "Controleer voordat je deelt",
-    "locationLink": "zichtbare en hoorbare locatieaanwijzingen (Engels)",
+    "locationLink": "zichtbare en hoorbare locatieaanwijzingen",
     "and": "en",
-    "evidenceLink": "de gevolgen van metadataverwijdering voor herkomstbewijs (Engels)"
+    "evidenceLink": "de gevolgen van metadataverwijdering voor herkomstbewijs"
   },
   "pt-PT": {
     "title": "Como remover metadados de localização no ByteWave",
@@ -170,9 +170,9 @@
     "visibleP": "Remover metadados não oculta sinais de trânsito, moradas ditas ou locais visíveis. Leia também",
     "emojiLink": "Um emoji protege o rosto da sua criança no Facebook? (em inglês)",
     "beforeShare": "Antes de partilhar, verifique",
-    "locationLink": "pistas visuais e sonoras de localização (em inglês)",
+    "locationLink": "pistas visuais e sonoras de localização",
     "and": "e",
-    "evidenceLink": "o que a remoção de metadados implica para a prova de origem (em inglês)"
+    "evidenceLink": "o que a remoção de metadados implica para a prova de origem"
   },
   "pt-BR": {
     "title": "Como remover metadados de localização no ByteWave",
@@ -195,8 +195,8 @@
     "visibleP": "Remover metadados não esconde placas de rua, endereços falados ou lugares visíveis. Sobre outro limite da privacidade, leia",
     "emojiLink": "Um emoji protege o rosto do seu filho no Facebook? (em inglês)",
     "beforeShare": "Antes de compartilhar, confira",
-    "locationLink": "pistas visuais e sonoras sobre a localização (em inglês)",
+    "locationLink": "pistas visuais e sonoras sobre a localização",
     "and": "e",
-    "evidenceLink": "o efeito da remoção de metadados nas provas de procedência (em inglês)"
+    "evidenceLink": "o efeito da remoção de metadados nas provas de procedência"
   }
 }

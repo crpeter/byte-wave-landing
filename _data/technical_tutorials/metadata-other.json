@@ -20,9 +20,9 @@
     "visibleP": "Att ta bort metadata döljer inte gatunamn, uttalade adresser eller synliga platser. Läs även",
     "emojiLink": "Skyddar en emoji ditt barns ansikte på Facebook? (på engelska)",
     "beforeShare": "Kontrollera före delning",
-    "locationLink": "synliga och hörbara platsledtrådar (på engelska)",
+    "locationLink": "synliga och hörbara platsledtrådar",
     "and": "och",
-    "evidenceLink": "hur borttagning av metadata påverkar ursprungsbevis (på engelska)"
+    "evidenceLink": "hur borttagning av metadata påverkar ursprungsbevis"
   },
   "no": {
     "title": "Fjern posisjonsmetadata i ByteWave",
@@ -45,9 +45,9 @@
     "visibleP": "Fjerning av metadata skjuler ikke gateskilt, oppleste adresser eller synlige steder. Les også",
     "emojiLink": "Beskytter en emoji barnets ansikt på Facebook? (på engelsk)",
     "beforeShare": "Sjekk før deling",
-    "locationLink": "synlige og hørbare stedstegn (på engelsk)",
+    "locationLink": "synlige og hørbare stedstegn",
     "and": "og",
-    "evidenceLink": "hvordan fjerning av metadata påvirker opprinnelsesbevis (på engelsk)"
+    "evidenceLink": "hvordan fjerning av metadata påvirker opprinnelsesbevis"
   },
   "fi": {
     "title": "Poista sijainnin metatiedot ByteWavessa",
@@ -70,9 +70,9 @@
     "visibleP": "Metatietojen poisto ei piilota katukylttejä, ääneen sanottuja osoitteita tai kuvassa näkyviä paikkoja. Lue myös",
     "emojiLink": "Suojaako emoji lapsesi kasvot Facebookissa? (englanniksi)",
     "beforeShare": "Tarkista ennen jakamista",
-    "locationLink": "kuvassa ja äänessä näkyvät sijaintivihjeet (englanniksi)",
+    "locationLink": "kuvassa ja äänessä näkyvät sijaintivihjeet",
     "and": "sekä",
-    "evidenceLink": "metatietojen poiston vaikutus alkuperäistodisteisiin (englanniksi)"
+    "evidenceLink": "metatietojen poiston vaikutus alkuperäistodisteisiin"
   },
   "pl": {
     "title": "Usuń metadane lokalizacji w ByteWave",
@@ -95,9 +95,9 @@
     "visibleP": "Usunięcie metadanych nie ukryje znaków ulicznych, wypowiedzianych adresów ani widocznych miejsc. Czytaj też",
     "emojiLink": "Czy emoji chroni twarz dziecka na Facebooku? (po angielsku)",
     "beforeShare": "Przed udostępnieniem sprawdź",
-    "locationLink": "widoczne i słyszalne wskazówki lokalizacji (po angielsku)",
+    "locationLink": "widoczne i słyszalne wskazówki lokalizacji",
     "and": "oraz",
-    "evidenceLink": "znaczenie usuwania metadanych dla dowodów pochodzenia (po angielsku)"
+    "evidenceLink": "znaczenie usuwania metadanych dla dowodów pochodzenia"
   },
   "tr": {
     "title": "ByteWave'de konum metaverilerini kaldırma",
@@ -120,9 +120,9 @@
     "visibleP": "Metaveri silmek sokak levhalarını, söylenen adresleri veya görünen yerleri gizlemez. Ayrıca okuyun:",
     "emojiLink": "Facebook'ta emoji çocuğunuzun yüzünü korur mu? (İngilizce)",
     "beforeShare": "Paylaşmadan önce kontrol edin:",
-    "locationLink": "görüntü ve seste konum ipuçları (İngilizce)",
+    "locationLink": "görüntü ve seste konum ipuçları",
     "and": "ve",
-    "evidenceLink": "metaveri silmenin köken kanıtlarına etkisi (İngilizce)"
+    "evidenceLink": "metaveri silmenin köken kanıtlarına etkisi"
   },
   "uk": {
     "title": "Видалення метаданих місця зйомки в ByteWave",
@@ -145,9 +145,9 @@
     "visibleP": "Видалення метаданих не приховує дорожні знаки, озвучені адреси чи видимі місця. Читайте також",
     "emojiLink": "Чи захищає емодзі обличчя дитини у Facebook? (англійською)",
     "beforeShare": "Перед поширенням перевірте",
-    "locationLink": "видимі та чутні підказки про місце (англійською)",
+    "locationLink": "видимі та чутні підказки про місце",
     "and": "та",
-    "evidenceLink": "вплив видалення метаданих на докази походження (англійською)"
+    "evidenceLink": "вплив видалення метаданих на докази походження"
   },
   "ja": {
     "title": "ByteWaveで位置情報メタデータを削除する",
@@ -170,9 +170,9 @@
     "visibleP": "メタデータを消しても標識、口にした住所、映っている場所は隠せません。関連記事：",
     "emojiLink": "Facebookの絵文字は子どもの顔を守れる？（英語）",
     "beforeShare": "共有前に",
-    "locationLink": "映像と音声に含まれる位置情報の手がかり（英語）",
+    "locationLink": "映像と音声に含まれる位置情報の手がかり",
     "and": "と",
-    "evidenceLink": "メタデータ削除が来歴の証拠に及ぼす影響（英語）"
+    "evidenceLink": "メタデータ削除が来歴の証拠に及ぼす影響"
   },
   "ko": {
     "title": "ByteWave에서 위치 메타데이터 제거하기",
@@ -195,9 +195,9 @@
     "visibleP": "메타데이터를 지워도 도로 표지판, 말로 언급한 주소나 영상에 보이는 장소는 가려지지 않습니다. 관련 글:",
     "emojiLink": "Facebook의 이모지는 아이의 얼굴을 보호할까요? (영어)",
     "beforeShare": "공유하기 전에",
-    "locationLink": "화면과 소리 속 위치 단서(영어)",
+    "locationLink": "화면과 소리 속 위치 단서",
     "and": "와",
-    "evidenceLink": "메타데이터 제거가 출처 증거에 미치는 영향(영어)"
+    "evidenceLink": "메타데이터 제거가 출처 증거에 미치는 영향"
   },
   "zh-Hant": {
     "title": "在 ByteWave 移除位置中繼資料",
@@ -220,8 +220,8 @@
     "visibleP": "移除中繼資料無法隱藏路牌、口述地址或畫面中可見的地點。延伸閱讀：",
     "emojiLink": "Facebook 的表情符號能保護孩子的臉嗎？（英文）",
     "beforeShare": "分享前請檢查",
-    "locationLink": "影像與聲音中的位置線索（英文）",
+    "locationLink": "影像與聲音中的位置線索",
     "and": "及",
-    "evidenceLink": "移除中繼資料對來源證據的影響（英文）"
+    "evidenceLink": "移除中繼資料對來源證據的影響"
   }
 }

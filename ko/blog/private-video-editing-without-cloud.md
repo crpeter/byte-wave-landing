@@ -44,7 +44,7 @@ ByteWave는 작업용 사본에서 수정 가능한 메타데이터를 제거할
 
 {% include localized-guide-cta.html %}
 
-관련 글(영어): [사진과 동영상에서 알 수 있는 정보](/blog/can-photos-videos-reveal-your-address.html) · [CapCut과 클라우드 업로드](/blog/capcut-privacy-video-upload.html).
+[사진과 동영상에서 알 수 있는 정보](/ko/blog/can-photos-videos-reveal-your-address.html) · [CapCut과 클라우드 업로드](/blog/capcut-privacy-video-upload.html) (영문 기사).
 
 직접 시험해 보세요: [비행기 모드에서 편집하고 내보내기(영어)](/blog/offline-video-editor-airplane-mode-test.html).
 

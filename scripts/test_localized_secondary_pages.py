@@ -239,6 +239,42 @@ for lang, slug in {"en": "", **LOCALES}.items():
         else:
             assert 'href="https://www.oversightboard.com/news/meta-must-do-more-against-harmful-deepfakes-containing-hate-speech/"' in article
             assert 'href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html"' in article
-        if slug:
-            assert article.count('hreflang="en"') == 1, (lang, name)
+        related = "check-ai-video-without-uploading" if name == missing_label else "can-photos-videos-reveal-your-address"
+        assert f'href="{prefix}/blog/{related}.html"' in article, (lang, name)
 print("Verified both AI-label guides in all 17 languages, including citations, study figures and related guides.")
+
+# Check the complete article body and resolve each source link across editions.
+article_counts = {
+    "check-ai-video-without-uploading": (3, 11, 3),
+    "can-photos-videos-reveal-your-address": (3, 8, 6),
+    "photo-access-ai-privacy-inferences": (2, 12, 0),
+    "content-credentials-privacy": (3, 12, 3),
+    "ai-training-creator-consent": (2, 9, 0),
+    "chatgpt-fake-artist-signatures": (2, 13, 0),
+    "chatgpt-image-generation-ads": (2, 11, 0),
+    "google-photos-ai-memories-dont-need-fixing": (2, 13, 0),
+}
+for name, counts in article_counts.items():
+    path = Path("blog") / f"{name}.html"
+    original = (RENDERED / path).read_text().split("<article>")[1].split("</article>")[0]
+    links = re.findall(r'<a [^>]*href="([^"]+)"', original)
+    for lang, slug in LOCALES.items():
+        rendered = (RENDERED / slug / path).read_text()
+        article = rendered.split("<article>")[1].split("</article>")[0]
+        assert tuple(article.count(f"</{tag}>") for tag in ("h2", "p", "li")) == counts, (lang, name)
+        assert original.split('<time datetime="')[1].split('"')[0] in article
+        assert 'class="disclosure ai-disclosure"' in article and article != original
+        expected = []
+        for link in links:
+            if link.startswith("/"):
+                target = RENDERED / link.strip("/")
+                if target.is_dir():
+                    target = target / "index.html"
+                alternate = re.search(r'<link rel="alternate" hreflang="' + lang + r'" href="([^"]+)"', target.read_text())
+                if alternate:
+                    link = urlsplit(alternate[1]).path
+                else:
+                    assert f'href="{link}" hreflang="en"' in article, (lang, name, link)
+            expected.append(link)
+        assert re.findall(r'<a [^>]*href="([^"]+)"', article) == expected, (lang, name)
+print("Verified 128 translated articles, paragraph and list counts, citations and related reading.")

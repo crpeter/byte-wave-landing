@@ -44,7 +44,7 @@ ByteWave може видалити редаговані метадані з ро
 
 {% include localized-guide-cta.html %}
 
-Читайте також (англійською): [Що можна дізнатися з фото або відео](/blog/can-photos-videos-reveal-your-address.html) · [CapCut і хмарні завантаження](/blog/capcut-privacy-video-upload.html).
+[Що можна дізнатися з фото або відео](/uk/blog/can-photos-videos-reveal-your-address.html) · [CapCut і хмарні завантаження](/blog/capcut-privacy-video-upload.html) (Стаття англійською).
 
 Спробуйте самі: [монтаж та експорт відео в режимі польоту (англійською)](/blog/offline-video-editor-airplane-mode-test.html).
 

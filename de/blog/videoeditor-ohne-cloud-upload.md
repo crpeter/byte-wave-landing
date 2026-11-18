@@ -46,7 +46,7 @@ Prüfe auch Bild und Ton: Straßenschilder oder eine gesprochene Adresse können
 
 {% include localized-guide-cta.html %}
 
-Weitere Informationen (Englisch): [Was Fotos und Videos verraten können](/blog/can-photos-videos-reveal-your-address.html) · [CapCut und Cloud-Uploads](/blog/capcut-privacy-video-upload.html).
+[Was Fotos und Videos verraten können](/de/blog/can-photos-videos-reveal-your-address.html) · [CapCut und Cloud-Uploads](/blog/capcut-privacy-video-upload.html) (Artikel auf Englisch).
 
 Teste es selbst: [Video im Flugmodus bearbeiten und exportieren (Englisch)](/blog/offline-video-editor-airplane-mode-test.html).
 

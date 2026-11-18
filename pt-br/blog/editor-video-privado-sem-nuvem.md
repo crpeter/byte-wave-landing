@@ -44,7 +44,7 @@ Confira também a imagem e o áudio. Uma placa com o nome de uma rua ou um ender
 
 {% include localized-guide-cta.html %}
 
-Para saber mais (em inglês): [o que fotos e vídeos podem revelar](/blog/can-photos-videos-reveal-your-address.html) · [CapCut e uploads para a nuvem](/blog/capcut-privacy-video-upload.html).
+[o que fotos e vídeos podem revelar](/pt-br/blog/can-photos-videos-reveal-your-address.html) · [CapCut e uploads para a nuvem](/blog/capcut-privacy-video-upload.html) (Artigo em inglês).
 
 Faça o teste: [edite e exporte um vídeo em modo avião (em inglês)](/blog/offline-video-editor-airplane-mode-test.html).
 

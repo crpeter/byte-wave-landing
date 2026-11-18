@@ -44,7 +44,7 @@ Sprawdź też obraz i dźwięk: nazwa ulicy lub wypowiedziany adres mogą zdradz
 
 {% include localized-guide-cta.html %}
 
-Czytaj dalej (po angielsku): [Co można wywnioskować ze zdjęcia lub filmu](/blog/can-photos-videos-reveal-your-address.html) · [CapCut i przesyłanie do chmury](/blog/capcut-privacy-video-upload.html).
+[Co można wywnioskować ze zdjęcia lub filmu](/pl/blog/can-photos-videos-reveal-your-address.html) · [CapCut i przesyłanie do chmury](/blog/capcut-privacy-video-upload.html) (Artykuł po angielsku).
 
 Przetestuj samodzielnie: [montaż i eksport filmu w trybie samolotowym (po angielsku)](/blog/offline-video-editor-airplane-mode-test.html).
 
