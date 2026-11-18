@@ -185,3 +185,32 @@ for lang, slug in {"en": "", **LOCALES}.items():
         assert f'href="#{key}"' in rendered and f'id="{key}"' in rendered and section["title"] in unescape(rendered)
     assert all(f"ct=blog_{campaign}" in rendered for campaign in ("edit_videos", "check_ai_media", "protect_your_privacy"))
 print(f"Verified {len(entries)} ordered blog cards in {len(LOCALES)+1} languages.")
+
+# The opinion pieces distinguish generated scenes from edits and identify
+# whose experience is being reported. Keep their evidence and next steps intact.
+editorials = {
+    "when-ai-filters-change-what-happened": (
+        2, 9, "2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/", "blog_ai_filters"
+    ),
+    "facebook-ai-labels-filters-generated-images": (
+        3, 11, "2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/", "blog_facebook_ai_labels"
+    ),
+}
+for lang, slug in {"en": "", **LOCALES}.items():
+    prefix = f"/{slug}" if slug else ""
+    for article_slug, (headings, paragraphs, source, campaign) in editorials.items():
+        path = f"/blog/{article_slug}.html"
+        rendered = (RENDERED / slug / path.lstrip("/")).read_text()
+        article = rendered.split("<article>", 1)[1].split("</article>", 1)[0]
+        body = article.split('<p class="lead">', 1)[1].split('<p><a class="button"', 1)[0]
+        assert body.count("</p>") == paragraphs and body.count("<h2>") == headings, (lang, path)
+        assert f'href="https://about.fb.com/news/{source}"' in body, (lang, path)
+        assert f'href="{prefix}/tutorials/check-c2pa-content-credentials/"' in body, (lang, path)
+        if article_slug == "when-ai-filters-change-what-happened":
+            assert f'href="{prefix}/blog/facebook-ai-labels-filters-generated-images.html"' in body, lang
+        assert f"ct={campaign}&amp;mt=8" in article, (lang, path)
+        schema = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', rendered, re.S)[1])
+        post = next(node for node in schema["@graph"] if node["@type"] == "BlogPosting")
+        assert post["inLanguage"] == lang and post["datePublished"] == post["dateModified"] == "2026-10-06"
+        assert post["image"] == f"https://bytewaveai.com/assets/social/{article_slug}.jpg"
+print("Verified 34 editorial articles, source links, local reading paths, dates and original artwork.")
