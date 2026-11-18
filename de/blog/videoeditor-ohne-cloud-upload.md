@@ -48,6 +48,6 @@ Prüfe auch Bild und Ton: Straßenschilder oder eine gesprochene Adresse können
 
 [Was Fotos und Videos verraten können](/de/blog/can-photos-videos-reveal-your-address.html) · [CapCut und Cloud-Uploads](/de/blog/capcut-privacy-video-upload.html).
 
-Teste es selbst: [Video im Flugmodus bearbeiten und exportieren (Englisch)](/blog/offline-video-editor-airplane-mode-test.html).
+Teste es selbst: [Video im Flugmodus bearbeiten und exportieren](/de/blog/offline-video-editor-airplane-mode-test.html).
 
 Ein Vergleich: [ByteWave und VN (Englisch)](/blog/bytewave-vs-vn-video-editor-2026.html) zu lokaler Bearbeitung, App-Store-Datenschutzangaben und nativer Untertitelübersetzung.

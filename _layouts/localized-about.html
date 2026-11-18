@@ -62,7 +62,7 @@
     {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
     <li><a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ a.privacy | escape }}</a></li>
     <li><a href="{{ press_page.url | relative_url }}">{{ a.press | escape }}</a></li>
-    <li><a href="/blog/how-bytewave-feed-works-without-server-watch-history.html" hreflang="en">{{ a.feed | escape }}</a></li>
+    <li><a href="{{ home.url | relative_url }}blog/how-bytewave-feed-works-without-server-watch-history.html">{{ a.feed | escape }}</a></li>
     <li><a href="/blog/provenance.html" hreflang="en">{{ a.provenance | escape }}</a></li>
   </ul>
 </article></main>

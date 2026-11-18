@@ -245,6 +245,14 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "offline-video-editor-airplane-mode-test": (4, 14, 4),
+    "adobe-venezuela-creative-cloud-access": (3, 13, 3),
+    "google-nest-cloud-features-end-support": (3, 13, 3),
+    "europe-digital-sovereignty-cloud-dependence": (3, 14, 0),
+    "payment-processors-itch-io-content-control": (3, 13, 0),
+    "how-bytewave-feed-works-without-server-watch-history": (8, 10, 4),
+    "x-free-speech-account-control": (3, 16, 0),
+    "tiktok-us-deal-bytedance-china-ties": (4, 12, 3),
     "meta-muse-shared-chats-exposed": (3, 13, 0),
     "meta-muse-profiles-people-who-never-signed-up": (3, 14, 0),
     "disconnect-meta-muse": (4, 11, 0),
@@ -285,6 +293,10 @@ for name, counts in article_counts.items():
         if name == "keep-ai-out-of-the-classroom":
             for figure in ("48", "17"):
                 assert re.search(rf"(?:{figure}\s*[%％]|[%％]{figure})", article), (lang, figure)
+        if name == "how-bytewave-feed-works-without-server-watch-history":
+            assert article.count('role="listitem"') == 4 and "Firebase Authentication" in article, lang
+        if name == "tiktok-us-deal-bytedance-china-ties":
+            assert re.search(r"(?:19[.,]9\s*[%％]|[%％]19[.,]9)", article), lang
         expected = []
         for link in links:
             if link.startswith("/"):

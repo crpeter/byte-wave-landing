@@ -46,6 +46,6 @@ ByteWaveは作業用コピーから編集可能なメタデータを削除でき
 
 [写真や動画からわかること](/ja/blog/can-photos-videos-reveal-your-address.html) · [CapCutとクラウドへのアップロード](/ja/blog/capcut-privacy-video-upload.html)。
 
-試してみる：[機内モードで動画を編集して書き出す（英語）](/blog/offline-video-editor-airplane-mode-test.html)。
+試してみる：[機内モードで動画を編集して書き出す](/ja/blog/offline-video-editor-airplane-mode-test.html)。
 
 プライバシーを比較：[ByteWaveとVNの比較（英語）](/blog/bytewave-vs-vn-video-editor-2026.html)。端末内編集、App Storeのプライバシー表示、Apple標準の字幕翻訳を紹介します。

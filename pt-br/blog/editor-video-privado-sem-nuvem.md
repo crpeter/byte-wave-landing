@@ -46,6 +46,6 @@ Confira também a imagem e o áudio. Uma placa com o nome de uma rua ou um ender
 
 [o que fotos e vídeos podem revelar](/pt-br/blog/can-photos-videos-reveal-your-address.html) · [CapCut e uploads para a nuvem](/pt-br/blog/capcut-privacy-video-upload.html).
 
-Faça o teste: [edite e exporte um vídeo em modo avião (em inglês)](/blog/offline-video-editor-airplane-mode-test.html).
+Faça o teste: [edite e exporte um vídeo em modo avião](/pt-br/blog/offline-video-editor-airplane-mode-test.html).
 
 Comparando privacidade? Leia [ByteWave vs. VN (em inglês)](/blog/bytewave-vs-vn-video-editor-2026.html) sobre edição local, rótulos de privacidade da App Store e tradução nativa de legendas.

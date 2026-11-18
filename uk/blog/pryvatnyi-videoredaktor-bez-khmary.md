@@ -46,6 +46,6 @@ ByteWave може видалити редаговані метадані з ро
 
 [Що можна дізнатися з фото або відео](/uk/blog/can-photos-videos-reveal-your-address.html) · [CapCut і хмарні завантаження](/uk/blog/capcut-privacy-video-upload.html).
 
-Спробуйте самі: [монтаж та експорт відео в режимі польоту (англійською)](/blog/offline-video-editor-airplane-mode-test.html).
+Спробуйте самі: [монтаж та експорт відео в режимі польоту](/uk/blog/offline-video-editor-airplane-mode-test.html).
 
 Порівняйте конфіденційність: [ByteWave і VN (англійською)](/blog/bytewave-vs-vn-video-editor-2026.html) про локальний монтаж, позначки конфіденційності App Store й вбудований переклад субтитрів.

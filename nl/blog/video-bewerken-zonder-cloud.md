@@ -46,6 +46,6 @@ Controleer ook het beeld en geluid. Een straatnaam of uitgesproken adres kan je 
 
 [Wat foto's en video's kunnen verraden](/nl/blog/can-photos-videos-reveal-your-address.html) · [CapCut en clouduploads](/nl/blog/capcut-privacy-video-upload.html).
 
-Probeer het zelf: [een video monteren en exporteren in vliegtuigmodus (Engels)](/blog/offline-video-editor-airplane-mode-test.html).
+Probeer het zelf: [een video monteren en exporteren in vliegtuigmodus](/nl/blog/offline-video-editor-airplane-mode-test.html).
 
 Privacy vergelijken? [ByteWave versus VN (Engels)](/blog/bytewave-vs-vn-video-editor-2026.html) vergelijkt lokale bewerking, App Store-privacylabels en native ondertitelvertaling.

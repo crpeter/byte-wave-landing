@@ -46,6 +46,6 @@ Sprawdź też obraz i dźwięk: nazwa ulicy lub wypowiedziany adres mogą zdradz
 
 [Co można wywnioskować ze zdjęcia lub filmu](/pl/blog/can-photos-videos-reveal-your-address.html) · [CapCut i przesyłanie do chmury](/pl/blog/capcut-privacy-video-upload.html).
 
-Przetestuj samodzielnie: [montaż i eksport filmu w trybie samolotowym (po angielsku)](/blog/offline-video-editor-airplane-mode-test.html).
+Przetestuj samodzielnie: [montaż i eksport filmu w trybie samolotowym](/pl/blog/offline-video-editor-airplane-mode-test.html).
 
 Porównaj prywatność: [ByteWave a VN (po angielsku)](/blog/bytewave-vs-vn-video-editor-2026.html) o montażu lokalnym, etykietach prywatności App Store i natywnym tłumaczeniu napisów.
