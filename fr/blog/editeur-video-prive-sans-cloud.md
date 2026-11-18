@@ -30,7 +30,7 @@ L’identification automatique facultative des contenus aide les autres utilisat
 
 ## Faut-il créer un compte ?
 
-Non. Aucun compte n’est nécessaire pour monter ou exporter une vidéo. Les profils et les fonctions sociales restent facultatifs. [Commencer sans compte (en anglais)](/blog/edit-videos-no-account-iphone.html).
+Non. Aucun compte n’est nécessaire pour monter ou exporter une vidéo. Les profils et les fonctions sociales restent facultatifs. [Commencer sans compte](/fr/blog/edit-videos-no-account-iphone.html).
 
 ## Y a-t-il un abonnement ou un filigrane ?
 
@@ -44,7 +44,7 @@ Vérifiez aussi l’image et le son : un panneau de rue ou une adresse prononcé
 
 {% include localized-guide-cta.html %}
 
-[ce que peut révéler une photo ou une vidéo](/fr/blog/can-photos-videos-reveal-your-address.html) · [CapCut et les fichiers envoyés dans le cloud](/blog/capcut-privacy-video-upload.html) (Article en anglais).
+[ce que peut révéler une photo ou une vidéo](/fr/blog/can-photos-videos-reveal-your-address.html) · [CapCut et les fichiers envoyés dans le cloud](/fr/blog/capcut-privacy-video-upload.html).
 
 Faites l’essai : [montez et exportez une vidéo en mode avion (en anglais)](/blog/offline-video-editor-airplane-mode-test.html).
 

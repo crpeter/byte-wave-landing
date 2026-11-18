@@ -129,7 +129,7 @@
     <p>{{ d.lockedP | escape }}</p>
     <p>{{ d.photosP | escape }}</p>
     <p>{{ d.credentialsP | escape }}</p>
-    <p>{{ d.visibleP | escape }} <a href="/blog/does-emoji-protect-child-face-facebook.html" hreflang="en">{{ d.emojiLink | escape }}</a>.</p>
+    <p>{{ d.visibleP | escape }} <a href="{{ home.url | relative_url }}blog/does-emoji-protect-child-face-facebook.html">{{ d.emojiLink | escape }}</a>.</p>
     <p>{{ d.beforeShare | escape }} <a href="{{ home.url | relative_url }}blog/can-photos-videos-reveal-your-address.html">{{ d.locationLink | escape }}</a> {{ d.and | escape }} <a href="{{ home.url | relative_url }}blog/does-removing-metadata-remove-ai-labels.html">{{ d.evidenceLink | escape }}</a>.</p>
   {% endif %}
 </article>

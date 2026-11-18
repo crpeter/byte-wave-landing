@@ -245,6 +245,14 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "meta-ray-ban-glasses-unwanted-recordings": (3, 11, 0),
+    "tiktok-ai-avatars-product-ads": (2, 11, 3),
+    "youtube-likeness-detection-privacy": (3, 11, 3),
+    "does-emoji-protect-child-face-facebook": (1, 13, 0),
+    "turn-off-youtube-automatic-dubbing": (4, 12, 3),
+    "disable-youtube-ai-remix": (3, 11, 4),
+    "capcut-privacy-video-upload": (3, 11, 0),
+    "edit-videos-no-account-iphone": (6, 12, 4),
     "check-ai-video-without-uploading": (3, 11, 3),
     "can-photos-videos-reveal-your-address": (3, 8, 6),
     "photo-access-ai-privacy-inferences": (2, 12, 0),
@@ -267,14 +275,15 @@ for name, counts in article_counts.items():
         expected = []
         for link in links:
             if link.startswith("/"):
-                target = RENDERED / link.strip("/")
+                link_path, separator, fragment = link.partition("#")
+                target = RENDERED / link_path.strip("/")
                 if target.is_dir():
                     target = target / "index.html"
                 alternate = re.search(r'<link rel="alternate" hreflang="' + lang + r'" href="([^"]+)"', target.read_text())
                 if alternate:
-                    link = urlsplit(alternate[1]).path
+                    link = urlsplit(alternate[1]).path + separator + fragment
                 else:
                     assert f'href="{link}" hreflang="en"' in article, (lang, name, link)
             expected.append(link)
         assert re.findall(r'<a [^>]*href="([^"]+)"', article) == expected, (lang, name)
-print("Verified 128 translated articles, paragraph and list counts, citations and related reading.")
+print(f"Verified {len(article_counts) * len(LOCALES)} translated articles, paragraph and list counts, citations and related reading.")

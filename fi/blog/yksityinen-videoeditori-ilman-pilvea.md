@@ -30,7 +30,7 @@ Valinnaiset automaattiset tunnisteet auttavat muita löytämään jakamasi video
 
 ## Tarvitsenko tilin?
 
-Et. Voit muokata ja viedä videoita rekisteröitymättä. Profiilit ja sosiaaliset ominaisuudet ovat valinnaisia. [Aloita ilman tiliä (englanniksi)](/blog/edit-videos-no-account-iphone.html).
+Et. Voit muokata ja viedä videoita rekisteröitymättä. Profiilit ja sosiaaliset ominaisuudet ovat valinnaisia. [Aloita ilman tiliä](/fi/blog/edit-videos-no-account-iphone.html).
 
 ## Onko tilausmaksua tai vesileimaa?
 
@@ -44,7 +44,7 @@ Tarkista myös kuva ja ääni: kadunnimi tai ääneen sanottu osoite voi paljast
 
 {% include localized-guide-cta.html %}
 
-[Mitä kuva tai video voi paljastaa](/fi/blog/can-photos-videos-reveal-your-address.html) · [CapCut ja pilvilataukset](/blog/capcut-privacy-video-upload.html) (Artikkeli englanniksi).
+[Mitä kuva tai video voi paljastaa](/fi/blog/can-photos-videos-reveal-your-address.html) · [CapCut ja pilvilataukset](/fi/blog/capcut-privacy-video-upload.html).
 
 Kokeile itse: [muokkaa ja vie video lentotilassa (englanniksi)](/blog/offline-video-editor-airplane-mode-test.html).
 

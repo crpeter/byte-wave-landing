@@ -30,7 +30,7 @@ Valfria automatiska taggar hjälper andra att hitta videor du delar. Även de an
 
 ## Behöver jag ett konto?
 
-Nej. Du behöver inte registrera dig för att redigera eller exportera. Profiler och sociala funktioner är frivilliga. [Kom igång utan konto (på engelska)](/blog/edit-videos-no-account-iphone.html).
+Nej. Du behöver inte registrera dig för att redigera eller exportera. Profiler och sociala funktioner är frivilliga. [Kom igång utan konto](/sv/blog/edit-videos-no-account-iphone.html).
 
 ## Finns det prenumerationer eller vattenstämplar?
 
@@ -44,7 +44,7 @@ Kontrollera också bild och ljud. En gatuskylt eller uttalad adress kan avslöja
 
 {% include localized-guide-cta.html %}
 
-[Vad en bild eller video kan avslöja](/sv/blog/can-photos-videos-reveal-your-address.html) · [CapCut och molnuppladdningar](/blog/capcut-privacy-video-upload.html) (Artikel på engelska).
+[Vad en bild eller video kan avslöja](/sv/blog/can-photos-videos-reveal-your-address.html) · [CapCut och molnuppladdningar](/sv/blog/capcut-privacy-video-upload.html).
 
 Testa själv: [redigera och exportera i flygplansläge (på engelska)](/blog/offline-video-editor-airplane-mode-test.html).
 

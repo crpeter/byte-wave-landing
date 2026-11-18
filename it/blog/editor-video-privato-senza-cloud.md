@@ -30,7 +30,7 @@ I tag automatici facoltativi aiutano gli altri a scoprire i video che pubblichi.
 
 ## Devo creare un account?
 
-No. Nessun account è richiesto per modificare o esportare. Profili e funzioni social sono facoltativi. [Come iniziare senza registrarsi (in inglese)](/blog/edit-videos-no-account-iphone.html).
+No. Nessun account è richiesto per modificare o esportare. Profili e funzioni social sono facoltativi. [Come iniziare senza registrarsi](/it/blog/edit-videos-no-account-iphone.html).
 
 ## C'è un abbonamento o una filigrana?
 
@@ -44,7 +44,7 @@ Controlla anche immagini e audio: un cartello stradale o un indirizzo pronunciat
 
 {% include localized-guide-cta.html %}
 
-[cosa può rivelare una foto o un video](/it/blog/can-photos-videos-reveal-your-address.html) · [CapCut e il caricamento nel cloud](/blog/capcut-privacy-video-upload.html) (Articolo in inglese).
+[cosa può rivelare una foto o un video](/it/blog/can-photos-videos-reveal-your-address.html) · [CapCut e il caricamento nel cloud](/it/blog/capcut-privacy-video-upload.html).
 
 Prova tu stesso: [monta ed esporta un video in modalità aereo (in inglese)](/blog/offline-video-editor-airplane-mode-test.html).
 

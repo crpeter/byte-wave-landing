@@ -30,7 +30,7 @@ cta_text: Безкоштовно на iPhone, iPad та Mac із чипом Appl
 
 ## Чи потрібен обліковий запис?
 
-Ні. Для монтажу й експорту реєструватися не потрібно. Профілі та соціальні функції необов’язкові. [Як почати без реєстрації (англійською)](/blog/edit-videos-no-account-iphone.html).
+Ні. Для монтажу й експорту реєструватися не потрібно. Профілі та соціальні функції необов’язкові. [Як почати без реєстрації](/uk/blog/edit-videos-no-account-iphone.html).
 
 ## Є підписка або водяний знак?
 
@@ -44,7 +44,7 @@ ByteWave може видалити редаговані метадані з ро
 
 {% include localized-guide-cta.html %}
 
-[Що можна дізнатися з фото або відео](/uk/blog/can-photos-videos-reveal-your-address.html) · [CapCut і хмарні завантаження](/blog/capcut-privacy-video-upload.html) (Стаття англійською).
+[Що можна дізнатися з фото або відео](/uk/blog/can-photos-videos-reveal-your-address.html) · [CapCut і хмарні завантаження](/uk/blog/capcut-privacy-video-upload.html).
 
 Спробуйте самі: [монтаж та експорт відео в режимі польоту (англійською)](/blog/offline-video-editor-airplane-mode-test.html).
 

@@ -32,7 +32,7 @@ Optionale automatische Tags helfen anderen, veröffentlichte Videos zu entdecken
 
 ## Brauche ich ein Konto?
 
-Nein. Zum Bearbeiten oder Exportieren ist keine Registrierung nötig. Profile und soziale Funktionen sind optional. [Ohne Konto starten (Englisch)](/blog/edit-videos-no-account-iphone.html).
+Nein. Zum Bearbeiten oder Exportieren ist keine Registrierung nötig. Profile und soziale Funktionen sind optional. [Ohne Konto starten](/de/blog/edit-videos-no-account-iphone.html).
 
 ## Gibt es ein Abo oder Wasserzeichen?
 
@@ -46,7 +46,7 @@ Prüfe auch Bild und Ton: Straßenschilder oder eine gesprochene Adresse können
 
 {% include localized-guide-cta.html %}
 
-[Was Fotos und Videos verraten können](/de/blog/can-photos-videos-reveal-your-address.html) · [CapCut und Cloud-Uploads](/blog/capcut-privacy-video-upload.html) (Artikel auf Englisch).
+[Was Fotos und Videos verraten können](/de/blog/can-photos-videos-reveal-your-address.html) · [CapCut und Cloud-Uploads](/de/blog/capcut-privacy-video-upload.html).
 
 Teste es selbst: [Video im Flugmodus bearbeiten und exportieren (Englisch)](/blog/offline-video-editor-airplane-mode-test.html).
 

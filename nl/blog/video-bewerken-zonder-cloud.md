@@ -30,7 +30,7 @@ Optionele automatische tags helpen anderen je gepubliceerde video's te vinden. O
 
 ## Heb ik een account nodig?
 
-Nee. Monteren en exporteren kan zonder account. Profielen en sociale functies zijn optioneel. [Begin zonder registratie (Engels)](/blog/edit-videos-no-account-iphone.html).
+Nee. Monteren en exporteren kan zonder account. Profielen en sociale functies zijn optioneel. [Begin zonder registratie](/nl/blog/edit-videos-no-account-iphone.html).
 
 ## Zijn er abonnementen of watermerken?
 
@@ -44,7 +44,7 @@ Controleer ook het beeld en geluid. Een straatnaam of uitgesproken adres kan je 
 
 {% include localized-guide-cta.html %}
 
-[Wat foto's en video's kunnen verraden](/nl/blog/can-photos-videos-reveal-your-address.html) · [CapCut en clouduploads](/blog/capcut-privacy-video-upload.html) (Artikel in het Engels).
+[Wat foto's en video's kunnen verraden](/nl/blog/can-photos-videos-reveal-your-address.html) · [CapCut en clouduploads](/nl/blog/capcut-privacy-video-upload.html).
 
 Probeer het zelf: [een video monteren en exporteren in vliegtuigmodus (Engels)](/blog/offline-video-editor-airplane-mode-test.html).
 

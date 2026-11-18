@@ -30,7 +30,7 @@ Evet. Önce klipleri cihazınıza indirin. Ardından internet olmadan düzenleyi
 
 ## Hesap açmam gerekir mi?
 
-Hayır. Düzenleme ve dışa aktarma için hesap gerekmez. Profiller ve sosyal özellikler isteğe bağlıdır. [Hesapsız başlayın (İngilizce)](/blog/edit-videos-no-account-iphone.html).
+Hayır. Düzenleme ve dışa aktarma için hesap gerekmez. Profiller ve sosyal özellikler isteğe bağlıdır. [Hesapsız başlayın](/tr/blog/edit-videos-no-account-iphone.html).
 
 ## Abonelik veya filigran var mı?
 
@@ -44,7 +44,7 @@ Görüntü ve sesi de kontrol edin. Sokak tabelası veya sesli söylenen adres, 
 
 {% include localized-guide-cta.html %}
 
-[Bir fotoğraf veya video neleri açığa çıkarabilir?](/tr/blog/can-photos-videos-reveal-your-address.html) · [CapCut ve bulut yüklemeleri](/blog/capcut-privacy-video-upload.html) (İngilizce makale).
+[Bir fotoğraf veya video neleri açığa çıkarabilir?](/tr/blog/can-photos-videos-reveal-your-address.html) · [CapCut ve bulut yüklemeleri](/tr/blog/capcut-privacy-video-upload.html).
 
 Kendiniz deneyin: [Uçak modunda video düzenleyin ve dışa aktarın (İngilizce)](/blog/offline-video-editor-airplane-mode-test.html).
 
