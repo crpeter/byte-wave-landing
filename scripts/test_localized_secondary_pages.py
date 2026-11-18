@@ -245,6 +245,14 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "meta-muse-shared-chats-exposed": (3, 13, 0),
+    "meta-muse-profiles-people-who-never-signed-up": (3, 14, 0),
+    "disconnect-meta-muse": (4, 11, 0),
+    "whatsapp-ai-support-hidden-instructions": (4, 14, 0),
+    "facebook-camera-roll-unposted-photos": (2, 14, 0),
+    "meta-ai-chats-feed-ads-personalization": (2, 13, 0),
+    "keep-ai-out-of-the-classroom": (0, 8, 0),
+    "the-ai-teacher-was-wrong": (0, 7, 0),
     "meta-ray-ban-glasses-unwanted-recordings": (3, 11, 0),
     "tiktok-ai-avatars-product-ads": (2, 11, 3),
     "youtube-likeness-detection-privacy": (3, 11, 3),
@@ -272,6 +280,11 @@ for name, counts in article_counts.items():
         assert tuple(article.count(f"</{tag}>") for tag in ("h2", "p", "li")) == counts, (lang, name)
         assert original.split('<time datetime="')[1].split('"')[0] in article
         assert 'class="disclosure ai-disclosure"' in article and article != original
+        if name == "the-ai-teacher-was-wrong":
+            assert "<em>seventeen</em>" in article and "<strong>seveen</strong>" in article, lang
+        if name == "keep-ai-out-of-the-classroom":
+            for figure in ("48", "17"):
+                assert re.search(rf"(?:{figure}\s*[%％]|[%％]{figure})", article), (lang, figure)
         expected = []
         for link in links:
             if link.startswith("/"):
