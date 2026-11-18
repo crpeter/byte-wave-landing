@@ -17,6 +17,8 @@ const routes = [
  ['privacy','privacy.html'], ['tutorials','tutorials/'], ['gallery','gallery/'], ['layout','layout/'],
  ['filters','blog/when-ai-filters-change-what-happened.html'],
  ['labels','blog/facebook-ai-labels-filters-generated-images.html'],
+ ['missing-label','blog/no-ai-label-does-not-mean-real.html'],
+ ['metadata-labels','blog/does-removing-metadata-remove-ai-labels.html'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
  ['metadata','tutorials/remove-location-metadata/'],
  ['motion','tutorials/motion-blur/'],
