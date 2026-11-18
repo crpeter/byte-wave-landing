@@ -215,3 +215,30 @@ for lang, slug in {"en": "", **LOCALES}.items():
         assert post["dateModified"] == ("2026-10-06" if lang == "en" else "2026-11-18")
         assert post["image"] == f"https://bytewaveai.com/assets/social/{article_slug}.jpg"
 print("Verified 34 editorial articles, source links, local reading paths, dates and original artwork.")
+
+# Each figure describes a different sample in the same preprint.
+missing_label = "no-ai-label-does-not-mean-real"
+metadata_labels = "does-removing-metadata-remove-ai-labels"
+for lang, slug in {"en": "", **LOCALES}.items():
+    prefix = f"/{slug}" if slug else ""
+    for name, peer, figure, original_date, headings, bullets in (
+        (missing_label, metadata_labels, "33", "2026-09-22", 3, 0),
+        (metadata_labels, missing_label, "61", "2026-10-01", 4, 3),
+    ):
+        rendered = (RENDERED / slug / "blog" / f"{name}.html").read_text()
+        article = rendered.split("<article>", 1)[1].split("</article>", 1)[0]
+        assert article.count("<h2>") == headings and article.count("<li>") == bullets, (lang, name)
+        assert re.search(rf"(?:{figure}\s*%|%{figure})", article), (lang, name)
+        assert 'href="https://arxiv.org/abs/2609.38571"' in article
+        assert f'href="{prefix}/blog/{peer}.html"' in article
+        assert f'href="{prefix}/tutorials/check-c2pa-content-credentials/"' in article
+        assert f'<time datetime="{original_date}">' in article and '<time datetime="2026-10-07">' in article
+        if name == metadata_labels:
+            assert 'href="https://c2pa.org/faqs/"' in article
+            assert f'href="{prefix}/tutorials/remove-location-metadata/"' in article
+        else:
+            assert 'href="https://www.oversightboard.com/news/meta-must-do-more-against-harmful-deepfakes-containing-hate-speech/"' in article
+            assert 'href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html"' in article
+        if slug:
+            assert article.count('hreflang="en"') == 1, (lang, name)
+print("Verified both AI-label guides in all 17 languages, including citations, study figures and related guides.")

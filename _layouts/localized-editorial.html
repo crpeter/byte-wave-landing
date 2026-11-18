@@ -4,7 +4,8 @@
 {%- assign card = b.cards[original_url] -%}
 {%- assign title = card.title -%}
 {%- assign description = page.description | default: card.summary -%}
-{%- assign section = b.tags.opinion -%}
+{%- assign section_tag = page.section_tag | default: 'opinion' -%}
+{%- assign section = b.tags[section_tag] -%}
 {%- assign image = '/assets/social/' | append: page.translation_key | append: '.jpg' | absolute_url -%}
 {%- assign url = page.url | absolute_url -%}
 {%- assign variants = site.pages | where: 'translation_key', page.translation_key | sort: 'lang' -%}
@@ -84,10 +85,12 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 <article>
 <p class="eyebrow">{{ section | escape }}</p>
 <h1>{{ title | escape }}</h1>
-<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time></p>
+<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time>{% if page.source_updated_on %} · {{ page.updated_label | escape }} <time datetime="{{ page.source_updated_on }}">{{ page.display_source_update | escape }}</time>{% endif %}</p>
 <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ page.publisher_note | escape }}</p>
 {{ content }}
+{% unless page.show_article_cta == false %}
 <p><a class="button" href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a></p>
+{% endunless %}
 </article>
 </main>
 {% include localized-footer.html %}
