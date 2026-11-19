@@ -26,7 +26,7 @@ Não. O editor não envia os seus vídeos ou projetos para os servidores do Byte
 
 Sim. Transfira primeiro os clips para o dispositivo. Depois pode editar e exportar offline. As legendas automáticas são geradas no dispositivo, mas poderá ser necessário transferir antes um modelo de voz ou idioma.
 
-A identificação automática opcional ajuda outras pessoas a encontrar vídeos partilhados. Também usa o reconhecimento de voz no dispositivo, sem processamento de reserva num servidor. Leia a [política de privacidade (em inglês)](/privacy.html).
+A identificação automática opcional ajuda outras pessoas a encontrar vídeos partilhados. Também usa o reconhecimento de voz no dispositivo, sem processamento de reserva num servidor. Leia a [política de privacidade](/pt/privacy.html).
 
 ## Preciso de uma conta?
 
@@ -38,7 +38,7 @@ Não. O editor é gratuito e o ByteWave não coloca marcas de água nos vídeos 
 
 ## E os metadados de localização?
 
-O ByteWave pode remover os metadados editáveis da cópia de trabalho. Cada exportação para Fotografias remove os metadados originais e adiciona um selo de proveniência ByteWave. O original não é alterado. [Verificar e remover metadados (em inglês)](/tutorials/remove-location-metadata/).
+O ByteWave pode remover os metadados editáveis da cópia de trabalho. Cada exportação para Fotografias remove os metadados originais e adiciona um selo de proveniência ByteWave. O original não é alterado. [Verificar e remover metadados](/pt/tutorials/remove-location-metadata/).
 
 Verifique também a imagem e o som. Uma placa de rua ou uma morada dita em voz alta podem revelar o local mesmo sem metadados.
 

@@ -26,7 +26,7 @@ El editor no envía tus grabaciones ni tus proyectos a los servidores de ByteWav
 
 Sí. Descarga primero los clips en tu dispositivo. Luego puedes editar y exportar sin internet. Los subtítulos automáticos también se generan en el dispositivo, aunque quizá tengas que descargar antes un modelo de voz o de idioma.
 
-Las etiquetas opcionales que ayudan a otros a encontrar los videos que compartes son una función distinta. También reconocen la voz en el dispositivo, sin recurrir a un servidor. Consulta la [política de privacidad (en inglés)](/privacy.html).
+Las etiquetas opcionales que ayudan a otros a encontrar los videos que compartes son una función distinta. También reconocen la voz en el dispositivo, sin recurrir a un servidor. Consulta la [política de privacidad](/es/privacy.html).
 
 ## ¿Necesito una cuenta?
 
@@ -38,7 +38,7 @@ No. El editor es gratis y ByteWave no añade una marca de agua al video exportad
 
 ## ¿Y los datos de ubicación?
 
-Puedes borrar los metadatos editables de tu copia de trabajo. Además, cada vez que guardas un video en Fotos, ByteWave elimina los metadatos de origen y añade su sello de procedencia. El archivo original queda intacto. [Cómo revisar y borrar los metadatos (en inglés)](/tutorials/remove-location-metadata/).
+Puedes borrar los metadatos editables de tu copia de trabajo. Además, cada vez que guardas un video en Fotos, ByteWave elimina los metadatos de origen y añade su sello de procedencia. El archivo original queda intacto. [Cómo revisar y borrar los metadatos](/es/tutorials/remove-location-metadata/).
 
 Revisa también la imagen y el sonido. Un letrero con el nombre de una calle o una dirección que se oye de fondo pueden revelar el lugar aunque el archivo ya no contenga datos de ubicación.
 

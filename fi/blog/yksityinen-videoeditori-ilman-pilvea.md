@@ -26,7 +26,7 @@ Ei. Editori ei lähetä videoitasi eikä projektejasi ByteWaven palvelimille. Ju
 
 Kyllä. Lataa leikkeet ensin laitteellesi. Sen jälkeen voit muokata ja viedä videoita ilman verkkoyhteyttä. Automaattiset tekstitykset luodaan laitteella, mutta puhe- tai kielimalli saattaa pitää ladata etukäteen.
 
-Valinnaiset automaattiset tunnisteet auttavat muita löytämään jakamasi videot. Myös ne käyttävät laitteen puheentunnistusta ilman palvelinvaraa. Lue [tietosuojakäytäntömme (englanniksi)](/privacy.html).
+Valinnaiset automaattiset tunnisteet auttavat muita löytämään jakamasi videot. Myös ne käyttävät laitteen puheentunnistusta ilman palvelinvaraa. Lue [tietosuojakäytäntömme](/fi/privacy.html).
 
 ## Tarvitsenko tilin?
 
@@ -38,7 +38,7 @@ Ei. Editori on maksuton eikä ByteWave lisää vesileimaa vietyihin videoihin.
 
 ## Entä sijaintimetatiedot?
 
-ByteWave voi poistaa muokattavat metatiedot työkopiosta. Jokainen Kuvat-vienti poistaa alkuperäiset metatiedot ja lisää ByteWaven alkuperäleiman. Alkuperäinen tiedosto säilyy muuttumattomana. [Tarkista ja poista metatiedot (englanniksi)](/tutorials/remove-location-metadata/).
+ByteWave voi poistaa muokattavat metatiedot työkopiosta. Jokainen Kuvat-vienti poistaa alkuperäiset metatiedot ja lisää ByteWaven alkuperäleiman. Alkuperäinen tiedosto säilyy muuttumattomana. [Tarkista ja poista metatiedot](/fi/tutorials/remove-location-metadata/).
 
 Tarkista myös kuva ja ääni: kadunnimi tai ääneen sanottu osoite voi paljastaa sijainnin ilman metatietoja.
 

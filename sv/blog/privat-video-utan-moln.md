@@ -26,7 +26,7 @@ Nej. Redigeraren laddar inte upp dina inspelningar eller projekt till ByteWaves 
 
 Ja. Ladda först ned klippen till enheten. Därefter kan du redigera och exportera utan internet. Automatiska undertexter skapas på enheten, men en tal- eller språkmodell kan behöva laddas ned i förväg.
 
-Valfria automatiska taggar hjälper andra att hitta videor du delar. Även de använder taligenkänning på enheten, utan serverbaserad reservlösning. Läs vår [integritetspolicy (på engelska)](/privacy.html).
+Valfria automatiska taggar hjälper andra att hitta videor du delar. Även de använder taligenkänning på enheten, utan serverbaserad reservlösning. Läs vår [integritetspolicy](/sv/privacy.html).
 
 ## Behöver jag ett konto?
 
@@ -38,7 +38,7 @@ Nej. Redigeraren är gratis och ByteWave lägger inte till vattenstämplar i exp
 
 ## Vad händer med platsmetadata?
 
-ByteWave kan ta bort redigerbara metadata från din arbetskopia. Varje export till Bilder tar bort ursprungliga metadata och lägger till en ByteWave-stämpel för ursprung. Originalet ändras inte. [Kontrollera och ta bort metadata (på engelska)](/tutorials/remove-location-metadata/).
+ByteWave kan ta bort redigerbara metadata från din arbetskopia. Varje export till Bilder tar bort ursprungliga metadata och lägger till en ByteWave-stämpel för ursprung. Originalet ändras inte. [Kontrollera och ta bort metadata](/sv/tutorials/remove-location-metadata/).
 
 Kontrollera också bild och ljud. En gatuskylt eller uttalad adress kan avslöja en plats även utan metadata.
 

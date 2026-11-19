@@ -28,7 +28,7 @@ Nein. Der Editor lädt weder Aufnahmen noch Projekte auf ByteWave-Server hoch. D
 
 Ja. Lade deine Clips zunächst auf das Gerät. Danach kannst du ohne Internetverbindung schneiden und exportieren. Automatische Untertitel entstehen ebenfalls auf dem Gerät; möglicherweise musst du vorher ein Sprachmodell herunterladen.
 
-Optionale automatische Tags helfen anderen, veröffentlichte Videos zu entdecken. Auch sie nutzen Spracherkennung auf dem Gerät, ohne Ausweichverarbeitung auf einem Server. Mehr dazu in unserer [Datenschutzerklärung (Englisch)](/privacy.html).
+Optionale automatische Tags helfen anderen, veröffentlichte Videos zu entdecken. Auch sie nutzen Spracherkennung auf dem Gerät, ohne Ausweichverarbeitung auf einem Server. Mehr dazu in unserer [Datenschutzerklärung](/de/privacy.html).
 
 ## Brauche ich ein Konto?
 
@@ -40,7 +40,7 @@ Nein. Der Editor ist kostenlos und fügt deinen Exporten kein ByteWave-Wasserzei
 
 ## Was passiert mit Standort-Metadaten?
 
-ByteWave kann bearbeitbare Metadaten aus deiner Arbeitskopie entfernen. Jeder Export in Fotos entfernt ursprüngliche Metadaten und fügt einen ByteWave-Herkunftsnachweis hinzu. Die Originaldatei bleibt unverändert. [Metadaten prüfen und entfernen (Englisch)](/tutorials/remove-location-metadata/).
+ByteWave kann bearbeitbare Metadaten aus deiner Arbeitskopie entfernen. Jeder Export in Fotos entfernt ursprüngliche Metadaten und fügt einen ByteWave-Herkunftsnachweis hinzu. Die Originaldatei bleibt unverändert. [Metadaten prüfen und entfernen](/de/tutorials/remove-location-metadata/).
 
 Prüfe auch Bild und Ton: Straßenschilder oder eine gesprochene Adresse können einen Standort selbst ohne Metadaten verraten.
 
