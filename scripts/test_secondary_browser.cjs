@@ -107,6 +107,9 @@ function test(ok, label, result) {
  try {
   await page.context().grantPermissions(['clipboard-read','clipboard-write'], {origin:ORIGIN});
   for (const [lang, slug] of locales) {
+   const tutorialCatalog = JSON.parse(fs.readFileSync(path.join(__dirname, '../_data/tutorial_hub', lang+'.json'), 'utf8'));
+   const expectedTutorialCards = tutorialCatalog.cards.length;
+   assert(expectedTutorialCards > 0, lang+' tutorial catalog must not be empty');
    for (const [kind, route] of routes) {
     for (const size of [{width:1440,height:900},{width:390,height:844},{width:320,height:844}]) {
      await page.setViewportSize(size);
@@ -223,7 +226,7 @@ function test(ok, label, result) {
       }
      }
      if(kind==='tutorials'){
-      test(data.tutorialCards===10&&data.brokenCardBounds.length===0,key+' ten readable tutorial cards',{count:data.tutorialCards,overflow:data.brokenCardBounds});
+      test(data.tutorialCards===expectedTutorialCards&&data.brokenCardBounds.length===0,key+' all catalog tutorial cards are readable',{count:data.tutorialCards,expected:expectedTutorialCards,overflow:data.brokenCardBounds});
      }
      if(kind==='gallery'){
       test(data.galleryVideos===13&&data.mediaLabels===13&&data.missingPoster===0&&data.firstAlt,key+' thirteen intact localized video players',
