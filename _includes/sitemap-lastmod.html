@@ -1,0 +1,5 @@
+{%- assign modified = include.entry.updated_on | default: include.entry.last_modified_at | default: include.entry.published_on -%}
+{%- if include.entry.translation_key == 'layout-guide' -%}
+  {%- assign modified = site.data.layout_guide[include.entry.lang].modified -%}
+{%- endif -%}
+{%- if modified -%}{{ modified | date: '%Y-%m-%d' }}{%- endif -%}
