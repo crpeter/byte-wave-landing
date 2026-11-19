@@ -48,4 +48,4 @@ Görüntü ve sesi de kontrol edin. Sokak tabelası veya sesli söylenen adres, 
 
 Kendiniz deneyin: [Uçak modunda video düzenleyin ve dışa aktarın](/tr/blog/offline-video-editor-airplane-mode-test.html).
 
-Gizlilik karşılaştırması: [ByteWave ve VN (İngilizce)](/blog/bytewave-vs-vn-video-editor-2026.html) cihazda düzenleme, App Store gizlilik etiketleri ve yerel altyazı çevirisini açıklar.
+Gizlilik karşılaştırması: [ByteWave ve VN](/tr/blog/bytewave-vs-vn-video-editor-2026.html) cihazda düzenleme, App Store gizlilik etiketleri ve yerel altyazı çevirisini açıklar.

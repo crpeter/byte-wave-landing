@@ -48,4 +48,4 @@ Verifique também a imagem e o som. Uma placa de rua ou uma morada dita em voz a
 
 Experimente: [editar e exportar um vídeo em modo de avião](/pt/blog/offline-video-editor-airplane-mode-test.html).
 
-Para comparar privacidade, leia [ByteWave vs. VN (em inglês)](/blog/bytewave-vs-vn-video-editor-2026.html) sobre edição local, etiquetas de privacidade na App Store e tradução nativa de legendas.
+Para comparar privacidade, leia [ByteWave vs. VN](/pt/blog/bytewave-vs-vn-video-editor-2026.html) sobre edição local, etiquetas de privacidade na App Store e tradução nativa de legendas.

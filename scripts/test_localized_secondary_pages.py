@@ -402,6 +402,10 @@ for name, counts in article_counts.items():
                     assert f'href="{link}" hreflang="en"' in article, (lang, name, link)
             expected.append(link)
         assert re.findall(r'<a [^>]*href="([^"]+)"', article) == expected, (lang, name)
+        if name == "bytewave-vs-vn-video-editor-2026":
+            privacy_guide = (RENDERED / expected[-1].lstrip("/")).read_text()
+            assert f'href="/{slug}/blog/{name}.html"' in privacy_guide, (lang, "privacy guide comparison link")
+            assert f'href="/blog/{name}.html"' not in privacy_guide, (lang, "English comparison link")
 print(f"Verified {len(article_counts) * len(LOCALES)} translated articles, paragraph and list counts, citations and related reading.")
 
 for lang, slug in LOCALES.items():

@@ -48,4 +48,4 @@ ByteWave는 작업용 사본에서 수정 가능한 메타데이터를 제거할
 
 직접 시험해 보세요: [비행기 모드에서 편집하고 내보내기](/ko/blog/offline-video-editor-airplane-mode-test.html).
 
-개인정보 보호 비교: [ByteWave와 VN(영어)](/blog/bytewave-vs-vn-video-editor-2026.html)에서 로컬 편집, App Store 개인정보 보호 표시 및 기본 자막 번역을 살펴보세요.
+개인정보 보호 비교: [ByteWave와 VN](/ko/blog/bytewave-vs-vn-video-editor-2026.html)에서 로컬 편집, App Store 개인정보 보호 표시 및 기본 자막 번역을 살펴보세요.

@@ -48,4 +48,4 @@ Controlla anche immagini e audio: un cartello stradale o un indirizzo pronunciat
 
 Prova tu stesso: [monta ed esporta un video in modalità aereo](/it/blog/offline-video-editor-airplane-mode-test.html).
 
-Confronta le informative: [ByteWave e VN (in inglese)](/blog/bytewave-vs-vn-video-editor-2026.html) parla di montaggio locale, etichette privacy dell'App Store e traduzione nativa dei sottotitoli.
+Confronta le informative: [ByteWave e VN](/it/blog/bytewave-vs-vn-video-editor-2026.html) parla di montaggio locale, etichette privacy dell'App Store e traduzione nativa dei sottotitoli.

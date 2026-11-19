@@ -48,4 +48,4 @@ ByteWaveは作業用コピーから編集可能なメタデータを削除でき
 
 試してみる：[機内モードで動画を編集して書き出す](/ja/blog/offline-video-editor-airplane-mode-test.html)。
 
-プライバシーを比較：[ByteWaveとVNの比較（英語）](/blog/bytewave-vs-vn-video-editor-2026.html)。端末内編集、App Storeのプライバシー表示、Apple標準の字幕翻訳を紹介します。
+プライバシーを比較：[ByteWaveとVNの比較](/ja/blog/bytewave-vs-vn-video-editor-2026.html)。端末内編集、App Storeのプライバシー表示、Apple標準の字幕翻訳を紹介します。

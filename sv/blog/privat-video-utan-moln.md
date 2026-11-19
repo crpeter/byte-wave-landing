@@ -48,4 +48,4 @@ Kontrollera också bild och ljud. En gatuskylt eller uttalad adress kan avslöja
 
 Testa själv: [redigera och exportera i flygplansläge](/sv/blog/offline-video-editor-airplane-mode-test.html).
 
-Jämför integritet: [ByteWave jämfört med VN (på engelska)](/blog/bytewave-vs-vn-video-editor-2026.html) om lokal redigering, App Store-integritetsetiketter och inbyggd undertextöversättning.
+Jämför integritet: [ByteWave jämfört med VN](/sv/blog/bytewave-vs-vn-video-editor-2026.html) om lokal redigering, App Store-integritetsetiketter och inbyggd undertextöversättning.
