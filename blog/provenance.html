@@ -1,238 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Provenance, Not Prominence - ByteWave</title>
-<meta name="description" content="What ByteWave's signed export provenance can establish about file origin and integrity—and why it cannot prove that a depicted event is real.">
-<meta name="twitter:description" content="What signed export provenance establishes, what it cannot prove, and how it differs from publisher prominence.">
-<link rel="canonical" href="https://bytewaveai.com/blog/provenance.html">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Provenance, Not Prominence - ByteWave">
-<meta property="og:description" content="What signed export provenance establishes, what it cannot prove, and how it differs from publisher prominence.">
-<meta property="og:url" content="https://bytewaveai.com/blog/provenance.html">
-<meta property="og:site_name" content="ByteWave">
-<meta property="og:image" content="https://bytewaveai.com/assets/og-image.jpg">
-<meta name="twitter:image" content="https://bytewaveai.com/assets/og-image.jpg">
-<meta name="twitter:image:alt" content="ByteWave branded social preview">
-<meta property="og:image:alt" content="ByteWave branded social preview">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Provenance, Not Prominence - ByteWave">
-<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
-<link rel="icon" type="image/svg+xml" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Provenance, Not Prominence",
-  "description": "Europe wants to fix misinformation by promoting approved publishers. Cryptographic content provenance is a better answer.",
-  "datePublished":"2026-07-04",
-  "dateModified":"2026-10-18",
-  "author": { "@type": "Organization", "name": "ByteWave" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "ByteWave",
-    "url": "https://bytewaveai.com",
-    "logo": { "@type": "ImageObject", "url": "https://bytewaveai.com/logo.png" }
-  },
-  "mainEntityOfPage": "https://bytewaveai.com/blog/provenance.html"
-}
-</script>
-<style>
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --bg:#08080c;
-  --surface:#101016;
-  --border:rgba(255,255,255,0.06);
-  --text:#d8d6e1;
-  --text-dim:#9390a5;
-  --text-muted:#5c5970;
-  --accent:#789ae2;
-  --accent-dim:rgba(120,154,226,0.1);
-}
-html{font-size:16px;scroll-behavior:smooth}
-body{
-  background:var(--bg);color:var(--text);
-  font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-  line-height:1.7;-webkit-font-smoothing:antialiased;
-}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
-
-nav{
-  position:fixed;top:0;left:0;right:0;z-index:100;
-  padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;
-  backdrop-filter:blur(16px);background:rgba(8,8,12,0.85);
-  border-bottom:1px solid var(--border);
-}
-.logo{font-weight:700;font-size:1.1rem;letter-spacing:-0.4px;color:var(--text)}
-.nav-links{display:flex;gap:1.8rem;align-items:center;font-size:.84rem;color:var(--text-dim)}
-.nav-links a{color:var(--text-dim)}
-.nav-links a:hover{color:var(--text);text-decoration:none}
-.nav-cta{
-  background:var(--text);color:var(--bg);
-  padding:.42rem 1.1rem;border-radius:5px;
-  font-weight:600;font-size:.8rem;transition:opacity .2s;
-}
-.nav-cta:hover{opacity:.8;text-decoration:none}
-
-article{max-width:640px;margin:0 auto;padding:8rem 2rem 4rem}
-.tag{
-  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  font-size:.7rem;text-transform:uppercase;letter-spacing:2.5px;
-  color:var(--accent);margin-bottom:1.2rem;display:block;font-weight:500;
-}
-h1{
-  font-size:clamp(1.7rem,3.8vw,2.3rem);
-  font-weight:800;letter-spacing:-1.2px;line-height:1.15;
-  margin-bottom:1.2rem;color:#efeff4;
-}
-.meta{
-  color:var(--text-muted);font-size:.82rem;
-  margin-bottom:2.5rem;padding-bottom:2rem;
-  border-bottom:1px solid var(--border);
-  letter-spacing:0.1px;
-}
-.disclosure{
-  margin:-0.5rem 0 2.5rem;padding:.85rem 1rem;
-  border:1px solid var(--border);border-radius:8px;
-  background:var(--surface);color:var(--text-muted);
-  font-size:.82rem;line-height:1.55;
-}
-h2{
-  font-size:1.15rem;font-weight:700;
-  margin:2.8rem 0 .8rem;letter-spacing:-0.4px;
-  color:#efeff4;
-}
-p{color:var(--text-dim);margin-bottom:1.4rem;font-size:.95rem;line-height:1.8}
-p strong{color:var(--text);font-weight:600}
-
-.cta-box{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:10px;padding:2rem;text-align:center;margin:3rem 0;
-}
-.cta-box h3{font-size:1.1rem;margin-bottom:.4rem;color:#efeff4;font-weight:700;letter-spacing:-0.3px}
-.cta-box p{color:var(--text-dim);margin-bottom:1.1rem;font-size:.88rem}
-.btn{
-  display:inline-block;background:var(--text);color:var(--bg);
-  padding:.65rem 1.7rem;border-radius:6px;font-weight:700;font-size:.88rem;
-}
-.btn:hover{opacity:.8;text-decoration:none}
-.related{font-size:.88rem;color:var(--text-muted)}
-.related a{color:var(--text-dim)}
-
-footer{
-  border-top:1px solid var(--border);padding:2.5rem 2rem;
-  text-align:center;color:var(--text-muted);font-size:.76rem;
-}
-footer .tagline{margin-top:.3rem;font-size:.7rem;letter-spacing:0.3px}
-
-@media(max-width:768px){
-  .nav-links{display:none}
-  article{padding:7rem 1.5rem 3rem}
-}
-.nav-links .nav-cta,.nav-links .nav-cta:hover{color:var(--bg)}
-nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
-@media(max-width:768px){
-  nav{position:sticky;padding:.75rem 1rem;gap:.75rem}
-  nav .logo{flex-shrink:0}
-  .nav-links{display:flex;min-width:0;gap:.35rem .75rem;flex-wrap:wrap;justify-content:flex-end}
-  .nav-links>a:not(.tutorials-link):not(.nav-cta){display:none}
-  .nav-links .nav-cta{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
-  article{padding-top:2.5rem}
-}
-</style>
-    <link rel="stylesheet" href="/assets/css/editorial-disclosure.css?v=254e454059ce">
-    <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
-</head>
-<body class="site-page site-editorial">
-<a class="site-skip" href="#main">Skip to content</a>
-<nav class="site-nav" aria-label="Main navigation">
-    <a href="/" class="site-logo"><img src="/favicon-48x48.png" width="32" height="32" alt="">ByteWave</a>
-    <div class="site-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a></div>
-    <details class="site-menu">
-        <summary>Menu</summary>
-        <div class="site-menu-links"><a href="/#features">Features</a>
-        <a href="/#compare">Compare</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/free-expression.html">Free expression</a></div>
-    </details>
-    <a class="site-download" href="https://apps.apple.com/us/app/bytewave/id6752225642">Download Free</a>
-</nav>
-<main id="main"><article>
-  <span class="tag">Provenance</span>
-  <h1>Provenance, not prominence</h1>
-  <div class="meta">Published July 4, 2026 · 5 min read · Updated <time datetime="2026-10-18">October 18, 2026</time></div>
-  <div class="disclosure ai-disclosure"><strong>AI disclosure:</strong> This article includes text generated with an AI language model (LLM). Published by <a href="/about.html">ByteWave</a>. This post reflects ByteWave's editorial position, not independent analysis.</div>
-
-  <h2 id="signed-exports">How ByteWave stamps your exports</h2>
-  <p><strong>Every time you save to Photos, ByteWave adds its own provenance stamp.</strong> It carries signed ByteWave history and source assessments. It is metadata, not a visible watermark.</p>
-  <p>To inspect a saved copy, import that file into ByteWave, select its clip, and tap the provenance badge. If badges are hidden, use <strong>Show Badges</strong>. Read the details, not just the badge color. <a href="/tutorials/check-c2pa-content-credentials/">See the checking steps and results.</a></p>
-  <p>ByteWave’s stamp is separate from the <strong>C2PA Content Credentials it can read</strong> in imported files. A valid signature helps establish the signed record’s origin and detect changes to what was signed. It does not prove that the scene happened.</p>
-  <h2 id="prominence">Our view: provenance, not prominence</h2>
-  <p>Making a publisher easier to find does not make every clip it publishes true.</p>
-
-  <p>The UK’s June 2026 <a href="https://www.gov.uk/government/consultations/watch-this-space-a-new-strategic-direction-for-uk-media-green-paper-and-public-consultation/watch-this-space-a-new-strategic-direction-for-uk-media-green-paper-and-public-consultation">Watch this Space green paper</a> consulted on making public-service media and other trusted news more prominent online. It did not itself enact a rule forcing broadcasters to the top of every feed. The EU’s <a href="https://digital-strategy.ec.europa.eu/en/library/guidelines-under-article-18-european-media-freedom-act-emfa">Article 18 media safeguards</a> address moderation of qualifying media providers, a different mechanism.</p>
-
-  <p>Our concern with publisher prominence is simple: ranking an institution higher is not evidence about an individual file. Readers still need ways to check the source and editing history of what they see.</p>
-
-  <p>This treats discoverability as a proxy for trustworthiness. But those are different problems. Making something easy to find doesn't make it true. Making something hard to find doesn't make it false.</p>
-
-  <h2>The actual problem</h2>
-
-  <p>You cannot reliably determine a video's history just by looking at it. A synthetic clip and a camera recording may appear similar in a feed. Provenance can add a machine-verifiable signal about origin and edits, but it cannot establish that the depicted event happened.</p>
-
-  <p>Publisher identity can be useful context. It should not replace checking a particular claim or dismissing footage solely because an independent creator published it.</p>
-
-  <h2>What provenance solves</h2>
-
-  <p>Content provenance takes a different approach. Instead of asking only "who published this?" it asks what can be verified about the file's origin and modification history.</p>
-
-  <p>ByteWave applies its own signed stamp when saving to Photos. The practical checking steps are <a href="#signed-exports">above</a>. ByteWave’s own stamp and imported C2PA credentials are separate.</p>
-
-  <p>The <a href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html">C2PA standard</a> defines a way to attach verifiable content history. ByteWave reads supported C2PA credentials and also creates its own export stamp. These are distinct capabilities.</p>
-
-  <h2>Two models of trust</h2>
-
-  <p>Our concern is that giving selected publishers privileged placement could reduce opportunities for independent voices. That is a policy argument, not a measured effect of the UK proposal.</p>
-
-  <p>A provenance system supplies evidence that readers and platforms can inspect. It still depends on trusted signing keys, secure implementations, clear disclosure, and careful interpretation; cryptography alone cannot certify the truth of a scene.</p>
-
-  <p>A useful question alongside publisher prominence is: <strong>how do we give every creator tools to document a file's origin and editing history?</strong></p>
-
-  <p>That question has a technical answer. We're building it.</p>
-
-  <div class="cta-box">
+---
+layout: "localized-editorial"
+lang: "en"
+translation_key: "provenance"
+permalink: "/blog/provenance.html"
+published_on: "2026-07-04"
+updated_on: "2026-10-18"
+published_label: "Published"
+display_date: "July 4, 2026"
+section_tag: "provenance"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+source_updated_on: "2026-10-18"
+display_source_update: "October 18, 2026"
+updated_label: "Updated"
+publisher_note: "This post reflects ByteWave’s editorial position, not independent analysis."
+reading_time: "5 min read"
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWave branded social preview"
+article_title: "Provenance, not prominence"
+seo_title: "Provenance, Not Prominence"
+description: "What ByteWave's signed export provenance can establish about file origin and integrity—and why it cannot prove that a depicted event is real."
+---
+<h2 id="signed-exports">How ByteWave stamps your exports</h2>
+<p><strong>Every time you save to Photos, ByteWave adds its own provenance stamp.</strong> It carries signed ByteWave history and source assessments. It is metadata, not a visible watermark.</p>
+<p>To inspect a saved copy, import that file into ByteWave, select its clip, and tap the provenance badge. If badges are hidden, use <strong>Show Badges</strong>. Read the details, not just the badge color. <a href="/tutorials/check-c2pa-content-credentials/">See the checking steps and results.</a></p>
+<p>ByteWave’s stamp is separate from the <strong>C2PA Content Credentials it can read</strong> in imported files. A valid signature helps establish the signed record’s origin and detect changes to what was signed. It does not prove that the scene happened.</p>
+<h2 id="prominence">Our view: provenance, not prominence</h2>
+<p>Making a publisher easier to find does not make every clip it publishes true.</p>
+<p>The UK’s June 2026 <a href="https://www.gov.uk/government/consultations/watch-this-space-a-new-strategic-direction-for-uk-media-green-paper-and-public-consultation/watch-this-space-a-new-strategic-direction-for-uk-media-green-paper-and-public-consultation">Watch this Space green paper</a> consulted on making public-service media and other trusted news more prominent online. It did not itself enact a rule forcing broadcasters to the top of every feed. The EU’s <a href="https://digital-strategy.ec.europa.eu/en/library/guidelines-under-article-18-european-media-freedom-act-emfa">Article 18 media safeguards</a> address moderation of qualifying media providers, a different mechanism.</p>
+<p>Our concern with publisher prominence is simple: ranking an institution higher is not evidence about an individual file. Readers still need ways to check the source and editing history of what they see.</p>
+<p>This treats discoverability as a proxy for trustworthiness. But those are different problems. Making something easy to find doesn't make it true. Making something hard to find doesn't make it false.</p>
+<h2>The actual problem</h2>
+<p>You cannot reliably determine a video's history just by looking at it. A synthetic clip and a camera recording may appear similar in a feed. Provenance can add a machine-verifiable signal about origin and edits, but it cannot establish that the depicted event happened.</p>
+<p>Publisher identity can be useful context. It should not replace checking a particular claim or dismissing footage solely because an independent creator published it.</p>
+<h2>What provenance solves</h2>
+<p>Content provenance takes a different approach. Instead of asking only "who published this?" it asks what can be verified about the file's origin and modification history.</p>
+<p>ByteWave applies its own signed stamp when saving to Photos. The practical checking steps are <a href="#signed-exports">above</a>. ByteWave’s own stamp and imported C2PA credentials are separate.</p>
+<p>The <a href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html">C2PA standard</a> defines a way to attach verifiable content history. ByteWave reads supported C2PA credentials and also creates its own export stamp. These are distinct capabilities.</p>
+<h2>Two models of trust</h2>
+<p>Our concern is that giving selected publishers privileged placement could reduce opportunities for independent voices. That is a policy argument, not a measured effect of the UK proposal.</p>
+<p>A provenance system supplies evidence that readers and platforms can inspect. It still depends on trusted signing keys, secure implementations, clear disclosure, and careful interpretation; cryptography alone cannot certify the truth of a scene.</p>
+<p>A useful question alongside publisher prominence is: <strong>how do we give every creator tools to document a file's origin and editing history?</strong></p>
+<p>That question has a technical answer. We're building it.</p>
+<div class="callout">
     <h3>A ByteWave stamp on every Save to Photos export</h3>
     <p>Save to Photos with ByteWave’s provenance stamp. Free, with no visible ByteWave watermark.</p>
-    <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="btn">Download for Apple</a>
+    <a href="https://apps.apple.com/us/app/bytewave/id6752225642" target="_blank" class="button">Download for Apple</a>
   </div>
-
-  <p class="related">Also read: <a href="/blog/your-feed.html">Your Feed Belongs to You</a> · <a href="/blog/best-free-video-editor-no-watermark.html">Best Free Video Editor Without a Watermark</a></p>
-</article></main>
-
-<footer class="site-footer">
-    <div class="site-footer-links"><a href="/">Home</a>
-        <a href="/gallery/">Gallery</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about.html">About</a>
-        <a href="/press.html">Press</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/free-expression.html">Free expression</a></div>
-    <p>© 2026 ByteWave. Video editing should be free.</p>
-    <p class="compatibility">iPhone with iOS 26 or later · iPad with iPadOS 26 or later · Mac with macOS 26 or later and Apple M1 or later.</p>
-</footer>
-
-<script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
-</body>
-</html>
+<p class="related">Also read: <a href="/blog/your-feed.html">Your Feed Belongs to You</a> · <a href="/blog/best-free-video-editor-no-watermark.html">Best Free Video Editor Without a Watermark</a></p>
