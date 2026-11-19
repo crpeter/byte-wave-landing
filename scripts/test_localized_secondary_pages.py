@@ -246,7 +246,7 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
     "bytewave-vs-meta-creative-control": (5, 16, 0),
-    "meta-italy-facebook-camera-roll-fine": (6, 20, 3),
+    "meta-italy-facebook-camera-roll-fine": (6, 18, 3),
     "meta-muse-privacy-security-incidents": (9, 21, 0),
     "meta-muse-privacy-security": (7, 23, 0),
     "the-next-tiktok-may-start-as-a-video-editor": (8, 22, 8),
@@ -408,6 +408,8 @@ for name, counts in article_counts.items():
             for year in ("2016", "2017", "2018", "2026"):
                 assert year in article, (lang, "source chronology", year)
         if name == "meta-italy-facebook-camera-roll-fine":
+            assert '<img src="/assets/brands/meta.svg" width="128" height="72" alt="Meta"' in article, (lang, "original brand artwork")
+            assert article.index('src="/assets/brands/meta.svg"') < article.index('<h1>'), (lang, "brand artwork position")
             for figure in ("2023", "122", "60"):
                 assert figure in article, (lang, "ruling details", figure)
         if name in {"meta-muse-privacy-security", "meta-muse-privacy-security-incidents"}:

@@ -89,6 +89,9 @@ table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;ma
 <main id="main">
 <article>
 <p class="eyebrow">{{ section | escape }}</p>
+{% if page.article_logo %}
+<img src="{{ page.article_logo | relative_url }}" width="{{ page.article_logo_width }}" height="{{ page.article_logo_height }}" alt="{{ page.article_logo_alt | escape }}" decoding="async" style="object-fit:contain;padding:10px;border-radius:12px;background:#f8f4ec;max-width:100%;margin:0.4rem 0 1rem">
+{% endif %}
 <h1>{{ title | escape }}</h1>
 <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time>{% if page.source_updated_on %} · {{ page.updated_label | escape }} <time datetime="{{ page.source_updated_on }}">{{ page.display_source_update | escape }}</time>{% endif %}{% if page.sources_checked_on %} · {{ page.sources_checked_label | escape }} <time datetime="{{ page.sources_checked_on }}">{{ page.display_sources_check | escape }}</time>{% endif %}{% if page.reading_time %} · {{ page.reading_time | escape }}{% endif %}</p>
 <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ page.publisher_note | escape }}</p>
