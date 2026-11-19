@@ -10,6 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Test sitemap validation rules
+        run: python3 scripts/test_sitemap.py
+      - name: Prepare sitemap template fixtures
+        run: python3 scripts/test_sitemap.py --prepare-fixture
+      - name: Render sitemap template fixtures
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./_sitemap-fixture
+          destination: ./_sitemap-fixture/_site
+      - name: Verify sitemap template and change its page inputs
+        run: python3 scripts/test_sitemap.py --verify-fixture
+      - name: Rebuild sitemap after page additions and changes
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./_sitemap-fixture
+          destination: ./_sitemap-fixture/_site
+      - name: Verify automatic sitemap updates
+        run: python3 scripts/test_sitemap.py --verify-updated-fixture
       - name: Render with the GitHub Pages builder
         uses: actions/jekyll-build-pages@v1
         with:

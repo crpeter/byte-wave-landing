@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+from datetime import date
 from fnmatch import fnmatchcase
 import json
 import re
@@ -107,6 +108,46 @@ def authored_pages():
             continue
         if source.suffix == ".html" or source.read_text(encoding="utf-8").startswith("---\n"):
             yield rel.with_suffix(".html")
+
+
+def validate_sitemap(path: Path, canonical_urls: set[str], today: date | None = None):
+    """Check each sitemap entry before reducing URLs to a set."""
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    errors = []; dates = {}; today = today or date.today()
+    try:
+        tree = ET.parse(path)
+    except (ET.ParseError, OSError) as exc:
+        return {}, [f"sitemap cannot be read: {exc}"]
+    if tree.getroot().tag != f"{{{ns['s']}}}urlset":
+        errors.append("sitemap must contain a namespaced urlset")
+    for entry in tree.findall("s:url", ns):
+        locations = entry.findall("s:loc", ns)
+        url = locations[0].text if len(locations) == 1 else None
+        if not url or url != url.strip():
+            errors.append("sitemap entry must have one nonempty URL")
+            continue
+        if url in dates:
+            errors.append(f"duplicate sitemap URL: {url}")
+        modifications = entry.findall("s:lastmod", ns)
+        modified = modifications[0].text if len(modifications) == 1 else None
+        if len(modifications) > 1:
+            errors.append(f"{url}: expected at most one sitemap lastmod")
+        if modifications:
+            try:
+                if not modified or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", modified):
+                    raise ValueError
+                parsed = date.fromisoformat(modified)
+                if parsed > today:
+                    errors.append(f"{url}: sitemap lastmod is in the future: {modified}")
+            except ValueError:
+                errors.append(f"{url}: invalid sitemap lastmod: {modified}")
+        dates[url] = modified
+    sitemap_urls = set(dates)
+    for url in sorted(sitemap_urls - canonical_urls):
+        errors.append(f"sitemap URL is not canonical indexable page: {url}")
+    for url in sorted(canonical_urls - sitemap_urls):
+        errors.append(f"canonical indexable page missing from sitemap: {url}")
+    return dates, errors
 
 
 def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
@@ -264,12 +305,8 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             if frag and target.suffix == ".html" and frag not in pages.get(target, PageParser()).ids:
                 errors.append(f"{file.relative_to(ROOT)}: broken fragment {href}")
 
-    tree = ET.parse(ROOT / "sitemap.xml"); ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    sitemap = {n.text for n in tree.findall("s:url/s:loc", ns)}
-    canonical_set = set(canon)
-    for url in sorted(sitemap - canonical_set): errors.append(f"sitemap URL is not canonical indexable page: {url}")
-    for url in sorted(canonical_set - sitemap): errors.append(f"canonical indexable page missing from sitemap: {url}")
-    sitemap_dates = {n.findtext("s:loc", namespaces=ns): n.findtext("s:lastmod", namespaces=ns) for n in tree.findall("s:url", ns)}
+    sitemap_dates, sitemap_errors = validate_sitemap(ROOT / "sitemap.xml", set(canon))
+    errors.extend(sitemap_errors)
     def objects(value):
         if isinstance(value, dict):
             yield value
@@ -306,7 +343,7 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
         errors.append(f"index.html: update the landing stylesheet href to {expected_css}")
     if errors:
         print("Site validation failed:", *[f"\n- {e}" for e in errors]); return 1
-    print(f"Validated {len(pages)} HTML files and {len(sitemap)} sitemap URLs successfully."); return 0
+    print(f"Validated {len(pages)} HTML files and {len(sitemap_dates)} sitemap URLs successfully."); return 0
 
 
 if __name__ == "__main__": sys.exit(main())

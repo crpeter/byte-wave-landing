@@ -1,5 +1,6 @@
 .idea
 /_site/
+/_sitemap-fixture/
 /.jekyll-cache/
 /.jekyll-metadata
 __pycache__/
