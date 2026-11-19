@@ -26,7 +26,7 @@ Hayır. Editör, görüntüleri veya projeleri ByteWave sunucularına yüklemez.
 
 Evet. Önce klipleri cihazınıza indirin. Ardından internet olmadan düzenleyip dışa aktarabilirsiniz. Otomatik altyazılar cihazda oluşturulur; ancak önceden konuşma veya dil modeli indirmeniz gerekebilir.
 
-İsteğe bağlı otomatik etiketler, paylaştığınız videoların bulunmasına yardımcı olur. Bunlar da sunucuya geçmeden cihazdaki konuşma tanımayı kullanır. [Gizlilik politikamızı (İngilizce)](/privacy.html) okuyun.
+İsteğe bağlı otomatik etiketler, paylaştığınız videoların bulunmasına yardımcı olur. Bunlar da sunucuya geçmeden cihazdaki konuşma tanımayı kullanır. [Gizlilik politikamızı](/tr/privacy.html) okuyun.
 
 ## Hesap açmam gerekir mi?
 
@@ -38,7 +38,7 @@ Hayır. Editör ücretsizdir; ByteWave dışa aktardığınız videolara filigra
 
 ## Konum metaverileri ne olacak?
 
-ByteWave çalışma kopyanızdan düzenlenebilir metaverileri kaldırabilir. Fotoğraflar'a kaydedilen her dışa aktarım kaynak metaverilerini kaldırır ve ByteWave köken damgası ekler. Orijinal dosyanız değişmez. [Metaverileri kontrol etme ve kaldırma (İngilizce)](/tutorials/remove-location-metadata/).
+ByteWave çalışma kopyanızdan düzenlenebilir metaverileri kaldırabilir. Fotoğraflar'a kaydedilen her dışa aktarım kaynak metaverilerini kaldırır ve ByteWave köken damgası ekler. Orijinal dosyanız değişmez. [Metaverileri kontrol etme ve kaldırma](/tr/tutorials/remove-location-metadata/).
 
 Görüntü ve sesi de kontrol edin. Sokak tabelası veya sesli söylenen adres, metaveri olmasa bile konumu gösterebilir.
 

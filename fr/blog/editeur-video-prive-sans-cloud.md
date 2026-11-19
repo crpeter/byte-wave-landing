@@ -26,7 +26,7 @@ Non. L’éditeur n’envoie pas vos images ni vos projets aux serveurs de ByteW
 
 Oui. Téléchargez d’abord vos clips sur l’appareil ; vous pouvez ensuite les monter et les exporter sans connexion. Les sous-titres automatiques sont générés sur l’appareil, mais le modèle de reconnaissance vocale ou de langue nécessaire peut devoir être téléchargé à l’avance.
 
-L’identification automatique facultative des contenus aide les autres utilisateurs à retrouver les vidéos publiées. Elle utilise elle aussi la reconnaissance vocale sur l’appareil, sans traitement de secours sur un serveur. Consultez notre [politique de confidentialité (en anglais)](/privacy.html).
+L’identification automatique facultative des contenus aide les autres utilisateurs à retrouver les vidéos publiées. Elle utilise elle aussi la reconnaissance vocale sur l’appareil, sans traitement de secours sur un serveur. Consultez notre [politique de confidentialité](/fr/privacy.html).
 
 ## Faut-il créer un compte ?
 
@@ -38,7 +38,7 @@ Non. L’éditeur est gratuit, sans abonnement, et ByteWave n’ajoute aucun fil
 
 ## Et les données de localisation ?
 
-ByteWave peut supprimer les métadonnées modifiables de votre copie de travail. Chaque exportation vers Photos retire les métadonnées d’origine et ajoute une empreinte de provenance ByteWave. Votre fichier original ne change pas. [Vérifier et supprimer les métadonnées (en anglais)](/tutorials/remove-location-metadata/).
+ByteWave peut supprimer les métadonnées modifiables de votre copie de travail. Chaque exportation vers Photos retire les métadonnées d’origine et ajoute une empreinte de provenance ByteWave. Votre fichier original ne change pas. [Vérifier et supprimer les métadonnées](/fr/tutorials/remove-location-metadata/).
 
 Vérifiez aussi l’image et le son : un panneau de rue ou une adresse prononcée peut révéler un lieu même sans métadonnées.
 

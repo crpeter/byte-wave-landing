@@ -83,6 +83,11 @@ const routes = [
  ['reduce-ai-content-tiktok-feed','blog/reduce-ai-content-tiktok-feed.html'],
  ['reduce-ai-videos-facebook-feed','blog/reduce-ai-videos-facebook-feed.html'],
  ['tired-of-ai-videos-social-media','blog/tired-of-ai-videos-social-media.html'],
+ ['bytewave-vs-meta-creative-control','blog/bytewave-vs-meta-creative-control.html'],
+ ['meta-italy-facebook-camera-roll-fine','blog/meta-italy-facebook-camera-roll-fine.html'],
+ ['meta-muse-privacy-security-incidents','blog/meta-muse-privacy-security-incidents.html'],
+ ['meta-muse-privacy-security','blog/meta-muse-privacy-security.html'],
+ ['the-next-tiktok-may-start-as-a-video-editor','blog/the-next-tiktok-may-start-as-a-video-editor.html'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
  ['metadata','tutorials/remove-location-metadata/'],
  ['motion','tutorials/motion-blur/'],
@@ -193,9 +198,9 @@ function test(ok, label, result) {
        const bounds = card.getBoundingClientRect();
        const label = card.querySelector('.article-language');
        return bounds.left < -1 || bounds.right > innerWidth + 1 || !bounds.height ||
-        (card.hreflang === 'en' && !label?.getBoundingClientRect().height);
+        card.hreflang !== document.documentElement.lang || !!label;
       }).map(card => card.getAttribute('href')));
-      test(!broken.length,key+' article cards fit and English destinations have visible labels',broken);
+      test(!broken.length,key+' all article cards fit and remain in the selected language',broken);
      }
      if(kind==='press'){
       const facts=await page.locator('#facts .fact-row').count();
@@ -263,6 +268,26 @@ function test(ok, label, result) {
        test(code.fits&&code.complete,key+' complete Metal example fits its article',code);
        if(size.width<=390) test(code.scrollable&&code.scrolled,key+' Metal example scrolls within mobile width',code);
      }
+     if(kind==='bytewave-vs-meta-creative-control'){
+       const table=await page.locator('table.comparison').evaluate(table=>{
+         const r=table.getBoundingClientRect();
+         return {rows:table.querySelectorAll('tbody tr').length,cells:table.querySelectorAll('td').length,
+           columns:table.querySelectorAll('th[scope="col"]').length,caption:table.querySelector('caption')?.textContent.trim(),
+           fits:r.left>=0&&r.right<=innerWidth+1};
+       });
+       test(table.rows===2&&table.cells===4&&table.columns===2&&table.caption&&table.fits,
+            key+' full captioned comparison table fits',table);
+     }
+     if(kind==='the-next-tiktok-may-start-as-a-video-editor'){
+       const loop=await page.locator('.loop').evaluate(loop=>{
+         const steps=[...loop.querySelectorAll('[role="listitem"]')];
+         return {label:loop.getAttribute('aria-label'),steps:steps.length,
+           columns:getComputedStyle(loop).gridTemplateColumns.split(' ').length,
+           fits:steps.every(step=>{const r=step.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth+1&&step.textContent.trim()&&step.querySelector('strong')?.textContent.trim()})};
+       });
+       test(loop.label&&loop.steps===4&&loop.fits&&loop.columns===(size.width<=390?1:2),
+            key+' four complete network steps adapt to the viewport',loop);
+     }
      if(kind==='free-expression')test(data.hasAppeal,key+' appeal anchor exists');
      if(kind==='c2pa') {
        test(data.instructionSteps===3 && data.verificationRows===5 && data.hasC2paSpec,
@@ -292,9 +317,11 @@ function test(ok, label, result) {
        test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
-      if(['about','press','blog','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout','bytewave-vs-vn-video-editor-2026','what-are-metal-shaders-iphone-gpu'].includes(kind)) {
+      if(['about','press','blog','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout','bytewave-vs-vn-video-editor-2026','what-are-metal-shaders-iphone-gpu','bytewave-vs-meta-creative-control','the-next-tiktok-may-start-as-a-video-editor'].includes(kind)) {
        if(kind==='bytewave-vs-vn-video-editor-2026') await page.locator('.comparison-scroll').scrollIntoViewIfNeeded();
        if(kind==='what-are-metal-shaders-iphone-gpu') await page.locator('pre.code-block').scrollIntoViewIfNeeded();
+       if(kind==='bytewave-vs-meta-creative-control') await page.locator('table.comparison').scrollIntoViewIfNeeded();
+       if(kind==='the-next-tiktok-may-start-as-a-video-editor') await page.locator('.loop').scrollIntoViewIfNeeded();
        if(kind==='c2pa') await page.locator('main table').scrollIntoViewIfNeeded();
        if(kind==='metadata') await page.locator('main ol').scrollIntoViewIfNeeded();
        if(['motion','frc','noise','layout'].includes(kind)) await page.locator('main figure').first().scrollIntoViewIfNeeded();
@@ -313,8 +340,13 @@ function test(ok, label, result) {
   await page.locator('.post-card[hreflang="ja"]').first().click();
   test(await page.locator('html').getAttribute('lang')==='ja','Translated blog card opens Japanese content');
   await page.goto(ORIGIN+'/de/blog/');
-  await page.locator('.post-card[hreflang="en"]').first().click();
-  test(await page.locator('html').getAttribute('lang')==='en','Labeled English card opens English content');
+  await page.locator('.post-card[href="/de/blog/meta-muse-privacy-security.html"]').click();
+  test(page.url().endsWith('/de/blog/meta-muse-privacy-security.html') && await page.locator('html').getAttribute('lang')==='de',
+       'Formerly English-only card opens the complete German article');
+  await page.locator('.site-language > summary').click();
+  await page.locator('.site-language a[href="/blog/meta-muse-privacy-security.html"]').click();
+  test(page.url().endsWith('/blog/meta-muse-privacy-security.html') && await page.locator('html').getAttribute('lang')==='en',
+       'Article language switch still opens the English original');
   await page.goto(ORIGIN+'/de/press.html');
   await page.locator('.site-language > summary').click();
   await page.locator('.site-language a[href="/ja/press.html"]').click();

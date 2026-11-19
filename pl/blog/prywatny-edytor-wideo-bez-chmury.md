@@ -26,7 +26,7 @@ Nie. Edytor nie przesyła nagrań ani projektów na serwery ByteWave. Publikowan
 
 Tak. Najpierw pobierz klipy na urządzenie. Potem możesz edytować i eksportować bez połączenia. Automatyczne napisy są tworzone na urządzeniu, ale wcześniej może być konieczne pobranie modelu mowy lub języka.
 
-Opcjonalne automatyczne tagi pomagają innym znaleźć udostępnione filmy. One również wykorzystują rozpoznawanie mowy na urządzeniu, bez przesyłania do zapasowego serwera. Zobacz [politykę prywatności (po angielsku)](/privacy.html).
+Opcjonalne automatyczne tagi pomagają innym znaleźć udostępnione filmy. One również wykorzystują rozpoznawanie mowy na urządzeniu, bez przesyłania do zapasowego serwera. Zobacz [politykę prywatności](/pl/privacy.html).
 
 ## Czy potrzebuję konta?
 
@@ -38,7 +38,7 @@ Nie. Edytor jest darmowy, a ByteWave nie dodaje własnych znaków wodnych do eks
 
 ## A metadane lokalizacji?
 
-ByteWave może usunąć edytowalne metadane z kopii roboczej. Każdy eksport do Zdjęć usuwa metadane źródłowe i dodaje pieczęć pochodzenia ByteWave. Oryginalny plik pozostaje bez zmian. [Sprawdź i usuń metadane (po angielsku)](/tutorials/remove-location-metadata/).
+ByteWave może usunąć edytowalne metadane z kopii roboczej. Każdy eksport do Zdjęć usuwa metadane źródłowe i dodaje pieczęć pochodzenia ByteWave. Oryginalny plik pozostaje bez zmian. [Sprawdź i usuń metadane](/pl/tutorials/remove-location-metadata/).
 
 Sprawdź też obraz i dźwięk: nazwa ulicy lub wypowiedziany adres mogą zdradzić lokalizację nawet bez metadanych.
 

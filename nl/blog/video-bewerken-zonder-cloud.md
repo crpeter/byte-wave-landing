@@ -26,7 +26,7 @@ Nee. De editor uploadt geen opnamen of projecten naar ByteWave-servers. Publicer
 
 Ja. Download je clips eerst naar het apparaat. Daarna kun je zonder internet monteren en exporteren. Automatische ondertiteling werkt op het apparaat, maar mogelijk moet je vooraf een spraak- of taalmodel downloaden.
 
-Optionele automatische tags helpen anderen je gepubliceerde video's te vinden. Ook die gebruiken spraakherkenning op het apparaat, zonder serverfallback. Lees ons [privacybeleid (Engels)](/privacy.html).
+Optionele automatische tags helpen anderen je gepubliceerde video's te vinden. Ook die gebruiken spraakherkenning op het apparaat, zonder serverfallback. Lees ons [privacybeleid](/nl/privacy.html).
 
 ## Heb ik een account nodig?
 
@@ -38,7 +38,7 @@ Nee. De editor is gratis en ByteWave voegt geen watermerk aan je exports toe.
 
 ## Hoe zit het met locatiegegevens?
 
-ByteWave kan bewerkbare metagegevens uit je werkkopie verwijderen. Elke export naar Foto's verwijdert bronmetadata en voegt een ByteWave-herkomststempel toe. Je origineel blijft ongewijzigd. [Bekijk hoe je metadata verwijdert (Engels)](/tutorials/remove-location-metadata/).
+ByteWave kan bewerkbare metagegevens uit je werkkopie verwijderen. Elke export naar Foto's verwijdert bronmetadata en voegt een ByteWave-herkomststempel toe. Je origineel blijft ongewijzigd. [Bekijk hoe je metadata verwijdert](/nl/tutorials/remove-location-metadata/).
 
 Controleer ook het beeld en geluid. Een straatnaam of uitgesproken adres kan je locatie onthullen, zelfs zonder metadata.
 

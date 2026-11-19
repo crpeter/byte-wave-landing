@@ -172,9 +172,9 @@ for lang, slug in {"en": "", **LOCALES}.items():
         alternate = re.search(r'<link rel="alternate" hreflang="' + re.escape(lang) + r'" href="([^"]+)"', english_file.read_text())
         expected = urlsplit(alternate[1]).path if alternate else path
         assert href == expected, (lang, path, expected, href)
-        assert destination_lang == (lang if alternate else "en"), (lang, path, destination_lang)
+        assert destination_lang == lang, (lang, path, "every blog card must have its own-language destination")
         label = re.search(r'<small class="article-language">([^<]+)</small>', body)
-        assert bool(label) == (destination_lang != lang), (lang, path, "English label")
+        assert label is None, (lang, path, "obsolete English article label")
         if label:
             assert unescape(label[1]) == strings["english"], (lang, path)
         for tag in ("h3", "p"):
@@ -245,6 +245,11 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "bytewave-vs-meta-creative-control": (5, 16, 0),
+    "meta-italy-facebook-camera-roll-fine": (6, 18, 3),
+    "meta-muse-privacy-security-incidents": (9, 21, 0),
+    "meta-muse-privacy-security": (7, 23, 0),
+    "the-next-tiktok-may-start-as-a-video-editor": (8, 22, 8),
     "bytewave-advanced-editing-keyframes-translation": (8, 19, 0),
     "what-are-metal-shaders-iphone-gpu": (6, 18, 0),
     "bytewave-vs-vn-video-editor-2026": (7, 18, 2),
@@ -318,6 +323,11 @@ for name, counts in article_counts.items():
     for lang, slug in LOCALES.items():
         rendered = (RENDERED / slug / path).read_text()
         if name in {
+            "bytewave-vs-meta-creative-control",
+            "meta-italy-facebook-camera-roll-fine",
+            "meta-muse-privacy-security-incidents",
+            "meta-muse-privacy-security",
+            "the-next-tiktok-may-start-as-a-video-editor",
             "bytewave-advanced-editing-keyframes-translation",
             "what-are-metal-shaders-iphone-gpu",
             "bytewave-vs-vn-video-editor-2026",
@@ -388,6 +398,23 @@ for name, counts in article_counts.items():
         if name == "tired-of-ai-videos-social-media":
             assert article.count('</dt>') == 6 and article.count('</dd>') == 6, lang
             assert re.search(r"(?:57\s*[%％]|[%％]\s*57)", article), lang
+        if name == "bytewave-vs-meta-creative-control":
+            assert article.count('<th scope="col">') == 2 and article.count('</td>') == 4, lang
+            assert '<caption>' in article and 'class="comparison"' in article, (lang, "full comparison table")
+        if name == "the-next-tiktok-may-start-as-a-video-editor":
+            assert article.count('role="listitem"') == 4 and article.count('class="thesis"') == 2, lang
+            assert 'role="list" aria-label="' in article, (lang, "creation-to-network steps")
+            assert 'New SMP Entrant' in article, (lang, "settlement term")
+            for year in ("2016", "2017", "2018", "2026"):
+                assert year in article, (lang, "source chronology", year)
+        if name == "meta-italy-facebook-camera-roll-fine":
+            assert '<img src="/assets/brands/meta.svg" width="128" height="72" alt="Meta"' in article, (lang, "original brand artwork")
+            assert article.index('src="/assets/brands/meta.svg"') < article.index('<h1>'), (lang, "brand artwork position")
+            for figure in ("2023", "122", "60"):
+                assert figure in article, (lang, "ruling details", figure)
+        if name in {"meta-muse-privacy-security", "meta-muse-privacy-security-incidents"}:
+            assert re.findall(r'<time datetime="([^"]+)"', article) == re.findall(r'<time datetime="([^"]+)"', original), (lang, name, "original source dates")
+            assert re.findall(r'href="(#[^"]+)"', article) == re.findall(r'href="(#[^"]+)"', original), (lang, name, "section navigation")
         expected = []
         for link in links:
             if link.startswith("/"):
@@ -406,6 +433,9 @@ for name, counts in article_counts.items():
             privacy_guide = (RENDERED / expected[-1].lstrip("/")).read_text()
             assert f'href="/{slug}/blog/{name}.html"' in privacy_guide, (lang, "privacy guide comparison link")
             assert f'href="/blog/{name}.html"' not in privacy_guide, (lang, "English comparison link")
+            for route in ("privacy.html", "tutorials/remove-location-metadata/"):
+                assert f'href="/{slug}/{route}"' in privacy_guide, (lang, "privacy guide reading link", route)
+                assert f'href="/{route}"' not in privacy_guide, (lang, "English privacy guide link", route)
 print(f"Verified {len(article_counts) * len(LOCALES)} translated articles, paragraph and list counts, citations and related reading.")
 
 for lang, slug in LOCALES.items():

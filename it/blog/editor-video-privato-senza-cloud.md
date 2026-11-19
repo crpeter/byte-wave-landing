@@ -26,7 +26,7 @@ No. L'editor non invia filmati o progetti ai server di ByteWave. Pubblicare tram
 
 Sì. Scarica prima i clip sul dispositivo, poi puoi modificarli ed esportarli senza connessione. Anche i sottotitoli automatici sono generati sul dispositivo, ma potresti dover scaricare in anticipo un modello vocale o linguistico.
 
-I tag automatici facoltativi aiutano gli altri a scoprire i video che pubblichi. Usano il riconoscimento vocale sul dispositivo senza passare a un server. Leggi la nostra [informativa sulla privacy (in inglese)](/privacy.html).
+I tag automatici facoltativi aiutano gli altri a scoprire i video che pubblichi. Usano il riconoscimento vocale sul dispositivo senza passare a un server. Leggi la nostra [informativa sulla privacy](/it/privacy.html).
 
 ## Devo creare un account?
 
@@ -38,7 +38,7 @@ No. L'editor è gratuito e non aggiunge filigrane ByteWave ai video esportati.
 
 ## Cosa succede ai metadati di posizione?
 
-ByteWave può rimuovere i metadati modificabili dalla copia di lavoro. Ogni esportazione in Foto rimuove i metadati originali e aggiunge un timbro di provenienza ByteWave. L'originale resta invariato. [Come controllare e rimuovere i metadati (in inglese)](/tutorials/remove-location-metadata/).
+ByteWave può rimuovere i metadati modificabili dalla copia di lavoro. Ogni esportazione in Foto rimuove i metadati originali e aggiunge un timbro di provenienza ByteWave. L'originale resta invariato. [Come controllare e rimuovere i metadati](/it/tutorials/remove-location-metadata/).
 
 Controlla anche immagini e audio: un cartello stradale o un indirizzo pronunciato possono rivelare un luogo anche senza metadati.
 

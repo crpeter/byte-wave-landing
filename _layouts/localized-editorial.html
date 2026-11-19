@@ -47,6 +47,8 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 
 .status,.thesis{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}.thesis{border-color:#00e5a0;font-size:1.15rem;color:#e8e6f0}.sources li{margin:.7rem 0}
 .comparison-scroll{overflow-x:auto;margin:1.5rem 0 2rem;border:1px solid rgba(255,255,255,.13);border-radius:12px}.comparison-scroll:focus-visible{outline:3px solid #e2b8df;outline-offset:3px}.comparison-table{display:table;width:100%;min-width:550px;border-collapse:collapse;text-align:left;font-size:.94rem;line-height:1.5}.comparison-table caption{text-align:left;padding:1rem;color:var(--text-dim);font-size:.84rem}.comparison-table th,.comparison-table td{padding:.8rem .9rem;vertical-align:top;border-top:1px solid rgba(255,255,255,.09)}.comparison-table th{color:var(--text);font-weight:700}.comparison-table td{color:var(--text-dim)}.comparison-table tbody th{width:28%}.comparison-table thead{background:rgba(255,255,255,.04)}
+.loop{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:1.5rem 0}.loop div{padding:1rem;border:1px solid #292838;border-radius:10px;background:#0c0c12;color:#aaa7bb}.loop strong{display:block;color:#e8e6f0}@media(max-width:700px){.loop{grid-template-columns:1fr}}
+table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;margin:1.5rem 0}table.comparison caption{text-align:left;font-weight:750;margin-bottom:.75rem}table.comparison th,table.comparison td{width:50%;vertical-align:top;overflow-wrap:anywhere}table.comparison th{color:#e8e6f0}table.comparison td{color:#aaa7bb}table.comparison strong{display:block;margin-bottom:.3rem}@media(max-width:480px){table.comparison th,table.comparison td{padding:.65rem;font-size:.9rem}}
     </style>
 <script type="application/ld+json">
 {
@@ -87,6 +89,9 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 <main id="main">
 <article>
 <p class="eyebrow">{{ section | escape }}</p>
+{% if page.article_logo %}
+<img src="{{ page.article_logo | relative_url }}" width="{{ page.article_logo_width }}" height="{{ page.article_logo_height }}" alt="{{ page.article_logo_alt | escape }}" decoding="async" style="object-fit:contain;padding:10px;border-radius:12px;background:#f8f4ec;max-width:100%;margin:0.4rem 0 1rem">
+{% endif %}
 <h1>{{ title | escape }}</h1>
 <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time>{% if page.source_updated_on %} · {{ page.updated_label | escape }} <time datetime="{{ page.source_updated_on }}">{{ page.display_source_update | escape }}</time>{% endif %}{% if page.sources_checked_on %} · {{ page.sources_checked_label | escape }} <time datetime="{{ page.sources_checked_on }}">{{ page.display_sources_check | escape }}</time>{% endif %}{% if page.reading_time %} · {{ page.reading_time | escape }}{% endif %}</p>
 <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ page.publisher_note | escape }}</p>

@@ -26,7 +26,7 @@ Nei. Redigeringsappen laster ikke opp opptak eller prosjekter til ByteWaves serv
 
 Ja. Last først ned klippene til enheten. Deretter kan du redigere og eksportere uten internett. Automatiske undertekster lages på enheten, men tale- eller språkmodeller må kanskje lastes ned på forhånd.
 
-Valgfri automatisk merking hjelper andre med å finne videoer du deler. Den bruker også talegjenkjenning på enheten, uten server som reserve. Les vår [personvernerklæring (på engelsk)](/privacy.html).
+Valgfri automatisk merking hjelper andre med å finne videoer du deler. Den bruker også talegjenkjenning på enheten, uten server som reserve. Les vår [personvernerklæring](/no/privacy.html).
 
 ## Trenger jeg en konto?
 
@@ -38,7 +38,7 @@ Nei. Redigeringsappen er gratis, og ByteWave legger ikke til vannmerker på eksp
 
 ## Hva med posisjonsmetadata?
 
-ByteWave kan fjerne redigerbare metadata fra arbeidskopien din. Ved eksport til Bilder fjernes opprinnelige metadata og et ByteWave-stempel for opprinnelse legges til. Originalen forblir uendret. [Slik sjekker og fjerner du metadata (på engelsk)](/tutorials/remove-location-metadata/).
+ByteWave kan fjerne redigerbare metadata fra arbeidskopien din. Ved eksport til Bilder fjernes opprinnelige metadata og et ByteWave-stempel for opprinnelse legges til. Originalen forblir uendret. [Slik sjekker og fjerner du metadata](/no/tutorials/remove-location-metadata/).
 
 Se også på bilde og lyd: Et gatenavn eller en adresse som blir sagt, kan avsløre stedet selv uten metadata.
 

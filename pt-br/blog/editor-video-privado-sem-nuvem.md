@@ -26,7 +26,7 @@ Não. O editor não envia seus vídeos nem seus projetos para os servidores do B
 
 Sim. Primeiro, salve os clipes no dispositivo. Depois disso, você pode editar e exportar mesmo sem conexão. As legendas automáticas também são geradas no dispositivo, mas talvez seja necessário baixar um modelo de reconhecimento de fala ou de idioma antes de ficar off-line.
 
-As etiquetas automáticas opcionais ajudam outras pessoas a encontrar os vídeos que você publica. Essa função também usa reconhecimento de fala no dispositivo, sem recorrer a um servidor. Consulte nossa [política de privacidade (em inglês)](/privacy.html).
+As etiquetas automáticas opcionais ajudam outras pessoas a encontrar os vídeos que você publica. Essa função também usa reconhecimento de fala no dispositivo, sem recorrer a um servidor. Consulte nossa [política de privacidade](/pt-br/privacy.html).
 
 ## Preciso criar uma conta?
 
@@ -38,7 +38,7 @@ Não. O editor é gratuito e o ByteWave não adiciona sua marca d’água aos v�
 
 ## E os metadados de localização?
 
-O ByteWave pode remover metadados editáveis da sua cópia de trabalho. Ao salvar um vídeo no app Fotos, ele remove os metadados da origem e adiciona um selo de procedência ByteWave. O arquivo original permanece intacto. [Veja como conferir e remover metadados (em inglês)](/tutorials/remove-location-metadata/).
+O ByteWave pode remover metadados editáveis da sua cópia de trabalho. Ao salvar um vídeo no app Fotos, ele remove os metadados da origem e adiciona um selo de procedência ByteWave. O arquivo original permanece intacto. [Veja como conferir e remover metadados](/pt-br/tutorials/remove-location-metadata/).
 
 Confira também a imagem e o áudio. Uma placa com o nome de uma rua ou um endereço dito em voz alta podem revelar um local mesmo quando o arquivo não contém metadados de localização.
 
