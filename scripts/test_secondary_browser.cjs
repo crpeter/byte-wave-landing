@@ -340,8 +340,13 @@ function test(ok, label, result) {
   await page.locator('.post-card[hreflang="ja"]').first().click();
   test(await page.locator('html').getAttribute('lang')==='ja','Translated blog card opens Japanese content');
   await page.goto(ORIGIN+'/de/blog/');
-  await page.locator('.post-card[hreflang="en"]').first().click();
-  test(await page.locator('html').getAttribute('lang')==='en','Labeled English card opens English content');
+  await page.locator('.post-card[href="/de/blog/meta-muse-privacy-security.html"]').click();
+  test(page.url().endsWith('/de/blog/meta-muse-privacy-security.html') && await page.locator('html').getAttribute('lang')==='de',
+       'Formerly English-only card opens the complete German article');
+  await page.locator('.site-language > summary').click();
+  await page.locator('.site-language a[href="/blog/meta-muse-privacy-security.html"]').click();
+  test(page.url().endsWith('/blog/meta-muse-privacy-security.html') && await page.locator('html').getAttribute('lang')==='en',
+       'Article language switch still opens the English original');
   await page.goto(ORIGIN+'/de/press.html');
   await page.locator('.site-language > summary').click();
   await page.locator('.site-language a[href="/ja/press.html"]').click();
