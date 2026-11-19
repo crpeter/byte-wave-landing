@@ -4,5 +4,5 @@ translation_key: tutorials
 lang: 'pt-BR'
 permalink: /pt-br/tutorials/
 store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=tutorials_hub_ptbr&mt=8
-last_modified_at: "2026-11-16"
+last_modified_at: "2026-11-19"
 ---

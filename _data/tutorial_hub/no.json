@@ -79,6 +79,20 @@
       "description": "Sjekk arbeidskopien, fjern redigerbare felt og kontroller hva som gjenstår.",
       "format": "Personvern · Skriftlig veiledning",
       "alt": "Fjern posisjonsmetadata. Sjekk arbeidskopien, fjern redigerbare felt og kontroller hva som gjenstår."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Oversett undertekster i video",
+      "description": "Oversett automatiske undertekster til et annet støttet språk, sammenlign med originalen og kontroller resultatet før eksport.",
+      "format": "iPhone og iPad · Skriftlig veiledning",
+      "alt": "Oversett undertekster i video. Oversett automatiske undertekster til et annet støttet språk, sammenlign med originalen og kontroller resultatet før eksport."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "La effekter reagere på musikk",
+      "description": "Velg et lydfilter, sammenlign forhåndsinnstilte form-animasjoner og kontroller reaksjonen i rolige og kraftigere partier.",
+      "format": "iPhone og iPad · Skriftlig veiledning",
+      "alt": "La effekter reagere på musikk. Velg et lydfilter, sammenlign forhåndsinnstilte form-animasjoner og kontroller reaksjonen i rolige og kraftigere partier."
     }
   ]
 }

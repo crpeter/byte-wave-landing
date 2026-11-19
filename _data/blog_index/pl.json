@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic musi zdobyć zaufanie",
       "summary": "Claude, pytanie rabina i granice obietnic w ochronie przed oszustwem."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "Tłumaczenie napisów w filmie",
+      "summary": "Przetłumacz automatyczne napisy na inny obsługiwany język, porównaj je z oryginałem i sprawdź wynik przed eksportem."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Efekty reagujące na muzykę",
+      "summary": "Wybierz filtr z kategorii Dźwięk, porównaj animowane geometrie i sprawdź ich reakcję w cichszych oraz głośniejszych fragmentach."
     }
   }
 }

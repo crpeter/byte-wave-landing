@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropicin on ansaittava luottamus",
       "summary": "Claude, rabbin kysymys ja yritysten lupausten rajat harhaanjohtamisen torjunnassa."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "Käännä videon tekstitykset",
+      "summary": "Käännä automaattiset tekstitykset toiselle tuetulle kielelle, vertaa alkuperäiseen ja tarkista lopputulos ennen vientiä."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Luo musiikkiin reagoivia tehosteita",
+      "summary": "Valitse Ääni-suodatin, vertaa animoidun geometrian esiasetuksia ja tarkista reaktio hiljaisissa ja voimakkaammissa kohdissa."
     }
   }
 }

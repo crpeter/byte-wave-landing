@@ -13,6 +13,14 @@
 {%- assign local_pages = site.pages | where: 'lang', page.lang -%}
 {%- assign home = local_pages | where: 'translation_key', 'home' | first -%}
 {%- assign blog = local_pages | where: 'translation_key', 'blog-index' | first -%}
+{%- assign collection_page = blog -%}
+{%- assign collection_label = t.nav.blog -%}
+{%- assign collection_type = 'Blog' -%}
+{%- if page.collection_key == 'tutorials' -%}
+  {%- assign collection_page = local_pages | where: 'translation_key', 'tutorials' | first -%}
+  {%- assign collection_label = t.nav.tutorials -%}
+  {%- assign collection_type = 'CollectionPage' -%}
+{%- endif -%}
 {%- assign about = local_pages | where: 'translation_key', 'about' | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
@@ -55,7 +63,7 @@ table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;ma
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
+      "@type": {{ page.schema_type | default: 'BlogPosting' | jsonify }},
       "articleSection": {{ section | jsonify }},
       "headline": {{ title | jsonify }},
       "description": {{ description | jsonify }},
@@ -67,13 +75,13 @@ table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;ma
       "author": {"@type":"Organization","name":"ByteWave","url":{{ about.url | absolute_url | jsonify }}},
       "publisher": {"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":{"@type":"ImageObject","url":"https://bytewaveai.com/logo.png"}},
       "image": {{ image | jsonify }},
-      "isPartOf": {"@type":"Blog","name":{{ t.nav.blog | prepend: 'ByteWave ' | jsonify }},"url":{{ blog.url | absolute_url | jsonify }}}
+      "isPartOf": {"@type":{{ collection_type | jsonify }},"name":{{ collection_label | prepend: 'ByteWave ' | jsonify }},"url":{{ collection_page.url | absolute_url | jsonify }}}
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type":"ListItem","position":1,"name":{{ t.nav.home | jsonify }},"item":{{ home.url | absolute_url | jsonify }}},
-        {"@type":"ListItem","position":2,"name":{{ t.nav.blog | jsonify }},"item":{{ blog.url | absolute_url | jsonify }}},
+        {"@type":"ListItem","position":2,"name":{{ collection_label | jsonify }},"item":{{ collection_page.url | absolute_url | jsonify }}},
         {"@type":"ListItem","position":3,"name":{{ title | jsonify }},"item":{{ url | jsonify }}}
       ]
     }

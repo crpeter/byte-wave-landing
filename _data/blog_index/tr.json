@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic güveni kazanmalı",
       "summary": "Claude, bir hahamın sorusu ve aldatmaya karşı şirket vaatlerinin sınırları."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "Video altyazılarını çevirin",
+      "summary": "Otomatik altyazıları desteklenen başka bir dile çevirin, özgün metinle karşılaştırın ve dışa aktarmadan önce sonucu kontrol edin."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Efektler müziğe tepki versin",
+      "summary": "Bir Ses filtresi seçin, animasyonlu geometri hazır ayarlarını karşılaştırın ve sessiz ya da daha yüksek sesli bölümlerdeki tepkilerini kontrol edin."
     }
   }
 }

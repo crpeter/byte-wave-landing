@@ -79,6 +79,20 @@
       "description": "Inspecione uma cópia de trabalho, remova campos editáveis e confirme o que resta.",
       "format": "Privacidade · Guia escrito",
       "alt": "Remover metadados de localização. Inspecione uma cópia de trabalho, remova campos editáveis e confirme o que resta."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Traduzir legendas de vídeo",
+      "description": "Traduza legendas automáticas para outro idioma compatível, compare com o original e verifique o resultado antes de exportar.",
+      "format": "iPhone e iPad · Guia escrito",
+      "alt": "Traduzir legendas de vídeo. Traduza legendas automáticas para outro idioma compatível, compare com o original e verifique o resultado antes de exportar."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Faça os efeitos reagirem à música",
+      "description": "Escolha um filtro de Áudio, compare predefinições de geometria animada e verifique a resposta em passagens suaves e mais intensas.",
+      "format": "iPhone e iPad · Guia escrito",
+      "alt": "Faça os efeitos reagirem à música. Escolha um filtro de Áudio, compare predefinições de geometria animada e verifique a resposta em passagens suaves e mais intensas."
     }
   ]
 }

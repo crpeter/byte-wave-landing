@@ -377,6 +377,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic Needs to Earn Our Trust",
       "summary": "Claude, the rabbi’s question, and why protecting people from deception needs more than a company’s promises."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "Translate video captions",
+      "summary": "Turn automatic captions into another supported language, compare the original, and check the result before exporting."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Make effects react to music",
+      "summary": "Choose an Audio filter, compare animated geometry presets, and check the response through quiet and louder passages."
     }
   }
 }

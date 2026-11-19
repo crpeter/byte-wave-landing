@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropicは信頼を得られるか",
       "summary": "Claudeとラビの問いを通じ、欺瞞から人を守るには約束だけで足りるのかを考えます。"
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "動画の字幕を翻訳する",
+      "summary": "自動字幕を対応する別の言語に翻訳し、原文と比較してから書き出す方法を紹介します。"
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "エフェクトを音楽に反応させる",
+      "summary": "オーディオフィルターを選び、図形アニメーションのプリセットを比較して、静かな部分と音が大きい部分の反応を確認します。"
     }
   }
 }
