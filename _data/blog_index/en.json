@@ -385,6 +385,10 @@
     "/tutorials/audio-reactive-video-effects/": {
       "title": "Make effects react to music",
       "summary": "Choose an Audio filter, compare animated geometry presets, and check the response through quiet and louder passages."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Meta Muse privacy concerns: Your messages aren’t an invitation",
+      "summary": "Meta Muse reports raise questions about Signal access and unexplained bank balances. Why the hallucination defense needs evidence and consent needs clear limits."
     }
   }
 }

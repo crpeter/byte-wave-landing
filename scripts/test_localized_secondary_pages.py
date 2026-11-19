@@ -158,7 +158,7 @@ print("Verified 17 press kits, 68 copy blocks, source facts, asset links and loc
 
 catalog = json.loads((SOURCE / "_data/blog_sections.json").read_text())
 entries = [entry for section in catalog.values() for entry in section]
-assert len(entries) == 80 and len(catalog) == 5
+assert len(entries) == 81 and len(catalog) == 5
 assert catalog["platforms-creators"][0]["brand"] == "X / Twitter"
 for lang, slug in {"en": "", **LOCALES}.items():
     rendered = (RENDERED / slug / "blog/index.html").read_text()
@@ -273,6 +273,7 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "meta-muse-ai-privacy-concerns": (7, 19, 5),
     "bytewave-vs-meta-creative-control": (5, 16, 0),
     "meta-italy-facebook-camera-roll-fine": (6, 18, 3),
     "meta-muse-privacy-security-incidents": (9, 21, 0),

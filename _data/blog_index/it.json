@@ -365,6 +365,10 @@
     "/tutorials/audio-reactive-video-effects/": {
       "title": "Far reagire gli effetti alla musica",
       "summary": "Scegli un filtro Audio, confronta i preset di geometria animata e controlla la risposta nei passaggi più tranquilli e più intensi."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Privacy di Meta Muse: I tuoi messaggi non sono un invito",
+      "summary": "Accesso a Signal e saldi bancari inspiegati sollevano dubbi su Meta Muse. La difesa delle allucinazioni richiede prove e il consenso limiti chiari."
     }
   }
 }

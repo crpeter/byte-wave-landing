@@ -365,6 +365,10 @@
     "/tutorials/audio-reactive-video-effects/": {
       "title": "Luo musiikkiin reagoivia tehosteita",
       "summary": "Valitse Ääni-suodatin, vertaa animoidun geometrian esiasetuksia ja tarkista reaktio hiljaisissa ja voimakkaammissa kohdissa."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Meta Musen tietosuoja: Viestisi eivät ole kutsu",
+      "summary": "Signal-viesteihin pääsy ja selittämättömät tilisaldot herättävät kysymyksiä Meta Musesta. Hallusinaatioselitys tarvitsee näyttöä ja suostumus selvät rajat."
     }
   }
 }

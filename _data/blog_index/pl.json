@@ -365,6 +365,10 @@
     "/tutorials/audio-reactive-video-effects/": {
       "title": "Efekty reagujące na muzykę",
       "summary": "Wybierz filtr z kategorii Dźwięk, porównaj animowane geometrie i sprawdź ich reakcję w cichszych oraz głośniejszych fragmentach."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Prywatność w Meta Muse: Twoje wiadomości nie są zaproszeniem",
+      "summary": "Dostęp do Signal i niewyjaśnione salda bankowe budzą pytania o Meta Muse. Wyjaśnienie o halucynacjach wymaga dowodów, a zgoda jasnych granic."
     }
   }
 }

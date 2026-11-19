@@ -365,6 +365,10 @@
     "/tutorials/audio-reactive-video-effects/": {
       "title": "Efektler müziğe tepki versin",
       "summary": "Bir Ses filtresi seçin, animasyonlu geometri hazır ayarlarını karşılaştırın ve sessiz ya da daha yüksek sesli bölümlerdeki tepkilerini kontrol edin."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Meta Muse gizliliği: Mesajlarınız bir davet değildir",
+      "summary": "Signal erişimi ve açıklanamayan banka bakiyeleri Meta Muse hakkında sorular doğuruyor. Halüsinasyon savunması kanıt, rıza ise açık sınırlar gerektirir."
     }
   }
 }

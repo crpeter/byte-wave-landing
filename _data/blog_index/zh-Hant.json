@@ -365,6 +365,10 @@
     "/tutorials/audio-reactive-video-effects/": {
       "title": "讓效果隨音樂變化",
       "summary": "選擇音訊濾鏡、比較動態幾何圖形預設效果，並檢查安靜與較大聲段落中的反應。"
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Meta Muse 隱私疑慮：私人訊息不是邀請函",
+      "summary": "Signal 存取與來源不明的銀行餘額引發 Meta Muse 隱私疑慮。為何「幻覺」的辯解需要證據，而同意需要明確界線。"
     }
   }
 }
