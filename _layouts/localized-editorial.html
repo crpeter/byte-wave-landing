@@ -46,6 +46,7 @@
 article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.65rem}.quick-links{display:flex;gap:.8rem 1.2rem;flex-wrap:wrap}.lead{font-size:1.16rem}.company-list dt{font-weight:750;margin-top:1.3rem;color:#e8e6f0}.company-list dd{margin:.4rem 0 1.2rem;color:#aaa7bb}strong{color:#e8e6f0}.meta,.disclosure{color:#aaa7bb}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .status,.thesis{padding:1.2rem;border:1px solid #292838;border-radius:12px;background:#0c0c12;margin:1.5rem 0}.thesis{border-color:#00e5a0;font-size:1.15rem;color:#e8e6f0}.sources li{margin:.7rem 0}
+.comparison-scroll{overflow-x:auto;margin:1.5rem 0 2rem;border:1px solid rgba(255,255,255,.13);border-radius:12px}.comparison-scroll:focus-visible{outline:3px solid #e2b8df;outline-offset:3px}.comparison-table{display:table;width:100%;min-width:550px;border-collapse:collapse;text-align:left;font-size:.94rem;line-height:1.5}.comparison-table caption{text-align:left;padding:1rem;color:var(--text-dim);font-size:.84rem}.comparison-table th,.comparison-table td{padding:.8rem .9rem;vertical-align:top;border-top:1px solid rgba(255,255,255,.09)}.comparison-table th{color:var(--text);font-weight:700}.comparison-table td{color:var(--text-dim)}.comparison-table tbody th{width:28%}.comparison-table thead{background:rgba(255,255,255,.04)}
     </style>
 <script type="application/ld+json">
 {
@@ -87,7 +88,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 <article>
 <p class="eyebrow">{{ section | escape }}</p>
 <h1>{{ title | escape }}</h1>
-<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time>{% if page.source_updated_on %} · {{ page.updated_label | escape }} <time datetime="{{ page.source_updated_on }}">{{ page.display_source_update | escape }}</time>{% endif %}{% if page.reading_time %} · {{ page.reading_time | escape }}{% endif %}</p>
+<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time>{% if page.source_updated_on %} · {{ page.updated_label | escape }} <time datetime="{{ page.source_updated_on }}">{{ page.display_source_update | escape }}</time>{% endif %}{% if page.sources_checked_on %} · {{ page.sources_checked_label | escape }} <time datetime="{{ page.sources_checked_on }}">{{ page.display_sources_check | escape }}</time>{% endif %}{% if page.reading_time %} · {{ page.reading_time | escape }}{% endif %}</p>
 <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ page.publisher_note | escape }}</p>
 {{ content }}
 {% unless page.show_article_cta == false %}

@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "es"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/es/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "Publicado el"
+display_date: "26 de abril de 2026"
+article_title: "¿Qué son los shaders Metal? Cómo usa ByteWave la GPU de tu iPhone"
+seo_title: "Shaders Metal en iPhone: cómo funcionan los efectos de ByteWave"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "ByteWave revisó las afirmaciones sobre el producto; las comparaciones reflejan su interés comercial y no son reseñas independientes."
+social_image: "/assets/og-image.jpg"
+image_alt: "Imagen de presentación de ByteWave"
+reading_time: "5 min de lectura"
+source_updated_on: "2026-10-18"
+display_source_update: "18 de octubre de 2026"
+updated_label: "Actualizado"
+---
+<p>Al aplicar un filtro en la mayoría de los editores de vídeo, ocurre algo que nunca ves. La app toma cada fotograma, lo procesa con algún algoritmo y entrega el resultado. En la mayoría de las apps, ese algoritmo es una caja negra. En ByteWave es un shader Metal que puedes leer y editar.</p>
+
+  <h2>¿Qué es Metal?</h2>
+
+  <p>Metal es el framework de programación de GPU de Apple. Tanto las CPU como las GPU ejecutan tareas en paralelo, pero las GPU son especialmente aptas para aplicar operaciones similares a muchos píxeles. Un fotograma 4K tiene más de ocho millones de píxeles; la GPU organiza grupos de hilos para procesarlos, en lugar de ejecutar todos los píxeles simultáneamente.</p>
+
+  <p>Metal sustituyó a OpenGL en las plataformas de Apple y permite a los desarrolladores controlar el hardware de forma mucho más directa. Es el mismo framework que impulsa juegos de alta gama y herramientas creativas profesionales en dispositivos Apple.</p>
+
+  <h2>¿Qué es un shader?</h2>
+
+  <p>Un shader es un pequeño programa que se ejecuta en la GPU. En edición de vídeo, toma el color de un píxel y genera otro color. Ese es su funcionamiento más básico. Un shader de escala de grises lee los valores rojo, verde y azul de un píxel y los promedia en un único valor gris. Uno de tinte modifica el tono. Uno de desenfoque toma muestras de píxeles vecinos y las mezcla.</p>
+
+  <p>Este es un pequeño ejemplo de cálculo con Metal. Supone texturas de entrada y salida del mismo tamaño; ilustra la sintaxis de Metal, no la interfaz de filtros personalizados de ByteWave:</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>Cada hilo procesa un píxel. Que el efecto siga el ritmo de reproducción depende del dispositivo, la resolución y el shader. Los <a href="https://developer.apple.com/metal/sample-code/">ejemplos de código Metal</a> de Apple incluyen procesamiento de imágenes mediante cálculo en GPU.</p>
+
+  <h2>Por qué importa para editar vídeo</h2>
+
+  <p>La mayoría de los editores móviles aplican filtros mediante código precompilado que no puedes ver ni cambiar. Tienes un filtro «Vintage» o un preajuste «Cálido» y quizá un deslizador para ajustar la intensidad. Eso es todo. No sabes qué hace realmente el filtro ni puedes modificar su lógica.</p>
+
+  <p>ByteWave adopta otro enfoque. Cada filtro muestra el código fuente de su shader. Puedes abrir la vista de código y ver exactamente qué hace a nivel de píxel el filtro de grises, el impresionista o cualquier otro efecto. Y, sobre todo, puedes cambiarlo.</p>
+
+  <h2>Cómo hace ByteWave accesibles los shaders</h2>
+
+  <p>No necesitas ser programador de gráficos. El proceso de ByteWave consiste en copiar la referencia del shader y pegarla en un asistente de IA como ChatGPT o Claude. Describes lo que quieres en inglés corriente, por ejemplo «haz que parezca película Kodachrome descolorida con sombras empastadas», y la IA escribe el shader. Pégalo de nuevo en ByteWave, previsualízalo con tus vídeos y repite los ajustes.</p>
+
+  <p>Así funcionan también los <a href="/es/blog/community-filters-bytewave.html">filtros de la comunidad</a>. Quien publica un filtro comparte el código del shader. Puedes usarlo tal cual o abrir el código como punto de partida para algo nuevo.</p>
+
+  <h2>Shaders que reconocen al sujeto</h2>
+
+  <p>ByteWave va más allá al permitir que los shaders accedan a datos del framework Vision. La app puede detectar al sujeto del vídeo y pasar una máscara al shader, para aplicar efectos distintos al sujeto y al fondo. Un fondo de pintura impresionista con el sujeto nítido. Una corrección de color en el sujeto y un fondo desaturado. Un desenfoque que afecte a todo salvo al rostro. Tradicionalmente, estos efectos requerían rotoscopia manual en After Effects.</p>
+
+  <h2>La base técnica</h2>
+
+  <p>Para quienes sienten curiosidad técnica: los kernels de cálculo Metal pueden leer la textura de un fotograma, aplicar operaciones por píxel y escribir una textura de salida. Los filtros pueden encadenarse y las máscaras del sujeto servir como otra entrada. La conversión de frecuencia de fotogramas (FRC), el desenfoque de movimiento y la reducción temporal de ruido de ByteWave requieren procesamiento local antes de la previsualización.</p>
+
+  <p>ByteWave procesa los efectos de edición en el dispositivo. El rendimiento depende del dispositivo, la resolución del clip y los ajustes del efecto.</p>
+
+  <div class="callout">
+    <h3>Mira el código. Cámbialo. Hazlo tuyo.</h3>
+    <p>Lee y edita el código Metal de los filtros de ByteWave.</p>
+    <a href="/es/#download" class="button">Consigue ByteWave gratis</a>
+  </div>
+
+  <p>También: <a href="/es/blog/custom-video-filters-ai-tutorial.html">Crea filtros personalizados con IA</a> · <a href="/es/blog/community-filters-bytewave.html">Filtros de la comunidad</a></p>

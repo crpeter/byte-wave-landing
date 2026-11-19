@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "nl"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/nl/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "Gepubliceerd op"
+display_date: "26 april 2026"
+article_title: "Wat zijn Metal-shaders? Zo gebruikt ByteWave de GPU van je iPhone"
+seo_title: "Metal-shaders op iPhone: hoe ByteWave GPU-effecten maakt"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "ByteWave heeft de productclaims gecontroleerd; vergelijkingen weerspiegelen zijn commerciële belang en zijn geen onafhankelijke beoordelingen."
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWave-voorbeeldafbeelding"
+reading_time: "5 min leestijd"
+source_updated_on: "2026-10-18"
+display_source_update: "18 oktober 2026"
+updated_label: "Bijgewerkt op"
+---
+<p>Als je in de meeste video-editors een filter toepast, gebeurt er iets onzichtbaars achter de schermen. De app neemt elk frame, verwerkt het met een algoritme en geeft het resultaat. Meestal is dat algoritme een zwarte doos. In ByteWave is het een Metal-shader die je echt kunt lezen en bewerken.</p>
+
+  <h2>Wat is Metal?</h2>
+
+  <p>Metal is Apples framework voor GPU-programmering. CPU’s en GPU’s werken beide parallel, maar GPU’s zijn bijzonder geschikt voor vergelijkbare bewerkingen over veel pixels. Een 4K-frame heeft ruim acht miljoen pixels. De GPU plant groepen threads om die te verwerken in plaats van iedere pixel tegelijkertijd uit te voeren.</p>
+
+  <p>Metal verving OpenGL op Apple-platforms en geeft ontwikkelaars veel directere controle over de hardware. Hetzelfde framework ondersteunt hoogwaardige games en professionele creatieve tools op Apple-apparaten.</p>
+
+  <h2>Wat is een shader?</h2>
+
+  <p>Een shader is een klein programma op de GPU. Bij videobewerking neemt het een pixelkleur als invoer en levert een nieuwe kleur. Dat is de basis. Een grijswaardenshader leest rood, groen en blauw en neemt het gemiddelde tot één grijswaarde. Een kleurfilter verschuift de tint. Een vervagingsshader bemonstert naburige pixels en mengt ze.</p>
+
+  <p>Hier volgt een klein Metal-computevoorbeeld. Het gaat uit van even grote in- en uitvoertexturen en illustreert de Metal-syntaxis, niet ByteWaves interface voor eigen filters:</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>Elke thread verwerkt een pixel. Of een effect de afspeelsnelheid bijhoudt, hangt af van apparaat, resolutie en shader. Apples <a href="https://developer.apple.com/metal/sample-code/">Metal-voorbeeldcode</a> bevat beeldverwerking met compute-kernels.</p>
+
+  <h2>Waarom dit belangrijk is voor videobewerking</h2>
+
+  <p>De meeste mobiele editors gebruiken vooraf gecompileerde filtercode die je niet kunt zien of wijzigen. Je krijgt een ‘Vintage’-filter of ‘Warm’-preset en misschien een intensiteitsschuif. Meer niet. Je weet niet wat het filter echt doet en kunt de onderliggende logica niet wijzigen.</p>
+
+  <p>ByteWave kiest een andere aanpak. Elk filter toont zijn shaderbroncode. In de codeweergave zie je precies wat het grijswaardenfilter, het impressionistische filter of een ander effect op pixelniveau doet. Bovendien kun je het veranderen.</p>
+
+  <h2>Hoe ByteWave shaders toegankelijk maakt</h2>
+
+  <p>Je hoeft geen grafisch programmeur te zijn. De workflow is gebouwd rond het kopiëren van de shaderreferentie naar een AI-assistent als ChatGPT of Claude. Beschrijf je wens in gewoon Engels, bijvoorbeeld ‘laat dit op verbleekte Kodachrome-film met dichtgelopen schaduwen lijken’, en de AI schrijft de shadercode. Plak die in ByteWave, bekijk het effect op je beelden en verbeter het.</p>
+
+  <p>Zo werken ook <a href="/nl/blog/community-filters-bytewave.html">communityfilters</a>. Wie een filter publiceert, deelt de shadercode. Je kunt het ongewijzigd gebruiken of de code openen als beginpunt voor iets nieuws.</p>
+
+  <h2>Shaders die rekening houden met het onderwerp</h2>
+
+  <p>ByteWave geeft shaders ook toegang tot gegevens uit het Vision-framework. De app kan het onderwerp herkennen en een masker doorgeven, zodat je onderwerp en achtergrond verschillend behandelt. Een impressionistisch geschilderde achtergrond met een scherp onderwerp. Kleurcorrectie op het onderwerp en een onverzadigde achtergrond. Vervaging overal behalve het gezicht. Zulke effecten vereisten traditioneel handmatige rotoscopie in After Effects.</p>
+
+  <h2>De technische opbouw</h2>
+
+  <p>Voor technisch geïnteresseerden: Metal-compute-kernels lezen een frametextuur, voeren pixelbewerkingen uit en schrijven een uitvoertextuur. Filters kunnen worden gekoppeld en onderwerpmaskers vormen een extra invoer. ByteWaves FRC, bewegingsonscherpte en temporele ruisonderdrukking vereisen een lokale verwerkingsstap vóór de preview.</p>
+
+  <p>ByteWave verwerkt montage-effecten op het apparaat. De prestaties hangen af van apparaat, clipresolutie en effectinstellingen.</p>
+
+  <div class="callout">
+    <h3>Bekijk de code. Verander de code. Maak het van jezelf.</h3>
+    <p>Lees en bewerk de Metal-code achter ByteWaves filters.</p>
+    <a href="/nl/#download" class="button">Download ByteWave gratis</a>
+  </div>
+
+  <p>Lees ook: <a href="/nl/blog/custom-video-filters-ai-tutorial.html">Eigen filters maken met AI</a> · <a href="/nl/blog/community-filters-bytewave.html">Communityfilters</a></p>

@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "tr"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/tr/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "Yayımlandı"
+display_date: "26 Nisan 2026"
+article_title: "Metal shader’ları nedir? ByteWave iPhone’unuzun GPU’sunu nasıl kullanır?"
+seo_title: "iPhone’da Metal shader’ları: ByteWave’in GPU efektleri"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "Ürün iddiaları ByteWave tarafından incelenmiştir; karşılaştırmalar ByteWave’in ticari çıkarını yansıtır ve bağımsız incelemeler değildir."
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWave markalı önizleme görseli"
+reading_time: "Okuma süresi: 5 dk."
+source_updated_on: "2026-10-18"
+display_source_update: "18 Ekim 2026"
+updated_label: "Güncellendi"
+---
+<p>Çoğu video düzenleyicide filtre uyguladığınızda, görmediğiniz bir şey olur. Uygulama videonun her karesini bir algoritmayla işler ve sonucu gösterir. Çoğu uygulamada algoritma kapalı bir kutudur. ByteWave’de ise okuyup düzenleyebildiğiniz bir Metal shader’ıdır.</p>
+
+  <h2>Metal nedir?</h2>
+
+  <p>Metal, Apple’ın GPU programlama framework’üdür. CPU ve GPU işleri paralel yürütür, ancak GPU çok sayıda piksele benzer işlemleri uygulamaya özellikle uygundur. Bir 4K karede sekiz milyondan fazla piksel vardır. GPU, tüm pikselleri aynı anda çalıştırmak yerine onları işlemek için iş parçacığı gruplarını zamanlar.</p>
+
+  <p>Metal, Apple platformlarında OpenGL’in yerini aldı ve geliştiricilere donanım üzerinde çok daha doğrudan kontrol sağlar. Apple cihazlarındaki üst düzey oyunları ve profesyonel yaratıcı araçları çalıştıran framework de budur.</p>
+
+  <h2>Shader nedir?</h2>
+
+  <p>Shader, GPU’da çalışan küçük bir programdır. Video düzenlemede bir pikselin rengini girdi olarak alıp yeni renk üretir. Temel düzeyde yaptığı budur. Gri ton shader’ı kırmızı, yeşil ve mavi değerleri okuyup tek gri değer için ortalamalarını alır. Renk tonu shader’ı tonu kaydırır. Bulanıklık shader’ı komşu pikselleri örnekleyip karıştırır.</p>
+
+  <p>Aşağıda küçük bir Metal hesaplama örneği var. Girdi ve çıktı dokularının aynı boyutta olduğunu varsayar; ByteWave’in özel filtre arayüzünü değil, Metal sözdizimini gösterir:</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>Her iş parçacığı bir piksel işler. Efektin oynatma hızına yetişmesi cihaza, çözünürlüğe ve shader’a bağlıdır. Apple’ın <a href="https://developer.apple.com/metal/sample-code/">Metal örnek kodları</a> GPU hesaplamasıyla görüntü işleme örnekleri içerir.</p>
+
+  <h2>Video düzenleme için neden önemlidir?</h2>
+
+  <p>Çoğu mobil düzenleyici, göremediğiniz veya değiştiremediğiniz önceden derlenmiş filtre kodu kullanır. Bir “Vintage” filtresi ya da “Sıcak” hazır ayarı ve belki bir yoğunluk sürgüsü sunulur. Hepsi bu. Filtrenin gerçekten ne yaptığını bilmez, mantığını değiştiremezsiniz.</p>
+
+  <p>ByteWave farklı yaklaşır. Her filtre shader kaynak kodunu gösterir. Kod görünümünü açarak gri ton filtresinin, empresyonist filtrenin veya başka bir efektin piksel düzeyinde ne yaptığını görebilirsiniz. Daha önemlisi, değiştirebilirsiniz.</p>
+
+  <h2>ByteWave shader’ları nasıl erişilebilir kılar?</h2>
+
+  <p>Grafik programcısı olmanız gerekmez. İş akışı, shader referansını ChatGPT veya Claude gibi bir yapay zekâ asistanına kopyalamaya dayanır. İsteğinizi sade İngilizceyle, örneğin “bunu gölgeleri ezilmiş, solmuş Kodachrome film gibi göster” diye anlatırsınız; yapay zekâ kodu yazar. ByteWave’e yapıştırın, görüntülerinizde önizleyin ve iyileştirin.</p>
+
+  <p><a href="/tr/blog/community-filters-bytewave.html">Topluluk filtreleri</a> de böyle çalışır. Filtre yayımlayan kişi shader kodunu paylaşır. Aynen kullanabilir veya kodu yeni bir şeyin başlangıç noktası olarak açabilirsiniz.</p>
+
+  <h2>Konuyu dikkate alan shader’lar</h2>
+
+  <p>ByteWave, shader’ların Vision framework verilerine erişmesine de izin verir. Uygulama videodaki konuyu algılayıp shader’a maske göndererek konu ve arka plana farklı işlemler uygulamanızı sağlar. Konu netken arka planda empresyonist resim efekti. Arka plan solukken konuda renk düzenlemesi. Yüz dışındaki her şeyi bulanıklaştırma. Geleneksel olarak bunlar After Effects’te elle rotoskopi gerektirirdi.</p>
+
+  <h2>Teknik yapı</h2>
+
+  <p>Teknik ayrıntıları merak edenler için: Metal hesaplama çekirdekleri kare dokusunu okuyabilir, piksel başına işlem yapabilir ve çıktı dokusu yazabilir. Filtreler zincirlenebilir; konu maskeleri ek girdi olabilir. ByteWave’in FRC, hareket bulanıklığı ve zamansal gürültü azaltma araçları önizlemeden önce yerel işleme gerektirir.</p>
+
+  <p>ByteWave düzenleme efektlerini cihazda işler. Performans cihaza, klip çözünürlüğüne ve efekt ayarlarına bağlıdır.</p>
+
+  <div class="callout">
+    <h3>Kodu görün. Kodu değiştirin. Kendinize uyarlayın.</h3>
+    <p>ByteWave filtrelerinin arkasındaki Metal kodunu okuyup düzenleyin.</p>
+    <a href="/tr/#download" class="button">ByteWave’i ücretsiz edinin</a>
+  </div>
+
+  <p>Ayrıca okuyun: <a href="/tr/blog/custom-video-filters-ai-tutorial.html">Yapay zekâyla özel filtre oluşturma</a> · <a href="/tr/blog/community-filters-bytewave.html">Topluluk filtreleri</a></p>

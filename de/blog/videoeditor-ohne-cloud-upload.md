@@ -50,4 +50,4 @@ Prüfe auch Bild und Ton: Straßenschilder oder eine gesprochene Adresse können
 
 Teste es selbst: [Video im Flugmodus bearbeiten und exportieren](/de/blog/offline-video-editor-airplane-mode-test.html).
 
-Ein Vergleich: [ByteWave und VN (Englisch)](/blog/bytewave-vs-vn-video-editor-2026.html) zu lokaler Bearbeitung, App-Store-Datenschutzangaben und nativer Untertitelübersetzung.
+Ein Vergleich: [ByteWave und VN](/de/blog/bytewave-vs-vn-video-editor-2026.html) zu lokaler Bearbeitung, App-Store-Datenschutzangaben und nativer Untertitelübersetzung.

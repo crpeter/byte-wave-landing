@@ -48,4 +48,4 @@ Revisa también la imagen y el sonido. Un letrero con el nombre de una calle o u
 
 Haz la prueba: [edita y exporta un video en modo avión](/es/blog/offline-video-editor-airplane-mode-test.html).
 
-¿Estás comparando la privacidad de distintos editores? Consulta [ByteWave frente a VN (en inglés)](/blog/bytewave-vs-vn-video-editor-2026.html) para conocer las diferencias en edición local, etiquetas de privacidad de la App Store y traducción nativa de subtítulos.
+¿Estás comparando la privacidad de distintos editores? Consulta [ByteWave frente a VN](/es/blog/bytewave-vs-vn-video-editor-2026.html) para conocer las diferencias en edición local, etiquetas de privacidad de la App Store y traducción nativa de subtítulos.

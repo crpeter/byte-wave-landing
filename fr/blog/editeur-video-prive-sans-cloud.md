@@ -48,4 +48,4 @@ Vérifiez aussi l’image et le son : un panneau de rue ou une adresse prononcé
 
 Faites l’essai : [montez et exportez une vidéo en mode avion](/fr/blog/offline-video-editor-airplane-mode-test.html).
 
-Vous comparez les garanties de confidentialité ? [ByteWave face à VN (en anglais)](/blog/bytewave-vs-vn-video-editor-2026.html) présente l’édition locale, les étiquettes de confidentialité de l’App Store et la traduction native des sous-titres.
+Vous comparez les garanties de confidentialité ? [ByteWave face à VN](/fr/blog/bytewave-vs-vn-video-editor-2026.html) présente l’édition locale, les étiquettes de confidentialité de l’App Store et la traduction native des sous-titres.

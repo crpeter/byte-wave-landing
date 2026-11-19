@@ -1,0 +1,57 @@
+---
+layout: "localized-editorial"
+lang: "ko"
+translation_key: "bytewave-advanced-editing-keyframes-translation"
+permalink: "/ko/blog/bytewave-advanced-editing-keyframes-translation.html"
+published_on: "2026-11-14"
+updated_on: "2026-11-19"
+published_label: "게시일"
+display_date: "2026년 11월 14일"
+article_title: "ByteWave로 iPhone에서 고급 영상 편집하기: 키프레임, 자막 번역, Metal 효과"
+seo_title: "ByteWave 고급 편집: 키프레임과 시스템 번역, Metal 효과"
+section_tag: "feature-guide"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "이 글은 ByteWave 자체 도구에 대한 설명이며 독립적인 제품 리뷰가 아닙니다. 기기와 시스템 언어에 따라 사용 가능 여부가 달라질 수 있습니다."
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWave 브랜드 미리보기 이미지"
+reading_time: "읽는 시간 5분"
+---
+<p>ByteWave는 지원되는 iPhone과 iPad, 그리고 iPad 앱을 실행할 수 있는 호환 Apple silicon Mac용 무료 영상 편집기입니다. 고급 도구에 구독이나 유료 등급이 필요 없으며, 내보낸 영상에 눈에 보이는 ByteWave 워터마크를 넣지 않습니다. 편집기에서 실제로 할 수 있는 일과 시스템의 기본 자막 번역이 작동하는 방식을 설명합니다.</p>
+
+  <h2>키프레임으로 무엇을 움직일 수 있나요?</h2>
+  <p>ByteWave는 <strong>자막과 스티커의 키프레임 애니메이션</strong>을 지원합니다. 고정된 제목이나 그래픽을 배치하는 대신, 영상 재생에 따라 움직이도록 만들 수 있습니다. 텍스트에는 내장 자막 효과와 애니메이션도 적용할 수 있으며, 스티커에는 움직임과 모양을 조절하는 기능이 있습니다.</p>
+  <p><a href="/ko/tutorials/animated-captions/">움직이는 자막 가이드</a>와 <a href="/ko/tutorials/animate-stickers/">스티커 애니메이션 가이드</a>에서 편집 과정을 설명합니다. 앱의 모든 속성이 키프레임을 지원하는 것은 아닙니다. 이 예시는 문서로 안내하는 기능을 보여 주며, 모든 기능에서 키프레임이 된다고 약속하지 않습니다.</p>
+
+  <h2>자동 자막과 번역은 어떻게 작동하나요?</h2>
+  <p>자동 자막 받아쓰기는 기기에서 실행됩니다. 번역에는 <strong>Apple의 기본 Translation 프레임워크</strong>와 Apple이 시스템을 통해 제공하는 언어를 사용합니다. 설정에서 번역 언어를 다운로드하면 ByteWave는 지원되는 해당 시스템 언어를 사용할 수 있습니다. ByteWave가 따로 관리하는 짧은 번역 언어 목록에 의존하지 않습니다.</p>
+  <p>iPhone에서 <strong>설정 → 앱 → 번역 → 언어</strong>를 열어 원본 언어와 대상 언어를 모두 다운로드하세요. 번역을 기기에서 처리하려면 번역 설정의 <strong>온디바이스 모드(On-Device Mode)</strong>도 켜세요. Apple은 오프라인 번역에 두 언어 팩이 모두 필요하며, 그렇지 않으면 Apple 서버를 사용할 수 있다고 설명합니다. <a href="https://support.apple.com/en-my/guide/iphone/iphddb6e7264/26/ios/26">Apple의 iOS 26 번역 설정 안내를 확인하세요</a>.</p>
+  <p><strong>중요:</strong> 사용 가능한 언어와 언어 쌍은 설치된 Apple 시스템 리소스와 지원 범위에 달려 있습니다. ByteWave의 App Store 인터페이스 현지화 언어 수로 정해지지 않습니다. 오프라인 지원도 Apple 설정에 따라 달라집니다. 전 세계 모든 언어를 지원한다고 주장하지 않습니다.</p>
+
+  <h2>시각 효과를 어떻게 맞춤 설정할 수 있나요?</h2>
+  <p>ByteWave의 <strong>Metal Shader Editor</strong>는 시각 필터의 소스 코드를 공개합니다. 코드를 살펴보고 수정하거나 완전히 새로운 필터 또는 전환 효과를 만들 수 있습니다. 단순히 프리셋을 고르고 강도만 조절하는 것과 다릅니다. AI 도우미에게 셰이더 코드 작성을 부탁할 수 있지만, 편집과 렌더링 과정은 기기에서 수행됩니다.</p>
+  <p>셰이더 효과는 피사체 마스크와 함께 사용할 수 있으며 <a href="/ko/blog/community-filters-bytewave.html">커뮤니티 필터</a>로 공유할 수 있습니다. 기술적 배경은 <a href="/ko/blog/what-are-metal-shaders-iphone-gpu.html">iPhone에서 Metal 셰이더가 작동하는 방식</a>을 읽어 보세요.</p>
+
+  <h2>오디오 반응형 필터와 3D 도형</h2>
+  <p>ByteWave 1.3.14에서는 <strong>오디오 반응형 필터와 움직이는 도형 효과</strong>가 추가되었습니다. 영상의 소리에 반응하여 필터나 움직이는 지형 같은 형태를 변화시킵니다. 여러 오디오 트랙, 음향 효과, 믹싱 조절 기능과 결합하면 클립을 별도의 효과 앱으로 내보내지 않고 음악에 맞춘 편집을 할 수 있습니다.</p>
+  <p>사진과 영상을 결합한 움직이는 레이아웃, 피사체 분리, 모션 블러, 시간적 노이즈 감소, 프레임 레이트 변환 등 로컬 처리 도구도 지원합니다. 효과와 내보내기 성능은 기기와 원본 영상에 따라 달라집니다.</p>
+
+  <h2>고급 편집에 계정이나 구독이 필요한가요?</h2>
+  <p>로컬 편집에는 계정이 필요 없습니다. ByteWave의 모든 편집 도구는 무료이며, 내보낸 영상에는 눈에 보이는 ByteWave 워터마크가 없습니다. App Store 개인정보 보호 표시는 개발자 신고에 따라 <strong>‘데이터 수집 안 함’</strong>으로 되어 있습니다. 선택 사항인 프로필, 게시, 공유, 소셜 기능은 온라인 서비스를 사용하므로 로컬 편집 과정과 구분됩니다. 자세한 내용은 <a href="/ko/privacy.html">개인정보 처리방침</a>을 확인하세요.</p>
+
+  <h2>어떤 기기에서 ByteWave를 실행할 수 있나요?</h2>
+  <p>ByteWave에는 iPhone의 iOS 26 또는 iPad의 iPadOS 26이 필요합니다. App Store에는 macOS 26과 Apple M1 이상 Mac도 호환 기기로 표시됩니다. Mac에서는 별도로 개발한 기본 Mac 앱이 아니라 ‘iPad용으로 디자인됨’ 앱으로 실행됩니다. 다운로드 전에 <a href="https://apps.apple.com/us/app/bytewave/id6752225642">App Store의 현재 호환성 정보</a>를 확인하세요.</p>
+
+  <h2>다른 무료 편집기와 비교하면 어떤가요?</h2>
+  <p>내장 소셜 템플릿, 조절 가능한 키프레임 곡선, 구형 휴대전화 지원이 필요하다면 기존 편집기를 선택할 이유가 될 수 있습니다. 완전히 무료인 고급 도구, 다운로드한 Apple 언어를 활용하는 기본 자막 번역, 수정 가능한 GPU 셰이더 코드를 원한다면 ByteWave에는 다른 장점이 있습니다. 출처를 명시한 <a href="/ko/blog/bytewave-vs-vn-video-editor-2026.html">ByteWave와 VN 비교</a>를 살펴보세요.</p>
+
+  <h2>출처와 범위</h2>
+  <p>2026년 11월 14일 검토: <a href="https://apps.apple.com/us/app/bytewave/id6752225642">ByteWave의 App Store 설명 및 버전 1.3.14 업데이트 내용</a>, <a href="https://support.apple.com/en-my/guide/iphone/iphddb6e7264/26/ios/26">Apple의 iOS 26 번역 설정 가이드</a>, <a href="/ko/privacy.html">ByteWave 개인정보 처리방침</a>. 번역 언어의 사용 가능 여부는 Apple 시스템 지원과 설치된 언어 팩으로 결정됩니다.</p>
+
+  <div class="callout">
+    <h3>단순한 릴스가 아닌, 진짜 무언가를 만드세요.</h3>
+    <p>모든 편집 도구가 무료입니다. 구독도 ByteWave 워터마크도 없습니다.</p>
+    <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=seo_advanced_editing&amp;mt=8" class="button">ByteWave 무료로 받기</a>
+  </div>
+
+  <p>함께 읽기: <a href="/ko/blog/bytewave-vs-vn-video-editor-2026.html">ByteWave와 VN</a> · <a href="/ko/blog/what-are-metal-shaders-iphone-gpu.html">Metal 셰이더 설명</a> · <a href="/ko/blog/best-free-video-editor-no-watermark.html">워터마크 없는 무료 영상 편집</a></p>

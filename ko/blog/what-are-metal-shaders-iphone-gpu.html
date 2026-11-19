@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "ko"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/ko/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "게시일"
+display_date: "2026년 4월 26일"
+article_title: "Metal 셰이더란? ByteWave가 iPhone의 GPU를 활용하는 방법"
+seo_title: "iPhone의 Metal 셰이더와 ByteWave GPU 효과 이해하기"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "제품 관련 주장은 ByteWave가 검토했습니다. 비교 내용에는 ByteWave의 상업적 이해관계가 반영되어 있으며 독립적인 리뷰가 아닙니다."
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWave 브랜드 미리보기 이미지"
+reading_time: "읽는 시간 5분"
+source_updated_on: "2026-10-18"
+display_source_update: "2026년 10월 18일"
+updated_label: "업데이트"
+---
+<p>대부분의 영상 편집기에서 필터를 적용하면 보이지 않는 곳에서 어떤 처리가 일어납니다. 앱은 영상의 각 프레임을 알고리즘으로 처리해 결과를 보여 줍니다. 대부분 그 알고리즘은 내부를 알 수 없는 블랙박스입니다. ByteWave에서는 직접 읽고 수정할 수 있는 Metal 셰이더입니다.</p>
+
+  <h2>Metal이란 무엇인가요?</h2>
+
+  <p>Metal은 Apple의 GPU 프로그래밍 프레임워크입니다. CPU와 GPU 모두 작업을 병렬로 실행하지만, GPU는 수많은 픽셀에 비슷한 연산을 적용하는 데 특히 적합합니다. 4K 프레임에는 800만 개가 넘는 픽셀이 있습니다. GPU는 모든 픽셀을 한꺼번에 실행하는 대신, 스레드 그룹의 처리 순서를 배정합니다.</p>
+
+  <p>Metal은 Apple 플랫폼에서 OpenGL을 대체하며 개발자가 하드웨어를 훨씬 직접적으로 제어하게 해 줍니다. Apple 기기의 고사양 게임과 전문 창작 도구에도 같은 프레임워크가 사용됩니다.</p>
+
+  <h2>셰이더란 무엇인가요?</h2>
+
+  <p>셰이더는 GPU에서 실행되는 작은 프로그램입니다. 영상 편집에서는 픽셀의 색을 입력받아 새로운 색을 출력합니다. 가장 기본적인 원리는 이렇습니다. 회색조 셰이더는 픽셀의 빨강, 초록, 파랑 값을 읽고 평균을 계산해 하나의 회색 값으로 만듭니다. 색조 셰이더는 색조를 바꿉니다. 블러 셰이더는 이웃 픽셀을 샘플링해 섞습니다.</p>
+
+  <p>다음은 간단한 Metal 연산 예제입니다. 입력과 출력 텍스처의 크기가 같다고 가정합니다. ByteWave의 사용자 지정 필터 인터페이스가 아니라 Metal 문법을 보여 주는 예제입니다.</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>각 스레드는 픽셀 하나를 처리합니다. 효과가 재생 속도를 따라갈 수 있는지는 기기, 해상도, 셰이더에 달려 있습니다. Apple의 <a href="https://developer.apple.com/metal/sample-code/">Metal 샘플 코드</a>에는 컴퓨트 연산을 이용한 이미지 처리 예제가 있습니다.</p>
+
+  <h2>영상 편집에서 중요한 이유</h2>
+
+  <p>대부분의 모바일 편집기는 볼 수도 바꿀 수도 없는 사전 컴파일 코드로 필터를 적용합니다. ‘빈티지’ 필터나 ‘따뜻함’ 프리셋을 선택하고, 가능하다면 슬라이더로 강도를 조절하는 게 전부입니다. 필터가 실제로 무엇을 하는지 알 수 없고 그 논리도 바꿀 수 없습니다.</p>
+
+  <p>ByteWave는 다른 방식을 택합니다. 모든 필터가 셰이더 소스 코드를 보여 줍니다. 코드 보기에서 회색조 필터, 인상파 필터, 그 밖의 효과가 픽셀 수준에서 정확히 무엇을 하는지 확인할 수 있습니다. 무엇보다 이를 바꿀 수 있습니다.</p>
+
+  <h2>ByteWave는 셰이더를 어떻게 쉽게 활용하게 하나요?</h2>
+
+  <p>그래픽 프로그래머일 필요는 없습니다. ByteWave의 작업 흐름은 셰이더 참조 자료를 복사해 ChatGPT나 Claude 같은 AI 도우미에게 붙여 넣는 방식입니다. ‘색이 바랜 Kodachrome 필름처럼 보이게 하고 어두운 부분의 디테일을 없애 줘’처럼 원하는 결과를 일상적인 영어로 설명하면 AI가 셰이더 코드를 작성합니다. ByteWave에 다시 붙여 넣고 자신의 영상에서 미리 확인하며 다듬으세요.</p>
+
+  <p><a href="/ko/blog/community-filters-bytewave.html">커뮤니티 필터</a>도 같은 방식입니다. 필터를 게시하는 사람은 셰이더 코드를 공유합니다. 그대로 사용하거나 코드를 열어 새로운 작업의 출발점으로 삼을 수 있습니다.</p>
+
+  <h2>피사체를 인식하는 셰이더</h2>
+
+  <p>ByteWave는 셰이더가 Vision 프레임워크 데이터에 접근하도록 합니다. 앱이 영상의 피사체를 감지해 마스크를 셰이더에 전달하므로 피사체와 배경을 다르게 처리할 수 있습니다. 피사체는 선명하게 두고 배경에 인상파 그림 효과를 주거나, 피사체만 색 보정하고 배경의 채도를 낮추거나, 얼굴을 제외한 모든 부분을 흐리게 할 수 있습니다. 전통적으로 이런 효과에는 After Effects에서 수동 로토스코핑이 필요했습니다.</p>
+
+  <h2>기술 구성</h2>
+
+  <p>기술적인 내용이 궁금하다면, Metal 컴퓨트 커널은 프레임 텍스처를 읽고 픽셀별 연산을 적용한 뒤 출력 텍스처를 작성할 수 있습니다. 필터를 연결할 수 있고 피사체 마스크는 추가 입력이 됩니다. ByteWave의 FRC, 모션 블러, 시간적 노이즈 감소에는 미리보기 전 로컬 처리 단계가 필요합니다.</p>
+
+  <p>ByteWave는 편집 효과를 기기에서 처리합니다. 성능은 기기, 클립 해상도, 효과 설정에 따라 달라집니다.</p>
+
+  <div class="callout">
+    <h3>코드를 보세요. 바꾸세요. 나만의 것으로 만드세요.</h3>
+    <p>ByteWave 필터의 Metal 코드를 읽고 수정하세요.</p>
+    <a href="/ko/#download" class="button">ByteWave 무료로 받기</a>
+  </div>
+
+  <p>함께 읽기: <a href="/ko/blog/custom-video-filters-ai-tutorial.html">AI로 사용자 지정 필터 만들기</a> · <a href="/ko/blog/community-filters-bytewave.html">커뮤니티 필터</a></p>

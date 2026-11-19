@@ -48,4 +48,4 @@ Controleer ook het beeld en geluid. Een straatnaam of uitgesproken adres kan je 
 
 Probeer het zelf: [een video monteren en exporteren in vliegtuigmodus](/nl/blog/offline-video-editor-airplane-mode-test.html).
 
-Privacy vergelijken? [ByteWave versus VN (Engels)](/blog/bytewave-vs-vn-video-editor-2026.html) vergelijkt lokale bewerking, App Store-privacylabels en native ondertitelvertaling.
+Privacy vergelijken? [ByteWave versus VN](/nl/blog/bytewave-vs-vn-video-editor-2026.html) vergelijkt lokale bewerking, App Store-privacylabels en native ondertitelvertaling.

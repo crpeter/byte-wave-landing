@@ -75,6 +75,14 @@ const routes = [
  ['meta-settlement-youth-safety-social-media-design','blog/meta-settlement-youth-safety-social-media-design.html'],
  ['tiktok-congress-child-safety-platform-accountability','blog/tiktok-congress-child-safety-platform-accountability.html'],
  ['video-editing-app-comparison-2026','blog/video-editing-app-comparison-2026.html'],
+ ['bytewave-advanced-editing-keyframes-translation','blog/bytewave-advanced-editing-keyframes-translation.html'],
+ ['what-are-metal-shaders-iphone-gpu','blog/what-are-metal-shaders-iphone-gpu.html'],
+ ['bytewave-vs-vn-video-editor-2026','blog/bytewave-vs-vn-video-editor-2026.html'],
+ ['free-capcut-alternative-2026','blog/free-capcut-alternative-2026.html'],
+ ['how-to-check-ai-generated-photos-videos','blog/how-to-check-ai-generated-photos-videos.html'],
+ ['reduce-ai-content-tiktok-feed','blog/reduce-ai-content-tiktok-feed.html'],
+ ['reduce-ai-videos-facebook-feed','blog/reduce-ai-videos-facebook-feed.html'],
+ ['tired-of-ai-videos-social-media','blog/tired-of-ai-videos-social-media.html'],
  ['c2pa','tutorials/check-c2pa-content-credentials/'],
  ['metadata','tutorials/remove-location-metadata/'],
  ['motion','tutorials/motion-blur/'],
@@ -229,6 +237,32 @@ function test(ok, label, result) {
       test(players.length===5 && players.every(Boolean) && data.instructionSteps===3,
            key+' five accessible players fit the viewport and all three steps render', players);
      }
+     if(kind==='bytewave-vs-vn-video-editor-2026'){
+       const table = await page.locator('.comparison-scroll').evaluate(region => {
+         const bounds=region.getBoundingClientRect();
+         region.focus();
+         region.scrollLeft=region.scrollWidth;
+         return {rows:region.querySelectorAll('tbody tr').length,
+           cells:region.querySelectorAll('tbody td').length,
+           label:region.getAttribute('aria-label'),focused:document.activeElement===region,
+           fits:bounds.left>=0&&bounds.right<=innerWidth+1,
+           scrollable:region.scrollWidth>region.clientWidth,scrolled:region.scrollLeft>0};
+       });
+       test(table.rows===8&&table.cells===16&&table.label&&table.focused&&table.fits,
+            key+' complete accessible comparison table',table);
+       if(size.width<=390) test(table.scrollable&&table.scrolled,key+' comparison table scrolls within mobile width',table);
+     }
+     if(kind==='what-are-metal-shaders-iphone-gpu'){
+       const code = await page.locator('pre.code-block').evaluate(block=>{
+         const bounds=block.getBoundingClientRect();
+         block.scrollLeft=block.scrollWidth;
+         return {fits:bounds.left>=0&&bounds.right<=innerWidth+1,
+           scrollable:block.scrollWidth>block.clientWidth,scrolled:block.scrollLeft>0,
+           complete:block.textContent.includes('kernel void grayscale')&&block.textContent.includes('output.write')};
+       });
+       test(code.fits&&code.complete,key+' complete Metal example fits its article',code);
+       if(size.width<=390) test(code.scrollable&&code.scrolled,key+' Metal example scrolls within mobile width',code);
+     }
      if(kind==='free-expression')test(data.hasAppeal,key+' appeal anchor exists');
      if(kind==='c2pa') {
        test(data.instructionSteps===3 && data.verificationRows===5 && data.hasC2paSpec,
@@ -258,7 +292,9 @@ function test(ok, label, result) {
        test(data.bodyLength>minimum,key+' complete privacy-policy body',{bodyLength:data.bodyLength,minimum});
      }
      if (size.width<=390 && ['de','pt-BR','ja','uk'].includes(lang)) {
-      if(['about','press','blog','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout'].includes(kind)) {
+      if(['about','press','blog','gallery','tutorials','c2pa','metadata','motion','frc','noise','layout','bytewave-vs-vn-video-editor-2026','what-are-metal-shaders-iphone-gpu'].includes(kind)) {
+       if(kind==='bytewave-vs-vn-video-editor-2026') await page.locator('.comparison-scroll').scrollIntoViewIfNeeded();
+       if(kind==='what-are-metal-shaders-iphone-gpu') await page.locator('pre.code-block').scrollIntoViewIfNeeded();
        if(kind==='c2pa') await page.locator('main table').scrollIntoViewIfNeeded();
        if(kind==='metadata') await page.locator('main ol').scrollIntoViewIfNeeded();
        if(['motion','frc','noise','layout'].includes(kind)) await page.locator('main figure').first().scrollIntoViewIfNeeded();

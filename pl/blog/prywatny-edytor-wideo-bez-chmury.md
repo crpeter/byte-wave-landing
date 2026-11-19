@@ -48,4 +48,4 @@ Sprawdź też obraz i dźwięk: nazwa ulicy lub wypowiedziany adres mogą zdradz
 
 Przetestuj samodzielnie: [montaż i eksport filmu w trybie samolotowym](/pl/blog/offline-video-editor-airplane-mode-test.html).
 
-Porównaj prywatność: [ByteWave a VN (po angielsku)](/blog/bytewave-vs-vn-video-editor-2026.html) o montażu lokalnym, etykietach prywatności App Store i natywnym tłumaczeniu napisów.
+Porównaj prywatność: [ByteWave a VN](/pl/blog/bytewave-vs-vn-video-editor-2026.html) o montażu lokalnym, etykietach prywatności App Store i natywnym tłumaczeniu napisów.

@@ -245,6 +245,14 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "bytewave-advanced-editing-keyframes-translation": (8, 19, 0),
+    "what-are-metal-shaders-iphone-gpu": (6, 18, 0),
+    "bytewave-vs-vn-video-editor-2026": (7, 18, 2),
+    "free-capcut-alternative-2026": (9, 19, 4),
+    "how-to-check-ai-generated-photos-videos": (8, 19, 0),
+    "reduce-ai-content-tiktok-feed": (7, 18, 4),
+    "reduce-ai-videos-facebook-feed": (6, 16, 4),
+    "tired-of-ai-videos-social-media": (6, 17, 3),
     "apple-app-store-commissions-free-alternatives": (3, 14, 0),
     "russia-geoblocking-disinformation": (2, 10, 0),
     "starlink-ukraine-cell-service-trust": (4, 17, 0),
@@ -310,6 +318,14 @@ for name, counts in article_counts.items():
     for lang, slug in LOCALES.items():
         rendered = (RENDERED / slug / path).read_text()
         if name in {
+            "bytewave-advanced-editing-keyframes-translation",
+            "what-are-metal-shaders-iphone-gpu",
+            "bytewave-vs-vn-video-editor-2026",
+            "free-capcut-alternative-2026",
+            "how-to-check-ai-generated-photos-videos",
+            "reduce-ai-content-tiktok-feed",
+            "reduce-ai-videos-facebook-feed",
+            "tired-of-ai-videos-social-media",
             "apple-app-store-commissions-free-alternatives", "russia-geoblocking-disinformation",
             "starlink-ukraine-cell-service-trust", "is-capcut-banned-2026",
             "free-software-movement-2.0", "meta-settlement-youth-safety-social-media-design",
@@ -352,6 +368,26 @@ for name, counts in article_counts.items():
         if name == "video-editing-app-comparison-2026":
             for platform in ("iOS 26", "iPadOS 26", "macOS 26", "M1"):
                 assert platform in article, (lang, platform)
+        if name in {"reduce-ai-content-tiktok-feed", "reduce-ai-videos-facebook-feed", "tired-of-ai-videos-social-media"}:
+            dates = re.findall(r'<time datetime="([^"]+)"', article)
+            assert dates == re.findall(r'<time datetime="([^"]+)"', original), (lang, name, "source dates")
+        if name in {"reduce-ai-content-tiktok-feed", "reduce-ai-videos-facebook-feed", "tired-of-ai-videos-social-media", "how-to-check-ai-generated-photos-videos"}:
+            assert re.findall(r'href="(#[^"]+)"', article) == re.findall(r'href="(#[^"]+)"', original), (lang, name, "section navigation")
+        if name == "what-are-metal-shaders-iphone-gpu":
+            code = r'<pre class="code-block"><code>(.*?)</code></pre>'
+            assert re.search(code, article, re.S)[1] == re.search(code, original, re.S)[1], (lang, "Metal code")
+        if name == "bytewave-vs-vn-video-editor-2026":
+            assert article.count('<th scope="row">') == 8 and article.count('</td>') == 16, lang
+            assert '<caption>' in article and article.count('<th scope="col">') == 3, lang
+            assert 'role="region"' in article and 'tabindex="0"' in article, (lang, "accessible table")
+            for platform in ("iOS 26", "iOS 16"):
+                assert platform in article, (lang, platform)
+        if name == "bytewave-advanced-editing-keyframes-translation":
+            for platform in ("iOS 26", "iPadOS 26", "macOS 26", "M1"):
+                assert platform in article, (lang, platform)
+        if name == "tired-of-ai-videos-social-media":
+            assert article.count('</dt>') == 6 and article.count('</dd>') == 6, lang
+            assert re.search(r"(?:57\s*[%％]|[%％]\s*57)", article), lang
         expected = []
         for link in links:
             if link.startswith("/"):
@@ -366,4 +402,21 @@ for name, counts in article_counts.items():
                     assert f'href="{link}" hreflang="en"' in article, (lang, name, link)
             expected.append(link)
         assert re.findall(r'<a [^>]*href="([^"]+)"', article) == expected, (lang, name)
+        if name == "bytewave-vs-vn-video-editor-2026":
+            privacy_guide = (RENDERED / expected[-1].lstrip("/")).read_text()
+            assert f'href="/{slug}/blog/{name}.html"' in privacy_guide, (lang, "privacy guide comparison link")
+            assert f'href="/blog/{name}.html"' not in privacy_guide, (lang, "English comparison link")
 print(f"Verified {len(article_counts) * len(LOCALES)} translated articles, paragraph and list counts, citations and related reading.")
+
+for lang, slug in LOCALES.items():
+    home = (RENDERED / slug / "index.html").read_text()
+    for route in (
+        "blog/reduce-ai-videos-facebook-feed.html", "blog/reduce-ai-content-tiktok-feed.html",
+        "blog/tired-of-ai-videos-social-media.html", "blog/free-capcut-alternative-2026.html",
+        "blog/provenance.html#signed-exports", "blog/tools-newsrooms-check-ai-generated-media.html",
+        "gallery/", "tutorials/animated-captions/", "tutorials/check-c2pa-content-credentials/",
+        "tutorials/motion-blur/",
+    ):
+        assert f'href="/{slug}/{route}"' in home, (lang, route, "homepage reading link")
+        assert f'href="/{route}"' not in home, (lang, route, "English homepage link")
+print("Verified localized homepage reading links for the new feed and editing guides.")

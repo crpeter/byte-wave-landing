@@ -48,4 +48,4 @@ Tarkista myös kuva ja ääni: kadunnimi tai ääneen sanottu osoite voi paljast
 
 Kokeile itse: [muokkaa ja vie video lentotilassa](/fi/blog/offline-video-editor-airplane-mode-test.html).
 
-Tietosuojavertailu: [ByteWave vs. VN (englanniksi)](/blog/bytewave-vs-vn-video-editor-2026.html) paikallisesta editoinnista, App Storen tietosuojamerkinnöistä ja natiivista tekstitysten kääntämisestä.
+Tietosuojavertailu: [ByteWave vs. VN](/fi/blog/bytewave-vs-vn-video-editor-2026.html) paikallisesta editoinnista, App Storen tietosuojamerkinnöistä ja natiivista tekstitysten kääntämisestä.
