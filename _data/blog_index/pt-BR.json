@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "A Anthropic precisa conquistar confiança",
       "summary": "Claude, a pergunta de um rabino e os limites das promessas diante do engano."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "Traduzir legendas de vídeo",
+      "summary": "Traduza legendas automáticas para outro idioma compatível, compare com o original e verifique o resultado antes de exportar."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Faça os efeitos reagirem à música",
+      "summary": "Escolha um filtro de Áudio, compare predefinições de geometria animada e verifique a resposta em passagens suaves e mais intensas."
     }
   }
 }

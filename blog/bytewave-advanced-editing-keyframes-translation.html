@@ -4,7 +4,7 @@ lang: "en"
 translation_key: "bytewave-advanced-editing-keyframes-translation"
 permalink: "/blog/bytewave-advanced-editing-keyframes-translation.html"
 published_on: "2026-11-14"
-updated_on: "2026-11-14"
+updated_on: "2026-11-19"
 published_label: "Published"
 display_date: "November 14, 2026"
 section_tag: "feature-guide"
@@ -25,9 +25,9 @@ description: "Explore ByteWave's free advanced editor: caption and sticker keyfr
   <p>The <a href="/tutorials/animated-captions/">animated captions guide</a> and <a href="/tutorials/animate-stickers/">sticker animation guide</a> cover the editing workflows. Not every property in the app is keyframe-enabled; these examples identify the areas we document rather than promising universal keyframes.</p>
 
   <h2>How do automatic captions and translation work?</h2>
-  <p>Automatic caption transcription runs on your device. For translation, ByteWave uses <strong>Apple's native Translation framework</strong> and the languages Apple makes available through the system. When a translation language is downloaded in Settings, ByteWave can use that supported system language; it doesn't rely on a short, separately maintained list of ByteWave translation languages.</p>
-  <p>To prepare caption translation on iPhone, open <strong>Settings → Apps → Translate → Languages</strong> and download the source and destination languages. To keep translation on-device, also enable <strong>On-Device Mode</strong> under Translate settings. Apple explains that offline translation needs both downloaded language packs and that translation may otherwise use Apple servers. <a href="https://support.apple.com/en-my/guide/iphone/iphddb6e7264/26/ios/26">See Apple's iOS 26 translation settings instructions</a>.</p>
-  <p><strong>Important:</strong> The languages and language pairs available depend on Apple's installed system resources and support, not the number of languages in ByteWave's App Store interface-localization list. Offline support also depends on Apple's settings. We do not claim every language in the world is available.</p>
+<p>Automatic caption transcription runs on your device. ByteWave translates caption text using <strong>Apple's native Translation framework</strong> and supported on-device language models. Your original text and caption timing are kept.</p>
+<p>Choose the original language and a supported target in the caption translation controls. If languages need downloading, allow the system download prompt before working offline. With Apple's Translate app installed, you can also manage downloads in <strong>Settings → Apps → Translate</strong>. <a href="https://developer.apple.com/documentation/translation/translating-text-within-your-app">Apple documents how these language downloads work</a>.</p>
+<p>Translation support depends on Apple's available languages and language pairs, not ByteWave's interface-localization list. Follow the <a href="/tutorials/translate-video-captions/">caption translation tutorial</a> to compare the original, review the translated text and troubleshoot missing languages.</p>
 
   <h2>What makes the visual effects customizable?</h2>
   <p>ByteWave's <strong>Metal Shader Editor</strong> exposes the source code behind visual filters. You can inspect it, change it, or make an entirely new filter or transition. That is different from selecting only a preset and adjusting its intensity. You can use an AI assistant to help write shader code, but the editing and rendering pipeline operates on your device.</p>
@@ -35,7 +35,7 @@ description: "Explore ByteWave's free advanced editor: caption and sticker keyfr
 
   <h2>Audio-reactive filters and 3D geometry</h2>
   <p>ByteWave 1.3.14 added <strong>audio-reactive filters and animated geometry effects</strong>. These visuals respond to your video's sound, turning audio into changes in filters or shapes such as animated landscapes. Combined with multiple audio tracks, sound effects and audio mixing controls, they let you build music-driven edits without exporting clips to a separate effects app.</p>
-  <p>The app also supports animated layouts that combine photos and video, subject isolation, and other local processing tools including motion blur, temporal noise reduction, and frame-rate conversion. Effects and export performance depend on the device and source footage.</p>
+  <p>The app also supports animated layouts that combine photos and video, subject isolation, and other local processing tools including motion blur, temporal noise reduction, and frame-rate conversion. Effects and export performance depend on the device and source footage. Follow the <a href="/tutorials/audio-reactive-video-effects/">audio-reactive effects tutorial</a> to choose a preset and check its response to your soundtrack.</p>
 
   <h2>Does advanced editing require an account or a subscription?</h2>
   <p>No account is required to edit locally. Every ByteWave editing tool is free, and exported videos do not have a visible ByteWave watermark. ByteWave's App Store privacy label says <strong>“Data Not Collected,”</strong> as declared by the developer. Optional profiles, publishing, sharing, and social features involve online services, so those are distinct from the local editing workflow. See our <a href="/privacy.html">privacy policy</a> for the details.</p>

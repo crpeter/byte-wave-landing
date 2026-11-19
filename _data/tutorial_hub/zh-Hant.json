@@ -79,6 +79,20 @@
       "description": "檢查工作副本、移除可編輯欄位，並查看分享前保留的內容。",
       "format": "隱私權 · 文字教學",
       "alt": "移除位置中繼資料。檢查工作副本、移除可編輯欄位，並查看分享前保留的內容。"
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "翻譯影片字幕",
+      "description": "將自動字幕翻譯成其他支援的語言，對照原文，並在輸出前檢查結果。",
+      "format": "iPhone 與 iPad · 文字教學",
+      "alt": "翻譯影片字幕. 將自動字幕翻譯成其他支援的語言，對照原文，並在輸出前檢查結果。"
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "讓效果隨音樂變化",
+      "description": "選擇音訊濾鏡、比較動態幾何圖形預設效果，並檢查安靜與較大聲段落中的反應。",
+      "format": "iPhone 與 iPad · 文字教學",
+      "alt": "讓效果隨音樂變化. 選擇音訊濾鏡、比較動態幾何圖形預設效果，並檢查安靜與較大聲段落中的反應。"
     }
   ]
 }

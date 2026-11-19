@@ -79,6 +79,20 @@
       "description": "Revisa una copia de trabajo, elimina campos editables y comprueba qué queda antes de compartir.",
       "format": "Privacidad · Guía escrita",
       "alt": "Eliminar metadatos de ubicación. Revisa una copia de trabajo, elimina campos editables y comprueba qué queda antes de compartir."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Traducir subtítulos de vídeo",
+      "description": "Traduce los subtítulos automáticos a otro idioma compatible, compáralos con el original y comprueba el resultado antes de exportar.",
+      "format": "iPhone y iPad · Guía escrita",
+      "alt": "Traducir subtítulos de vídeo. Traduce los subtítulos automáticos a otro idioma compatible, compáralos con el original y comprueba el resultado antes de exportar."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Haz que los efectos reaccionen a la música",
+      "description": "Elige un filtro de Audio, compara preajustes de geometría animada y comprueba su respuesta en pasajes suaves y fuertes.",
+      "format": "iPhone y iPad · Guía escrita",
+      "alt": "Haz que los efectos reaccionen a la música. Elige un filtro de Audio, compara preajustes de geometría animada y comprueba su respuesta en pasajes suaves y fuertes."
     }
   ]
 }

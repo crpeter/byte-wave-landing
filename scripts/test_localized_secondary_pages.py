@@ -32,6 +32,8 @@ TUTORIAL_HREFS = [
     "/tutorials/frame-rate-conversion/", "/tutorials/temporal-noise-reduction/",
     "/tutorials/check-c2pa-content-credentials/",
     "/tutorials/remove-location-metadata/",
+    "/tutorials/translate-video-captions/",
+    "/tutorials/audio-reactive-video-effects/",
 ]
 
 class Markup(HTMLParser):
@@ -60,7 +62,7 @@ for lang,slug in LOCALES.items():
     tutorials = json.loads((SOURCE/"_data"/"tutorial_hub"/f"{lang}.json").read_text())
     assert len(gallery["cards"]) == 13, (lang, "gallery count")
     assert [x["id"] for x in gallery["cards"]] == GALLERY_IDS, (lang, "gallery ids")
-    assert len(tutorials["cards"]) == 10, (lang, "tutorial count")
+    assert len(tutorials["cards"]) == 12, (lang, "tutorial count")
     assert [x["href"] for x in tutorials["cards"]] == TUTORIAL_HREFS, (lang, "tutorial links")
     for data in [gallery,tutorials]:
         for field in ("title","description"):
@@ -81,7 +83,7 @@ for lang,slug in LOCALES.items():
         parsed=Markup();parsed.feed(rendered)
         assert parsed.h1==1, (html, "h1 count", parsed.h1)
         if key=="tutorials":
-            assert parsed.tutorial_cards==10, (html, "tutorial cards", parsed.tutorial_cards)
+            assert parsed.tutorial_cards==12, (html, "tutorial cards", parsed.tutorial_cards)
             for short in ("animated-captions", "animate-stickers", "caption-text-effects", "import-custom-fonts"):
                 target=RENDERED / slug / "tutorials" / short / "index.html"
                 href=f"/{slug}/tutorials/{short}/" if target.is_file() else f"/tutorials/{short}/"
@@ -121,7 +123,7 @@ for lang, slug in LOCALES.items():
         assert video["name"] and video["description"], (lang, anchor)
         for key in ("thumbnailUrl", "contentUrl"):
             assert (RENDERED / video[key].removeprefix("https://bytewaveai.com/")).is_file()
-    for hub, css_class, count in [("gallery", "tutorial-link", 13), ("tutorials", "tutorial-card", 10)]:
+    for hub, css_class, count in [("gallery", "tutorial-link", 13), ("tutorials", "tutorial-card", 12)]:
         hub_html = (RENDERED / slug / hub / "index.html").read_text()
         links = re.findall(r'<a class="' + css_class + r'" href="([^"]+)"', hub_html)
         assert len(links) == count, (lang, hub, links)
@@ -156,7 +158,7 @@ print("Verified 17 press kits, 68 copy blocks, source facts, asset links and loc
 
 catalog = json.loads((SOURCE / "_data/blog_sections.json").read_text())
 entries = [entry for section in catalog.values() for entry in section]
-assert len(entries) == 78 and len(catalog) == 5
+assert len(entries) == 80 and len(catalog) == 5
 assert catalog["platforms-creators"][0]["brand"] == "X / Twitter"
 for lang, slug in {"en": "", **LOCALES}.items():
     rendered = (RENDERED / slug / "blog/index.html").read_text()
@@ -185,6 +187,32 @@ for lang, slug in {"en": "", **LOCALES}.items():
         assert f'href="#{key}"' in rendered and f'id="{key}"' in rendered and section["title"] in unescape(rendered)
     assert all(f"ct=blog_{campaign}" in rendered for campaign in ("edit_videos", "check_ai_media", "protect_your_privacy"))
 print(f"Verified {len(entries)} ordered blog cards in {len(LOCALES)+1} languages.")
+
+# Feature tutorials must remain complete in every language and belong to the
+# tutorial collection, even though they share the editorial page layout.
+for guide in ("translate-video-captions", "audio-reactive-video-effects"):
+    english = (RENDERED / "tutorials" / guide / "index.html").read_text()
+    original = english.split("<article>")[1].split("</article>")[0]
+    expected_counts = tuple(original.count(f"</{tag}>") for tag in ("h2", "p", "li"))
+    for lang, slug in {"en": "", **LOCALES}.items():
+        prefix = "/" + slug if slug else ""
+        rendered = (RENDERED / slug / "tutorials" / guide / "index.html").read_text()
+        article = rendered.split("<article>")[1].split("</article>")[0]
+        assert tuple(article.count(f"</{tag}>") for tag in ("h2", "p", "li")) == expected_counts, (lang, guide, "incomplete guide")
+        assert article.count('class="disclosure ai-disclosure"') == 1, (lang, guide, "disclosure")
+        assert "{{" not in rendered and "{%" not in rendered, (lang, guide, "unrendered template")
+        other = "audio-reactive-video-effects" if guide == "translate-video-captions" else "translate-video-captions"
+        assert f'href="{prefix}/tutorials/{other}/"' in article, (lang, guide, "localized related guide")
+        graphs = [json.loads(raw) for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', rendered, re.S)]
+        nodes = [node for graph in graphs for node in graph.get("@graph", [graph])]
+        tutorial = next(node for node in nodes if node.get("@type") == "TechArticle")
+        breadcrumbs = next(node for node in nodes if node.get("@type") == "BreadcrumbList")
+        url = f"https://bytewaveai.com{prefix}/tutorials/{guide}/"
+        assert tutorial["url"] == url and tutorial["inLanguage"] == lang, (lang, guide)
+        assert tutorial["datePublished"] == tutorial["dateModified"] == "2026-11-19", (lang, guide, "dates")
+        assert tutorial["isPartOf"]["url"] == f"https://bytewaveai.com{prefix}/tutorials/", (lang, guide, "collection")
+        assert breadcrumbs["itemListElement"][1]["item"] == tutorial["isPartOf"]["url"], (lang, guide, "breadcrumb")
+print("Verified 34 feature tutorials, complete translations, related links and tutorial metadata.")
 
 # The opinion pieces distinguish generated scenes from edits and identify
 # whose experience is being reported. Keep their evidence and next steps intact.

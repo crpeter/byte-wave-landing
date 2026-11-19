@@ -79,6 +79,20 @@
       "description": "Esamina una copia di lavoro, elimina i campi modificabili e verifica ciò che resta.",
       "format": "Privacy · Guida scritta",
       "alt": "Rimuovere i metadati di posizione. Esamina una copia di lavoro, elimina i campi modificabili e verifica ciò che resta."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Tradurre i sottotitoli dei video",
+      "description": "Traduci i sottotitoli automatici in un'altra lingua supportata, confronta l'originale e controlla il risultato prima di esportare.",
+      "format": "iPhone e iPad · Guida scritta",
+      "alt": "Tradurre i sottotitoli dei video. Traduci i sottotitoli automatici in un'altra lingua supportata, confronta l'originale e controlla il risultato prima di esportare."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Far reagire gli effetti alla musica",
+      "description": "Scegli un filtro Audio, confronta i preset di geometria animata e controlla la risposta nei passaggi più tranquilli e più intensi.",
+      "format": "iPhone e iPad · Guida scritta",
+      "alt": "Far reagire gli effetti alla musica. Scegli un filtro Audio, confronta i preset di geometria animata e controlla la risposta nei passaggi più tranquilli e più intensi."
     }
   ]
 }

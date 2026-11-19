@@ -79,6 +79,20 @@
       "description": "Tarkista työkopio, poista muokattavat kentät ja katso, mitä jää ennen jakamista.",
       "format": "Tietosuoja · Kirjoitettu opas",
       "alt": "Poista sijaintimetatiedot. Tarkista työkopio, poista muokattavat kentät ja katso, mitä jää ennen jakamista."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Käännä videon tekstitykset",
+      "description": "Käännä automaattiset tekstitykset toiselle tuetulle kielelle, vertaa alkuperäiseen ja tarkista lopputulos ennen vientiä.",
+      "format": "iPhone ja iPad · Kirjallinen opas",
+      "alt": "Käännä videon tekstitykset. Käännä automaattiset tekstitykset toiselle tuetulle kielelle, vertaa alkuperäiseen ja tarkista lopputulos ennen vientiä."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Luo musiikkiin reagoivia tehosteita",
+      "description": "Valitse Ääni-suodatin, vertaa animoidun geometrian esiasetuksia ja tarkista reaktio hiljaisissa ja voimakkaammissa kohdissa.",
+      "format": "iPhone ja iPad · Kirjallinen opas",
+      "alt": "Luo musiikkiin reagoivia tehosteita. Valitse Ääni-suodatin, vertaa animoidun geometrian esiasetuksia ja tarkista reaktio hiljaisissa ja voimakkaammissa kohdissa."
     }
   ]
 }

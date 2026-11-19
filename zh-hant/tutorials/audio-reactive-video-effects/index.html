@@ -1,0 +1,39 @@
+---
+layout: "localized-editorial"
+lang: "zh-Hant"
+translation_key: "creation-audio-reactive-video-effects"
+permalink: "/zh-hant/tutorials/audio-reactive-video-effects/"
+collection_key: "tutorials"
+schema_type: "TechArticle"
+published_on: "2026-11-19"
+updated_on: "2026-11-19"
+published_label: "發布日期"
+display_date: "2026年11月19日"
+section_tag: "bytewave-tutorial"
+store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=tutorial_audio_effects_zh-Hant&mt=8"
+publisher_note: "本指南介紹 ByteWave 自身的工具。效果的外觀取決於預設效果、音訊分析和您的影片素材。"
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWave 宣傳圖片"
+article_title: "如何用 ByteWave 在 iPhone 上讓影片效果隨音樂變化"
+seo_title: "在 iPhone 上製作音訊反應式影片效果"
+description: "使用 ByteWave 的「音訊」濾鏡類別加入隨音樂變化的幾何圖形，比較預設效果、確認已分析音訊的時間位置，並檢查輸出的影片。"
+---
+<p class="lead">ByteWave 的音訊反應式效果會利用已分析的聲音，讓視覺效果與幾何圖形動起來。您可以直接在濾鏡瀏覽器中選擇這些效果，不必撰寫著色器程式碼。同一個預設效果，在安靜段落和音樂強烈的段落中可能呈現不同結果。</p>
+<h2>準備一段有音訊的短片</h2>
+<p>開啟影片專案，使用<strong>音訊</strong>新增或安排音訊。先選擇同時包含較安靜部分和明顯強弱變化的短段落。判斷效果前，請等音訊分析完成，並確認音訊涵蓋您正在預覽的時間軸區段。</p>
+<p>第一次編輯時，保持容易檢查的簡單組合：一個影片片段、一條音軌和一種效果。這樣更容易透過聽覺和視覺，辨認哪些時刻的聲音正在影響結果。</p>
+<h2>在濾鏡 → 音訊中選擇效果</h2>
+<ol><li>選擇要變更的影片片段。</li><li>開啟<strong>濾鏡</strong>，並在濾鏡瀏覽器中選擇<strong>音訊</strong>類別。</li><li>瀏覽動態預覽。點一下預設效果的預覽方塊，就會套用到選取的片段。</li><li>確認所選方塊上的勾選標記，關閉濾鏡瀏覽器，然後播放編輯內容。</li></ol>
+<p>「濾鏡」內的<strong>音訊</strong>類別提供視覺效果。編輯器中另一個獨立的「音訊」工具才是處理配樂的地方。套用視覺預設效果不會新增音樂軌。</p>
+<h2>試用不同動態表現的預設效果</h2>
+<ul><li><strong>Prism Ribbons:</strong> 緩慢移動、對音訊產生柔和反應的發光緞帶。</li><li><strong>Pulse Globe:</strong> 旋轉的線框球體，會隨音訊脈動，無聲時仍保持可見。</li><li><strong>Spectral Halo:</strong> 依據先前音訊變化塑形的多層輪廓，在已分析音訊有效的期間出現。</li><li><strong>Spectral Silk:</strong> 依據先前音訊變化塑形的交織細絲與半透明區域。</li></ul>
+<p>這裡使用的是英文介面的預設效果名稱，App 內的名稱會依顯示語言翻譯。請在同一段影片上比較不同預設效果，選擇能讓主體保持清楚、字幕容易閱讀的效果。</p>
+<h2>檢查整段影片的反應</h2>
+<p>播放安靜的段落、較大聲的段落，以及兩者之間的轉變。由音訊驅動的動作，不代表每個圖形都會對上每一拍：預設效果可能對整體能量或不同頻率範圍產生反應，有些也包含持續播放的動畫。</p>
+<p>如果圖形在無聲時仍持續移動，這可能是原本的設計。若依賴音訊的效果消失或幾乎沒有反應，請確認分析已完成，且影片的該時間點有已分析的音訊正在生效。可以使用 Pulse Globe 比較，因為它的基本形狀在無聲時仍會顯示。</p>
+<h2>變更或移除效果</h2>
+<p>回到<strong>濾鏡 → 音訊</strong>，點一下其他預覽，即可變更所選片段的效果。若要清除效果，請開啟濾鏡瀏覽器的選項選單，選擇<strong>移除濾鏡</strong>。</p>
+<p>若想自行調整，預設效果的編輯控制項可以開啟著色器編輯器。本教學不需要使用它。<a href="/zh-hant/blog/what-are-metal-shaders-iphone-gpu.html">Metal 著色器指南</a>會解釋可自訂效果背後的程式碼。</p>
+<h2>輸出短版並檢查</h2>
+<p>輸出編輯好的短片，然後開啟儲存的影片並播放聲音。確認視覺反應與配樂相符、主體保持可見，且文字容易閱讀。變更音軌位置或編輯時間設定後，也請再次進行相同檢查。</p>
+<p>ByteWave 的所有編輯工具都免費，不需訂閱，輸出的影片也不會有可見的 ByteWave 浮水印。若要為音樂影片加入翻譯後的語音字幕，請繼續查看<a href="/zh-hant/tutorials/translate-video-captions/">字幕翻譯</a>。若要疊加畫面，請參閱<a href="/zh-hant/layout/">版面配置指南</a>。</p>

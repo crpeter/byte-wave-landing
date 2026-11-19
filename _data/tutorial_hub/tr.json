@@ -79,6 +79,20 @@
       "description": "Çalışma kopyasını inceleyin, düzenlenebilir alanları kaldırın ve kalanları kontrol edin.",
       "format": "Gizlilik · Yazılı rehber",
       "alt": "Konum metaverilerini kaldırın. Çalışma kopyasını inceleyin, düzenlenebilir alanları kaldırın ve kalanları kontrol edin."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Video altyazılarını çevirin",
+      "description": "Otomatik altyazıları desteklenen başka bir dile çevirin, özgün metinle karşılaştırın ve dışa aktarmadan önce sonucu kontrol edin.",
+      "format": "iPhone ve iPad · Yazılı rehber",
+      "alt": "Video altyazılarını çevirin. Otomatik altyazıları desteklenen başka bir dile çevirin, özgün metinle karşılaştırın ve dışa aktarmadan önce sonucu kontrol edin."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Efektler müziğe tepki versin",
+      "description": "Bir Ses filtresi seçin, animasyonlu geometri hazır ayarlarını karşılaştırın ve sessiz ya da daha yüksek sesli bölümlerdeki tepkilerini kontrol edin.",
+      "format": "iPhone ve iPad · Yazılı rehber",
+      "alt": "Efektler müziğe tepki versin. Bir Ses filtresi seçin, animasyonlu geometri hazır ayarlarını karşılaştırın ve sessiz ya da daha yüksek sesli bölümlerdeki tepkilerini kontrol edin."
     }
   ]
 }

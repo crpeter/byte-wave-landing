@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic은 신뢰를 얻어야 한다",
       "summary": "Claude와 랍비의 질문을 통해 기만을 막기 위한 기업 약속의 한계를 생각합니다."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "동영상 자막 번역하기",
+      "summary": "자동 자막을 지원되는 다른 언어로 번역하고 원문과 비교한 뒤 내보내기 전에 결과를 확인하세요."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "효과를 음악에 반응시키기",
+      "summary": "오디오 필터를 선택하고 움직이는 도형 프리셋을 비교한 뒤 조용한 구간과 소리가 큰 구간에서 반응을 확인하세요."
     }
   }
 }

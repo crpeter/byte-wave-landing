@@ -24,9 +24,9 @@ reading_time: "閱讀時間約 5 分鐘"
   <p><a href="/zh-hant/tutorials/animated-captions/">動畫字幕指南</a>與<a href="/zh-hant/tutorials/animate-stickers/">貼圖動畫指南</a>說明操作流程。並非 App 中每個屬性都支援關鍵影格；這些例子指出我們有文件說明的功能，並非承諾所有功能都有關鍵影格。</p>
 
   <h2>自動字幕與翻譯如何運作？</h2>
-  <p>自動字幕轉錄會在裝置上執行。翻譯方面，ByteWave 使用<strong>Apple 原生 Translation 框架</strong>及 Apple 透過系統提供的語言。當你在「設定」下載翻譯語言，ByteWave 就能使用該系統支援的語言，而不是依賴 ByteWave 另外維護的一小份翻譯語言清單。</p>
-  <p>在 iPhone 開啟<strong>設定 → App → 翻譯 → 語言</strong>，下載來源與目標語言。若要讓翻譯留在裝置上，還要在翻譯設定中啟用<strong>裝置端模式（On-Device Mode）</strong>。Apple 說明，離線翻譯需要兩種語言套件都已下載，否則翻譯可能使用 Apple 伺服器。<a href="https://support.apple.com/en-my/guide/iphone/iphddb6e7264/26/ios/26">請參閱 Apple 的 iOS 26 翻譯設定說明</a>。</p>
-  <p><strong>重要：</strong>可用語言與語言組合取決於已安裝的 Apple 系統資源及支援範圍，而不是 ByteWave 在 App Store 列出的介面在地化語言數量。離線支援也取決於 Apple 設定。我們並未宣稱全球所有語言都可使用。</p>
+<p>自動字幕轉錄會在裝置上執行。ByteWave 使用 <strong>Apple 的原生 Translation 框架</strong>和支援的裝置端語言模型翻譯字幕文字。原始文字和字幕時間設定都會保留。</p>
+<p>在字幕翻譯控制項中選擇原文語言與支援的目標語言。如果需要下載語言，請在離線工作前允許系統的下載提示。安裝 Apple 的「翻譯」App 後，也可以在<strong>設定 → App → 翻譯</strong>管理下載。<a href="https://developer.apple.com/documentation/translation/translating-text-within-your-app">Apple 提供了語言下載運作方式的說明</a>。</p>
+<p>翻譯支援取決於 Apple 可用的語言及語言配對，而不是 ByteWave 的介面語言清單。請按照<a href="/zh-hant/tutorials/translate-video-captions/">字幕翻譯教學</a>對照原文、檢查翻譯文字，並排解找不到語言的問題。</p>
 
   <h2>為什麼視覺特效可以自訂？</h2>
   <p>ByteWave 的 <strong>Metal Shader Editor</strong> 會顯示視覺濾鏡背後的原始碼。你可以查看、修改，或製作全新的濾鏡或轉場。這不只是選擇預設樣式再調整強度。你可以請 AI 助理協助撰寫著色器程式碼，但編輯與算圖流程在你的裝置上運行。</p>
@@ -34,7 +34,7 @@ reading_time: "閱讀時間約 5 分鐘"
 
   <h2>音訊反應濾鏡與 3D 幾何</h2>
   <p>ByteWave 1.3.14 加入了<strong>音訊反應濾鏡與動態幾何特效</strong>。這些視覺效果會回應影片聲音，讓音訊變成濾鏡或形狀的變化，例如動態地景。結合多條音軌、音效與混音控制，就能製作隨音樂變化的影片，不必把片段輸出到另一個特效 App。</p>
-  <p>App 也支援結合照片與影片的動態版面、主體分離，以及動態模糊、時域降噪、影格率轉換等本機處理工具。特效與輸出效能取決於裝置和原始素材。</p>
+  <p>App 也支援結合照片與影片的動態版面、主體分離，以及動態模糊、時域降噪、影格率轉換等本機處理工具。特效與輸出效能取決於裝置和原始素材。 請參閱<a href="/zh-hant/tutorials/audio-reactive-video-effects/">音訊反應式效果教學</a>，選擇預設效果並檢查它對配樂的反應。</p>
 
   <h2>進階編輯需要帳號或訂閱嗎？</h2>
   <p>本機編輯不需要帳號。ByteWave 所有編輯工具都免費，輸出影片沒有可見的 ByteWave 浮水印。App Store 隱私權標籤依開發者申報顯示<strong>「不會收集資料」</strong>。選用的個人檔案、發布、分享與社群功能會使用線上服務，與本機編輯流程不同。詳情請見我們的<a href="/zh-hant/privacy.html">隱私權政策</a>。</p>

@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic moet vertrouwen verdienen",
       "summary": "Claude, de vraag van een rabbijn en de grenzen van beloften over misleiding."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "Video-ondertitels vertalen",
+      "summary": "Vertaal automatische ondertitels naar een andere ondersteunde taal, vergelijk het origineel en controleer het resultaat voordat je exporteert."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Effecten laten reageren op muziek",
+      "summary": "Kies een Audio-filter, vergelijk presets met bewegende geometrie en controleer de reactie tijdens rustige en luidere passages."
     }
   }
 }

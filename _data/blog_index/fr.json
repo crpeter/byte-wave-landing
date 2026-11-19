@@ -357,6 +357,14 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic doit mériter la confiance du public",
       "summary": "Claude, la question d’un rabbin et les limites des promesses face à la tromperie."
+    },
+    "/tutorials/translate-video-captions/": {
+      "title": "Traduire les sous-titres d'une vidéo",
+      "summary": "Traduisez les sous-titres automatiques dans une autre langue prise en charge, comparez l'original et vérifiez le résultat avant l'exportation."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Faire réagir les effets à la musique",
+      "summary": "Choisissez un filtre Audio, comparez les préréglages de géométrie animée et vérifiez leur réaction aux passages calmes et plus forts."
     }
   }
 }
