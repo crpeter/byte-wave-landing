@@ -358,6 +358,14 @@
       "title": "Anthropic 必須贏得信任",
       "summary": "從 Claude 與一位拉比的提問，思考僅靠企業承諾能否防止欺騙。"
     },
+    "/tutorials/translate-video-captions/": {
+      "title": "翻譯影片字幕",
+      "summary": "將自動字幕翻譯成其他支援的語言，對照原文，並在輸出前檢查結果。"
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "讓效果隨音樂變化",
+      "summary": "選擇音訊濾鏡、比較動態幾何圖形預設效果，並檢查安靜與較大聲段落中的反應。"
+    },
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Muse 隱私疑慮：私人訊息不是邀請函",
       "summary": "Signal 存取與來源不明的銀行餘額引發 Meta Muse 隱私疑慮。為何「幻覺」的辯解需要證據，而同意需要明確界線。"

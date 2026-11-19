@@ -79,6 +79,20 @@
       "description": "Prüfe eine Arbeitskopie, entferne bearbeitbare Felder und kontrolliere die verbleibenden Angaben.",
       "format": "Datenschutz · Anleitung",
       "alt": "Standort-Metadaten entfernen. Prüfe eine Arbeitskopie, entferne bearbeitbare Felder und kontrolliere die verbleibenden Angaben."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Videountertitel übersetzen",
+      "description": "Übersetze automatische Untertitel in eine andere unterstützte Sprache, vergleiche das Original und prüfe das Ergebnis vor dem Export.",
+      "format": "iPhone und iPad · Textanleitung",
+      "alt": "Videountertitel übersetzen. Übersetze automatische Untertitel in eine andere unterstützte Sprache, vergleiche das Original und prüfe das Ergebnis vor dem Export."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Effekte auf Musik reagieren lassen",
+      "description": "Wähle einen Audio-Filter, vergleiche animierte Geometrie-Presets und prüfe ihre Reaktion in leisen und lauteren Passagen.",
+      "format": "iPhone und iPad · Textanleitung",
+      "alt": "Effekte auf Musik reagieren lassen. Wähle einen Audio-Filter, vergleiche animierte Geometrie-Presets und prüfe ihre Reaktion in leisen und lauteren Passagen."
     }
   ]
 }

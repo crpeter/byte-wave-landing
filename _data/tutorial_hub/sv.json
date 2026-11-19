@@ -79,6 +79,20 @@
       "description": "Granska arbetskopian, ta bort redigerbara fält och kontrollera vad som återstår.",
       "format": "Integritet · Skriftlig guide",
       "alt": "Ta bort platsmetadata. Granska arbetskopian, ta bort redigerbara fält och kontrollera vad som återstår."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Översätt videoundertexter",
+      "description": "Översätt automatiska undertexter till ett annat språk som stöds, jämför med originalet och kontrollera resultatet före export.",
+      "format": "iPhone och iPad · Skriven guide",
+      "alt": "Översätt videoundertexter. Översätt automatiska undertexter till ett annat språk som stöds, jämför med originalet och kontrollera resultatet före export."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Låt effekter reagera på musik",
+      "description": "Välj ett ljudfilter, jämför förinställningar med animerad geometri och kontrollera hur de reagerar i lugna och starkare partier.",
+      "format": "iPhone och iPad · Skriven guide",
+      "alt": "Låt effekter reagera på musik. Välj ett ljudfilter, jämför förinställningar med animerad geometri och kontrollera hur de reagerar i lugna och starkare partier."
     }
   ]
 }

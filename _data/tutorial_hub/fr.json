@@ -79,6 +79,20 @@
       "description": "Inspectez une copie de travail, supprimez les champs modifiables et vérifiez ce qui reste.",
       "format": "Confidentialité · Guide écrit",
       "alt": "Supprimer les métadonnées de localisation. Inspectez une copie de travail, supprimez les champs modifiables et vérifiez ce qui reste."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Traduire les sous-titres d'une vidéo",
+      "description": "Traduisez les sous-titres automatiques dans une autre langue prise en charge, comparez l'original et vérifiez le résultat avant l'exportation.",
+      "format": "iPhone et iPad · Guide écrit",
+      "alt": "Traduire les sous-titres d'une vidéo. Traduisez les sous-titres automatiques dans une autre langue prise en charge, comparez l'original et vérifiez le résultat avant l'exportation."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Faire réagir les effets à la musique",
+      "description": "Choisissez un filtre Audio, comparez les préréglages de géométrie animée et vérifiez leur réaction aux passages calmes et plus forts.",
+      "format": "iPhone et iPad · Guide écrit",
+      "alt": "Faire réagir les effets à la musique. Choisissez un filtre Audio, comparez les préréglages de géométrie animée et vérifiez leur réaction aux passages calmes et plus forts."
     }
   ]
 }

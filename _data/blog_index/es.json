@@ -358,6 +358,14 @@
       "title": "Anthropic debe ganarse la confianza",
       "summary": "Claude, la pregunta de un rabino y los límites de las promesas ante el engaño."
     },
+    "/tutorials/translate-video-captions/": {
+      "title": "Traducir subtítulos de vídeo",
+      "summary": "Traduce los subtítulos automáticos a otro idioma compatible, compáralos con el original y comprueba el resultado antes de exportar."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Haz que los efectos reaccionen a la música",
+      "summary": "Elige un filtro de Audio, compara preajustes de geometría animada y comprueba su respuesta en pasajes suaves y fuertes."
+    },
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Privacidad de Meta Muse: Tus mensajes no son una invitación",
       "summary": "Los informes sobre Meta Muse cuestionan el acceso a Signal y los saldos bancarios inesperados. La explicación de las alucinaciones necesita pruebas."

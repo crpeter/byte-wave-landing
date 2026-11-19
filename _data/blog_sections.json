@@ -83,6 +83,16 @@
   ],
   "edit-videos": [
     {
+      "href": "/tutorials/translate-video-captions/",
+      "tag": "bytewave-tutorial",
+      "tutorial": 10
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "tag": "bytewave-tutorial",
+      "tutorial": 11
+    },
+    {
       "href": "/blog/bytewave-vs-vn-video-editor-2026.html",
       "tag": "comparison"
     },

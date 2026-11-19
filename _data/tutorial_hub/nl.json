@@ -79,6 +79,20 @@
       "description": "Controleer je werkkopie, verwijder bewerkbare velden en kijk wat overblijft.",
       "format": "Privacy · Handleiding",
       "alt": "Locatiemetadata verwijderen. Controleer je werkkopie, verwijder bewerkbare velden en kijk wat overblijft."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Video-ondertitels vertalen",
+      "description": "Vertaal automatische ondertitels naar een andere ondersteunde taal, vergelijk het origineel en controleer het resultaat voordat je exporteert.",
+      "format": "iPhone en iPad · Geschreven handleiding",
+      "alt": "Video-ondertitels vertalen. Vertaal automatische ondertitels naar een andere ondersteunde taal, vergelijk het origineel en controleer het resultaat voordat je exporteert."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Effecten laten reageren op muziek",
+      "description": "Kies een Audio-filter, vergelijk presets met bewegende geometrie en controleer de reactie tijdens rustige en luidere passages.",
+      "format": "iPhone en iPad · Geschreven handleiding",
+      "alt": "Effecten laten reageren op muziek. Kies een Audio-filter, vergelijk presets met bewegende geometrie en controleer de reactie tijdens rustige en luidere passages."
     }
   ]
 }

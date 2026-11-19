@@ -1,0 +1,39 @@
+---
+layout: "localized-editorial"
+lang: "pt-PT"
+translation_key: "creation-audio-reactive-video-effects"
+permalink: "/pt/tutorials/audio-reactive-video-effects/"
+collection_key: "tutorials"
+schema_type: "TechArticle"
+published_on: "2026-11-19"
+updated_on: "2026-11-19"
+published_label: "Publicado"
+display_date: "19 de novembro de 2026"
+section_tag: "bytewave-tutorial"
+store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=tutorial_audio_effects_pt-PT&mt=8"
+publisher_note: "Este guia descreve as ferramentas do próprio ByteWave. O aspeto dos efeitos depende da predefinição, da análise de áudio e das suas imagens."
+social_image: "/assets/og-image.jpg"
+image_alt: "Imagem de apresentação do ByteWave"
+article_title: "Faça os efeitos de vídeo reagirem à música no iPhone com o ByteWave"
+seo_title: "Efeitos de vídeo que reagem ao áudio no iPhone"
+description: "Use a categoria Áudio dos filtros do ByteWave para adicionar geometria que reage à música, comparar predefinições e rever a sincronização e o vídeo exportado."
+---
+<p class="lead">Os efeitos do ByteWave que reagem ao áudio utilizam o som analisado para animar efeitos visuais e geometria. Pode escolher estes efeitos no explorador de filtros sem escrever código de shaders. Uma passagem suave e uma secção musical intensa podem produzir resultados diferentes com a mesma predefinição.</p>
+<h2>Prepare uma montagem curta com áudio</h2>
+<p>Abra um projeto de vídeo e use <strong>Áudio</strong> para adicionar ou organizar o áudio. Comece com uma secção curta que inclua uma passagem mais suave e uma mudança clara de energia. Deixe a análise de áudio terminar antes de avaliar o efeito e verifique se o áudio cobre a parte da linha temporal que está a pré-visualizar.</p>
+<p>Mantenha a primeira montagem simples para facilitar a revisão: um clip de vídeo, uma faixa de áudio e um efeito. Assim, é mais fácil ouvir e ver que momentos influenciam o resultado.</p>
+<h2>Escolha um efeito em Filtro → Áudio</h2>
+<ol><li>Selecione o clip de vídeo que pretende alterar.</li><li>Abra <strong>Filtro</strong> e selecione a categoria <strong>Áudio</strong> no explorador de filtros.</li><li>Percorra as pré-visualizações animadas. Toque na pré-visualização de uma predefinição para a aplicar ao clip selecionado.</li><li>Procure a marca de seleção na pré-visualização escolhida, feche o explorador de filtros e reproduza a montagem.</li></ol>
+<p>A categoria <strong>Áudio</strong> dentro de Filtros contém efeitos visuais. A ferramenta Áudio separada do editor é onde trabalha com a banda sonora. Aplicar uma predefinição visual não adiciona uma faixa de música.</p>
+<h2>Experimente predefinições com comportamentos diferentes</h2>
+<ul><li><strong>Prism Ribbons:</strong> fitas luminosas com movimento lento e uma resposta suave ao áudio.</li><li><strong>Pulse Globe:</strong> uma esfera de malha que roda, pulsa com o áudio e permanece visível durante o silêncio.</li><li><strong>Spectral Halo:</strong> contornos sobrepostos moldados pelo histórico do áudio, que aparecem enquanto o áudio analisado está ativo.</li><li><strong>Spectral Silk:</strong> filamentos entrelaçados e superfícies translúcidas moldados pelo histórico do áudio.</li></ul>
+<p>Estes são os nomes das predefinições na interface em inglês; os nomes estão traduzidos na aplicação. Compare a mesma secção da montagem com várias predefinições. Escolha o efeito que mantém o motivo visível e as legendas legíveis.</p>
+<h2>Verifique a resposta ao longo de todo o clip</h2>
+<p>Reproduza uma secção suave, outra mais intensa e a transição entre ambas. O movimento controlado pelo áudio não garante que todas as formas acompanhem cada batida: as predefinições podem reagir à energia geral ou a diferentes gamas de frequências, e algumas também têm animação contínua.</p>
+<p>Se a geometria continuar a mover-se em silêncio, isso pode ser intencional. Se um efeito dependente do áudio desaparecer ou quase não reagir, verifique se a análise terminou e se há áudio analisado ativo nesse ponto da montagem. Experimente Pulse Globe para comparar, pois a sua forma base permanece visível em silêncio.</p>
+<h2>Altere ou remova um efeito</h2>
+<p>Volte a <strong>Filtro → Áudio</strong> e toque noutra pré-visualização para mudar o efeito do clip selecionado. Para o retirar, abra o menu de opções do explorador de filtros e escolha <strong>Remover filtro</strong>.</p>
+<p>Para personalizar, o controlo de edição da predefinição abre o editor de shaders. Não precisa dele para este tutorial. O <a href="/pt/blog/what-are-metal-shaders-iphone-gpu.html">guia de shaders Metal</a> explica o código dos efeitos personalizáveis.</p>
+<h2>Exporte uma versão curta e reveja-a</h2>
+<p>Exporte a montagem curta e abra o vídeo guardado com som. Verifique se a resposta visual combina com a banda sonora, se o motivo continua visível e se o texto permanece legível. Repita esta revisão depois de mudar a posição da faixa ou a sincronização da montagem.</p>
+<p>Todas as ferramentas de edição do ByteWave são gratuitas, sem subscrição obrigatória nem marca de água visível do ByteWave nas exportações. Para uma montagem musical com legendas traduzidas da fala, continue com a <a href="/pt/tutorials/translate-video-captions/">tradução de legendas</a>. Para elementos visuais em camadas, consulte o <a href="/pt/layout/">guia de composições</a>.</p>

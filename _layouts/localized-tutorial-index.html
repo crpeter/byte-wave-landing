@@ -12,6 +12,8 @@
 {%- assign motion_page = site.pages | where: "translation_key", "creation-motion-blur" | where: "lang", page.lang | first -%}
 {%- assign frame_rate_page = site.pages | where: "translation_key", "creation-frame-rate-conversion" | where: "lang", page.lang | first -%}
 {%- assign noise_page = site.pages | where: "translation_key", "creation-temporal-noise-reduction" | where: "lang", page.lang | first -%}
+{%- assign translation_page = site.pages | where: "translation_key", "creation-translate-video-captions" | where: "lang", page.lang | first -%}
+{%- assign audio_effects_page = site.pages | where: "translation_key", "creation-audio-reactive-video-effects" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
@@ -66,6 +68,10 @@
         {%- if frame_rate_page -%}{%- assign card_url = frame_rate_page.url -%}{%- endif -%}
       {%- when '/tutorials/temporal-noise-reduction/' -%}
         {%- if noise_page -%}{%- assign card_url = noise_page.url -%}{%- endif -%}
+      {%- when '/tutorials/translate-video-captions/' -%}
+        {%- assign card_url = translation_page.url -%}
+      {%- when '/tutorials/audio-reactive-video-effects/' -%}
+        {%- assign card_url = audio_effects_page.url -%}
     {%- endcase -%}
     {"@type":"ListItem","position":{{ forloop.index }},"name":{{ item.title | jsonify }},"url":{{ card_url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
@@ -247,6 +253,26 @@
             <p class="format">{{ h.cards[9].format | escape }}</p>
             <h2 id="metadata-title">{{ h.cards[9].title | escape }}</h2>
             <p class="description">{{ h.cards[9].description | escape }}</p>
+            <span class="card-action">{{ h.action | escape }}</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="tutorial-card" href="{{ translation_page.url | relative_url }}" aria-labelledby="translate-video-captions-title">
+          <div class="card-copy">
+            <p class="format">{{ h.cards[10].format | escape }}</p>
+            <h2 id="translate-video-captions-title">{{ h.cards[10].title | escape }}</h2>
+            <p class="description">{{ h.cards[10].description | escape }}</p>
+            <span class="card-action">{{ h.action | escape }}</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="tutorial-card" href="{{ audio_effects_page.url | relative_url }}" aria-labelledby="audio-reactive-video-effects-title">
+          <div class="card-copy">
+            <p class="format">{{ h.cards[11].format | escape }}</p>
+            <h2 id="audio-reactive-video-effects-title">{{ h.cards[11].title | escape }}</h2>
+            <p class="description">{{ h.cards[11].description | escape }}</p>
             <span class="card-action">{{ h.action | escape }}</span>
           </div>
         </a>

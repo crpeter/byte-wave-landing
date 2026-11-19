@@ -358,6 +358,14 @@
       "title": "Anthropic måste förtjäna förtroendet",
       "summary": "Claude, en rabbins fråga och gränserna för företagens löften."
     },
+    "/tutorials/translate-video-captions/": {
+      "title": "Översätt videoundertexter",
+      "summary": "Översätt automatiska undertexter till ett annat språk som stöds, jämför med originalet och kontrollera resultatet före export."
+    },
+    "/tutorials/audio-reactive-video-effects/": {
+      "title": "Låt effekter reagera på musik",
+      "summary": "Välj ett ljudfilter, jämför förinställningar med animerad geometri och kontrollera hur de reagerar i lugna och starkare partier."
+    },
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Muse och integritet: Dina meddelanden är ingen inbjudan",
       "summary": "Oväntad åtkomst till Signal och oförklarade banksaldon väcker frågor om Meta Muse. Hallucinationsförklaringen kräver belägg och samtycke tydliga gränser."

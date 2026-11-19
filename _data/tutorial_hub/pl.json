@@ -79,6 +79,20 @@
       "description": "Sprawdź kopię roboczą, usuń edytowalne pola i zobacz, co pozostaje.",
       "format": "Prywatność · Poradnik",
       "alt": "Usuń metadane lokalizacji. Sprawdź kopię roboczą, usuń edytowalne pola i zobacz, co pozostaje."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Tłumaczenie napisów w filmie",
+      "description": "Przetłumacz automatyczne napisy na inny obsługiwany język, porównaj je z oryginałem i sprawdź wynik przed eksportem.",
+      "format": "iPhone i iPad · Poradnik tekstowy",
+      "alt": "Tłumaczenie napisów w filmie. Przetłumacz automatyczne napisy na inny obsługiwany język, porównaj je z oryginałem i sprawdź wynik przed eksportem."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Efekty reagujące na muzykę",
+      "description": "Wybierz filtr z kategorii Dźwięk, porównaj animowane geometrie i sprawdź ich reakcję w cichszych oraz głośniejszych fragmentach.",
+      "format": "iPhone i iPad · Poradnik tekstowy",
+      "alt": "Efekty reagujące na muzykę. Wybierz filtr z kategorii Dźwięk, porównaj animowane geometrie i sprawdź ich reakcję w cichszych oraz głośniejszych fragmentach."
     }
   ]
 }
