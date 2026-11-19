@@ -357,6 +357,10 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "A Anthropic tem de merecer confiança",
       "summary": "Claude, a pergunta de um rabino e os limites das promessas contra o engano."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Privacidade do Meta Muse: As suas mensagens não são um convite",
+      "summary": "O acesso ao Signal e saldos bancários inexplicados levantam dúvidas sobre o Meta Muse. A defesa das alucinações exige provas e limites claros."
     }
   }
 }

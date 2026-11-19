@@ -35,6 +35,7 @@ const routes = [
  ['youtube-likeness-detection-privacy','blog/youtube-likeness-detection-privacy.html'],
  ['tiktok-ai-avatars-product-ads','blog/tiktok-ai-avatars-product-ads.html'],
  ['meta-ray-ban-glasses-unwanted-recordings','blog/meta-ray-ban-glasses-unwanted-recordings.html'],
+ ['meta-muse-ai-privacy-concerns','blog/meta-muse-ai-privacy-concerns.html'],
  ['meta-muse-shared-chats-exposed','blog/meta-muse-shared-chats-exposed.html'],
  ['meta-muse-profiles-people-who-never-signed-up','blog/meta-muse-profiles-people-who-never-signed-up.html'],
  ['disconnect-meta-muse','blog/disconnect-meta-muse.html'],

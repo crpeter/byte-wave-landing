@@ -357,6 +357,10 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic moet vertrouwen verdienen",
       "summary": "Claude, de vraag van een rabbijn en de grenzen van beloften over misleiding."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Privacy bij Meta Muse: Je berichten zijn geen uitnodiging",
+      "summary": "Onverwachte toegang tot Signal en onverklaarde banksaldi bij Meta Muse roepen vragen op. Waarom de hallucinatieverklaring bewijs nodig heeft."
     }
   }
 }

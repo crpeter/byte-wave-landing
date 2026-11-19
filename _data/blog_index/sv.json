@@ -357,6 +357,10 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropic måste förtjäna förtroendet",
       "summary": "Claude, en rabbins fråga och gränserna för företagens löften."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Meta Muse och integritet: Dina meddelanden är ingen inbjudan",
+      "summary": "Oväntad åtkomst till Signal och oförklarade banksaldon väcker frågor om Meta Muse. Hallucinationsförklaringen kräver belägg och samtycke tydliga gränser."
     }
   }
 }

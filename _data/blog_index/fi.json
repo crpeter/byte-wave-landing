@@ -357,6 +357,10 @@
     "/blog/anthropic-claude-public-trust.html": {
       "title": "Anthropicin on ansaittava luottamus",
       "summary": "Claude, rabbin kysymys ja yritysten lupausten rajat harhaanjohtamisen torjunnassa."
+    },
+    "/blog/meta-muse-ai-privacy-concerns.html": {
+      "title": "Meta Musen tietosuoja: Viestisi eivät ole kutsu",
+      "summary": "Signal-viesteihin pääsy ja selittämättömät tilisaldot herättävät kysymyksiä Meta Musesta. Hallusinaatioselitys tarvitsee näyttöä ja suostumus selvät rajat."
     }
   }
 }
