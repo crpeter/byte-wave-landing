@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "fi"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/fi/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "Julkaistu"
+display_date: "26. huhtikuuta 2026"
+article_title: "Mitä Metal-varjostimet ovat? Näin ByteWave käyttää iPhonesi GPU:ta"
+seo_title: "Metal-varjostimet iPhonessa: ByteWaven GPU-tehosteet"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "ByteWave on tarkistanut tuoteväitteet; vertailut heijastavat sen kaupallista etua eivätkä ole riippumattomia arvioita."
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWaven esikatselukuva"
+reading_time: "Lukuaika 5 min"
+source_updated_on: "2026-10-18"
+display_source_update: "18. lokakuuta 2026"
+updated_label: "Päivitetty"
+---
+<p>Kun käytät suodatinta useimmissa videoeditoreissa, taustalla tapahtuu jotain näkymätöntä. Sovellus käsittelee videon jokaisen ruudun algoritmilla ja näyttää tuloksen. Tavallisesti algoritmi on musta laatikko. ByteWavessa se on Metal-varjostin, jota voit lukea ja muokata.</p>
+
+  <h2>Mikä Metal on?</h2>
+
+  <p>Metal on Applen GPU-ohjelmointikehys. Sekä CPU että GPU suorittavat töitä rinnakkain, mutta GPU sopii erityisesti samankaltaisiin operaatioihin monille pikseleille. 4K-ruudussa on yli kahdeksan miljoonaa pikseliä. GPU ajoittaa säieryhmiä käsittelemään niitä sen sijaan, että suorittaisi kaikki pikselit yhtä aikaa.</p>
+
+  <p>Metal korvasi OpenGL:n Applen alustoilla ja antaa kehittäjille huomattavasti suoremman laitteiston hallinnan. Sama kehys pyörittää vaativia pelejä ja ammattilaisten luovia työkaluja Apple-laitteilla.</p>
+
+  <h2>Mikä varjostin on?</h2>
+
+  <p>Varjostin on pieni GPU:lla toimiva ohjelma. Videoeditoinnissa se saa syötteenä pikselin värin ja tuottaa uuden värin. Tämä on perusidea. Harmaasävyvarjostin lukee punaisen, vihreän ja sinisen arvot ja laskee niiden keskiarvon yhdeksi harmaaksi arvoksi. Värisävyvarjostin muuttaa sävyä. Sumennusvarjostin näytteistää viereisiä pikseleitä ja sekoittaa ne.</p>
+
+  <p>Tässä on pieni Metal-laskentaesimerkki. Se olettaa samankokoiset syöte- ja tulostekstuurit ja havainnollistaa Metal-syntaksia, ei ByteWaven omien suodattimien rajapintaa:</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>Jokainen säie käsittelee yhden pikselin. Tehosteen pysyminen toiston tahdissa riippuu laitteesta, tarkkuudesta ja varjostimesta. Applen <a href="https://developer.apple.com/metal/sample-code/">Metal-esimerkkikoodissa</a> on laskentaytimiin perustuvaa kuvankäsittelyä.</p>
+
+  <h2>Miksi tämä merkitsee videoeditoinnissa</h2>
+
+  <p>Useimmat mobiilieditorit käyttävät suodattimissa esikäännettyä koodia, jota et voi nähdä tai muuttaa. Saat ”Vintage”-suodattimen tai ”Lämmin”-esiasetuksen ja ehkä voimakkuussäätimen. Siinä kaikki. Et tiedä, mitä suodatin todella tekee, etkä voi muuttaa sen logiikkaa.</p>
+
+  <p>ByteWave toimii toisin. Jokainen suodatin näyttää varjostimensa lähdekoodin. Koodinäkymästä näet tarkasti, mitä harmaasävy-, impressionismisuodatin tai muu tehoste tekee pikselitasolla. Ennen kaikkea voit muuttaa sitä.</p>
+
+  <h2>Miten ByteWave tekee varjostimista helposti käytettäviä</h2>
+
+  <p>Sinun ei tarvitse olla grafiikkaohjelmoija. Työnkulku perustuu varjostinviitteen kopioimiseen ChatGPT:n tai Clauden kaltaiselle tekoälyavustajalle. Kuvailet toiveesi tavallisella englannilla, esimerkiksi ”tee tästä haalistuneen Kodachrome-filmin näköinen, varjot tukkoon”, ja tekoäly kirjoittaa koodin. Liitä se ByteWaveen, esikatsele omalla materiaalillasi ja kehitä sitä edelleen.</p>
+
+  <p>Näin toimivat myös <a href="/fi/blog/community-filters-bytewave.html">yhteisön suodattimet</a>. Suodattimen julkaisija jakaa varjostinkoodin. Voit käyttää sitä sellaisenaan tai avata koodin uuden työn lähtökohdaksi.</p>
+
+  <h2>Kohteen huomioivat varjostimet</h2>
+
+  <p>ByteWave antaa varjostimille myös pääsyn Vision-kehyksen tietoihin. Sovellus voi tunnistaa videon kohteen ja välittää maskin varjostimelle, jolloin kohdetta ja taustaa voi käsitellä eri tavoin. Impressionistinen maalaustehoste taustalle kohteen pysyessä terävänä. Värimäärittely kohteelle ja värikylläisyyden poisto taustasta. Sumennus kaikkialle paitsi kasvoihin. Perinteisesti nämä tehosteet vaativat käsin tehtävää rotoskooppausta After Effectsissä.</p>
+
+  <h2>Tekninen rakenne</h2>
+
+  <p>Tekniikasta kiinnostuneille: Metal-laskentaytimet voivat lukea ruututekstuurin, tehdä pikselikohtaisia operaatioita ja kirjoittaa tulostekstuurin. Suodattimia voi ketjuttaa ja kohdemaskit voivat toimia lisäsyötteenä. ByteWaven FRC, liike-epäterävyys ja ajallinen kohinanpoisto vaativat paikallisen käsittelyvaiheen ennen esikatselua.</p>
+
+  <p>ByteWave käsittelee editointitehosteet laitteella. Suorituskyky riippuu laitteesta, klipin tarkkuudesta ja tehosteen asetuksista.</p>
+
+  <div class="callout">
+    <h3>Katso koodia. Muuta sitä. Tee siitä omasi.</h3>
+    <p>Lue ja muokkaa ByteWaven suodattimien Metal-koodia.</p>
+    <a href="/fi/#download" class="button">Lataa ByteWave ilmaiseksi</a>
+  </div>
+
+  <p>Lue myös: <a href="/fi/blog/custom-video-filters-ai-tutorial.html">Omien suodattimien luominen tekoälyllä</a> · <a href="/fi/blog/community-filters-bytewave.html">Yhteisön suodattimet</a></p>

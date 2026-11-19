@@ -553,10 +553,10 @@
         <p>{{ h.showcase.intro | escape }}</p>
         <ul class="showcase-points">
             <li><strong><a href="{{ layout_page.url | relative_url }}">{{ h.showcase.layout | escape }}</a></strong><span>{{ h.showcase.layout_desc | escape }}</span></li>
-            <li><strong>{{ h.showcase.effects | escape }} <a href="/tutorials/animated-captions/">{{ h.showcase.captions | escape }}</a></strong><span>{{ h.showcase.captions_desc | escape }}</span></li>
+            <li><strong>{{ h.showcase.effects | escape }} <a href="{{ home.url | relative_url }}tutorials/animated-captions/">{{ h.showcase.captions | escape }}</a></strong><span>{{ h.showcase.captions_desc | escape }}</span></li>
             <li><strong>{{ h.showcase.audio | escape }}</strong><span>{{ h.showcase.audio_desc | escape }}</span></li>
         </ul>
-        <a href="/gallery/">{{ h.showcase.gallery | escape }}</a>
+        <a href="{{ home.url | relative_url }}gallery/">{{ h.showcase.gallery | escape }}</a>
     </div>
     <div class="app-images">
         <img src="/assets/landing/editor.webp" width="560" height="1212" loading="lazy" decoding="async" alt="{{ h.showcase.editor_alt | escape }}">
@@ -571,16 +571,16 @@
         <div>
             <h3>{{ h.credentials.check | escape }}</h3>
             <p>{{ h.credentials.check_desc | escape }}</p>
-            <a href="/tutorials/check-c2pa-content-credentials/">{{ h.credentials.how | escape }}</a>
+            <a href="{{ home.url | relative_url }}tutorials/check-c2pa-content-credentials/">{{ h.credentials.how | escape }}</a>
         </div>
         <div>
             <h3>{{ h.credentials.signed | escape }}</h3>
             <p>{{ h.credentials.signed_desc | escape }}</p>
-            <a href="/blog/provenance.html#signed-exports">{{ h.credentials.signed_link | escape }}</a>
+            <a href="{{ home.url | relative_url }}blog/provenance.html#signed-exports">{{ h.credentials.signed_link | escape }}</a>
         </div>
     </div>
     <p class="credentials-note">{{ h.credentials.caveat | escape }}</p>
-    <a class="credentials-guide" href="/blog/tools-newsrooms-check-ai-generated-media.html">{{ h.credentials.newsrooms | escape }}</a>
+    <a class="credentials-guide" href="{{ home.url | relative_url }}blog/tools-newsrooms-check-ai-generated-media.html">{{ h.credentials.newsrooms | escape }}</a>
 </section>
 
 <section class="geese-section" aria-labelledby="geese-title">
@@ -622,7 +622,7 @@
         {{ h.privacy.local | escape }} <strong>{{ h.privacy.sharing | escape }}</strong>
     </p>
     <p>
-        {{ h.privacy.stamp | escape }} <a href="/blog/provenance.html#signed-exports">{{ h.privacy.stamp_link | escape }}</a>
+        {{ h.privacy.stamp | escape }} <a href="{{ home.url | relative_url }}blog/provenance.html#signed-exports">{{ h.privacy.stamp_link | escape }}</a>
     </p>
     <p><a href="{{ guide.url | relative_url }}">{{ h.privacy.guide | escape }} →</a></p>
 </section>
@@ -641,12 +641,12 @@
         {{ h.creative.feed | escape }} <a href="{{ home.url | relative_url }}blog/how-bytewave-feed-works-without-server-watch-history.html">{{ h.creative.feed_link | escape }}</a>
     </p>
     <ul class="guide-links">
-        <li><a href="/blog/reduce-ai-videos-facebook-feed.html">{{ h.creative.facebook | escape }}</a></li>
-        <li><a href="/blog/reduce-ai-content-tiktok-feed.html">{{ h.creative.tiktok | escape }}</a></li>
-        <li><a href="/blog/tired-of-ai-videos-social-media.html">{{ h.creative.real | escape }}</a></li>
-        <li><a href="/blog/free-capcut-alternative-2026.html">{{ h.creative.capcut | escape }}</a></li>
+        <li><a href="{{ home.url | relative_url }}blog/reduce-ai-videos-facebook-feed.html">{{ h.creative.facebook | escape }}</a></li>
+        <li><a href="{{ home.url | relative_url }}blog/reduce-ai-content-tiktok-feed.html">{{ h.creative.tiktok | escape }}</a></li>
+        <li><a href="{{ home.url | relative_url }}blog/tired-of-ai-videos-social-media.html">{{ h.creative.real | escape }}</a></li>
+        <li><a href="{{ home.url | relative_url }}blog/free-capcut-alternative-2026.html">{{ h.creative.capcut | escape }}</a></li>
     </ul>
-    <p><a href="/gallery/">{{ h.creative.gallery | escape }}</a> {{ h.creative.or | escape }} <a href="/tutorials/motion-blur/">{{ h.creative.tutorial | escape }}</a></p>
+    <p><a href="{{ home.url | relative_url }}gallery/">{{ h.creative.gallery | escape }}</a> {{ h.creative.or | escape }} <a href="{{ home.url | relative_url }}tutorials/motion-blur/">{{ h.creative.tutorial | escape }}</a></p>
     <div class="hero-actions">
         <a class="btn-primary" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=seo_creative_control{{ page.campaign_suffix }}&amp;mt=8">{{ h.creative.download | escape }}</a>
     </div>
@@ -684,7 +684,7 @@
 <tr><th scope="row">{{ h.compare.subject | escape }}</th><td>{{ h.compare.included | escape }}</td><td>{{ h.compare.masks | escape }}</td></tr>
 </tbody>
     </table>
-<p class="comparison-note" id="capcut-plan-note">{{ h.compare.note | escape }} <a href="/blog/free-capcut-alternative-2026.html">{{ h.compare.full | escape }}</a>.</p>
+<p class="comparison-note" id="capcut-plan-note">{{ h.compare.note | escape }} <a href="{{ home.url | relative_url }}blog/free-capcut-alternative-2026.html">{{ h.compare.full | escape }}</a>.</p>
 </section>
 
 <hr class="divider">

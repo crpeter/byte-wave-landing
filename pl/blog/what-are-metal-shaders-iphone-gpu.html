@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "pl"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/pl/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "Opublikowano"
+display_date: "26 kwietnia 2026"
+article_title: "Czym są shadery Metal? Jak ByteWave wykorzystuje GPU iPhone’a"
+seo_title: "Shadery Metal na iPhonie: działanie efektów GPU w ByteWave"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "ByteWave sprawdziło twierdzenia dotyczące produktu; porównania odzwierciedlają jego interes handlowy i nie są niezależnymi recenzjami."
+social_image: "/assets/og-image.jpg"
+image_alt: "Grafika podglądu ByteWave"
+reading_time: "Czas czytania: 5 min"
+source_updated_on: "2026-10-18"
+display_source_update: "18 października 2026"
+updated_label: "Zaktualizowano"
+---
+<p>Gdy stosujesz filtr w większości edytorów, za kulisami dzieje się coś niewidocznego. Aplikacja przetwarza każdą klatkę filmu algorytmem i zwraca wynik. Zwykle algorytm jest czarną skrzynką. W ByteWave jest shaderem Metal, który można przeczytać i edytować.</p>
+
+  <h2>Czym jest Metal?</h2>
+
+  <p>Metal to framework Apple do programowania GPU. CPU i GPU wykonują pracę równolegle, lecz GPU szczególnie dobrze radzą sobie z podobnymi operacjami na wielu pikselach. Klatka 4K ma ponad osiem milionów pikseli. GPU planuje grupy wątków do ich przetwarzania, zamiast wykonywać wszystkie piksele jednocześnie.</p>
+
+  <p>Metal zastąpił OpenGL na platformach Apple i daje programistom znacznie bardziej bezpośrednią kontrolę nad sprzętem. Ten sam framework napędza wymagające gry i profesjonalne narzędzia twórcze na urządzeniach Apple.</p>
+
+  <h2>Czym jest shader?</h2>
+
+  <p>Shader to mały program wykonywany na GPU. W montażu wideo przyjmuje kolor piksela i zwraca nowy. To podstawowa zasada. Shader skali szarości odczytuje wartości czerwieni, zieleni i niebieskiego, po czym uśrednia je do jednej szarości. Shader barwiący przesuwa odcień. Shader rozmycia próbkuje sąsiednie piksele i je miesza.</p>
+
+  <p>Oto krótki przykład obliczeń Metal. Zakłada tekstury wejściową i wyjściową o tym samym rozmiarze; pokazuje składnię Metal, nie interfejs własnych filtrów ByteWave:</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>Każdy wątek przetwarza piksel. Nadążanie efektu za odtwarzaniem zależy od urządzenia, rozdzielczości i shadera. <a href="https://developer.apple.com/metal/sample-code/">Przykładowy kod Metal</a> Apple zawiera przetwarzanie obrazów za pomocą obliczeń GPU.</p>
+
+  <h2>Dlaczego ma to znaczenie w montażu</h2>
+
+  <p>Większość mobilnych edytorów stosuje skompilowany kod filtrów, którego nie możesz zobaczyć ani zmienić. Dostajesz filtr „Vintage” lub ustawienie „Ciepłe” i ewentualnie suwak intensywności. To wszystko. Nie wiesz, co naprawdę robi filtr, i nie możesz zmienić jego logiki.</p>
+
+  <p>ByteWave działa inaczej. Każdy filtr udostępnia kod źródłowy shadera. Otwórz widok kodu, by zobaczyć dokładnie, co na poziomie pikseli robi filtr szarości, impresjonistyczny czy inny efekt. Co najważniejsze, możesz to zmienić.</p>
+
+  <h2>Jak ByteWave ułatwia korzystanie z shaderów</h2>
+
+  <p>Nie musisz programować grafiki. Proces polega na skopiowaniu materiału referencyjnego shadera do asystenta AI, takiego jak ChatGPT lub Claude. Opisujesz cel zwykłym angielskim, np. „nadaj wygląd wyblakłego filmu Kodachrome z zatkanymi cieniami”, a AI pisze kod. Wklej go do ByteWave, sprawdź podgląd na swoich nagraniach i dopracuj.</p>
+
+  <p>Tak działają też <a href="/pl/blog/community-filters-bytewave.html">filtry społeczności</a>. Publikując filtr, udostępniasz kod shadera. Można użyć go bez zmian albo otworzyć jako punkt wyjścia do czegoś nowego.</p>
+
+  <h2>Shadery uwzględniające obiekt</h2>
+
+  <p>ByteWave pozwala shaderom korzystać z danych frameworka Vision. Aplikacja może wykryć obiekt i przekazać maskę do shadera, umożliwiając różne efekty dla obiektu i tła. Impresjonistyczne malowidło w tle przy ostrym obiekcie. Korekcja koloru obiektu i odbarwione tło. Rozmycie wszystkiego poza twarzą. Tradycyjnie wymagało to ręcznego rotoskopowania w After Effects.</p>
+
+  <h2>Warstwa techniczna</h2>
+
+  <p>Dla zainteresowanych: jądra obliczeniowe Metal mogą odczytać teksturę klatki, wykonać operacje na pikselach i zapisać teksturę wyjściową. Filtry można łączyć, a maski obiektu stanowią dodatkowe wejście. FRC, rozmycie ruchu i czasowa redukcja szumu w ByteWave wymagają lokalnego przetwarzania przed podglądem.</p>
+
+  <p>ByteWave przetwarza efekty montażu na urządzeniu. Wydajność zależy od urządzenia, rozdzielczości klipu i ustawień efektu.</p>
+
+  <div class="callout">
+    <h3>Zobacz kod. Zmień kod. Stwórz własny efekt.</h3>
+    <p>Czytaj i edytuj kod Metal filtrów ByteWave.</p>
+    <a href="/pl/#download" class="button">Pobierz ByteWave za darmo</a>
+  </div>
+
+  <p>Zobacz też: <a href="/pl/blog/custom-video-filters-ai-tutorial.html">Tworzenie własnych filtrów z AI</a> · <a href="/pl/blog/community-filters-bytewave.html">Filtry społeczności</a></p>

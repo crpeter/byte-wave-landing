@@ -1,0 +1,44 @@
+---
+layout: "localized-editorial"
+lang: "zh-Hant"
+translation_key: "how-to-check-ai-generated-photos-videos"
+permalink: "/zh-hant/blog/how-to-check-ai-generated-photos-videos.html"
+published_on: "2026-09-19"
+updated_on: "2026-11-19"
+published_label: "發布日期："
+updated_label: "更新日期"
+display_date: "2026年9月19日"
+source_updated_on: "2026-09-19"
+display_source_update: "2026年9月19日"
+article_title: "為什麼我們需要檢查 AI 生成照片與影片的工具"
+seo_title: "為什麼需要 AI 媒體檢查工具"
+description: "合成媒體很容易製作。人們需要易於使用、尊重隱私的工具，才能檢視來源、理解證據並辨識不確定性。"
+section_tag: "perspective"
+show_article_cta: false
+store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_ai_media_check&mt=8"
+publisher_note: "本文由 ByteWave 發布，ByteWave 也是文中 App 的開發者。"
+social_image: "/assets/social/how-to-check-ai-generated-photos-videos.jpg"
+image_alt: "為什麼需要檢查 AI 媒體：容易取得的證據、清楚的限制與隱私。"
+---
+<p class="lead">讓合成媒體更容易製作的同時，也應相應投入資源，幫助人們理解收到的內容。我們相信，檢視媒體的工具應該容易取得、尊重隱私，並清楚說明證據。這也是我們在 ByteWave 建構的一部分。</p>
+<p class="quick-links"><a href="#check">為什麼脈絡仍然重要</a><a href="#tools">為什麼易於使用的檢查工具很重要</a><a href="#bytewave">試試 ByteWave 教學</a></p>
+<h2 id="check">人們需要證據，不是另一個篤定的答案</h2>
+<p>假設你收到一段號稱拍攝昨天事件的影片。有兩個問題：檔案如何製作，以及它是否支持附帶的故事？只處理第一個問題的工具，無法解決第二個。即使是相機錄影，也可能是舊畫面搭配新說明。</p>
+<p>因此，我們希望檢查工具補充來源研究。原始創作者、日期、脈絡與佐證仍然重要。有用的介面應協助理解現有證據，而不是假裝解決它無法回答的問題。</p>
+<h2>C2PA Content Credentials 可以告訴你什麼</h2>
+<p>C2PA Content Credentials 帶有關於檔案來源與編輯紀錄的簽署聲明，其中可能包含 AI 使用資訊。驗證會檢查憑證完整性及其與素材的關聯；不會證明場景真的發生過。憑證並非必要，因此缺少憑證既不能證明相機拍攝，也不能證明 AI 生成。<a href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html">來源：C2PA 解說</a>。</p>
+<p>有用的結果回答具體問題：簽署紀錄揭露了什麼，是否通過相關檢查？「有憑證」這種標示太籠統，不能回答是否使用了生成式 AI。</p>
+<h2>為什麼 AI 偵測器與憑證讀取器不同</h2>
+<p>偵測器的分類是一項評估。憑證讀取器檢查記錄的聲明及驗證狀態。選擇工具時，應問它提供哪種結果、分數是否經過校準，以及缺少證據時會回報什麼。不要把百分比轉成工具未曾證實的確定性。</p>
+<h2 id="tools">人們需要容易使用的媒體檢視方式</h2>
+<p>我們的立場很直接：如果工具讓合成媒體容易製作，人們也應有容易使用的方法檢視附帶的證據。這應包括收到家人訊息的人，而不只是新聞編輯室或數位鑑識專家。</p>
+<p>有用的工具會清楚說明三件事：檢查了什麼、哪些證據支持結果，以及什麼仍然未知。無法下定論也是有用資訊。把不確定性藏在誇張的「真」或「假」標示後，會讓讀者更難做下一個決定。</p>
+<p>隱私也屬於這場討論。將私人影像傳給檢查服務前，先問是否必須上傳、服務保存什麼，以及檔案是否可能用於訓練。選擇自己了解資料處理方式的流程。</p>
+<h2>如果分享移除了憑證呢？</h2>
+<p>C2PA 說明憑證可能與媒體分離。某些實作能透過支援的浮水印或指紋重新找到它們，但這項能力並不普遍。一般的嵌入式憑證檢查，不應被當成搜尋所有可能的外部紀錄。<a href="https://c2pa.org/faqs/">來源：C2PA 對中繼資料遭移除的說明</a>。</p>
+<p>這是檢查工具的設計挑戰：缺少證據需要誠實解釋。不能只因評估所需資訊無法取得，就給檔案一個令人安心的結論。</p>
+<h2 id="bytewave">在 ByteWave 落實這個原則</h2>
+<p><a href="/zh-hant/tutorials/check-c2pa-content-credentials/">C2PA Content Credentials 教學</a>說明匯入照片或影片、開啟來源徽章以及解讀結果的步驟。它也解釋，ByteWave 匯出簽章與來源的 AI 生成聲明，為什麼回答的是不同問題。</p>
+<div class="callout"><h2>從一個檔案開始</h2><p>準備想檢查的照片或影片，並依照文字步驟操作。</p><a href="/zh-hant/tutorials/check-c2pa-content-credentials/" class="button">在 ByteWave 檢查 Content Credentials</a></div>
+<p>動態消息控制請參閱我們的<a href="/zh-hant/blog/reduce-ai-videos-facebook-feed.html">Facebook 指南</a>與<a href="/zh-hant/blog/reduce-ai-content-tiktok-feed.html">TikTok 指南</a>。若想了解授予代理存取帳號權限的問題，請閱讀<a href="/blog/meta-muse-privacy-security.html" hreflang="en">Meta Muse 隱私與安全指南</a> 英文文章。</p>
+<div class="callout"><h2>探索 ByteWave</h2><p>適用於支援 Apple 裝置的免費媒體編輯與來源工具。</p><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=seo_ai_media_check&amp;mt=8" class="button">免費取得 ByteWave</a></div>

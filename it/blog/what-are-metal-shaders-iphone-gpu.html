@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "it"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/it/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "Pubblicato il"
+display_date: "26 aprile 2026"
+article_title: "Che cosa sono gli shader Metal? Come ByteWave usa la GPU del tuo iPhone"
+seo_title: "Shader Metal su iPhone: gli effetti GPU di ByteWave"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "ByteWave ha verificato le affermazioni sul prodotto; i confronti riflettono il suo interesse commerciale e non sono recensioni indipendenti."
+social_image: "/assets/og-image.jpg"
+image_alt: "Immagine di anteprima di ByteWave"
+reading_time: "5 min di lettura"
+source_updated_on: "2026-10-18"
+display_source_update: "18 ottobre 2026"
+updated_label: "Aggiornato il"
+---
+<p>Quando applichi un filtro nella maggior parte degli editor video, accade qualcosa che non vedi. L’app prende ogni fotogramma, lo elabora con un algoritmo e restituisce il risultato. In quasi tutte le app l’algoritmo è una scatola nera. In ByteWave è uno shader Metal che puoi leggere e modificare.</p>
+
+  <h2>Che cos’è Metal?</h2>
+
+  <p>Metal è il framework Apple per programmare la GPU. CPU e GPU eseguono entrambe attività in parallelo, ma le GPU sono particolarmente adatte a operazioni simili su molti pixel. Un fotogramma 4K contiene oltre otto milioni di pixel; la GPU pianifica gruppi di thread per elaborarli, anziché eseguire tutti i pixel contemporaneamente.</p>
+
+  <p>Metal ha sostituito OpenGL sulle piattaforme Apple e offre agli sviluppatori un controllo molto più diretto dell’hardware. È lo stesso framework usato da giochi di fascia alta e strumenti creativi professionali sui dispositivi Apple.</p>
+
+  <h2>Che cos’è uno shader?</h2>
+
+  <p>Uno shader è un piccolo programma eseguito sulla GPU. Nel montaggio video riceve il colore di un pixel e ne produce uno nuovo. Questo è il principio di base. Uno shader in scala di grigi legge i valori rosso, verde e blu e ne calcola una media per ottenere un valore grigio. Uno shader di tinta modifica la tonalità. Uno di sfocatura campiona i pixel vicini e li combina.</p>
+
+  <p>Ecco un breve esempio di calcolo Metal. Presuppone texture di ingresso e uscita della stessa dimensione; illustra la sintassi Metal, non l’interfaccia dei filtri personalizzati di ByteWave:</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>Ogni thread elabora un pixel. La capacità dell’effetto di seguire la riproduzione dipende da dispositivo, risoluzione e shader. Il <a href="https://developer.apple.com/metal/sample-code/">codice di esempio Metal</a> di Apple comprende esempi di elaborazione delle immagini tramite calcolo GPU.</p>
+
+  <h2>Perché conta nel montaggio video</h2>
+
+  <p>La maggior parte degli editor mobili applica filtri con codice precompilato che non puoi vedere né cambiare. Hai un filtro «Vintage» o un preset «Caldo» e forse un cursore per l’intensità. Tutto qui. Non sai cosa faccia davvero il filtro e non puoi modificarne la logica.</p>
+
+  <p>ByteWave segue un’altra strada. Ogni filtro espone il proprio codice shader. Nella vista codice puoi vedere esattamente cosa fanno a livello di pixel il filtro in scala di grigi, quello impressionista o qualsiasi altro effetto. Soprattutto, puoi cambiarlo.</p>
+
+  <h2>Come ByteWave rende accessibili gli shader</h2>
+
+  <p>Non serve essere programmatori grafici. Il flusso ByteWave consiste nel copiare il riferimento dello shader in un assistente IA come ChatGPT o Claude. Descrivi il risultato in inglese comune, per esempio «fallo sembrare una pellicola Kodachrome sbiadita con ombre chiuse», e l’IA scrive lo shader. Incollalo in ByteWave, visualizzalo sui tuoi filmati e perfezionalo.</p>
+
+  <p>È anche il funzionamento dei <a href="/it/blog/community-filters-bytewave.html">filtri della community</a>. Pubblicando un filtro si condivide il codice shader. Puoi usarlo così com’è oppure aprirlo come punto di partenza per qualcosa di nuovo.</p>
+
+  <h2>Shader che riconoscono il soggetto</h2>
+
+  <p>ByteWave consente inoltre agli shader di accedere ai dati del framework Vision. L’app può rilevare il soggetto e passare una maschera allo shader, così da trattare soggetto e sfondo in modo diverso. Uno sfondo dipinto in stile impressionista con soggetto nitido. Color grading sul soggetto e sfondo desaturato. Sfocatura ovunque tranne sul volto. Tradizionalmente questi effetti richiedevano rotoscoping manuale in After Effects.</p>
+
+  <h2>La struttura tecnica</h2>
+
+  <p>Per chi vuole approfondire: i kernel di calcolo Metal possono leggere la texture di un fotogramma, eseguire operazioni sui pixel e scrivere una texture di uscita. I filtri si possono concatenare e le maschere del soggetto forniscono un ulteriore ingresso. FRC, motion blur e riduzione temporale del rumore di ByteWave richiedono un’elaborazione locale prima dell’anteprima.</p>
+
+  <p>ByteWave elabora gli effetti sul dispositivo. Le prestazioni dipendono dal dispositivo, dalla risoluzione del clip e dalle impostazioni dell’effetto.</p>
+
+  <div class="callout">
+    <h3>Guarda il codice. Cambialo. Fallo tuo.</h3>
+    <p>Leggi e modifica il codice Metal dei filtri ByteWave.</p>
+    <a href="/it/#download" class="button">Scarica ByteWave gratis</a>
+  </div>
+
+  <p>Leggi anche: <a href="/it/blog/custom-video-filters-ai-tutorial.html">Creare filtri personalizzati con l’IA</a> · <a href="/it/blog/community-filters-bytewave.html">Filtri della community</a></p>

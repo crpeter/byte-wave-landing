@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "ja"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/ja/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "公開日"
+display_date: "2026年4月26日"
+article_title: "Metalシェーダーとは？ByteWaveがiPhoneのGPUを活用する仕組み"
+seo_title: "iPhoneのMetalシェーダーとByteWaveの映像処理を解説"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "製品に関する記述はByteWaveが確認しています。比較にはByteWaveの商業的利害が反映されており、独立したレビューではありません。"
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWaveのブランド入りプレビュー画像"
+reading_time: "読了時間：約5分"
+source_updated_on: "2026-10-18"
+display_source_update: "2026年10月18日"
+updated_label: "更新日"
+---
+<p>多くの動画エディターでフィルターを適用すると、見えないところで処理が行われます。アプリは動画の各フレームを受け取り、何らかのアルゴリズムで処理して結果を返します。多くのアプリでは、そのアルゴリズムはブラックボックスです。ByteWaveでは、実際に読んで編集できるMetalシェーダーになっています。</p>
+
+  <h2>Metalとは？</h2>
+
+  <p>MetalはAppleのGPUプログラミング用フレームワークです。CPUもGPUも処理を並列に実行しますが、GPUは多数のピクセルに似た処理を適用することに特に向いています。4Kフレームには800万を超えるピクセルがあります。GPUはすべてのピクセルを同時に実行するのではなく、スレッドのグループを割り当てて処理します。</p>
+
+  <p>MetalはAppleのプラットフォームでOpenGLに取って代わり、開発者がハードウェアをより直接制御できるようにしました。Appleのデバイス上で高品質なゲームやプロ向けの制作ツールを動かしているのと同じフレームワークです。</p>
+
+  <h2>シェーダーとは？</h2>
+
+  <p>シェーダーはGPU上で動く小さなプログラムです。動画編集では、ピクセルの色を入力として受け取り、新しい色を出力します。最も基本的には、それだけです。グレースケールのシェーダーはピクセルの赤、緑、青の値を読み取り、平均して1つのグレーの値にします。色合いのシェーダーは色相を変えます。ぼかしのシェーダーは周囲のピクセルをサンプリングして混ぜ合わせます。</p>
+
+  <p>以下は小さなMetalの計算処理の例です。入力と出力のテクスチャが同じサイズであることを前提としています。Metalの構文を示すもので、ByteWaveのカスタムフィルター用インターフェースではありません。</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>各スレッドが1つのピクセルを処理します。エフェクトの処理が再生に追いつくかどうかは、デバイス、解像度、シェーダーによって異なります。Appleの<a href="https://developer.apple.com/metal/sample-code/">Metalサンプルコード</a>には、GPU計算による画像処理の例が含まれています。</p>
+
+  <h2>動画編集でこれが重要な理由</h2>
+
+  <p>ほとんどのモバイル動画エディターは、見ることも変更することもできないコンパイル済みのコードでフィルターを適用します。「ビンテージ」フィルターや「暖色」プリセットがあり、スライダーで強さを調整できるかもしれません。それだけです。フィルターが実際に何をしているのかはわからず、内部の処理も変更できません。</p>
+
+  <p>ByteWaveは別の方法を取っています。すべてのフィルターでシェーダーのソースコードが公開されています。コード表示を開けば、グレースケールフィルター、印象派風フィルター、その他のエフェクトがピクセル単位で何をしているのかを正確に確認できます。さらに、その内容を変更できます。</p>
+
+  <h2>ByteWaveがシェーダーを使いやすくする仕組み</h2>
+
+  <p>使うためにグラフィックスのプログラマーである必要はありません。ByteWaveの作業の流れは、シェーダーのリファレンスをコピーし、ChatGPTやClaudeなどのAIアシスタントに貼り付けることを中心に設計されています。「シャドウが黒つぶれした、色あせたKodachromeフィルムのようにして」といった希望を平易な英語で説明すると、AIがシェーダーコードを書きます。それをByteWaveに貼り戻し、自分の映像でプレビューして、調整を繰り返します。</p>
+
+  <p><a href="/ja/blog/community-filters-bytewave.html">コミュニティフィルター</a>も同じ仕組みです。誰かがフィルターを公開するとき、共有しているのはシェーダーコードです。そのまま使うことも、コードを開いて新しいものを作る出発点にすることもできます。</p>
+
+  <h2>被写体を認識するシェーダー</h2>
+
+  <p>ByteWaveはさらに進み、シェーダーがVisionフレームワークのデータにアクセスできるようにしています。アプリは動画内の被写体を検出し、シェーダーにマスクを渡せます。そのため、被写体と背景を別々に扱うエフェクトを書けます。被写体は鮮明なままで背景を印象派の絵画風にする。背景の彩度を落としつつ被写体にカラーグレーディングを施す。顔以外の部分だけをぼかす。こうしたエフェクトは従来、After Effectsで手作業のロトスコープ処理が必要でした。</p>
+
+  <h2>技術的な構成</h2>
+
+  <p>技術に関心のある方へ：Metalの計算カーネルはフレームのテクスチャを読み取り、ピクセルごとの処理を適用して、出力テクスチャに書き込めます。フィルターは連結でき、被写体マスクを別の入力として使うこともできます。ByteWaveのFRC、モーションブラー、時間軸方向のノイズ低減には、プレビュー前にローカル処理の工程が必要です。</p>
+
+  <p>ByteWaveは編集エフェクトをデバイス上で処理します。性能はデバイス、クリップの解像度、エフェクトの設定によって異なります。</p>
+
+  <div class="callout">
+    <h3>コードを見る。変える。自分のものにする。</h3>
+    <p>ByteWaveのフィルターを支えるMetalコードを読んで編集しましょう。</p>
+    <a href="/ja/#download" class="button">ByteWaveを無料で入手</a>
+  </div>
+
+  <p>関連記事：<a href="/ja/blog/custom-video-filters-ai-tutorial.html">AIでカスタムフィルターを作成</a> · <a href="/ja/blog/community-filters-bytewave.html">コミュニティフィルター</a></p>

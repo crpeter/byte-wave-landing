@@ -1,0 +1,80 @@
+---
+layout: "localized-editorial"
+lang: "zh-Hant"
+translation_key: "what-are-metal-shaders-iphone-gpu"
+permalink: "/zh-hant/blog/what-are-metal-shaders-iphone-gpu.html"
+published_on: "2026-04-26"
+updated_on: "2026-11-19"
+published_label: "發布日期"
+display_date: "2026年4月26日"
+article_title: "什麼是 Metal 著色器？ByteWave 如何運用 iPhone 的 GPU"
+seo_title: "iPhone 的 Metal 著色器：了解 ByteWave 的 GPU 特效"
+section_tag: "technical"
+store_url: "https://apps.apple.com/us/app/bytewave/id6752225642"
+show_article_cta: false
+publisher_note: "產品相關說明已由 ByteWave 檢查；比較內容反映 ByteWave 的商業利益，並非獨立評測。"
+social_image: "/assets/og-image.jpg"
+image_alt: "ByteWave 品牌預覽圖片"
+reading_time: "閱讀時間約 5 分鐘"
+source_updated_on: "2026-10-18"
+display_source_update: "2026年10月18日"
+updated_label: "更新日期"
+---
+<p>在大多數影片編輯器套用濾鏡時，背後會發生你看不到的處理。App 取得每個影格，透過某種演算法處理，再交出結果。在多數 App 裡，這個演算法是黑盒子；在 ByteWave 裡，它是你真的能閱讀和修改的 Metal 著色器。</p>
+
+  <h2>什麼是 Metal？</h2>
+
+  <p>Metal 是 Apple 的 GPU 程式設計框架。CPU 和 GPU 都會平行執行工作，但 GPU 特別適合對大量像素套用類似的操作。4K 影格有超過八百萬個像素；GPU 會安排多組執行緒處理，而不是讓每個像素同時執行。</p>
+
+  <p>Metal 在 Apple 平台取代了 OpenGL，讓開發者能更直接控制硬體。Apple 裝置上的高階遊戲與專業創作工具也使用同一套框架。</p>
+
+  <h2>什麼是著色器？</h2>
+
+  <p>著色器是在 GPU 上執行的小程式。在影片編輯中，它接收像素顏色並輸出新顏色，這就是最基本的概念。灰階著色器會讀取像素的紅、綠、藍數值，取平均後得到單一灰階值。色調著色器會改變色相。模糊著色器則取樣周圍像素並混合。</p>
+
+  <p>以下是一個簡短的 Metal 運算範例。它假設輸入與輸出紋理大小相同，示範的是 Metal 語法，而非 ByteWave 的自訂濾鏡介面：</p>
+
+  <pre class="code-block"><code>#include &lt;metal_stdlib&gt;
+using namespace metal;
+
+kernel void grayscale(
+    texture2d&lt;float, access::read&gt; input [[texture(0)]],
+    texture2d&lt;float, access::write&gt; output [[texture(1)]],
+    uint2 pixel [[thread_position_in_grid]]) {
+    if (pixel.x &gt;= input.get_width() || pixel.y &gt;= input.get_height()) return;
+    float4 color = input.read(pixel);
+    float gray = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
+    output.write(float4(gray, gray, gray, color.a), pixel);
+}</code></pre>
+
+  <p>每個執行緒處理一個像素。特效能否跟上播放速度，取決於裝置、解析度與著色器。Apple 的 <a href="https://developer.apple.com/metal/sample-code/">Metal 範例程式碼</a>包含以運算核心處理影像的示例。</p>
+
+  <h2>為什麼這對影片編輯很重要？</h2>
+
+  <p>大多數行動影片編輯器使用預先編譯的程式碼套用濾鏡，你無法查看或修改。你得到「復古」濾鏡或「暖色」預設，也許能用滑桿調整強度，僅此而已。你不知道濾鏡實際做了什麼，也不能修改底層邏輯。</p>
+
+  <p>ByteWave 採用不同做法。每個濾鏡都提供著色器原始碼。打開程式碼檢視，即可準確看見灰階、印象派或其他特效在像素層級做了什麼。更重要的是，你可以改變它。</p>
+
+  <h2>ByteWave 如何讓著色器容易使用？</h2>
+
+  <p>你不必是圖形程式設計師。ByteWave 的流程是複製著色器參考資料，貼到 ChatGPT 或 Claude 等 AI 助理。用平易的英文描述需求，例如「讓畫面像褪色的 Kodachrome 底片，暗部失去細節」，AI 就會撰寫著色器程式碼。貼回 ByteWave，在自己的素材上預覽，再逐步調整。</p>
+
+  <p><a href="/zh-hant/blog/community-filters-bytewave.html">社群濾鏡</a>也是這樣運作。有人發布濾鏡時，就是在分享著色器程式碼。你可以直接使用，也可以打開程式碼，把它當作新創作的起點。</p>
+
+  <h2>能辨識主體的著色器</h2>
+
+  <p>ByteWave 更進一步，讓著色器存取 Vision 框架的資料。App 可偵測影片主體並傳送遮罩給著色器，讓主體與背景有不同處理。背景變成印象派畫作，主體保持清晰；主體套用調色，背景降低飽和度；除了臉部之外全部模糊。這些效果在傳統流程中需要於 After Effects 手動轉描。</p>
+
+  <h2>技術架構</h2>
+
+  <p>想了解技術細節的讀者可以注意：Metal 運算核心能讀取影格紋理，執行逐像素操作，再寫入輸出紋理。濾鏡可串接，主體遮罩可提供額外輸入。ByteWave 的 FRC、動態模糊與時域降噪，在預覽前需要先進行本機處理。</p>
+
+  <p>ByteWave 在裝置上處理編輯特效。效能取決於裝置、片段解析度與特效設定。</p>
+
+  <div class="callout">
+    <h3>看懂程式碼。修改程式碼。做出你的風格。</h3>
+    <p>閱讀並修改 ByteWave 濾鏡背後的 Metal 程式碼。</p>
+    <a href="/zh-hant/#download" class="button">免費取得 ByteWave</a>
+  </div>
+
+  <p>延伸閱讀：<a href="/zh-hant/blog/custom-video-filters-ai-tutorial.html">用 AI 製作自訂濾鏡</a> · <a href="/zh-hant/blog/community-filters-bytewave.html">社群濾鏡</a></p>

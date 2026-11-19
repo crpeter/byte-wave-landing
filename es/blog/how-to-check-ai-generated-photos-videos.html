@@ -1,0 +1,44 @@
+---
+layout: "localized-editorial"
+lang: "es"
+translation_key: "how-to-check-ai-generated-photos-videos"
+permalink: "/es/blog/how-to-check-ai-generated-photos-videos.html"
+published_on: "2026-09-19"
+updated_on: "2026-11-19"
+published_label: "Publicado el"
+updated_label: "Actualizado"
+display_date: "19 de septiembre de 2026"
+source_updated_on: "2026-09-19"
+display_source_update: "19 de septiembre de 2026"
+article_title: "Por qué necesitamos herramientas para comprobar fotos y vídeos generados con IA"
+seo_title: "Por qué hacen falta herramientas para comprobar medios de IA"
+description: "Crear medios sintéticos es fácil. Necesitamos herramientas accesibles que respeten la privacidad para examinar su origen, comprender las pruebas y reconocer la incertidumbre."
+section_tag: "perspective"
+show_article_cta: false
+store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_ai_media_check&mt=8"
+publisher_note: "Publicado por ByteWave, creador de la aplicación que se menciona aquí."
+social_image: "/assets/social/how-to-check-ai-generated-photos-videos.jpg"
+image_alt: "Por qué necesitamos herramientas para comprobar medios de IA: pruebas accesibles, límites claros y privacidad."
+---
+<p class="lead">Facilitar la creación de medios sintéticos debería ir acompañado de una inversión equivalente en ayudar a las personas a entender lo que reciben. Creemos que las herramientas de inspección deben ser accesibles, respetar la privacidad y explicar claramente sus pruebas. Eso forma parte de lo que estamos construyendo en ByteWave.</p>
+<p class="quick-links"><a href="#check">Por qué el contexto sigue importando</a><a href="#tools">Por qué importan las herramientas de comprobación accesibles</a><a href="#bytewave">Prueba el tutorial de ByteWave</a></p>
+<h2 id="check">Necesitamos pruebas, no otra respuesta tajante</h2>
+<p>Imagina recibir un clip presentado como una grabación de un suceso de ayer. Hay dos preguntas: cómo se creó el archivo y si respalda la historia que lo acompaña. Una herramienta que solo responde a la primera no resuelve la segunda. Incluso una grabación de cámara puede ser antigua y compartirse con un texto nuevo.</p>
+<p>Por eso queremos que las herramientas complementen la investigación de fuentes. El autor original, la fecha, el contexto y las pruebas que corroboran la historia siguen importando. Una interfaz útil debe ayudar a entender las pruebas disponibles sin fingir que resuelve preguntas que no puede responder.</p>
+<h2>Qué pueden decir las Content Credentials C2PA</h2>
+<p>Las Content Credentials C2PA contienen declaraciones firmadas sobre el origen y el historial de edición de un archivo, que pueden incluir uso de IA. La validación comprueba la integridad de la credencial y su vínculo con el archivo; no certifica que una escena ocurriera. Las credenciales son opcionales, por lo que su ausencia no demuestra ni captura con cámara ni generación por IA. <a href="https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html">Fuente: explicación de C2PA</a>.</p>
+<p>Un resultado útil responde a algo concreto: ¿qué declara el registro firmado y superó las comprobaciones pertinentes? «Tiene credenciales» es una etiqueta demasiado amplia para determinar si se utilizó IA generativa.</p>
+<h2>Por qué un detector de IA y un lector de credenciales son distintos</h2>
+<p>La clasificación de un detector es una evaluación. Un lector examina declaraciones registradas y su estado de verificación. Al elegir una herramienta, pregunta qué resultado ofrece, si su puntuación está calibrada y qué informa cuando faltan pruebas. No conviertas un porcentaje en una certeza que la herramienta no ha establecido.</p>
+<h2 id="tools">Necesitamos formas accesibles de examinar los medios</h2>
+<p>Nuestra postura es sencilla: si las herramientas facilitan crear medios sintéticos, también debe haber formas accesibles de examinar las pruebas que los acompañan. Eso debe incluir a quien recibe un mensaje familiar, no solo a una redacción o a un especialista forense.</p>
+<p>Una herramienta útil debe aclarar tres cosas: qué examinó, qué pruebas sostienen el resultado y qué sigue sin saberse. Un resultado no concluyente también informa. Ocultar la incertidumbre tras una etiqueta rotunda de «real» o «falso» dificulta la siguiente decisión del lector.</p>
+<p>La privacidad también entra en esta conversación. Antes de enviar una imagen personal a un servicio de comprobación, pregunta si es necesario subirla, qué guarda el servicio y si puede utilizar el archivo para entrenar modelos. Elige un proceso cuyo tratamiento de datos entiendas.</p>
+<h2>¿Y si compartir eliminó las credenciales?</h2>
+<p>C2PA documenta que las credenciales pueden separarse de los medios. Algunas implementaciones pueden recuperarlas mediante marcas de agua o huellas compatibles, pero esa capacidad no es universal. Una comprobación normal de credenciales incrustadas no equivale a buscar todos los registros externos posibles. <a href="https://c2pa.org/faqs/">Fuente: explicación de C2PA sobre la eliminación de metadatos</a>.</p>
+<p>Este es un reto de diseño: la falta de pruebas necesita una explicación honesta. Un archivo no debería recibir un veredicto tranquilizador solo porque no está disponible la información necesaria para evaluarlo.</p>
+<h2 id="bytewave">Aplicar ese principio en ByteWave</h2>
+<p>El <a href="/es/tutorials/check-c2pa-content-credentials/">tutorial de Content Credentials C2PA</a> explica cómo importar una foto o un vídeo, abrir su insignia de procedencia e interpretar el resultado. También aclara por qué una firma de exportación de ByteWave y una declaración de generación por IA del origen responden a preguntas distintas.</p>
+<div class="callout"><h2>Empieza con un archivo</h2><p>Trae una foto o un vídeo que quieras examinar y sigue los pasos escritos.</p><a href="/es/tutorials/check-c2pa-content-credentials/" class="button">Comprobar Content Credentials en ByteWave</a></div>
+<p>Para controlar el feed, consulta nuestra <a href="/es/blog/reduce-ai-videos-facebook-feed.html">guía de Facebook</a> y nuestra <a href="/es/blog/reduce-ai-content-tiktok-feed.html">guía de TikTok</a>. Si tienes dudas sobre dar a un agente acceso a tus cuentas, lee nuestra <a href="/blog/meta-muse-privacy-security.html" hreflang="en">guía de privacidad y seguridad de Meta Muse</a> Artículo en inglés.</p>
+<div class="callout"><h2>Explora ByteWave</h2><p>Herramientas gratuitas de edición y procedencia para dispositivos Apple compatibles.</p><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=seo_ai_media_check&amp;mt=8" class="button">Consigue ByteWave gratis</a></div>
