@@ -245,6 +245,14 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "apple-app-store-commissions-free-alternatives": (3, 14, 0),
+    "russia-geoblocking-disinformation": (2, 10, 0),
+    "starlink-ukraine-cell-service-trust": (4, 17, 0),
+    "is-capcut-banned-2026": (5, 13, 0),
+    "free-software-movement-2.0": (4, 21, 0),
+    "meta-settlement-youth-safety-social-media-design": (6, 14, 5),
+    "tiktok-congress-child-safety-platform-accountability": (6, 20, 4),
+    "video-editing-app-comparison-2026": (7, 13, 0),
     "best-free-video-editor-no-watermark": (4, 10, 0),
     "slow-motion-video-iphone-free": (4, 18, 0),
     "custom-video-filters-ai-tutorial": (4, 19, 0),
@@ -298,8 +306,16 @@ for name, counts in article_counts.items():
     path = Path("blog") / f"{name}.html"
     original = (RENDERED / path).read_text().split("<article>")[1].split("</article>")[0]
     links = re.findall(r'<a [^>]*href="([^"]+)"', original)
+    source_download = re.search(r'<a class="site-download" href="([^"]+)"', (RENDERED / path).read_text())[1]
     for lang, slug in LOCALES.items():
         rendered = (RENDERED / slug / path).read_text()
+        if name in {
+            "apple-app-store-commissions-free-alternatives", "russia-geoblocking-disinformation",
+            "starlink-ukraine-cell-service-trust", "is-capcut-banned-2026",
+            "free-software-movement-2.0", "meta-settlement-youth-safety-social-media-design",
+            "tiktok-congress-child-safety-platform-accountability", "video-editing-app-comparison-2026",
+        }:
+            assert f'<a class="site-download" href="{source_download}"' in rendered, (lang, name, "download destination")
         article = rendered.split("<article>")[1].split("</article>")[0]
         assert tuple(article.count(f"</{tag}>") for tag in ("h2", "p", "li")) == counts, (lang, name)
         assert original.split('<time datetime="')[1].split('"')[0] in article
@@ -322,6 +338,20 @@ for name, counts in article_counts.items():
             assert article.count('<th scope="row">') == 3 and article.count("</td>") == 3, lang
         if name == "provenance":
             assert 'id="signed-exports"' in article and 'href="#signed-exports"' in article, lang
+        if name == "apple-app-store-commissions-free-alternatives":
+            assert article.count('<th scope="row">') == 3 and article.count('</td>') == 3, lang
+            assert '<caption>' in article and article.count('<th scope="col">') == 2, lang
+            for percentage in ("5", "10", "25"):
+                assert re.search(rf"(?:{percentage}\s*[%％]|[%％]\s*{percentage})", article), (lang, percentage)
+        if name == "starlink-ukraine-cell-service-trust":
+            for speed in ("160", "100"):
+                assert speed in article, (lang, speed)
+        if name == "meta-settlement-youth-safety-social-media-design":
+            assert "52" in article and "Firebase Authentication" in article, lang
+            assert '<time datetime="2026-10-21">' in article, lang
+        if name == "video-editing-app-comparison-2026":
+            for platform in ("iOS 26", "iPadOS 26", "macOS 26", "M1"):
+                assert platform in article, (lang, platform)
         expected = []
         for link in links:
             if link.startswith("/"):
