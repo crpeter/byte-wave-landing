@@ -369,6 +369,10 @@
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Muse 隱私疑慮：私人訊息不是邀請函",
       "summary": "Signal 存取與來源不明的銀行餘額引發 Meta Muse 隱私疑慮。為何「幻覺」的辯解需要證據，而同意需要明確界線。"
+    },
+    "/blog/gta-online-anger-scores-player-privacy.html": {
+      "title": "GTA Online 正在衡量玩家的憤怒",
+      "summary": "語音管理也衍生出憤怒與玩家留存的研究。了解 Rockstar 與 Modulate 的公開說明，以及現有證據無法證實的事。"
     }
   }
 }

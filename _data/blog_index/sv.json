@@ -369,6 +369,10 @@
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Muse och integritet: Dina meddelanden är ingen inbjudan",
       "summary": "Oväntad åtkomst till Signal och oförklarade banksaldon väcker frågor om Meta Muse. Hallucinationsförklaringen kräver belägg och samtycke tydliga gränser."
+    },
+    "/blog/gta-online-anger-scores-player-privacy.html": {
+      "title": "GTA Online mäter spelarnas ilska",
+      "summary": "Röstmoderering ger också underlag för forskning om ilska och hur spelare stannar kvar. Vad Rockstar och Modulate redovisar och vad underlaget inte visar."
     }
   }
 }

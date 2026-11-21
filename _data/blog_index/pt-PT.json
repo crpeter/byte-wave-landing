@@ -369,6 +369,10 @@
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Privacidade do Meta Muse: As suas mensagens não são um convite",
       "summary": "O acesso ao Signal e saldos bancários inexplicados levantam dúvidas sobre o Meta Muse. A defesa das alucinações exige provas e limites claros."
+    },
+    "/blog/gta-online-anger-scores-player-privacy.html": {
+      "title": "O GTA Online está a medir a irritação dos jogadores",
+      "summary": "A moderação de voz também produz investigação sobre irritação e retenção de jogadores. O que a Rockstar e a Modulate divulgam e o que os dados não demonstram."
     }
   }
 }

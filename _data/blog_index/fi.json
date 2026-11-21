@@ -369,6 +369,10 @@
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Musen tietosuoja: Viestisi eivät ole kutsu",
       "summary": "Signal-viesteihin pääsy ja selittämättömät tilisaldot herättävät kysymyksiä Meta Musesta. Hallusinaatioselitys tarvitsee näyttöä ja suostumus selvät rajat."
+    },
+    "/blog/gta-online-anger-scores-player-privacy.html": {
+      "title": "GTA Online mittaa pelaajien vihaa",
+      "summary": "Äänikeskustelun moderointi tuottaa myös tutkimusta vihasta ja pelaajien pysymisestä pelissä. Mitä Rockstar ja Modulate kertovat ja mitä näyttö ei osoita?"
     }
   }
 }

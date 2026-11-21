@@ -369,6 +369,10 @@
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Museのプライバシー：私的なメッセージは招待状ではない",
       "summary": "Signalへのアクセスや不可解な銀行残高をめぐるMeta Museの報道。ハルシネーションという説明に証拠が必要な理由と、同意の明確な範囲を考えます。"
+    },
+    "/blog/gta-online-anger-scores-player-privacy.html": {
+      "title": "GTA Onlineがプレイヤーの怒りを測定",
+      "summary": "ボイスチャットのモデレーションは、怒りやプレイヤーの継続率に関する研究にも使われています。RockstarとModulateの公表内容と、証拠からは断定できないことを整理します。"
     }
   }
 }
