@@ -369,6 +369,10 @@
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Muse gizliliği: Mesajlarınız bir davet değildir",
       "summary": "Signal erişimi ve açıklanamayan banka bakiyeleri Meta Muse hakkında sorular doğuruyor. Halüsinasyon savunması kanıt, rıza ise açık sınırlar gerektirir."
+    },
+    "/blog/gta-online-anger-scores-player-privacy.html": {
+      "title": "GTA Online oyuncuların öfkesini ölçüyor",
+      "summary": "Ses moderasyonu, öfke ve oyuncuları oyunda tutma üzerine araştırmalara da veri sağlıyor. Rockstar ve Modulate ne açıklıyor, kanıtlar neyi ortaya koymuyor?"
     }
   }
 }

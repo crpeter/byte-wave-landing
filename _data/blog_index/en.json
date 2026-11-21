@@ -389,6 +389,10 @@
     "/blog/meta-muse-ai-privacy-concerns.html": {
       "title": "Meta Muse privacy concerns: Your messages aren’t an invitation",
       "summary": "Meta Muse reports raise questions about Signal access and unexplained bank balances. Why the hallucination defense needs evidence and consent needs clear limits."
+    },
+    "/blog/gta-online-anger-scores-player-privacy.html": {
+      "title": "GTA Online is measuring player anger",
+      "summary": "Voice moderation also produces research into anger and player retention. What Rockstar and Modulate disclose, and what the evidence does not establish."
     }
   }
 }
