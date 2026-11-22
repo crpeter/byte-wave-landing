@@ -3,7 +3,7 @@ on:
   pull_request:
     paths:
       - 'assets/css/landing.css'
-      - 'assets/css/hero-motion.css'
+      - 'assets/landing/golden-sunrise/**'
       - '_includes/localized-nav-styles.html'
       - '_layouts/localized-home.html'
       - '_layouts/localized-guide.html'
