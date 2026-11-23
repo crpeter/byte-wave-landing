@@ -83,6 +83,12 @@
   ],
   "edit-videos": [
     {
+      "href": "/blog/adobe-firefly-partner-models-creative-control.html",
+      "tag": "platform-control-opinion",
+      "brand": "Adobe",
+      "image": "/assets/brands/adobe.svg"
+    },
+    {
       "href": "/tutorials/translate-video-captions/",
       "tag": "bytewave-tutorial",
       "tutorial": 10
@@ -306,6 +312,16 @@
       "tag": "platform-control-opinion",
       "brand": "X / Twitter",
       "image": "/assets/brands/x.svg"
+    },
+    {
+      "href": "/blog/california-openai-agent-testing-lawsuit.html",
+      "tag": "platform-control-opinion",
+      "brand": "OpenAI",
+      "image": "/assets/brands/openai.svg"
+    },
+    {
+      "href": "/blog/ai-investment-oracle-fed-hedge-fund-risk.html",
+      "tag": "current-analysis"
     },
     {
       "href": "/blog/russia-geoblocking-disinformation.html",
