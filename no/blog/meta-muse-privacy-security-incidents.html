@@ -4,14 +4,14 @@ lang: "no"
 translation_key: "meta-muse-privacy-security-incidents"
 permalink: "/no/blog/meta-muse-privacy-security-incidents.html"
 published_on: "2026-10-01"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "Publisert"
 display_date: "1. oktober 2026"
 section_tag: "incident-tracker"
 store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_meta_muse_privacy_security_incidents&mt=8"
 show_article_cta: false
-source_updated_on: "2026-10-20"
-display_source_update: "20. oktober 2026"
+source_updated_on: "2026-11-23"
+display_source_update: "23. november 2026"
 updated_label: "Oppdatert"
 publisher_note: "Publisert av ByteWave, som lager verktøy for videoredigering og kontroll av innholdets opprinnelse."
 social_image: "/assets/social/meta-muse-privacy-security-incidents.jpg"
@@ -21,7 +21,14 @@ seo_title: "Meta Muse: tidslinje over personvern- og sikkerhetshendelser"
 description: "En datert tidslinje om personvern i Meta Muse: kontaktprofiler, spørsmål om minne og sletting, adresseutleveringen på Marketplace, sikkerhetssvakheter og rapporterte rettelser."
 ---
 <p class="lead">Det er enkelt å gi en KI tilgang. Å ta tilbake informasjon den allerede har delt, er det ikke.</p>
-<p>Her er det som er rapportert om Meta Muse. Oppdatert 20. oktober 2026. Dette er et utvalg hendelser i kronologisk rekkefølge, ikke en opptelling av bekreftede datainnbrudd.</p>
+<p>Dette er et utvalg av rapportering og forskning, ikke en opptelling av bekreftede datalekkasjer.</p>
+<h2 id="malicious-webpage">20. november: ondsinnet nettside eksponerte samtaler i en forskningsdemonstrasjon</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec viste at det å be Muse eksportere en ondsinnet nettside kunne eksponere samtalehistorikk og lagrede minner uten å be om godkjenning. Forskerne kunne også endre informasjonen. Et ytterligere angrep på Linux-kjernen ga dem kontroll over brukerens virtuelle maskin i skyen og tilgang til de lagrede påloggingsopplysningene.</p>
+<p>Ifølge NebuSec var alle de beskrevne angrepsmåtene utbedret før publisering. Demonstrasjonen holdt seg innenfor én brukers virtuelle maskin; den dokumenterer ikke angrep på reelle brukere eller tilgang til andre brukeres maskiner.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">Les NebuSecs tekniske forskning</a></p>
+<h2 id="signal-bank-balances">18. november: Signal-tilgang og meldinger med uforklarte banksaldoer</h2>
+<p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a>: Reuters rapporterte uventet tilgang til Signal-meldinger og tilsynelatende banksaldoer i ansattes samtaler. Meta kalte eksemplene isolerte hendelser og tilskrev mistenkte kontoforvekslinger hallusinasjoner. Reuters fastslo ikke om de økonomiske opplysningene var lekket eller oppdiktet. Testene av meldingstilgang gjaldt enhetstillatelser, ikke et påvist brudd på Signals kryptering.</p>
+<p><a href="/no/blog/meta-muse-ai-privacy-concerns.html#reporting">Les vår omtale av Reuters-granskingen</a></p>
 <h2 id="ghostshares">18.–20. oktober: delte samtaler som kunne finnes, deretter en pause</h2>
 <p><strong>Eksponering dokumentert av forskere.</strong> <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/">Claroc fant</a> sensitive dokumenter i Muse-delinger som brukere hadde bedt om, og som kunne finnes via DNS-oppføringer. Dette gjelder delte sider, ikke alle private samtaler.</p>
 <p><strong>Status:</strong> <a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Meta satte deling på pause 20. oktober</a>. Ved en ny kontroll fant Claroc at 40 tidligere delinger var utilgjengelige, men at titlene fortsatt fantes i historiske oppføringer. Misbruk er ikke påvist. <a href="/no/blog/meta-muse-shared-chats-exposed.html">Les vår dekning av GhostShares.</a></p>

@@ -4,14 +4,14 @@ lang: "ko"
 translation_key: "meta-muse-privacy-security-incidents"
 permalink: "/ko/blog/meta-muse-privacy-security-incidents.html"
 published_on: "2026-10-01"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "게시일"
 display_date: "2026년 10월 1일"
 section_tag: "incident-tracker"
 store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_meta_muse_privacy_security_incidents&mt=8"
 show_article_cta: false
-source_updated_on: "2026-10-20"
-display_source_update: "2026년 10월 20일"
+source_updated_on: "2026-11-23"
+display_source_update: "2026년 11월 23일"
 updated_label: "업데이트"
 publisher_note: "동영상 편집 및 콘텐츠 출처 확인 도구를 만드는 ByteWave에서 발행했습니다."
 social_image: "/assets/social/meta-muse-privacy-security-incidents.jpg"
@@ -21,7 +21,14 @@ seo_title: "Meta Muse 개인정보 보호·보안 사고 타임라인"
 description: "Meta Muse 개인정보 문제를 날짜순으로 정리합니다. 연락처 인물 프로필, 기억과 삭제 우려, Marketplace 주소 공개, 보안 결함과 보고된 수정 사항을 다룹니다."
 ---
 <p class="lead">AI에 접근 권한을 주기는 쉽습니다. 이미 공유한 정보를 되돌려 받기는 쉽지 않습니다.</p>
-<p>Meta Muse에 관해 보도된 내용을 모았습니다. 2026년 10월 20일 업데이트. 주요 사건을 추린 타임라인이며, 확인된 정보 유출 건수를 집계한 것은 아닙니다.</p>
+<p>이 연표는 일부 보도와 연구를 정리한 것으로, 확인된 정보 유출 건수를 집계한 것이 아닙니다.</p>
+<h2 id="malicious-webpage">11월 20일: 연구 시연에서 악성 웹페이지가 대화를 노출</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec은 Muse에 악성 웹페이지를 내보내도록 요청하면 승인 요청 없이 대화 기록과 저장된 기억이 노출될 수 있음을 시연했습니다. 연구진은 해당 정보를 변경할 수도 있었습니다. 이어 Linux 커널 취약점을 악용해 사용자의 클라우드 가상 머신을 제어하고 자격 증명 저장소에 접근했습니다.</p>
+<p>NebuSec에 따르면 설명된 모든 공격 경로는 공개 전에 수정되었습니다. 시연은 한 사용자의 가상 머신 안에 한정되었으며, 실제 사용자에 대한 공격이나 다른 사용자의 머신 접근을 입증한 것은 아닙니다.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">NebuSec의 기술 연구 읽기</a></p>
+<h2 id="signal-bank-balances">11월 18일: Signal 접근과 출처가 불분명한 은행 잔액 메시지</h2>
+<p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a>: Reuters는 직원들의 대화에서 예기치 않은 Signal 메시지 접근과 은행 잔액으로 보이는 정보가 보고됐다고 전했습니다. Meta는 이를 개별 사건으로 규정하고 의심되는 계정 혼선을 환각 현상으로 설명했습니다. Reuters는 금융 정보가 유출됐는지 지어낸 것인지 확인하지 못했습니다. 메시지 접근 실험은 기기 권한과 관련된 것으로, Signal 암호화가 깨졌음을 입증한 것은 아닙니다.</p>
+<p><a href="/ko/blog/meta-muse-ai-privacy-concerns.html#reporting">Reuters 조사에 관한 기사 읽기</a></p>
 <h2 id="ghostshares">10월 18~20일: 검색 가능한 공유 채팅, 이후 공유 일시 중단</h2>
 <p><strong>연구진이 기록한 정보 노출.</strong> <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/">Claroc은</a> 사용자의 요청으로 공유된 Muse 콘텐츠에서 DNS 기록을 통해 찾을 수 있는 민감한 문서를 발견했습니다. 이는 공유된 페이지에 관한 문제이며, 모든 비공개 채팅을 뜻하지는 않습니다.</p>
 <p><strong>상태:</strong> <a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Meta는 10월 20일 공유 기능을 일시 중단했습니다</a>. Claroc의 재확인 결과, 이전에 공유된 콘텐츠 40건은 접근할 수 없었지만 제목은 과거 기록에 남아 있었습니다. 악용된 사실은 확인되지 않았습니다. <a href="/ko/blog/meta-muse-shared-chats-exposed.html">GhostShares 관련 기사를 읽어보세요.</a></p>

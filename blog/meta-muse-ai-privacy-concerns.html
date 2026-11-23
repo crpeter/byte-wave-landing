@@ -4,7 +4,7 @@ lang: "en"
 translation_key: "meta-muse-ai-privacy-concerns"
 permalink: "/blog/meta-muse-ai-privacy-concerns.html"
 published_on: "2026-11-19"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "Published"
 display_date: "November 19, 2026"
 section_tag: "privacy-opinion"
@@ -20,12 +20,20 @@ article_logo: "/assets/brands/meta.svg"
 article_logo_alt: "Meta"
 article_logo_width: 128
 article_logo_height: 72
+source_updated_on: "2026-11-23"
+display_source_update: "November 23, 2026"
+updated_label: "Updated"
 ---
 <p class="lead">Your private messages should not become an AI feature by surprise. And when an assistant produces sensitive information, ‘it hallucinated’ should start an investigation, not end one.</p>
 <h2 id="reporting">What the reporting establishes</h2>
 <p>Reuters reported on November 18 that Meta employees raised concerns about unexpected Signal-message access and unsolicited outputs containing apparent bank balances. Meta said many suspected account mix-ups were hallucinations and had been addressed; it characterized the examples as isolated incidents. Reuters could not establish whether the financial information was leaked or invented.</p>
 <p>Tests conducted with Signal and the AI Now Institute reproduced message access through Android notification permissions and macOS accessibility and screenshot tools. The same requests were blocked on an iPhone. The updated report says Apple’s subsequent macOS changes closed the tested pathway. These findings describe access through device permissions, not a demonstrated break in Signal’s encryption.</p>
 <p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a></p>
+<h2 id="malicious-webpage">November 20: a malicious webpage exposed chats in a research demonstration</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec demonstrated that asking Muse to export a malicious webpage could expose conversation history and stored memories without an approval prompt. The researchers could also alter that information. A further Linux-kernel exploit gave them control of the user’s cloud virtual machine and access to its credential storage.</p>
+<p>NebuSec says all described exploits were patched before publication. The demonstration stayed within one user’s virtual machine; it does not establish attacks on real users or access to other users’ machines.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">Read NebuSec’s technical research</a></p>
+<p><a href="/blog/meta-muse-privacy-security-incidents.html#malicious-webpage">See the dated Muse incident timeline</a></p>
 <h2 id="consent">Permission needs to mean something</h2>
 <p>A broad setup permission is a poor substitute for a clear explanation of what an agent will read. Someone asking for help with one task should not have to anticipate every other use a company might find for that access. Meaningful consent should identify the information, the purpose, and the boundaries. Those boundaries should remain visible and easy to revoke.</p>
 <h2 id="hallucination-defense">‘It hallucinated’ is a claim that needs evidence</h2>

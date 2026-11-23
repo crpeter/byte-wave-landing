@@ -4,14 +4,14 @@ lang: "fr"
 translation_key: "meta-muse-privacy-security-incidents"
 permalink: "/fr/blog/meta-muse-privacy-security-incidents.html"
 published_on: "2026-10-01"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "Publié"
 display_date: "1er octobre 2026"
 section_tag: "incident-tracker"
 store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_meta_muse_privacy_security_incidents&mt=8"
 show_article_cta: false
-source_updated_on: "2026-10-20"
-display_source_update: "20 octobre 2026"
+source_updated_on: "2026-11-23"
+display_source_update: "23 novembre 2026"
 updated_label: "Mis à jour"
 publisher_note: "Publié par ByteWave, qui développe des outils de montage vidéo et de traçabilité des contenus."
 social_image: "/assets/social/meta-muse-privacy-security-incidents.jpg"
@@ -21,7 +21,14 @@ seo_title: "Meta Muse : chronologie des incidents de confidentialité et de séc
 description: "Une chronologie datée de la confidentialité de Meta Muse : profils de contacts, mémoire et suppression, adresse divulguée sur Marketplace, failles de sécurité et correctifs annoncés."
 ---
 <p class="lead">Donner accès à une IA est facile. Récupérer les informations qu’elle a déjà partagées ne l’est pas.</p>
-<p>Voici ce qui a été rapporté au sujet de Meta Muse. Mis à jour le 20 octobre 2026. Il s’agit d’une sélection chronologique, pas d’un décompte de violations de données confirmées.</p>
+<p>Cette chronologie rassemble une sélection de reportages et de recherches, pas un décompte de violations de données confirmées.</p>
+<h2 id="malicious-webpage">20 novembre : une page malveillante expose des conversations lors d’une démonstration</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec a démontré que demander à Muse d’exporter une page malveillante pouvait exposer l’historique des conversations et les souvenirs enregistrés sans demande d’approbation. Les chercheurs pouvaient aussi modifier ces informations. Une autre exploitation du noyau Linux leur a donné le contrôle de la machine virtuelle de l’utilisateur dans le cloud et accès à son stockage d’identifiants.</p>
+<p>NebuSec affirme que toutes les failles exploitées avaient été corrigées avant publication. La démonstration est restée limitée à la machine virtuelle d’un utilisateur ; elle n’établit ni attaque contre des utilisateurs réels ni accès aux machines d’autres utilisateurs.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">Lire la recherche technique de NebuSec</a></p>
+<h2 id="signal-bank-balances">18 novembre : accès à Signal et messages contenant des soldes bancaires inexpliqués</h2>
+<p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a>: Reuters a rapporté un accès inattendu à des messages Signal et de supposés soldes bancaires dans les conversations de salariés. Meta a parlé d’incidents isolés et attribué les confusions présumées entre comptes à des hallucinations. Reuters n’a pas établi si les informations financières avaient été divulguées ou inventées. Les tests d’accès aux messages concernaient les autorisations de l’appareil, pas une rupture démontrée du chiffrement de Signal.</p>
+<p><a href="/fr/blog/meta-muse-ai-privacy-concerns.html#reporting">Lire notre article sur l’enquête de Reuters</a></p>
 <h2 id="ghostshares">18–20 octobre : des conversations partagées repérables, puis une suspension</h2>
 <p><strong>Exposition documentée par des chercheurs.</strong> <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/">Claroc a trouvé</a> des documents sensibles dans des contenus Muse partagés à la demande des utilisateurs et repérables grâce aux enregistrements DNS. Cela concerne les pages partagées, pas l’ensemble des conversations privées.</p>
 <p><strong>État :</strong> <a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Meta a suspendu le partage le 20 octobre</a>. Lors d’une nouvelle vérification, Claroc a constaté que 40 partages antérieurs étaient inaccessibles, mais que leurs titres restaient dans les archives. Aucun usage abusif n’a été établi. <a href="/fr/blog/meta-muse-shared-chats-exposed.html">Lisez notre article sur GhostShares.</a></p>

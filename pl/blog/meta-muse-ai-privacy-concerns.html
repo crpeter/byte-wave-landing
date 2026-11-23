@@ -4,7 +4,7 @@ lang: "pl"
 translation_key: "meta-muse-ai-privacy-concerns"
 permalink: "/pl/blog/meta-muse-ai-privacy-concerns.html"
 published_on: "2026-11-19"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "Opublikowano"
 display_date: "19 listopada 2026 r."
 section_tag: "privacy-opinion"
@@ -20,12 +20,20 @@ article_logo: "/assets/brands/meta.svg"
 article_logo_alt: "Meta"
 article_logo_width: 128
 article_logo_height: 72
+source_updated_on: "2026-11-23"
+display_source_update: "23 listopada 2026"
+updated_label: "Zaktualizowano"
 ---
 <p class="lead">Twoje prywatne wiadomości nie powinny niespodziewanie stawać się funkcją AI. Gdy asystent podaje wrażliwe informacje, powołanie się na halucynację powinno rozpoczynać dochodzenie, a nie je kończyć.</p>
 <h2 id="reporting">Co ustalono w doniesieniach</h2>
 <p>18 listopada Reuters poinformował, że pracownicy Meta zgłaszali obawy dotyczące niespodziewanego dostępu do wiadomości Signal i niezamówionych odpowiedzi zawierających rzekome salda bankowe. Meta stwierdziła, że wiele podejrzeń o pomylenie kont dotyczyło halucynacji, którymi już się zajęto, a przykłady określiła jako odosobnione incydenty. Reuters nie ustalił, czy informacje finansowe wyciekły, czy zostały zmyślone.</p>
 <p>Testy z Signal i AI Now Institute odtworzyły dostęp do wiadomości przez uprawnienia do powiadomień Androida oraz narzędzia dostępności i zrzutów ekranu macOS. Te same żądania zablokowano na iPhonie. Zaktualizowany materiał podaje, że późniejsze zmiany Apple w macOS zamknęły badaną ścieżkę. Ustalenia opisują dostęp przez uprawnienia urządzenia, a nie wykazane złamanie szyfrowania Signal.</p>
 <p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a></p>
+<h2 id="malicious-webpage">20 listopada: złośliwa strona ujawniła rozmowy w demonstracji badawczej</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec wykazało, że polecenie Muse wyeksportowania złośliwej strony mogło ujawnić historię rozmów i zapisaną pamięć bez pytania o zgodę. Badacze mogli też zmieniać te informacje. Dalszy atak na jądro Linuksa dał im kontrolę nad maszyną wirtualną użytkownika w chmurze i dostęp do jej magazynu danych uwierzytelniających.</p>
+<p>Według NebuSec wszystkie opisane exploity zostały zablokowane poprawkami przed publikacją. Demonstracja ograniczała się do maszyny wirtualnej jednego użytkownika; nie dowodzi ataków na rzeczywistych użytkowników ani dostępu do maszyn innych osób.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">Przeczytaj badanie techniczne NebuSec</a></p>
+<p><a href="/pl/blog/meta-muse-privacy-security-incidents.html#malicious-webpage">Zobacz chronologię incydentów związanych z Muse</a></p>
 <h2 id="consent">Uprawnienia muszą coś znaczyć</h2>
 <p>Szerokie uprawnienie podczas konfiguracji nie zastępuje jasnego wyjaśnienia, co agent będzie czytał. Osoba prosząca o pomoc w jednej sprawie nie powinna przewidywać każdego innego zastosowania, jakie firma znajdzie dla tego dostępu. Rzeczywista zgoda powinna określać informacje, cel i granice. Granice muszą pozostać widoczne, a zgodę powinno dać się łatwo wycofać.</p>
 <h2 id="hallucination-defense">Halucynacja to wyjaśnienie wymagające dowodów</h2>

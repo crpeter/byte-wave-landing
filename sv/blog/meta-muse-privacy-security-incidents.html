@@ -4,14 +4,14 @@ lang: "sv"
 translation_key: "meta-muse-privacy-security-incidents"
 permalink: "/sv/blog/meta-muse-privacy-security-incidents.html"
 published_on: "2026-10-01"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "Publicerad"
 display_date: "1 oktober 2026"
 section_tag: "incident-tracker"
 store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_meta_muse_privacy_security_incidents&mt=8"
 show_article_cta: false
-source_updated_on: "2026-10-20"
-display_source_update: "20 oktober 2026"
+source_updated_on: "2026-11-23"
+display_source_update: "23 november 2026"
 updated_label: "Uppdaterad"
 publisher_note: "Publicerad av ByteWave, som utvecklar verktyg för videoredigering och kontroll av innehållets ursprung."
 social_image: "/assets/social/meta-muse-privacy-security-incidents.jpg"
@@ -21,7 +21,14 @@ seo_title: "Meta Muse: tidslinje över integritets- och säkerhetsincidenter"
 description: "En daterad tidslinje om integriteten i Meta Muse: kontaktprofiler, frågor om minne och radering, adressdelningen på Marketplace, säkerhetsbrister och rapporterade åtgärder."
 ---
 <p class="lead">Att ge en AI tillgång är enkelt. Att ta tillbaka information som den redan har delat är det inte.</p>
-<p>Här är vad som har rapporterats om Meta Muse. Uppdaterad den 20 oktober 2026. Det här är ett urval av händelser i tidsordning, inte en sammanräkning av bekräftade dataintrång.</p>
+<p>Det här är ett urval av rapportering och forskning, inte en uppräkning av bekräftade dataläckor.</p>
+<h2 id="malicious-webpage">20 november: skadlig webbsida blottade chattar i en forskningsdemonstration</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec visade att en begäran till Muse om att exportera en skadlig webbsida kunde blotta konversationshistorik och sparade minnen utan att be om godkännande. Forskarna kunde även ändra informationen. Ett ytterligare angrepp mot Linux-kärnan gav dem kontroll över användarens virtuella molndator och åtkomst till dess lagrade inloggningsuppgifter.</p>
+<p>Enligt NebuSec hade alla beskrivna angreppsvägar åtgärdats före publiceringen. Demonstrationen stannade inom en användares virtuella maskin; den visar inte angrepp mot verkliga användare eller åtkomst till andra användares maskiner.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">Läs NebuSecs tekniska forskning</a></p>
+<h2 id="signal-bank-balances">18 november: åtkomst till Signal och meddelanden med oförklarade banksaldon</h2>
+<p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a>: Reuters rapporterade oväntad åtkomst till Signal-meddelanden och uppgifter som liknade banksaldon i anställdas chattar. Meta kallade exemplen isolerade incidenter och tillskrev misstänkta kontoförväxlingar hallucinationer. Reuters kunde inte fastställa om de ekonomiska uppgifterna hade läckt eller var påhittade. Testerna av meddelandeåtkomst gällde enhetsbehörigheter, inte ett påvisat brott mot Signals kryptering.</p>
+<p><a href="/sv/blog/meta-muse-ai-privacy-concerns.html#reporting">Läs vår artikel om Reuters granskning</a></p>
 <h2 id="ghostshares">18–20 oktober: delade chattar som gick att hitta, följt av en paus</h2>
 <p><strong>Exponering dokumenterad av forskare.</strong> <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/">Claroc hittade</a> känsliga dokument i Muse-delningar som användare hade begärt och som gick att hitta via DNS-poster. Detta gäller delade sidor, inte alla privata chattar.</p>
 <p><strong>Status:</strong> <a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Meta pausade delningen den 20 oktober</a>. Vid en ny kontroll fann Claroc att 40 tidigare delningar inte längre var åtkomliga, men att titlarna fanns kvar i historiska poster. Inget missbruk har fastställts. <a href="/sv/blog/meta-muse-shared-chats-exposed.html">Läs vår rapportering om GhostShares.</a></p>
