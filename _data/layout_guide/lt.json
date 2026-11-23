@@ -1,0 +1,61 @@
+{
+  "title": "Nemokamas vaizdo koliažų kūrimas iPhone, iPad ir Mac",
+  "lead": "Sluoksniuokite vaizdus. Maišykite nuotraukas ir klipus. Kurkite tinklelius ar korio išdėstymus su ByteWave, nemokamai iPhone, iPad ir Mac su Apple Silicon.",
+  "orientations": "Vienas išdėstymas, dvi orientacijos",
+  "honeyText": "Septynios šešiakampės ląstelės su mėnuliu, šunimi ir saulėtu lauku.",
+  "seasideText": "Šeši pajūrio klipai viename kadre, tada montažas pereina prie paplūdimyje žaidžiančio šuns.",
+  "warpedText": "Vandenyno saulėlydžio vaizdas išlenktas į vingiuotas, veidrodines juostas.",
+  "hexText": "Vandenyno saulėlydžiai ir bangos keturiose šešiakampėse plokštėse virš visą kadrą užimančio saulėlydžio fono ByteWave.",
+  "features": "Daugiau nei nuotraukų koliažas",
+  "feature1": "Sujunkite nuotraukas ir vaizdo įrašus tame pačiame išdėstyme.",
+  "feature2": "Dėkite klipus vertikaliai arba greta.",
+  "feature3": "Kurkite tinklelius su iki 144 langelių.",
+  "feature4": "Išbandykite simetriją ir daugiakampius su iki dvylikos kraštinių.",
+  "make": "Sukurkite išdėstymą",
+  "step1": "Atverkite Layout iš ByteWave.",
+  "step2": "Pasirinkite išdėstymą ir pridėkite savo nuotraukas bei vaizdo įrašus.",
+  "step3": "Pakoreguokite kompoziciją, peržiūrėkite ir eksportuokite.",
+  "pricing": "Nemokamai iPhone, iPad ir Mac su Apple Silicon. Redaguojama vietoje jūsų įrenginyje. Be prenumeratos ar ByteWave vandens ženklo eksportuojant.",
+  "date": "2026 m. lapkričio 23 d.",
+  "publisher": "Paskelbė ByteWave, čia aptariamos programėlės kūrėjas.",
+  "description": "Kurkite vaizdo koliažus su ByteWave. Sluoksniuokite klipus, maišykite nuotraukas ir vaizdus, kurkite tinklelius ar korius. Nemokamai, be prenumeratos ir eksporto vandens ženklo.",
+  "socialAlt": "Nuotraukos ir vaizdo įrašai. Vienas išdėstymas. Sluoksniuokite klipus, kurkite tinklelius ir išbandykite naujas formas.",
+  "updated": "Atnaujinta",
+  "related": "Susiję vadovai",
+  "open": "Atverti vaizdo įrašą",
+  "openCompatible": "Atverti suderinamą kopiją",
+  "watch": "Žiūrėti MP4",
+  "demos": "Vaizdo įrašai, sukurti su Layout iš ByteWave",
+  "gallery": "Daugiau montažų galerijoje",
+  "captions": "Pridėkite animuotus subtitrus",
+  "stickers": "Pridėkite judančius lipdukus",
+  "videoTitles": [
+    "Korys",
+    "Nuo pajūrio tinklelio iki paplūdimio",
+    "Iškraipytas saulėlydis",
+    "Saulėlydžio šešiakampiai · Vertikaliai",
+    "Saulėlydžio šešiakampiai · Horizontaliai"
+  ],
+  "videoAlt": [
+    "Korio išdėstymo vaizdo įrašas",
+    "Šešių plokščių pajūrio išdėstymas, po jo – šuo paplūdimyje",
+    "Iškraipyto saulėlydžio išdėstymo vaizdas",
+    "Vertikalus saulėlydžio šešiakampių vaizdas",
+    "Horizontalus saulėlydžio šešiakampių vaizdas"
+  ],
+  "schemaNames": [
+    "Korio išdėstymas ByteWave",
+    "Nuo pajūrio tinklelio iki paplūdimio",
+    "Iškraipytas saulėlydis",
+    "Saulėlydžio šešiakampiai (vertikaliai)",
+    "Saulėlydžio šešiakampiai (horizontaliai)"
+  ],
+  "videoDescriptions": [
+    "Septynios šešiakampės ląstelės su mėnuliu, šunimi ir saulėtu lauku.",
+    "Šešių plokščių pajūrio išdėstymas, po jo – visą kadrą užimantis paplūdimyje žaidžiančio šuns klipas.",
+    "Vandenyno saulėlydžio vaizdas išlenktas į vingiuotas, veidrodines juostas su Layout iš ByteWave.",
+    "Vandenyno saulėlydžiai ir bangos keturiose šešiakampėse plokštėse virš visą kadrą užimančio saulėlydžio fono ByteWave.",
+    "Keturios šešiakampės plokštės su saulėlydžiais ir bangomis plataus oranžinio saulėlydžio bei vandenyno fono centre."
+  ],
+  "modified": "2026-11-23"
+}

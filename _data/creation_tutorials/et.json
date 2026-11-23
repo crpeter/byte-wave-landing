@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave’i õpetus",
+    "updatedLabel": "Uuendatud",
+    "updatedDate": "23. november 2026",
+    "relatedLabel": "Seotud õpetused"
+  },
+  "animatedCaptions": {
+    "title": "Kuidas lisada ByteWave’is animeeritud subtiitreid",
+    "description": "Lisa videole tekst, vali animeeritud efekt ja paiguta subtiiter ByteWave’is. Lühike õpetus iPhone’ile, iPadile ja Macile.",
+    "lead": "Lisa videole enda tekst ja anna sellele animeeritud efekt.",
+    "stepsHeading": "Lisa subtiiter",
+    "step1": "Ava video ByteWave’is ja lisa subtiiter.",
+    "step2": "Sisesta tekst, seejärel vali subtiiter selle stiili muutmiseks.",
+    "step3": "Vali font, suurus ja värv. Paiguta tekst video peale.",
+    "step4": "Vali tekstiefekt, seejärel esita video animatsiooni eelvaateks.",
+    "readabilityHeading": "Hoia tekst loetav",
+    "readabilityText": "Kasuta lühikest fraasi ja värvi, mis salvestise taustal eristub. Kontrolli, et animatsioon jätaks lugemiseks piisavalt aega.",
+    "relatedIntro": "Otsid kindlat stiili? Meie",
+    "relatedAnchor": "subtiitrite efektide õpetus",
+    "relatedTail": "käsitleb eelhäälestusi nagu Orbital Letters ja Ember Ash.",
+    "relatedSticker": "Animeeri kleebist"
+  },
+  "animateStickers": {
+    "title": "Kuidas ByteWave’is kleebiseid animeerida",
+    "description": "Pane kleebis ByteWave’is video kohal liikuma. Muuda ajastuse ja võtmekaadritega selle asukohta, suurust ja pöörangut.",
+    "lead": "Kasuta võtmekaadreid kleebise liigutamiseks, suuruse muutmiseks või pööramiseks aja jooksul.",
+    "stepsHeading": "Seadista liikumine",
+    "step1": "Lisa videole kleebis ja vali see.",
+    "step2": "Määra ajastusnuppudega, millal see ilmub.",
+    "step3": "Salvesta võtmekaadri juhtnuppudega selle algasukoht, suurus ja pöörang.",
+    "step4": "Liigu hilisemale ajahetkele ja määra uus võtmekaader erineva asukoha, suuruse või pööranguga.",
+    "step5": "Esita video nendevahelise liikumise eelvaateks.",
+    "readabilityHeading": "Alusta kahest võtmekaadrist",
+    "readabilityText": "Proovi kleebist liigutada kaadri ühest servast teise. Kui see sobib, lisa suuruse muutus või pööramine.",
+    "relatedCaption": "Lisa animeeritud subtiitrid",
+    "relatedLayout": "Loo videokollaaž"
+  }
+}

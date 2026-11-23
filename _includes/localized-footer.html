@@ -8,13 +8,13 @@
 <footer class="site-footer">
     <div class="site-footer-links">
         <a href="{{ home.url | relative_url }}">{{ t.nav.home | escape }}</a>
-        <a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}">{{ t.nav.gallery | escape }}</a>
+        <a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}"{% unless gallery_page %} hreflang="en"{% endunless %}>{{ t.nav.gallery | escape }}</a>
         <a href="{{ tutorials_page.url | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a>
-        <a href="{{ blog_page.url | relative_url }}">{{ t.nav.blog | escape }}</a>
-        <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
-        <a href="{{ press_page.url | relative_url }}">{{ t.nav.press | escape }}</a>
-        <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ t.nav.privacy | escape }}</a>
-        <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}">{{ t.nav.expression | escape }}</a>
+        <a href="{{ blog_page.url | default: '/blog/' | relative_url }}"{% unless blog_page %} hreflang="en"{% endunless %}>{{ t.nav.blog | escape }}</a>
+        <a href="{{ about_page.url | default: '/about.html' | relative_url }}"{% unless about_page %} hreflang="en"{% endunless %}>{{ t.nav.about | escape }}</a>
+        <a href="{{ press_page.url | default: '/press.html' | relative_url }}"{% unless press_page %} hreflang="en"{% endunless %}>{{ t.nav.press | escape }}</a>
+        <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}"{% unless privacy_page %} hreflang="en"{% endunless %}>{{ t.nav.privacy | escape }}</a>
+        <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}"{% unless expression_page %} hreflang="en"{% endunless %}>{{ t.nav.expression | escape }}</a>
     </div>
     <p>© 2026 ByteWave. {{ t.footer.motto | escape }}</p>
     <p class="compatibility">{{ t.footer.devices | escape }}</p>

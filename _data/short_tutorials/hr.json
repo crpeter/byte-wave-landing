@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave vodič",
+    "updatedLabel": "Ažurirano",
+    "updatedDate": "23. studenoga 2026.",
+    "relatedLabel": "Povezani vodiči"
+  },
+  "captionEffects": {
+    "title": "Tekstualni efekti za titlove u ByteWaveu",
+    "description": "Odaberi tekstualni efekt za titl u ByteWaveu, pregledaj animaciju i usporedi Orbital Letters, Supernova i Ember Ash.",
+    "lead": "Isprobaj efekt na vlastitim riječima. Pregledaj ga preko snimke prije izvoza.",
+    "stepsHeading": "Odaberi efekt",
+    "step1": "Odaberi titl u svom ByteWave projektu.",
+    "step2": "Otvori tekstualne efekte i odaberi predložak.",
+    "step3": "Reproduciraj video da vidiš efekt u pokretu.",
+    "presetsHeading": "Tri efekta za probu",
+    "tip": "Isprobaj istu kratku frazu sa svakim efektom. Prilagodi font, veličinu i boju svojoj snimci.",
+    "fromScratch": "Počinješ od nule?",
+    "firstCaption": "Dodaj prvi titl",
+    "fontsPrompt": "Želiš drugačiji tip slova?",
+    "importFont": "Uvezi vlastiti font",
+    "relatedSticker": "Animiraj naljepnicu"
+  },
+  "customFonts": {
+    "title": "Za tvoje fontove ne bi trebala pretplata.",
+    "description": "Uvezi vlastite TTF ili OTF fontove u ByteWave na iPhoneu. Odaberi datoteku i koristi Moji fontovi da besplatno oblikuješ titlove.",
+    "lead": "Dodaj vlastiti font u video. Uvoz fontova u ByteWave je besplatan.",
+    "stepsHeading": "Uvezi font na iPhoneu",
+    "step1": "Spremi TrueType (.ttf) ili OpenType (.otf) font u aplikaciju Datoteke. Najprije raspakiraj ZIP arhivu, ako je ima.",
+    "step2": "Odaberi titl u ByteWave projektu i otvori panel Pismo.",
+    "step3": "Dodirni Uvezi pismo i odaberi datoteku.",
+    "step4": "Pronađi ga pod Moja pisma. Dodirni font da ga primijeniš na titl.",
+    "preview": "Reproduciraj video da provjeriš tekst, prilagodi veličinu i boju, a zatim izvezi.",
+    "unsupportedHeading": "Ne možeš odabrati datoteku?",
+    "unsupported": "Odaberi samu .ttf ili .otf datoteku. Ovaj alat za uvoz ne podržava web fontove poput .woff i .woff2.",
+    "startPrompt": "Počinješ s praznim projektom?",
+    "firstCaption": "Dodaj prvi titl",
+    "effectsPrompt": "Zatim isprobaj",
+    "effectsLink": "tekstualne efekte za titlove",
+    "license": "ByteWave ne naplaćuje uvoz fontova. Sam font može imati svoju cijenu i licencu; provjeri autorove uvjete za svoju namjenu."
+  }
+}

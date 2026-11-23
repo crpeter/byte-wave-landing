@@ -1,3 +1,4 @@
+{%- assign tutorials_page = site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | first -%}
 {%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign locale_data = site.data.creation_tutorials[page.lang] -%}
@@ -10,7 +11,7 @@
 {%- assign stickers_page = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
 {%- assign social_image = '/assets/social/' | append: page.guide_slug | append: '.jpg' -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,13 +58,13 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
           "author":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/about.html"},
           "publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":{"@type":"ImageObject","url":"https://bytewaveai.com/logo.png"}},
           "image":{{ social_image | absolute_url | jsonify }},
-          "isPartOf":{"@type":"CollectionPage","name":"ByteWave Tutorials","url":"https://bytewaveai.com/tutorials/"}
+          "isPartOf":{"@type":"CollectionPage","name":{{ t.nav.tutorials | jsonify }},"url":{{ tutorials_page.url | absolute_url | jsonify }}}
         },
         {
           "@type":"BreadcrumbList",
           "itemListElement":[
             {"@type":"ListItem","position":1,"name":{{ t.nav.home | jsonify }},"item":{{ home.url | absolute_url | jsonify }}},
-            {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":"https://bytewaveai.com/tutorials/"},
+            {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":{{ tutorials_page.url | absolute_url | jsonify }}},
             {"@type":"ListItem","position":3,"name":{{ g.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
           ]
         }
@@ -81,7 +82,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 <article class="creation-guide">
     <p class="eyebrow">{{ c.eyebrow | escape }}</p>
     <h1>{{ g.title | escape }}</h1>
-    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | relative_url }}">ByteWave</a> · {{ c.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ c.updatedDate | escape }}</time></p>
+    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | default: '/about.html' | relative_url }}">ByteWave</a> · {{ c.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ c.updatedDate | escape }}</time></p>
     {% if page.lang == 'en' %}
     <p class="disclosure ai-disclosure"><strong>AI disclosure:</strong> This article includes text generated with an AI language model (LLM). Published by ByteWave, which makes the app discussed here.</p>
     {% else %}
@@ -102,13 +103,13 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     <h2>{{ g.readabilityHeading | escape }}</h2>
     <p>{{ g.readabilityText | escape }}</p>
     {% if page.guide == 'animatedCaptions' %}
-    <p>{{ g.relatedIntro | escape }} <a href="/tutorials/caption-text-effects/" hreflang="en">{{ g.relatedAnchor | escape }}</a> {{ g.relatedTail | escape }}</p>
+    <p>{{ g.relatedIntro | escape }} <a href="{{ home.url | relative_url }}tutorials/caption-text-effects/">{{ g.relatedAnchor | escape }}</a> {{ g.relatedTail | escape }}</p>
     {% endif %}
     <p><a class="button" href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a></p>
     <aside class="guide-related" aria-label="{{ c.relatedLabel | escape }}">
       <ul>
         {% if page.guide == 'animatedCaptions' %}
-        <li><a href="/tutorials/caption-text-effects/" hreflang="en">{{ g.relatedAnchor | escape }}</a></li>
+        <li><a href="{{ home.url | relative_url }}tutorials/caption-text-effects/">{{ g.relatedAnchor | escape }}</a></li>
         <li><a href="{{ stickers_page.url | relative_url }}">{{ g.relatedSticker | escape }}</a></li>
         {% else %}
         <li><a href="{{ captions_page.url | relative_url }}">{{ g.relatedCaption | escape }}</a></li>

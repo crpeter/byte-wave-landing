@@ -1,0 +1,61 @@
+{
+  "title": "Tasuta videokollaažide looja iPhone’ile, iPadile ja Macile",
+  "lead": "Paiguta videod üksteise kohale. Sega fotosid ja klippe. Loo ByteWave’iga ruudustikke või kärgpaigutusi, tasuta iPhone’is, iPadis ja Apple Siliconiga Macis.",
+  "orientations": "Üks paigutus, kaks suunda",
+  "honeyText": "Seitse kuusnurkset lahtrit näitavad kuud, koera ja päikeselist põldu.",
+  "seasideText": "Kuus mereäärset klippi jagavad üht kaadrit, seejärel läheb montaaž üle rannas mängivale koerale.",
+  "warpedText": "Merepäikeseloojangu salvestis painutatud kaarduvateks peegeldatud ribadeks.",
+  "hexText": "Merepäikeseloojangud ja lained paigutatud ByteWave’is nelja kuusnurksesse paneeli, taustaks kogu kaadrit täitev päikeseloojang.",
+  "features": "Rohkem kui fotokollaaž",
+  "feature1": "Ühenda fotod ja videod samas paigutuses.",
+  "feature2": "Paiguta klipid vertikaalselt üksteise kohale või kõrvuti.",
+  "feature3": "Loo kuni 144 lahtriga ruudustikke.",
+  "feature4": "Proovi sümmeetriat ja kuni kaheteistkümne küljega hulknurki.",
+  "make": "Loo paigutus",
+  "step1": "Ava ByteWave’i Layout.",
+  "step2": "Vali paigutus ja lisa oma fotod ning videod.",
+  "step3": "Kohanda kompositsiooni, vaata eelvaadet ja ekspordi.",
+  "pricing": "Tasuta iPhone’is, iPadis ja Apple Siliconiga Macis. Töötlus toimub kohalikult sinu seadmes. Tellimuse ja ByteWave’i ekspordivesimärgita.",
+  "date": "23. november 2026",
+  "publisher": "Avaldanud ByteWave, kes loob siin käsitletavat rakendust.",
+  "description": "Loo ByteWave’iga videokollaaže. Paiguta klippe üksteise kohale, sega fotosid ja videoid ning loo ruudustikke või kärgpaigutusi. Tasuta, ilma tellimuse või ekspordivesimärgita.",
+  "socialAlt": "Fotod ja videod. Üks paigutus. Paiguta klippe, loo ruudustikke ja proovi uusi kujundeid.",
+  "updated": "Uuendatud",
+  "related": "Seotud õpetused",
+  "open": "Ava video",
+  "openCompatible": "Ava ühilduv koopia",
+  "watch": "Vaata MP4-d",
+  "demos": "ByteWave’i Layoutiga tehtud videod",
+  "gallery": "Vaata galeriist rohkem montaaže",
+  "captions": "Lisa animeeritud subtiitrid",
+  "stickers": "Lisa liikuvad kleebised",
+  "videoTitles": [
+    "Kärg",
+    "Mereäärne ruudustik ja rand",
+    "Moonutatud päikeseloojang",
+    "Päikeseloojangu kuusnurgad · Püstine",
+    "Päikeseloojangu kuusnurgad · Rõhtne"
+  ],
+  "videoAlt": [
+    "Kärgpaigutusega video",
+    "Kuuepaneeliline mereäärne paigutus, millele järgneb koer rannal",
+    "Moonutatud päikeseloojangu paigutusega video",
+    "Püstine päikeseloojangu kuusnurkadega video",
+    "Rõhtne päikeseloojangu kuusnurkadega video"
+  ],
+  "schemaNames": [
+    "Kärgpaigutus ByteWave’is",
+    "Mereäärne ruudustik ja rand",
+    "Moonutatud päikeseloojang",
+    "Päikeseloojangu kuusnurgad (püstine)",
+    "Päikeseloojangu kuusnurgad (rõhtne)"
+  ],
+  "videoDescriptions": [
+    "Seitse kuusnurkset lahtrit näitavad kuud, koera ja päikeselist põldu.",
+    "Kuuepaneeliline mereäärne paigutus, millele järgneb kogu kaadrit täitev klipp rannas mängivast koerast.",
+    "Merepäikeseloojangu salvestis painutatud ByteWave’i Layoutiga kaarduvateks peegeldatud ribadeks.",
+    "Merepäikeseloojangud ja lained paigutatud ByteWave’is nelja kuusnurksesse paneeli, taustaks kogu kaadrit täitev päikeseloojang.",
+    "Neli merepäikeseloojangute ja lainetega kuusnurkset paneeli keskel laia oranži päikeseloojangu ja mere taustal."
+  ],
+  "modified": "2026-11-23"
+}

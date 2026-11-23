@@ -1,0 +1,61 @@
+{
+  "title": "Brezplačni izdelovalnik videokolažev za iPhone, iPad in Mac",
+  "lead": "Plastite videe. Mešajte fotografije in posnetke. Ustvarjajte mreže ali postavitve satovja z ByteWave, brezplačno na iPhonu, iPadu in Macu s čipom Apple Silicon.",
+  "orientations": "Ena postavitev, dve usmerjenosti",
+  "honeyText": "Sedem šesterokotnih celic prikazuje luno, psa in sončen travnik.",
+  "seasideText": "Šest obmorskih posnetkov si deli eno sliko, nato montaža preide na psa, ki se igra na plaži.",
+  "warpedText": "Posnetki sončnega zahoda nad oceanom so upognjeni v ukrivljene, zrcaljene pasove.",
+  "hexText": "Sončni zahodi nad oceanom in valovi so v ByteWave razporejeni v štirih šesterokotnih ploščah na celozaslonskem ozadju sončnega zahoda.",
+  "features": "Več kot fotokolaž",
+  "feature1": "Združite fotografije in videe v isti postavitvi.",
+  "feature2": "Zložite posnetke navpično ali jih razporedite drug ob drugem.",
+  "feature3": "Ustvarite mreže z do 144 celicami.",
+  "feature4": "Preizkusite simetrijo in mnogokotnike z do dvanajstimi stranicami.",
+  "make": "Ustvarite postavitev",
+  "step1": "Odprite Layout podjetja ByteWave.",
+  "step2": "Izberite razporeditev in dodajte svoje fotografije in videe.",
+  "step3": "Prilagodite kompozicijo, jo preglejte in izvozite.",
+  "pricing": "Brezplačno na iPhonu, iPadu in Macu s čipom Apple Silicon. Urejanje poteka lokalno v napravi. Brez naročnine ali vodnega žiga ByteWave pri izvozu.",
+  "date": "23. november 2026",
+  "publisher": "Objavil ByteWave, ki izdeluje tu opisano aplikacijo.",
+  "description": "Ustvarjajte videokolaže z ByteWave. Plastite posnetke, mešajte fotografije in videe ter gradite mreže ali postavitve satovja. Brezplačno, brez naročnine ali vodnega žiga pri izvozu.",
+  "socialAlt": "Fotografije in videi. Ena postavitev. Plastite posnetke, gradite mreže in preizkušajte nove oblike.",
+  "updated": "Posodobljeno",
+  "related": "Povezani vodiči",
+  "open": "Odpri video",
+  "openCompatible": "Odpri združljivo kopijo",
+  "watch": "Predvajaj MP4",
+  "demos": "Videi, ustvarjeni z Layout podjetja ByteWave",
+  "gallery": "Oglejte si več montaž v galeriji",
+  "captions": "Dodajte animirane podnapise",
+  "stickers": "Dodajte premikajoče se nalepke",
+  "videoTitles": [
+    "Satovje",
+    "Od obmorske mreže do plaže",
+    "Ukrivljeni sončni zahod",
+    "Šesterokotniki sončnega zahoda · Pokončno",
+    "Šesterokotniki sončnega zahoda · Ležeče"
+  ],
+  "videoAlt": [
+    "Video s postavitvijo satovja",
+    "Obmorska postavitev s šestimi ploščami, ki ji sledi pes na plaži",
+    "Video s postavitvijo ukrivljenega sončnega zahoda",
+    "Pokončni video s šesterokotniki sončnega zahoda",
+    "Ležeči video s šesterokotniki sončnega zahoda"
+  ],
+  "schemaNames": [
+    "Postavitev satovja v ByteWave",
+    "Od obmorske mreže do plaže",
+    "Ukrivljeni sončni zahod",
+    "Šesterokotniki sončnega zahoda (pokončno)",
+    "Šesterokotniki sončnega zahoda (ležeče)"
+  ],
+  "videoDescriptions": [
+    "Sedem šesterokotnih celic prikazuje luno, psa in sončen travnik.",
+    "Obmorska postavitev s šestimi ploščami, ki ji sledi celozaslonski posnetek psa, ki se igra na plaži.",
+    "Posnetki sončnega zahoda nad oceanom, upognjeni v ukrivljene, zrcaljene pasove z Layout podjetja ByteWave.",
+    "Sončni zahodi nad oceanom in valovi so v ByteWave razporejeni v štirih šesterokotnih ploščah na celozaslonskem ozadju sončnega zahoda.",
+    "Štiri šesterokotne plošče sončnih zahodov nad oceanom in valov so na sredini širokega ozadja oranžnega sončnega zahoda in oceana."
+  ],
+  "modified": "2026-11-23"
+}

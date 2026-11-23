@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave’i õpetus",
+    "updatedLabel": "Uuendatud",
+    "updatedDate": "23. november 2026",
+    "relatedLabel": "Seotud õpetused"
+  },
+  "captionEffects": {
+    "title": "Subtiitrite tekstiefektid ByteWave’is",
+    "description": "Vali ByteWave’is subtiitri tekstiefekt, vaata animatsiooni ning võrdle Orbital Lettersi, Supernovat ja Ember Ashi.",
+    "lead": "Proovi efekti enda sõnadel. Vaata seda oma salvestise peal enne eksportimist.",
+    "stepsHeading": "Vali efekt",
+    "step1": "Vali ByteWave’i projektis subtiiter.",
+    "step2": "Ava selle tekstiefektid ja vali eelhäälestus.",
+    "step3": "Esita video, et näha efekti liikumas.",
+    "presetsHeading": "Kolm proovimist väärt efekti",
+    "tip": "Proovi iga efektiga sama lühikest fraasi. Kohanda fonti, suurust ja värvi salvestise järgi.",
+    "fromScratch": "Alustad nullist?",
+    "firstCaption": "Lisa oma esimene subtiiter",
+    "fontsPrompt": "Soovid teistsugust kirjatüüpi?",
+    "importFont": "Impordi oma font",
+    "relatedSticker": "Animeeri kleebist"
+  },
+  "customFonts": {
+    "title": "Sinu fondid ei peaks nõudma tellimust.",
+    "description": "Impordi iPhone’is ByteWave’i enda TTF- või OTF-fondid. Vali fail ja kujunda subtiitreid jaotises Minu fondid tasuta.",
+    "lead": "Too videosse oma font. ByteWave’i fondiimport on tasuta.",
+    "stepsHeading": "Impordi iPhone’is font",
+    "step1": "Salvesta TrueType’i (.ttf) või OpenType’i (.otf) font rakendusse Failid. Paki ZIP-arhiivid kõigepealt lahti.",
+    "step2": "Vali ByteWave’i projektis subtiiter ja ava selle Fondi paneel.",
+    "step3": "Puuduta Impordi font ja vali fail.",
+    "step4": "Leia see jaotisest Minu fondid. Puuduta fonti, et seda subtiitrile rakendada.",
+    "preview": "Esita video teksti kontrollimiseks, kohanda suurust ja värvi ning ekspordi.",
+    "unsupportedHeading": "Faili ei saa valida?",
+    "unsupported": "Vali tegelik .ttf- või .otf-fail. See importija ei toeta veebifonte, nagu .woff ja .woff2.",
+    "startPrompt": "Alustad tühja projektiga?",
+    "firstCaption": "Lisa oma esimene subtiiter",
+    "effectsPrompt": "Seejärel proovi",
+    "effectsLink": "subtiitrite tekstiefekte",
+    "license": "ByteWave ei võta fontide importimise eest tasu. Fondil endal võib olla oma hind ja litsents; kontrolli looja tingimusi oma kasutusviisi jaoks."
+  }
+}

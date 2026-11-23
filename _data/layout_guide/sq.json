@@ -1,0 +1,61 @@
+{
+  "title": "Krijues falas kolazhesh video për iPhone, iPad dhe Mac",
+  "lead": "Vendos video në shtresa. Përziej fotografi dhe klipe. Krijo rrjeta ose paraqitje si hoje me ByteWave, falas në iPhone, iPad dhe Mac me Apple Silicon.",
+  "orientations": "Një paraqitje, dy orientime",
+  "honeyText": "Shtatë qeliza gjashtëkëndore që tregojnë hënën, një qen dhe një fushë me diell.",
+  "seasideText": "Gjashtë klipe bregdetare ndajnë një kuadër, pastaj montazhi kalon te një qen që luan në plazh.",
+  "warpedText": "Xhirim perëndimi mbi oqean, i përkulur në shirita të lakuar e të pasqyruar.",
+  "hexText": "Perëndime mbi oqean dhe valë të vendosura në katër panele gjashtëkëndore mbi një sfond perëndimi që mbush kuadrin në ByteWave.",
+  "features": "Më shumë se një kolazh fotografish",
+  "feature1": "Bashko fotografi dhe video në të njëjtën paraqitje.",
+  "feature2": "Vendos klipe vertikalisht ose radhiti krah për krah.",
+  "feature3": "Krijo rrjeta me deri në 144 qeliza.",
+  "feature4": "Provo simetrinë dhe format shumëkëndore me deri në dymbëdhjetë brinjë.",
+  "make": "Krijo një paraqitje",
+  "step1": "Hap Layout nga ByteWave.",
+  "step2": "Zgjidh një renditje dhe shto fotografitë e videot e tua.",
+  "step3": "Përshtat kompozimin, shikoje dhe eksportoje.",
+  "pricing": "Falas në iPhone, iPad dhe Mac me Apple Silicon. Redaktimi kryhet lokalisht në pajisje. Pa abonim ose filigran ByteWave në eksport.",
+  "date": "23 nëntor 2026",
+  "publisher": "Botuar nga ByteWave, krijuesi i aplikacionit të trajtuar këtu.",
+  "description": "Krijo kolazhe videosh me ByteWave. Vendos klipe në shtresa, përziej fotografi dhe video dhe krijo rrjeta ose paraqitje si hoje. Falas, pa abonim apo filigran në eksport.",
+  "socialAlt": "Fotografi dhe video. Një paraqitje. Vendos klipe në shtresa, krijo rrjeta dhe provo forma të reja.",
+  "updated": "Përditësuar",
+  "related": "Udhëzues të ngjashëm",
+  "open": "Hap videon",
+  "openCompatible": "Hap kopjen e pajtueshme",
+  "watch": "Shiko MP4",
+  "demos": "Video të krijuara me Layout nga ByteWave",
+  "gallery": "Shiko më shumë montazhe në galeri",
+  "captions": "Shto titra të animuar",
+  "stickers": "Shto ngjitëse lëvizëse",
+  "videoTitles": [
+    "Hoje",
+    "Nga rrjeta bregdetare te plazhi",
+    "Perëndim i shtrembëruar",
+    "Gjashtëkëndësha perëndimi · Portret",
+    "Gjashtëkëndësha perëndimi · Peizazh"
+  ],
+  "videoAlt": [
+    "Video e paraqitjes si hoje",
+    "Paraqitje bregdetare me gjashtë panele, e ndjekur nga një qen në plazh",
+    "Video me paraqitje të perëndimit të shtrembëruar",
+    "Video portret e paraqitjes me gjashtëkëndësha perëndimi",
+    "Video peizazh e paraqitjes me gjashtëkëndësha perëndimi"
+  ],
+  "schemaNames": [
+    "Paraqitje si hoje në ByteWave",
+    "Nga rrjeta bregdetare te plazhi",
+    "Perëndim i shtrembëruar",
+    "Gjashtëkëndësha perëndimi (portret)",
+    "Gjashtëkëndësha perëndimi (peizazh)"
+  ],
+  "videoDescriptions": [
+    "Shtatë qeliza gjashtëkëndore që tregojnë hënën, një qen dhe një fushë me diell.",
+    "Paraqitje bregdetare me gjashtë panele, e ndjekur nga një klip në kuadër të plotë i një qeni që luan në plazh.",
+    "Xhirim perëndimi mbi oqean i përkulur në shirita të lakuar e të pasqyruar me Layout nga ByteWave.",
+    "Perëndime mbi oqean dhe valë të vendosura në katër panele gjashtëkëndore mbi një sfond perëndimi që mbush kuadrin në ByteWave.",
+    "Katër panele gjashtëkëndore me perëndime mbi oqean dhe valë, të përqendruara mbi një sfond të gjerë oqeani dhe perëndimi portokalli."
+  ],
+  "modified": "2026-11-23"
+}

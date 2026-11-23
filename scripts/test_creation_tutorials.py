@@ -48,7 +48,7 @@ for lang, slug in locale_slugs.items():
                 assert data[key][f"step{number}"] in article_text, f"Missing step{number}: {file}"
             other_href = "/" + (slug + "/" if slug else "") + "tutorials/" + counterpart + "/"
             assert f'href="{other_href}"' in html, f"Wrong related-guide locale: {file}"
-            assert 'href="/tutorials/caption-text-effects/" hreflang="en"' in html if key == "animatedCaptions" else f'href="/{slug}/layout/"' in html, f"Incorrect related guide target: {file}"
+            assert f'href="/{slug}/tutorials/caption-text-effects/"' in html if key == "animatedCaptions" else f'href="/{slug}/layout/"' in html, f"Incorrect related guide target: {file}"
             assert f'<meta property="article:modified_time" content="2026-11-16">' in html, f"Wrong translated update date: {file}"
         else:
             assert f'<meta property="article:modified_time" content="2026-09-28">' in html, f"Original English date changed: {file}"

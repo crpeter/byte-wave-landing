@@ -1,0 +1,61 @@
+{
+  "title": "Ókeypis myndskeiðaklippimyndir fyrir iPhone, iPad og Mac",
+  "lead": "Staflaðu myndskeiðum. Blandaðu ljósmyndum og klippum. Búðu til reiti eða býflugnabúsmynstur með ByteWave, ókeypis á iPhone, iPad og Mac með Apple Silicon.",
+  "orientations": "Eitt útlit, tvær stefnur",
+  "honeyText": "Sjö sexhyrndir reitir sýna tunglið, hund og sólríkan akur.",
+  "seasideText": "Sex strandklippur deila einum ramma, síðan er klippt yfir í hund að leika á ströndinni.",
+  "warpedText": "Upptaka af sólsetri yfir sjó sveigð í bogin, spegluð bönd.",
+  "hexText": "Sólsetur yfir sjó og öldur í fjórum sexhyrndum reitum yfir sólsetursbakgrunni sem fyllir rammann í ByteWave.",
+  "features": "Meira en ljósmyndaklippimynd",
+  "feature1": "Sameinaðu ljósmyndir og myndskeið í sömu samsetningu.",
+  "feature2": "Staflaðu klippum lóðrétt eða raðaðu þeim hlið við hlið.",
+  "feature3": "Búðu til mynstur með allt að 144 reitum.",
+  "feature4": "Prófaðu samhverfu og marghyrninga með allt að tólf hliðum.",
+  "make": "Búðu til samsetningu",
+  "step1": "Opnaðu Layout frá ByteWave.",
+  "step2": "Veldu uppröðun og bættu við ljósmyndum og myndskeiðum.",
+  "step3": "Stilltu samsetninguna, forskoðaðu og flyttu út.",
+  "pricing": "Ókeypis á iPhone, iPad og Mac með Apple Silicon. Vinnslan fer fram staðbundið í tækinu. Engin áskrift eða ByteWave-vatnsmerki við útflutning.",
+  "date": "23. nóvember 2026",
+  "publisher": "Birt af ByteWave, sem framleiðir appið sem hér er fjallað um.",
+  "description": "Búðu til myndskeiðaklippimyndir með ByteWave. Staflaðu klippum, blandaðu ljósmyndum og myndskeiðum og búðu til reiti eða býflugnabúsmynstur. Ókeypis, án áskriftar eða vatnsmerkis við útflutning.",
+  "socialAlt": "Ljósmyndir og myndskeið. Ein samsetning. Staflaðu klippum, búðu til reiti og prófaðu ný form.",
+  "updated": "Uppfært",
+  "related": "Tengdar leiðbeiningar",
+  "open": "Opna myndskeið",
+  "openCompatible": "Opna samhæft afrit",
+  "watch": "Horfa á MP4",
+  "demos": "Myndskeið gerð með Layout frá ByteWave",
+  "gallery": "Sjá fleiri klippingar í myndasafninu",
+  "captions": "Bæta við hreyfanlegum skjátextum",
+  "stickers": "Bæta við hreyfanlegum límmiðum",
+  "videoTitles": [
+    "Býflugnabúsmynstur",
+    "Frá strandreitum að strönd",
+    "Bjagað sólsetur",
+    "Sólseturssexhyrningar · Lóðrétt",
+    "Sólseturssexhyrningar · Lárétt"
+  ],
+  "videoAlt": [
+    "Myndskeið með býflugnabúsmynstri",
+    "Sex reita stranduppsetning og síðan hundur á ströndinni",
+    "Myndskeið með bjöguðu sólsetursútliti",
+    "Lóðrétt myndskeið með sólseturssexhyrningum",
+    "Lárétt myndskeið með sólseturssexhyrningum"
+  ],
+  "schemaNames": [
+    "Býflugnabúsmynstur í ByteWave",
+    "Frá strandreitum að strönd",
+    "Bjagað sólsetur",
+    "Sólseturssexhyrningar (lóðrétt)",
+    "Sólseturssexhyrningar (lárétt)"
+  ],
+  "videoDescriptions": [
+    "Sjö sexhyrndir reitir sýna tunglið, hund og sólríkan akur.",
+    "Sex reita stranduppsetning og síðan klippa af hundi að leika á ströndinni sem fyllir allan rammann.",
+    "Upptaka af sólsetri yfir sjó sveigð í bogin, spegluð bönd með Layout frá ByteWave.",
+    "Sólsetur yfir sjó og öldur í fjórum sexhyrndum reitum yfir sólsetursbakgrunni sem fyllir rammann í ByteWave.",
+    "Fjórir sexhyrndir reitir með sólsetri yfir sjó og öldum fyrir miðju yfir breiðum appelsínugulum sólseturs- og sjávarbakgrunni."
+  ],
+  "modified": "2026-11-23"
+}

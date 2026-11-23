@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Návod pre ByteWave",
+    "updatedLabel": "Aktualizované",
+    "updatedDate": "23. novembra 2026",
+    "relatedLabel": "Súvisiace návody"
+  },
+  "animatedCaptions": {
+    "title": "Ako pridať animované titulky v ByteWave",
+    "description": "Pridajte do videa text, vyberte animovaný efekt a umiestnite titulok v ByteWave. Krátky návod pre iPhone, iPad a Mac.",
+    "lead": "Pridajte do videa vlastný text a priraďte mu animovaný efekt.",
+    "stepsHeading": "Pridajte titulok",
+    "step1": "Otvorte video v ByteWave a pridajte titulok.",
+    "step2": "Zadajte text a potom vyberte titulok na úpravu štýlu.",
+    "step3": "Vyberte písmo, veľkosť a farbu. Umiestnite text cez video.",
+    "step4": "Vyberte textový efekt a prehrajte video na zobrazenie animácie.",
+    "readabilityHeading": "Zachovajte čitateľnosť",
+    "readabilityText": "Použite krátku frázu a farbu, ktorá v záberoch vynikne. Overte, že animácia necháva dosť času na prečítanie.",
+    "relatedIntro": "Hľadáte konkrétny vzhľad? Náš",
+    "relatedAnchor": "návod na efekty titulkov",
+    "relatedTail": "predstavuje predvoľby ako Orbital Letters a Ember Ash.",
+    "relatedSticker": "Animovať nálepku"
+  },
+  "animateStickers": {
+    "title": "Ako animovať nálepky v ByteWave",
+    "description": "Rozhýbte nálepku vo videu v ByteWave. Pomocou časovania a kľúčových snímok meňte jej polohu, veľkosť a otočenie.",
+    "lead": "Pomocou kľúčových snímok nálepku v čase presúvajte, meňte jej veľkosť alebo ju otáčajte.",
+    "stepsHeading": "Nastavte pohyb",
+    "step1": "Pridajte do videa nálepku a vyberte ju.",
+    "step2": "Pomocou časových ovládacích prvkov určite, kedy sa objaví.",
+    "step3": "Pomocou ovládania kľúčových snímok zaznamenajte jej počiatočnú polohu, veľkosť a otočenie.",
+    "step4": "Prejdite na neskorší okamih a nastavte ďalšiu kľúčovú snímku s inou polohou, veľkosťou alebo otočením.",
+    "step5": "Prehrajte video a pozrite si pohyb medzi nimi.",
+    "readabilityHeading": "Začnite dvoma kľúčovými snímkami",
+    "readabilityText": "Skúste presunúť nálepku z jednej strany obrazu na druhú. Keď pohyb vyzerá správne, pridajte zmenu veľkosti alebo otočenie.",
+    "relatedCaption": "Pridať animované titulky",
+    "relatedLayout": "Vytvoriť videokoláž"
+  }
+}

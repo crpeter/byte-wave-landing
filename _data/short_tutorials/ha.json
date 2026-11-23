@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Darasin ByteWave",
+    "updatedLabel": "An sabunta",
+    "updatedDate": "23 Nuwamba, 2026",
+    "relatedLabel": "Jagorori masu alaƙa"
+  },
+  "captionEffects": {
+    "title": "Tasirin Rubutun Magana a ByteWave",
+    "description": "Zaɓi tasirin rubutun magana a ByteWave, duba samfotin motsinsa ka kwatanta Orbital Letters, Supernova da Ember Ash.",
+    "lead": "Gwada tasiri a kalmominka. Duba shi a kan bidiyonka kafin fitarwa.",
+    "stepsHeading": "Zaɓi tasiri",
+    "step1": "Zaɓi rubutun magana a aikin ByteWave naka.",
+    "step2": "Buɗe tasirin rubutunsa ka zaɓi tsari da aka riga aka saita.",
+    "step3": "Kunna bidiyonka don ganin tasirin yana motsi.",
+    "presetsHeading": "Uku da za a gwada",
+    "tip": "Gwada gajeriyar jimla ɗaya a kowane tasiri. Daidaita font, girma da launi su dace da bidiyonka.",
+    "fromScratch": "Kana farawa daga tushe?",
+    "firstCaption": "Ƙara rubutun maganarka na farko",
+    "fontsPrompt": "Kana son wani salon haruffa?",
+    "importFont": "Shigo da font naka",
+    "relatedSticker": "Sa lamba ta motsa"
+  },
+  "customFonts": {
+    "title": "Bai Kamata Font Naka Ya Buƙaci Rajistar Kuɗi Ba.",
+    "description": "Shigo da font naka na TTF ko OTF a ByteWave a iPhone. Zaɓi fayil ka yi amfani da My Fonts don tsara rubutun magana kyauta.",
+    "lead": "Kawo font naka a bidiyonka. Shigo da font a ByteWave kyauta ne.",
+    "stepsHeading": "Shigo da font a iPhone",
+    "step1": "Ajiye font na TrueType (.ttf) ko OpenType (.otf) a manhajar Files. Buɗe duk kunshin ZIP da farko.",
+    "step2": "Zaɓi rubutun magana a aikin ByteWave naka ka buɗe faifan Font.",
+    "step3": "Taɓa Import font ka zaɓi fayil ɗin.",
+    "step4": "Nemo shi a ƙarƙashin My Fonts. Taɓa font ɗin don amfani da shi a rubutun maganarka.",
+    "preview": "Kunna bidiyon don duba rubutunka, daidaita girmansa da launinsa, sannan ka fitar.",
+    "unsupportedHeading": "Ba za a iya zaɓar fayil ba?",
+    "unsupported": "Zaɓi ainihin fayil na .ttf ko .otf. Wannan mai shigarwa ba ya tallafa wa font na yanar gizo kamar .woff da .woff2.",
+    "startPrompt": "Kana farawa da aikin da babu komai a ciki?",
+    "firstCaption": "Ƙara rubutun maganarka na farko",
+    "effectsPrompt": "Sannan ka gwada",
+    "effectsLink": "tasirin rubutun magana",
+    "license": "ByteWave ba ya karɓar kuɗin shigo da font. Font ɗin kansa na iya samun farashi da lasisi; duba sharuɗɗan mahaliccinsa don amfaninka."
+  }
+}

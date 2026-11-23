@@ -1,0 +1,61 @@
+{
+  "title": "Besplatni alat za video kolaže za iPhone, iPad i Mac",
+  "lead": "Složi videozapise. Spoji fotografije i klipove. Napravi mreže ili raspored u obliku saća uz ByteWave, besplatno na iPhoneu, iPadu i Macu s Apple Silicon čipom.",
+  "orientations": "Jedan raspored, dvije orijentacije",
+  "honeyText": "Sedam šesterokutnih polja s mjesecom, psom i osunčanim poljem.",
+  "seasideText": "Šest morskih klipova dijeli jedan kadar, a zatim montaža prelazi na psa koji se igra na plaži.",
+  "warpedText": "Snimka zalaska sunca nad oceanom savijena u zakrivljene, zrcalne trake.",
+  "hexText": "Zalasci sunca nad oceanom i valovi raspoređeni u četiri šesterokutna panela preko pozadine zalaska sunca koja ispunjava kadar u ByteWaveu.",
+  "features": "Više od foto kolaža",
+  "feature1": "Spoji fotografije i videozapise u istom rasporedu.",
+  "feature2": "Složi klipove okomito ili ih postavi jedan pokraj drugog.",
+  "feature3": "Napravi mreže s najviše 144 polja.",
+  "feature4": "Isprobaj simetriju i mnogokutne oblike s najviše dvanaest stranica.",
+  "make": "Napravi raspored",
+  "step1": "Otvori Layout iz ByteWavea.",
+  "step2": "Odaberi raspored i dodaj fotografije i videozapise.",
+  "step3": "Prilagodi kompoziciju, pregledaj je i izvezi.",
+  "pricing": "Besplatno na iPhoneu, iPadu i Macu s Apple Silicon čipom. Uređivanje se obavlja lokalno na uređaju. Bez pretplate i ByteWave vodenog žiga pri izvozu.",
+  "date": "23. studenoga 2026.",
+  "publisher": "Objavio ByteWave, autor aplikacije o kojoj ovaj vodič govori.",
+  "description": "Napravi video kolaže uz ByteWave. Složi klipove, spoji fotografije i videozapise i napravi mreže ili rasporede u obliku saća. Besplatno, bez pretplate i vodenog žiga pri izvozu.",
+  "socialAlt": "Fotografije i videozapisi. Jedan raspored. Složi klipove, napravi mreže i isprobaj nove oblike.",
+  "updated": "Ažurirano",
+  "related": "Povezani vodiči",
+  "open": "Otvori video",
+  "openCompatible": "Otvori kompatibilnu kopiju",
+  "watch": "Pogledaj MP4",
+  "demos": "Videozapisi napravljeni uz Layout iz ByteWavea",
+  "gallery": "Pogledaj još montaža u galeriji",
+  "captions": "Dodaj animirane titlove",
+  "stickers": "Dodaj pokretne naljepnice",
+  "videoTitles": [
+    "Saće",
+    "Morska mreža do plaže",
+    "Izobličeni zalazak sunca",
+    "Šesterokuti zalaska sunca · Uspravno",
+    "Šesterokuti zalaska sunca · Vodoravno"
+  ],
+  "videoAlt": [
+    "Video rasporeda u obliku saća",
+    "Morski raspored sa šest panela, zatim pas na plaži",
+    "Video rasporeda s izobličenim zalaskom sunca",
+    "Uspravni video rasporeda šesterokuta zalaska sunca",
+    "Vodoravni video rasporeda šesterokuta zalaska sunca"
+  ],
+  "schemaNames": [
+    "Raspored u obliku saća u ByteWaveu",
+    "Morska mreža do plaže",
+    "Izobličeni zalazak sunca",
+    "Šesterokuti zalaska sunca (uspravno)",
+    "Šesterokuti zalaska sunca (vodoravno)"
+  ],
+  "videoDescriptions": [
+    "Sedam šesterokutnih polja s mjesecom, psom i osunčanim poljem.",
+    "Morski raspored sa šest panela, nakon kojeg slijedi klip psa koji se igra na plaži preko cijelog kadra.",
+    "Snimka zalaska sunca nad oceanom savijena u zakrivljene, zrcalne trake pomoću Layouta iz ByteWavea.",
+    "Zalasci sunca nad oceanom i valovi raspoređeni u četiri šesterokutna panela preko pozadine zalaska sunca koja ispunjava kadar u ByteWaveu.",
+    "Četiri šesterokutna panela sa zalascima sunca nad oceanom i valovima, centrirana preko široke pozadine narančastog zalaska sunca i oceana."
+  ],
+  "modified": "2026-11-23"
+}

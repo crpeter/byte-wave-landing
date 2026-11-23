@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Tutorial ByteWave",
+    "updatedLabel": "Actualizat",
+    "updatedDate": "23 noiembrie 2026",
+    "relatedLabel": "Ghiduri conexe"
+  },
+  "animatedCaptions": {
+    "title": "Cum adaugi subtitrări animate în ByteWave",
+    "description": "Adaugă text, alege un efect animat și poziționează subtitrarea în ByteWave. Ghid scurt pentru iPhone, iPad și Mac.",
+    "lead": "Adaugă propriul text la un videoclip și aplică-i un efect animat.",
+    "stepsHeading": "Adaugă subtitrarea",
+    "step1": "Deschide videoclipul în ByteWave și adaugă o subtitrare.",
+    "step2": "Introdu textul, apoi selectează subtitrarea pentru a-i edita stilul.",
+    "step3": "Alege fontul, dimensiunea și culoarea. Poziționează textul peste videoclip.",
+    "step4": "Alege un efect de text, apoi redă videoclipul pentru a previzualiza animația.",
+    "readabilityHeading": "Păstrează lizibilitatea",
+    "readabilityText": "Folosește o frază scurtă și o culoare care se distinge de filmare. Verifică dacă animația lasă suficient timp pentru citire.",
+    "relatedIntro": "Cauți un anumit stil?",
+    "relatedAnchor": "Ghidul efectelor de subtitrare",
+    "relatedTail": "prezintă presetări precum Orbital Letters și Ember Ash.",
+    "relatedSticker": "Animă un sticker"
+  },
+  "animateStickers": {
+    "title": "Cum animezi stickere în ByteWave",
+    "description": "Fă un sticker să se miște prin videoclip în ByteWave. Folosește temporizarea și cadrele-cheie pentru poziție, dimensiune și rotație.",
+    "lead": "Folosește cadre-cheie pentru a deplasa, redimensiona sau roti un sticker în timp.",
+    "stepsHeading": "Configurează mișcarea",
+    "step1": "Adaugă un sticker la videoclip și selectează-l.",
+    "step2": "Stabilește când apare folosind comenzile de temporizare.",
+    "step3": "Folosește comenzile cadrelor-cheie pentru poziția, dimensiunea și rotația inițiale.",
+    "step4": "Mergi la un moment ulterior și setează alt cadru-cheie cu poziție, dimensiune sau rotație diferită.",
+    "step5": "Redă videoclipul pentru a vedea mișcarea dintre ele.",
+    "readabilityHeading": "Începe cu două cadre-cheie",
+    "readabilityText": "Încearcă să muți stickerul dintr-o parte în cealaltă a cadrului. Când arată bine, adaugă o schimbare de dimensiune sau o rotație.",
+    "relatedCaption": "Adaugă subtitrări animate",
+    "relatedLayout": "Creează un colaj video"
+  }
+}

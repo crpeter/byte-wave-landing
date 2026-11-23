@@ -74,4 +74,19 @@
   .site-nav .site-download { max-width: 42vw; font-size: .7rem; }
   .site-menu summary { font-size: .81rem; }
 }
+/* RTL affects text and navigation; comparison labels still match the video halves. */
+html[dir="rtl"] .site-nav .site-menu { margin-left: 0; margin-right: auto; }
+html[dir="rtl"] .site-language-options { right: auto; left: 0; }
+html[dir="rtl"] .site-menu .site-menu-links { right: auto; left: 1rem; }
+html[dir="rtl"] .site-skip { left: auto; right: 1rem; }
+html[dir="rtl"] .site-editorial article :is(ul, ol) { padding-left: 0; padding-right: 1.4rem; }
+html[dir="rtl"] :is(th, td) { text-align: start; }
+html[dir="rtl"] :is(.code-block, .comparison-labels, .preview-labels) { direction: ltr; }
+html[dir="rtl"] :is(.comparison-labels, .preview-labels) span { direction: rtl; }
+html[dir="rtl"] :is(h1, h2, h3, .eyebrow) { letter-spacing: normal; }
+html[dir="rtl"] .code-block { text-align: left; }
+html[lang="km"] :is(h1, h2, h3), html[lang="th"] :is(h1, h2, h3) { line-height: 1.5; letter-spacing: normal; }
+/* Keep the new languages' longer hero words whole on narrow screens. */
+.hero h1 em.hero-word-long { font-size: clamp(2.4rem, 13vw, 9rem); white-space: nowrap; padding-inline: .08em .13em; }
+.hero h1 em.hero-word-medium { font-size: clamp(3rem, 17vw, 10rem); white-space: nowrap; padding-inline: .08em .13em; }
 </style>

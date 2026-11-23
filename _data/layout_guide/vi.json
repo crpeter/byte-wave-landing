@@ -1,0 +1,61 @@
+{
+  "title": "Tạo video ghép miễn phí cho iPhone, iPad và Mac",
+  "lead": "Xếp lớp video. Kết hợp ảnh và clip. Tạo bố cục lưới hoặc tổ ong với ByteWave, miễn phí trên iPhone, iPad và Mac dùng Apple Silicon.",
+  "orientations": "Một bố cục, hai hướng",
+  "honeyText": "Bảy ô lục giác hiển thị mặt trăng, một chú chó và cánh đồng đầy nắng.",
+  "seasideText": "Sáu clip bên biển cùng xuất hiện trong một khung hình, rồi bản dựng chuyển sang chú chó chơi trên bãi biển.",
+  "warpedText": "Cảnh hoàng hôn trên biển được uốn thành các dải cong đối xứng.",
+  "hexText": "Hoàng hôn trên biển và sóng được xếp trong bốn ô lục giác trên nền hoàng hôn toàn khung hình trong ByteWave.",
+  "features": "Hơn cả ghép ảnh",
+  "feature1": "Kết hợp ảnh và video trong cùng bố cục.",
+  "feature2": "Xếp clip theo chiều dọc hoặc cạnh nhau.",
+  "feature3": "Tạo lưới tối đa 144 ô.",
+  "feature4": "Thử đối xứng và hình đa giác có tối đa mười hai cạnh.",
+  "make": "Tạo bố cục",
+  "step1": "Mở Layout của ByteWave.",
+  "step2": "Chọn cách sắp xếp rồi thêm ảnh và video.",
+  "step3": "Điều chỉnh bố cục, xem trước rồi xuất.",
+  "pricing": "Miễn phí trên iPhone, iPad và Mac dùng Apple Silicon. Chỉnh sửa ngay trên thiết bị. Không thuê bao hay hình mờ ByteWave khi xuất.",
+  "date": "23 tháng 11, 2026",
+  "publisher": "Được xuất bản bởi ByteWave, đơn vị tạo ứng dụng được nói đến ở đây.",
+  "description": "Tạo video ghép với ByteWave. Xếp clip, kết hợp ảnh và video, tạo bố cục lưới hoặc tổ ong. Miễn phí, không thuê bao hay hình mờ khi xuất.",
+  "socialAlt": "Ảnh và video. Cùng một bố cục. Xếp clip, tạo lưới và thử hình dạng mới.",
+  "updated": "Cập nhật",
+  "related": "Hướng dẫn liên quan",
+  "open": "Mở video",
+  "openCompatible": "Mở bản tương thích",
+  "watch": "Xem MP4",
+  "demos": "Video được tạo bằng Layout của ByteWave",
+  "gallery": "Xem thêm bản dựng trong thư viện",
+  "captions": "Thêm phụ đề chuyển động",
+  "stickers": "Thêm nhãn dán chuyển động",
+  "videoTitles": [
+    "Tổ ong",
+    "Lưới ven biển chuyển sang bãi biển",
+    "Hoàng hôn uốn cong",
+    "Lục giác hoàng hôn · Dọc",
+    "Lục giác hoàng hôn · Ngang"
+  ],
+  "videoAlt": [
+    "Video bố cục tổ ong",
+    "Bố cục ven biển sáu ô rồi đến chú chó trên bãi biển",
+    "Video bố cục hoàng hôn uốn cong",
+    "Video bố cục lục giác hoàng hôn dọc",
+    "Video bố cục lục giác hoàng hôn ngang"
+  ],
+  "schemaNames": [
+    "Bố cục tổ ong trong ByteWave",
+    "Lưới ven biển chuyển sang bãi biển",
+    "Hoàng hôn uốn cong",
+    "Lục giác hoàng hôn (dọc)",
+    "Lục giác hoàng hôn (ngang)"
+  ],
+  "videoDescriptions": [
+    "Bảy ô lục giác hiển thị mặt trăng, một chú chó và cánh đồng đầy nắng.",
+    "Bố cục ven biển sáu ô rồi chuyển sang cảnh toàn khung hình một chú chó chơi trên bãi biển.",
+    "Cảnh hoàng hôn trên biển được uốn thành các dải cong đối xứng bằng Layout của ByteWave.",
+    "Hoàng hôn trên biển và sóng được xếp trong bốn ô lục giác trên nền hoàng hôn toàn khung hình trong ByteWave.",
+    "Bốn ô lục giác cảnh hoàng hôn và sóng biển ở giữa nền hoàng hôn màu cam và biển rộng."
+  ],
+  "modified": "2026-11-23"
+}

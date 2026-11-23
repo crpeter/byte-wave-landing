@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-leiðbeiningar",
+    "updatedLabel": "Uppfært",
+    "updatedDate": "23. nóvember 2026",
+    "relatedLabel": "Tengdar leiðbeiningar"
+  },
+  "captionEffects": {
+    "title": "Textabrellur fyrir skjátexta í ByteWave",
+    "description": "Veldu textabrellu fyrir skjátexta í ByteWave, forskoðaðu hreyfinguna og berðu saman Orbital Letters, Supernova og Ember Ash.",
+    "lead": "Prófaðu brellu á eigin orðum. Forskoðaðu hana yfir upptökunni áður en þú flytur út.",
+    "stepsHeading": "Veldu brellu",
+    "step1": "Veldu skjátexta í ByteWave-verkefninu þínu.",
+    "step2": "Opnaðu textabrellurnar og veldu forstillingu.",
+    "step3": "Spilaðu myndskeiðið til að sjá brelluna á hreyfingu.",
+    "presetsHeading": "Þrjár til að prófa",
+    "tip": "Prófaðu sömu stuttu setninguna með hverri brellu. Stilltu leturgerð, stærð og lit eftir upptökunni.",
+    "fromScratch": "Ertu að byrja frá grunni?",
+    "firstCaption": "Bættu við fyrsta skjátextanum",
+    "fontsPrompt": "Viltu aðra leturgerð?",
+    "importFont": "Flyttu inn eigin leturgerð",
+    "relatedSticker": "Hreyfa límmiða"
+  },
+  "customFonts": {
+    "title": "Leturgerðirnar þínar ættu ekki að krefjast áskriftar.",
+    "description": "Flyttu eigin TTF- eða OTF-leturgerðir inn í ByteWave á iPhone. Veldu skrá og notaðu Mínar leturgerðir til að móta skjátexta ókeypis.",
+    "lead": "Notaðu eigin leturgerð í myndskeiðinu. Innflutningur leturgerða í ByteWave er ókeypis.",
+    "stepsHeading": "Flytja inn leturgerð á iPhone",
+    "step1": "Vistaðu TrueType- (.ttf) eða OpenType-leturgerð (.otf) í Skrár-appinu. Afþjappaðu ZIP-skrám fyrst.",
+    "step2": "Veldu skjátexta í ByteWave-verkefninu og opnaðu Leturgerð-spjaldið.",
+    "step3": "Ýttu á Flytja inn leturgerð og veldu skrána.",
+    "step4": "Finndu hana undir Mínar leturgerðir. Ýttu á leturgerðina til að nota hana á skjátextann.",
+    "preview": "Spilaðu myndskeiðið til að athuga textann, stilltu stærð og lit og flyttu svo út.",
+    "unsupportedHeading": "Ekki hægt að velja skrána?",
+    "unsupported": "Veldu sjálfa .ttf- eða .otf-skrána. Vefleturgerðir eins og .woff og .woff2 eru ekki studdar í þessum innflytjanda.",
+    "startPrompt": "Ertu að byrja með tómt verkefni?",
+    "firstCaption": "Bættu við fyrsta skjátextanum",
+    "effectsPrompt": "Prófaðu síðan",
+    "effectsLink": "textabrellur fyrir skjátexta",
+    "license": "ByteWave rukkar ekki fyrir innflutning leturgerða. Leturgerðin sjálf getur haft eigið verð og leyfi; athugaðu skilmála höfundarins fyrir þína notkun."
+  }
+}

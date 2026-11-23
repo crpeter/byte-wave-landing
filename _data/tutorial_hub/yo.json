@@ -1,0 +1,98 @@
+{
+  "title": "Àwọn ẹ̀kọ́ àtúnṣe fídíò",
+  "description": "Àwọn ìtọ́sọ́nà ByteWave kúkúrú fún àkójọpọ̀ fídíò, àkọlé ọ̀rọ̀ tó ń rìn, ipa ọ̀rọ̀, sítíkà tó ń rìn, ìríru ìṣípò àti àyẹ̀wò Content Credentials.",
+  "intro": "Ṣẹ̀dá àtòjọ, fi àkọlé ọ̀rọ̀ kún un, mú sítíkà rìn tàbí ṣàyẹ̀wò fáìlì. Ìtọ́sọ́nà kúkúrú sí irinṣẹ́ ByteWave.",
+  "action": "Wo ìtọ́sọ́nà",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout láti ByteWave",
+      "description": "To àwọn apá fídíò, kọ àtòjọ onígun, kí o sì gbìyànjú ìrísí tuntun.",
+      "format": "Àpẹẹrẹ fídíò mẹ́ta",
+      "alt": "Àtòjọ bí afárá oyin pẹ̀lú àwòrán òṣùpá àti ajá"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Fi àkọlé ọ̀rọ̀ tó ń rìn kún un",
+      "description": "Ọ̀rọ̀ rẹ, lórí fídíò rẹ.",
+      "format": "Ìtọ́sọ́nà tí a kọ",
+      "alt": "Fi àkọlé ọ̀rọ̀ tó ń rìn kún un."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Yan ipa ọ̀rọ̀ fún àkọlé ọ̀rọ̀",
+      "description": "Orbital Letters, Supernova, Ember Ash àti bẹ́ẹ̀ bẹ́ẹ̀ lọ.",
+      "format": "Ìtọ́sọ́nà tí a kọ",
+      "alt": "Ipa ọ̀rọ̀ fún àkọlé ọ̀rọ̀."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Kó irú lẹ́tà tirẹ̀ wọlé",
+      "description": "Lo irú lẹ́tà TTF àti OTF nínú àkọlé ọ̀rọ̀ fídíò rẹ.",
+      "format": "Ìtọ́sọ́nà tí a kọ",
+      "alt": "Irú lẹ́tà rẹ. Fídíò rẹ. Kó irú lẹ́tà TTF àti OTF wọlé sí ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Mú sítíkà rìn pẹ̀lú férémù pàtàkì",
+      "description": "Ipo, ìwọ̀n, yíyí àti férémù pàtàkì.",
+      "format": "Ìtọ́sọ́nà tí a kọ",
+      "alt": "Mú àwọn sítíkà rẹ rìn."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Fi ìríru ìṣípò kún fídíò",
+      "description": "Fi èsì wé ara wọn ní ẹ̀gbẹ́, wa Ìríru Ìṣípò nínú olóòtú, kí o sì ṣàtúnṣe agbára rẹ̀ fún apá fídíò rẹ.",
+      "format": "iPhone · Ìfiwéra ìṣẹ́jú-àáyá 20",
+      "alt": "Ìfiwéra fídíò èbúté: àtilẹ̀dá ní apá òsì, ìríru ìṣípò ByteWave ní apá ọ̀tún.",
+      "left": "Àtilẹ̀dá",
+      "right": "Ìríru ìṣípò ByteWave"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Ìyípadà iye férémù fún ìṣípò díẹ̀díẹ̀",
+      "description": "Fi fídíò ẹyẹ hummingbird ní iyára 0.1× wé ara rẹ̀ kí o sì rí bí ìyípadà iye férémù ṣe ń yí ìṣípò tí a dín kù padà.",
+      "format": "iPhone · Ìfiwéra ìṣẹ́jú-àáyá 30",
+      "alt": "Ìfiwéra hummingbird: ìdínkù iyára 0.1× déédéé ní òsì, ìyípadà iye férémù ByteWave ní ọ̀tún.",
+      "left": "Ìdínkù iyára déédéé · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Ìdínkù ariwo àkókò",
+      "description": "Fi ariwo àti kókó kéékèèké wé ara wọn nínú àpẹẹrẹ àwòrán Apple, lẹ́yìn náà kọ́ ohun tí o máa wá nínú fídíò rẹ.",
+      "format": "iPhone · Ìfiwéra ìṣẹ́jú-àáyá 8",
+      "alt": "Àpẹẹrẹ Apple ti ewé pupa: àtilẹ̀dá ní òsì, ìdínkù ariwo àkókò ByteWave ní ọ̀tún.",
+      "left": "Àtilẹ̀dá",
+      "right": "Ìdínkù ariwo ByteWave"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Ṣàyẹ̀wò Content Credentials C2PA",
+      "description": "Ṣí àmì orísun kí o sì kọ́ ìtumọ̀ ìkéde ìṣẹ̀dá AI tí a jẹ́rìí sí, ìṣirò metadata àti àìsí ẹ̀rí.",
+      "format": "Àwòrán àti fídíò · Ìtọ́sọ́nà tí a kọ",
+      "alt": "Ṣàyẹ̀wò Content Credentials nínú ByteWave: ẹ̀kọ́ orísun àwòrán àti fídíò."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Yọ metadata ibi kúrò",
+      "description": "Ṣàyẹ̀wò ẹ̀dà fídíò tí o ń ṣiṣẹ́ lórí, yọ àwọn ààyè tí a lè ṣàtúnṣe kúrò, kí o sì ṣàyẹ̀wò ohun tó kù kí o tó pín.",
+      "format": "Àṣírí · Ìtọ́sọ́nà tí a kọ",
+      "alt": "Mọ̀ sí i. Pín díẹ̀ sí i. Ṣàyẹ̀wò kí o sì yọ metadata tí a lè ṣàtúnṣe kúrò kí o tó pín fídíò rẹ."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Túmọ̀ àkọlé ọ̀rọ̀ fídíò",
+      "description": "Yí àkọlé ọ̀rọ̀ aládàáṣiṣẹ́ sí èdè míì tí a ń ṣe àtìlẹ́yìn fún, fi wé àtilẹ̀dá, kí o sì ṣàyẹ̀wò èsì kí o tó kó jáde.",
+      "format": "iPhone àti iPad · Ìtọ́sọ́nà tí a kọ",
+      "alt": "Túmọ̀ àkọlé ọ̀rọ̀ fídíò. Yí àkọlé ọ̀rọ̀ aládàáṣiṣẹ́ sí èdè míì tí a ń ṣe àtìlẹ́yìn fún, fi wé àtilẹ̀dá, kí o sì ṣàyẹ̀wò èsì kí o tó kó jáde."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Jẹ́ kí ipa dáhùn sí orin",
+      "description": "Yan àlẹ̀mọ́ Ohùn, fi àwòṣe ìrísí tó ń rìn wé ara wọn, kí o sì ṣàyẹ̀wò ìdáhùn nínú apá ìdákẹ́jẹ àti apá tó pariwo sí i.",
+      "format": "iPhone àti iPad · Ìtọ́sọ́nà tí a kọ",
+      "alt": "Jẹ́ kí ipa dáhùn sí orin. Yan àlẹ̀mọ́ Ohùn, fi àwòṣe ìrísí tó ń rìn wé ara wọn, kí o sì ṣàyẹ̀wò ìdáhùn nínú apá ìdákẹ́jẹ àti apá tó pariwo sí i."
+    }
+  ]
+}

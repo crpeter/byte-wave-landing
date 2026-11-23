@@ -1,0 +1,231 @@
+{
+  "name": "Slovenščina",
+  "nav": {
+    "skip": "Preskoči na vsebino",
+    "label": "Glavna navigacija",
+    "menu": "Meni",
+    "home": "Domov",
+    "features": "Funkcije",
+    "compare": "Primerjava",
+    "gallery": "Galerija",
+    "tutorials": "Vodiči",
+    "blog": "Blog",
+    "about": "O nas",
+    "privacy": "Zasebnost",
+    "press": "Za medije",
+    "expression": "Svoboda izražanja",
+    "download": "Prenesi brezplačno"
+  },
+  "footer": {
+    "motto": "Urejanje videov mora biti brezplačno.",
+    "devices": "iPhone z iOS 26 ali novejšim · iPad z iPadOS 26 ali novejšim · Mac z macOS 26 ali novejšim in čipom Apple M1 ali novejšim."
+  },
+  "get_free": "Pridobite ByteWave brezplačno",
+  "social_alt": "Predogled z znamko ByteWave za družbena omrežja",
+  "disclosure": {
+    "label": "Razkritje uporabe UI:",
+    "text": "Ta članek vključuje besedilo, ustvarjeno z jezikovnim modelom umetne inteligence (LLM).",
+    "by": "Avtor:",
+    "review": "Trditve o izdelku je pregledal ByteWave; primerjave odražajo poslovni interes ByteWave in niso neodvisne ocene."
+  },
+  "player": {
+    "play": "Predvajaj video",
+    "replay": "Znova predvajaj video",
+    "retry": "Znova poskusi z videom",
+    "tap": "Tapnite za predvajanje videa",
+    "tap_hint": "Za začetek videa tapnite gumb za predvajanje.",
+    "loading": "Nalaganje videa…",
+    "fallback": "Poskus nalaganja združljivega videa…",
+    "failed": "Videa ni bilo mogoče naložiti. Poskusite znova ali odprite spodnjo povezavo do videa."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Brezplačni urejevalnik videov z GPU pospeševanjem za iPhone, iPad in Mac",
+      "description": "Urejajte svoje posnetke z ByteWave, brezplačnim urejevalnikom videov za iPhone, iPad in Mac. Brez vodnih žigov in naročnin. Lokalno urejanje, podnapisi, učinki in zvok.",
+      "keywords": "brezplačni urejevalnik videov, urejevalnik videov brez vodnega žiga, alternativa capcut, urejevalnik videov ios, metal senčilniki, gpu urejevalnik videov, urejevalnik videov brez naročnine, zasebno urejanje videov, brezplačni urejevalnik videov iphone",
+      "social_title": "ByteWave - Brezplačni urejevalnik videov za iPhone, iPad in Mac",
+      "og_description": "Vaši posnetki. Vaše ustvarjalne odločitve. Brezplačno lokalno urejanje videov za iPhone, iPad in Mac, brez vodnih žigov in naročnin.",
+      "twitter_description": "Urejajte svoje posnetke. Brez vodnih žigov in naročnin. Lokalno urejanje videov z deljenjem po želji.",
+      "logo_alt": "Logotip ByteWave"
+    },
+    "schema": {
+      "description": "Brezplačni urejevalnik videov za iPhone, iPad in Mac. Urejajte svoje posnetke z lokalnim izrisovanjem, večplastnim zvokom in učinki Metal. Brez vodnih žigov in naročnin; spletno deljenje je izbirno.",
+      "features": "Urejevalnik lastnih senčilnikov Metal, Povečanje ločljivosti, Zameglitev gibanja, Časovno zmanjšanje šuma, Filtri skupnosti, Neomejene zvočne steze, Obdelava v napravi, Branje C2PA Content Credentials, Preverjene izjave o ustvarjanju z UI, Kriptografski izvor videa"
+    },
+    "hero": {
+      "tag": "ByteWave · Brezplačni urejevalnik videov",
+      "opening": "Ustvarite nekaj",
+      "emphasis": "resničnega,",
+      "ending": "ne le še enega reela.",
+      "edit": "Urejajte svoje posnetke. Lokalno v napravi.",
+      "platforms": "Brezplačni urejevalnik videov za iPhone, iPad in Mac.",
+      "examples": "Poglejte, kaj lahko ustvarite ↓",
+      "no_watermarks": "Brez naročnin. Brez vodnih žigov pri izvozu.",
+      "devices": "iOS / iPadOS 26 ali novejši. Mac: macOS 26 ali novejši, M1 ali novejši.",
+      "play_background": "Predvajaj video v ozadju",
+      "pause_background": "Začasno ustavi video v ozadju"
+    },
+    "download": "Prenesite ByteWave",
+    "showcase": {
+      "tag": "Začnite s tem, kar ste posneli",
+      "footage": "Vaši posnetki.",
+      "edit": "Vaša montaža.",
+      "intro": "Dodajte svoje fotografije in videe. Ostalo oblikujte po svoje.",
+      "layout": "Layout podjetja ByteWave",
+      "layout_desc": "Združite fotografije in videe v eni kompoziciji.",
+      "effects": "Filtri, učinki in",
+      "captions": "animirani podnapisi",
+      "captions_desc": "Poiščite svoj videz. Dodajte svoje besede.",
+      "audio": "Zvočna orodja",
+      "audio_desc": "Plastite steze in oblikujte zvok videa.",
+      "gallery": "Oglejte si videe, ustvarjene z ByteWave →",
+      "editor_alt": "Urejevalnik ByteWave s posnetki sončnega zahoda in orodji za urejanje v napravi",
+      "layout_alt": "Layout podjetja ByteWave združuje šest fotografij in videov oceana v eni kompoziciji"
+    },
+    "credentials": {
+      "tag": "Fotografije, videi in UI",
+      "title": "Je bilo to ustvarjeno z UI?",
+      "check": "Preverite fotografijo ali video.",
+      "check_desc": "ByteWave bere podprte C2PA Content Credentials, vključno s podpisanimi oznakami vsebine, ustvarjene z UI. Preverjanje poteka v vaši napravi.",
+      "how": "Kako preveriti datoteko →",
+      "signed": "Vaši izvozi so podpisani.",
+      "signed_desc": "Vsak izvoz prek možnosti Shrani v Fotografije dobi žig izvora ByteWave z digitalnim podpisom. Pomaga pokazati, da datoteka izvira iz ByteWave in ali se je od podpisa spremenila.",
+      "signed_link": "Kako delujejo podpisani izvozi →",
+      "caveat": "Ni podatkov o izvoru? To ne pomeni resnično ali lažno. Podpis ne more dokazati, da se je prizor zgodil.",
+      "newsrooms": "Preverjate posnetke za prispevek? Začnite tukaj →"
+    },
+    "geese": {
+      "tag": "Vsako orodje za urejanje. Brezplačno.",
+      "opening": "Svobodni kot",
+      "emphasis": "gosi.",
+      "desc": "Brez naročnin. Brez vodnih žigov pri izvozu. Za lokalno urejanje ne potrebujete računa.",
+      "fallback": "Odpri združljivo kopijo",
+      "caption": "Gosi plavajo v tekoči vodi, na zaslonu pa je napis »Free as in geese«.",
+      "alt": "Svobodni kot gosi: predogled aplikacije ByteWave"
+    },
+    "privacy": {
+      "title": "Vaši videi ostanejo v napravi",
+      "intro": "Začnite s trenutki, ki ste jih posneli. Obrežite posnetke, oblikujte zvok in sami izberite učinke. ByteWave izvaja urejanje in izrisovanje v vaši podprti napravi Apple.",
+      "local": "ByteWave obdeluje urejanje lokalno v vaši napravi Apple.",
+      "sharing": "Za lokalno urejanje ne potrebujete računa in vaši videi se ne nalagajo, razen če izrecno izberete objavo ali deljenje prek spletne funkcije.",
+      "stamp": "Vsak izvoz prek možnosti Shrani v Fotografije je kriptografsko podpisan z metapodatki izvora ByteWave, ki pomagajo preveriti izvor iz ByteWave in spremembe od podpisa. Podpis ne more dokazati, da se je prikazani dogodek zgodil.",
+      "stamp_link": "Preberite, kaj dokazujejo podpisani izvozi.",
+      "guide": "Kako urejati brez nalaganja svojih posnetkov"
+    },
+    "creative": {
+      "title": "Ste naveličani videov UI, ki preplavljajo vaš vir?",
+      "intro": "Če se Facebook ali TikTok zdita polna ustvarjenih posnetkov ali funkcije UI v CapCutu niso tisto, s čimer želite urejati, lahko začnete s svojimi posnetki.",
+      "choice": "Vaši posnetki, vaše urejanje, vaša odločitev o deljenju.",
+      "tools": "ByteWave ponuja orodja za delo s posnetim gradivom: animirane podnapise, lastne filtre, počasne posnetke in večplastni zvok. Na voljo so pomožne funkcije, kot je povečanje ločljivosti; za urejanje videa ni treba ustvariti prizora iz besedilnega poziva.",
+      "feed": "Anonimno brskajte po javnem viru ByteWave z izbirnim prilagajanjem, izračunanim v napravi, in brez zgodovine ogledov na strežniku.",
+      "feed_link": "Poglejte, kako deluje vir.",
+      "facebook": "Kako zmanjšati število videov UI v viru na Facebooku",
+      "tiktok": "Kako videti manj vsebin UI na TikToku",
+      "real": "Nekakovostne vsebine UI, resnični posnetki in ponovni prevzem ustvarjalnega nadzora",
+      "capcut": "Brezplačna alternativa CapCutu za urejanje svojih posnetkov",
+      "gallery": "Oglejte si videe, ustvarjene z ByteWave",
+      "or": "ali",
+      "tutorial": "preizkusite vodič za zameglitev gibanja.",
+      "download": "Brezplačno urejajte svoje posnetke"
+    },
+    "compare": {
+      "title": "ByteWave proti CapCutu",
+      "intro": "Orodja za urejanje ByteWave so brezplačna. CapCut nekatera enaka orodja vključuje v plačljive pakete.",
+      "feature": "Funkcija",
+      "price": "Cena",
+      "free": "$0",
+      "plans": "Brezplačni in plačljivi paketi",
+      "watermarks": "Vodni žigi",
+      "none": "Brez vodnega žiga ByteWave",
+      "varies": "Odvisno od orodja in izvoza",
+      "editing": "Urejanje",
+      "offline": "V napravi; račun ni potreben",
+      "cloud": "Lokalna in oblačna orodja",
+      "data": "Ravnanje s podatki",
+      "no_tracking": "Brez vedenjskega sledenja; računi in objavljanje so izbirni",
+      "policy": "Oglejte si pravilnik o zasebnosti CapCuta",
+      "provenance": "Izvor videa",
+      "stamp": "Žig ByteWave pri Shrani v Fotografije",
+      "export_options": "Preverite trenutne možnosti izvoza",
+      "slow_motion": "Počasni posnetki",
+      "included": "Vključeno",
+      "optical": "Optični tok: brezplačen preizkus",
+      "motion": "Zameglitev gibanja",
+      "pro_motion": "Navedeno v Pro*",
+      "noise": "Zmanjšanje šuma v videu",
+      "pro": "Paket Pro",
+      "desktop": "Namizni računalnik",
+      "upscale": "Povečanje ločljivosti z UI",
+      "device": "V napravi",
+      "paid": "Plačljiva naročnina",
+      "mobile": "Mobilne izboljšave z UI",
+      "tracks": "Zvočne steze",
+      "unlimited": "Brez omejitve števila stez",
+      "limits": "Preverite omejitve platforme",
+      "tts": "Pretvorba besedila v govor",
+      "voices": "Brezplačni glasovi; premijski glasovi porabljajo kredite",
+      "captions": "Samodejni podnapisi",
+      "pro_captions": "Pro za polni dostop",
+      "code": "Izvorna koda filtrov, ki jo lahko urejate",
+      "metal": "Vključena izvorna koda senčilnikov Metal",
+      "filter_tools": "Preverite trenutna orodja za filtre",
+      "community": "Filtri skupnosti",
+      "shared": "Deljeni senčilniki, ki jih lahko urejate",
+      "effects": "Brezplačni + Pro učinki in predloge",
+      "subject": "Izločanje motiva za filtre",
+      "masks": "Orodja za maske in izreze",
+      "note": "Preverjeno 18. oktobra 2026. Pro je plačljiva naročnina. *CapCut navaja zameglitev gibanja v Pro, vendar oglašuje tudi brezplačne različice. Dostop se razlikuje glede na platformo, regijo in ponudbo.",
+      "full": "Celotna primerjava"
+    },
+    "features": {
+      "title": "Kaj dobite",
+      "items": [
+        {
+          "title": "Preverjanje C2PA in izvor videa",
+          "body": "Preverite fotografije in videe za podprte Content Credentials, vključno z oznakami ustvarjanja z UI. Vsak izvoz prek Shrani v Fotografije dobi tudi žig ByteWave za lažje prepoznavanje poznejših sprememb."
+        },
+        {
+          "title": "Počasni posnetki in zameglitev gibanja",
+          "body": "Zgladite počasne posnetke s FRC. Zameglitev gibanja in časovno zmanjšanje šuma se prav tako pred predogledom obdelata lokalno v napravi."
+        },
+        {
+          "title": "Povečanje ločljivosti z UI",
+          "body": "Povečajte ločljivost v napravi. Brez obdelave v oblaku in čakanja na strežnik."
+        },
+        {
+          "title": "Neomejene zvočne steze",
+          "body": "Na vizualni časovnici plastite toliko zvočnih posnetkov, kot jih potrebujete. Vgrajeni zvočni učinki. Brez omejitve števila stez."
+        },
+        {
+          "title": "Pretvorba besedila v govor",
+          "body": "Vnesite besedilo za sintezo govora ali ustvarite podnapise v napravi. Izbirno samodejno označevanje drugim pomaga odkrivati deljene videe ter zahteva račun in izrecno privolitev."
+        },
+        {
+          "title": "Besedilni učinki",
+          "body": "Iskrice, glitch, neon in več. Animirano besedilo brez predznanja gibljive grafike."
+        },
+        {
+          "title": "Izločanje motiva",
+          "body": "Ločite motive od ozadja in na vsakega neodvisno uporabite filtre. Z enim tapom zameglite ozadje in ohranite oster motiv."
+        },
+        {
+          "title": "Lastni filtri z izvorno kodo",
+          "body": "Vsak filter pokaže kodo senčilnika, ki ga poganja. Uredite jo neposredno ali kopirajte kodo in prosite ChatGPT, naj ustvari nekaj novega."
+        },
+        {
+          "title": "Filtri skupnosti",
+          "body": "Objavite filtre, ki ste jih ustvarili. Brskajte po filtrih drugih ustvarjalcev in jih pridobite. Z enim tapom jih dodajte v knjižnico."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtri, ki jih lahko res urejate",
+      "desc": "Večina urejevalnikov obravnava filtre kot črno skrinjico. ByteWave pokaže kodo. Spremenite jo, učite se iz nje ali jo kopirajte in UI opišite želje; rezultat prilepite nazaj.",
+      "comment": "// Impresionistično ozadje, oster motiv"
+    },
+    "cta": {
+      "desc": "Urejajte brez povezave. Račun ni potreben. Naložite samo, ko se odločite za objavo.",
+      "apple": "Prenesite za Apple"
+    }
+  }
+}

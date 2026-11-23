@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Mafunzo ya ByteWave",
+    "updatedLabel": "Imesasishwa",
+    "updatedDate": "23 Novemba 2026",
+    "relatedLabel": "Miongozo inayohusiana"
+  },
+  "animatedCaptions": {
+    "title": "Jinsi ya Kuongeza Manukuu Yaliyohuishwa katika ByteWave",
+    "description": "Ongeza maandishi kwenye video yako, chagua madoido yaliyohuishwa na uweke manukuu yako katika ByteWave. Mwongozo mfupi kwa iPhone, iPad na Mac.",
+    "lead": "Ongeza maandishi yako kwenye video na uyape madoido yaliyohuishwa.",
+    "stepsHeading": "Ongeza manukuu yako",
+    "step1": "Fungua video yako katika ByteWave na uongeze manukuu.",
+    "step2": "Andika maandishi yako, kisha uchague manukuu kuhariri mtindo wake.",
+    "step3": "Chagua fonti, ukubwa na rangi. Weka maandishi juu ya video yako.",
+    "step4": "Chagua madoido ya maandishi, kisha ucheze video kuhakiki uhuishaji.",
+    "readabilityHeading": "Yawe rahisi kusoma",
+    "readabilityText": "Tumia sentensi fupi na rangi inayoonekana wazi dhidi ya video. Hakikisha uhuishaji unaacha muda wa kutosha kuyasoma.",
+    "relatedIntro": "Unatafuta mwonekano fulani? Mwongozo wa",
+    "relatedAnchor": "madoido ya manukuu",
+    "relatedTail": "unaeleza mipangilio kama Orbital Letters na Ember Ash.",
+    "relatedSticker": "Huisha kibandiko"
+  },
+  "animateStickers": {
+    "title": "Jinsi ya Kuhuisha Vibandiko katika ByteWave",
+    "description": "Fanya kibandiko kisogee kwenye video yako katika ByteWave. Tumia muda na fremu muhimu kubadilisha nafasi, ukubwa na mzunguko wake.",
+    "lead": "Tumia fremu muhimu kusogeza kibandiko, kubadilisha ukubwa wake au kukizungusha kadiri muda unavyopita.",
+    "stepsHeading": "Panga mwendo",
+    "step1": "Ongeza kibandiko kwenye video yako na ukichague.",
+    "step2": "Weka muda wa kuonekana kwake kwa vidhibiti vya muda.",
+    "step3": "Tumia vidhibiti vya fremu muhimu kurekodi nafasi, ukubwa na mzunguko wa mwanzo.",
+    "step4": "Nenda kwenye muda wa baadaye na uweke fremu muhimu nyingine yenye nafasi, ukubwa au mzunguko tofauti.",
+    "step5": "Cheza video kuhakiki mwendo kati ya fremu hizo.",
+    "readabilityHeading": "Anza na fremu muhimu mbili",
+    "readabilityText": "Jaribu kusogeza kibandiko kutoka upande mmoja wa fremu kwenda mwingine. Kikionekana vizuri, ongeza badiliko la ukubwa au mzunguko.",
+    "relatedCaption": "Ongeza manukuu yaliyohuishwa",
+    "relatedLayout": "Tengeneza kolaji ya video"
+  }
+}

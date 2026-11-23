@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave yachachiy",
+    "updatedLabel": "Musuqyachisqa",
+    "updatedDate": "23 Noviembre 2026",
+    "relatedLabel": "Tinkisqa yachachiykuna"
+  },
+  "captionEffects": {
+    "title": "ByteWave nisqapi qillqakunapaq efektokuna",
+    "description": "ByteWave nisqapi qillqapaq huk efektota akllay, kuyuriyninta ñawpaqta qhaway, hinaspa Orbital Letters, Supernova, Ember Ash nisqakunata tupachiy.",
+    "lead": "Kikiykip rimayniykikunapi huk efektota malliy. Hawaman manaraq apachispa, grabacionniykip hawanpi ñawpaqta qhaway.",
+    "stepsHeading": "Huk efektota akllay",
+    "step1": "ByteWave llamk'ayniykipi huk qillqata akllay.",
+    "step2": "Qillqa ipakuna nisqata kichay, hinaspa huk ñawpaqta wakichisqa akllanata akllay.",
+    "step3": "Videoykita purichiy efektota kuyuchkaptin qhawanaykipaq.",
+    "presetsHeading": "Kimsa mallinapaq",
+    "tip": "Sapa efektowan kikillan pisi rimayta malliy. Qillqa rikch'ayta, sayayninta, llimp'inta ima grabacionniykiman hina allichay.",
+    "fromScratch": "Mana imayuqmanta qallarinkichu?",
+    "firstCaption": "Ñawpaq qillqaykita yapay",
+    "fontsPrompt": "Huk qillqa rikch'aytachu munanki?",
+    "importFont": "Kikiykip qillqa rikch'ayniykita ukhuman apamuy",
+    "relatedSticker": "Huk laq'anata kuyuchiy"
+  },
+  "customFonts": {
+    "title": "Qillqa rikch'ayniykikunaqa suscripcionta mana mañakunankuchu.",
+    "description": "iPhone nisqapi kikiykip TTF utaq OTF qillqa rikch'ayniykikunata ByteWave ukhuman apamuy. Huk willañiqita akllay, hinaspa Qillqa Rikch'ayniykuna nisqata llamk'achiy qillqakunata mana qullqillapaq sumaqyachanaykipaq.",
+    "lead": "Kikiykip qillqa rikch'ayniykita videoykiman apamuy. ByteWave nisqapi qillqa rikch'aykunata ukhuman apamuyqa mana qullqillapaqmi.",
+    "stepsHeading": "iPhone nisqapi huk qillqa rikch'ayta ukhuman apamuy",
+    "step1": "TrueType (.ttf) utaq OpenType (.otf) qillqa rikch'ayta Willañiqikuna app nisqapi waqaychay. ZIP q'ipitaqa ñawpaqta kicharispa willañiqikunata hurquy.",
+    "step2": "ByteWave llamk'ayniykipi huk qillqata akllay, hinaspa Qillqa Rikch'ay panelninta kichay.",
+    "step3": "Qillqa rikch'ayta ukhuman apamuy nisqata ñit'iy, hinaspa willañiqita akllay.",
+    "step4": "Qillqa Rikch'ayniykuna nisqapi tariy. Qillqa rikch'ayta ñit'iy qillqaykiman churanaykipaq.",
+    "preview": "Videota purichiy qillqaykita qhawanaykipaq, sayayninta, llimp'inta ima allichay, hinaspa hawaman apachiy.",
+    "unsupportedHeading": "Willañiqita mana akllay atinkichu?",
+    "unsupported": "Kikin .ttf utaq .otf willañiqita akllay. Kay ukhuman apamuq herramienta mana yanapanchu .woff, .woff2 hina web qillqa rikch'aykunata.",
+    "startPrompt": "Ch'usaq llamk'aywan qallarinkichu?",
+    "firstCaption": "Ñawpaq qillqaykita yapay",
+    "effectsPrompt": "Chaymanta malliy",
+    "effectsLink": "qillqakunapaq efektokunata",
+    "license": "ByteWave mana qullqita mañakunchu qillqa rikch'aykunata ukhuman apamunaykipaq. Qillqa rikch'ay kikinmi chaninniyuq, licencayuq ima kanman; ruraqpa kamachikuyninkunata qhaway imapaq llamk'achinaykiman hina."
+  }
+}

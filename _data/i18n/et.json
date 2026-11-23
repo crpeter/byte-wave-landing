@@ -1,0 +1,231 @@
+{
+  "name": "Eesti",
+  "nav": {
+    "skip": "Liigu sisu juurde",
+    "label": "Peamenüü",
+    "menu": "Menüü",
+    "home": "Avaleht",
+    "features": "Funktsioonid",
+    "compare": "Võrdle",
+    "gallery": "Galerii",
+    "tutorials": "Õpetused",
+    "blog": "Blogi",
+    "about": "Meist",
+    "privacy": "Privaatsus",
+    "press": "Press",
+    "expression": "Sõnavabadus",
+    "download": "Laadi tasuta alla"
+  },
+  "footer": {
+    "motto": "Videotöötlus peaks olema tasuta.",
+    "devices": "iPhone iOS 26 või uuemaga · iPad iPadOS 26 või uuemaga · Mac macOS 26 või uuemaga ja Apple M1 või uuema kiibiga."
+  },
+  "get_free": "Hangi ByteWave tasuta",
+  "social_alt": "ByteWave’i kaubamärgiga sotsiaalmeedia eelvaade",
+  "disclosure": {
+    "label": "Teave tehisintellekti kasutamise kohta:",
+    "text": "See artikkel sisaldab tehisintellekti keelemudeli (LLM) loodud teksti.",
+    "by": "Autor",
+    "review": "Tooteväited vaatas üle ByteWave; võrdlused kajastavad ByteWave’i ärihuve ega ole sõltumatud arvustused."
+  },
+  "player": {
+    "play": "Esita video",
+    "replay": "Esita video uuesti",
+    "retry": "Proovi videot uuesti",
+    "tap": "Puuduta video esitamiseks",
+    "tap_hint": "Video käivitamiseks puuduta esitusnuppu.",
+    "loading": "Video laadimine…",
+    "fallback": "Proovin ühilduvat videot…",
+    "failed": "Videot ei õnnestunud laadida. Proovi uuesti või ava allolev videolink."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Tasuta GPU-põhine videotöötlus iPhone’ile, iPadile ja Macile",
+      "description": "Töötle enda salvestisi ByteWave’iga, tasuta videoredaktoriga iPhone’ile, iPadile ja Macile. Vesimärkide ja tellimusteta. Kohalik töötlus, subtiitrid, efektid ja heli.",
+      "keywords": "tasuta videotöötlus, videoredaktor vesimärgita, capcuti alternatiiv, ios videotöötlus, metal varjutajad, gpu videotöötlus, videotöötlus tellimuseta, privaatne videotöötlus, tasuta iphone videotöötlus",
+      "social_title": "ByteWave - Tasuta videotöötlus iPhone’ile, iPadile ja Macile",
+      "og_description": "Sinu salvestised. Sinu loomingulised valikud. Tasuta kohalik videotöötlus iPhone’ile, iPadile ja Macile, vesimärkide ja tellimusteta.",
+      "twitter_description": "Töötle enda salvestisi. Vesimärkide ja tellimusteta. Kohalik videotöötlus, mille jagamisvõimalus on valikuline.",
+      "logo_alt": "ByteWave’i logo"
+    },
+    "schema": {
+      "description": "Tasuta videoredaktor iPhone’ile, iPadile ja Macile. Töötle enda salvestisi kohaliku renderdamise, kihilise heli ja Metal-põhiste efektidega. Vesimärkide ja tellimusteta; veebis jagamine on valikuline.",
+      "features": "Kohandatud Metal-varjutajate redaktor, superresolutsiooniga suurendamine, liikumishägu, ajaline müravähendus, kogukonna filtrid, piiramatu arv heliradasid, seadmesisene töötlus, C2PA Content Credentialsi lugemine, kinnitatud tehisintellektiga loomise deklaratsioonid, krüptograafiline video päritolu"
+    },
+    "hero": {
+      "tag": "ByteWave · Tasuta videoredaktor",
+      "opening": "Loo midagi",
+      "emphasis": "päris",
+      "ending": "mitte lihtsalt järjekordset reel’i.",
+      "edit": "Töötle enda salvestisi. Kohalikult oma seadmes.",
+      "platforms": "Tasuta videoredaktor iPhone’ile, iPadile ja Macile.",
+      "examples": "Vaata, mida saad luua ↓",
+      "no_watermarks": "Tellimusteta. Ekspordil vesimärkideta.",
+      "devices": "iOS / iPadOS 26 või uuem. Mac: macOS 26 või uuem, M1 või uuem.",
+      "play_background": "Esita taustavideo",
+      "pause_background": "Peata taustavideo"
+    },
+    "download": "Laadi ByteWave alla",
+    "showcase": {
+      "tag": "Alusta sellest, mida ise filmisid",
+      "footage": "Sinu salvestised.",
+      "edit": "Sinu montaaž.",
+      "intro": "Võta oma fotod ja videod. Ülejäänu kujunda ise.",
+      "layout": "ByteWave’i Layout",
+      "layout_desc": "Ühenda fotod ja videod üheks kompositsiooniks.",
+      "effects": "Filtrid, efektid ja",
+      "captions": "animeeritud subtiitrid",
+      "captions_desc": "Leia oma stiil. Lisa oma sõnad.",
+      "audio": "Helitööriistad",
+      "audio_desc": "Paiguta rajad kihtidesse ja kujunda video heli.",
+      "gallery": "Vaata ByteWave’iga tehtud videoid →",
+      "editor_alt": "ByteWave’i redaktor päikeseloojangu salvestise ja seadmes töötavate tööriistadega",
+      "layout_alt": "ByteWave’i Layout ühendab kuus merefotot ja -videot üheks kompositsiooniks"
+    },
+    "credentials": {
+      "tag": "Fotod, videod ja tehisintellekt",
+      "title": "Kas see on tehtud tehisintellektiga?",
+      "check": "Kontrolli fotot või videot.",
+      "check_desc": "ByteWave loeb toetatud C2PA Content Credentialsi päritoluandmeid, sealhulgas allkirjastatud märgiseid, mis tuvastavad tehisintellekti loodud sisu. Kontroll toimub sinu seadmes.",
+      "how": "Kuidas faili kontrollida →",
+      "signed": "Sinu ekspordid on allkirjastatud.",
+      "signed_desc": "Iga rakendusse Fotod salvestatud eksport saab digiallkirjaga ByteWave’i päritolutempli. See aitab näidata, et fail pärineb ByteWave’ist ja kas seda on pärast allkirjastamist muudetud.",
+      "signed_link": "Kuidas allkirjastatud eksport töötab →",
+      "caveat": "Päritoluandmeid pole? See ei tähenda, et sisu on päris või võlts. Allkiri ei tõesta, et stseen tegelikult aset leidis.",
+      "newsrooms": "Kontrollid salvestist loo jaoks? Alusta siit →"
+    },
+    "geese": {
+      "tag": "Kõik töötlustööriistad. Tasuta.",
+      "opening": "Vaba nagu",
+      "emphasis": "hani.",
+      "desc": "Tellimusteta. Ekspordil vesimärkideta. Kohalikuks töötluseks pole kontot vaja.",
+      "fallback": "Ava ühilduv koopia",
+      "caption": "Haned liikuvas vees, ekraanil tekst “Free as in geese”.",
+      "alt": "Vaba nagu hani: ByteWave’i rakenduse eelvaade"
+    },
+    "privacy": {
+      "title": "Sinu videod jäävad sinu seadmesse",
+      "intro": "Alusta salvestatud hetkedest. Kärbi klippe, kujunda heli ja vali efektid ise. ByteWave hoiab töötluse ja renderdamise sinu toetatud Apple’i seadmes.",
+      "local": "ByteWave töötleb videoid kohalikult sinu Apple’i seadmes.",
+      "sharing": "Kohalik töötlus ei vaja kontot ja videoid ei laadita üles, välja arvatud juhul, kui valid ise nende avaldamise või jagamise veebifunktsiooni kaudu.",
+      "stamp": "Iga rakendusse Fotod salvestatud eksport allkirjastatakse krüptograafiliselt ByteWave’i päritolumetaandmetega, mis aitavad kinnitada ByteWave’i päritolu ja seda, kas faili on pärast allkirjastamist muudetud. Allkiri ei saa tõestada, et kujutatud sündmus päriselt toimus.",
+      "stamp_link": "Uuri, mida allkirjastatud eksport tõendab.",
+      "guide": "Kuidas töödelda salvestisi neid üles laadimata"
+    },
+    "creative": {
+      "title": "Oled tüdinud sellest, et tehisintellektivideod sinu voo üle võtavad?",
+      "intro": "Kui Facebook või TikTok tundub loodud klippidest üle ujutatud või CapCuti tehisintellektifunktsioonid pole see, millega soovisid töödelda, võid alustada enda salvestistest.",
+      "choice": "Sinu salvestised, sinu töötlus, sinu otsus jagada.",
+      "tools": "ByteWave annab sulle tööriistad enda filmituga töötamiseks: animeeritud subtiitrid, kohandatud filtrid, aegluup ja kihiline heli. Abistavad funktsioonid, näiteks suurendamine, on olemas; video töötlemiseks ei pea stseeni viiba abil genereerima.",
+      "feed": "Sirvi ByteWave’i avalikku voogu anonüümselt; valikuline isikupärastamine arvutatakse sinu seadmes ja serveris vaatamisajalugu ei peeta.",
+      "feed_link": "Vaata, kuidas voog töötab.",
+      "facebook": "Kuidas vähendada tehisintellektivideoid Facebooki voos",
+      "tiktok": "Kuidas näha TikTokis vähem tehisintellektisisu",
+      "real": "Tehisintellektirämps, päris salvestised ja loomingulise kontrolli tagasivõtmine",
+      "capcut": "Tasuta CapCuti alternatiiv enda salvestiste töötlemiseks",
+      "gallery": "Vaata ByteWave’iga tehtud videoid",
+      "or": "või",
+      "tutorial": "proovi liikumishägu õpetust.",
+      "download": "Töötle enda salvestisi tasuta"
+    },
+    "compare": {
+      "title": "ByteWave vs. CapCut",
+      "intro": "ByteWave’i töötlustööriistad on tasuta. CapCut paigutab osa samu tööriistu tasulistesse pakettidesse.",
+      "feature": "Funktsioon",
+      "price": "Hind",
+      "free": "$0",
+      "plans": "Tasuta ja tasulised paketid",
+      "watermarks": "Vesimärgid",
+      "none": "ByteWave’i vesimärki pole",
+      "varies": "Sõltub tööriistast ja ekspordist",
+      "editing": "Töötlus",
+      "offline": "Seadmes; kontot pole vaja",
+      "cloud": "Kohalikud ja pilvetööriistad",
+      "data": "Andmete käitlemine",
+      "no_tracking": "Käitumusliku jälgimiseta; konto ja avaldamine on valikulised",
+      "policy": "Vaata CapCuti privaatsuspoliitikat",
+      "provenance": "Video päritolu",
+      "stamp": "ByteWave’i tempel rakendusse Fotod salvestamisel",
+      "export_options": "Kontrolli praegusi ekspordivõimalusi",
+      "slow_motion": "Aegluup",
+      "included": "Sisaldub",
+      "optical": "Optiline voog: tasuta proovimine",
+      "motion": "Liikumishägu",
+      "pro_motion": "Loetletud Pro paketis*",
+      "noise": "Video müravähendus",
+      "pro": "Pro pakett",
+      "desktop": "Arvuti",
+      "upscale": "Tehisintellektiga suurendamine",
+      "device": "Seadmes",
+      "paid": "Tasuline tellimus",
+      "mobile": "Mobiilne tehisintellektiga täiustamine",
+      "tracks": "Helirajad",
+      "unlimited": "Radade arv pole piiratud",
+      "limits": "Kontrolli platvormi piiranguid",
+      "tts": "Tekst kõneks",
+      "voices": "Tasuta hääled; tasulised hääled kasutavad krediiti",
+      "captions": "Automaatsed subtiitrid",
+      "pro_captions": "Täielik ligipääs Pro paketiga",
+      "code": "Muudetav filtrite lähtekood",
+      "metal": "Metal-varjutaja lähtekood on kaasas",
+      "filter_tools": "Kontrolli praegusi filtritööriistu",
+      "community": "Kogukonna filtrid",
+      "shared": "Jagatud muudetavad varjutajad",
+      "effects": "Tasuta ja Pro efektid ning mallid",
+      "subject": "Objekti eraldamine filtrite jaoks",
+      "masks": "Maskimis- ja väljalõiketööriistad",
+      "note": "Kontrollitud 18. oktoobril 2026. Pro on tasuline tellimus. *CapCut loetleb liikumishägu Pro paketis, kuid reklaamib ka tasuta versioone. Ligipääs sõltub platvormist, piirkonnast ja pakkumisest.",
+      "full": "Täielik võrdlus"
+    },
+    "features": {
+      "title": "Mida saad",
+      "items": [
+        {
+          "title": "C2PA kontroll ja video päritolu",
+          "body": "Kontrolli fotodelt ja videotelt toetatud Content Credentialsi andmeid, sealhulgas tehisintellektiga loomise märgiseid. Iga rakendusse Fotod salvestatud eksport saab ka ByteWave’i templi, mis aitab hilisemaid muudatusi tuvastada."
+        },
+        {
+          "title": "Aegluup ja liikumishägu",
+          "body": "Muuda aegluubis video FRC abil sujuvamaks. Liikumishägu ja ajaline müravähendus töödeldakse samuti enne eelvaadet kohalikult sinu seadmes."
+        },
+        {
+          "title": "Tehisintellektiga suurendamine",
+          "body": "Suurenda eraldusvõimet seadmes. Pilvetöötluseta ja serveri järel ootamata."
+        },
+        {
+          "title": "Piiramatu arv heliradasid",
+          "body": "Lisa visuaalsele ajajoonele nii palju heliklippe, kui vajad. Sisseehitatud heliefektid. Radade arv pole piiratud."
+        },
+        {
+          "title": "Tekst kõneks",
+          "body": "Sisesta tekst kõnesünteesiks või loo subtiitrid oma seadmes. Valikuline automaatne märgistamine aitab teistel jagatud videoid leida ning nõuab kontot ja nõusolekut."
+        },
+        {
+          "title": "Tekstiefektid",
+          "body": "Sädelus, glitch, neoon ja palju muud. Animeeritud tekst, mis ei nõua liikuva graafika kogemust."
+        },
+        {
+          "title": "Objekti eraldamine",
+          "body": "Eralda objektid taustast ja rakenda neile filtreid sõltumatult. Hägusta taust, hoia objekt terav; ühe puudutusega."
+        },
+        {
+          "title": "Kohandatud filtrid lähtekoodiga",
+          "body": "Iga filter näitab selle taga olevat varjutajakoodi. Muuda seda otse või kopeeri kood ja palu ChatGPT-l midagi uut teha."
+        },
+        {
+          "title": "Kogukonna filtrid",
+          "body": "Avalda enda loodud filtrid. Sirvi ja hangi teiste loojate filtreid. Lisa need oma kogusse ühe puudutusega."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtrid, mida saad päriselt muuta",
+      "desc": "Enamik redaktoreid hoiab filtrite sisu varjul. ByteWave näitab sulle koodi. Muuda seda, õpi sellest või kopeeri see ja kirjelda tehisintellektile, mida soovid; kleebi tulemus tagasi.",
+      "comment": "// Impressionistlik taust, terav objekt"
+    },
+    "cta": {
+      "desc": "Töötle võrguühenduseta. Kontot pole vaja. Laadi üles ainult siis, kui otsustad avaldada.",
+      "apple": "Laadi Apple’i seadmele alla"
+    }
+  }
+}

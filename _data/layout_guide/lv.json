@@ -1,0 +1,61 @@
+{
+  "title": "Bezmaksas video kolāžu veidotājs iPhone, iPad un Mac",
+  "lead": "Kārto video citu virs cita. Apvieno fotoattēlus un klipus. Veido režģus vai šūnveida izkārtojumus ar ByteWave, bez maksas iPhone, iPad un Mac ar Apple Silicon.",
+  "orientations": "Viens izkārtojums, divas orientācijas",
+  "honeyText": "Septiņās sešstūra šūnās redzams Mēness, suns un saulains lauks.",
+  "seasideText": "Seši piejūras klipi dala vienu kadru, pēc tam montāža pāriet uz suni, kas spēlējas pludmalē.",
+  "warpedText": "Jūras saulrieta ieraksts izliekts lokveida, spoguļotās joslās.",
+  "hexText": "Jūras saulrieti un viļņi izvietoti četros sešstūra paneļos virs pilnkadra saulrieta fona ByteWave.",
+  "features": "Vairāk nekā foto kolāža",
+  "feature1": "Apvieno fotoattēlus un video vienā izkārtojumā.",
+  "feature2": "Kārto klipus vertikāli vai novieto tos blakus.",
+  "feature3": "Veido režģus ar līdz pat 144 šūnām.",
+  "feature4": "Izmēģini simetriju un daudzstūru formas ar līdz pat divpadsmit malām.",
+  "make": "Izveido izkārtojumu",
+  "step1": "Atver ByteWave Layout.",
+  "step2": "Izvēlies izkārtojumu un pievieno savus fotoattēlus un video.",
+  "step3": "Pielāgo kompozīciju, priekšskati to un eksportē.",
+  "pricing": "Bez maksas iPhone, iPad un Mac ar Apple Silicon. Montāža notiek lokāli tavā ierīcē. Bez abonementa vai ByteWave eksporta ūdenszīmes.",
+  "date": "2026. gada 23. novembris",
+  "publisher": "Publicējis ByteWave, kas veido šeit aplūkoto lietotni.",
+  "description": "Veido video kolāžas ar ByteWave. Kārto klipus, apvieno fotoattēlus un video un veido režģus vai šūnveida izkārtojumus. Bez maksas, bez abonementa vai eksporta ūdenszīmes.",
+  "socialAlt": "Fotoattēli un video. Viens izkārtojums. Kārto klipus, veido režģus un izmēģini jaunas formas.",
+  "updated": "Atjaunināts",
+  "related": "Saistītās pamācības",
+  "open": "Atvērt video",
+  "openCompatible": "Atvērt saderīgu kopiju",
+  "watch": "Skatīties MP4",
+  "demos": "Ar ByteWave Layout veidoti video",
+  "gallery": "Skati vairāk montāžu galerijā",
+  "captions": "Pievieno animētus subtitrus",
+  "stickers": "Pievieno kustīgas uzlīmes",
+  "videoTitles": [
+    "Šūnveida raksts",
+    "Piejūras režģis pāriet uz pludmali",
+    "Izkropļots saulriets",
+    "Saulrieta sešstūri · Vertikāli",
+    "Saulrieta sešstūri · Horizontāli"
+  ],
+  "videoAlt": [
+    "Video ar šūnveida izkārtojumu",
+    "Sešu paneļu piejūras izkārtojums, kam seko suns pludmalē",
+    "Video ar izkropļota saulrieta izkārtojumu",
+    "Vertikāls video ar saulrieta sešstūriem",
+    "Horizontāls video ar saulrieta sešstūriem"
+  ],
+  "schemaNames": [
+    "Šūnveida izkārtojums ByteWave",
+    "Piejūras režģis pāriet uz pludmali",
+    "Izkropļots saulriets",
+    "Saulrieta sešstūri (vertikāli)",
+    "Saulrieta sešstūri (horizontāli)"
+  ],
+  "videoDescriptions": [
+    "Septiņās sešstūra šūnās redzams Mēness, suns un saulains lauks.",
+    "Sešu paneļu piejūras izkārtojums, kam seko pilnkadra klips ar suni, kas spēlējas pludmalē.",
+    "Jūras saulrieta ieraksts izliekts lokveida, spoguļotās joslās ar ByteWave Layout.",
+    "Jūras saulrieti un viļņi izvietoti četros sešstūra paneļos virs pilnkadra saulrieta fona ByteWave.",
+    "Četri sešstūra paneļi ar jūras saulrietiem un viļņiem centrēti virs plata, oranža saulrieta un jūras fona."
+  ],
+  "modified": "2026-11-23"
+}

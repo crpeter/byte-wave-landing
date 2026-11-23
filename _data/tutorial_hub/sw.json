@@ -1,0 +1,98 @@
+{
+  "title": "Mafunzo ya kuhariri video",
+  "description": "Miongozo mifupi ya ByteWave ya kolaji za video, manukuu yaliyohuishwa, madoido ya maandishi, vibandiko vinavyosogea, ukungu wa mwendo na ukaguzi wa Content Credentials.",
+  "intro": "Tengeneza mpangilio, ongeza manukuu, huisha vibandiko au kagua faili. Miongozo mifupi ya zana za ByteWave.",
+  "action": "Tazama mwongozo",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout kutoka ByteWave",
+      "description": "Panga klipu juu ya nyingine, tengeneza gridi na ujaribu maumbo mapya.",
+      "format": "Mifano mitatu ya video",
+      "alt": "Mpangilio wa sega la asali wenye video za mwezi na mbwa"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Ongeza manukuu yaliyohuishwa",
+      "description": "Maneno yako, kwenye video yako.",
+      "format": "Mwongozo wa maandishi",
+      "alt": "Ongeza manukuu yaliyohuishwa."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Chagua madoido ya maandishi ya manukuu",
+      "description": "Orbital Letters, Supernova, Ember Ash na mengine.",
+      "format": "Mwongozo wa maandishi",
+      "alt": "Madoido ya maandishi ya manukuu."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Ingiza fonti zako mwenyewe",
+      "description": "Tumia fonti za TTF na OTF katika manukuu ya video zako.",
+      "format": "Mwongozo wa maandishi",
+      "alt": "Fonti zako. Video yako. Ingiza fonti za TTF na OTF katika ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Huisha vibandiko kwa fremu muhimu",
+      "description": "Nafasi, ukubwa, mzunguko na fremu muhimu.",
+      "format": "Mwongozo wa maandishi",
+      "alt": "Fanya vibandiko vyako visogee."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Ongeza ukungu wa mwendo kwenye video",
+      "description": "Linganisha matokeo sambamba, tafuta Ukungu wa Mwendo katika kihariri na urekebishe nguvu yake kwa klipu yako.",
+      "format": "iPhone · Ulinganisho wa sekunde 20",
+      "alt": "Ulinganisho wa video ya bandari: asili kushoto, ukungu wa mwendo wa ByteWave kulia.",
+      "left": "Asili",
+      "right": "Ukungu wa mwendo wa ByteWave"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Ubadilishaji wa kasi ya fremu kwa mwendo wa polepole",
+      "description": "Linganisha klipu ya ndege hummingbird kwa kasi ya 0.1× na uone jinsi ubadilishaji wa kasi ya fremu unavyobadilisha mwendo uliopunguzwa.",
+      "format": "iPhone · Ulinganisho wa sekunde 30",
+      "alt": "Ulinganisho wa hummingbird: upunguzaji wa kawaida wa 0.1× kushoto, ubadilishaji wa kasi ya fremu wa ByteWave kulia.",
+      "left": "Upunguzaji wa kawaida · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Upunguzaji wa kelele kwa fremu mfululizo",
+      "description": "Linganisha kelele na maelezo madogo katika video ya mfano ya Apple, kisha jifunze cha kuangalia katika klipu zako.",
+      "format": "iPhone · Ulinganisho wa sekunde 8",
+      "alt": "Mfano wa Apple wa majani mekundu: asili kushoto, upunguzaji wa kelele kwa fremu mfululizo wa ByteWave kulia.",
+      "left": "Asili",
+      "right": "Upunguzaji wa kelele wa ByteWave"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Kagua Content Credentials za C2PA",
+      "description": "Fungua beji ya asili ujifunze maana ya matamko yaliyothibitishwa ya utengenezaji kwa AI, tathmini za metadata na ukosefu wa ushahidi.",
+      "format": "Picha na video · Mwongozo wa maandishi",
+      "alt": "Kagua Content Credentials katika ByteWave: mafunzo ya asili ya picha na video."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Ondoa metadata ya mahali",
+      "description": "Kagua nakala ya video ya kufanyia kazi, ondoa sehemu zinazoharirika na ukague kilichobaki kabla ya kushiriki.",
+      "format": "Faragha · Mwongozo wa maandishi",
+      "alt": "Jua zaidi. Shiriki kidogo. Kagua na uondoe metadata inayoharirika kabla ya kushiriki video yako."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Tafsiri manukuu ya video",
+      "description": "Badilisha manukuu ya kiotomatiki yawe katika lugha nyingine inayotumika, linganisha na asili na ukague matokeo kabla ya kuhifadhi.",
+      "format": "iPhone na iPad · Mwongozo wa maandishi",
+      "alt": "Tafsiri manukuu ya video. Badilisha manukuu ya kiotomatiki yawe katika lugha nyingine inayotumika, linganisha na asili na ukague matokeo kabla ya kuhifadhi."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Fanya madoido yaitikie muziki",
+      "description": "Chagua kichujio cha Sauti, linganisha mipangilio ya jiometria iliyohuishwa na ukague mwitikio katika sehemu tulivu na zenye sauti kubwa zaidi.",
+      "format": "iPhone na iPad · Mwongozo wa maandishi",
+      "alt": "Fanya madoido yaitikie muziki. Chagua kichujio cha Sauti, linganisha mipangilio ya jiometria iliyohuishwa na ukague mwitikio katika sehemu tulivu na zenye sauti kubwa zaidi."
+    }
+  ]
+}

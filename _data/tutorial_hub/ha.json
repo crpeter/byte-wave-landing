@@ -1,0 +1,98 @@
+{
+  "title": "Darussan gyaran bidiyo",
+  "description": "Gajerun jagororin ByteWave don haɗa bidiyo, rubutun magana mai motsi, tasirin rubutu, lambobi masu motsi, dishewar motsi da duba Content Credentials.",
+  "intro": "Yi tsari, ƙara rubutun magana, sa lambobi motsi ko duba fayil. Gajerun jagororin kayan ByteWave.",
+  "action": "Duba jagora",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout daga ByteWave",
+      "description": "Jera guntayen bidiyo, gina grid ka gwada sababbin siffofi.",
+      "format": "Misalan bidiyo guda uku",
+      "alt": "Tsarin saƙar zuma da bidiyon wata da kare"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Ƙara rubutun magana mai motsi",
+      "description": "Kalmominka, a bidiyonka.",
+      "format": "Jagoran rubutu",
+      "alt": "Ƙara rubutun magana mai motsi."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Zaɓi tasirin rubutun magana",
+      "description": "Orbital Letters, Supernova, Ember Ash da ƙari.",
+      "format": "Jagoran rubutu",
+      "alt": "Tasirin rubutun magana."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Shigo da font naka",
+      "description": "Yi amfani da font na TTF da OTF a rubutun maganar bidiyonka.",
+      "format": "Jagoran rubutu",
+      "alt": "Font naka. Bidiyonka. Shigo da font na TTF da OTF a ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Sa lambobi su motsa da firam ɗin maɓalli",
+      "description": "Matsayi, girma, juyawa da firam ɗin maɓalli.",
+      "format": "Jagoran rubutu",
+      "alt": "Sa lambobinka su motsa."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Ƙara dishewar motsi a bidiyo",
+      "description": "Kwatanta sakamako gefe da gefe, nemo Motion Blur a edita ka daidaita ƙarfinsa don guntun bidiyonka.",
+      "format": "iPhone · Kwatancen sakan 20",
+      "alt": "Kwatancen bidiyon tashar jirgin ruwa: na asali a hagu, dishewar motsi ta ByteWave a dama.",
+      "left": "Na asali",
+      "right": "Dishewar motsi ta ByteWave"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Sauya yawan firam don motsi a hankali",
+      "description": "Kwatanta guntun bidiyon hummingbird a gudun 0.1× ka ga yadda sauya yawan firam ke sauya motsin da aka rage.",
+      "format": "iPhone · Kwatancen sakan 30",
+      "alt": "Kwatancen hummingbird: rage gudu na yau da kullum na 0.1× a hagu, sauya yawan firam na ByteWave a dama.",
+      "left": "Rage gudu na yau da kullum · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Rage ƙurar hoto ta firam masu jere",
+      "description": "Kwatanta ƙurar hoto da ƙananan bayanai a bidiyon misalin Apple, sannan ka koyi abin da za ka duba a bidiyoyinka.",
+      "format": "iPhone · Kwatancen sakan 8",
+      "alt": "Misalin Apple na jajayen ganye: na asali a hagu, rage ƙurar hoto ta firam masu jere na ByteWave a dama.",
+      "left": "Na asali",
+      "right": "Rage ƙurar hoto na ByteWave"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Duba Content Credentials na C2PA",
+      "description": "Buɗe tambarin asali ka koyi ma'anar tabbatattun bayanan samarwa da AI, kimantawar metadata da rashin shaida.",
+      "format": "Hotuna da bidiyo · Jagoran rubutu",
+      "alt": "Duba Content Credentials a ByteWave: darasin asalin hoto da bidiyo."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Cire metadata na wuri",
+      "description": "Duba kwafin bidiyon aiki, cire filayen da za a iya gyarawa ka duba abin da ya rage kafin rabawa.",
+      "format": "Sirri · Jagoran rubutu",
+      "alt": "San ƙari. Raba kaɗan. Duba ka cire metadata mai gyaruwa kafin raba bidiyonka."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Fassara rubutun magana na bidiyo",
+      "description": "Mayar da rubutun magana na atomatik zuwa wani harshen da ake tallafawa, kwatanta na asali ka duba sakamakon kafin fitarwa.",
+      "format": "iPhone da iPad · Jagoran rubutu",
+      "alt": "Fassara rubutun magana na bidiyo. Mayar da rubutun magana na atomatik zuwa wani harshen da ake tallafawa, kwatanta na asali ka duba sakamakon kafin fitarwa."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Sa tasiri ya amsa wa kiɗa",
+      "description": "Zaɓi matacin Sauti, kwatanta tsare-tsaren siffofi masu motsi ka duba amsawa a wuraren shiru da masu ƙarar sauti.",
+      "format": "iPhone da iPad · Jagoran rubutu",
+      "alt": "Sa tasiri ya amsa wa kiɗa. Zaɓi matacin Sauti, kwatanta tsare-tsaren siffofi masu motsi ka duba amsawa a wuraren shiru da masu ƙarar sauti."
+    }
+  ]
+}

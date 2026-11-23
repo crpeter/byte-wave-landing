@@ -27,6 +27,7 @@ SITE_LOCALES = {
     "en", "es", "fr", "de", "it", "nl", "pt-PT", "pt-BR", "sv",
     "no", "fi", "pl", "tr", "uk", "ja", "ko", "zh-Hant",
 }
+EXPANDED_LOCALES = set(json.loads((SOURCE_ROOT / '_data/expanded_languages.json').read_text()))
 APP_STORE_LOCALES = {
     "de-DE", "en-CA", "en-GB", "en-US", "es-ES", "es-MX",
     "fi", "fr-FR", "it", "ja", "ko", "nl-NL", "no", "pl",
@@ -215,6 +216,9 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
                         "ko": ("AI 사용 안내:", "인공지능 언어 모델"),
                         "zh-Hant": ("AI 使用聲明：", "語言模型"),
                     }
+                    if p.lang in EXPANDED_LOCALES:
+                        translated = json.loads((SOURCE_ROOT / '_data/i18n' / f'{p.lang}.json').read_text())['disclosure']
+                        disclosures[p.lang] = (translated['label'], translated['text'])
                     disclosure = disclosures.get(p.lang, ("AI disclosure:", "generated with an AI language model (LLM)"))
                     if not all(phrase in text for phrase in disclosure):
                         errors.append(f"{rel}: disclosure must explicitly identify AI-generated text")
@@ -225,7 +229,11 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             if p.main_count != 1: errors.append(f"{rel}: expected one main landmark")
             if "#main" not in p.links or "main" not in p.ids: errors.append(f"{rel}: missing skip link or target")
             required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
-            if is_localized:
+            if is_localized and p.lang in EXPANDED_LOCALES:
+                # These languages currently cover the homepage and tutorials.
+                required_footer.remove('/'); required_footer.add(f'/{locale_slug(p.lang)}/')
+                required_footer.remove('/tutorials/'); required_footer.add(f'/{locale_slug(p.lang)}/tutorials/')
+            elif is_localized:
                 required_footer.remove("/"); required_footer.add(f"/{locale_slug(p.lang)}/")
                 required_footer.remove("/press.html")
                 required_footer.add(f"/{locale_slug(p.lang)}/press.html")
@@ -243,8 +251,11 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             for key in REQUIRED:
                 if not p.metas.get(key): errors.append(f"{rel}: missing {key}")
             for val, pool, label in [(p.title.strip(), titles, "title"), (p.metas.get("description", ""), descs, "description")]:
-                if val in pool: errors.append(f"{rel}: duplicate {label} with {pool[val]}")
-                pool[val] = rel
+                # Related languages can naturally share wording. Still reject
+                # duplicate metadata on different pages in the same language.
+                key = (p.lang, val)
+                if key in pool: errors.append(f"{rel}: duplicate {label} with {pool[key]}")
+                pool[key] = rel
         for data in p.jsonld:
             try: json.loads(data)
             except Exception as exc: errors.append(f"{file.relative_to(ROOT)}: invalid JSON-LD: {exc}")
@@ -269,8 +280,12 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
         is_localized = page.lang != "en" and rel.parts[0] == locale_slug(page.lang)
         if not page.alternates and not is_localized: continue
         versions = dict(page.alternates)
+        section = Path(*rel.parts[1:]) if is_localized else rel
+        expected_locales = SITE_LOCALES
+        if section == Path('index.html') or section.parts[0] in {'tutorials', 'layout'}:
+            expected_locales = SITE_LOCALES | EXPANDED_LOCALES
         if (len(versions) != len(page.alternates)
-                or not SITE_LOCALES.issubset(versions)
+                or not expected_locales.issubset(versions)
                 or not APP_STORE_LOCALES.issubset(versions)
                 or versions.get(page.lang) != url
                 or versions.get("x-default") != versions.get("en")):

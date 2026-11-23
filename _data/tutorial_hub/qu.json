@@ -1,0 +1,98 @@
+{
+  "title": "Kuyuy siq'i allichay yachachiykuna",
+  "description": "ByteWavepa pisi yachachiykuna: kuyuy siq'i huñukuna, kuyuq qillqakuna, qillqa rikch'aykuna, kuyuq laq'anakuna, kuyuy mana sut'i, Content Credentials qhawariy.",
+  "intro": "Churayta ruray, qillqata yapay, laq'anakunata kuyuchiy utaq willañiqita qhawariy. ByteWave ruwanakunapaq pisi yachachiykuna.",
+  "action": "Yachachiyta qhaway",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "ByteWavepa Layoutnin",
+      "description": "Kuyuy siq'i rakikunata patarayachiy, tawa k'uchu churaykunata ruray, musuq rikch'aykunata malliy.",
+      "format": "Kimsa kuyuy siq'i rikuchinakuna",
+      "alt": "Misk'i panal hina churay, killa, allqu hap'isqakunawan"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Kuyuq qillqakunata yapay",
+      "description": "Rimayniykikuna, kuyuy siq'iykipi.",
+      "format": "Qillqasqa yachachiy",
+      "alt": "Kuyuq qillqakunata yapay."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Qillqa rikch'aykunata akllay",
+      "description": "Orbital Letters, Supernova, Ember Ash, hukkunapas.",
+      "format": "Qillqasqa yachachiy",
+      "alt": "Qillqa rikch'aykuna."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Kikin qillqa rikch'ayniykikunata apamuy",
+      "description": "Kuyuy siq'i qillqaykikunapi TTF, OTF qillqa rikch'aykunata apaykachay.",
+      "format": "Qillqasqa yachachiy",
+      "alt": "Qillqa rikch'ayniykikuna. Kuyuy siq'iyki. ByteWaveman TTF, OTF qillqa rikch'aykunata apamuy."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Hatun Rikukunawan laq'anakunata kuyuchiy",
+      "description": "Churay, sayay, muyuy, hatun rikukuna.",
+      "format": "Qillqasqa yachachiy",
+      "alt": "Laq'anaykikunata kuyuchiy."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Kuyuy siq'iman kuyuy mana sut'ita yapay",
+      "description": "Tukusqata waqtan waqtan tupachiy, allichaqpi Kuyuy Mana Sut'ita tariy, kallpanta kuyuy siq'i rakiykiman hina allichay.",
+      "format": "iPhone · 20 segundoyuq tupachiy",
+      "alt": "Wamp'ukuna tiyanapa kuyuy siq'i tupachiynin: qallariy kaq lluq'ipi, ByteWavepa kuyuy mana sut'in pañapi.",
+      "left": "Qallariy",
+      "right": "ByteWave Kuyuy Mana Sut'i"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Allimanta kuyuypaq siq'i yupay tikray",
+      "description": "Q'intipa kuyuy siq'inta 0.1× utqaypi tupachiy, siq'i yupay tikray imayna allimanta kuyuyta tikrasqanta qhaway.",
+      "format": "iPhone · 30 segundoyuq tupachiy",
+      "alt": "Q'intipa tupachiynin: 0.1× sapa kuti pisiyachiy lluq'ipi, ByteWavepa siq'i yupay tikraynin pañapi.",
+      "left": "Sapalla allillayachiy · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Pachapi chaqway pisiyachiy",
+      "description": "Applepa rikuchina hap'isqanpi chaqwayta, huch'uy kaqkunata tupachiy, chaymanta kikin kuyuy siq'iykipi imata maskhanaykita yachay.",
+      "format": "iPhone · 8 segundoyuq tupachiy",
+      "alt": "Applepa puka raphi rikuchinan: qallariy kaq lluq'ipi, ByteWavepa pachapi chaqway pisiyachiynin pañapi.",
+      "left": "Qallariy",
+      "right": "ByteWave chaqway pisiyachiy"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "C2PA Content Credentialsta qhawariy",
+      "description": "Paqarisqan unanchata kichay, chiqaqchasqa AI ruwasqa willakuykuna, metadata yupaykuna, mana kaq chiqaqchay ima nisqankuta yachay.",
+      "format": "Siq'ikuna, kuyuy siq'ikuna · Qillqasqa yachachiy",
+      "alt": "ByteWavepi Content Credentialsta qhawariy: siq'i, kuyuy siq'i paqarisqan yachachiy."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Tiyanamanta metadatata qichuy",
+      "description": "Llamk'ana kuyuy siq'i kikinchata qhawariy, allichay atina pampakunata qichuy, manaraq rakispa puchuqta qhawariy.",
+      "format": "Sapanchasqa kay · Qillqasqa yachachiy",
+      "alt": "Aswanta yachay. Pisita rakiy. Kuyuy siq'iykita manaraq rakispa allichay atina metadatata qhawariy, qichuy."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Kuyuy siq'i qillqakunata tikray",
+      "description": "Kikinmanta qillqakunata huk yanapasqa simiman tikray, qallariyninwan tupachiy, manaraq hawaman apachispa tukusqata qhawariy.",
+      "format": "iPhone, iPad · Qillqasqa yachachiy",
+      "alt": "Kuyuy siq'i qillqakunata tikray. Kikinmanta qillqakunata huk yanapasqa simiman tikray, qallariyninwan tupachiy, manaraq hawaman apachispa tukusqata qhawariy."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Rikch'aykunata takiman kutichichiy",
+      "description": "Uyarina suysunata akllay, kuyuq geometría kamasqakunata tupachiy, upalla, aswan kallpayuq rakikunapi kutichiyninta qhawariy.",
+      "format": "iPhone, iPad · Qillqasqa yachachiy",
+      "alt": "Rikch'aykunata takiman kutichichiy. Uyarina suysunata akllay, kuyuq geometría kamasqakunata tupachiy, upalla, aswan kallpayuq rakikunapi kutichiyninta qhawariy."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Udhëzues ByteWave",
+    "updatedLabel": "Përditësuar",
+    "updatedDate": "23 nëntor 2026",
+    "relatedLabel": "Udhëzues të ngjashëm"
+  },
+  "captionEffects": {
+    "title": "Efekte teksti për titrat në ByteWave",
+    "description": "Zgjidh një efekt teksti për titrat në ByteWave, shiko animimin dhe krahaso Orbital Letters, Supernova dhe Ember Ash.",
+    "lead": "Provo një efekt mbi fjalët e tua. Shikoje mbi xhirimin para eksportit.",
+    "stepsHeading": "Zgjidh një efekt",
+    "step1": "Zgjidh një titër në projektin tënd ByteWave.",
+    "step2": "Hap efektet e tekstit dhe zgjidh një model.",
+    "step3": "Luaj videon për ta parë efektin në lëvizje.",
+    "presetsHeading": "Tre për t'u provuar",
+    "tip": "Provo të njëjtën shprehje të shkurtër me çdo efekt. Përshtat fontin, madhësinë dhe ngjyrën me xhirimin tënd.",
+    "fromScratch": "Po nis nga e para?",
+    "firstCaption": "Shto titrin e parë",
+    "fontsPrompt": "Dëshiron një stil tjetër shkronjash?",
+    "importFont": "Importo fontin tënd",
+    "relatedSticker": "Animo një ngjitëse"
+  },
+  "customFonts": {
+    "title": "Fontet e tua nuk duhet të kërkojnë abonim.",
+    "description": "Importo fontet e tua TTF ose OTF në ByteWave në iPhone. Zgjidh një skedar dhe përdor Fontet e mia për t'u dhënë stil titrave falas.",
+    "lead": "Sill fontin tënd në video. Importimi i fonteve në ByteWave është falas.",
+    "stepsHeading": "Importo një font në iPhone",
+    "step1": "Ruaj një font TrueType (.ttf) ose OpenType (.otf) në aplikacionin Skedarët. Çkompreso fillimisht çdo arkiv ZIP.",
+    "step2": "Zgjidh një titër në projektin tënd ByteWave dhe hap panelin Fonti.",
+    "step3": "Prek Importo font dhe zgjidh skedarin.",
+    "step4": "Gjeje te Fontet e mia. Prek fontin për ta zbatuar te titri.",
+    "preview": "Luaj videon për të kontrolluar tekstin, përshtat madhësinë dhe ngjyrën, pastaj eksporto.",
+    "unsupportedHeading": "Skedari nuk zgjidhet dot?",
+    "unsupported": "Zgjidh vetë skedarin .ttf ose .otf. Ky importues nuk mbështet fonte uebi si .woff dhe .woff2.",
+    "startPrompt": "Po nis me një projekt bosh?",
+    "firstCaption": "Shto titrin e parë",
+    "effectsPrompt": "Pastaj provo",
+    "effectsLink": "efektet e tekstit për titrat",
+    "license": "ByteWave nuk tarifon importimin e fonteve. Vetë fonti mund të ketë çmimin dhe licencën e tij; kontrollo kushtet e krijuesit për përdorimin tënd."
+  }
+}

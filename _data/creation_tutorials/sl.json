@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Vodič za ByteWave",
+    "updatedLabel": "Posodobljeno",
+    "updatedDate": "23. november 2026",
+    "relatedLabel": "Povezani vodiči"
+  },
+  "animatedCaptions": {
+    "title": "Kako dodati animirane podnapise v ByteWave",
+    "description": "Videu dodajte besedilo, izberite animirani učinek in postavite podnapis v ByteWave. Kratek vodič za iPhone, iPad in Mac.",
+    "lead": "Videu dodajte svoje besedilo in mu dodelite animirani učinek.",
+    "stepsHeading": "Dodajte podnapis",
+    "step1": "Odprite video v ByteWave in dodajte podnapis.",
+    "step2": "Vnesite besedilo, nato izberite podnapis za urejanje sloga.",
+    "step3": "Izberite pisavo, velikost in barvo. Postavite besedilo čez video.",
+    "step4": "Izberite besedilni učinek, nato predvajajte video za predogled animacije.",
+    "readabilityHeading": "Ohranite berljivost",
+    "readabilityText": "Uporabite kratko frazo in barvo, ki izstopa na posnetku. Preverite, ali animacija pušča dovolj časa za branje.",
+    "relatedIntro": "Iščete določen videz? Naš",
+    "relatedAnchor": "vodič za učinke podnapisov",
+    "relatedTail": "opisuje prednastavitve, kot sta Orbital Letters in Ember Ash.",
+    "relatedSticker": "Animirajte nalepko"
+  },
+  "animateStickers": {
+    "title": "Kako animirati nalepke v ByteWave",
+    "description": "Naj se nalepka premika po videu v ByteWave. S časovnimi nastavitvami in ključnimi sličicami spreminjajte njen položaj, velikost in zasuk.",
+    "lead": "S ključnimi sličicami premikajte nalepko, spreminjajte njeno velikost ali jo obračajte skozi čas.",
+    "stepsHeading": "Nastavite gibanje",
+    "step1": "Videu dodajte nalepko in jo izberite.",
+    "step2": "S časovnimi nastavitvami določite, kdaj se pojavi.",
+    "step3": "S kontrolniki ključnih sličic zabeležite začetni položaj, velikost in zasuk.",
+    "step4": "Premaknite se na poznejši čas in nastavite drugo ključno sličico z drugačnim položajem, velikostjo ali zasukom.",
+    "step5": "Predvajajte video za predogled gibanja med njima.",
+    "readabilityHeading": "Začnite z dvema ključnima sličicama",
+    "readabilityText": "Poskusite premakniti nalepko z ene strani slike na drugo. Ko je gibanje videti pravilno, dodajte spremembo velikosti ali zasuk.",
+    "relatedCaption": "Dodajte animirane podnapise",
+    "relatedLayout": "Ustvarite videokolaž"
+  }
+}

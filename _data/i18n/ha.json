@@ -1,0 +1,231 @@
+{
+  "name": "Hausa",
+  "nav": {
+    "skip": "Tsallaka zuwa abun ciki",
+    "label": "Babban zagayawa",
+    "menu": "Menu",
+    "home": "Farko",
+    "features": "Fasaloli",
+    "compare": "Kwatanta",
+    "gallery": "Ma'ajiya",
+    "tutorials": "Darussa",
+    "blog": "Bulogi",
+    "about": "Game da mu",
+    "privacy": "Sirri",
+    "press": "Kafofin labarai",
+    "expression": "'Yancin faɗar albarkacin baki",
+    "download": "Sauke kyauta"
+  },
+  "footer": {
+    "motto": "Ya kamata gyaran bidiyo ya zama kyauta.",
+    "devices": "iPhone mai iOS 26 ko sabo · iPad mai iPadOS 26 ko sabo · Mac mai macOS 26 ko sabo da Apple M1 ko sabo."
+  },
+  "get_free": "Samu ByteWave kyauta",
+  "social_alt": "Samfotin ByteWave na kafofin sada zumunta",
+  "disclosure": {
+    "label": "Bayani game da AI:",
+    "text": "Wannan maƙala tana ɗauke da rubutun da samfurin harshe na AI (LLM) ya samar.",
+    "by": "Daga",
+    "review": "ByteWave ya duba iƙirarin samfurin; kwatancen yana nuna maslahar kasuwancin ByteWave, ba nazari ne mai zaman kansa ba."
+  },
+  "player": {
+    "play": "Kunna bidiyo",
+    "replay": "Sake kunna bidiyo",
+    "retry": "Sake gwada bidiyo",
+    "tap": "Taɓa don kunna bidiyo",
+    "tap_hint": "Taɓa kunna don fara bidiyon.",
+    "loading": "Ana loda bidiyo…",
+    "fallback": "Ana gwada bidiyon da ya dace…",
+    "failed": "An kasa loda bidiyon. Sake gwadawa ko buɗe mahaɗin bidiyo da ke ƙasa."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Editan Bidiyo na Kyauta Mai Amfani da GPU don iPhone, iPad da Mac",
+      "description": "Gyara bidiyoyinka da ByteWave, editan bidiyo na kyauta don iPhone, iPad da Mac. Babu alamar ruwa ko biyan kuɗin rajista. Gyara a kan na'ura, rubutun magana, tasiri da sauti.",
+      "keywords": "editan bidiyo na kyauta, editan bidiyo ba alamar ruwa, madadin capcut, editan bidiyo ios, shader na metal, editan bidiyo gpu, editan bidiyo ba rajistar kuɗi, editan bidiyo mai sirri, editan bidiyo na kyauta iphone",
+      "social_title": "ByteWave - Editan Bidiyo na Kyauta don iPhone, iPad da Mac",
+      "og_description": "Bidiyoyinka. Zaɓin ƙirƙirarka. Gyaran bidiyo kyauta a kan iPhone, iPad da Mac, ba alamar ruwa ko biyan kuɗin rajista.",
+      "twitter_description": "Gyara bidiyoyinka. Babu alamar ruwa ko biyan kuɗin rajista. Gyara a kan na'ura tare da rabawa idan kana so.",
+      "logo_alt": "Tambarin ByteWave"
+    },
+    "schema": {
+      "description": "Editan bidiyo na kyauta don iPhone, iPad da Mac. Gyara bidiyoyinka da sarrafawa a kan na'ura, shimfiɗun sauti da tasirin Metal. Babu alamar ruwa ko biyan kuɗin rajista; rabawa a intanet zaɓi ne.",
+      "features": "Editan Shader na Metal na Musamman, Ƙara Ingancin Hoto, Dishewar Motsi, Rage Ƙurar Hoto ta Firam Masu Jere, Matatun Al'umma, Layukan Sauti Ba Iyaka, Sarrafawa a Kan Na'ura, Karanta Content Credentials na C2PA, Tabbatattun Bayanan Samarwa da AI, Asalin Bidiyo Mai Kariyar Kriptografi"
+    },
+    "hero": {
+      "tag": "ByteWave · Editan bidiyo na kyauta",
+      "opening": "Ƙirƙiri abu",
+      "emphasis": "Na gaske",
+      "ending": "ba reel kawai ba.",
+      "edit": "Gyara bidiyoyinka. A kan na'urarka.",
+      "platforms": "Editan bidiyo na kyauta don iPhone, iPad da Mac.",
+      "examples": "Duba abin da za ka iya ƙirƙira ↓",
+      "no_watermarks": "Babu biyan kuɗin rajista. Babu alamar ruwa a fitarwa.",
+      "devices": "iOS / iPadOS 26 ko sabo. Mac: macOS 26 ko sabo, M1 ko sabo.",
+      "play_background": "Kunna bidiyon bango",
+      "pause_background": "Dakatar da bidiyon bango"
+    },
+    "download": "Sauke ByteWave",
+    "showcase": {
+      "tag": "Fara da abin da ka ɗauka",
+      "footage": "Bidiyoyinka.",
+      "edit": "Gyaran ka.",
+      "intro": "Kawo hotuna da bidiyoyinka. Ka ƙirƙiri sauran da salonka.",
+      "layout": "Layout daga ByteWave",
+      "layout_desc": "Haɗa hotuna da bidiyo a cikin tsari guda.",
+      "effects": "Matatu, tasiri da",
+      "captions": "rubutun magana mai motsi",
+      "captions_desc": "Samu salonka. Ƙara kalmominka.",
+      "audio": "Kayan aikin sauti",
+      "audio_desc": "Jera layukan sauti a shimfiɗu ka tsara sautin bidiyonka.",
+      "gallery": "Kalli bidiyon da aka ƙirƙira da ByteWave →",
+      "editor_alt": "Editan ByteWave yana nuna bidiyon faɗuwar rana da kayan gyara a kan na'ura",
+      "layout_alt": "Layout daga ByteWave yana haɗa hotuna da bidiyon teku guda shida a tsari ɗaya"
+    },
+    "credentials": {
+      "tag": "Hotuna, bidiyo da AI",
+      "title": "An ƙirƙiri wannan da AI ne?",
+      "check": "Duba hoto ko bidiyo.",
+      "check_desc": "ByteWave yana karanta Content Credentials na C2PA da ake tallafawa, har da tambarin da aka sa wa hannu da ke nuna abun da AI ya ƙirƙira. Ana duba a kan na'urarka.",
+      "how": "Yadda ake duba fayil →",
+      "signed": "Ana sa hannu a fitarwarka.",
+      "signed_desc": "Kowace fitarwa ta Save to Photos tana samun tambarin asali na ByteWave mai sa hannun dijital. Yana taimakawa wajen nuna cewa fayil ɗin ya fito daga ByteWave da ko ya canza tun bayan sa hannu.",
+      "signed_link": "Yadda fitarwa mai sa hannu take aiki →",
+      "caveat": "Babu takardar asali? Wannan ba ya nufin na gaske ne ko na ƙarya. Sa hannu ba zai tabbatar da cewa abin da aka nuna ya faru ba.",
+      "newsrooms": "Kana duba bidiyo don labari? Fara nan →"
+    },
+    "geese": {
+      "tag": "Duk kayan gyara. Kyauta.",
+      "opening": "'Yanci irin na",
+      "emphasis": "geese.",
+      "desc": "Babu biyan kuɗin rajista. Babu alamar ruwa a fitarwa. Ba a buƙatar asusu don gyara a kan na'ura.",
+      "fallback": "Buɗe kwafin da ya dace",
+      "caption": "Tsuntsayen geese suna ratsawa cikin ruwa mai gudu, tare da “Free as in geese” a allon.",
+      "alt": "'Yanci irin na geese: samfotin manhajar ByteWave"
+    },
+    "privacy": {
+      "title": "Bidiyoyinka suna nan a kan na'urarka",
+      "intro": "Fara da lokutan da ka ɗauka. Yanke guntayen bidiyo, tsara sauti ka zaɓi tasiri da kanka. ByteWave yana riƙe gyara da sarrafawa a kan na'urar Apple da ake tallafawa.",
+      "local": "ByteWave yana sarrafa gyara a kan na'urarka ta Apple.",
+      "sharing": "Ba a buƙatar asusu don gyara a kan na'ura, kuma ba a ɗora bidiyoyinka intanet sai ka zaɓi a fili ka wallafa ko raba su ta wani fasalin intanet.",
+      "stamp": "Kowace fitarwa ta Save to Photos ana sa mata hannu ta kriptografi tare da bayanan asali na ByteWave, don taimakawa wajen tabbatar da asalinta na ByteWave da ko fayil ɗin ya canza bayan sa hannu. Sa hannu ba zai tabbatar da faruwar abin da aka nuna ba.",
+      "stamp_link": "Koyi abin da fitarwa mai sa hannu ke tabbatarwa.",
+      "guide": "Yadda ake gyara ba tare da ɗora bidiyo intanet ba"
+    },
+    "creative": {
+      "title": "Ka gaji da bidiyon AI da ke cika shafin saƙonninka?",
+      "intro": "Idan Facebook ko TikTok sun cika da guntayen bidiyon da aka samar, ko fasalolin AI na CapCut ba su ne ka zo gyara da su ba, za ka iya farawa da bidiyoyinka.",
+      "choice": "Ɗaukarka, gyaranka, zaɓinka na rabawa.",
+      "tools": "ByteWave yana ba ka kayan aiki don abin da ka ɗauka: rubutun magana mai motsi, matatu na musamman, motsi a hankali da shimfiɗun sauti. Akwai fasalolin taimako kamar ƙara ingancin hoto; ba sai ka samar da yanayi daga umarnin rubutu ba kafin ka gyara bidiyo.",
+      "feed": "Duba shafin saƙonnin jama'a na ByteWave ba tare da bayyana sunanka ba, tare da keɓancewa ta zaɓi da ake lissafawa a kan na'urarka, ba tare da tarihin kallo a uwar garke ba.",
+      "feed_link": "Duba yadda shafin saƙonnin ke aiki.",
+      "facebook": "Yadda ake rage bidiyon AI a shafin Facebook",
+      "tiktok": "Yadda ake ganin ƙarancin abun AI a TikTok",
+      "real": "Ɗumbin abun AI mara inganci, bidiyo na gaske da dawo da ikon ƙirƙira",
+      "capcut": "Madadin CapCut na kyauta don gyara bidiyoyinka",
+      "gallery": "Kalli bidiyon da aka ƙirƙira da ByteWave",
+      "or": "ko",
+      "tutorial": "gwada darasin dishewar motsi.",
+      "download": "Gyara bidiyoyinka kyauta"
+    },
+    "compare": {
+      "title": "ByteWave da CapCut",
+      "intro": "Kayan gyaran ByteWave kyauta ne. CapCut yana saka wasu irin waɗannan kayan a tsare-tsaren biyan kuɗi.",
+      "feature": "Fasali",
+      "price": "Farashi",
+      "free": "$0",
+      "plans": "Tsare-tsaren kyauta da na kuɗi",
+      "watermarks": "Alamomin ruwa",
+      "none": "Babu alamar ruwa ta ByteWave",
+      "varies": "Ya danganta da kayan aiki da fitarwa",
+      "editing": "Gyara",
+      "offline": "A kan na'ura; ba a buƙatar asusu",
+      "cloud": "Kayan aiki a kan na'ura da a gajimare",
+      "data": "Sarrafa bayanai",
+      "no_tracking": "Babu bibiyar halayya; asusu da wallafawa zaɓi ne",
+      "policy": "Duba manufar sirrin CapCut",
+      "provenance": "Asalin bidiyo",
+      "stamp": "Tambarin ByteWave a Save to Photos",
+      "export_options": "Duba zaɓuɓɓukan fitarwa na yanzu",
+      "slow_motion": "Motsi a hankali",
+      "included": "Yana ciki",
+      "optical": "Optical flow: gwaji kyauta",
+      "motion": "Dishewar motsi",
+      "pro_motion": "An jera a Pro*",
+      "noise": "Rage ƙurar hoto a bidiyo",
+      "pro": "Tsarin Pro",
+      "desktop": "Kwamfutar tebur",
+      "upscale": "Ƙara ingancin hoto da AI",
+      "device": "A kan na'ura",
+      "paid": "Rajistar biyan kuɗi",
+      "mobile": "Ingantawa da AI a wayar hannu",
+      "tracks": "Layukan sauti",
+      "unlimited": "Babu iyakar layukan sauti",
+      "limits": "Duba iyakokin dandali",
+      "tts": "Rubutu zuwa murya",
+      "voices": "Muryoyin kyauta; muryoyin musamman suna amfani da kiredit",
+      "captions": "Rubutun magana na atomatik",
+      "pro_captions": "Pro don cikakkiyar dama",
+      "code": "Lambar asalin mataci mai gyaruwa",
+      "metal": "Lambar asalin shader na Metal tana ciki",
+      "filter_tools": "Duba kayan matatu na yanzu",
+      "community": "Matatun al'umma",
+      "shared": "Shader masu gyaruwa da aka raba",
+      "effects": "Tasiri da samfuran kyauta da Pro",
+      "subject": "Ware jigo don matatu",
+      "masks": "Kayan rufe fuska da yanke hoto",
+      "note": "An duba Oktoba 18, 2026. Pro rajistar biyan kuɗi ce. *CapCut ya jera dishewar motsi a Pro, amma yana tallata nau'ikan kyauta ma. Dama ta bambanta da dandali, yanki da tayin.",
+      "full": "Cikakken kwatance"
+    },
+    "features": {
+      "title": "Abin da za ka samu",
+      "items": [
+        {
+          "title": "Dubawar C2PA da asalin bidiyo",
+          "body": "Duba hotuna da bidiyo don Content Credentials da ake tallafawa, har da alamomin samarwa da AI. Kowace fitarwa ta Save to Photos tana samun tambarin ByteWave don taimakawa gano canje-canje daga baya."
+        },
+        {
+          "title": "Motsi a hankali da dishewar motsi",
+          "body": "Sa bidiyon motsi a hankali ya yi santsi da FRC. Ana sarrafa dishewar motsi da rage ƙurar hoto ta firam masu jere a kan na'urarka kafin samfoti."
+        },
+        {
+          "title": "Ƙara ingancin hoto da AI",
+          "body": "Ƙara ƙudurin hoto a kan na'ura. Babu sarrafawa a gajimare, babu jiran uwar garke."
+        },
+        {
+          "title": "Layukan sauti ba iyaka",
+          "body": "Jera guntayen sauti gwargwadon buƙatarka a kan layin lokaci mai gani. Tasirin sauti na ciki. Babu iyakar layukan sauti."
+        },
+        {
+          "title": "Rubutu zuwa murya",
+          "body": "Rubuta kalmomi don samar da murya ko samar da rubutun magana a kan na'urarka. Sa alama ta atomatik, wanda zaɓi ne, yana taimakawa wasu gano bidiyon da aka raba kuma yana buƙatar asusu da amincewa."
+        },
+        {
+          "title": "Tasirin rubutu",
+          "body": "Walƙiya, glitch, neon da ƙari. Rubutu mai motsi ba tare da buƙatar ƙwarewar zane mai motsi ba."
+        },
+        {
+          "title": "Ware jigo",
+          "body": "Ware jigo daga bango ka shafa mataci a kowanne daban. Dusashe bango, ka bar jigo a sarari; da taɓawa ɗaya."
+        },
+        {
+          "title": "Matatu na musamman masu lambar asali",
+          "body": "Kowane mataci yana nuna maka lambar shader ɗinsa. Gyara ta kai tsaye ko kwafe ta ka nemi ChatGPT ya ƙirƙiri sabon abu."
+        },
+        {
+          "title": "Matatun al'umma",
+          "body": "Wallafa matatun da ka ƙirƙira. Duba ka ɗauko matatun wasu masu ƙirƙira. Taɓawa ɗaya don ƙara su a ɗakin ajiyarka."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Matatun da za ka iya gyarawa da gaske",
+      "desc": "Yawancin editoci suna ɓoye yadda matatu ke aiki. ByteWave yana nuna maka lambar. Canza ta, koyi daga gare ta, ko kwafe ta ka bayyana wa AI abin da kake so; manna sakamakon a ciki.",
+      "comment": "// Bango irin salon Impressionism, jigo a sarari"
+    },
+    "cta": {
+      "desc": "Gyara ba tare da intanet ba. Ba a buƙatar asusu. Ɗora kawai lokacin da ka zaɓi wallafawa.",
+      "apple": "Sauke don Apple"
+    }
+  }
+}

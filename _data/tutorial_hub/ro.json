@@ -1,0 +1,98 @@
+{
+  "title": "Tutoriale de editare video",
+  "description": "Ghiduri scurte ByteWave pentru colaje video, subtitrări animate, efecte de text, stickere în mișcare, estomparea mișcării și acreditări de conținut.",
+  "intro": "Creează o compoziție, adaugă subtitrări, animă stickere sau verifică un fișier. Ghiduri scurte despre instrumentele ByteWave.",
+  "action": "Vezi ghidul",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout de la ByteWave",
+      "description": "Suprapune clipuri, creează grile și încearcă forme noi.",
+      "format": "Trei exemple video",
+      "alt": "Compoziție fagure cu filmări ale lunii și unui câine"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Adaugă subtitrări animate",
+      "description": "Cuvintele tale, pe videoclipul tău.",
+      "format": "Ghid scris",
+      "alt": "Adaugă subtitrări animate."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Alege efecte de text pentru subtitrări",
+      "description": "Orbital Letters, Supernova, Ember Ash și altele.",
+      "format": "Ghid scris",
+      "alt": "Efecte de text pentru subtitrări."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importă fonturile tale",
+      "description": "Folosește fonturi TTF și OTF în subtitrări.",
+      "format": "Ghid scris",
+      "alt": "Fonturile tale. Videoclipul tău. Importă TTF și OTF în ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animă stickere cu cadre-cheie",
+      "description": "Poziție, dimensiune, rotație și cadre-cheie.",
+      "format": "Ghid scris",
+      "alt": "Pune stickerele în mișcare."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Adaugă estomparea mișcării",
+      "description": "Compară rezultatul alăturat, găsește Estomparea mișcării în editor și reglează intensitatea pentru clip.",
+      "format": "iPhone · Comparație de 20 de secunde",
+      "alt": "Comparație cu port: originalul în stânga, estomparea mișcării ByteWave în dreapta.",
+      "left": "Original",
+      "right": "Estomparea mișcării ByteWave"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Conversia ratei cadrelor pentru mișcare lentă",
+      "description": "Compară un colibri la viteza 0,1× și vezi cum conversia ratei cadrelor schimbă mișcarea încetinită.",
+      "format": "iPhone · Comparație de 30 de secunde",
+      "alt": "Colibri: încetinire normală 0,1× în stânga, conversia ratei cadrelor ByteWave în dreapta.",
+      "left": "Încetinire normală · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Reducerea temporală a zgomotului",
+      "description": "Compară zgomotul și detaliile fine în exemplul Apple și află ce să urmărești în propriile clipuri.",
+      "format": "iPhone · Comparație de 8 secunde",
+      "alt": "Exemplu Apple cu frunze roșii: originalul în stânga, reducerea temporală a zgomotului ByteWave în dreapta.",
+      "left": "Original",
+      "right": "Reducerea zgomotului ByteWave"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Verifică acreditările de conținut C2PA",
+      "description": "Deschide insigna de proveniență și află ce înseamnă declarațiile AI verificate, estimările din metadate și lipsa dovezilor.",
+      "format": "Fotografii și videoclipuri · Ghid scris",
+      "alt": "Verifică acreditările de conținut în ByteWave: tutorial despre proveniența fotografiilor și videoclipurilor."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Elimină metadatele de localizare",
+      "description": "Inspectează copia de lucru, elimină câmpurile editabile și verifică ce rămâne înainte de distribuire.",
+      "format": "Confidențialitate · Ghid scris",
+      "alt": "Află mai mult. Distribuie mai puțin. Verifică și elimină metadatele editabile înainte să distribui videoclipul."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Tradu subtitrările video",
+      "description": "Transformă subtitrările automate într-o altă limbă acceptată, compară originalul și verifică înainte de export.",
+      "format": "iPhone și iPad · Ghid scris",
+      "alt": "Tradu subtitrările video. Transformă subtitrările automate într-o altă limbă acceptată, compară originalul și verifică înainte de export."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Fă efectele să reacționeze la muzică",
+      "description": "Alege un filtru Sunet, compară presetări geometrice animate și verifică reacția în pasaje liniștite și puternice.",
+      "format": "iPhone și iPad · Ghid scris",
+      "alt": "Fă efectele să reacționeze la muzică. Alege un filtru Sunet, compară presetări geometrice animate și verifică reacția în pasaje liniștite și puternice."
+    }
+  ]
+}

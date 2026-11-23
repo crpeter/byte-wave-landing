@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-vejledning",
+    "updatedLabel": "Opdateret",
+    "updatedDate": "23. november 2026",
+    "relatedLabel": "Relaterede vejledninger"
+  },
+  "animatedCaptions": {
+    "title": "Sådan tilføjer du animerede undertekster i ByteWave",
+    "description": "Tilføj tekst til din video, vælg en animeret effekt, og placer underteksten i ByteWave. En kort vejledning til iPhone, iPad og Mac.",
+    "lead": "Tilføj din egen tekst til en video, og giv den en animeret effekt.",
+    "stepsHeading": "Tilføj din undertekst",
+    "step1": "Åbn din video i ByteWave, og tilføj en undertekst.",
+    "step2": "Indtast din tekst, og vælg derefter underteksten for at redigere dens stil.",
+    "step3": "Vælg skrifttype, størrelse og farve. Placer teksten over din video.",
+    "step4": "Vælg en teksteffekt, og afspil videoen for at se animationen.",
+    "readabilityHeading": "Hold teksten læsbar",
+    "readabilityText": "Brug en kort sætning og en farve, der skiller sig ud fra optagelserne. Tjek, at animationen giver tid nok til at læse teksten.",
+    "relatedIntro": "Leder du efter et bestemt udtryk? Vores",
+    "relatedAnchor": "vejledning til underteksteffekter",
+    "relatedTail": "dækker forudindstillinger som Orbital Letters og Ember Ash.",
+    "relatedSticker": "Animer en sticker"
+  },
+  "animateStickers": {
+    "title": "Sådan animerer du stickers i ByteWave",
+    "description": "Få en sticker til at bevæge sig hen over din video i ByteWave. Brug timing og keyframes til at ændre placering, størrelse og rotation.",
+    "lead": "Brug keyframes til at flytte en sticker, ændre dens størrelse eller rotere den over tid.",
+    "stepsHeading": "Indstil bevægelsen",
+    "step1": "Tilføj en sticker til din video, og vælg den.",
+    "step2": "Indstil, hvornår den skal vises, med tidskontrollerne.",
+    "step3": "Brug keyframe-kontrollerne til at registrere dens startplacering, størrelse og rotation.",
+    "step4": "Gå til et senere tidspunkt, og opret en ny keyframe med en anden placering, størrelse eller rotation.",
+    "step5": "Afspil videoen for at se bevægelsen mellem dem.",
+    "readabilityHeading": "Start med to keyframes",
+    "readabilityText": "Prøv at flytte en sticker fra den ene side af billedet til den anden. Når det ser rigtigt ud, kan du tilføje en størrelsesændring eller rotation.",
+    "relatedCaption": "Tilføj animerede undertekster",
+    "relatedLayout": "Lav en videocollage"
+  }
+}

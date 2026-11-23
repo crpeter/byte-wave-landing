@@ -1,3 +1,4 @@
+{%- assign tutorials_page = site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign d = site.data.short_tutorials[page.lang] -%}
 {%- assign g = d[page.guide] -%}
@@ -11,7 +12,7 @@
 {%- assign fonts_page = site.pages | where: "translation_key", "creation-import-custom-fonts" | where: "lang", page.lang | first -%}
 {%- assign social_image = '/assets/social/' | append: page.guide_slug | append: '.jpg' -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -53,10 +54,10 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
    "author":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/about.html"},
    "publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":{"@type":"ImageObject","url":"https://bytewaveai.com/logo.png"}},
    "image":{{ social_image | absolute_url | jsonify }},
-   "isPartOf":{"@type":"CollectionPage","name":"ByteWave Tutorials","url":"https://bytewaveai.com/tutorials/"}},
+   "isPartOf":{"@type":"CollectionPage","name":{{ t.nav.tutorials | jsonify }},"url":{{ tutorials_page.url | absolute_url | jsonify }}}},
   {"@type":"BreadcrumbList","itemListElement":[
    {"@type":"ListItem","position":1,"name":{{ t.nav.home | jsonify }},"item":{{ home.url | absolute_url | jsonify }}},
-   {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":"https://bytewaveai.com/tutorials/"},
+   {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":{{ tutorials_page.url | absolute_url | jsonify }}},
    {"@type":"ListItem","position":3,"name":{{ g.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
   ]}
  ]
@@ -73,7 +74,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 <article class="creation-guide">
 <p class="eyebrow">{{ common.eyebrow | escape }}</p>
 <h1>{{ g.title | escape }}</h1>
-<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | relative_url }}">ByteWave</a> · {{ common.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ common.updatedDate | escape }}</time></p>
+<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | default: '/about.html' | relative_url }}">ByteWave</a> · {{ common.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ common.updatedDate | escape }}</time></p>
 <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ t.disclosure.review | escape }}</p>
 <p class="lead">{{ g.lead | escape }}</p>
 <h2>{{ g.stepsHeading | escape }}</h2>

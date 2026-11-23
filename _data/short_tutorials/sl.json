@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Vodič za ByteWave",
+    "updatedLabel": "Posodobljeno",
+    "updatedDate": "23. november 2026",
+    "relatedLabel": "Povezani vodiči"
+  },
+  "captionEffects": {
+    "title": "Besedilni učinki podnapisov v ByteWave",
+    "description": "Izberite besedilni učinek podnapisov v ByteWave, preglejte animacijo in primerjajte Orbital Letters, Supernova in Ember Ash.",
+    "lead": "Preizkusite učinek na svojih besedah. Pred izvozom si ga oglejte čez svoje posnetke.",
+    "stepsHeading": "Izberite učinek",
+    "step1": "Izberite podnapis v projektu ByteWave.",
+    "step2": "Odprite njegove besedilne učinke in izberite prednastavitev.",
+    "step3": "Predvajajte video, da vidite učinek v gibanju.",
+    "presetsHeading": "Trije za preizkus",
+    "tip": "Z vsakim učinkom preizkusite isto kratko frazo. Prilagodite pisavo, velikost in barvo svojim posnetkom.",
+    "fromScratch": "Začenjate od začetka?",
+    "firstCaption": "Dodajte prvi podnapis",
+    "fontsPrompt": "Želite drugačno pisavo?",
+    "importFont": "Uvozite lastno pisavo",
+    "relatedSticker": "Animirajte nalepko"
+  },
+  "customFonts": {
+    "title": "Vaše pisave ne bi smele zahtevati naročnine.",
+    "description": "Uvozite lastne pisave TTF ali OTF v ByteWave na iPhonu. Izberite datoteko in z možnostjo Moje pisave brezplačno oblikujte podnapise.",
+    "lead": "V video prinesite svojo pisavo. Uvoz pisav v ByteWave je brezplačen.",
+    "stepsHeading": "Uvozite pisavo na iPhonu",
+    "step1": "Pisavo TrueType (.ttf) ali OpenType (.otf) shranite v aplikacijo Datoteke. Morebitni arhiv ZIP najprej razširite.",
+    "step2": "Izberite podnapis v projektu ByteWave in odprite njegovo ploščo Pisava.",
+    "step3": "Tapnite Uvozi pisavo in izberite datoteko.",
+    "step4": "Poiščite jo v Moje pisave. Tapnite pisavo, da jo uporabite za podnapis.",
+    "preview": "Predvajajte video, preverite besedilo, prilagodite velikost in barvo ter izvozite.",
+    "unsupportedHeading": "Datoteke ne morete izbrati?",
+    "unsupported": "Izberite dejansko datoteko .ttf ali .otf. Ta uvoznik ne podpira spletnih pisav, kot sta .woff in .woff2.",
+    "startPrompt": "Začenjate s praznim projektom?",
+    "firstCaption": "Dodajte prvi podnapis",
+    "effectsPrompt": "Nato preizkusite",
+    "effectsLink": "besedilne učinke podnapisov",
+    "license": "ByteWave ne zaračunava uvoza pisav. Pisava ima lahko svojo ceno in licenco; preverite avtorjeve pogoje za svojo uporabo."
+  }
+}

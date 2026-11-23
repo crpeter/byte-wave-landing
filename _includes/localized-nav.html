@@ -1,7 +1,7 @@
 {%- assign blog_page = site.pages | where: "translation_key", "blog-index" | where: "lang", page.lang | first -%}
 {% capture language_links -%}
 {% for variant in variants -%}
-<a href="{{ variant.url | relative_url }}" lang="{{ variant.lang }}" hreflang="{{ variant.lang }}"{% if variant.lang == page.lang %} aria-current="page"{% endif %}>{{ site.data.i18n[variant.lang].name | escape }}</a>
+<a href="{{ variant.url | relative_url }}" lang="{{ variant.lang }}" dir="auto" hreflang="{{ variant.lang }}"{% if variant.lang == page.lang %} aria-current="page"{% endif %}>{{ site.data.i18n[variant.lang].name | escape }}</a>
 {% endfor -%}
 {% endcapture -%}
 {%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
@@ -12,9 +12,9 @@
 {% capture primary_links -%}
 <a href="{{ home.url | relative_url }}#features">{{ t.nav.features | escape }}</a>
 <a href="{{ home.url | relative_url }}#compare">{{ t.nav.compare | escape }}</a>
-<a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}">{{ t.nav.gallery | escape }}</a>
+<a href="{{ gallery_page.url | default: '/gallery/' | relative_url }}"{% unless gallery_page %} hreflang="en"{% endunless %}>{{ t.nav.gallery | escape }}</a>
 <a href="{{ tutorials_page.url | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a>
-<a href="{{ blog_page.url | relative_url }}">{{ t.nav.blog | escape }}</a>
+<a href="{{ blog_page.url | default: '/blog/' | relative_url }}"{% unless blog_page %} hreflang="en"{% endunless %}>{{ t.nav.blog | escape }}</a>
 {% endcapture -%}
 <a class="site-skip" href="#main">{{ t.nav.skip | escape }}</a>
 <nav class="site-nav" aria-label="{{ t.nav.label | escape }}">
@@ -30,9 +30,9 @@
         <summary>{{ t.nav.menu | escape }}</summary>
         <div class="site-menu-links">
             {{ primary_links }}
-            <a href="{{ about_page.url | default: '/about.html' | relative_url }}">{{ t.nav.about | escape }}</a>
-            <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ t.nav.privacy | escape }}</a>
-            <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}">{{ t.nav.expression | escape }}</a>
+            <a href="{{ about_page.url | default: '/about.html' | relative_url }}"{% unless about_page %} hreflang="en"{% endunless %}>{{ t.nav.about | escape }}</a>
+            <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}"{% unless privacy_page %} hreflang="en"{% endunless %}>{{ t.nav.privacy | escape }}</a>
+            <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}"{% unless expression_page %} hreflang="en"{% endunless %}>{{ t.nav.expression | escape }}</a>
             <div class="site-menu-languages">
                 {{ language_links }}
             </div>

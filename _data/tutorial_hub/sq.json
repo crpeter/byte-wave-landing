@@ -1,0 +1,98 @@
+{
+  "title": "Udhëzues për redaktimin e videove",
+  "description": "Udhëzues të shkurtër ByteWave për kolazhe videosh, titra të animuar, efekte teksti, ngjitëse lëvizëse, turbullim lëvizjeje dhe kontroll të kredencialeve të përmbajtjes.",
+  "intro": "Krijo një paraqitje, shto titra, animo ngjitëse ose kontrollo një skedar. Udhëzues të shkurtër për mjetet e ByteWave.",
+  "action": "Shiko udhëzuesin",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout nga ByteWave",
+      "description": "Vendos klipe në shtresa, krijo rrjeta dhe provo forma të reja.",
+      "format": "Tre shembuj video",
+      "alt": "Paraqitje si hoje me xhirime të hënës dhe të një qeni"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Shto titra të animuar",
+      "description": "Fjalët e tua në videon tënde.",
+      "format": "Udhëzues i shkruar",
+      "alt": "Shto titra të animuar."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Zgjidh efekte teksti për titrat",
+      "description": "Orbital Letters, Supernova, Ember Ash e të tjera.",
+      "format": "Udhëzues i shkruar",
+      "alt": "Efekte teksti për titrat."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importo fontet e tua",
+      "description": "Përdor fonte TTF dhe OTF në titrat e videove të tua.",
+      "format": "Udhëzues i shkruar",
+      "alt": "Fontet e tua. Videoja jote. Importo fonte TTF dhe OTF në ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animo ngjitëset me kuadro kyçe",
+      "description": "Pozicioni, madhësia, rrotullimi dhe kuadrot kyçe.",
+      "format": "Udhëzues i shkruar",
+      "alt": "Vëri ngjitëset në lëvizje."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Shto turbullim lëvizjeje në video",
+      "description": "Krahaso rezultatin krah për krah, gjej Turbullim lëvizjeje në redaktues dhe përshtat intensitetin për klipin tënd.",
+      "format": "iPhone · Krahasim 20-sekondësh",
+      "alt": "Krahasim i videos së portit: origjinali majtas, turbullimi i lëvizjes ByteWave djathtas.",
+      "left": "Origjinali",
+      "right": "Turbullim lëvizjeje ByteWave"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Konvertimi i shpejtësisë së kuadrove për lëvizje të ngadalësuar",
+      "description": "Krahaso një klip kolibri me shpejtësi 0.1× dhe shiko si konvertimi i shpejtësisë së kuadrove ndryshon lëvizjen e ngadalësuar.",
+      "format": "iPhone · Krahasim 30-sekondësh",
+      "alt": "Krahasim i kolibrit: ngadalësimi i zakonshëm 0.1× majtas, konvertimi i shpejtësisë së kuadrove ByteWave djathtas.",
+      "left": "Ngadalësim i zakonshëm · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Ulja kohore e zhurmës",
+      "description": "Krahaso zhurmën dhe hollësitë në xhirimet shembull të Apple, pastaj mëso çfarë të kontrollosh në klipet e tua.",
+      "format": "iPhone · Krahasim 8-sekondësh",
+      "alt": "Shembulli Apple me gjethe të kuqe: origjinali majtas, ulja kohore e zhurmës ByteWave djathtas.",
+      "left": "Origjinali",
+      "right": "Ulja e zhurmës ByteWave"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Kontrollo kredencialet e përmbajtjes C2PA",
+      "description": "Hap një shenjë prejardhjeje dhe mëso çfarë nënkuptojnë deklarimet e verifikuara të gjenerimit me AI, vlerësimet e metadatave dhe mungesa e provave.",
+      "format": "Fotografi dhe video · Udhëzues i shkruar",
+      "alt": "Kontrollo kredencialet e përmbajtjes në ByteWave: udhëzues për prejardhjen e fotografive dhe videove."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Hiq metadatat e vendndodhjes",
+      "description": "Shqyrto një kopje pune të videos, hiq fushat e redaktueshme dhe kontrollo çfarë mbetet para ndarjes.",
+      "format": "Privatësi · Udhëzues i shkruar",
+      "alt": "Dije më shumë. Ndaj më pak. Kontrollo dhe hiq metadatat e redaktueshme para se të ndash videon."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Përkthe titrat e videos",
+      "description": "Ktheji titrat automatikë në një gjuhë tjetër të mbështetur, krahaso origjinalin dhe kontrollo rezultatin para eksportit.",
+      "format": "iPhone dhe iPad · Udhëzues i shkruar",
+      "alt": "Përkthe titrat e videos. Ktheji titrat automatikë në një gjuhë tjetër të mbështetur, krahaso origjinalin dhe kontrollo rezultatin para eksportit."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Bëji efektet të reagojnë ndaj muzikës",
+      "description": "Zgjidh një filtër Audio, krahaso modelet e gjeometrisë së animuar dhe kontrollo reagimin në pjesë të qeta e më të forta.",
+      "format": "iPhone dhe iPad · Udhëzues i shkruar",
+      "alt": "Bëji efektet të reagojnë ndaj muzikës. Zgjidh një filtër Audio, krahaso modelet e gjeometrisë së animuar dhe kontrollo reagimin në pjesë të qeta e më të forta."
+    }
+  ]
+}

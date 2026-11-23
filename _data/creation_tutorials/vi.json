@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Hướng dẫn ByteWave",
+    "updatedLabel": "Cập nhật",
+    "updatedDate": "23 tháng 11, 2026",
+    "relatedLabel": "Hướng dẫn liên quan"
+  },
+  "animatedCaptions": {
+    "title": "Cách thêm phụ đề chuyển động trong ByteWave",
+    "description": "Thêm chữ vào video, chọn hiệu ứng chuyển động và đặt vị trí phụ đề trong ByteWave. Hướng dẫn ngắn cho iPhone, iPad và Mac.",
+    "lead": "Thêm chữ của bạn vào video và tạo hiệu ứng chuyển động cho chữ.",
+    "stepsHeading": "Thêm phụ đề",
+    "step1": "Mở video trong ByteWave và thêm phụ đề.",
+    "step2": "Nhập chữ, rồi chọn phụ đề để chỉnh kiểu.",
+    "step3": "Chọn phông chữ, kích thước và màu sắc. Đặt chữ lên video.",
+    "step4": "Chọn hiệu ứng chữ, rồi phát video để xem trước chuyển động.",
+    "readabilityHeading": "Giữ chữ dễ đọc",
+    "readabilityText": "Dùng câu ngắn và màu nổi bật trên cảnh quay. Kiểm tra để hiệu ứng cho người xem đủ thời gian đọc.",
+    "relatedIntro": "Đang tìm một phong cách cụ thể?",
+    "relatedAnchor": "Hướng dẫn hiệu ứng phụ đề",
+    "relatedTail": "giới thiệu các mẫu như Orbital Letters và Ember Ash.",
+    "relatedSticker": "Làm nhãn dán chuyển động"
+  },
+  "animateStickers": {
+    "title": "Cách làm nhãn dán chuyển động trong ByteWave",
+    "description": "Cho nhãn dán di chuyển trên video trong ByteWave. Dùng thời gian và khung hình chính để đổi vị trí, kích thước và góc xoay.",
+    "lead": "Dùng khung hình chính để di chuyển, đổi kích thước hoặc xoay nhãn dán theo thời gian.",
+    "stepsHeading": "Thiết lập chuyển động",
+    "step1": "Thêm nhãn dán vào video rồi chọn nhãn dán đó.",
+    "step2": "Đặt thời điểm xuất hiện bằng các điều khiển thời gian.",
+    "step3": "Dùng điều khiển khung hình chính để ghi vị trí, kích thước và góc xoay ban đầu.",
+    "step4": "Chuyển đến thời điểm sau đó và đặt khung hình chính khác với vị trí, kích thước hoặc góc xoay mới.",
+    "step5": "Phát video để xem trước chuyển động giữa các khung hình chính.",
+    "readabilityHeading": "Bắt đầu với hai khung hình chính",
+    "readabilityText": "Thử cho nhãn dán đi từ bên này sang bên kia khung hình. Khi đã ổn, thêm thay đổi kích thước hoặc góc xoay.",
+    "relatedCaption": "Thêm phụ đề chuyển động",
+    "relatedLayout": "Tạo video ghép"
+  }
+}

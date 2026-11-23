@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Ẹ̀kọ́ ByteWave",
+    "updatedLabel": "A ti ṣe àtúnṣe",
+    "updatedDate": "23 Oṣù Bélú 2026",
+    "relatedLabel": "Ìtọ́sọ́nà tó jọ mọ́ ọn"
+  },
+  "animatedCaptions": {
+    "title": "Bí A Ṣe Ń Fi Àkọlé Ọ̀rọ̀ Tó Ń Rìn Kún ByteWave",
+    "description": "Fi ọ̀rọ̀ kún fídíò rẹ, yan ipa tó ń rìn, kí o sì gbé àkọlé ọ̀rọ̀ rẹ sí ipò nínú ByteWave. Ìtọ́sọ́nà kúkúrú fún iPhone, iPad àti Mac.",
+    "lead": "Fi ọ̀rọ̀ tirẹ̀ kún fídíò kí o sì fún un ní ipa tó ń rìn.",
+    "stepsHeading": "Fi àkọlé ọ̀rọ̀ rẹ kún un",
+    "step1": "Ṣí fídíò rẹ nínú ByteWave kí o sì fi àkọlé ọ̀rọ̀ kún un.",
+    "step2": "Tẹ ọ̀rọ̀ rẹ, lẹ́yìn náà yan àkọlé ọ̀rọ̀ láti ṣàtúnṣe ìrísí rẹ̀.",
+    "step3": "Yan irú lẹ́tà, ìwọ̀n àti àwọ̀. Gbé ọ̀rọ̀ náà sí orí fídíò rẹ.",
+    "step4": "Yan ipa ọ̀rọ̀, lẹ́yìn náà ṣeré fídíò láti wo ìṣípò náà.",
+    "readabilityHeading": "Jẹ́ kí ó ṣeé kà",
+    "readabilityText": "Lo gbólóhùn kúkúrú àti àwọ̀ tó yàtọ̀ sí àwòrán. Ṣàyẹ̀wò pé ìṣípò náà fi àkókò tó tó sílẹ̀ láti kà á.",
+    "relatedIntro": "Ṣé o ń wá ìrísí kan pàtó? Ìtọ́sọ́nà",
+    "relatedAnchor": "ipa àkọlé ọ̀rọ̀",
+    "relatedTail": "ṣàlàyé àwòṣe bí Orbital Letters àti Ember Ash.",
+    "relatedSticker": "Mú sítíkà rìn"
+  },
+  "animateStickers": {
+    "title": "Bí A Ṣe Ń Mú Sítíkà Rìn nínú ByteWave",
+    "description": "Jẹ́ kí sítíkà rìn lórí fídíò rẹ nínú ByteWave. Lo àkókò àti férémù pàtàkì láti yí ipò, ìwọ̀n àti ìyípo rẹ̀ padà.",
+    "lead": "Lo férémù pàtàkì láti mú sítíkà rìn, yí ìwọ̀n rẹ̀ padà tàbí yí i ká bí àkókò ṣe ń lọ.",
+    "stepsHeading": "Ṣètò ìṣípò náà",
+    "step1": "Fi sítíkà kún fídíò rẹ kí o sì yàn án.",
+    "step2": "Ṣètò ìgbà tí yóò hàn pẹ̀lú àwọn ìdarí àkókò.",
+    "step3": "Lo ìdarí férémù pàtàkì láti gba ipò ìbẹ̀rẹ̀, ìwọ̀n àti ìyípo rẹ̀ sílẹ̀.",
+    "step4": "Lọ sí àkókò tó tẹ̀ lé e kí o sì ṣètò férémù pàtàkì míì pẹ̀lú ipò, ìwọ̀n tàbí ìyípo tó yàtọ̀.",
+    "step5": "Ṣeré fídíò láti wo ìṣípò láàárín wọn.",
+    "readabilityHeading": "Bẹ̀rẹ̀ pẹ̀lú férémù pàtàkì méjì",
+    "readabilityText": "Gbìyànjú láti mú sítíkà rìn láti ẹ̀gbẹ́ férémù kan sí èkejì. Nígbà tí ó bá rí dáadáa, fi àyípadà ìwọ̀n tàbí ìyípo kún un.",
+    "relatedCaption": "Fi àkọlé ọ̀rọ̀ tó ń rìn kún un",
+    "relatedLayout": "Ṣẹ̀dá àkójọpọ̀ fídíò"
+  }
+}

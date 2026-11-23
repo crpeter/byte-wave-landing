@@ -1,0 +1,231 @@
+{
+  "name": "Hrvatski",
+  "nav": {
+    "skip": "Preskoči na sadržaj",
+    "label": "Glavna navigacija",
+    "menu": "Izbornik",
+    "home": "Početna",
+    "features": "Mogućnosti",
+    "compare": "Usporedi",
+    "gallery": "Galerija",
+    "tutorials": "Vodiči",
+    "blog": "Blog",
+    "about": "O nama",
+    "privacy": "Privatnost",
+    "press": "Za medije",
+    "expression": "Sloboda izražavanja",
+    "download": "Preuzmi besplatno"
+  },
+  "footer": {
+    "motto": "Uređivanje videa treba biti besplatno.",
+    "devices": "iPhone s iOS-om 26 ili novijim · iPad s iPadOS-om 26 ili novijim · Mac s macOS-om 26 ili novijim i čipom Apple M1 ili novijim."
+  },
+  "get_free": "Preuzmi ByteWave besplatno",
+  "social_alt": "ByteWave pregled za društvene mreže",
+  "disclosure": {
+    "label": "Obavijest o umjetnoj inteligenciji:",
+    "text": "Ovaj članak sadrži tekst generiran jezičnim modelom umjetne inteligencije (LLM).",
+    "by": "Autor",
+    "review": "Tvrdnje o proizvodu pregledao je ByteWave; usporedbe odražavaju komercijalni interes ByteWavea i nisu neovisne recenzije."
+  },
+  "player": {
+    "play": "Reproduciraj video",
+    "replay": "Ponovo reproduciraj video",
+    "retry": "Pokušaj ponovo",
+    "tap": "Dodirni za reprodukciju videa",
+    "tap_hint": "Dodirni reprodukciju da pokreneš video.",
+    "loading": "Učitavanje videa…",
+    "fallback": "Pokušavamo učitati kompatibilni video…",
+    "failed": "Video nije moguće učitati. Pokušaj ponovo ili otvori poveznicu ispod."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Besplatni GPU video editor za iPhone, iPad i Mac",
+      "description": "Uredi vlastite snimke uz ByteWave, besplatni video editor za iPhone, iPad i Mac. Bez vodenih žigova i pretplate. Lokalno uređivanje, titlovi, efekti i zvuk.",
+      "keywords": "besplatni video editor, video editor bez vodenog žiga, alternativa za capcut, ios video editor, metal shaderi, gpu video editor, video editor bez pretplate, privatnost pri uređivanju videa, besplatni video editor za iphone",
+      "social_title": "ByteWave - Besplatni video editor za iPhone, iPad i Mac",
+      "og_description": "Tvoje snimke. Tvoji kreativni izbori. Besplatno lokalno uređivanje videa za iPhone, iPad i Mac, bez vodenih žigova i pretplate.",
+      "twitter_description": "Uredi vlastite snimke. Bez vodenih žigova i pretplate. Lokalno uređivanje videa uz neobavezno dijeljenje.",
+      "logo_alt": "ByteWave logotip"
+    },
+    "schema": {
+      "description": "Besplatni video editor za iPhone, iPad i Mac. Uredi vlastite snimke uz lokalno renderiranje, slojeviti zvuk i efekte koje pokreće Metal. Bez vodenih žigova i pretplate; dijeljenje na internetu je neobavezno.",
+      "features": "Editor prilagođenih Metal shadera, povećanje rezolucije, zamućenje pokreta, vremensko smanjenje šuma, filteri zajednice, neograničene audio trake, obrada na uređaju, čitanje C2PA vjerodajnica sadržaja, provjerene oznake AI generiranja, kriptografsko porijeklo videa"
+    },
+    "hero": {
+      "tag": "ByteWave · Besplatni video editor",
+      "opening": "Napravi nešto",
+      "emphasis": "stvarno,",
+      "ending": "a ne samo reel.",
+      "edit": "Uredi vlastite snimke. Lokalno, na uređaju.",
+      "platforms": "Besplatni video editor za iPhone, iPad i Mac.",
+      "examples": "Pogledaj što možeš napraviti ↓",
+      "no_watermarks": "Bez pretplate. Bez vodenih žigova pri izvozu.",
+      "devices": "iOS / iPadOS 26 ili noviji. Mac: macOS 26 ili noviji, M1 ili noviji.",
+      "play_background": "Reproduciraj pozadinski video",
+      "pause_background": "Pauziraj pozadinski video"
+    },
+    "download": "Preuzmi ByteWave",
+    "showcase": {
+      "tag": "Počni s onim što si snimio",
+      "footage": "Tvoje snimke.",
+      "edit": "Tvoja montaža.",
+      "intro": "Dodaj svoje fotografije i videozapise. Ostalo oblikuj po svom.",
+      "layout": "Layout iz ByteWavea",
+      "layout_desc": "Spoji fotografije i videozapise u jednu kompoziciju.",
+      "effects": "Filteri, efekti i",
+      "captions": "animirani titlovi",
+      "captions_desc": "Pronađi svoj stil. Dodaj mu svoje riječi.",
+      "audio": "Zvuk alati",
+      "audio_desc": "Složi trake i oblikuj zvuk svog videa.",
+      "gallery": "Pogledaj videozapise napravljene uz ByteWave →",
+      "editor_alt": "ByteWave editor sa snimkom zalaska sunca i alatima za uređivanje na uređaju",
+      "layout_alt": "Layout iz ByteWavea spaja šest fotografija i videozapisa oceana u jednu kompoziciju"
+    },
+    "credentials": {
+      "tag": "Fotografije, videozapisi i AI",
+      "title": "Je li ovo napravljeno umjetnom inteligencijom?",
+      "check": "Provjeri fotografiju ili video.",
+      "check_desc": "ByteWave čita podržane C2PA vjerodajnice sadržaja, uključujući potpisane oznake koje identificiraju sadržaj generiran umjetnom inteligencijom. Provjera se obavlja na tvom uređaju.",
+      "how": "Kako provjeriti datoteku →",
+      "signed": "Tvoji izvozi su potpisani.",
+      "signed_desc": "Svaki izvoz putem opcije Spremi u Fotografije dobiva ByteWave pečat porijekla s digitalnim potpisom. On pomaže pokazati da datoteka dolazi iz ByteWavea i je li se mijenjala nakon potpisivanja.",
+      "signed_link": "Kako funkcionišu potpisani izvozi →",
+      "caveat": "Nema vjerodajnica? To ne znači da je sadržaj stvaran ili lažan. Potpis ne može dokazati da se scena dogodila.",
+      "newsrooms": "Provjeravaš snimke za priču? Počni ovdje →"
+    },
+    "geese": {
+      "tag": "Svaki alat za uređivanje. Besplatno.",
+      "opening": "Slobodne kao",
+      "emphasis": "guske.",
+      "desc": "Bez pretplate. Bez vodenih žigova pri izvozu. Za lokalno uređivanje nije potreban račun.",
+      "fallback": "Otvori kompatibilnu kopiju",
+      "caption": "Guske plivaju kroz tekuću vodu, uz natpis „Free as in geese“ na zaslonu.",
+      "alt": "Slobodne kao guske: pregled aplikacije ByteWave"
+    },
+    "privacy": {
+      "title": "Tvoji videozapisi ostaju na tvom uređaju",
+      "intro": "Počni s trenucima koje si snimio. Skrati klipove, oblikuj zvuk i sam odaberi efekte. ByteWave obavlja uređivanje i renderiranje na tvom podržanom Apple uređaju.",
+      "local": "ByteWave obrađuje montažu lokalno na tvom Apple uređaju.",
+      "sharing": "Za lokalno uređivanje nije potreban račun, a videozapisi se ne šalju na internet osim ako izričito odabereš objavljivanje ili dijeljenje putem internetske funkcije.",
+      "stamp": "Svaki izvoz putem opcije Spremi u Fotografije kriptografski je potpisan ByteWave metapodacima o porijeklu kako bi se provjerilo da dolazi iz ByteWavea i je li mijenjan nakon potpisivanja. Potpis ne može dokazati da se prikazani događaj dogodio.",
+      "stamp_link": "Saznaj što potpisani izvozi mogu potvrditi.",
+      "guide": "Kako uređivati bez slanja svojih snimaka na internet"
+    },
+    "creative": {
+      "title": "Dosta ti je AI videozapisa koji preplavljuju tvoj feed?",
+      "intro": "Ako Facebook ili TikTok djeluju pretrpano generiranim klipovima ili CapCutove AI funkcije nisu ono zbog čega uređuješ video, možeš početi s vlastitim snimkama.",
+      "choice": "Tvoje snimke, tvoja montaža, tvoj izbor da podijeliš.",
+      "tools": "ByteWave ti daje alate za rad s onim što si snimio: animirane titlove, prilagođene filtere, usporena snimka i slojeviti zvuk. Pomoćne funkcije poput povećanja rezolucije su dostupne; za uređivanje videa ne moraš generirati scenu iz tekstualne upute.",
+      "feed": "Anonimno pregledaj javni ByteWave feed uz neobaveznu personalizaciju koja se izračunava na tvom uređaju i bez povijesti gledanja na serveru.",
+      "feed_link": "Pogledaj kako feed funkcioniše.",
+      "facebook": "Kako smanjiti broj AI videozapisa na Facebook feedu",
+      "tiktok": "Kako vidjeti manje AI sadržaja na TikToku",
+      "real": "AI smeće, stvarne snimke i povratak kreativne kontrole",
+      "capcut": "Besplatna alternativa za CapCut za uređivanje vlastitih snimaka",
+      "gallery": "Pogledaj videozapise napravljene uz ByteWave",
+      "or": "ili",
+      "tutorial": "isprobaj vodič za zamućenje pokreta.",
+      "download": "Besplatno uredi vlastite snimke"
+    },
+    "compare": {
+      "title": "ByteWave ili CapCut",
+      "intro": "ByteWaveovi alati za uređivanje su besplatni. CapCut neke od istih alata stavlja u plaćene pakete.",
+      "feature": "Mogućnost",
+      "price": "Cijena",
+      "free": "$0",
+      "plans": "Besplatni i plaćeni paketi",
+      "watermarks": "Vodeni žigovi",
+      "none": "Bez ByteWave vodenog žiga",
+      "varies": "Ovisi o alatu i izvozu",
+      "editing": "Uređivanje",
+      "offline": "Na uređaju; račun nije potreban",
+      "cloud": "Lokalni alati i alati u oblaku",
+      "data": "Postupanje s podacima",
+      "no_tracking": "Bez praćenja ponašanja; računi i objavljivanje su neobavezni",
+      "policy": "Pogledaj CapCutovu politiku privatnosti",
+      "provenance": "Porijeklo videa",
+      "stamp": "ByteWave pečat pri spremanju u Fotografije",
+      "export_options": "Provjeri trenutne opcije izvoza",
+      "slow_motion": "Usporena snimka",
+      "included": "Uključeno",
+      "optical": "Optički tok: besplatno probno korištenje",
+      "motion": "Zamućenje pokreta",
+      "pro_motion": "Navedeno u paketu Pro*",
+      "noise": "Smanjenje šuma u videu",
+      "pro": "Paket Pro",
+      "desktop": "Računalo",
+      "upscale": "AI povećanje rezolucije",
+      "device": "Na uređaju",
+      "paid": "Plaćena pretplata",
+      "mobile": "AI poboljšanje na mobilnom uređaju",
+      "tracks": "Zvuk trake",
+      "unlimited": "Bez ograničenja broja traka",
+      "limits": "Provjeri ograničenja platforme",
+      "tts": "Pretvaranje teksta u govor",
+      "voices": "Besplatni glasovi; premium glasovi troše kredite",
+      "captions": "Automatski titlovi",
+      "pro_captions": "Pro za puni pristup",
+      "code": "Izmjenjivi izvorni kod filtera",
+      "metal": "Uključen izvorni kod Metal shadera",
+      "filter_tools": "Provjeri trenutne alate za filtere",
+      "community": "Filteri zajednice",
+      "shared": "Dijeljeni shaderi koje možeš mijenjati",
+      "effects": "Besplatni i Pro efekti i predlošci",
+      "subject": "Izdvajanje subjekta za filtere",
+      "masks": "Alati za maskiranje i izrezivanje",
+      "note": "Provjereno 18. listopada 2026. Pro je plaćena pretplata. *CapCut navodi zamućenje pokreta u paketu Pro, ali oglašava i besplatne verzije. Pristup ovisi o platformi, regiji i ponudi.",
+      "full": "Potpuna usporedba"
+    },
+    "features": {
+      "title": "Što dobivaš",
+      "items": [
+        {
+          "title": "C2PA provjere i porijeklo videa",
+          "body": "Provjeri podržane vjerodajnice sadržaja u fotografijama i videozapisima, uključujući oznake AI generiranja. Svaki izvoz putem opcije Spremi u Fotografije dobiva i ByteWave pečat za lakše prepoznavanje naknadnih promjena."
+        },
+        {
+          "title": "Usporena snimka i zamućenje pokreta",
+          "body": "Učini usporeni video glađim uz FRC. Zamućenje pokreta i vremensko smanjenje šuma također se obrađuju lokalno na tvom uređaju prije pregleda."
+        },
+        {
+          "title": "AI povećanje rezolucije",
+          "body": "Povećaj rezoluciju na uređaju. Bez obrade u oblaku i čekanja servera."
+        },
+        {
+          "title": "Neograničene audio trake",
+          "body": "Složi koliko god audio klipova trebaš na vizualnoj vremenskoj liniji. Ugrađeni zvučni efekti. Bez ograničenja broja traka."
+        },
+        {
+          "title": "Pretvaranje teksta u govor",
+          "body": "Unesi tekst za sintezu glasa ili generiraj titlove na uređaju. Neobavezno automatsko označavanje pomaže drugima otkriti podijeljene videozapise i zahtijeva račun i pristanak."
+        },
+        {
+          "title": "Tekstualni efekti",
+          "body": "Svjetlucanje, glitch, neon i još mnogo toga. Animirani tekst za koji ti ne treba iskustvo u grafici pokreta."
+        },
+        {
+          "title": "Izdvajanje subjekta",
+          "body": "Odvoji subjekte od pozadine i primijeni različite filtere na svaki dio. Zamuti pozadinu, zadrži oštar subjekt; jednim dodirom."
+        },
+        {
+          "title": "Prilagođeni filteri s izvornim kodom",
+          "body": "Svaki filter prikazuje kod shadera koji ga pokreće. Mijenjaj ga izravno ili kopiraj kod i zatraži od ChatGPT-a da napravi nešto novo."
+        },
+        {
+          "title": "Filteri zajednice",
+          "body": "Objavi filtere koje si napravio. Pregledaj i preuzmi filtere drugih autora. Dodaj ih u biblioteku jednim dodirom."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filteri koje zaista možeš uređivati",
+      "desc": "Većina editora skriva način rada filtera. ByteWave ti prikazuje kod. Mijenjaj ga, uči iz njega ili ga kopiraj i opiši umjetnoj inteligenciji što želiš; zatim zalijepi rezultat nazad.",
+      "comment": "// Impresionistička pozadina, oštar subjekt"
+    },
+    "cta": {
+      "desc": "Uređuj bez interneta. Račun nije potreban. Pošalji video samo kada odlučiš objaviti.",
+      "apple": "Preuzmi za Apple"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Udhëzues ByteWave",
+    "updatedLabel": "Përditësuar",
+    "updatedDate": "23 nëntor 2026",
+    "relatedLabel": "Udhëzues të ngjashëm"
+  },
+  "animatedCaptions": {
+    "title": "Si të shtosh titra të animuar në ByteWave",
+    "description": "Shto tekst në videon tënde, zgjidh një efekt të animuar dhe vendos titrin në ByteWave. Udhëzues i shkurtër për iPhone, iPad dhe Mac.",
+    "lead": "Shto tekstin tënd në një video dhe jepi një efekt të animuar.",
+    "stepsHeading": "Shto titrin",
+    "step1": "Hap videon tënde në ByteWave dhe shto një titër.",
+    "step2": "Shkruaj tekstin, pastaj zgjidh titrin për t'i redaktuar stilin.",
+    "step3": "Zgjidh fontin, madhësinë dhe ngjyrën. Vendose tekstin mbi videon.",
+    "step4": "Zgjidh një efekt teksti, pastaj luaj videon për të parë animimin.",
+    "readabilityHeading": "Mbaje të lexueshëm",
+    "readabilityText": "Përdor një shprehje të shkurtër dhe një ngjyrë që dallohet nga xhirimi. Kontrollo që animimi të lërë kohë të mjaftueshme për lexim.",
+    "relatedIntro": "Po kërkon një pamje të caktuar? Ky",
+    "relatedAnchor": "udhëzues për efektet e titrave",
+    "relatedTail": "mbulon modele si Orbital Letters dhe Ember Ash.",
+    "relatedSticker": "Animo një ngjitëse"
+  },
+  "animateStickers": {
+    "title": "Si të animosh ngjitëse në ByteWave",
+    "description": "Bëj një ngjitëse të lëvizë nëpër videon tënde në ByteWave. Përdor kohën dhe kuadrot kyçe për të ndryshuar pozicionin, madhësinë dhe rrotullimin.",
+    "lead": "Përdor kuadro kyçe për të lëvizur një ngjitëse, për t'i ndryshuar madhësinë ose për ta rrotulluar me kalimin e kohës.",
+    "stepsHeading": "Cakto lëvizjen",
+    "step1": "Shto një ngjitëse në videon tënde dhe zgjidhe.",
+    "step2": "Cakto kur shfaqet me kontrollet e kohës.",
+    "step3": "Përdor kontrollet e kuadrove kyçe për të regjistruar pozicionin, madhësinë dhe rrotullimin fillestar.",
+    "step4": "Kalo në një çast të mëvonshëm dhe vendos një tjetër kuadër kyç me pozicion, madhësi ose rrotullim të ndryshëm.",
+    "step5": "Luaj videon për të parë lëvizjen midis tyre.",
+    "readabilityHeading": "Fillo me dy kuadro kyçe",
+    "readabilityText": "Provo ta lëvizësh një ngjitëse nga njëra anë e kuadrit në tjetrën. Pasi të duket mirë, shto një ndryshim madhësie ose rrotullim.",
+    "relatedCaption": "Shto titra të animuar",
+    "relatedLayout": "Krijo një kolazh videosh"
+  }
+}
