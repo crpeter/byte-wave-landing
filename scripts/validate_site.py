@@ -228,7 +228,7 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             if not p.title.strip(): errors.append(f"{rel}: missing title")
             if p.main_count != 1: errors.append(f"{rel}: expected one main landmark")
             if "#main" not in p.links or "main" not in p.ids: errors.append(f"{rel}: missing skip link or target")
-            required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"}
+            required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html", "/dmca.html"}
             if is_localized and p.lang in EXPANDED_LOCALES:
                 # These languages currently cover the homepage and tutorials.
                 required_footer.remove('/'); required_footer.add(f'/{locale_slug(p.lang)}/')

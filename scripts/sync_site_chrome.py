@@ -5,10 +5,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 NAV_LINKS = [('Features', '/#features'), ('Compare', '/#compare'), ('Gallery', '/gallery/'), ('Tutorials', '/tutorials/'), ('Blog', '/blog/')]
-FOOTER_LINKS = [('Home', '/'), ('Gallery', '/gallery/'), ('Tutorials', '/tutorials/'), ('Blog', '/blog/'), ('About', '/about.html'), ('Press', '/press.html'), ('Privacy', '/privacy.html'), ('Free expression', '/free-expression.html')]
+FOOTER_LINKS = [('Home', '/'), ('Gallery', '/gallery/'), ('Tutorials', '/tutorials/'), ('Blog', '/blog/'), ('About', '/about.html'), ('Press', '/press.html'), ('Privacy', '/privacy.html'), ('Free expression', '/free-expression.html'), ('DMCA', '/dmca.html')]
 
 def links(items):
-    return '\n        '.join(f'<a href="{url}">{label}</a>' for label, url in items)
+    return '\n        '.join(
+        f'<a href="{url}"' + (' hreflang="en"' if url == '/dmca.html' else '') + f'>{label}</a>'
+        for label, url in items
+    )
 
 def navigation(download):
     return f'''<nav class="site-nav" aria-label="Main navigation">
