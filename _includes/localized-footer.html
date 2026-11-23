@@ -15,6 +15,7 @@
         <a href="{{ press_page.url | default: '/press.html' | relative_url }}"{% unless press_page %} hreflang="en"{% endunless %}>{{ t.nav.press | escape }}</a>
         <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}"{% unless privacy_page %} hreflang="en"{% endunless %}>{{ t.nav.privacy | escape }}</a>
         <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}"{% unless expression_page %} hreflang="en"{% endunless %}>{{ t.nav.expression | escape }}</a>
+        <a href="{{ '/dmca.html' | relative_url }}" hreflang="en">DMCA</a>
     </div>
     <p>© 2026 ByteWave. {{ t.footer.motto | escape }}</p>
     <p class="compatibility">{{ t.footer.devices | escape }}</p>
