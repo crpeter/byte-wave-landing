@@ -4,7 +4,7 @@ lang: "zh-Hant"
 translation_key: "meta-muse-ai-privacy-concerns"
 permalink: "/zh-hant/blog/meta-muse-ai-privacy-concerns.html"
 published_on: "2026-11-19"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "發布日期"
 display_date: "2026年11月19日"
 section_tag: "privacy-opinion"
@@ -20,12 +20,20 @@ article_logo: "/assets/brands/meta.svg"
 article_logo_alt: "Meta"
 article_logo_width: 128
 article_logo_height: 72
+source_updated_on: "2026-11-23"
+display_source_update: "2026年11月23日"
+updated_label: "更新日期"
 ---
 <p class="lead">你的私人訊息不該在毫無預期下變成 AI 功能的素材。當助理輸出敏感資訊時，「它產生了幻覺」應該是調查的起點，而非終點。</p>
 <h2 id="reporting">報導確認了什麼</h2>
 <p>Reuters 於 11 月 18 日報導，Meta 員工對意料之外的 Signal 訊息存取，以及未經要求卻含有疑似銀行餘額的回覆提出疑慮。Meta 表示，許多被懷疑是帳號混淆的情況其實是已經處理的幻覺，並將這些例子稱為個別事件。Reuters 無法確認這些財務資訊是外洩資料，還是憑空捏造。</p>
 <p>與 Signal 及 AI Now Institute 進行的測試，重現了透過 Android 通知權限，以及 macOS 輔助使用與螢幕截圖工具讀取訊息的情況。同樣的請求在 iPhone 上遭到阻擋。更新後的報導指出，Apple 後續對 macOS 的修改已關閉受測的途徑。這些結果描述的是透過裝置權限取得存取能力，不是證實 Signal 的加密遭到破解。</p>
 <p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a></p>
+<h2 id="malicious-webpage">11月20日：研究示範中，惡意網頁導致對話外洩</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec示範了要求Muse匯出惡意網頁，如何在未出現核准提示的情況下洩露對話紀錄與儲存的記憶。研究人員也能修改這些資料。進一步利用Linux核心漏洞後，他們取得了使用者雲端虛擬機器的控制權，並能存取憑證儲存區。</p>
+<p>NebuSec表示，文中描述的所有攻擊途徑都已在發表前修補。示範範圍僅限於單一使用者的虛擬機器，並未證明真實使用者遭到攻擊，或其他使用者的機器遭到存取。</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">閱讀NebuSec技術研究</a></p>
+<p><a href="/zh-hant/blog/meta-muse-privacy-security-incidents.html#malicious-webpage">查看Muse事件時間軸</a></p>
 <h2 id="consent">權限必須有明確意義</h2>
 <p>設定時授予的廣泛權限，不能取代清楚說明代理程式會讀取什麼。請助理協助一項工作的人，不該被迫預測公司還會如何利用這項存取能力。真正有意義的同意應指明資訊、目的與界線。這些界線應持續可見，權限也應容易撤銷。</p>
 <h2 id="hallucination-defense">「它產生了幻覺」是需要證據的主張</h2>

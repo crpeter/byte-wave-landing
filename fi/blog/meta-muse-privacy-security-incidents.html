@@ -4,14 +4,14 @@ lang: "fi"
 translation_key: "meta-muse-privacy-security-incidents"
 permalink: "/fi/blog/meta-muse-privacy-security-incidents.html"
 published_on: "2026-10-01"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "Julkaistu"
 display_date: "1. lokakuuta 2026"
 section_tag: "incident-tracker"
 store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_meta_muse_privacy_security_incidents&mt=8"
 show_article_cta: false
-source_updated_on: "2026-10-20"
-display_source_update: "20. lokakuuta 2026"
+source_updated_on: "2026-11-23"
+display_source_update: "23. marraskuuta 2026"
 updated_label: "Päivitetty"
 publisher_note: "Julkaisija on ByteWave, joka kehittää työkaluja videoeditointiin ja sisällön alkuperän todentamiseen."
 social_image: "/assets/social/meta-muse-privacy-security-incidents.jpg"
@@ -21,7 +21,14 @@ seo_title: "Aikajana: Meta Musen yksityisyys- ja tietoturvatapaukset"
 description: "Päivätty aikajana Meta Musen yksityisyydestä: yhteystietoprofiilit, muisti ja poistaminen, osoitteen jakaminen Marketplacessa, tietoturva-aukot ja ilmoitetut korjaukset."
 ---
 <p class="lead">Tekoälylle on helppo antaa käyttöoikeudet. Sen jo jakamien tietojen takaisin saaminen ei ole yhtä helppoa.</p>
-<p>Tässä on kooste siitä, mitä Meta Musesta on raportoitu. Päivitetty 20. lokakuuta 2026. Tämä on valikoitu aikajana, ei vahvistettujen tietomurtojen lukumäärä.</p>
+<p>Tämä aikajana kokoaa valittuja uutisia ja tutkimuksia, ei vahvistettujen tietovuotojen lukumäärää.</p>
+<h2 id="malicious-webpage">20. marraskuuta: haitallinen verkkosivu paljasti keskusteluja tutkimuskokeessa</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec osoitti, että Musen pyytäminen viemään haitallinen verkkosivu tiedostoksi saattoi paljastaa keskusteluhistorian ja tallennetut muistot ilman hyväksyntäpyyntöä. Tutkijat pystyivät myös muuttamaan näitä tietoja. Linux-ytimeen kohdistunut jatkohyökkäys antoi heille hallinnan käyttäjän pilvessä toimivaan virtuaalikoneeseen ja pääsyn sen tunnistetietovarastoon.</p>
+<p>NebuSecin mukaan kaikki kuvatut hyökkäysreitit oli korjattu ennen julkaisua. Koe rajoittui yhden käyttäjän virtuaalikoneeseen; se ei osoita hyökkäyksiä todellisia käyttäjiä vastaan eikä pääsyä muiden käyttäjien koneisiin.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">Lue NebuSecin tekninen tutkimus</a></p>
+<h2 id="signal-bank-balances">18. marraskuuta: pääsy Signal-viesteihin ja selittämättömät tilisaldoviestit</h2>
+<p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a>: Reuters kertoi odottamattomasta pääsystä Signal-viesteihin ja näennäisistä pankkitilien saldoista työntekijöiden keskusteluissa. Meta kutsui esimerkkejä yksittäistapauksiksi ja selitti epäillyt tilien sekoittumiset hallusinaatioilla. Reuters ei vahvistanut, olivatko taloustiedot vuotaneet vai keksittyjä. Viestien lukemista koskeneet testit liittyivät laitteen käyttöoikeuksiin, eivät osoitettuun Signal-salauksen murtamiseen.</p>
+<p><a href="/fi/blog/meta-muse-ai-privacy-concerns.html#reporting">Lue artikkelimme Reutersin tutkimuksesta</a></p>
 <h2 id="ghostshares">18.–20. lokakuuta: jaetut keskustelut olivat löydettävissä, minkä jälkeen jakaminen keskeytettiin</h2>
 <p><strong>Tutkijoiden dokumentoima tietojen paljastuminen.</strong> <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/">Claroc löysi</a> arkaluonteisia asiakirjoja käyttäjien pyynnöstä tehdyistä Muse-jaoista, jotka olivat löydettävissä DNS-tietueiden avulla. Kyse on jaetuista sivuista, ei kaikista yksityisistä keskusteluista.</p>
 <p><strong>Tilanne:</strong> <a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Meta keskeytti jakamisen 20. lokakuuta</a>. Uusintatarkistuksessa Claroc havaitsi, että 40 aiempaa jakoa ei enää ollut käytettävissä, mutta niiden otsikot säilyivät historiallisissa tietueissa. Väärinkäyttöä ei osoitettu. <a href="/fi/blog/meta-muse-shared-chats-exposed.html">Lue GhostShares-juttumme.</a></p>

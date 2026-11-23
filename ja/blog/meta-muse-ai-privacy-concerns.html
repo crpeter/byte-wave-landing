@@ -4,7 +4,7 @@ lang: "ja"
 translation_key: "meta-muse-ai-privacy-concerns"
 permalink: "/ja/blog/meta-muse-ai-privacy-concerns.html"
 published_on: "2026-11-19"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "公開日"
 display_date: "2026年11月19日"
 section_tag: "privacy-opinion"
@@ -20,12 +20,20 @@ article_logo: "/assets/brands/meta.svg"
 article_logo_alt: "Meta"
 article_logo_width: 128
 article_logo_height: 72
+source_updated_on: "2026-11-23"
+display_source_update: "2026年11月23日"
+updated_label: "更新日"
 ---
 <p class="lead">私的なメッセージが、知らないうちにAIの機能に使われるべきではありません。アシスタントが機微な情報を出力したとき、「ハルシネーションだった」は調査の終わりではなく、始まりであるべきです。</p>
 <h2 id="reporting">報道で確認されたこと</h2>
 <p>Reutersは11月18日、Metaの従業員が、予期しないSignalメッセージへのアクセスや、銀行残高らしき情報を含む求めていない出力に懸念を示したと報じました。Metaは、アカウントの混同が疑われた多くの事例はハルシネーションで、すでに対処したと説明し、挙げられた例を個別の事案と位置づけました。Reutersは、金融情報が漏えいしたのか、創作されたのかを確認できませんでした。</p>
 <p>SignalおよびAI Now Instituteと行ったテストでは、Androidの通知権限、macOSのアクセシビリティとスクリーンショットのツールを通じて、メッセージへのアクセスが再現されました。同じ要求はiPhoneでは拒否されました。更新された報道によると、Appleによるその後のmacOSの変更で、テストされた経路は閉じられました。これは端末の権限を介したアクセスの報告であり、Signalの暗号化が破られたことを示すものではありません。</p>
 <p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a></p>
+<h2 id="malicious-webpage">11月20日：研究実験で悪意あるウェブページからチャットが流出</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSecは、悪意あるウェブページの書き出しをMuseに依頼すると、承認を求める画面なしに会話履歴や保存された記憶を外部に送信できることを実証しました。研究者はその情報の改変も可能でした。さらにLinuxカーネルの脆弱性を悪用することで、ユーザーのクラウド仮想マシンを制御し、認証情報の保管領域にアクセスできました。</p>
+<p>NebuSecによると、報告された攻撃手法はすべて公開前に修正済みです。実験は1人のユーザーの仮想マシン内にとどまり、実際のユーザーへの攻撃や他のユーザーのマシンへのアクセスを示すものではありません。</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">NebuSecの技術調査を読む</a></p>
+<p><a href="/ja/blog/meta-muse-privacy-security-incidents.html#malicious-webpage">Museのインシデント年表を見る</a></p>
 <h2 id="consent">許可には明確な意味が必要</h2>
 <p>初期設定時の広い権限は、エージェントが何を読むのかという明確な説明の代わりにはなりません。一つの作業の手助けを求める人が、そのアクセスを企業がほかにどう使うか、すべて予測する必要があってはなりません。意味のある同意には、対象の情報、目的、範囲が明示されるべきです。その範囲は常に確認でき、許可は簡単に取り消せる必要があります。</p>
 <h2 id="hallucination-defense">「ハルシネーションだった」という主張には証拠が必要</h2>

@@ -4,14 +4,14 @@ lang: "ja"
 translation_key: "meta-muse-privacy-security-incidents"
 permalink: "/ja/blog/meta-muse-privacy-security-incidents.html"
 published_on: "2026-10-01"
-updated_on: "2026-11-19"
+updated_on: "2026-11-23"
 published_label: "公開日"
 display_date: "2026年10月1日"
 section_tag: "incident-tracker"
 store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_meta_muse_privacy_security_incidents&mt=8"
 show_article_cta: false
-source_updated_on: "2026-10-20"
-display_source_update: "2026年10月20日"
+source_updated_on: "2026-11-23"
+display_source_update: "2026年11月23日"
 updated_label: "更新日"
 publisher_note: "動画編集とコンテンツの来歴を確認するツールを開発するByteWaveが公開しています。"
 social_image: "/assets/social/meta-muse-privacy-security-incidents.jpg"
@@ -21,7 +21,14 @@ seo_title: "Meta Museのプライバシー・セキュリティ問題を時系�
 description: "Meta Museのプライバシー問題を日付順に整理。連絡先の人物像、記憶と削除への懸念、Marketplaceでの住所開示、セキュリティ上の欠陥、報告された修正をまとめます。"
 ---
 <p class="lead">AIにアクセス権を与えるのは簡単です。すでに共有された情報を取り戻すのは、簡単ではありません。</p>
-<p>Meta Museについて報じられた内容をまとめました。2026年10月20日更新。これは主な出来事を選んだ時系列の記録であり、確認済みの情報漏えい件数を数えたものではありません。</p>
+<p>これは報道と研究を抜粋した年表であり、確認済みの情報漏えい件数を示すものではありません。</p>
+<h2 id="malicious-webpage">11月20日：研究実験で悪意あるウェブページからチャットが流出</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSecは、悪意あるウェブページの書き出しをMuseに依頼すると、承認を求める画面なしに会話履歴や保存された記憶を外部に送信できることを実証しました。研究者はその情報の改変も可能でした。さらにLinuxカーネルの脆弱性を悪用することで、ユーザーのクラウド仮想マシンを制御し、認証情報の保管領域にアクセスできました。</p>
+<p>NebuSecによると、報告された攻撃手法はすべて公開前に修正済みです。実験は1人のユーザーの仮想マシン内にとどまり、実際のユーザーへの攻撃や他のユーザーのマシンへのアクセスを示すものではありません。</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">NebuSecの技術調査を読む</a></p>
+<h2 id="signal-bank-balances">11月18日：Signalへのアクセスと出所不明の銀行残高メッセージ</h2>
+<p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a>: Reutersは、従業員のチャットで予期しないSignalメッセージへのアクセスや銀行残高らしき情報が報告されたと伝えました。Metaは個別の事例だとし、疑われたアカウント間の混同をハルシネーションによるものと説明しました。Reutersは金融情報が漏えいしたのか捏造されたのかを確定していません。メッセージへのアクセステストは端末の権限に関するもので、Signalの暗号化が破られたことを実証したものではありません。</p>
+<p><a href="/ja/blog/meta-muse-ai-privacy-concerns.html#reporting">Reutersの調査に関する記事を読む</a></p>
 <h2 id="ghostshares">10月18～20日：共有チャットが見つけられる状態に、その後共有を一時停止</h2>
 <p><strong>研究者が記録した情報の露出。</strong> <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/">Clarocは</a>、ユーザーの依頼で共有されたMuseのコンテンツの中に、DNSレコードを通じて見つけられる機密文書を発見しました。対象は共有ページであり、すべての非公開チャットではありません。</p>
 <p><strong>状況：</strong><a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Metaは10月20日に共有機能を一時停止しました</a>。Clarocの再確認では、過去の共有コンテンツ40件にアクセスできなくなっていましたが、タイトルは過去の記録に残っていました。不正利用は確認されていません。<a href="/ja/blog/meta-muse-shared-chats-exposed.html">GhostSharesについての記事をお読みください。</a></p>

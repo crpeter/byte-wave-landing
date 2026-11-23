@@ -274,10 +274,10 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
     "gta-online-anger-scores-player-privacy": (6, 16, 4),
-    "meta-muse-ai-privacy-concerns": (7, 19, 5),
+    "meta-muse-ai-privacy-concerns": (8, 23, 5),
     "bytewave-vs-meta-creative-control": (5, 16, 0),
     "meta-italy-facebook-camera-roll-fine": (6, 18, 3),
-    "meta-muse-privacy-security-incidents": (9, 21, 0),
+    "meta-muse-privacy-security-incidents": (11, 26, 0),
     "meta-muse-privacy-security": (7, 23, 0),
     "the-next-tiktok-may-start-as-a-video-editor": (8, 22, 8),
     "bytewave-advanced-editing-keyframes-translation": (8, 19, 0),

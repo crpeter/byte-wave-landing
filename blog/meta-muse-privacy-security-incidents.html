@@ -4,14 +4,14 @@ lang: "en"
 translation_key: "meta-muse-privacy-security-incidents"
 permalink: "/blog/meta-muse-privacy-security-incidents.html"
 published_on: "2026-10-01"
-updated_on: "2026-10-20"
+updated_on: "2026-11-23"
 published_label: "Published"
 display_date: "October 1, 2026"
 section_tag: "incident-tracker"
 store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_meta_muse_privacy_security_incidents&mt=8"
 show_article_cta: false
-source_updated_on: "2026-10-20"
-display_source_update: "October 20, 2026"
+source_updated_on: "2026-11-23"
+display_source_update: "November 23, 2026"
 updated_label: "Updated"
 publisher_note: "Published by ByteWave, which makes video editing and provenance tools."
 social_image: "/assets/social/meta-muse-privacy-security-incidents.jpg"
@@ -21,7 +21,14 @@ seo_title: "Meta Muse Privacy and Security Incidents: A Timeline"
 description: "A dated Meta Muse privacy timeline: contact profiles, memory and deletion concerns, the Marketplace address disclosure, security flaws, and reported fixes."
 ---
 <p class="lead">Giving an AI access is easy. Taking back information it already shared is not.</p>
-<p>Here is what has been reported about Meta Muse. Updated October 20, 2026. This is a selected timeline, not a count of confirmed breaches.</p>
+<p>This is a selected timeline of reporting and research, not a count of confirmed breaches.</p>
+<h2 id="malicious-webpage">November 20: a malicious webpage exposed chats in a research demonstration</h2>
+<p><a href="https://nebusec.ai/research/meta-muse-credential-exposure/">NebuSec · 2026-11-20</a>: NebuSec demonstrated that asking Muse to export a malicious webpage could expose conversation history and stored memories without an approval prompt. The researchers could also alter that information. A further Linux-kernel exploit gave them control of the user’s cloud virtual machine and access to its credential storage.</p>
+<p>NebuSec says all described exploits were patched before publication. The demonstration stayed within one user’s virtual machine; it does not establish attacks on real users or access to other users’ machines.</p>
+<p><a href="https://nebusec.ai/research/inside-meta-muse/">Read NebuSec’s technical research</a></p>
+<h2 id="signal-bank-balances">November 18: Signal access and unexplained bank-balance messages</h2>
+<p><a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">Reuters · 2026-11-18</a>: Reuters reported unexpected Signal-message access and apparent bank balances in employee chats. Meta called the examples isolated incidents and attributed suspected account mix-ups to hallucinations. Reuters did not establish whether the financial information was leaked or invented. The message-access tests concerned device permissions, not a demonstrated break in Signal’s encryption.</p>
+<p><a href="/blog/meta-muse-ai-privacy-concerns.html#reporting">Read our coverage of the Reuters investigation</a></p>
 <h2 id="ghostshares">October 18–20: discoverable shared chats, then a pause</h2>
 <p><strong>Researcher-documented exposure.</strong> <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/">Claroc found</a> sensitive documents in user-requested Muse shares discoverable through DNS records. This concerns shared pages, not all private chats.</p>
 <p><strong>Status:</strong> <a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Meta paused sharing on October 20</a>. Claroc’s recheck found 40 earlier shares inaccessible, but titles remained in historical records. No misuse was established. <a href="/blog/meta-muse-shared-chats-exposed.html">Read our GhostShares coverage.</a></p>
