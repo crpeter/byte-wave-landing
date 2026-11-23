@@ -40,7 +40,14 @@ with tempfile.TemporaryDirectory() as folder:
         ('_config.yml', 'assets/videos/layout/warped-sunset/*', 'assets/videos/layout/warped-sunset', 'linked resource excluded from publication'),
         ('gallery/index.html', 'poster="/assets/videos/layout/warped-sunset-4k/poster.jpg"', 'poster="/assets/videos/layout/warped-sunset-4k/missing.jpg"', 'broken link /assets/videos/layout/warped-sunset-4k/missing.jpg'),
         ('gallery/index.html', 'data-stream="/assets/videos/layout/warped-sunset-4k/original.m3u8"', 'data-stream="/assets/videos/layout/warped-sunset-4k/missing.m3u8"', 'broken link /assets/videos/layout/warped-sunset-4k/missing.m3u8'),
+        ('ar/index.html', 'href="/blog/"', 'href="/ar/blog/"', 'missing shared footer links'),
+        ('ar/tutorials/animated-captions/index.html', '(LLM)', '(edited)', 'disclosure must explicitly identify'),
     ]
+    def title_tag(name):
+        return '<title>' + (fixture / name).read_text().split('<title>', 1)[1].split('</title>', 1)[0] + '</title>'
+    cases.append(('ar/tutorials/animated-captions/index.html',
+                  title_tag('ar/tutorials/animated-captions/index.html'),
+                  title_tag('ar/index.html'), 'duplicate title'))
     for name, before, after, message in cases:
         p = fixture / name; original = p.read_text(); assert before in original
         p.write_text(original.replace(before, after))
@@ -56,3 +63,4 @@ run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_creation_tutorials.py
 run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_short_tutorial_translations.py'))
 run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_technical_provenance_guides.py'))
 run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_comparison_tutorial_translations.py'))
+run_path(str(validate_site.SOURCE_ROOT / 'scripts' / 'test_expanded_languages.py'))

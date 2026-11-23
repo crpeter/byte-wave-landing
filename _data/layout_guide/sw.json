@@ -1,0 +1,61 @@
+{
+  "title": "Kitengeneza Kolaji za Video cha Bure kwa iPhone, iPad na Mac",
+  "lead": "Panga video juu ya nyingine. Changanya picha na klipu. Tengeneza gridi au mipangilio ya sega la asali kwa ByteWave, bila malipo kwenye iPhone, iPad na Mac ya Apple Silicon.",
+  "orientations": "Mpangilio mmoja, mielekeo miwili",
+  "honeyText": "Visanduku saba vya pembesita vinavyoonyesha mwezi, mbwa na shamba lenye jua.",
+  "seasideText": "Klipu sita za ufukweni zinashiriki fremu moja, kisha uhariri unahamia kwa mbwa anayecheza ufukweni.",
+  "warpedText": "Video ya machweo ya bahari iliyopindishwa kuwa mikanda iliyopinda na kuakisiwa.",
+  "hexText": "Machweo ya bahari na mawimbi yaliyopangwa katika paneli nne za pembesita juu ya mandharinyuma ya machweo ya fremu nzima katika ByteWave.",
+  "features": "Zaidi ya kolaji ya picha",
+  "feature1": "Unganisha picha na video katika mpangilio mmoja.",
+  "feature2": "Panga klipu wima au ziweke sambamba.",
+  "feature3": "Tengeneza gridi zenye hadi visanduku 144.",
+  "feature4": "Jaribu ulinganifu na maumbo ya poligoni yenye hadi pande kumi na mbili.",
+  "make": "Tengeneza mpangilio",
+  "step1": "Fungua Layout kutoka ByteWave.",
+  "step2": "Chagua mpangilio na uongeze picha na video zako.",
+  "step3": "Rekebisha utunzi, uhakiki na uhifadhi.",
+  "pricing": "Bila malipo kwenye iPhone, iPad na Mac ya Apple Silicon. Uhariri hufanyika kwenye kifaa chako. Hakuna usajili wala alama ya maji ya ByteWave kwenye video unazohifadhi.",
+  "date": "23 Novemba 2026",
+  "publisher": "Imechapishwa na ByteWave, inayotengeneza programu inayojadiliwa hapa.",
+  "description": "Tengeneza kolaji za video kwa ByteWave. Panga klipu juu ya nyingine, changanya picha na video na utengeneze gridi au mipangilio ya sega la asali. Bila malipo, usajili wala alama ya maji kwenye video unazohifadhi.",
+  "socialAlt": "Picha na video. Mpangilio mmoja. Panga klipu juu ya nyingine, tengeneza gridi na ujaribu maumbo mapya.",
+  "updated": "Imesasishwa",
+  "related": "Miongozo inayohusiana",
+  "open": "Fungua video",
+  "openCompatible": "Fungua nakala inayooana",
+  "watch": "Tazama MP4",
+  "demos": "Video zilizotengenezwa kwa Layout kutoka ByteWave",
+  "gallery": "Ona uhariri zaidi kwenye matunzio",
+  "captions": "Ongeza manukuu yaliyohuishwa",
+  "stickers": "Ongeza vibandiko vinavyosogea",
+  "videoTitles": [
+    "Sega la asali",
+    "Gridi ya ufukweni hadi ufukwe",
+    "Machweo yaliyopindishwa",
+    "Pembesita za machweo · Wima",
+    "Pembesita za machweo · Mlalo"
+  ],
+  "videoAlt": [
+    "Video ya mpangilio wa sega la asali",
+    "Mpangilio wa paneli sita za ufukweni ukifuatiwa na mbwa ufukweni",
+    "Video ya mpangilio wa machweo yaliyopindishwa",
+    "Video ya mpangilio wa wima wa pembesita za machweo",
+    "Video ya mpangilio wa mlalo wa pembesita za machweo"
+  ],
+  "schemaNames": [
+    "Mpangilio wa sega la asali katika ByteWave",
+    "Gridi ya ufukweni hadi ufukwe",
+    "Machweo yaliyopindishwa",
+    "Pembesita za machweo (wima)",
+    "Pembesita za machweo (mlalo)"
+  ],
+  "videoDescriptions": [
+    "Visanduku saba vya pembesita vinavyoonyesha mwezi, mbwa na shamba lenye jua.",
+    "Mpangilio wa paneli sita za ufukweni ukifuatiwa na klipu ya fremu nzima ya mbwa anayecheza ufukweni.",
+    "Video ya machweo ya bahari iliyopindishwa kuwa mikanda iliyopinda na kuakisiwa kwa Layout kutoka ByteWave.",
+    "Machweo ya bahari na mawimbi yaliyopangwa katika paneli nne za pembesita juu ya mandharinyuma ya machweo ya fremu nzima katika ByteWave.",
+    "Paneli nne za pembesita zenye machweo ya bahari na mawimbi katikati ya mandharinyuma mapana ya machweo ya rangi ya chungwa na bahari."
+  ],
+  "modified": "2026-11-23"
+}

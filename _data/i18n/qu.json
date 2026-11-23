@@ -1,0 +1,231 @@
+{
+  "name": "Runasimi",
+  "nav": {
+    "skip": "Ukhu kaqman riy",
+    "label": "Hatun puriy",
+    "menu": "Akllana",
+    "home": "Qallariy",
+    "features": "Ruwanakuna",
+    "compare": "Tupachiy",
+    "gallery": "Siq'ikuna wasi",
+    "tutorials": "Yachachiykuna",
+    "blog": "Blog",
+    "about": "Ñuqaykumanta",
+    "privacy": "Sapanchasqa kay",
+    "press": "Willakuy wasikuna",
+    "expression": "Qispisqa rimay",
+    "download": "Mana qullqillapa uraykachiy"
+  },
+  "footer": {
+    "motto": "Kuyuy siq'ita allichayqa mana qullqillapa kanan.",
+    "devices": "iOS 26 utaq aswan musuqniyuq iPhone · iPadOS 26 utaq aswan musuqniyuq iPad · macOS 26 utaq aswan musuqniyuq, Apple M1 utaq aswan musuqniyuq Mac."
+  },
+  "get_free": "ByteWaveta mana qullqillapa tariy",
+  "social_alt": "ByteWavepa llikakunapaq ñawpaq qhawaynin",
+  "disclosure": {
+    "label": "AI-manta willakuy:",
+    "text": "Kay qillqapiqa AI simi modelowan (LLM) ruwasqa qillqa kachkan.",
+    "by": "Qillqaq",
+    "review": "ByteWave ruwanakunamanta nisqakunata qhawarirqan; tupachiykunaqa ByteWavepa qhatuy munayninta rikuchin, mana sapallan qhawariykunachu."
+  },
+  "player": {
+    "play": "Kuyuy siq'ita purichiy",
+    "replay": "Kuyuy siq'ita yapamanta purichiy",
+    "retry": "Kuyuy siq'ita yapamanta malliy",
+    "tap": "Kuyuy siq'ita purichinaykipaq llank'ay",
+    "tap_hint": "Kuyuy siq'ita qallarinaykipaq purichiyta llank'ay.",
+    "loading": "Kuyuy siq'ita apamuchkan…",
+    "fallback": "Tupaq kuyuy siq'ita mallischkan…",
+    "failed": "Kuyuy siq'ita mana apamuyta atirqanchu. Yapamanta malliy utaq urapi kaq kuyuy siq'ipa t'inkininta kichay."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - GPUwan Ruwasqa Mana Qullqillapa Kuyuy Siq'i Allichaq, iPhone, iPad, Macpaq",
+      "description": "Kikin hap'isqaykita ByteWavewan allichay: iPhone, iPad, Macpaq mana qullqillapa kuyuy siq'i allichaq. Mana yaku unanchayuq, mana qullqi qillqachiyniyuq. Aparatupi allichay, qillqakuna, rikch'aykuna, uyarina.",
+      "keywords": "mana qullqillapa kuyuy siq'i allichaq, mana yaku unanchayuq kuyuy siq'i allichaq, capcutpa rantin, ios kuyuy siq'i allichaq, metal shaderkuna, gpu kuyuy siq'i allichaq, mana qullqi qillqachiyniyuq kuyuy siq'i allichaq, sapanchasqa kuyuy siq'i allichaq, iphone mana qullqillapa kuyuy siq'i allichaq",
+      "social_title": "ByteWave - iPhone, iPad, Macpaq Mana Qullqillapa Kuyuy Siq'i Allichaq",
+      "og_description": "Hap'isqaykikuna. Ruray akllayniykikuna. iPhone, iPad, Macpi mana qullqillapa allichay, mana yaku unanchayuq, mana qullqi qillqachiyniyuq.",
+      "twitter_description": "Kikin hap'isqaykita allichay. Mana yaku unanchayuq, mana qullqi qillqachiyniyuq. Aparatupi allichay, munaspa rakiy.",
+      "logo_alt": "ByteWavepa unanchan"
+    },
+    "schema": {
+      "description": "iPhone, iPad, Macpaq mana qullqillapa kuyuy siq'i allichaq. Kikin hap'isqaykita aparatupi ruwaspa, uyarinata patarayaspa, Metal rikch'aykunawan allichay. Mana yaku unanchayuq, mana qullqi qillqachiyniyuq; internetpi rakiyqa munaspa.",
+      "features": "Kikinchasqa Metal Shader Allichaq, Aswan Hatun Sut'iyachiy, Kuyuy Mana Sut'i, Pachapi Chaqway Pisiyachiy, Ayllupa Suysunakuna, Mana Tukuq Uyarina Ñankuna, Aparatupi Ruray, C2PA Content Credentials Ñawinchay, Chiqaqchasqa AI Ruwasqa Willakuykuna, Kriptografíawan Kuyuy Siq'ipa Paqarisqan"
+    },
+    "hero": {
+      "tag": "ByteWave · Mana qullqillapa kuyuy siq'i allichaq",
+      "opening": "Imatapas ruray",
+      "emphasis": "Chiqaq",
+      "ending": "mana reel sapallatachu.",
+      "edit": "Kikin hap'isqaykita allichay. Kikin aparatuykipi.",
+      "platforms": "iPhone, iPad, Macpaq mana qullqillapa kuyuy siq'i allichaq.",
+      "examples": "Rurayta atisqaykita qhaway ↓",
+      "no_watermarks": "Mana qullqi qillqachiy. Hawaman apachisqapi mana yaku unancha.",
+      "devices": "iOS / iPadOS 26 utaq aswan musuq. Mac: macOS 26 utaq aswan musuq, M1 utaq aswan musuq.",
+      "play_background": "Qhipa kuyuy siq'ita purichiy",
+      "pause_background": "Qhipa kuyuy siq'ita sayachiy"
+    },
+    "download": "ByteWaveta uraykachiy",
+    "showcase": {
+      "tag": "Hap'isqaykimanta qallariy",
+      "footage": "Hap'isqayki.",
+      "edit": "Allichasqayki.",
+      "intro": "Siq'iykikunata, kuyuy siq'iykikunata apamuy. Puchuqta kikinpa ruray.",
+      "layout": "ByteWavepa Layoutnin",
+      "layout_desc": "Siq'ikunata, kuyuy siq'ikunata huk huñusqapi tantay.",
+      "effects": "Suysunakuna, rikch'aykuna,",
+      "captions": "kuyuq qillqakunapas",
+      "captions_desc": "Kikin rikch'ayniykita tariy. Kikin rimayniykikunata churay.",
+      "audio": "Uyarina ruwanakuna",
+      "audio_desc": "Uyarina ñankunata patarayachiy, kuyuy siq'iykipa uyarinanta ruray.",
+      "gallery": "ByteWavewan ruwasqa kuyuy siq'ikunata qhaway →",
+      "editor_alt": "ByteWave allichaq, inti chinkay hap'isqata, aparatupi allichana ruwanakunata rikuchispa",
+      "layout_alt": "ByteWavepa Layoutnin, suqta mama quchamanta siq'ikunata, kuyuy siq'ikunata huk huñusqapi tantaspa"
+    },
+    "credentials": {
+      "tag": "Siq'ikuna, kuyuy siq'ikuna, AI",
+      "title": "¿Kayqa AIwan ruwasqachu?",
+      "check": "Siq'ita utaq kuyuy siq'ita qhawariy.",
+      "check_desc": "ByteWave yanapasqa C2PA Content Credentialsta ñawinchan, AIwan ruwasqata riqsichiq firmayuq unanchakunatapas. Qhawariyqa aparatuykipi ruwakun.",
+      "how": "Imayna willañiqita qhawarina →",
+      "signed": "Hawaman apachisqaykikuna firmayuqmi.",
+      "signed_desc": "Sapa Save to Photos hawaman apachisqaqa ByteWave paqarisqan unanchata, digital firmata chaskin. Willañiqi ByteWavemanta hamusqanta, firmasqamanta pacha tikrasqanta ima rikuchiyta yanapan.",
+      "signed_link": "Imayna firmayuq hawaman apachisqakuna llamk'anku →",
+      "caveat": "¿Paqarisqan chiqaqchay mana kanchu? Chayqa mana chiqaq utaq llulla kayta niyta munanchu. Firmaqa huk rikch'asqa pasasqanta mana chiqaqchayta atinchu.",
+      "newsrooms": "¿Willakuypaq hap'isqata qhawarichkankichu? Kaypi qallariy →"
+    },
+    "geese": {
+      "tag": "Llapan allichana ruwanakuna. Mana qullqillapa.",
+      "opening": "Qispisqa, hina",
+      "emphasis": "wansukuna.",
+      "desc": "Mana qullqi qillqachiy. Hawaman apachisqapi mana yaku unancha. Aparatupi allichanaykipaq mana yupayta munakunachu.",
+      "fallback": "Tupaq kikinchata kichay",
+      "caption": "Wansukuna puriq yakupi purichkanku, pantallapi “Free as in geese” qillqawan.",
+      "alt": "Wansukuna hina qispisqa: ByteWave apppa ñawpaq qhawaynin"
+    },
+    "privacy": {
+      "title": "Kuyuy siq'iykikuna aparatuykipi qhipakunku",
+      "intro": "Hap'isqayki pachakunamanta qallariy. Kuyuy siq'i rakikunata kuchuy, uyarinata ruray, rikch'aykunata kikiyki akllay. ByteWave allichayta, rurayta yanapasqa Apple aparatuykipi waqaychan.",
+      "local": "ByteWave Apple aparatuykipi allichayta ruwan.",
+      "sharing": "Aparatupi allichanaykipaq mana yupayta munakunachu; kuyuy siq'iykikunata mana internetman apachinchu, sut'ita akllaspa internet ruwanawan lluqsichinki utaq rakinki chayllapi.",
+      "stamp": "Sapa Save to Photos hawaman apachisqataqa kriptografíawan, ByteWave paqarisqan metadatawan firmakun, ByteWavemanta hamusqanta, firmasqamanta pacha tikrasqanta chiqaqchayta yanapananpaq. Firmaqa rikuchisqa ruway pasasqanta mana chiqaqchayta atinchu.",
+      "stamp_link": "Firmayuq hawaman apachisqakuna imata chiqaqchasqanta yachay.",
+      "guide": "Hap'isqaykita internetman mana apachispa imayna allichana"
+    },
+    "creative": {
+      "title": "¿AI kuyuy siq'ikuna willakuy listaykita hunt'achisqanwan sayk'unkichu?",
+      "intro": "Facebook utaq TikTok ruwasqa kuyuy siq'ikunawan hunt'asqa rikch'akun chayqa, utaq CapCutpa AI ruwanakunan mana allichanaykipaq munasqaykichu chayqa, kikin hap'isqaykimanta qallariyta atinki.",
+      "choice": "Hap'isqaykikuna, allichasqaykikuna, rakiy akllayniyki.",
+      "tools": "ByteWave hap'isqaykiwan llamk'anaykipaq ruwanakunata qusunki: kuyuq qillqakuna, kikinchasqa suysunakuna, allimanta kuyuy, patarayasqa uyarina. Hatunyachiy hina yanapaq ruwanakuna kanku; kuyuy siq'ita allichanaykipaq mana qillqa kamachiymanta huk rikch'ayta ruwanaykichu.",
+      "feed": "ByteWavepa llaqtapa willakuy listanta mana sutiykita rikuchispa qhaway. Munaspa kikinchayqa aparatuykipi yupakun; servidorpi qhawasqa willakuy mana kanchu.",
+      "feed_link": "Imayna willakuy lista llamk'asqanta qhaway.",
+      "facebook": "Facebook willakuy listaykipi AI kuyuy siq'ikunata imayna pisiyachina",
+      "tiktok": "TikTokpi AI ruwasqata aswan pisita imayna qhawana",
+      "real": "Mana allin AI ruwasqa, chiqaq hap'isqa, ruray kamachiyta kutichiy",
+      "capcut": "Kikin hap'isqaykita allichanaykipaq CapCutpa mana qullqillapa rantin",
+      "gallery": "ByteWavewan ruwasqa kuyuy siq'ikunata qhaway",
+      "or": "utaq",
+      "tutorial": "kuyuy mana sut'i yachachiyta malliy.",
+      "download": "Kikin hap'isqaykita mana qullqillapa allichay"
+    },
+    "compare": {
+      "title": "ByteWave CapCutwan tupachisqa",
+      "intro": "ByteWavepa allichana ruwanakunan mana qullqillapa. CapCut chay ruwanakunamanta wakinta qullqi planman churan.",
+      "feature": "Ruwana",
+      "price": "Chanin",
+      "free": "$0",
+      "plans": "Mana qullqillapa, qullqiyuq plankuna",
+      "watermarks": "Yaku unanchakuna",
+      "none": "ByteWavepa yaku unanchan mana kanchu",
+      "varies": "Ruwanaman, hawaman apachiyman hina",
+      "editing": "Allichay",
+      "offline": "Aparatupi; mana yupayta munakunachu",
+      "cloud": "Aparatupi, puyupi ruwanakuna",
+      "data": "Willakuykunata kamay",
+      "no_tracking": "Ruway qatipay mana kanchu; yupay, lluqsichiy munaspa",
+      "policy": "CapCutpa sapanchasqa kay kamachiyninta qhaway",
+      "provenance": "Kuyuy siq'ipa paqarisqan",
+      "stamp": "Save to Photospi ByteWavepa unanchan",
+      "export_options": "Kunan hawaman apachiy akllanakunata qhaway",
+      "slow_motion": "Allimanta kuyuy",
+      "included": "Ukhu kachkan",
+      "optical": "Optical flow: mana qullqillapa malliy",
+      "motion": "Kuyuy mana sut'i",
+      "pro_motion": "Propi listasqa*",
+      "noise": "Kuyuy siq'ipi chaqway pisiyachiy",
+      "pro": "Pro plan",
+      "desktop": "Hamp'ara computadora",
+      "upscale": "AIwan hatunyachiy",
+      "device": "Aparatupi",
+      "paid": "Qullqiyuq qillqachiy",
+      "mobile": "Apaykachana aparatupi AI allinchay",
+      "tracks": "Uyarina ñankuna",
+      "unlimited": "Uyarina ñanpa tukukuynin mana kanchu",
+      "limits": "Plataformapa saywasninta qhaway",
+      "tts": "Qillqamanta rimayman",
+      "voices": "Mana qullqillapa kunkakuna; premium kunkakuna créditosta apaykachanku",
+      "captions": "Kikinmanta qillqakuna",
+      "pro_captions": "Llapanman yaykunaykipaq Pro",
+      "code": "Allichay atina suysunapa paqarisqan código",
+      "metal": "Metal shaderpa paqarisqan código ukhu kachkan",
+      "filter_tools": "Kunan suysuna ruwanakunata qhaway",
+      "community": "Ayllupa suysunakuna",
+      "shared": "Rakisqa allichay atina shaderkuna",
+      "effects": "Mana qullqillapa, Pro rikch'aykuna, plantillakuna",
+      "subject": "Suysunapaq hatun kaqta sapanchay",
+      "masks": "Pakana, kuchuna ruwanakuna",
+      "note": "2026 watapi octubre killapa 18 p'unchawninpi qhawarisqa. Pro qullqiyuq qillqachiy. *CapCut kuyuy mana sut'ita Propi listan, ichaqa mana qullqillapa kaqkunatapas willan. Yaykuyqa plataformaman, suyuman, quy kamachiyman hina tikrakun.",
+      "full": "Llapan tupachiy"
+    },
+    "features": {
+      "title": "Chaskisqayki",
+      "items": [
+        {
+          "title": "C2PA qhawariykuna, kuyuy siq'ipa paqarisqan",
+          "body": "Siq'ikunata, kuyuy siq'ikunata yanapasqa Content Credentialspaq qhawariy, AI ruwasqa unanchakunatapas. Sapa Save to Photos hawaman apachisqapas ByteWave unanchata chaskin, qhipa tikraykunata riqsichiyta yanapananpaq."
+        },
+        {
+          "title": "Allimanta kuyuy, kuyuy mana sut'i",
+          "body": "FRCwan allimanta kuyuy siq'ita llamp'uyachiy. Kuyuy mana sut'i, pachapi chaqway pisiyachiypas ñawpaq qhawaymanta ñawpaqta aparatuykipi ruwakunku."
+        },
+        {
+          "title": "AIwan hatunyachiy",
+          "body": "Aparatupi sut'iyachiyta hatunyachiy. Mana puyupi ruray, mana servidorta suyachiy."
+        },
+        {
+          "title": "Mana tukuq uyarina ñankuna",
+          "body": "Munayniykiman hina achka uyarina rakikunata rikuy atina pacha ñanpi patarayachiy. Ukhu uyarina rikch'aykuna. Uyarina ñankunapa tukukuynin mana kanchu."
+        },
+        {
+          "title": "Qillqamanta rimayman",
+          "body": "Kunkata ruwanaykipaq qillqay utaq aparatuykipi qillqakunata paqarichiy. Munaspa kikinmanta unanchayqa hukkunata rakisqa kuyuy siq'ikunata tariyta yanapan, yupayta, ari niyta munan."
+        },
+        {
+          "title": "Qillqa rikch'aykuna",
+          "body": "Ch'iklliy, glitch, neon, hukkunapas. Kuyuq qillqa, kuyuq siq'ikunamanta yachayta mana munaspa."
+        },
+        {
+          "title": "Hatun kaqta sapanchay",
+          "body": "Hatun kaqkunata qhipamanta rakiy, sapa hukman sapallan suysunata churay. Qhipata mana sut'iyachiy, hatun kaqta sut'ita saqiy; huk llank'aylla."
+        },
+        {
+          "title": "Kikinchasqa suysunakuna paqarisqan códigowan",
+          "body": "Sapa suysuna shader códigonta rikuchisunki. Chiqan allichay, utaq códigota kikinchay, ChatGPTta musuq imatapas ruwananpaq mañay."
+        },
+        {
+          "title": "Ayllupa suysunakuna",
+          "body": "Ruwasqayki suysunakunata lluqsichiy. Huk ruraqkunapa suysunankunata qhaway, apamuy. Waqaychana wasiykiman yapanaykipaq huk llank'aylla."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Chiqaqta allichay atina suysunakuna",
+      "desc": "Achka allichaqkuna suysunapa llamk'ayninta pakanku. ByteWave códigota rikuchisunki. Tikray, chaymanta yachay, utaq kikinchay, munasqaykita AIman willay; kutimuqta ukhupi k'askachiy.",
+      "comment": "// Impresionista qhipa, sut'i hatun kaq"
+    },
+    "cta": {
+      "desc": "Mana internetwan allichay. Mana yupayta munakunachu. Lluqsichiyta akllaspaña apachiy.",
+      "apple": "Applepaq uraykachiy"
+    }
+  }
+}

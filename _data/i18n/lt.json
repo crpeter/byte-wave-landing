@@ -1,0 +1,231 @@
+{
+  "name": "Lietuvių",
+  "nav": {
+    "skip": "Pereiti prie turinio",
+    "label": "Pagrindinė navigacija",
+    "menu": "Meniu",
+    "home": "Pradžia",
+    "features": "Funkcijos",
+    "compare": "Palyginimas",
+    "gallery": "Galerija",
+    "tutorials": "Pamokos",
+    "blog": "Tinklaraštis",
+    "about": "Apie",
+    "privacy": "Privatumas",
+    "press": "Spaudai",
+    "expression": "Laisva raiška",
+    "download": "Atsisiųsti nemokamai"
+  },
+  "footer": {
+    "motto": "Vaizdo įrašų redagavimas turėtų būti nemokamas.",
+    "devices": "iPhone su iOS 26 ar naujesne · iPad su iPadOS 26 ar naujesne · Mac su macOS 26 ar naujesne ir Apple M1 ar naujesniu lustu."
+  },
+  "get_free": "Gaukite ByteWave nemokamai",
+  "social_alt": "ByteWave bendrinimo peržiūros vaizdas",
+  "disclosure": {
+    "label": "AI naudojimo atskleidimas:",
+    "text": "Šiame straipsnyje yra teksto, sukurto dirbtinio intelekto kalbos modeliu (LLM).",
+    "by": "Autorius",
+    "review": "Teiginius apie produktą peržiūrėjo ByteWave; palyginimai atspindi komercinius ByteWave interesus ir nėra nepriklausomos apžvalgos."
+  },
+  "player": {
+    "play": "Leisti vaizdo įrašą",
+    "replay": "Leisti dar kartą",
+    "retry": "Bandyti dar kartą",
+    "tap": "Palieskite, kad paleistumėte",
+    "tap_hint": "Palieskite leidimo mygtuką, kad įrašas prasidėtų.",
+    "loading": "Įkeliamas vaizdo įrašas…",
+    "fallback": "Bandoma suderinama versija…",
+    "failed": "Vaizdo įrašo įkelti nepavyko. Bandykite dar kartą arba atverkite nuorodą žemiau."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave – nemokamas GPU vaizdo įrašų redaktorius iPhone, iPad ir Mac",
+      "description": "Redaguokite savo filmuotą medžiagą su ByteWave – nemokamu iPhone, iPad ir Mac redaktoriumi. Be vandens ženklų ir prenumeratų. Vietinis redagavimas, subtitrai, efektai ir garsas.",
+      "keywords": "nemokamas vaizdo redaktorius, vaizdo redaktorius be vandens ženklo, capcut alternatyva, ios vaizdo redaktorius, metal šešėliuoklės, gpu vaizdo redaktorius, redaktorius be prenumeratos, privatus vaizdo redagavimas, nemokamas iphone vaizdo redaktorius",
+      "social_title": "ByteWave – nemokamas vaizdo įrašų redaktorius iPhone, iPad ir Mac",
+      "og_description": "Jūsų filmuota medžiaga. Jūsų kūrybiniai sprendimai. Nemokamas vietinis redagavimas iPhone, iPad ir Mac, be vandens ženklų ir prenumeratų.",
+      "twitter_description": "Redaguokite savo filmuotą medžiagą. Be vandens ženklų ir prenumeratų. Vietinis redagavimas su pasirenkamu bendrinimu.",
+      "logo_alt": "ByteWave logotipas"
+    },
+    "schema": {
+      "description": "Nemokamas vaizdo įrašų redaktorius iPhone, iPad ir Mac. Redaguokite savo medžiagą su vietiniu atvaizdavimu, sluoksniuotu garsu ir Metal efektais. Be vandens ženklų ir prenumeratų; bendrinimas internetu pasirenkamas.",
+      "features": "Individualių Metal šešėliuoklių redaktorius, Super Resolution raiškos didinimas, judesio suliejimas, laikinis triukšmo mažinimas, bendruomenės filtrai, neriboti garso takeliai, apdorojimas įrenginyje, C2PA turinio kilmės duomenų skaitymas, patvirtintos AI sukūrimo deklaracijos, kriptografinė vaizdo įrašo kilmė"
+    },
+    "hero": {
+      "tag": "ByteWave · Nemokamas vaizdo redaktorius",
+      "opening": "Sukurkite ką nors",
+      "emphasis": "tikro",
+      "ending": "ne vien reels įrašą.",
+      "edit": "Redaguokite savo medžiagą. Vietoje, savo įrenginyje.",
+      "platforms": "Nemokamas vaizdo redaktorius iPhone, iPad ir Mac.",
+      "examples": "Pažiūrėkite, ką galite sukurti ↓",
+      "no_watermarks": "Be prenumeratų. Be vandens ženklų eksportuojant.",
+      "devices": "iOS / iPadOS 26 ar naujesnė. Mac: macOS 26 ar naujesnė, M1 ar naujesnis.",
+      "play_background": "Leisti fono vaizdo įrašą",
+      "pause_background": "Pristabdyti fono vaizdo įrašą"
+    },
+    "download": "Atsisiųsti ByteWave",
+    "showcase": {
+      "tag": "Pradėkite nuo to, ką nufilmavote",
+      "footage": "Jūsų medžiaga.",
+      "edit": "Jūsų montažas.",
+      "intro": "Atsineškite savo nuotraukas ir vaizdo įrašus. Visa kita sukurkite savaip.",
+      "layout": "Layout iš ByteWave",
+      "layout_desc": "Sujunkite nuotraukas ir vaizdo įrašus vienoje kompozicijoje.",
+      "effects": "Filtrai, efektai ir",
+      "captions": "animuoti subtitrai",
+      "captions_desc": "Atraskite savo stilių. Pridėkite savo žodžius.",
+      "audio": "Garso įrankiai",
+      "audio_desc": "Sluoksniuokite takelius ir formuokite vaizdo įrašo garsą.",
+      "gallery": "Žiūrėkite su ByteWave sukurtus įrašus →",
+      "editor_alt": "ByteWave redaktorius su saulėlydžio vaizdu ir įrenginyje veikiančiais redagavimo įrankiais",
+      "layout_alt": "Layout iš ByteWave sujungia šešias vandenyno nuotraukas ir vaizdo įrašus vienoje kompozicijoje"
+    },
+    "credentials": {
+      "tag": "Nuotraukos, vaizdo įrašai ir AI",
+      "title": "Ar tai sukurta su AI?",
+      "check": "Patikrinkite nuotrauką ar vaizdo įrašą.",
+      "check_desc": "ByteWave skaito palaikomus C2PA turinio kilmės duomenis, įskaitant pasirašytas AI sugeneruoto turinio žymas. Tikrinama jūsų įrenginyje.",
+      "how": "Kaip patikrinti failą →",
+      "signed": "Jūsų eksportai pasirašomi.",
+      "signed_desc": "Kiekvienas eksportas per „Išsaugoti nuotraukose“ gauna ByteWave kilmės antspaudą su skaitmeniniu parašu. Tai padeda nustatyti, kad failas sukurtas ByteWave, ir ar jis pakeistas po pasirašymo.",
+      "signed_link": "Kaip veikia pasirašyti eksportai →",
+      "caveat": "Nėra kilmės duomenų? Tai nereiškia, kad turinys tikras ar netikras. Parašas negali įrodyti, kad scena įvyko.",
+      "newsrooms": "Tikrinate medžiagą reportažui? Pradėkite čia →"
+    },
+    "geese": {
+      "tag": "Visi redagavimo įrankiai. Nemokamai.",
+      "opening": "Laisvas kaip",
+      "emphasis": "žąsys.",
+      "desc": "Be prenumeratų ir eksporto vandens ženklų. Vietiniam redagavimui paskyros nereikia.",
+      "fallback": "Atverti suderinamą kopiją",
+      "caption": "Žąsys plaukia judančiu vandeniu, ekrane užrašas „Free as in geese“.",
+      "alt": "Laisvas kaip žąsys: ByteWave programėlės pristatymas"
+    },
+    "privacy": {
+      "title": "Jūsų vaizdo įrašai lieka jūsų įrenginyje",
+      "intro": "Pradėkite nuo užfiksuotų akimirkų. Apkirpkite klipus, formuokite garsą ir patys pasirinkite efektus. ByteWave redaguoja ir atvaizduoja jūsų palaikomame Apple įrenginyje.",
+      "local": "ByteWave redagavimą apdoroja vietoje, jūsų Apple įrenginyje.",
+      "sharing": "Vietiniam redagavimui paskyros nereikia, o vaizdo įrašai neįkeliami, nebent aiškiai pasirenkate juos publikuoti ar bendrinti naudodami internetinę funkciją.",
+      "stamp": "Kiekvienas eksportas per „Išsaugoti nuotraukose“ pasirašomas kriptografiškai su ByteWave kilmės metaduomenimis, padedančiais tikrinti ByteWave kilmę ir pakeitimus po pasirašymo. Parašas negali įrodyti, kad pavaizduotas įvykis įvyko.",
+      "stamp_link": "Sužinokite, ką patvirtina pasirašyti eksportai.",
+      "guide": "Kaip redaguoti neįkeliant medžiagos"
+    },
+    "creative": {
+      "title": "Pavargote nuo AI vaizdo įrašų savo sraute?",
+      "intro": "Jei Facebook ar TikTok atrodo perpildyti sugeneruotų klipų arba CapCut AI funkcijos nėra tai, ko norite redaguodami, pradėkite nuo savo filmuotos medžiagos.",
+      "choice": "Jūsų įrašai, jūsų montažas, jūsų sprendimas bendrinti.",
+      "tools": "ByteWave siūlo įrankius jūsų nufilmuotai medžiagai: animuotus subtitrus, individualius filtrus, sulėtintą judesį ir sluoksniuotą garsą. Galimos pagalbinės funkcijos, pavyzdžiui, raiškos didinimas; norint redaguoti įrašą, nereikia generuoti scenos iš aprašo.",
+      "feed": "Anonimiškai naršykite viešą ByteWave srautą su pasirenkamu suasmeninimu jūsų įrenginyje ir be peržiūrų istorijos serveryje.",
+      "feed_link": "Sužinokite, kaip veikia srautas.",
+      "facebook": "Kaip sumažinti AI vaizdo įrašų Facebook sraute",
+      "tiktok": "Kaip matyti mažiau AI turinio TikTok",
+      "real": "Prastas AI turinys, tikra filmuota medžiaga ir kūrybinės kontrolės susigrąžinimas",
+      "capcut": "Nemokama CapCut alternatyva jūsų medžiagai redaguoti",
+      "gallery": "Žiūrėkite su ByteWave sukurtus įrašus",
+      "or": "arba",
+      "tutorial": "išbandykite judesio suliejimo pamoką.",
+      "download": "Redaguokite savo medžiagą nemokamai"
+    },
+    "compare": {
+      "title": "ByteWave ir CapCut",
+      "intro": "ByteWave redagavimo įrankiai nemokami. CapCut dalį tokių įrankių įtraukia į mokamus planus.",
+      "feature": "Funkcija",
+      "price": "Kaina",
+      "free": "$0",
+      "plans": "Nemokami ir mokami planai",
+      "watermarks": "Vandens ženklai",
+      "none": "Be ByteWave vandens ženklo",
+      "varies": "Priklauso nuo įrankio ir eksporto",
+      "editing": "Redagavimas",
+      "offline": "Įrenginyje; paskyros nereikia",
+      "cloud": "Vietiniai ir debesijos įrankiai",
+      "data": "Duomenų tvarkymas",
+      "no_tracking": "Be elgsenos sekimo; paskyros ir publikavimas pasirenkami",
+      "policy": "Žr. CapCut privatumo politiką",
+      "provenance": "Vaizdo įrašo kilmė",
+      "stamp": "ByteWave antspaudas išsaugant nuotraukose",
+      "export_options": "Patikrinkite dabartines eksporto parinktis",
+      "slow_motion": "Sulėtintas judesys",
+      "included": "Įtraukta",
+      "optical": "Optinis srautas: nemokamas bandymas",
+      "motion": "Judesio suliejimas",
+      "pro_motion": "Nurodytas Pro plane*",
+      "noise": "Vaizdo triukšmo mažinimas",
+      "pro": "Pro planas",
+      "desktop": "Kompiuteryje",
+      "upscale": "Raiškos didinimas su AI",
+      "device": "Įrenginyje",
+      "paid": "Mokama prenumerata",
+      "mobile": "AI gerinimas mobiliajame įrenginyje",
+      "tracks": "Garso takeliai",
+      "unlimited": "Takelių skaičius neribojamas",
+      "limits": "Patikrinkite platformos ribas",
+      "tts": "Tekstas į kalbą",
+      "voices": "Nemokami balsai; premium balsams naudojami kreditai",
+      "captions": "Automatiniai subtitrai",
+      "pro_captions": "Pro visai prieigai",
+      "code": "Redaguojamas filtro šaltinio kodas",
+      "metal": "Metal šešėliuoklių kodas įtrauktas",
+      "filter_tools": "Patikrinkite dabartinius filtrų įrankius",
+      "community": "Bendruomenės filtrai",
+      "shared": "Bendrinamos redaguojamos šešėliuoklės",
+      "effects": "Nemokami ir Pro efektai bei šablonai",
+      "subject": "Objekto išskyrimas filtrams",
+      "masks": "Kaukių ir iškirpimo įrankiai",
+      "note": "Patikrinta 2026 m. spalio 18 d. Pro yra mokama prenumerata. *CapCut judesio suliejimą nurodo Pro plane, bet reklamuoja ir nemokamas versijas. Prieiga priklauso nuo platformos, regiono ir pasiūlymo.",
+      "full": "Visas palyginimas"
+    },
+    "features": {
+      "title": "Ką gaunate",
+      "items": [
+        {
+          "title": "C2PA tikrinimas ir vaizdo kilmė",
+          "body": "Tikrinkite nuotraukų ir vaizdo įrašų palaikomus turinio kilmės duomenis, įskaitant AI generavimo žymas. Kiekvienas išsaugojimas nuotraukose taip pat gauna ByteWave antspaudą vėlesniems pakeitimams nustatyti."
+        },
+        {
+          "title": "Sulėtintas judesys ir judesio suliejimas",
+          "body": "Su FRC sulėtintas vaizdas juda sklandžiau. Judesio suliejimas ir laikinis triukšmo mažinimas taip pat apdorojami vietoje prieš peržiūrą."
+        },
+        {
+          "title": "Raiškos didinimas su AI",
+          "body": "Didinkite raišką įrenginyje. Be debesijos apdorojimo ir laukimo serveryje."
+        },
+        {
+          "title": "Neriboti garso takeliai",
+          "body": "Vaizdinėje laiko juostoje sluoksniuokite tiek garso klipų, kiek reikia. Integruoti garso efektai. Takelių skaičius neribojamas."
+        },
+        {
+          "title": "Tekstas į kalbą",
+          "body": "Įrašykite tekstą balsui sintetinti arba generuokite subtitrus įrenginyje. Pasirenkamas automatinis žymėjimas padeda kitiems rasti bendrinamus įrašus; jam reikia paskyros ir sutikimo."
+        },
+        {
+          "title": "Teksto efektai",
+          "body": "Žėrėjimas, glitch, neonas ir daugiau. Animuotas tekstas be judesio grafikos patirties."
+        },
+        {
+          "title": "Objekto išskyrimas",
+          "body": "Atskirkite objektus nuo fono ir filtrus taikykite nepriklausomai. Suliekite foną, palikite objektą ryškų – vienu palietimu."
+        },
+        {
+          "title": "Individualūs filtrai su šaltinio kodu",
+          "body": "Kiekvienas filtras rodo jo šešėliuoklės kodą. Redaguokite tiesiogiai arba nukopijuokite ir paprašykite ChatGPT sukurti ką nors naujo."
+        },
+        {
+          "title": "Bendruomenės filtrai",
+          "body": "Publikuokite savo filtrus. Naršykite ir pasiimkite kitų kūrėjų filtrų. Vienu palietimu pridėkite juos į biblioteką."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtrai, kuriuos iš tiesų galite redaguoti",
+      "desc": "Daugelis redaktorių filtrų veikimą slepia. ByteWave rodo kodą. Keiskite, mokykitės arba nukopijuokite ir apibūdinkite AI, ko norite; rezultatą įklijuokite atgal.",
+      "comment": "// Impresionistinis fonas, ryškus objektas"
+    },
+    "cta": {
+      "desc": "Redaguokite neprisijungę. Paskyros nereikia. Įkelkite tik pasirinkę publikuoti.",
+      "apple": "Atsisiųsti Apple įrenginiams"
+    }
+  }
+}

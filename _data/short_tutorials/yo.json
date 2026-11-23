@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Ẹ̀kọ́ ByteWave",
+    "updatedLabel": "A ti ṣe àtúnṣe",
+    "updatedDate": "23 Oṣù Bélú 2026",
+    "relatedLabel": "Ìtọ́sọ́nà tó jọ mọ́ ọn"
+  },
+  "captionEffects": {
+    "title": "Ipa Ọ̀rọ̀ Àkọlé Ọ̀rọ̀ nínú ByteWave",
+    "description": "Yan ipa ọ̀rọ̀ àkọlé ọ̀rọ̀ nínú ByteWave, wo ìṣípò rẹ̀ kí o sì fi Orbital Letters, Supernova àti Ember Ash wé ara wọn.",
+    "lead": "Gbìyànjú ipa kan lórí ọ̀rọ̀ tirẹ̀. Wo ó lórí àwòrán rẹ kí o tó kó jáde.",
+    "stepsHeading": "Yan ipa kan",
+    "step1": "Yan àkọlé ọ̀rọ̀ nínú iṣẹ́ ByteWave rẹ.",
+    "step2": "Ṣí ipa ọ̀rọ̀ rẹ̀ kí o sì yan àwòṣe kan.",
+    "step3": "Ṣeré fídíò rẹ láti rí ipa náà ní ìṣípò.",
+    "presetsHeading": "Mẹ́ta láti gbìyànjú",
+    "tip": "Gbìyànjú gbólóhùn kúkúrú kan náà pẹ̀lú ipa kọ̀ọ̀kan. Ṣàtúnṣe irú lẹ́tà, ìwọ̀n àti àwọ̀ láti bá àwòrán rẹ mu.",
+    "fromScratch": "Ṣé o ń bẹ̀rẹ̀ láti ìbẹ̀rẹ̀?",
+    "firstCaption": "Fi àkọlé ọ̀rọ̀ rẹ àkọ́kọ́ kún un",
+    "fontsPrompt": "Ṣé o fẹ́ ìrísí lẹ́tà míì?",
+    "importFont": "Kó irú lẹ́tà tirẹ̀ wọlé",
+    "relatedSticker": "Mú sítíkà rìn"
+  },
+  "customFonts": {
+    "title": "Kò Yẹ Kí Irú Lẹ́tà Rẹ Nílò Ìforúkọsílẹ̀ Owó.",
+    "description": "Kó irú lẹ́tà TTF tàbí OTF tirẹ̀ wọlé sí ByteWave lórí iPhone. Yan fáìlì kan kí o sì lo Irú Lẹ́tà Mi láti ṣe àkọlé ọ̀rọ̀ lọ́fẹ̀ẹ́.",
+    "lead": "Mú irú lẹ́tà tirẹ̀ wá sí fídíò rẹ. Kíkó irú lẹ́tà wọlé nínú ByteWave jẹ́ ọ̀fẹ́.",
+    "stepsHeading": "Kó irú lẹ́tà wọlé lórí iPhone",
+    "step1": "Fi irú lẹ́tà TrueType (.ttf) tàbí OpenType (.otf) pamọ́ nínú ohun èlò Files. Tú àpótí ZIP kankan sílẹ̀ kọ́kọ́.",
+    "step2": "Yan àkọlé ọ̀rọ̀ nínú iṣẹ́ ByteWave rẹ kí o sì ṣí pátákó Irú Lẹ́tà rẹ̀.",
+    "step3": "Fọwọ́ kan Kó irú lẹ́tà wọlé kí o sì yan fáìlì náà.",
+    "step4": "Wá a lábẹ́ Irú Lẹ́tà Mi. Fọwọ́ kan irú lẹ́tà náà láti lò ó fún àkọlé ọ̀rọ̀ rẹ.",
+    "preview": "Ṣeré fídíò láti ṣàyẹ̀wò ọ̀rọ̀ rẹ, ṣàtúnṣe ìwọ̀n àti àwọ̀ rẹ̀, lẹ́yìn náà kó jáde.",
+    "unsupportedHeading": "Ṣé o kò lè yan fáìlì náà?",
+    "unsupported": "Yan fáìlì .ttf tàbí .otf gan-an. Olùkówọlé yìí kò ṣe àtìlẹ́yìn fún irú lẹ́tà ayélujára bí .woff àti .woff2.",
+    "startPrompt": "Ṣé o ń bẹ̀rẹ̀ pẹ̀lú iṣẹ́ òfo?",
+    "firstCaption": "Fi àkọlé ọ̀rọ̀ rẹ àkọ́kọ́ kún un",
+    "effectsPrompt": "Lẹ́yìn náà gbìyànjú",
+    "effectsLink": "ipa ọ̀rọ̀ àkọlé ọ̀rọ̀",
+    "license": "ByteWave kì í gba owó fún kíkó irú lẹ́tà wọlé. Irú lẹ́tà náà fúnra rẹ̀ lè ní owó àti ìwé-àṣẹ tirẹ̀; ṣàyẹ̀wò òfin olùṣẹ̀dá fún bí o ṣe fẹ́ lò ó."
+  }
+}

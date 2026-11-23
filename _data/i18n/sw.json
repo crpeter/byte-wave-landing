@@ -1,0 +1,231 @@
+{
+  "name": "Kiswahili",
+  "nav": {
+    "skip": "Ruka hadi maudhui",
+    "label": "Urambazaji mkuu",
+    "menu": "Menyu",
+    "home": "Mwanzo",
+    "features": "Vipengele",
+    "compare": "Linganisha",
+    "gallery": "Matunzio",
+    "tutorials": "Mafunzo",
+    "blog": "Blogu",
+    "about": "Kuhusu",
+    "privacy": "Faragha",
+    "press": "Vyombo vya habari",
+    "expression": "Uhuru wa kujieleza",
+    "download": "Pakua bila malipo"
+  },
+  "footer": {
+    "motto": "Uhariri wa video unapaswa kuwa bila malipo.",
+    "devices": "iPhone yenye iOS 26 au mpya zaidi · iPad yenye iPadOS 26 au mpya zaidi · Mac yenye macOS 26 au mpya zaidi na Apple M1 au mpya zaidi."
+  },
+  "get_free": "Pata ByteWave bila malipo",
+  "social_alt": "Hakikisho la ByteWave kwa mitandao ya kijamii",
+  "disclosure": {
+    "label": "Maelezo kuhusu AI:",
+    "text": "Makala hii ina maandishi yaliyotengenezwa kwa modeli ya lugha ya AI (LLM).",
+    "by": "Na",
+    "review": "Madai kuhusu bidhaa yalipitiwa na ByteWave; ulinganisho unaakisi maslahi ya kibiashara ya ByteWave na si tathmini huru."
+  },
+  "player": {
+    "play": "Cheza video",
+    "replay": "Cheza video tena",
+    "retry": "Jaribu video tena",
+    "tap": "Gusa ili kucheza video",
+    "tap_hint": "Gusa cheza ili kuanzisha video.",
+    "loading": "Inapakia video…",
+    "fallback": "Inajaribu video inayooana…",
+    "failed": "Imeshindwa kupakia video. Jaribu tena au fungua kiungo cha video hapa chini."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Kihariri cha Video cha Bure Kinachotumia GPU kwa iPhone, iPad na Mac",
+      "description": "Hariri video zako kwa ByteWave, kihariri cha bure kwa iPhone, iPad na Mac. Hakuna alama za maji wala usajili. Uhariri kwenye kifaa, manukuu, madoido na sauti.",
+      "keywords": "kihariri cha video cha bure, kihariri cha video bila alama ya maji, mbadala wa capcut, kihariri cha video ios, shader za metal, kihariri cha video gpu, kihariri cha video bila usajili, kihariri cha video chenye faragha, kihariri cha video cha bure iphone",
+      "social_title": "ByteWave - Kihariri cha Video cha Bure kwa iPhone, iPad na Mac",
+      "og_description": "Video zako. Maamuzi yako ya ubunifu. Uhariri wa bure kwenye iPhone, iPad na Mac, bila alama za maji wala usajili.",
+      "twitter_description": "Hariri video zako mwenyewe. Hakuna alama za maji wala usajili. Uhariri kwenye kifaa na kushiriki kwa hiari.",
+      "logo_alt": "Nembo ya ByteWave"
+    },
+    "schema": {
+      "description": "Kihariri cha video cha bure kwa iPhone, iPad na Mac. Hariri video zako kwa uchakataji kwenye kifaa, tabaka za sauti na madoido yanayotumia Metal. Hakuna alama za maji wala usajili; kushiriki mtandaoni ni kwa hiari.",
+      "features": "Kihariri Maalumu cha Shader za Metal, Ukuzaji wa Mwonekano wa Juu, Ukungu wa Mwendo, Upunguzaji wa Kelele kwa Fremu Mfululizo, Vichujio vya Jumuiya, Nyimbo za Sauti Bila Kikomo, Uchakataji kwenye Kifaa, Usomaji wa Content Credentials za C2PA, Matamko Yaliyothibitishwa ya Utengenezaji kwa AI, Uthibitisho wa Asili ya Video kwa Kriptografia"
+    },
+    "hero": {
+      "tag": "ByteWave · Kihariri cha video cha bure",
+      "opening": "Tengeneza kitu",
+      "emphasis": "Halisi",
+      "ending": "si reel tu.",
+      "edit": "Hariri video zako mwenyewe. Kwenye kifaa chako.",
+      "platforms": "Kihariri cha video cha bure kwa iPhone, iPad na Mac.",
+      "examples": "Ona unachoweza kutengeneza ↓",
+      "no_watermarks": "Hakuna usajili. Hakuna alama za maji kwenye video unazohifadhi.",
+      "devices": "iOS / iPadOS 26 au mpya zaidi. Mac: macOS 26 au mpya zaidi, M1 au mpya zaidi.",
+      "play_background": "Cheza video ya mandharinyuma",
+      "pause_background": "Sitisha video ya mandharinyuma"
+    },
+    "download": "Pakua ByteWave",
+    "showcase": {
+      "tag": "Anza na ulichorekodi",
+      "footage": "Video zako.",
+      "edit": "Uhariri wako.",
+      "intro": "Leta picha na video zako. Yaliyobaki yawe ubunifu wako.",
+      "layout": "Layout kutoka ByteWave",
+      "layout_desc": "Unganisha picha na video katika utunzi mmoja.",
+      "effects": "Vichujio, madoido na",
+      "captions": "manukuu yaliyohuishwa",
+      "captions_desc": "Pata mtindo wako. Ongeza maneno yako.",
+      "audio": "Zana za sauti",
+      "audio_desc": "Panga nyimbo katika tabaka na uunde sauti ya video yako.",
+      "gallery": "Tazama video zilizotengenezwa kwa ByteWave →",
+      "editor_alt": "Kihariri cha ByteWave kikionyesha video ya machweo na zana zake za kuhariri kwenye kifaa",
+      "layout_alt": "Layout kutoka ByteWave ikiunganisha picha na video sita za bahari katika utunzi mmoja"
+    },
+    "credentials": {
+      "tag": "Picha, video na AI",
+      "title": "Je, hii imetengenezwa kwa AI?",
+      "check": "Kagua picha au video.",
+      "check_desc": "ByteWave husoma Content Credentials za C2PA zinazotumika, pamoja na lebo zilizosainiwa zinazotambulisha maudhui yaliyotengenezwa kwa AI. Ukaguzi hufanyika kwenye kifaa chako.",
+      "how": "Jinsi ya kukagua faili →",
+      "signed": "Faili unazohifadhi husainiwa.",
+      "signed_desc": "Kila video inayohifadhiwa kwa Save to Photos hupata muhuri wa asili wa ByteWave wenye saini ya kidijitali. Husaidia kuonyesha kuwa faili imetoka ByteWave na kama imebadilika tangu iliposainiwa.",
+      "signed_link": "Jinsi faili zilizosainiwa zinavyofanya kazi →",
+      "caveat": "Hakuna uthibitisho wa asili? Hiyo haimaanishi halisi au bandia. Saini haiwezi kuthibitisha kuwa tukio lilitokea.",
+      "newsrooms": "Unakagua video kwa ajili ya habari? Anza hapa →"
+    },
+    "geese": {
+      "tag": "Kila zana ya kuhariri. Bila malipo.",
+      "opening": "Huru kama",
+      "emphasis": "bata bukini.",
+      "desc": "Hakuna usajili. Hakuna alama za maji kwenye faili unazohifadhi. Huhitaji akaunti kuhariri kwenye kifaa.",
+      "fallback": "Fungua nakala inayooana",
+      "caption": "Bata bukini wakiogelea katika maji yanayotiririka, huku “Free as in geese” ikionekana kwenye skrini.",
+      "alt": "Huru kama bata bukini: hakikisho la programu ya ByteWave"
+    },
+    "privacy": {
+      "title": "Video zako hubaki kwenye kifaa chako",
+      "intro": "Anza na nyakati ulizorekodi. Kata klipu, rekebisha sauti na uchague madoido mwenyewe. ByteWave huweka uhariri na uchakataji kwenye kifaa chako cha Apple kinachotumika.",
+      "local": "ByteWave huchakata uhariri kwenye kifaa chako cha Apple.",
+      "sharing": "Huhitaji akaunti kuhariri kwenye kifaa, na video zako hazipakizwi mtandaoni isipokuwa uchague wazi kuzichapisha au kuzishiriki kupitia kipengele cha mtandaoni.",
+      "stamp": "Kila video inayohifadhiwa kwa Save to Photos husainiwa kwa kriptografia na metadata ya asili ya ByteWave ili kusaidia kuthibitisha kuwa imetoka ByteWave na kama imebadilika tangu kusainiwa. Saini haiwezi kuthibitisha kuwa tukio linaloonyeshwa lilitokea.",
+      "stamp_link": "Jifunze kinachothibitishwa na faili zilizosainiwa.",
+      "guide": "Jinsi ya kuhariri bila kupakia video zako mtandaoni"
+    },
+    "creative": {
+      "title": "Umechoka video za AI kutawala mlisho wako?",
+      "intro": "Ikiwa Facebook au TikTok imejaa klipu zilizozalishwa, au vipengele vya AI vya CapCut si ulivyotaka kuhariria, unaweza kuanza na video zako mwenyewe.",
+      "choice": "Rekodi zako, uhariri wako, uamuzi wako wa kushiriki.",
+      "tools": "ByteWave hukupa zana za kufanyia kazi ulichorekodi: manukuu yaliyohuishwa, vichujio maalumu, mwendo wa polepole na tabaka za sauti. Vipengele vya kusaidia kama kuongeza mwonekano vinapatikana; huhitaji kuzalisha tukio kwa agizo la maandishi ili kuhariri video.",
+      "feed": "Vinjari mlisho wa umma wa ByteWave bila kutambulika, kwa ubinafsishaji wa hiari unaokokotolewa kwenye kifaa chako na bila historia ya kutazama kuhifadhiwa kwenye seva.",
+      "feed_link": "Ona jinsi mlisho unavyofanya kazi.",
+      "facebook": "Jinsi ya kupunguza video za AI kwenye mlisho wako wa Facebook",
+      "tiktok": "Jinsi ya kuona maudhui machache ya AI kwenye TikTok",
+      "real": "Maudhui duni ya AI, video halisi na kurudisha udhibiti wa ubunifu",
+      "capcut": "Mbadala wa bure wa CapCut wa kuhariri video zako mwenyewe",
+      "gallery": "Tazama video zilizotengenezwa kwa ByteWave",
+      "or": "au",
+      "tutorial": "jaribu mafunzo ya ukungu wa mwendo.",
+      "download": "Hariri video zako bila malipo"
+    },
+    "compare": {
+      "title": "ByteWave dhidi ya CapCut",
+      "intro": "Zana za kuhariri za ByteWave ni za bure. CapCut huweka baadhi ya zana hizo katika mipango ya kulipia.",
+      "feature": "Kipengele",
+      "price": "Bei",
+      "free": "$0",
+      "plans": "Mipango ya bure na ya kulipia",
+      "watermarks": "Alama za maji",
+      "none": "Hakuna alama ya maji ya ByteWave",
+      "varies": "Hutegemea zana na namna ya kuhifadhi",
+      "editing": "Uhariri",
+      "offline": "Kwenye kifaa; hakuna akaunti inayohitajika",
+      "cloud": "Zana za kwenye kifaa na wingu",
+      "data": "Ushughulikiaji wa data",
+      "no_tracking": "Hakuna ufuatiliaji wa tabia; akaunti na uchapishaji ni vya hiari",
+      "policy": "Soma sera ya faragha ya CapCut",
+      "provenance": "Asili ya video",
+      "stamp": "Muhuri wa ByteWave unapohifadhi kwa Save to Photos",
+      "export_options": "Kagua chaguo za sasa za kuhifadhi",
+      "slow_motion": "Mwendo wa polepole",
+      "included": "Imejumuishwa",
+      "optical": "Mtiririko wa macho: jaribu bure",
+      "motion": "Ukungu wa mwendo",
+      "pro_motion": "Imeorodheshwa katika Pro*",
+      "noise": "Upunguzaji wa kelele kwenye video",
+      "pro": "Mpango wa Pro",
+      "desktop": "Kompyuta",
+      "upscale": "Ukuzaji wa mwonekano kwa AI",
+      "device": "Kwenye kifaa",
+      "paid": "Usajili wa kulipia",
+      "mobile": "Uboreshaji wa AI kwenye simu",
+      "tracks": "Nyimbo za sauti",
+      "unlimited": "Hakuna kikomo cha nyimbo",
+      "limits": "Kagua vikomo vya jukwaa",
+      "tts": "Maandishi kuwa sauti",
+      "voices": "Sauti za bure; sauti za kulipia hutumia salio",
+      "captions": "Manukuu ya kiotomatiki",
+      "pro_captions": "Pro kwa matumizi kamili",
+      "code": "Msimbo chanzo wa kichujio unaoharirika",
+      "metal": "Msimbo chanzo wa shader ya Metal umejumuishwa",
+      "filter_tools": "Kagua zana za sasa za vichujio",
+      "community": "Vichujio vya jumuiya",
+      "shared": "Shader zinazoharirika zilizoshirikiwa",
+      "effects": "Madoido na violezo vya bure na Pro",
+      "subject": "Kutenganisha kitu kikuu kwa vichujio",
+      "masks": "Zana za kufunika na kukata",
+      "note": "Imekaguliwa Oktoba 18, 2026. Pro ni usajili wa kulipia. *CapCut huorodhesha ukungu wa mwendo katika Pro, lakini pia hutangaza matoleo ya bure. Upatikanaji hutofautiana kulingana na jukwaa, eneo na ofa.",
+      "full": "Ulinganisho kamili"
+    },
+    "features": {
+      "title": "Unachopata",
+      "items": [
+        {
+          "title": "Ukaguzi wa C2PA na asili ya video",
+          "body": "Kagua picha na video kwa Content Credentials zinazotumika, pamoja na lebo za utengenezaji kwa AI. Kila video inayohifadhiwa kwa Save to Photos pia hupata muhuri wa ByteWave kusaidia kutambua mabadiliko ya baadaye."
+        },
+        {
+          "title": "Mwendo wa polepole na ukungu wa mwendo",
+          "body": "Fanya video za polepole ziende kwa ulaini zaidi kwa FRC. Ukungu wa mwendo na upunguzaji wa kelele kwa fremu mfululizo pia huchakatwa kwenye kifaa chako kabla ya hakikisho."
+        },
+        {
+          "title": "Ukuzaji wa mwonekano kwa AI",
+          "body": "Ongeza mwonekano kwenye kifaa. Hakuna uchakataji wa wingu wala kusubiri seva."
+        },
+        {
+          "title": "Nyimbo za sauti bila kikomo",
+          "body": "Panga klipu nyingi za sauti kadiri unavyohitaji katika tabaka kwenye mstari wa muda unaoonekana. Madoido ya sauti yaliyojengewa ndani. Hakuna kikomo cha nyimbo."
+        },
+        {
+          "title": "Maandishi kuwa sauti",
+          "body": "Andika maandishi yatakayozalishwa kama sauti au tengeneza manukuu kwenye kifaa chako. Uwekaji lebo wa kiotomatiki wa hiari husaidia wengine kugundua video zilizoshirikiwa na huhitaji akaunti na ridhaa."
+        },
+        {
+          "title": "Madoido ya maandishi",
+          "body": "Mwang'ao, hitilafu za picha, neon na mengine. Maandishi yaliyohuishwa bila kuhitaji utaalamu wa michoro inayosogea."
+        },
+        {
+          "title": "Kutenganisha kitu kikuu",
+          "body": "Tenganisha vitu vikuu na mandharinyuma na uweke vichujio kwa kila kimoja kivyake. Weka ukungu mandharinyuma huku kitu kikuu kikibaki wazi; kwa mguso mmoja."
+        },
+        {
+          "title": "Vichujio maalumu vyenye msimbo chanzo",
+          "body": "Kila kichujio hukuonyesha msimbo wake wa shader. Uhariri moja kwa moja au unakili msimbo na uombe ChatGPT kutengeneza kitu kipya."
+        },
+        {
+          "title": "Vichujio vya jumuiya",
+          "body": "Chapisha vichujio ulivyotengeneza. Vinjari na upate vichujio vya wabunifu wengine. Mguso mmoja kuviongeza kwenye maktaba yako."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Vichujio unavyoweza kuhariri kweli",
+      "desc": "Vihariri vingi huficha jinsi vichujio vinavyofanya kazi. ByteWave hukuonyesha msimbo. Ubadilishe, ujifunze kutokana nao, au unakili na ueleze AI unachotaka; bandika matokeo tena.",
+      "comment": "// Mandharinyuma ya mtindo wa Impressionism, kitu kikuu kilicho wazi"
+    },
+    "cta": {
+      "desc": "Hariri bila intaneti. Huhitaji akaunti. Pakia mtandaoni tu unapochagua kuchapisha.",
+      "apple": "Pakua kwa Apple"
+    }
+  }
+}

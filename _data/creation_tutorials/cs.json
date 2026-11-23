@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Návod pro ByteWave",
+    "updatedLabel": "Aktualizováno",
+    "updatedDate": "23. listopadu 2026",
+    "relatedLabel": "Související návody"
+  },
+  "animatedCaptions": {
+    "title": "Jak přidat animované titulky v ByteWave",
+    "description": "Přidejte do videa text, vyberte animovaný efekt a umístěte titulek v ByteWave. Krátký návod pro iPhone, iPad a Mac.",
+    "lead": "Přidejte do videa vlastní text a přiřaďte mu animovaný efekt.",
+    "stepsHeading": "Přidejte titulek",
+    "step1": "Otevřete video v ByteWave a přidejte titulek.",
+    "step2": "Zadejte text a pak vyberte titulek pro úpravu stylu.",
+    "step3": "Vyberte písmo, velikost a barvu. Umístěte text přes video.",
+    "step4": "Vyberte textový efekt a přehrajte video pro náhled animace.",
+    "readabilityHeading": "Zachovejte čitelnost",
+    "readabilityText": "Použijte krátkou frázi a barvu, která v záběrech vynikne. Ověřte, že animace nechává dost času na přečtení.",
+    "relatedIntro": "Hledáte konkrétní vzhled? Náš",
+    "relatedAnchor": "návod na efekty titulků",
+    "relatedTail": "představuje předvolby jako Orbital Letters a Ember Ash.",
+    "relatedSticker": "Animovat samolepku"
+  },
+  "animateStickers": {
+    "title": "Jak animovat samolepky v ByteWave",
+    "description": "Rozhýbejte samolepku ve videu v ByteWave. Pomocí časování a klíčových snímků měňte její polohu, velikost a otočení.",
+    "lead": "Pomocí klíčových snímků samolepku v čase přesouvejte, měňte její velikost nebo ji otáčejte.",
+    "stepsHeading": "Nastavte pohyb",
+    "step1": "Přidejte do videa samolepku a vyberte ji.",
+    "step2": "Pomocí časových ovládacích prvků určete, kdy se objeví.",
+    "step3": "Pomocí ovládání klíčových snímků zaznamenejte její počáteční polohu, velikost a otočení.",
+    "step4": "Přejděte na pozdější okamžik a nastavte další klíčový snímek s jinou polohou, velikostí nebo otočením.",
+    "step5": "Přehrajte video pro náhled pohybu mezi nimi.",
+    "readabilityHeading": "Začněte dvěma klíčovými snímky",
+    "readabilityText": "Zkuste přesunout samolepku z jedné strany obrazu na druhou. Až pohyb vypadá správně, přidejte změnu velikosti nebo otočení.",
+    "relatedCaption": "Přidat animované titulky",
+    "relatedLayout": "Vytvořit videokoláž"
+  }
+}

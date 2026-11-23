@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Hướng dẫn ByteWave",
+    "updatedLabel": "Cập nhật",
+    "updatedDate": "23 tháng 11, 2026",
+    "relatedLabel": "Hướng dẫn liên quan"
+  },
+  "captionEffects": {
+    "title": "Hiệu ứng chữ phụ đề trong ByteWave",
+    "description": "Chọn hiệu ứng chữ phụ đề trong ByteWave, xem trước chuyển động và so sánh Orbital Letters, Supernova, Ember Ash.",
+    "lead": "Thử hiệu ứng với lời của bạn. Xem trước trên thước phim trước khi xuất.",
+    "stepsHeading": "Chọn hiệu ứng",
+    "step1": "Chọn phụ đề trong dự án ByteWave.",
+    "step2": "Mở hiệu ứng chữ của phụ đề và chọn một mẫu.",
+    "step3": "Phát video để xem hiệu ứng chuyển động.",
+    "presetsHeading": "Ba mẫu đáng thử",
+    "tip": "Thử cùng một câu ngắn với từng hiệu ứng. Chỉnh phông chữ, kích thước và màu cho phù hợp với cảnh quay.",
+    "fromScratch": "Bắt đầu từ đầu?",
+    "firstCaption": "Thêm phụ đề đầu tiên",
+    "fontsPrompt": "Muốn dùng kiểu chữ khác?",
+    "importFont": "Nhập phông chữ của bạn",
+    "relatedSticker": "Làm nhãn dán chuyển động"
+  },
+  "customFonts": {
+    "title": "Dùng phông chữ của bạn không nên cần thuê bao.",
+    "description": "Nhập phông TTF hoặc OTF của bạn vào ByteWave trên iPhone. Chọn tệp và dùng Phông chữ của tôi để tạo kiểu phụ đề miễn phí.",
+    "lead": "Đưa phông chữ của bạn vào video. Nhập phông chữ trong ByteWave hoàn toàn miễn phí.",
+    "stepsHeading": "Nhập phông chữ trên iPhone",
+    "step1": "Lưu phông TrueType (.ttf) hoặc OpenType (.otf) trong ứng dụng Tệp. Giải nén tệp ZIP trước nếu có.",
+    "step2": "Chọn phụ đề trong dự án ByteWave và mở bảng Phông chữ.",
+    "step3": "Chạm Nhập phông chữ và chọn tệp.",
+    "step4": "Tìm phông trong Phông chữ của tôi. Chạm vào phông để áp dụng cho phụ đề.",
+    "preview": "Phát video để kiểm tra chữ, chỉnh kích thước và màu, rồi xuất.",
+    "unsupportedHeading": "Không chọn được tệp?",
+    "unsupported": "Chọn đúng tệp .ttf hoặc .otf. Công cụ nhập này không hỗ trợ phông web như .woff và .woff2.",
+    "startPrompt": "Bắt đầu với dự án trống?",
+    "firstCaption": "Thêm phụ đề đầu tiên",
+    "effectsPrompt": "Sau đó thử",
+    "effectsLink": "hiệu ứng chữ phụ đề",
+    "license": "ByteWave không thu phí nhập phông chữ. Bản thân phông chữ có thể có giá và giấy phép riêng; hãy kiểm tra điều khoản của tác giả cho cách bạn sử dụng."
+  }
+}

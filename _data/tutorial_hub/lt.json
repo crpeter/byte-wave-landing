@@ -1,0 +1,98 @@
+{
+  "title": "Vaizdo redagavimo pamokos",
+  "description": "Trumpos ByteWave pamokos apie vaizdo koliažus, animuotus subtitrus, teksto efektus, judančius lipdukus, judesio suliejimą ir turinio kilmės duomenų tikrinimą.",
+  "intro": "Sukurkite išdėstymą, pridėkite subtitrų, animuokite lipdukus ar patikrinkite failą. Trumpi ByteWave įrankių vadovai.",
+  "action": "Žiūrėti vadovą",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout iš ByteWave",
+      "description": "Sluoksniuokite klipus, kurkite tinklelius ir išbandykite naujas formas.",
+      "format": "Trys vaizdo pavyzdžiai",
+      "alt": "Korio išdėstymas su mėnulio ir šuns vaizdais"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Pridėkite animuotus subtitrus",
+      "description": "Jūsų žodžiai jūsų vaizdo įraše.",
+      "format": "Rašytinis vadovas",
+      "alt": "Animuotų subtitrų pridėjimas."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Pasirinkite subtitrų teksto efektus",
+      "description": "Orbital Letters, Supernova, Ember Ash ir daugiau.",
+      "format": "Rašytinis vadovas",
+      "alt": "Subtitrų teksto efektai."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importuokite savo šriftus",
+      "description": "Vaizdo subtitruose naudokite TTF ir OTF šriftus.",
+      "format": "Rašytinis vadovas",
+      "alt": "Jūsų šriftai. Jūsų vaizdo įrašas. Importuokite TTF ir OTF į ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animuokite lipdukus pagrindiniais kadrais",
+      "description": "Padėtis, dydis, pasukimas ir pagrindiniai kadrai.",
+      "format": "Rašytinis vadovas",
+      "alt": "Priverskite lipdukus judėti."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Pridėkite judesio suliejimą",
+      "description": "Palyginkite rezultatą greta, raskite judesio suliejimą redaktoriuje ir pritaikykite stiprumą savo klipui.",
+      "format": "iPhone · 20 sekundžių palyginimas",
+      "alt": "Uosto vaizdo palyginimas: originalas kairėje, ByteWave judesio suliejimas dešinėje.",
+      "left": "Originalas",
+      "right": "ByteWave judesio suliejimas"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Kadrų dažnio keitimas sulėtintam judesiui",
+      "description": "Palyginkite kolibrio klipą 0,1× greičiu ir pamatykite, kaip kadrų dažnio keitimas keičia sulėtintą judesį.",
+      "format": "iPhone · 30 sekundžių palyginimas",
+      "alt": "Kolibrio palyginimas: įprastas sulėtinimas 0,1× kairėje, ByteWave kadrų dažnio keitimas dešinėje.",
+      "left": "Įprastas sulėtinimas · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Laikinis triukšmo mažinimas",
+      "description": "Palyginkite triukšmą ir smulkias detales Apple pavyzdyje ir sužinokite, ką stebėti savo klipuose.",
+      "format": "iPhone · 8 sekundžių palyginimas",
+      "alt": "Apple raudonų lapų pavyzdys: originalas kairėje, ByteWave laikinis triukšmo mažinimas dešinėje.",
+      "left": "Originalas",
+      "right": "ByteWave triukšmo mažinimas"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Patikrinkite C2PA turinio kilmės duomenis",
+      "description": "Atverkite kilmės ženklelį ir sužinokite, ką reiškia patvirtinti AI sukūrimo įrašai, metaduomenų vertinimai ir trūkstami įrodymai.",
+      "format": "Nuotraukos ir vaizdo įrašai · Rašytinis vadovas",
+      "alt": "Turinio kilmės duomenų tikrinimas ByteWave: nuotraukų ir vaizdo įrašų kilmės pamoka."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Pašalinkite vietovės metaduomenis",
+      "description": "Patikrinkite darbinę vaizdo kopiją, pašalinkite redaguojamus laukus ir prieš bendrindami peržiūrėkite, kas liko.",
+      "format": "Privatumas · Rašytinis vadovas",
+      "alt": "Žinokite daugiau. Bendrinkite mažiau. Prieš bendrindami vaizdo įrašą patikrinkite ir pašalinkite redaguojamus metaduomenis."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Išverskite vaizdo subtitrus",
+      "description": "Automatinius subtitrus išverskite į kitą palaikomą kalbą, palyginkite originalą ir prieš eksportuodami patikrinkite rezultatą.",
+      "format": "iPhone ir iPad · Rašytinis vadovas",
+      "alt": "Vaizdo subtitrų vertimas. Automatinius subtitrus išverskite į kitą palaikomą kalbą, palyginkite originalą ir prieš eksportuodami patikrinkite rezultatą."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Tegul efektai reaguoja į muziką",
+      "description": "Pasirinkite Garso filtrą, palyginkite animuotos geometrijos ruošinius ir reakciją tyliomis bei garsesnėmis atkarpomis.",
+      "format": "iPhone ir iPad · Rašytinis vadovas",
+      "alt": "Efektai, reaguojantys į muziką. Pasirinkite Garso filtrą, palyginkite animuotos geometrijos ruošinius ir reakciją tyliomis bei garsesnėmis atkarpomis."
+    }
+  ]
+}

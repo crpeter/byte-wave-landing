@@ -1,0 +1,61 @@
+{
+  "title": "Gratis videocollageværktøj til iPhone, iPad og Mac",
+  "lead": "Stabl videoer. Bland fotos og klip. Byg gitre eller bikagelayouts med ByteWave, gratis på iPhone, iPad og Mac med Apple Silicon.",
+  "orientations": "Ét layout, to retninger",
+  "honeyText": "Syv sekskantede felter med månen, en hund og en solbeskinnet mark.",
+  "seasideText": "Seks kystklip deler ét billede, hvorefter der klippes til en hund, der leger på stranden.",
+  "warpedText": "Optagelser af solnedgang over havet bøjet i buede, spejlede bånd.",
+  "hexText": "Solnedgange over havet og bølger fordelt i fire sekskantede felter over en solnedgangsbaggrund, der fylder hele billedet, i ByteWave.",
+  "features": "Mere end en fotocollage",
+  "feature1": "Kombiner fotos og videoer i samme layout.",
+  "feature2": "Stabl klip lodret, eller placer dem ved siden af hinanden.",
+  "feature3": "Byg gitre med op til 144 felter.",
+  "feature4": "Prøv symmetri og polygonformer med op til tolv sider.",
+  "make": "Lav et layout",
+  "step1": "Åbn Layout fra ByteWave.",
+  "step2": "Vælg en opstilling, og tilføj dine fotos og videoer.",
+  "step3": "Tilpas kompositionen, se den, og eksporter.",
+  "pricing": "Gratis på iPhone, iPad og Mac med Apple Silicon. Redigeringen foregår lokalt på din enhed. Intet abonnement eller ByteWave-vandmærke ved eksport.",
+  "date": "23. november 2026",
+  "publisher": "Udgivet af ByteWave, som laver appen, der omtales her.",
+  "description": "Lav videocollager med ByteWave. Stabl klip, bland fotos og videoer, og byg gitre eller bikagelayouts. Gratis, uden abonnement eller vandmærke ved eksport.",
+  "socialAlt": "Fotos og videoer. Ét layout. Stabl klip, byg gitre, og prøv nye former.",
+  "updated": "Opdateret",
+  "related": "Relaterede vejledninger",
+  "open": "Åbn video",
+  "openCompatible": "Åbn kompatibel kopi",
+  "watch": "Se MP4",
+  "demos": "Videoer lavet med Layout fra ByteWave",
+  "gallery": "Se flere redigeringer i galleriet",
+  "captions": "Tilføj animerede undertekster",
+  "stickers": "Tilføj bevægelige stickers",
+  "videoTitles": [
+    "Bikage",
+    "Kystgitter til strand",
+    "Forvrænget solnedgang",
+    "Solnedgangssekskanter · Stående",
+    "Solnedgangssekskanter · Liggende"
+  ],
+  "videoAlt": [
+    "Video med bikagelayout",
+    "Kystlayout i seks felter efterfulgt af en hund på stranden",
+    "Video med forvrænget solnedgangslayout",
+    "Stående video med solnedgangssekskanter",
+    "Liggende video med solnedgangssekskanter"
+  ],
+  "schemaNames": [
+    "Bikagelayout i ByteWave",
+    "Kystgitter til strand",
+    "Forvrænget solnedgang",
+    "Solnedgangssekskanter (stående)",
+    "Solnedgangssekskanter (liggende)"
+  ],
+  "videoDescriptions": [
+    "Syv sekskantede felter med månen, en hund og en solbeskinnet mark.",
+    "Et kystlayout i seks felter efterfulgt af et fuldskærmsklip af en hund, der leger på stranden.",
+    "Optagelser af solnedgang over havet bøjet i buede, spejlede bånd med Layout fra ByteWave.",
+    "Solnedgange over havet og bølger fordelt i fire sekskantede felter over en solnedgangsbaggrund, der fylder hele billedet, i ByteWave.",
+    "Fire sekskantede felter med solnedgange over havet og bølger centreret over en bred, orange solnedgangs- og havbaggrund."
+  ],
+  "modified": "2026-11-23"
+}

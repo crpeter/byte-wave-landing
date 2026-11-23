@@ -1,0 +1,231 @@
+{
+  "name": "Dansk",
+  "nav": {
+    "skip": "Spring til indhold",
+    "label": "Hovednavigation",
+    "menu": "Menu",
+    "home": "Forside",
+    "features": "Funktioner",
+    "compare": "Sammenlign",
+    "gallery": "Galleri",
+    "tutorials": "Vejledninger",
+    "blog": "Blog",
+    "about": "Om",
+    "privacy": "Privatliv",
+    "press": "Presse",
+    "expression": "Ytringsfrihed",
+    "download": "Download gratis"
+  },
+  "footer": {
+    "motto": "Videoredigering bør være gratis.",
+    "devices": "iPhone med iOS 26 eller nyere · iPad med iPadOS 26 eller nyere · Mac med macOS 26 eller nyere og Apple M1 eller nyere."
+  },
+  "get_free": "Hent ByteWave gratis",
+  "social_alt": "ByteWave-forhåndsvisning til sociale medier",
+  "disclosure": {
+    "label": "Oplysning om AI:",
+    "text": "Denne artikel indeholder tekst genereret med en AI-sprogmodel (LLM).",
+    "by": "Af",
+    "review": "Produktpåstandene er gennemgået af ByteWave; sammenligningerne afspejler ByteWaves kommercielle interesse og er ikke uafhængige anmeldelser."
+  },
+  "player": {
+    "play": "Afspil video",
+    "replay": "Afspil video igen",
+    "retry": "Prøv videoen igen",
+    "tap": "Tryk for at afspille video",
+    "tap_hint": "Tryk på afspil for at starte videoen.",
+    "loading": "Indlæser video…",
+    "fallback": "Prøver den kompatible video…",
+    "failed": "Videoen kunne ikke indlæses. Prøv igen, eller åbn videolinket nedenfor."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Gratis GPU-drevet videoredigering til iPhone, iPad og Mac",
+      "description": "Rediger dine egne optagelser med ByteWave, en gratis videoeditor til iPhone, iPad og Mac. Ingen vandmærker eller abonnementer. Lokal redigering, undertekster, effekter og lyd.",
+      "keywords": "gratis videoredigering, videoeditor uden vandmærke, alternativ til capcut, ios videoredigering, metal shaders, gpu videoredigering, videoeditor uden abonnement, privat videoredigering, gratis videoredigering iphone",
+      "social_title": "ByteWave - Gratis videoredigering til iPhone, iPad og Mac",
+      "og_description": "Dine optagelser. Dine kreative valg. Gratis lokal videoredigering til iPhone, iPad og Mac uden vandmærker eller abonnementer.",
+      "twitter_description": "Rediger dine egne optagelser. Ingen vandmærker eller abonnementer. Lokal videoredigering med valgfri deling.",
+      "logo_alt": "ByteWave-logo"
+    },
+    "schema": {
+      "description": "En gratis videoeditor til iPhone, iPad og Mac. Rediger dine egne optagelser med lokal rendering, lyd i flere lag og Metal-drevne effekter. Ingen vandmærker eller abonnementer; onlinedeling er valgfri.",
+      "features": "Editor til egne Metal-shadere, opskalering med superopløsning, bevægelsessløring, tidslig støjreduktion, fællesskabsfiltre, ubegrænset antal lydspor, behandling på enheden, læsning af C2PA Content Credentials, verificerede erklæringer om AI-generering, kryptografisk videooprindelse"
+    },
+    "hero": {
+      "tag": "ByteWave · Gratis videoeditor",
+      "opening": "Skab noget",
+      "emphasis": "ægte",
+      "ending": "ikke bare en reel.",
+      "edit": "Rediger dine egne optagelser. Lokalt på enheden.",
+      "platforms": "En gratis videoeditor til iPhone, iPad og Mac.",
+      "examples": "Se, hvad du kan skabe ↓",
+      "no_watermarks": "Ingen abonnementer. Ingen vandmærker ved eksport.",
+      "devices": "iOS / iPadOS 26 eller nyere. Mac: macOS 26 eller nyere, M1 eller nyere.",
+      "play_background": "Afspil baggrundsvideo",
+      "pause_background": "Sæt baggrundsvideo på pause"
+    },
+    "download": "Download ByteWave",
+    "showcase": {
+      "tag": "Start med det, du har filmet",
+      "footage": "Dine optagelser.",
+      "edit": "Din redigering.",
+      "intro": "Brug dine fotos og videoer. Gør resten til dit eget.",
+      "layout": "Layout fra ByteWave",
+      "layout_desc": "Saml fotos og videoer i én komposition.",
+      "effects": "Filtre, effekter og",
+      "captions": "animerede undertekster",
+      "captions_desc": "Find dit udtryk. Sæt dine egne ord på.",
+      "audio": "Lydværktøjer",
+      "audio_desc": "Læg spor i lag, og form lyden i din video.",
+      "gallery": "Se videoer lavet med ByteWave →",
+      "editor_alt": "ByteWave-editoren med solnedgangsoptagelser og redigeringsværktøjer på enheden",
+      "layout_alt": "Layout fra ByteWave samler seks havfotos og -videoer i én komposition"
+    },
+    "credentials": {
+      "tag": "Fotos, videoer og AI",
+      "title": "Er dette lavet med AI?",
+      "check": "Tjek et foto eller en video.",
+      "check_desc": "ByteWave læser understøttede C2PA Content Credentials, herunder signerede mærkninger af AI-genereret indhold. Kontrollen foregår på din enhed.",
+      "how": "Sådan tjekker du en fil →",
+      "signed": "Dine eksporter bliver signeret.",
+      "signed_desc": "Hver eksport via Gem i Fotos får et ByteWave-oprindelsesstempel med en digital signatur. Det hjælper med at vise, at filen kommer fra ByteWave, og om den er ændret efter signeringen.",
+      "signed_link": "Sådan fungerer signerede eksporter →",
+      "caveat": "Ingen legitimationsoplysninger? Det betyder hverken ægte eller falsk. En signatur kan ikke bevise, at en scene fandt sted.",
+      "newsrooms": "Tjekker du optagelser til en historie? Start her →"
+    },
+    "geese": {
+      "tag": "Alle redigeringsværktøjer. Gratis.",
+      "opening": "Fri som en",
+      "emphasis": "gås.",
+      "desc": "Ingen abonnementer. Ingen vandmærker ved eksport. Lokal redigering kræver ingen konto.",
+      "fallback": "Åbn kompatibel kopi",
+      "caption": "Gæs, der navigerer i strømmende vand, med teksten “Free as in geese” på skærmen.",
+      "alt": "Fri som en gås: forhåndsvisning af ByteWave-appen"
+    },
+    "privacy": {
+      "title": "Dine videoer bliver på din enhed",
+      "intro": "Start med de øjeblikke, du har optaget. Klip dine videoer, form lyden, og vælg selv effekterne. ByteWave holder redigering og rendering på din understøttede Apple-enhed.",
+      "local": "ByteWave behandler redigering lokalt på din Apple-enhed.",
+      "sharing": "Lokal redigering kræver ingen konto, og dine videoer uploades ikke, medmindre du udtrykkeligt vælger at offentliggøre eller dele dem via en onlinefunktion.",
+      "stamp": "Hver eksport via Gem i Fotos signeres kryptografisk med ByteWave-oprindelsesmetadata, som hjælper med at bekræfte dens ByteWave-oprindelse, og om filen er ændret siden signeringen. En signatur kan ikke bevise, at en afbildet hændelse fandt sted.",
+      "stamp_link": "Læs, hvad signerede eksporter kan dokumentere.",
+      "guide": "Sådan redigerer du uden at uploade dine optagelser"
+    },
+    "creative": {
+      "title": "Træt af, at AI-videoer overtager dit feed?",
+      "intro": "Hvis Facebook eller TikTok føles fyldt med genererede klip, eller CapCuts AI-funktioner ikke er det, du ville redigere med, kan du begynde med dine egne optagelser.",
+      "choice": "Dine optagelser, dine redigeringer, dit valg om deling.",
+      "tools": "ByteWave giver dig værktøjer til det, du har filmet: animerede undertekster, egne filtre, slowmotion og lyd i flere lag. Hjælpefunktioner som opskalering er tilgængelige; du behøver ikke generere en scene ud fra en prompt for at redigere en video.",
+      "feed": "Gennemse ByteWaves offentlige feed anonymt med valgfri tilpasning beregnet på din enhed og uden visningshistorik på serveren.",
+      "feed_link": "Se, hvordan feedet fungerer.",
+      "facebook": "Sådan får du færre AI-videoer i dit Facebook-feed",
+      "tiktok": "Sådan ser du mindre AI-indhold på TikTok",
+      "real": "AI-skrald, ægte optagelser og at tage den kreative kontrol tilbage",
+      "capcut": "Et gratis CapCut-alternativ til redigering af dine egne optagelser",
+      "gallery": "Se videoer lavet med ByteWave",
+      "or": "eller",
+      "tutorial": "prøv vejledningen til bevægelsessløring.",
+      "download": "Rediger dine egne optagelser gratis"
+    },
+    "compare": {
+      "title": "ByteWave vs. CapCut",
+      "intro": "ByteWaves redigeringsværktøjer er gratis. CapCut placerer nogle af de samme værktøjer i betalte abonnementer.",
+      "feature": "Funktion",
+      "price": "Pris",
+      "free": "$0",
+      "plans": "Gratis og betalte abonnementer",
+      "watermarks": "Vandmærker",
+      "none": "Intet ByteWave-vandmærke",
+      "varies": "Afhænger af værktøj og eksport",
+      "editing": "Redigering",
+      "offline": "På enheden; ingen konto kræves",
+      "cloud": "Lokale værktøjer og cloudværktøjer",
+      "data": "Databehandling",
+      "no_tracking": "Ingen adfærdssporing; konto og offentliggørelse er valgfrie",
+      "policy": "Se CapCuts privatlivspolitik",
+      "provenance": "Videooprindelse",
+      "stamp": "ByteWave-stempel ved Gem i Fotos",
+      "export_options": "Tjek de aktuelle eksportmuligheder",
+      "slow_motion": "Slowmotion",
+      "included": "Inkluderet",
+      "optical": "Optisk flow: gratis at prøve",
+      "motion": "Bevægelsessløring",
+      "pro_motion": "Angivet som del af Pro*",
+      "noise": "Støjreduktion i video",
+      "pro": "Pro-abonnement",
+      "desktop": "Computer",
+      "upscale": "AI-opskalering",
+      "device": "På enheden",
+      "paid": "Betalt abonnement",
+      "mobile": "Mobil AI-forbedring",
+      "tracks": "Lydspor",
+      "unlimited": "Ingen grænse for antal spor",
+      "limits": "Tjek platformens begrænsninger",
+      "tts": "Tekst til tale",
+      "voices": "Gratis stemmer; premiumstemmer bruger kreditter",
+      "captions": "Automatiske undertekster",
+      "pro_captions": "Pro for fuld adgang",
+      "code": "Redigerbar kildekode til filtre",
+      "metal": "Metal-shaderkildekode inkluderet",
+      "filter_tools": "Tjek de aktuelle filterværktøjer",
+      "community": "Fællesskabsfiltre",
+      "shared": "Delte, redigerbare shadere",
+      "effects": "Gratis effekter og Pro-effekter samt skabeloner",
+      "subject": "Motivisolering til filtre",
+      "masks": "Maskerings- og udklipsværktøjer",
+      "note": "Kontrolleret 18. oktober 2026. Pro er et betalt abonnement. *CapCut angiver bevægelsessløring som del af Pro, men reklamerer også for gratis versioner. Adgangen varierer efter platform, region og tilbud.",
+      "full": "Fuld sammenligning"
+    },
+    "features": {
+      "title": "Det får du",
+      "items": [
+        {
+          "title": "C2PA-kontrol og videooprindelse",
+          "body": "Tjek fotos og videoer for understøttede Content Credentials, herunder mærkninger om AI-generering. Hver eksport via Gem i Fotos får også et ByteWave-stempel, der hjælper med at opdage senere ændringer."
+        },
+        {
+          "title": "Slowmotion og bevægelsessløring",
+          "body": "Gør slowmotion-video mere flydende med FRC. Bevægelsessløring og tidslig støjreduktion behandles også lokalt på din enhed inden forhåndsvisning."
+        },
+        {
+          "title": "AI-opskalering",
+          "body": "Opskaler opløsningen på enheden. Ingen cloudbehandling, ingen ventetid på en server."
+        },
+        {
+          "title": "Ubegrænset antal lydspor",
+          "body": "Læg så mange lydklip, du har brug for, på en visuel tidslinje. Indbyggede lydeffekter. Ingen grænse for antal spor."
+        },
+        {
+          "title": "Tekst til tale",
+          "body": "Skriv tekst til talesyntese, eller generer undertekster på din enhed. Valgfri automatisk tagging hjælper andre med at finde delte videoer og kræver en konto og aktiv tilmelding."
+        },
+        {
+          "title": "Teksteffekter",
+          "body": "Glimmer, glitch, neon og mere. Animeret tekst, der ikke kræver erfaring med motion graphics."
+        },
+        {
+          "title": "Motivisolering",
+          "body": "Adskil motiver fra baggrunden, og anvend filtre på hver del uafhængigt. Slør baggrunden, og behold motivet skarpt med ét tryk."
+        },
+        {
+          "title": "Egne filtre med kildekode",
+          "body": "Hvert filter viser dig shaderkoden bag det. Rediger den direkte, eller kopiér koden, og bed ChatGPT om at lave noget nyt."
+        },
+        {
+          "title": "Fællesskabsfiltre",
+          "body": "Udgiv filtre, du har lavet. Gennemse og hent filtre fra andre skabere. Føj dem til dit bibliotek med ét tryk."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtre, du faktisk kan redigere",
+      "desc": "De fleste editorer behandler filtre som en sort boks. ByteWave viser dig koden. Ændr den, lær af den, eller kopiér den, og beskriv for en AI, hvad du vil have; indsæt resultatet igen.",
+      "comment": "// Impressionistisk baggrund, skarpt motiv"
+    },
+    "cta": {
+      "desc": "Rediger offline. Ingen konto kræves. Upload kun, når du vælger at offentliggøre.",
+      "apple": "Download til Apple"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "Darasin ByteWave",
+    "updatedLabel": "An sabunta",
+    "updatedDate": "23 Nuwamba, 2026",
+    "relatedLabel": "Jagorori masu alaƙa"
+  },
+  "animatedCaptions": {
+    "title": "Yadda Ake Ƙara Rubutun Magana Mai Motsi a ByteWave",
+    "description": "Ƙara rubutu a bidiyonka, zaɓi tasiri mai motsi ka sanya rubutun maganarka a ByteWave. Gajeren jagora don iPhone, iPad da Mac.",
+    "lead": "Ƙara rubutunka a bidiyo ka ba shi tasiri mai motsi.",
+    "stepsHeading": "Ƙara rubutun maganarka",
+    "step1": "Buɗe bidiyonka a ByteWave ka ƙara rubutun magana.",
+    "step2": "Shigar da rubutunka, sannan ka zaɓi rubutun maganar don gyara salonsa.",
+    "step3": "Zaɓi font, girma da launi. Sanya rubutun a kan bidiyonka.",
+    "step4": "Zaɓi tasirin rubutu, sannan ka kunna bidiyon don ganin samfotin motsin.",
+    "readabilityHeading": "Ka sa a iya karantawa",
+    "readabilityText": "Yi amfani da gajeriyar jimla da launin da yake fitowa a kan bidiyon. Tabbatar motsin ya bar isasshen lokacin karantawa.",
+    "relatedIntro": "Kana neman wani salo? Jagoran",
+    "relatedAnchor": "tasirin rubutun magana",
+    "relatedTail": "yana bayanin tsare-tsare kamar Orbital Letters da Ember Ash.",
+    "relatedSticker": "Sa lamba ta motsa"
+  },
+  "animateStickers": {
+    "title": "Yadda Ake Sa Lambobi Su Motsa a ByteWave",
+    "description": "Sa lamba ta motsa a fadin bidiyonka a ByteWave. Yi amfani da lokaci da firam ɗin maɓalli don sauya matsayinta, girmanta da juyawarta.",
+    "lead": "Yi amfani da firam ɗin maɓalli don motsa lamba, sauya girmanta ko juya ta da tafiyar lokaci.",
+    "stepsHeading": "Tsara motsin",
+    "step1": "Ƙara lamba a bidiyonka ka zaɓe ta.",
+    "step2": "Saita lokacin bayyanarta da maɓallan lokaci.",
+    "step3": "Yi amfani da maɓallan firam ɗin maɓalli don adana matsayin farko, girma da juyawa.",
+    "step4": "Je zuwa lokaci na gaba ka sa wani firam ɗin maɓalli mai matsayi, girma ko juyawa daban.",
+    "step5": "Kunna bidiyon don ganin samfotin motsin da ke tsakaninsu.",
+    "readabilityHeading": "Fara da firam ɗin maɓalli biyu",
+    "readabilityText": "Gwada motsa lamba daga gefe ɗaya na firam zuwa ɗaya. Idan ta yi kyau, ƙara canjin girma ko juyawa.",
+    "relatedCaption": "Ƙara rubutun magana mai motsi",
+    "relatedLayout": "Haɗa bidiyo a hoto guda"
+  }
+}

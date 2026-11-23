@@ -1,0 +1,61 @@
+{
+  "title": "Bezplatná tvorba videokoláží pro iPhone, iPad a Mac",
+  "lead": "Vrstvěte videa. Kombinujte fotky a klipy. Tvořte mřížky nebo včelí plástve s ByteWave, zdarma na iPhonu, iPadu a Macu s Apple Silicon.",
+  "orientations": "Jedna kompozice, dvě orientace",
+  "honeyText": "Sedm šestiúhelníkových buněk ukazuje měsíc, psa a slunnou louku.",
+  "seasideText": "Šest přímořských klipů sdílí jeden obraz, poté střih přechází na psa hrajícího si na pláži.",
+  "warpedText": "Záběry západu slunce nad oceánem ohnuté do zakřivených zrcadlených pásů.",
+  "hexText": "Západy slunce a vlny oceánu ve čtyřech šestiúhelníkových panelech na celoplošném pozadí západu slunce v ByteWave.",
+  "features": "Víc než fotokoláž",
+  "feature1": "Kombinujte fotky a videa ve stejné kompozici.",
+  "feature2": "Skládejte klipy svisle nebo vedle sebe.",
+  "feature3": "Tvořte mřížky až se 144 buňkami.",
+  "feature4": "Vyzkoušejte symetrii a mnohoúhelníky až s dvanácti stranami.",
+  "make": "Vytvořte kompozici",
+  "step1": "Otevřete Layout od ByteWave.",
+  "step2": "Vyberte uspořádání a přidejte fotky a videa.",
+  "step3": "Upravte kompozici, prohlédněte ji a exportujte.",
+  "pricing": "Zdarma na iPhonu, iPadu a Macu s Apple Silicon. Střih probíhá místně v zařízení. Bez předplatného a vodoznaku ByteWave při exportu.",
+  "date": "23. listopadu 2026",
+  "publisher": "Vydal ByteWave, tvůrce aplikace popisované v tomto článku.",
+  "description": "Tvořte videokoláže s ByteWave. Vrstvěte klipy, kombinujte fotky a videa a tvořte mřížky nebo včelí plástve. Zdarma, bez předplatného a vodoznaku při exportu.",
+  "socialAlt": "Fotky a videa. Jedna kompozice. Vrstvěte klipy, tvořte mřížky a zkoušejte nové tvary.",
+  "updated": "Aktualizováno",
+  "related": "Související návody",
+  "open": "Otevřít video",
+  "openCompatible": "Otevřít kompatibilní kopii",
+  "watch": "Přehrát MP4",
+  "demos": "Videa vytvořená s Layout od ByteWave",
+  "gallery": "Další úpravy v galerii",
+  "captions": "Přidat animované titulky",
+  "stickers": "Přidat pohyblivé samolepky",
+  "videoTitles": [
+    "Včelí plástev",
+    "Od přímořské mřížky k pláži",
+    "Zakřivený západ slunce",
+    "Šestiúhelníky se západem slunce · Na výšku",
+    "Šestiúhelníky se západem slunce · Na šířku"
+  ],
+  "videoAlt": [
+    "Video s kompozicí včelí plástve",
+    "Přímořská kompozice ze šesti panelů následovaná psem na pláži",
+    "Video s kompozicí zakřiveného západu slunce",
+    "Video se šestiúhelníky západu slunce na výšku",
+    "Video se šestiúhelníky západu slunce na šířku"
+  ],
+  "schemaNames": [
+    "Včelí plástev v ByteWave",
+    "Od přímořské mřížky k pláži",
+    "Zakřivený západ slunce",
+    "Šestiúhelníky se západem slunce (na výšku)",
+    "Šestiúhelníky se západem slunce (na šířku)"
+  ],
+  "videoDescriptions": [
+    "Sedm šestiúhelníkových buněk ukazuje měsíc, psa a slunnou louku.",
+    "Přímořská kompozice ze šesti panelů následovaná celoplošným klipem psa hrajícího si na pláži.",
+    "Záběry západu slunce nad oceánem ohnuté do zakřivených zrcadlených pásů pomocí Layout od ByteWave.",
+    "Západy slunce a vlny oceánu ve čtyřech šestiúhelníkových panelech na celoplošném pozadí západu slunce v ByteWave.",
+    "Čtyři šestiúhelníkové panely se západy slunce a vlnami oceánu uprostřed širokého pozadí oranžového západu slunce a oceánu."
+  ],
+  "modified": "2026-11-23"
+}

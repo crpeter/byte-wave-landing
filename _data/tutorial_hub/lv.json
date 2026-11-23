@@ -1,0 +1,98 @@
+{
+  "title": "Video montāžas pamācības",
+  "description": "Īsas ByteWave pamācības par video kolāžām, animētiem subtitriem, teksta efektiem, kustīgām uzlīmēm, kustības izpludinājumu un Content Credentials pārbaudi.",
+  "intro": "Izveido izkārtojumu, pievieno subtitrus, animē uzlīmes vai pārbaudi failu. Īsas ByteWave rīku pamācības.",
+  "action": "Skatīt pamācību",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "ByteWave Layout",
+      "description": "Kārto klipus citu virs cita, veido režģus un izmēģini jaunas formas.",
+      "format": "Trīs video piemēri",
+      "alt": "Šūnveida izkārtojums ar Mēness un suņa ierakstiem"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Pievieno animētus subtitrus",
+      "description": "Tavi vārdi tavā video.",
+      "format": "Rakstiska pamācība",
+      "alt": "Pievieno animētus subtitrus."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Izvēlies subtitru teksta efektus",
+      "description": "Orbital Letters, Supernova, Ember Ash un citi.",
+      "format": "Rakstiska pamācība",
+      "alt": "Subtitru teksta efekti."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importē savus fontus",
+      "description": "Izmanto TTF un OTF fontus video subtitros.",
+      "format": "Rakstiska pamācība",
+      "alt": "Tavi fonti. Tavs video. Importē TTF un OTF fontus ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animē uzlīmes ar atslēgkadriem",
+      "description": "Pozīcija, izmērs, rotācija un atslēgkadri.",
+      "format": "Rakstiska pamācība",
+      "alt": "Liec uzlīmēm kustēties."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Pievieno video kustības izpludinājumu",
+      "description": "Salīdzini rezultātu blakus skatā, atrodi redaktorā Kustības izpludinājumu un pielāgo tā stiprumu savam klipam.",
+      "format": "iPhone · 20 sekunžu salīdzinājums",
+      "alt": "Ostas video salīdzinājums: oriģināls pa kreisi, ByteWave kustības izpludinājums pa labi.",
+      "left": "Oriģināls",
+      "right": "ByteWave kustības izpludinājums"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Kadru ātruma pārveidošana palēninājumam",
+      "description": "Salīdzini kolibri klipu 0,1× ātrumā un apskati, kā kadru ātruma pārveidošana maina palēninātu kustību.",
+      "format": "iPhone · 30 sekunžu salīdzinājums",
+      "alt": "Kolibri salīdzinājums: parasts 0,1× palēninājums pa kreisi, ByteWave kadru ātruma pārveidošana pa labi.",
+      "left": "Parasts palēninājums · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Temporālā trokšņu samazināšana",
+      "description": "Salīdzini trokšņus un smalkās detaļas Apple parauga ierakstā un uzzini, kam pievērst uzmanību savos klipos.",
+      "format": "iPhone · 8 sekunžu salīdzinājums",
+      "alt": "Apple paraugs ar sarkanām lapām: oriģināls pa kreisi, ByteWave temporālā trokšņu samazināšana pa labi.",
+      "left": "Oriģināls",
+      "right": "ByteWave trokšņu samazināšana"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Pārbaudi C2PA Content Credentials",
+      "description": "Atver izcelsmes atzīmi un uzzini, ko nozīmē pārbaudīti MI ģenerēšanas paziņojumi, metadatu novērtējumi un pierādījumu trūkums.",
+      "format": "Fotoattēli un video · Rakstiska pamācība",
+      "alt": "Pārbaudi Content Credentials ByteWave: fotoattēlu un video izcelsmes pamācība."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Noņem atrašanās vietas metadatus",
+      "description": "Pārbaudi video darba kopiju, noņem rediģējamos laukus un pirms kopīgošanas pārbaudi, kas paliek.",
+      "format": "Privātums · Rakstiska pamācība",
+      "alt": "Zini vairāk. Kopīgo mazāk. Pirms video kopīgošanas pārbaudi un noņem rediģējamos metadatus."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Tulko video subtitrus",
+      "description": "Pārtulko automātiskos subtitrus citā atbalstītā valodā, salīdzini ar oriģinālu un pārbaudi rezultātu pirms eksporta.",
+      "format": "iPhone un iPad · Rakstiska pamācība",
+      "alt": "Tulko video subtitrus. Pārtulko automātiskos subtitrus citā atbalstītā valodā, salīdzini ar oriģinālu un pārbaudi rezultātu pirms eksporta."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Liec efektiem reaģēt uz mūziku",
+      "description": "Izvēlies Audio filtru, salīdzini animētas ģeometrijas priekšiestatījumus un pārbaudi reakciju klusās un skaļākās vietās.",
+      "format": "iPhone un iPad · Rakstiska pamācība",
+      "alt": "Liec efektiem reaģēt uz mūziku. Izvēlies Audio filtru, salīdzini animētas ģeometrijas priekšiestatījumus un pārbaudi reakciju klusās un skaļākās vietās."
+    }
+  ]
+}

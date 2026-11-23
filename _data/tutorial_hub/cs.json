@@ -1,0 +1,98 @@
+{
+  "title": "Návody na střih videa",
+  "description": "Krátké návody ByteWave na videokoláže, animované titulky, textové efekty, pohyblivé samolepky, rozmazání pohybu a kontrolu Content Credentials.",
+  "intro": "Vytvořte kompozici, přidejte titulky, animujte samolepky nebo zkontrolujte soubor. Krátké návody k nástrojům ByteWave.",
+  "action": "Zobrazit návod",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout od ByteWave",
+      "description": "Vrstvěte klipy, tvořte mřížky a zkoušejte nové tvary.",
+      "format": "Tři videoukázky",
+      "alt": "Kompozice včelí plástve se záběry měsíce a psa"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Přidat animované titulky",
+      "description": "Vaše slova ve vašem videu.",
+      "format": "Psaný návod",
+      "alt": "Přidání animovaných titulků."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Vybrat textové efekty titulků",
+      "description": "Orbital Letters, Supernova, Ember Ash a další.",
+      "format": "Psaný návod",
+      "alt": "Textové efekty titulků."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importovat vlastní písma",
+      "description": "Používejte v titulcích videa písma TTF a OTF.",
+      "format": "Psaný návod",
+      "alt": "Vaše písma. Vaše video. Importujte písma TTF a OTF do ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animovat samolepky pomocí klíčových snímků",
+      "description": "Poloha, velikost, otočení a klíčové snímky.",
+      "format": "Psaný návod",
+      "alt": "Rozhýbejte samolepky."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Přidat do videa rozmazání pohybu",
+      "description": "Porovnejte výsledky vedle sebe, najděte v editoru Rozmazání pohybu a nastavte intenzitu pro svůj klip.",
+      "format": "iPhone · 20sekundové srovnání",
+      "alt": "Srovnání videa přístavu: originál vlevo, rozmazání pohybu ByteWave vpravo.",
+      "left": "Originál",
+      "right": "Rozmazání pohybu ByteWave"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Převod snímkové frekvence pro zpomalené záběry",
+      "description": "Porovnejte klip kolibříka při rychlosti 0.1× a sledujte, jak převod snímkové frekvence mění zpomalený pohyb.",
+      "format": "iPhone · 30sekundové srovnání",
+      "alt": "Srovnání kolibříka: běžné zpomalení 0.1× vlevo, převod snímkové frekvence ByteWave vpravo.",
+      "left": "Běžné zpomalení · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Časové potlačení šumu",
+      "description": "Porovnejte šum a jemné detaily v ukázkových záběrech Apple a zjistěte, na co se zaměřit ve vlastních klipech.",
+      "format": "iPhone · 8sekundové srovnání",
+      "alt": "Ukázka Apple s červeným listím: originál vlevo, časové potlačení šumu ByteWave vpravo.",
+      "left": "Originál",
+      "right": "Potlačení šumu ByteWave"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Zkontrolovat C2PA Content Credentials",
+      "description": "Otevřete odznak původu a zjistěte, co znamenají ověřená prohlášení o generování AI, posouzení metadat a chybějící důkazy.",
+      "format": "Fotky a videa · Psaný návod",
+      "alt": "Kontrola Content Credentials v ByteWave: návod k původu fotek a videí."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Odstranit metadata polohy",
+      "description": "Prohlédněte pracovní kopii videa, odstraňte upravitelná pole a před sdílením ověřte, co zůstalo.",
+      "format": "Soukromí · Psaný návod",
+      "alt": "Vědět více. Sdílet méně. Před sdílením videa zkontrolujte a odstraňte upravitelná metadata."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Přeložit titulky videa",
+      "description": "Přeložte automatické titulky do jiného podporovaného jazyka, porovnejte originál a před exportem zkontrolujte výsledek.",
+      "format": "iPhone a iPad · Psaný návod",
+      "alt": "Překlad titulků videa. Přeložte automatické titulky do jiného podporovaného jazyka, porovnejte originál a před exportem zkontrolujte výsledek."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Nechte efekty reagovat na hudbu",
+      "description": "Vyberte filtr Zvuk, porovnejte předvolby animované geometrie a ověřte reakci v tichých i hlasitějších pasážích.",
+      "format": "iPhone a iPad · Psaný návod",
+      "alt": "Efekty reagující na hudbu. Vyberte filtr Zvuk, porovnejte předvolby animované geometrie a ověřte reakci v tichých i hlasitějších pasážích."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave pamācība",
+    "updatedLabel": "Atjaunināts",
+    "updatedDate": "2026. gada 23. novembris",
+    "relatedLabel": "Saistītās pamācības"
+  },
+  "animatedCaptions": {
+    "title": "Kā pievienot animētus subtitrus ByteWave",
+    "description": "Pievieno video tekstu, izvēlies animētu efektu un novieto subtitrus ByteWave. Īsa pamācība iPhone, iPad un Mac.",
+    "lead": "Pievieno video savu tekstu un piešķir tam animētu efektu.",
+    "stepsHeading": "Pievieno subtitrus",
+    "step1": "Atver savu video ByteWave un pievieno subtitrus.",
+    "step2": "Ievadi tekstu, pēc tam atlasi subtitrus, lai rediģētu to stilu.",
+    "step3": "Izvēlies fontu, izmēru un krāsu. Novieto tekstu virs video.",
+    "step4": "Izvēlies teksta efektu un atskaņo video, lai priekšskatītu animāciju.",
+    "readabilityHeading": "Saglabā tekstu salasāmu",
+    "readabilityText": "Izmanto īsu frāzi un krāsu, kas izceļas uz ieraksta fona. Pārbaudi, vai animācija atstāj pietiekami daudz laika lasīšanai.",
+    "relatedIntro": "Meklē konkrētu izskatu? Mūsu",
+    "relatedAnchor": "subtitru efektu pamācība",
+    "relatedTail": "aptver tādus priekšiestatījumus kā Orbital Letters un Ember Ash.",
+    "relatedSticker": "Animē uzlīmi"
+  },
+  "animateStickers": {
+    "title": "Kā animēt uzlīmes ByteWave",
+    "description": "Liec uzlīmei kustēties pāri video ByteWave. Izmanto laika iestatījumus un atslēgkadrus, lai mainītu pozīciju, izmēru un rotāciju.",
+    "lead": "Izmanto atslēgkadrus, lai laika gaitā pārvietotu uzlīmi, mainītu tās izmēru vai pagrieztu to.",
+    "stepsHeading": "Iestati kustību",
+    "step1": "Pievieno video uzlīmi un atlasi to.",
+    "step2": "Ar laika vadīklām iestati, kad tā parādās.",
+    "step3": "Ar atslēgkadru vadīklām saglabā sākuma pozīciju, izmēru un rotāciju.",
+    "step4": "Pārej uz vēlāku laiku un iestati vēl vienu atslēgkadru ar citu pozīciju, izmēru vai rotāciju.",
+    "step5": "Atskaņo video, lai priekšskatītu kustību starp tiem.",
+    "readabilityHeading": "Sāc ar diviem atslēgkadriem",
+    "readabilityText": "Mēģini pārvietot uzlīmi no vienas kadra malas uz otru. Kad tas izskatās pareizi, pievieno izmēra maiņu vai rotāciju.",
+    "relatedCaption": "Pievieno animētus subtitrus",
+    "relatedLayout": "Izveido video kolāžu"
+  }
+}

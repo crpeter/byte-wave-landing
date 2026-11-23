@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Mafunzo ya ByteWave",
+    "updatedLabel": "Imesasishwa",
+    "updatedDate": "23 Novemba 2026",
+    "relatedLabel": "Miongozo inayohusiana"
+  },
+  "captionEffects": {
+    "title": "Madoido ya Maandishi ya Manukuu katika ByteWave",
+    "description": "Chagua madoido ya maandishi ya manukuu katika ByteWave, hakiki uhuishaji wake na ulinganishe Orbital Letters, Supernova na Ember Ash.",
+    "lead": "Jaribu madoido kwa maneno yako. Yahakiki juu ya video yako kabla ya kuhifadhi.",
+    "stepsHeading": "Chagua madoido",
+    "step1": "Chagua manukuu katika mradi wako wa ByteWave.",
+    "step2": "Fungua madoido yake ya maandishi na uchague mpangilio uliowekwa.",
+    "step3": "Cheza video yako kuona madoido yakisogea.",
+    "presetsHeading": "Matatu ya kujaribu",
+    "tip": "Jaribu sentensi ileile fupi kwa kila madoido. Rekebisha fonti, ukubwa na rangi ili ziendane na video yako.",
+    "fromScratch": "Unaanzia mwanzo?",
+    "firstCaption": "Ongeza manukuu yako ya kwanza",
+    "fontsPrompt": "Unataka sura tofauti ya herufi?",
+    "importFont": "Ingiza fonti yako mwenyewe",
+    "relatedSticker": "Huisha kibandiko"
+  },
+  "customFonts": {
+    "title": "Fonti Zako Hazipaswi Kuhitaji Usajili.",
+    "description": "Ingiza fonti zako za TTF au OTF katika ByteWave kwenye iPhone. Chagua faili na utumie Fonti Zangu kupamba manukuu bila malipo.",
+    "lead": "Leta fonti yako kwenye video yako. Uingizaji wa fonti katika ByteWave ni bure.",
+    "stepsHeading": "Ingiza fonti kwenye iPhone",
+    "step1": "Hifadhi fonti ya TrueType (.ttf) au OpenType (.otf) katika programu ya Files. Fungua jalada lolote la ZIP kwanza.",
+    "step2": "Chagua manukuu katika mradi wako wa ByteWave na ufungue paneli yake ya Fonti.",
+    "step3": "Gusa Ingiza fonti na uchague faili.",
+    "step4": "Itazame chini ya Fonti Zangu. Gusa fonti kuitumia kwenye manukuu yako.",
+    "preview": "Cheza video kukagua maandishi, rekebisha ukubwa na rangi yake, kisha uhifadhi.",
+    "unsupportedHeading": "Faili haichaguliki?",
+    "unsupported": "Chagua faili halisi ya .ttf au .otf. Kiingizaji hiki hakitumii fonti za wavuti kama .woff na .woff2.",
+    "startPrompt": "Unaanza na mradi tupu?",
+    "firstCaption": "Ongeza manukuu yako ya kwanza",
+    "effectsPrompt": "Kisha jaribu",
+    "effectsLink": "madoido ya maandishi ya manukuu",
+    "license": "ByteWave haitozi kwa kuingiza fonti. Fonti yenyewe inaweza kuwa na bei na leseni yake; kagua masharti ya mtengenezaji kwa matumizi yako."
+  }
+}

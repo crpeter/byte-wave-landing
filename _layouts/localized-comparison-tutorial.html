@@ -1,3 +1,4 @@
+{%- assign tutorials_page = site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign locale_data = site.data.comparison_tutorials[page.lang] -%}
 {%- assign c = locale_data.common -%}
@@ -28,7 +29,7 @@
   {%- assign video_height = 720 -%}
 {%- endif -%}
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -90,10 +91,10 @@
    "author":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/about.html"},
    "publisher":{"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":{"@type":"ImageObject","url":"https://bytewaveai.com/logo.png"}},
    "image":{{ page.social_image | absolute_url | jsonify }},
-   "isPartOf":{"@type":"CollectionPage","name":"ByteWave Tutorials","url":"https://bytewaveai.com/tutorials/"}},
+   "isPartOf":{"@type":"CollectionPage","name":{{ t.nav.tutorials | jsonify }},"url":{{ tutorials_page.url | absolute_url | jsonify }}}},
   {"@type":"BreadcrumbList","itemListElement":[
    {"@type":"ListItem","position":1,"name":{{ t.nav.home | jsonify }},"item":{{ home.url | absolute_url | jsonify }}},
-   {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":"https://bytewaveai.com/tutorials/"},
+   {"@type":"ListItem","position":2,"name":{{ t.nav.tutorials | jsonify }},"item":{{ tutorials_page.url | absolute_url | jsonify }}},
    {"@type":"ListItem","position":3,"name":{{ g.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
   ]}
  ]
@@ -108,7 +109,7 @@
 <main id="main"><article>
   <p class="eyebrow"><a href="{{ site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | map: 'url' | first | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a> / {{ g.title | escape }}</p>
   <h1>{{ g.title | escape }}</h1>
-  <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | relative_url }}">ByteWave</a> · {{ site.data.creation_tutorials[page.lang].common.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ site.data.creation_tutorials[page.lang].common.updatedDate | escape }}</time></p>
+  <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | default: '/about.html' | relative_url }}">ByteWave</a> · {{ site.data.creation_tutorials[page.lang].common.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ site.data.creation_tutorials[page.lang].common.updatedDate | escape }}</time></p>
   <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ t.disclosure.review | escape }}</p>
   <p>{{ g.intro | escape }}</p>
   <p class="quick-links">
@@ -145,7 +146,7 @@
     <h2>{{ g.differenceTitle | escape }}</h2>
     <p>{{ g.differenceText | escape }} <a href="{{ frc_page.url | relative_url }}">{{ g.frcLink | escape }}</a>.</p>
     <h2>{{ g.freeTitle | escape }}</h2>
-    <p>{{ g.privacyText | escape }} <a href="{{ privacy_page.url | relative_url }}">{{ g.privacyLink | escape }}</a>.</p>
+    <p>{{ g.privacyText | escape }} <a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ g.privacyLink | escape }}</a>.</p>
   {% elsif page.guide == 'frameRate' %}
     <h2 id="settings">{{ g.stepsTitle | escape }}</h2>
     <ol class="steps"><li>{{ g.step1 | escape }}</li><li>{{ g.step2 | escape }}</li><li>{{ g.step3 | escape }}</li></ol>

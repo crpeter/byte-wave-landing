@@ -1,0 +1,231 @@
+{
+  "name": "Shqip",
+  "nav": {
+    "skip": "Kalo te përmbajtja",
+    "label": "Navigimi kryesor",
+    "menu": "Menyja",
+    "home": "Kryefaqja",
+    "features": "Veçoritë",
+    "compare": "Krahaso",
+    "gallery": "Galeria",
+    "tutorials": "Udhëzuesit",
+    "blog": "Blogu",
+    "about": "Rreth nesh",
+    "privacy": "Privatësia",
+    "press": "Për median",
+    "expression": "Shprehja e lirë",
+    "download": "Shkarko falas"
+  },
+  "footer": {
+    "motto": "Redaktimi i videove duhet të jetë falas.",
+    "devices": "iPhone me iOS 26 ose më të ri · iPad me iPadOS 26 ose më të ri · Mac me macOS 26 ose më të ri dhe Apple M1 ose më të ri."
+  },
+  "get_free": "Merr ByteWave falas",
+  "social_alt": "Pamje paraprake e ByteWave për rrjetet sociale",
+  "disclosure": {
+    "label": "Njoftim për inteligjencën artificiale:",
+    "text": "Ky artikull përfshin tekst të gjeneruar me një model gjuhësor të inteligjencës artificiale (LLM).",
+    "by": "Nga",
+    "review": "Pretendimet për produktin u shqyrtuan nga ByteWave; krahasimet pasqyrojnë interesin tregtar të ByteWave dhe nuk janë vlerësime të pavarura."
+  },
+  "player": {
+    "play": "Luaj videon",
+    "replay": "Luaj videon sërish",
+    "retry": "Provo videon sërish",
+    "tap": "Prek për të luajtur videon",
+    "tap_hint": "Prek butonin e luajtjes për të nisur videon.",
+    "loading": "Duke ngarkuar videon…",
+    "fallback": "Duke provuar videon e pajtueshme…",
+    "failed": "Videoja nuk u ngarkua. Provo sërish ose hap lidhjen e videos më poshtë."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Redaktues videosh falas me GPU për iPhone, iPad dhe Mac",
+      "description": "Redakto xhirimet e tua me ByteWave, redaktues falas videosh për iPhone, iPad dhe Mac. Pa filigranë apo abonime. Redaktim lokal, titra, efekte dhe audio.",
+      "keywords": "redaktues videosh falas, redaktues videosh pa filigran, alternativë e capcut, redaktues videosh ios, shader metal, redaktues videosh gpu, redaktues videosh pa abonim, redaktues videosh me privatësi, redaktues videosh falas iphone",
+      "social_title": "ByteWave - Redaktues videosh falas për iPhone, iPad dhe Mac",
+      "og_description": "Xhirimet e tua. Zgjedhjet e tua krijuese. Redaktim lokal falas për iPhone, iPad dhe Mac, pa filigranë apo abonime.",
+      "twitter_description": "Redakto xhirimet e tua. Pa filigranë apo abonime. Redaktim lokal videosh me ndarje sipas dëshirës.",
+      "logo_alt": "Logoja e ByteWave"
+    },
+    "schema": {
+      "description": "Redaktues falas videosh për iPhone, iPad dhe Mac. Redakto xhirimet e tua me renderim lokal, audio me shtresa dhe efekte të mundësuara nga Metal. Pa filigranë apo abonime; ndarja në internet është sipas dëshirës.",
+      "features": "Redaktues shaderësh Metal të personalizuar, rritje e rezolucionit, turbullim lëvizjeje, ulje kohore e zhurmës, filtra të komunitetit, pista audio pa kufi, përpunim në pajisje, lexim i kredencialeve të përmbajtjes C2PA, deklarime të verifikuara të gjenerimit me AI, prejardhje kriptografike e videos"
+    },
+    "hero": {
+      "tag": "ByteWave · Redaktues videosh falas",
+      "opening": "Krijo diçka",
+      "emphasis": "të vërtetë,",
+      "ending": "jo thjesht një reel.",
+      "edit": "Redakto xhirimet e tua. Lokalisht në pajisje.",
+      "platforms": "Redaktues falas videosh për iPhone, iPad dhe Mac.",
+      "examples": "Shiko çfarë mund të krijosh ↓",
+      "no_watermarks": "Pa abonime. Pa filigranë në eksport.",
+      "devices": "iOS / iPadOS 26 ose më i ri. Mac: macOS 26 ose më i ri, M1 ose më i ri.",
+      "play_background": "Luaj videon e sfondit",
+      "pause_background": "Ndalo përkohësisht videon e sfondit"
+    },
+    "download": "Shkarko ByteWave",
+    "showcase": {
+      "tag": "Nis me atë që ke xhiruar",
+      "footage": "Xhirimet e tua.",
+      "edit": "Montazhi yt.",
+      "intro": "Sill fotografitë dhe videot e tua. Pjesës tjetër jepi stilin tënd.",
+      "layout": "Layout nga ByteWave",
+      "layout_desc": "Bashko fotografi dhe video në një kompozim.",
+      "effects": "Filtra, efekte dhe",
+      "captions": "titra të animuar",
+      "captions_desc": "Gjej stilin tënd. Shto fjalët e tua.",
+      "audio": "Mjete audio",
+      "audio_desc": "Vendos pista në shtresa dhe formo tingullin e videos sate.",
+      "gallery": "Shiko video të krijuara me ByteWave →",
+      "editor_alt": "Redaktuesi ByteWave që shfaq një xhirim perëndimi dhe mjetet e redaktimit në pajisje",
+      "layout_alt": "Layout nga ByteWave që bashkon gjashtë fotografi dhe video të oqeanit në një kompozim"
+    },
+    "credentials": {
+      "tag": "Fotografi, video dhe AI",
+      "title": "A është krijuar kjo me AI?",
+      "check": "Kontrollo një fotografi ose video.",
+      "check_desc": "ByteWave lexon kredencialet e mbështetura të përmbajtjes C2PA, përfshirë etiketat e nënshkruara që identifikojnë përmbajtjen e gjeneruar me AI. Kontrolli kryhet në pajisjen tënde.",
+      "how": "Si të kontrollosh një skedar →",
+      "signed": "Eksportet e tua nënshkruhen.",
+      "signed_desc": "Çdo eksport përmes Ruaj te Fotografitë merr një vulë prejardhjeje ByteWave me nënshkrim digjital. Ajo ndihmon të tregohet se skedari erdhi nga ByteWave dhe nëse ka ndryshuar që nga nënshkrimi.",
+      "signed_link": "Si funksionojnë eksportet e nënshkruara →",
+      "caveat": "Nuk ka kredenciale? Kjo nuk do të thotë i vërtetë apo i rremë. Një nënshkrim nuk mund të provojë se një skenë ka ndodhur.",
+      "newsrooms": "Po kontrollon xhirime për një lajm? Fillo këtu →"
+    },
+    "geese": {
+      "tag": "Çdo mjet redaktimi. Falas.",
+      "opening": "Të lira si",
+      "emphasis": "patat.",
+      "desc": "Pa abonime. Pa filigranë në eksport. Nuk kërkohet llogari për redaktim lokal.",
+      "fallback": "Hap kopjen e pajtueshme",
+      "caption": "Pata që lëvizin në ujë të rrjedhshëm, me mbishkrimin “Free as in geese” në ekran.",
+      "alt": "Të lira si patat: pamje paraprake e aplikacionit ByteWave"
+    },
+    "privacy": {
+      "title": "Videot e tua mbeten në pajisjen tënde",
+      "intro": "Fillo me çastet që ke regjistruar. Shkurto klipet, formo tingullin dhe zgjidhi vetë efektet. ByteWave e mban redaktimin dhe renderimin në pajisjen tënde Apple të mbështetur.",
+      "local": "ByteWave e përpunon redaktimin lokalisht në pajisjen tënde Apple.",
+      "sharing": "Nuk kërkohet llogari për redaktim lokal dhe videot e tua nuk ngarkohen në internet, përveçse kur zgjedh shprehimisht t'i publikosh ose ndash përmes një veçorie në internet.",
+      "stamp": "Çdo eksport përmes Ruaj te Fotografitë nënshkruhet kriptografikisht me metadata prejardhjeje ByteWave, për të ndihmuar verifikimin e origjinës nga ByteWave dhe të ndryshimeve pas nënshkrimit. Një nënshkrim nuk mund të provojë se ngjarja e paraqitur ka ndodhur.",
+      "stamp_link": "Mëso çfarë vërtetojnë eksportet e nënshkruara.",
+      "guide": "Si të redaktosh pa ngarkuar xhirimet në internet"
+    },
+    "creative": {
+      "title": "Je lodhur nga videot me AI që pushtojnë furnizimin tënd?",
+      "intro": "Nëse Facebook apo TikTok duken të mbushur me klipe të gjeneruara, ose veçoritë AI të CapCut nuk janë ato me të cilat dëshiron të redaktosh, mund të nisësh me xhirimet e tua.",
+      "choice": "Regjistrimet e tua, montazhet e tua, zgjedhja jote për t'i ndarë.",
+      "tools": "ByteWave të jep mjete për të punuar me atë që ke xhiruar: titra të animuar, filtra të personalizuar, lëvizje të ngadalësuar dhe audio me shtresa. Veçori ndihmëse si rritja e rezolucionit janë të disponueshme; nuk duhet të gjenerosh një skenë nga një udhëzim tekstual për të redaktuar një video.",
+      "feed": "Shfleto në mënyrë anonime furnizimin publik të ByteWave, me personalizim sipas dëshirës të llogaritur në pajisjen tënde dhe pa histori shikimi në server.",
+      "feed_link": "Shiko si funksionon furnizimi.",
+      "facebook": "Si të pakësosh videot me AI në furnizimin tënd në Facebook",
+      "tiktok": "Si të shohësh më pak përmbajtje AI në TikTok",
+      "real": "Përmbajtja e dobët AI, xhirimet reale dhe rimarrja e kontrollit krijues",
+      "capcut": "Një alternativë falas e CapCut për redaktimin e xhirimeve të tua",
+      "gallery": "Shiko video të krijuara me ByteWave",
+      "or": "ose",
+      "tutorial": "provo udhëzuesin për turbullimin e lëvizjes.",
+      "download": "Redakto xhirimet e tua falas"
+    },
+    "compare": {
+      "title": "ByteWave kundrejt CapCut",
+      "intro": "Mjetet e redaktimit të ByteWave janë falas. CapCut disa prej të njëjtave mjete i vendos në plane me pagesë.",
+      "feature": "Veçoria",
+      "price": "Çmimi",
+      "free": "$0",
+      "plans": "Plane falas dhe me pagesë",
+      "watermarks": "Filigranët",
+      "none": "Pa filigran ByteWave",
+      "varies": "Varet nga mjeti dhe eksporti",
+      "editing": "Redaktimi",
+      "offline": "Në pajisje; nuk kërkohet llogari",
+      "cloud": "Mjete lokale dhe në re",
+      "data": "Trajtimi i të dhënave",
+      "no_tracking": "Pa gjurmim sjelljeje; llogaritë dhe publikimi janë sipas dëshirës",
+      "policy": "Shiko politikën e privatësisë së CapCut",
+      "provenance": "Prejardhja e videos",
+      "stamp": "Vulë ByteWave gjatë ruajtjes te Fotografitë",
+      "export_options": "Kontrollo opsionet aktuale të eksportit",
+      "slow_motion": "Lëvizje e ngadalësuar",
+      "included": "Përfshihet",
+      "optical": "Rrjedhë optike: provë falas",
+      "motion": "Turbullimi i lëvizjes",
+      "pro_motion": "Listohet në Pro*",
+      "noise": "Ulja e zhurmës në video",
+      "pro": "Plani Pro",
+      "desktop": "Kompjuter",
+      "upscale": "Rritje rezolucioni me AI",
+      "device": "Në pajisje",
+      "paid": "Abonim me pagesë",
+      "mobile": "Përmirësim AI në celular",
+      "tracks": "Pista audio",
+      "unlimited": "Pa kufi pistash",
+      "limits": "Kontrollo kufijtë e platformës",
+      "tts": "Tekst në të folur",
+      "voices": "Zëra falas; zërat premium përdorin kredite",
+      "captions": "Titra automatikë",
+      "pro_captions": "Pro për qasje të plotë",
+      "code": "Kod burimor i redaktueshëm i filtrave",
+      "metal": "Përfshihet kodi burimor i shaderëve Metal",
+      "filter_tools": "Kontrollo mjetet aktuale të filtrave",
+      "community": "Filtra të komunitetit",
+      "shared": "Shaderë të ndarë dhe të redaktueshëm",
+      "effects": "Efekte dhe modele falas + Pro",
+      "subject": "Izolim i subjektit për filtra",
+      "masks": "Mjete maskimi dhe prerjeje",
+      "note": "Kontrolluar më 18 tetor 2026. Pro është abonim me pagesë. *CapCut e liston turbullimin e lëvizjes në Pro, por reklamon edhe versione falas. Qasja ndryshon sipas platformës, rajonit dhe ofertës.",
+      "full": "Krahasimi i plotë"
+    },
+    "features": {
+      "title": "Çfarë merr",
+      "items": [
+        {
+          "title": "Kontrolle C2PA dhe prejardhja e videos",
+          "body": "Kontrollo fotografitë dhe videot për kredenciale të mbështetura të përmbajtjes, përfshirë etiketat e gjenerimit me AI. Çdo eksport përmes Ruaj te Fotografitë merr edhe një vulë ByteWave që ndihmon të identifikohen ndryshimet e mëvonshme."
+        },
+        {
+          "title": "Lëvizje e ngadalësuar dhe turbullim lëvizjeje",
+          "body": "Bëje videon e ngadalësuar më të rrjedhshme me FRC. Turbullimi i lëvizjes dhe ulja kohore e zhurmës përpunohen gjithashtu lokalisht në pajisjen tënde para pamjes paraprake."
+        },
+        {
+          "title": "Rritje rezolucioni me AI",
+          "body": "Rrit rezolucionin në pajisje. Pa përpunim në re, pa pritur një server."
+        },
+        {
+          "title": "Pista audio pa kufi",
+          "body": "Vendos sa klipe audio të duhen në shtresa në një vijë kohore vizuale. Efekte zanore të integruara. Pa kufi pistash."
+        },
+        {
+          "title": "Tekst në të folur",
+          "body": "Shkruaj tekst për sintezë zanore ose gjenero titra në pajisjen tënde. Etiketimi automatik sipas dëshirës i ndihmon të tjerët të zbulojnë videot e ndara dhe kërkon llogari e pëlqim."
+        },
+        {
+          "title": "Efekte teksti",
+          "body": "Shkëlqim, glitch, neon e të tjera. Tekst i animuar që nuk kërkon përvojë në grafikë lëvizëse."
+        },
+        {
+          "title": "Izolimi i subjektit",
+          "body": "Ndaj subjektet nga sfondi dhe zbato filtra të veçantë për secilin. Turbullo sfondin, mbaje subjektin të qartë; me një prekje."
+        },
+        {
+          "title": "Filtra të personalizuar me kod burimor",
+          "body": "Çdo filtër të tregon kodin e shaderit pas tij. Redaktoje drejtpërdrejt ose kopjo kodin dhe kërkoji ChatGPT të krijojë diçka të re."
+        },
+        {
+          "title": "Filtra të komunitetit",
+          "body": "Publiko filtrat që ke krijuar. Shfleto dhe merr filtra nga krijues të tjerë. Një prekje për t'i shtuar në bibliotekë."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtra që mund t'i redaktosh vërtet",
+      "desc": "Shumica e redaktuesve e fshehin mënyrën si funksionojnë filtrat. ByteWave të tregon kodin. Ndryshoje, mëso prej tij ose kopjoje dhe përshkruaji një AI-je çfarë dëshiron; ngjite rezultatin përsëri.",
+      "comment": "// Sfond impresionist, subjekt i qartë"
+    },
+    "cta": {
+      "desc": "Redakto pa internet. Nuk kërkohet llogari. Ngarko vetëm kur zgjedh të publikosh.",
+      "apple": "Shkarko për Apple"
+    }
+  }
+}

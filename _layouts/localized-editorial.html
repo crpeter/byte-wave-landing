@@ -6,6 +6,9 @@
 {%- assign description = page.description | default: card.summary -%}
 {%- assign section_tag = page.section_tag | default: 'opinion' -%}
 {%- assign section = b.tags[section_tag] -%}
+{%- if page.collection_key == 'tutorials' -%}
+  {%- assign section = t.nav.tutorials -%}
+{%- endif -%}
 {%- assign image = '/assets/social/' | append: page.translation_key | append: '.jpg' -%}
 {%- assign image = page.social_image | default: image | absolute_url -%}
 {%- assign url = page.url | absolute_url -%}
@@ -23,7 +26,7 @@
 {%- endif -%}
 {%- assign about = local_pages | where: 'translation_key', 'about' | first -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,7 +75,7 @@ table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;ma
       "inLanguage": {{ page.lang | jsonify }},
       "datePublished": {{ page.published_on | jsonify }},
       "dateModified": {{ page.updated_on | jsonify }},
-      "author": {"@type":"Organization","name":"ByteWave","url":{{ about.url | absolute_url | jsonify }}},
+      "author": {"@type":"Organization","name":"ByteWave","url":{{ about.url | default: '/about.html' | absolute_url | jsonify }}},
       "publisher": {"@type":"Organization","name":"ByteWave","url":"https://bytewaveai.com/","logo":{"@type":"ImageObject","url":"https://bytewaveai.com/logo.png"}},
       "image": {{ image | jsonify }},
       "isPartOf": {"@type":{{ collection_type | jsonify }},"name":{{ collection_label | prepend: 'ByteWave ' | jsonify }},"url":{{ collection_page.url | absolute_url | jsonify }}}
@@ -101,7 +104,7 @@ table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;ma
 <img src="{{ page.article_logo | relative_url }}" width="{{ page.article_logo_width }}" height="{{ page.article_logo_height }}" alt="{{ page.article_logo_alt | escape }}" decoding="async" style="object-fit:contain;padding:10px;border-radius:12px;background:#f8f4ec;max-width:100%;margin:0.4rem 0 1rem">
 {% endif %}
 <h1>{{ title | escape }}</h1>
-<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time>{% if page.source_updated_on %} · {{ page.updated_label | escape }} <time datetime="{{ page.source_updated_on }}">{{ page.display_source_update | escape }}</time>{% endif %}{% if page.sources_checked_on %} · {{ page.sources_checked_label | escape }} <time datetime="{{ page.sources_checked_on }}">{{ page.display_sources_check | escape }}</time>{% endif %}{% if page.reading_time %} · {{ page.reading_time | escape }}{% endif %}</p>
+<p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | default: '/about.html' | relative_url }}">ByteWave</a> · {{ page.published_label | escape }} <time datetime="{{ page.published_on }}">{{ page.display_date | escape }}</time>{% if page.source_updated_on %} · {{ page.updated_label | escape }} <time datetime="{{ page.source_updated_on }}">{{ page.display_source_update | escape }}</time>{% endif %}{% if page.sources_checked_on %} · {{ page.sources_checked_label | escape }} <time datetime="{{ page.sources_checked_on }}">{{ page.display_sources_check | escape }}</time>{% endif %}{% if page.reading_time %} · {{ page.reading_time | escape }}{% endif %}</p>
 <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ page.publisher_note | escape }}</p>
 {{ content }}
 {% unless page.show_article_cta == false %}

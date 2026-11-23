@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave pamoka",
+    "updatedLabel": "Atnaujinta",
+    "updatedDate": "2026 m. lapkričio 23 d.",
+    "relatedLabel": "Susiję vadovai"
+  },
+  "animatedCaptions": {
+    "title": "Kaip pridėti animuotus subtitrus ByteWave",
+    "description": "Pridėkite tekstą, pasirinkite animuotą efektą ir nustatykite subtitrų padėtį ByteWave. Trumpas vadovas iPhone, iPad ir Mac.",
+    "lead": "Pridėkite savo tekstą į vaizdo įrašą ir suteikite jam animuotą efektą.",
+    "stepsHeading": "Pridėkite subtitrą",
+    "step1": "Atverkite vaizdo įrašą ByteWave ir pridėkite subtitrą.",
+    "step2": "Įveskite tekstą, tada pasirinkite subtitrą jo stiliui redaguoti.",
+    "step3": "Pasirinkite šriftą, dydį ir spalvą. Nustatykite teksto padėtį virš vaizdo.",
+    "step4": "Pasirinkite teksto efektą ir paleiskite vaizdą animacijai peržiūrėti.",
+    "readabilityHeading": "Išlaikykite įskaitomumą",
+    "readabilityText": "Naudokite trumpą frazę ir nuo vaizdo išsiskiriančią spalvą. Patikrinkite, ar animacija palieka pakankamai laiko perskaityti.",
+    "relatedIntro": "Ieškote konkretaus stiliaus?",
+    "relatedAnchor": "Subtitrų efektų vadove",
+    "relatedTail": "aprašomi ruošiniai, tokie kaip Orbital Letters ir Ember Ash.",
+    "relatedSticker": "Animuokite lipduką"
+  },
+  "animateStickers": {
+    "title": "Kaip animuoti lipdukus ByteWave",
+    "description": "Priverskite lipduką judėti per vaizdo įrašą ByteWave. Laiku ir pagrindiniais kadrais keiskite padėtį, dydį bei pasukimą.",
+    "lead": "Pagrindiniais kadrais judinkite lipduką, keiskite jo dydį ar sukite bėgant laikui.",
+    "stepsHeading": "Nustatykite judėjimą",
+    "step1": "Pridėkite lipduką į vaizdo įrašą ir jį pasirinkite.",
+    "step2": "Laiko valdikliais nustatykite, kada jis pasirodo.",
+    "step3": "Pagrindinių kadrų valdikliais įrašykite pradinę padėtį, dydį ir pasukimą.",
+    "step4": "Pereikite į vėlesnį laiką ir nustatykite kitą pagrindinį kadrą su kitokia padėtimi, dydžiu ar pasukimu.",
+    "step5": "Paleiskite įrašą judėjimui tarp jų peržiūrėti.",
+    "readabilityHeading": "Pradėkite nuo dviejų pagrindinių kadrų",
+    "readabilityText": "Pabandykite perkelti lipduką iš vienos kadro pusės į kitą. Kai rezultatas tiks, pridėkite dydžio keitimą ar pasukimą.",
+    "relatedCaption": "Pridėkite animuotus subtitrus",
+    "relatedLayout": "Sukurkite vaizdo koliažą"
+  }
+}

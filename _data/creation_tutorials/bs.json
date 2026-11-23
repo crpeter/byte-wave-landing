@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave vodič",
+    "updatedLabel": "Ažurirano",
+    "updatedDate": "23. novembar 2026.",
+    "relatedLabel": "Povezani vodiči"
+  },
+  "animatedCaptions": {
+    "title": "Kako dodati animirane titlove u ByteWaveu",
+    "description": "Dodaj tekst u svoj video, odaberi animirani efekat i postavi titl u ByteWaveu. Kratki vodič za iPhone, iPad i Mac.",
+    "lead": "Dodaj vlastiti tekst u video i primijeni animirani efekat.",
+    "stepsHeading": "Dodaj titl",
+    "step1": "Otvori svoj video u ByteWaveu i dodaj titl.",
+    "step2": "Unesi tekst, a zatim odaberi titl da urediš njegov stil.",
+    "step3": "Odaberi font, veličinu i boju. Postavi tekst preko videa.",
+    "step4": "Odaberi tekstualni efekat, a zatim reproduciraj video da pregledaš animaciju.",
+    "readabilityHeading": "Neka ostane čitljivo",
+    "readabilityText": "Koristi kratku frazu i boju koja se ističe na snimci. Provjeri ostavlja li animacija dovoljno vremena za čitanje.",
+    "relatedIntro": "Tražiš određeni izgled? Naš",
+    "relatedAnchor": "vodič za efekte titlova",
+    "relatedTail": "opisuje predloške poput Orbital Letters i Ember Ash.",
+    "relatedSticker": "Animiraj naljepnicu"
+  },
+  "animateStickers": {
+    "title": "Kako animirati naljepnice u ByteWaveu",
+    "description": "Pokreni naljepnicu preko svog videa u ByteWaveu. Koristi vrijeme prikaza i ključne kadrove za promjenu položaja, veličine i rotacije.",
+    "lead": "Pomoću ključnih kadrova pomiči naljepnicu, mijenjaj joj veličinu ili je rotiraj tokom vremena.",
+    "stepsHeading": "Postavi kretanje",
+    "step1": "Dodaj naljepnicu u video i odaberi je.",
+    "step2": "Pomoću kontrola vremena postavi kada se pojavljuje.",
+    "step3": "Kontrolama ključnih kadrova zabilježi početni položaj, veličinu i rotaciju.",
+    "step4": "Pređi na kasnije vrijeme i postavi još jedan ključni kadar s drugačijim položajem, veličinom ili rotacijom.",
+    "step5": "Reproduciraj video da pregledaš kretanje između njih.",
+    "readabilityHeading": "Počni s dva ključna kadra",
+    "readabilityText": "Pokušaj pomaknuti naljepnicu s jedne strane kadra na drugu. Kada to izgleda dobro, dodaj promjenu veličine ili rotaciju.",
+    "relatedCaption": "Dodaj animirane titlove",
+    "relatedLayout": "Napravi video kolaž"
+  }
+}

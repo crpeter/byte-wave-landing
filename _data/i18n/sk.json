@@ -1,0 +1,231 @@
+{
+  "name": "Slovenčina",
+  "nav": {
+    "skip": "Prejsť na obsah",
+    "label": "Hlavná navigácia",
+    "menu": "Ponuka",
+    "home": "Domov",
+    "features": "Funkcie",
+    "compare": "Porovnanie",
+    "gallery": "Galéria",
+    "tutorials": "Návody",
+    "blog": "Blog",
+    "about": "O nás",
+    "privacy": "Súkromie",
+    "press": "Pre médiá",
+    "expression": "Sloboda prejavu",
+    "download": "Stiahnuť zadarmo"
+  },
+  "footer": {
+    "motto": "Strih videa má byť zadarmo.",
+    "devices": "iPhone s iOS 26 alebo novším · iPad s iPadOS 26 alebo novším · Mac s macOS 26 alebo novším a čipom Apple M1 alebo novším."
+  },
+  "get_free": "Získať ByteWave zadarmo",
+  "social_alt": "Náhľad ByteWave pre sociálne siete",
+  "disclosure": {
+    "label": "Informácie o AI:",
+    "text": "Tento článok obsahuje text vytvorený jazykovým modelom umelej inteligencie (LLM).",
+    "by": "Autor:",
+    "review": "Tvrdenia o produkte skontroloval ByteWave; porovnania odrážajú obchodný záujem ByteWave a nie sú nezávislými recenziami."
+  },
+  "player": {
+    "play": "Prehrať video",
+    "replay": "Prehrať video znova",
+    "retry": "Skúsiť video znova",
+    "tap": "Klepnutím prehráte video",
+    "tap_hint": "Video spustíte klepnutím na tlačidlo prehrávania.",
+    "loading": "Načítava sa video…",
+    "fallback": "Skúša sa kompatibilné video…",
+    "failed": "Video sa nepodarilo načítať. Skúste to znova alebo otvorte odkaz na video nižšie."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Bezplatný videoeditor s GPU akceleráciou pre iPhone, iPad a Mac",
+      "description": "Strihajte vlastné zábery v ByteWave, bezplatnom videoeditore pre iPhone, iPad a Mac. Bez vodoznakov a predplatného. Lokálny strih, titulky, efekty a zvuk.",
+      "keywords": "videoeditor zadarmo, videoeditor bez vodoznaku, alternatíva capcut, videoeditor ios, metal shadery, gpu videoeditor, videoeditor bez predplatného, súkromný strih videa, videoeditor zadarmo iphone",
+      "social_title": "ByteWave - Bezplatný videoeditor pre iPhone, iPad a Mac",
+      "og_description": "Vaše zábery. Vaše tvorivé rozhodnutia. Bezplatný lokálny strih videa pre iPhone, iPad a Mac, bez vodoznakov a predplatného.",
+      "twitter_description": "Strihajte vlastné zábery. Bez vodoznakov a predplatného. Lokálny strih videa s voliteľným zdieľaním.",
+      "logo_alt": "Logo ByteWave"
+    },
+    "schema": {
+      "description": "Bezplatný videoeditor pre iPhone, iPad a Mac. Strihajte vlastné zábery s lokálnym vykresľovaním, vrstveným zvukom a efektmi využívajúcimi Metal. Bez vodoznakov a predplatného; online zdieľanie je voliteľné.",
+      "features": "Editor vlastných Metal shaderov, Zvýšenie rozlíšenia, Rozmazanie pohybu, Časové potlačenie šumu, Komunitné filtre, Neobmedzené zvukové stopy, Spracovanie v zariadení, Čítanie C2PA Content Credentials, Overené vyhlásenia o generovaní pomocou AI, Kryptografický pôvod videa"
+    },
+    "hero": {
+      "tag": "ByteWave · Videoeditor zadarmo",
+      "opening": "Vytvorte niečo",
+      "emphasis": "skutočné,",
+      "ending": "nie iba ďalší reel.",
+      "edit": "Strihajte vlastné zábery. Priamo v zariadení.",
+      "platforms": "Bezplatný videoeditor pre iPhone, iPad a Mac.",
+      "examples": "Pozrite sa, čo môžete vytvoriť ↓",
+      "no_watermarks": "Bez predplatného. Bez vodoznakov pri exporte.",
+      "devices": "iOS / iPadOS 26 alebo novší. Mac: macOS 26 alebo novší, M1 alebo novší.",
+      "play_background": "Prehrať video na pozadí",
+      "pause_background": "Pozastaviť video na pozadí"
+    },
+    "download": "Stiahnuť ByteWave",
+    "showcase": {
+      "tag": "Začnite tým, čo ste natočili",
+      "footage": "Vaše zábery.",
+      "edit": "Váš strih.",
+      "intro": "Pridajte svoje fotky a videá. Zvyšok vytvorte po svojom.",
+      "layout": "Layout od ByteWave",
+      "layout_desc": "Spojte fotky a videá do jednej kompozície.",
+      "effects": "Filtre, efekty a",
+      "captions": "animované titulky",
+      "captions_desc": "Nájdite svoj štýl. Doplňte vlastné slová.",
+      "audio": "Zvukové nástroje",
+      "audio_desc": "Vrstvite stopy a formujte zvuk videa.",
+      "gallery": "Sledujte videá vytvorené v ByteWave →",
+      "editor_alt": "Editor ByteWave so zábermi západu slnka a nástrojmi na strih v zariadení",
+      "layout_alt": "Layout od ByteWave spája šesť fotiek a videí oceánu do jednej kompozície"
+    },
+    "credentials": {
+      "tag": "Fotky, videá a AI",
+      "title": "Vzniklo to pomocou AI?",
+      "check": "Skontrolujte fotku alebo video.",
+      "check_desc": "ByteWave číta podporované C2PA Content Credentials vrátane podpísaných označení obsahu vytvoreného AI. Kontrola prebieha vo vašom zariadení.",
+      "how": "Ako skontrolovať súbor →",
+      "signed": "Vaše exporty sú podpísané.",
+      "signed_desc": "Každý export cez Uložiť do Fotiek získa pečiatku pôvodu ByteWave s digitálnym podpisom. Pomáha doložiť, že súbor pochádza z ByteWave a či sa od podpísania zmenil.",
+      "signed_link": "Ako fungujú podpísané exporty →",
+      "caveat": "Chýbajú údaje o pôvode? To neznamená pravé ani falošné. Podpis nedokáže preukázať, že sa scéna odohrala.",
+      "newsrooms": "Overujete zábery pre reportáž? Začnite tu →"
+    },
+    "geese": {
+      "tag": "Každý nástroj na strih. Zadarmo.",
+      "opening": "Slobodné ako",
+      "emphasis": "husi.",
+      "desc": "Bez predplatného. Bez vodoznakov pri exporte. Lokálny strih nevyžaduje účet.",
+      "fallback": "Otvoriť kompatibilnú kópiu",
+      "caption": "Husi plávajúce prúdiacou vodou s nápisom „Free as in geese“ na obrazovke.",
+      "alt": "Slobodné ako husi: ukážka aplikácie ByteWave"
+    },
+    "privacy": {
+      "title": "Vaše videá zostávajú v zariadení",
+      "intro": "Začnite okamihmi, ktoré ste zachytili. Orezávajte klipy, upravujte zvuk a sami si vyberajte efekty. ByteWave vykonáva strih aj vykresľovanie vo vašom podporovanom zariadení Apple.",
+      "local": "ByteWave spracúva úpravy lokálne vo vašom zariadení Apple.",
+      "sharing": "Lokálny strih nevyžaduje účet a vaše videá sa nenahrávajú, pokiaľ si výslovne nezvolíte zverejnenie alebo zdieľanie prostredníctvom online funkcie.",
+      "stamp": "Každý export cez Uložiť do Fotiek je kryptograficky podpísaný metadátami pôvodu ByteWave, ktoré pomáhajú overiť pôvod v ByteWave a prípadné zmeny od podpisu. Podpis nedokáže preukázať, že sa zobrazená udalosť odohrala.",
+      "stamp_link": "Zistite, čo podpísané exporty dokladajú.",
+      "guide": "Ako strihať bez nahrávania záberov"
+    },
+    "creative": {
+      "title": "Už vás unavujú AI videá zaplavujúce váš kanál?",
+      "intro": "Ak je Facebook alebo TikTok plný generovaných klipov alebo vám AI funkcie CapCutu pri strihu nevyhovujú, môžete začať vlastnými zábermi.",
+      "choice": "Vaše nahrávky, vaše úpravy, vaše rozhodnutie zdieľať.",
+      "tools": "ByteWave ponúka nástroje na prácu s tým, čo ste natočili: animované titulky, vlastné filtre, spomalené zábery a vrstvený zvuk. K dispozícii sú pomocné funkcie ako zvýšenie rozlíšenia; na strih videa nepotrebujete generovať scénu z textového zadania.",
+      "feed": "Prezerajte si verejný kanál ByteWave anonymne, s voliteľným prispôsobením vypočítaným vo vašom zariadení a bez histórie sledovania na serveri.",
+      "feed_link": "Pozrite sa, ako kanál funguje.",
+      "facebook": "Ako obmedziť AI videá vo vašom kanáli na Facebooku",
+      "tiktok": "Ako vidieť menej obsahu AI na TikToku",
+      "real": "AI balast, skutočné zábery a návrat tvorivej kontroly",
+      "capcut": "Bezplatná alternatíva ku CapCutu na strih vlastných záberov",
+      "gallery": "Sledujte videá vytvorené v ByteWave",
+      "or": "alebo",
+      "tutorial": "vyskúšajte návod na rozmazanie pohybu.",
+      "download": "Strihajte vlastné zábery zadarmo"
+    },
+    "compare": {
+      "title": "ByteWave vs. CapCut",
+      "intro": "Nástroje na strih v ByteWave sú zadarmo. CapCut niektoré rovnaké nástroje zahŕňa do platených programov.",
+      "feature": "Funkcia",
+      "price": "Cena",
+      "free": "$0",
+      "plans": "Bezplatné a platené programy",
+      "watermarks": "Vodoznaky",
+      "none": "Bez vodoznaku ByteWave",
+      "varies": "Závisí od nástroja a exportu",
+      "editing": "Strih",
+      "offline": "V zariadení; účet nie je potrebný",
+      "cloud": "Lokálne a cloudové nástroje",
+      "data": "Nakladanie s údajmi",
+      "no_tracking": "Bez sledovania správania; účty a publikovanie sú voliteľné",
+      "policy": "Pozrite si zásady ochrany súkromia CapCutu",
+      "provenance": "Pôvod videa",
+      "stamp": "Pečiatka ByteWave pri Uložiť do Fotiek",
+      "export_options": "Skontrolujte aktuálne možnosti exportu",
+      "slow_motion": "Spomalené zábery",
+      "included": "Zahrnuté",
+      "optical": "Optický tok: zadarmo na vyskúšanie",
+      "motion": "Rozmazanie pohybu",
+      "pro_motion": "Uvedené v Pro*",
+      "noise": "Potlačenie šumu videa",
+      "pro": "Program Pro",
+      "desktop": "Počítač",
+      "upscale": "Zvýšenie rozlíšenia pomocou AI",
+      "device": "V zariadení",
+      "paid": "Platené predplatné",
+      "mobile": "Mobilné vylepšenie pomocou AI",
+      "tracks": "Zvukové stopy",
+      "unlimited": "Bez obmedzenia počtu stôp",
+      "limits": "Skontrolujte limity platformy",
+      "tts": "Prevod textu na reč",
+      "voices": "Hlasy zadarmo; prémiové hlasy používajú kredity",
+      "captions": "Automatické titulky",
+      "pro_captions": "Pro na plný prístup",
+      "code": "Upraviteľný zdrojový kód filtrov",
+      "metal": "Zdrojový kód Metal shaderov je súčasťou",
+      "filter_tools": "Skontrolujte aktuálne nástroje filtrov",
+      "community": "Komunitné filtre",
+      "shared": "Zdieľané upraviteľné shadery",
+      "effects": "Efekty a šablóny zadarmo + Pro",
+      "subject": "Oddelenie objektu pre filtre",
+      "masks": "Nástroje na maskovanie a výrezy",
+      "note": "Overené 18. októbra 2026. Pro je platené predplatné. *CapCut uvádza rozmazanie pohybu v Pro, ale inzeruje aj bezplatné verzie. Prístup sa líši podľa platformy, regiónu a ponuky.",
+      "full": "Úplné porovnanie"
+    },
+    "features": {
+      "title": "Čo získate",
+      "items": [
+        {
+          "title": "Kontroly C2PA a pôvod videa",
+          "body": "Kontrolujte fotky a videá na podporované Content Credentials vrátane označení generovania pomocou AI. Každý export cez Uložiť do Fotiek navyše získa pečiatku ByteWave, ktorá pomáha odhaliť neskoršie zmeny."
+        },
+        {
+          "title": "Spomalené zábery a rozmazanie pohybu",
+          "body": "Vyhlaďte spomalené zábery pomocou FRC. Rozmazanie pohybu a časové potlačenie šumu sa pred náhľadom tiež spracúvajú lokálne v zariadení."
+        },
+        {
+          "title": "Zvýšenie rozlíšenia pomocou AI",
+          "body": "Zvýšte rozlíšenie v zariadení. Bez cloudového spracovania a čakania na server."
+        },
+        {
+          "title": "Neobmedzené zvukové stopy",
+          "body": "Vrstvite na vizuálnej časovej osi toľko zvukových klipov, koľko potrebujete. Vstavané zvukové efekty. Bez obmedzenia počtu stôp."
+        },
+        {
+          "title": "Prevod textu na reč",
+          "body": "Zadajte text na syntézu reči alebo vytvárajte titulky vo svojom zariadení. Voliteľné automatické označovanie pomáha ostatným objavovať zdieľané videá a vyžaduje účet a výslovné zapnutie."
+        },
+        {
+          "title": "Textové efekty",
+          "body": "Trblietky, glitch, neón a ďalšie. Animovaný text bez potreby skúseností s pohyblivou grafikou."
+        },
+        {
+          "title": "Oddelenie objektu",
+          "body": "Oddeľte objekty od pozadia a aplikujte na ne filtre nezávisle. Rozmažte pozadie a ponechajte objekt ostrý jedným klepnutím."
+        },
+        {
+          "title": "Vlastné filtre so zdrojovým kódom",
+          "body": "Každý filter ukazuje kód shaderu, ktorý ho vytvára. Upravte ho priamo alebo kód skopírujte a požiadajte ChatGPT o niečo nové."
+        },
+        {
+          "title": "Komunitné filtre",
+          "body": "Zverejňujte filtre, ktoré vytvoríte. Prezerajte a získavajte filtre iných tvorcov. Jedným klepnutím ich pridajte do knižnice."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtre, ktoré môžete naozaj upravovať",
+      "desc": "Väčšina editorov pristupuje k filtrom ako k čiernej skrinke. ByteWave vám ukáže kód. Zmeňte ho, učte sa z neho alebo ho skopírujte a opíšte AI, čo chcete; výsledok vložte späť.",
+      "comment": "// Impresionistické pozadie, ostrý objekt"
+    },
+    "cta": {
+      "desc": "Strihajte offline. Účet nie je potrebný. Nahrávajte len vtedy, keď sa rozhodnete publikovať.",
+      "apple": "Stiahnuť pre Apple"
+    }
+  }
+}

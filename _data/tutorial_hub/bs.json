@@ -1,0 +1,98 @@
+{
+  "title": "Vodiči za uređivanje videa",
+  "description": "Kratki ByteWave vodiči za video kolaže, animirane titlove, tekstualne efekte, pokretne naljepnice, zamućenje pokreta i provjeru vjerodajnica sadržaja.",
+  "intro": "Napravi raspored, dodaj titlove, animiraj naljepnice ili provjeri datoteku. Kratki vodiči za ByteWave alate.",
+  "action": "Pogledaj vodič",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout iz ByteWavea",
+      "description": "Složi klipove, napravi mreže i isprobaj nove oblike.",
+      "format": "Tri videoprimjera",
+      "alt": "Raspored u obliku saća sa snimkama mjeseca i psa"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Dodaj animirane titlove",
+      "description": "Tvoje riječi na tvom videu.",
+      "format": "Pisani vodič",
+      "alt": "Dodaj animirane titlove."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Odaberi tekstualne efekte za titlove",
+      "description": "Orbital Letters, Supernova, Ember Ash i drugi.",
+      "format": "Pisani vodič",
+      "alt": "Tekstualni efekti za titlove."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Uvezi vlastite fontove",
+      "description": "Koristi TTF i OTF fontove u titlovima svojih videozapisa.",
+      "format": "Pisani vodič",
+      "alt": "Tvoji fontovi. Tvoj video. Uvezi TTF i OTF fontove u ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animiraj naljepnice ključnim kadrovima",
+      "description": "Položaj, veličina, rotacija i ključni kadrovi.",
+      "format": "Pisani vodič",
+      "alt": "Pokreni svoje naljepnice."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Dodaj zamućenje pokreta u video",
+      "description": "Uporedi rezultat jedan uz drugi, pronađi zamućenje pokreta u editoru i prilagodi intenzitet svom klipu.",
+      "format": "iPhone · Poređenje od 20 sekundi",
+      "alt": "Poređenje snimke luke: original lijevo, ByteWave zamućenje pokreta desno.",
+      "left": "Original",
+      "right": "ByteWave zamućenje pokreta"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Pretvaranje frekvencije kadrova za usporeni snimak",
+      "description": "Uporedi snimku kolibrija pri brzini 0.1× i pogledaj kako pretvaranje frekvencije kadrova mijenja usporeno kretanje.",
+      "format": "iPhone · Poređenje od 30 sekundi",
+      "alt": "Poređenje kolibrija: obično usporavanje na 0.1× lijevo, ByteWave pretvaranje frekvencije kadrova desno.",
+      "left": "Obično usporavanje · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Vremensko smanjenje šuma",
+      "description": "Uporedi šum i sitne detalje na Appleovim primjernim snimkama, a zatim nauči šta tražiti u vlastitim klipovima.",
+      "format": "iPhone · Poređenje od 8 sekundi",
+      "alt": "Appleov primjer crvenog lišća: original lijevo, ByteWave vremensko smanjenje šuma desno.",
+      "left": "Original",
+      "right": "ByteWave smanjenje šuma"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Provjeri C2PA vjerodajnice sadržaja",
+      "description": "Otvori oznaku porijekla i saznaj šta znače provjerene izjave o AI generisanju, procjene metapodataka i nedostatak dokaza.",
+      "format": "Fotografije i videozapisi · Pisani vodič",
+      "alt": "Provjeri vjerodajnice sadržaja u ByteWaveu: vodič za porijeklo fotografija i videozapisa."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Ukloni metapodatke o lokaciji",
+      "description": "Pregledaj radnu kopiju videa, ukloni izmjenjiva polja i prije dijeljenja provjeri šta je ostalo.",
+      "format": "Privatnost · Pisani vodič",
+      "alt": "Saznaj više. Podijeli manje. Provjeri i ukloni izmjenjive metapodatke prije dijeljenja videa."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Prevedi titlove videa",
+      "description": "Prevedi automatske titlove na drugi podržani jezik, uporedi original i provjeri rezultat prije izvoza.",
+      "format": "iPhone i iPad · Pisani vodič",
+      "alt": "Prevedi titlove videa. Prevedi automatske titlove na drugi podržani jezik, uporedi original i provjeri rezultat prije izvoza."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Neka efekti reaguju na muziku",
+      "description": "Odaberi Zvuk filter, uporedi predloške animirane geometrije i provjeri reakciju tokom tihih i glasnijih dionica.",
+      "format": "iPhone i iPad · Pisani vodič",
+      "alt": "Neka efekti reaguju na muziku. Odaberi Zvuk filter, uporedi predloške animirane geometrije i provjeri reakciju tokom tihih i glasnijih dionica."
+    }
+  ]
+}

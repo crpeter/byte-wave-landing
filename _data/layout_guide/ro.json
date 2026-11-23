@@ -1,0 +1,61 @@
+{
+  "title": "Creator gratuit de colaje video pentru iPhone, iPad și Mac",
+  "lead": "Suprapune videoclipuri. Combină fotografii și clipuri. Creează grile sau compoziții fagure cu ByteWave, gratuit pe iPhone, iPad și Mac cu Apple Silicon.",
+  "orientations": "O compoziție, două orientări",
+  "honeyText": "Șapte celule hexagonale cu luna, un câine și un câmp însorit.",
+  "seasideText": "Șase clipuri de la mare împart un cadru, apoi montajul trece la un câine jucându-se pe plajă.",
+  "warpedText": "Filmări de apus peste ocean îndoite în benzi curbate, oglindite.",
+  "hexText": "Apusuri și valuri oceanice aranjate în patru panouri hexagonale peste un fundal de apus pe tot cadrul, în ByteWave.",
+  "features": "Mai mult decât un colaj foto",
+  "feature1": "Combină fotografii și videoclipuri în aceeași compoziție.",
+  "feature2": "Suprapune clipuri vertical sau așază-le alăturat.",
+  "feature3": "Creează grile de până la 144 de celule.",
+  "feature4": "Încearcă simetria și poligoane cu până la douăsprezece laturi.",
+  "make": "Creează o compoziție",
+  "step1": "Deschide Layout de la ByteWave.",
+  "step2": "Alege un aranjament și adaugă fotografiile și videoclipurile.",
+  "step3": "Ajustează compoziția, previzualizează și exportă.",
+  "pricing": "Gratuit pe iPhone, iPad și Mac cu Apple Silicon. Editarea rulează local. Fără abonament sau filigran ByteWave la export.",
+  "date": "23 noiembrie 2026",
+  "publisher": "Publicat de ByteWave, creatorul aplicației prezentate.",
+  "description": "Creează colaje video cu ByteWave. Suprapune clipuri, combină fotografii și videoclipuri și creează grile sau faguri. Gratuit, fără abonament sau filigran la export.",
+  "socialAlt": "Fotografii și videoclipuri. O compoziție. Suprapune clipuri, creează grile și încearcă forme noi.",
+  "updated": "Actualizat",
+  "related": "Ghiduri conexe",
+  "open": "Deschide videoclipul",
+  "openCompatible": "Deschide copia compatibilă",
+  "watch": "Vezi MP4",
+  "demos": "Videoclipuri create cu Layout de la ByteWave",
+  "gallery": "Vezi mai multe montaje în galerie",
+  "captions": "Adaugă subtitrări animate",
+  "stickers": "Adaugă stickere animate",
+  "videoTitles": [
+    "Fagure",
+    "De la grila marină la plajă",
+    "Apus deformat",
+    "Hexagoane cu apus · Portret",
+    "Hexagoane cu apus · Peisaj"
+  ],
+  "videoAlt": [
+    "Videoclip cu compoziție fagure",
+    "Compoziție marină în șase panouri, urmată de un câine pe plajă",
+    "Videoclip cu apus deformat",
+    "Hexagoane cu apus în format portret",
+    "Hexagoane cu apus în format peisaj"
+  ],
+  "schemaNames": [
+    "Compoziție fagure în ByteWave",
+    "De la grila marină la plajă",
+    "Apus deformat",
+    "Hexagoane cu apus (portret)",
+    "Hexagoane cu apus (peisaj)"
+  ],
+  "videoDescriptions": [
+    "Șapte celule hexagonale cu luna, un câine și un câmp însorit.",
+    "Compoziție marină în șase panouri, urmată de un clip pe tot cadrul cu un câine jucându-se pe plajă.",
+    "Apusul peste ocean îndoit în benzi curbate și oglindite cu Layout de la ByteWave.",
+    "Apusuri și valuri oceanice în patru panouri hexagonale peste un fundal de apus pe tot cadrul, în ByteWave.",
+    "Patru panouri hexagonale cu apusuri și valuri, centrate peste un fundal larg cu apus portocaliu și ocean."
+  ],
+  "modified": "2026-11-23"
+}

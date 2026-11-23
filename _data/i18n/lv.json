@@ -1,0 +1,231 @@
+{
+  "name": "Latviešu",
+  "nav": {
+    "skip": "Pāriet uz saturu",
+    "label": "Galvenā navigācija",
+    "menu": "Izvēlne",
+    "home": "Sākumlapa",
+    "features": "Iespējas",
+    "compare": "Salīdzināt",
+    "gallery": "Galerija",
+    "tutorials": "Pamācības",
+    "blog": "Blogs",
+    "about": "Par mums",
+    "privacy": "Privātums",
+    "press": "Presei",
+    "expression": "Vārda brīvība",
+    "download": "Lejupielādēt bez maksas"
+  },
+  "footer": {
+    "motto": "Video montāžai jābūt bez maksas.",
+    "devices": "iPhone ar iOS 26 vai jaunāku · iPad ar iPadOS 26 vai jaunāku · Mac ar macOS 26 vai jaunāku un Apple M1 vai jaunāku mikroshēmu."
+  },
+  "get_free": "Iegūsti ByteWave bez maksas",
+  "social_alt": "ByteWave zīmola priekšskatījums sociālajiem tīkliem",
+  "disclosure": {
+    "label": "Informācija par MI izmantošanu:",
+    "text": "Šajā rakstā ir teksts, kas ģenerēts ar mākslīgā intelekta valodas modeli (LLM).",
+    "by": "Autors",
+    "review": "Apgalvojumus par produktu pārskatīja ByteWave; salīdzinājumi atspoguļo ByteWave komerciālās intereses un nav neatkarīgas atsauksmes."
+  },
+  "player": {
+    "play": "Atskaņot video",
+    "replay": "Atskaņot video vēlreiz",
+    "retry": "Mēģināt video vēlreiz",
+    "tap": "Pieskaries, lai atskaņotu video",
+    "tap_hint": "Pieskaries atskaņošanas pogai, lai sāktu video.",
+    "loading": "Ielādē video…",
+    "fallback": "Mēģina saderīgo video…",
+    "failed": "Video neizdevās ielādēt. Mēģini vēlreiz vai atver zemāk esošo video saiti."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Bezmaksas GPU video redaktors iPhone, iPad un Mac",
+      "description": "Montē savus ierakstus ar ByteWave — bezmaksas video redaktoru iPhone, iPad un Mac. Bez ūdenszīmēm un abonementiem. Lokāla montāža, subtitri, efekti un audio.",
+      "keywords": "bezmaksas video redaktors, video redaktors bez ūdenszīmes, capcut alternatīva, ios video montāža, metal ēnotāji, gpu video redaktors, video redaktors bez abonementa, privāta video montāža, bezmaksas video redaktors iphone",
+      "social_title": "ByteWave - Bezmaksas video redaktors iPhone, iPad un Mac",
+      "og_description": "Tavi ieraksti. Tavas radošās izvēles. Bezmaksas lokāla video montāža iPhone, iPad un Mac bez ūdenszīmēm un abonementiem.",
+      "twitter_description": "Montē savus ierakstus. Bez ūdenszīmēm un abonementiem. Lokāla video montāža ar izvēles kopīgošanu.",
+      "logo_alt": "ByteWave logotips"
+    },
+    "schema": {
+      "description": "Bezmaksas video redaktors iPhone, iPad un Mac. Montē savus ierakstus ar lokālu renderēšanu, audio slāņiem un Metal efektiem. Bez ūdenszīmēm un abonementiem; kopīgošana tiešsaistē ir pēc izvēles.",
+      "features": "Pielāgotu Metal ēnotāju redaktors, superizšķirtspējas palielināšana, kustības izpludinājums, temporālā trokšņu samazināšana, kopienas filtri, neierobežots audio celiņu skaits, apstrāde ierīcē, C2PA Content Credentials nolasīšana, pārbaudīti MI ģenerēšanas paziņojumi, kriptogrāfiska video izcelsme"
+    },
+    "hero": {
+      "tag": "ByteWave · Bezmaksas video redaktors",
+      "opening": "Radi kaut ko",
+      "emphasis": "īstu",
+      "ending": "nevis tikai kārtējo īso video.",
+      "edit": "Montē savus ierakstus. Lokāli savā ierīcē.",
+      "platforms": "Bezmaksas video redaktors iPhone, iPad un Mac.",
+      "examples": "Apskati, ko vari radīt ↓",
+      "no_watermarks": "Bez abonementiem. Bez ūdenszīmēm eksportā.",
+      "devices": "iOS / iPadOS 26 vai jaunāks. Mac: macOS 26 vai jaunāks, M1 vai jaunāks.",
+      "play_background": "Atskaņot fona video",
+      "pause_background": "Apturēt fona video"
+    },
+    "download": "Lejupielādēt ByteWave",
+    "showcase": {
+      "tag": "Sāc ar to, ko nofilmēji",
+      "footage": "Tavi ieraksti.",
+      "edit": "Tava montāža.",
+      "intro": "Izmanto savus fotoattēlus un video. Pārējo veido pa savam.",
+      "layout": "ByteWave Layout",
+      "layout_desc": "Apvieno fotoattēlus un video vienā kompozīcijā.",
+      "effects": "Filtri, efekti un",
+      "captions": "animēti subtitri",
+      "captions_desc": "Atrodi savu stilu. Pievieno savus vārdus.",
+      "audio": "Audio rīki",
+      "audio_desc": "Kārto celiņus slāņos un veido sava video skaņu.",
+      "gallery": "Skaties ar ByteWave veidotus video →",
+      "editor_alt": "ByteWave redaktors ar saulrieta ierakstu un ierīcē pieejamajiem montāžas rīkiem",
+      "layout_alt": "ByteWave Layout apvieno sešus jūras fotoattēlus un video vienā kompozīcijā"
+    },
+    "credentials": {
+      "tag": "Fotoattēli, video un MI",
+      "title": "Vai tas ir veidots ar MI?",
+      "check": "Pārbaudi fotoattēlu vai video.",
+      "check_desc": "ByteWave nolasa atbalstītos C2PA Content Credentials izcelsmes apliecinājumus, tostarp parakstītas atzīmes, kas identificē MI ģenerētu saturu. Pārbaude notiek tavā ierīcē.",
+      "how": "Kā pārbaudīt failu →",
+      "signed": "Tavi eksportētie faili ir parakstīti.",
+      "signed_desc": "Katrs eksports ar Saglabāt fotoattēlos iegūst ByteWave izcelsmes zīmogu ar digitālu parakstu. Tas palīdz parādīt, ka fails nāk no ByteWave un vai pēc parakstīšanas tas ir mainīts.",
+      "signed_link": "Kā darbojas parakstīts eksports →",
+      "caveat": "Nav izcelsmes apliecinājumu? Tas nenozīmē ne īsts, ne viltots. Paraksts nevar pierādīt, ka aina tiešām notikusi.",
+      "newsrooms": "Pārbaudi ierakstus publikācijai? Sāc šeit →"
+    },
+    "geese": {
+      "tag": "Visi montāžas rīki. Bez maksas.",
+      "opening": "Brīvs kā",
+      "emphasis": "zoss.",
+      "desc": "Bez abonementiem. Bez ūdenszīmēm eksportā. Lokālai montāžai konts nav vajadzīgs.",
+      "fallback": "Atvērt saderīgu kopiju",
+      "caption": "Zosis pārvietojas plūstošā ūdenī; ekrānā teksts “Free as in geese”.",
+      "alt": "Brīvs kā zoss: ByteWave lietotnes priekšskatījums"
+    },
+    "privacy": {
+      "title": "Tavi video paliek tavā ierīcē",
+      "intro": "Sāc ar iemūžinātajiem mirkļiem. Apgriez klipus, veido skaņu un pats izvēlies efektus. ByteWave saglabā montāžu un renderēšanu tavā atbalstītajā Apple ierīcē.",
+      "local": "ByteWave veic montāžas apstrādi lokāli tavā Apple ierīcē.",
+      "sharing": "Lokālai montāžai konts nav vajadzīgs, un tavi video netiek augšupielādēti, ja vien tu nepārprotami neizvēlies tos publicēt vai kopīgot ar tiešsaistes funkciju.",
+      "stamp": "Katrs eksports ar Saglabāt fotoattēlos tiek kriptogrāfiski parakstīts ar ByteWave izcelsmes metadatiem, lai palīdzētu pārbaudīt tā ByteWave izcelsmi un to, vai fails pēc parakstīšanas ir mainīts. Paraksts nevar pierādīt, ka attēlotais notikums tiešām noticis.",
+      "stamp_link": "Uzzini, ko apliecina parakstīti eksporti.",
+      "guide": "Kā montēt, neaugšupielādējot savus ierakstus"
+    },
+    "creative": {
+      "title": "Apnicis, ka MI video pārņem tavu plūsmu?",
+      "intro": "Ja Facebook vai TikTok šķiet pārpildīts ar ģenerētiem klipiem vai CapCut MI funkcijas nav tas, ar ko vēlējies montēt, vari sākt ar saviem ierakstiem.",
+      "choice": "Tavi ieraksti, tava montāža, tava izvēle kopīgot.",
+      "tools": "ByteWave piedāvā rīkus darbam ar paša filmēto: animētus subtitrus, pielāgotus filtrus, palēninājumu un audio slāņus. Ir pieejamas palīgfunkcijas, piemēram, izšķirtspējas palielināšana; lai montētu video, nav jāģenerē aina no uzvednes.",
+      "feed": "Pārlūko ByteWave publisko plūsmu anonīmi, ar izvēles personalizāciju, kas tiek aprēķināta tavā ierīcē, un bez skatīšanās vēstures serverī.",
+      "feed_link": "Apskati, kā darbojas plūsma.",
+      "facebook": "Kā samazināt MI video savā Facebook plūsmā",
+      "tiktok": "Kā redzēt mazāk MI satura TikTok",
+      "real": "MI draza, īsti ieraksti un radošās kontroles atgūšana",
+      "capcut": "Bezmaksas CapCut alternatīva savu ierakstu montāžai",
+      "gallery": "Skaties ar ByteWave veidotus video",
+      "or": "vai",
+      "tutorial": "izmēģini kustības izpludinājuma pamācību.",
+      "download": "Montē savus ierakstus bez maksas"
+    },
+    "compare": {
+      "title": "ByteWave pret CapCut",
+      "intro": "ByteWave montāžas rīki ir bez maksas. CapCut dažus no tiem pašiem rīkiem iekļauj maksas plānos.",
+      "feature": "Funkcija",
+      "price": "Cena",
+      "free": "$0",
+      "plans": "Bezmaksas un maksas plāni",
+      "watermarks": "Ūdenszīmes",
+      "none": "Bez ByteWave ūdenszīmes",
+      "varies": "Atkarīgs no rīka un eksporta",
+      "editing": "Montāža",
+      "offline": "Ierīcē; konts nav vajadzīgs",
+      "cloud": "Lokāli un mākoņa rīki",
+      "data": "Datu apstrāde",
+      "no_tracking": "Bez uzvedības izsekošanas; konts un publicēšana pēc izvēles",
+      "policy": "Skatīt CapCut privātuma politiku",
+      "provenance": "Video izcelsme",
+      "stamp": "ByteWave zīmogs, izmantojot Saglabāt fotoattēlos",
+      "export_options": "Pārbaudi pašreizējās eksporta iespējas",
+      "slow_motion": "Palēninājums",
+      "included": "Iekļauts",
+      "optical": "Optiskā plūsma: bezmaksas izmēģinājums",
+      "motion": "Kustības izpludinājums",
+      "pro_motion": "Norādīts Pro plānā*",
+      "noise": "Video trokšņu samazināšana",
+      "pro": "Pro plāns",
+      "desktop": "Dators",
+      "upscale": "MI izšķirtspējas palielināšana",
+      "device": "Ierīcē",
+      "paid": "Maksas abonements",
+      "mobile": "Mobilā MI uzlabošana",
+      "tracks": "Audio celiņi",
+      "unlimited": "Bez celiņu skaita ierobežojuma",
+      "limits": "Pārbaudi platformas ierobežojumus",
+      "tts": "Teksta pārvēršana runā",
+      "voices": "Bezmaksas balsis; augstākās klases balsis izmanto kredītus",
+      "captions": "Automātiski subtitri",
+      "pro_captions": "Pilnai piekļuvei vajadzīgs Pro",
+      "code": "Rediģējams filtru pirmkods",
+      "metal": "Iekļauts Metal ēnotāju pirmkods",
+      "filter_tools": "Pārbaudi pašreizējos filtru rīkus",
+      "community": "Kopienas filtri",
+      "shared": "Kopīgoti rediģējami ēnotāji",
+      "effects": "Bezmaksas un Pro efekti un veidnes",
+      "subject": "Objekta izolēšana filtriem",
+      "masks": "Maskēšanas un izgriešanas rīki",
+      "note": "Pārbaudīts 2026. gada 18. oktobrī. Pro ir maksas abonements. *CapCut norāda kustības izpludinājumu Pro plānā, bet reklamē arī bezmaksas versijas. Piekļuve atšķiras pēc platformas, reģiona un piedāvājuma.",
+      "full": "Pilns salīdzinājums"
+    },
+    "features": {
+      "title": "Ko tu iegūsti",
+      "items": [
+        {
+          "title": "C2PA pārbaudes un video izcelsme",
+          "body": "Pārbaudi fotoattēlus un video, meklējot atbalstītus Content Credentials apliecinājumus, tostarp MI ģenerēšanas atzīmes. Katrs eksports ar Saglabāt fotoattēlos iegūst arī ByteWave zīmogu, kas palīdz noteikt vēlākas izmaiņas."
+        },
+        {
+          "title": "Palēninājums un kustības izpludinājums",
+          "body": "Padari palēninātu video plūstošāku ar FRC. Arī kustības izpludinājums un temporālā trokšņu samazināšana pirms priekšskatījuma tiek apstrādāti lokāli tavā ierīcē."
+        },
+        {
+          "title": "MI izšķirtspējas palielināšana",
+          "body": "Palielini izšķirtspēju ierīcē. Bez mākoņapstrādes un gaidīšanas uz serveri."
+        },
+        {
+          "title": "Neierobežots audio celiņu skaits",
+          "body": "Vizuālajā laika skalā kārto tik daudz audio klipu, cik vajag. Iebūvēti skaņu efekti. Bez celiņu skaita ierobežojuma."
+        },
+        {
+          "title": "Teksta pārvēršana runā",
+          "body": "Ievadi tekstu runas sintēzei vai ģenerē subtitrus savā ierīcē. Izvēles automātiskā marķēšana palīdz citiem atrast kopīgotos video un prasa kontu un piekrišanu."
+        },
+        {
+          "title": "Teksta efekti",
+          "body": "Mirdzums, glitch, neons un citi. Animēts teksts, kuram nav vajadzīga kustīgās grafikas pieredze."
+        },
+        {
+          "title": "Objekta izolēšana",
+          "body": "Atdali objektus no fona un piemēro filtrus katram atsevišķi. Izpludini fonu un saglabā objektu asu ar vienu pieskārienu."
+        },
+        {
+          "title": "Pielāgoti filtri ar pirmkodu",
+          "body": "Katrs filtrs parāda ēnotāja kodu, kas to darbina. Rediģē to tieši vai kopē kodu un lūdz ChatGPT radīt kaut ko jaunu."
+        },
+        {
+          "title": "Kopienas filtri",
+          "body": "Publicē savus filtrus. Pārlūko un iegūsti citu autoru filtrus. Ar vienu pieskārienu pievieno tos savai bibliotēkai."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtri, kurus tiešām vari rediģēt",
+      "desc": "Lielākā daļa redaktoru slēpj filtru darbību. ByteWave parāda kodu. Maini to, mācies no tā vai kopē to un apraksti MI, ko vēlies; ielīmē rezultātu atpakaļ.",
+      "comment": "// Impresionistisks fons, ass objekts"
+    },
+    "cta": {
+      "desc": "Montē bezsaistē. Konts nav vajadzīgs. Augšupielādē tikai tad, kad izvēlies publicēt.",
+      "apple": "Lejupielādēt Apple ierīcēm"
+    }
+  }
+}

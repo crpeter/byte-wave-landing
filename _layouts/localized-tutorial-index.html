@@ -15,7 +15,7 @@
 {%- assign translation_page = site.pages | where: "translation_key", "creation-translate-video-captions" | where: "lang", page.lang | first -%}
 {%- assign audio_effects_page = site.pages | where: "translation_key", "creation-audio-reactive-video-effects" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Tutorial ByteWave",
+    "updatedLabel": "Actualizat",
+    "updatedDate": "23 noiembrie 2026",
+    "relatedLabel": "Ghiduri conexe"
+  },
+  "captionEffects": {
+    "title": "Efecte de text pentru subtitrări în ByteWave",
+    "description": "Alege un efect de text în ByteWave, previzualizează animația și compară Orbital Letters, Supernova și Ember Ash.",
+    "lead": "Încearcă un efect pe cuvintele tale. Previzualizează-l peste filmare înainte de export.",
+    "stepsHeading": "Alege un efect",
+    "step1": "Selectează o subtitrare din proiectul ByteWave.",
+    "step2": "Deschide efectele de text și alege o presetare.",
+    "step3": "Redă videoclipul pentru a vedea efectul în mișcare.",
+    "presetsHeading": "Trei de încercat",
+    "tip": "Încearcă aceeași frază scurtă cu fiecare efect. Adaptează fontul, dimensiunea și culoarea la filmare.",
+    "fromScratch": "Începi de la zero?",
+    "firstCaption": "Adaugă prima subtitrare",
+    "fontsPrompt": "Vrei altă familie de fonturi?",
+    "importFont": "Importă propriul font",
+    "relatedSticker": "Animă un sticker"
+  },
+  "customFonts": {
+    "title": "Fonturile tale nu ar trebui să necesite abonament.",
+    "description": "Importă fonturi TTF sau OTF în ByteWave pe iPhone. Alege un fișier și folosește Fonturile mele pentru subtitrări gratuite.",
+    "lead": "Adu propriul font în videoclip. Importul de fonturi ByteWave este gratuit.",
+    "stepsHeading": "Importă un font pe iPhone",
+    "step1": "Salvează un font TrueType (.ttf) sau OpenType (.otf) în Fișiere. Dezarhivează mai întâi orice arhivă ZIP.",
+    "step2": "Selectează o subtitrare în proiectul ByteWave și deschide panoul Font.",
+    "step3": "Atinge Importă font și alege fișierul.",
+    "step4": "Găsește-l în Fonturile mele. Atinge fontul pentru a-l aplica subtitrării.",
+    "preview": "Redă videoclipul, verifică textul, ajustează dimensiunea și culoarea, apoi exportă.",
+    "unsupportedHeading": "Fișierul nu poate fi selectat?",
+    "unsupported": "Alege fișierul .ttf sau .otf propriu-zis. Fonturile web precum .woff și .woff2 nu sunt acceptate de acest importator.",
+    "startPrompt": "Începi cu un proiect gol?",
+    "firstCaption": "Adaugă prima subtitrare",
+    "effectsPrompt": "Apoi încearcă",
+    "effectsLink": "efecte de text pentru subtitrări",
+    "license": "ByteWave nu taxează importul fonturilor. Fontul poate avea propriul preț și propria licență; verifică termenii creatorului pentru utilizarea ta."
+  }
+}

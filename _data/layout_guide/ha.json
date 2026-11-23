@@ -1,0 +1,61 @@
+{
+  "title": "Mai Haɗa Bidiyo na Kyauta don iPhone, iPad da Mac",
+  "lead": "Jera bidiyo. Haɗa hotuna da guntayen bidiyo. Gina grid ko tsarin saƙar zuma da ByteWave, kyauta a iPhone, iPad da Mac na Apple Silicon.",
+  "orientations": "Tsari ɗaya, alƙibla biyu",
+  "honeyText": "Ƙwayoyi bakwai masu kusurwa shida suna nuna wata, kare da fili mai rana.",
+  "seasideText": "Guntayen bidiyon bakin teku shida suna raba firam ɗaya, sannan gyaran ya koma kare yana wasa a rairayin bakin teku.",
+  "warpedText": "Bidiyon faɗuwar rana a teku an lanƙwasa shi zuwa tsiri masu lankwasa da madubi.",
+  "hexText": "Faɗuwar rana a teku da raƙuman ruwa an tsara su a faifai huɗu masu kusurwa shida a kan bangon faɗuwar rana mai cika firam a ByteWave.",
+  "features": "Fiye da haɗin hotuna",
+  "feature1": "Haɗa hotuna da bidiyo a tsari ɗaya.",
+  "feature2": "Jera guntayen bidiyo a tsaye ko sa su gefe da gefe.",
+  "feature3": "Gina grid masu ƙwayoyi har 144.",
+  "feature4": "Gwada daidaituwar siffa da siffofin polygon masu gefuna har goma sha biyu.",
+  "make": "Yi tsari",
+  "step1": "Buɗe Layout daga ByteWave.",
+  "step2": "Zaɓi tsari ka ƙara hotuna da bidiyoyinka.",
+  "step3": "Daidaita haɗin, duba samfoti ka fitar.",
+  "pricing": "Kyauta a iPhone, iPad da Mac na Apple Silicon. Gyara yana gudana a kan na'urarka. Babu rajistar kuɗi ko alamar ruwa ta ByteWave a fitarwa.",
+  "date": "23 Nuwamba, 2026",
+  "publisher": "ByteWave ne ya wallafa, wanda ke ƙirƙirar manhajar da ake tattaunawa a nan.",
+  "description": "Haɗa bidiyo da ByteWave. Jera guntayen bidiyo, haɗa hotuna da bidiyo ka gina grid ko tsarin saƙar zuma. Kyauta, ba rajistar kuɗi ko alamar ruwa a fitarwa.",
+  "socialAlt": "Hotuna da bidiyo. Tsari ɗaya. Jera guntayen bidiyo, gina grid ka gwada sababbin siffofi.",
+  "updated": "An sabunta",
+  "related": "Jagorori masu alaƙa",
+  "open": "Buɗe bidiyo",
+  "openCompatible": "Buɗe kwafin da ya dace",
+  "watch": "Kalli MP4",
+  "demos": "Bidiyon da aka ƙirƙira da Layout daga ByteWave",
+  "gallery": "Duba ƙarin gyare-gyare a ma'ajiya",
+  "captions": "Ƙara rubutun magana mai motsi",
+  "stickers": "Ƙara lambobi masu motsi",
+  "videoTitles": [
+    "Saƙar zuma",
+    "Grid na bakin teku zuwa rairayin bakin teku",
+    "Faɗuwar rana mai lankwasawa",
+    "Siffofin kusurwa shida na faɗuwar rana · Tsaye",
+    "Siffofin kusurwa shida na faɗuwar rana · Kwance"
+  ],
+  "videoAlt": [
+    "Bidiyon tsarin saƙar zuma",
+    "Tsarin bakin teku mai faifai shida sai kare a rairayin bakin teku",
+    "Bidiyon tsarin faɗuwar rana mai lankwasawa",
+    "Bidiyon tsarin tsaye na siffofin kusurwa shida na faɗuwar rana",
+    "Bidiyon tsarin kwance na siffofin kusurwa shida na faɗuwar rana"
+  ],
+  "schemaNames": [
+    "Tsarin saƙar zuma a ByteWave",
+    "Grid na bakin teku zuwa rairayin bakin teku",
+    "Faɗuwar rana mai lankwasawa",
+    "Siffofin kusurwa shida na faɗuwar rana (tsaye)",
+    "Siffofin kusurwa shida na faɗuwar rana (kwance)"
+  ],
+  "videoDescriptions": [
+    "Ƙwayoyi bakwai masu kusurwa shida suna nuna wata, kare da fili mai rana.",
+    "Tsarin bakin teku mai faifai shida sai guntun bidiyo mai cika firam na kare yana wasa a rairayin bakin teku.",
+    "Bidiyon faɗuwar rana a teku an lanƙwasa shi zuwa tsiri masu lankwasa da madubi da Layout daga ByteWave.",
+    "Faɗuwar rana a teku da raƙuman ruwa an tsara su a faifai huɗu masu kusurwa shida a kan bangon faɗuwar rana mai cika firam a ByteWave.",
+    "Faifai huɗu masu kusurwa shida na faɗuwar rana da raƙuman teku a tsakiya a kan faffadan bangon faɗuwar rana mai launin lemu da teku."
+  ],
+  "modified": "2026-11-23"
+}

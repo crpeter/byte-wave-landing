@@ -1,0 +1,231 @@
+{
+  "name": "Tiếng Việt",
+  "nav": {
+    "skip": "Chuyển đến nội dung",
+    "label": "Điều hướng chính",
+    "menu": "Menu",
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "compare": "So sánh",
+    "gallery": "Thư viện",
+    "tutorials": "Hướng dẫn",
+    "blog": "Blog",
+    "about": "Giới thiệu",
+    "privacy": "Quyền riêng tư",
+    "press": "Báo chí",
+    "expression": "Tự do biểu đạt",
+    "download": "Tải miễn phí"
+  },
+  "footer": {
+    "motto": "Chỉnh sửa video nên được miễn phí.",
+    "devices": "iPhone chạy iOS 26 trở lên · iPad chạy iPadOS 26 trở lên · Mac chạy macOS 26 trở lên với Apple M1 trở lên."
+  },
+  "get_free": "Tải ByteWave miễn phí",
+  "social_alt": "Ảnh xem trước mạng xã hội mang thương hiệu ByteWave",
+  "disclosure": {
+    "label": "Thông báo về AI:",
+    "text": "Bài viết này có nội dung do mô hình ngôn ngữ AI (LLM) tạo ra.",
+    "by": "Bởi",
+    "review": "Các thông tin về sản phẩm đã được ByteWave rà soát; các so sánh phản ánh lợi ích thương mại của ByteWave và không phải đánh giá độc lập."
+  },
+  "player": {
+    "play": "Phát video",
+    "replay": "Phát lại video",
+    "retry": "Thử phát lại video",
+    "tap": "Chạm để phát video",
+    "tap_hint": "Chạm nút phát để bắt đầu video.",
+    "loading": "Đang tải video…",
+    "fallback": "Đang thử phiên bản video tương thích…",
+    "failed": "Không tải được video. Hãy thử lại hoặc mở liên kết video bên dưới."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Trình chỉnh sửa video miễn phí dùng GPU cho iPhone, iPad và Mac",
+      "description": "Chỉnh sửa thước phim của bạn bằng ByteWave, trình chỉnh sửa video miễn phí cho iPhone, iPad và Mac. Không hình mờ, không thuê bao. Chỉnh sửa trên thiết bị, phụ đề, hiệu ứng và âm thanh.",
+      "keywords": "trình chỉnh sửa video miễn phí, chỉnh sửa video không hình mờ, thay thế capcut, chỉnh sửa video ios, bộ đổ bóng metal, chỉnh sửa video gpu, chỉnh sửa video không thuê bao, chỉnh sửa video riêng tư, chỉnh sửa video iphone miễn phí",
+      "social_title": "ByteWave - Chỉnh sửa video miễn phí cho iPhone, iPad và Mac",
+      "og_description": "Thước phim của bạn. Lựa chọn sáng tạo của bạn. Chỉnh sửa video miễn phí ngay trên iPhone, iPad và Mac, không hình mờ hay thuê bao.",
+      "twitter_description": "Chỉnh sửa thước phim của bạn. Không hình mờ hay thuê bao. Chỉnh sửa trên thiết bị, chỉ chia sẻ khi bạn muốn.",
+      "logo_alt": "Logo ByteWave"
+    },
+    "schema": {
+      "description": "Trình chỉnh sửa video miễn phí cho iPhone, iPad và Mac. Chỉnh sửa thước phim của bạn bằng kết xuất trên thiết bị, âm thanh nhiều lớp và hiệu ứng dùng Metal. Không hình mờ hay thuê bao; chia sẻ trực tuyến là tùy chọn.",
+      "features": "Trình sửa bộ đổ bóng Metal tùy chỉnh, Nâng độ phân giải siêu cao, Làm mờ chuyển động, Giảm nhiễu theo thời gian, Bộ lọc cộng đồng, Không giới hạn rãnh âm thanh, Xử lý trên thiết bị, Đọc Content Credentials C2PA, Xác minh khai báo nội dung do AI tạo, Nguồn gốc video được xác thực bằng mật mã"
+    },
+    "hero": {
+      "tag": "ByteWave · Chỉnh sửa video miễn phí",
+      "opening": "Tạo điều gì đó",
+      "emphasis": "Thật",
+      "ending": "không chỉ là reel.",
+      "edit": "Chỉnh sửa thước phim của bạn. Ngay trên thiết bị.",
+      "platforms": "Trình chỉnh sửa video miễn phí cho iPhone, iPad và Mac.",
+      "examples": "Xem bạn có thể tạo gì ↓",
+      "no_watermarks": "Không thuê bao. Không hình mờ khi xuất.",
+      "devices": "iOS / iPadOS 26 trở lên. Mac: macOS 26 trở lên, M1 trở lên.",
+      "play_background": "Phát video nền",
+      "pause_background": "Tạm dừng video nền"
+    },
+    "download": "Tải ByteWave",
+    "showcase": {
+      "tag": "Bắt đầu với những gì bạn đã quay",
+      "footage": "Thước phim của bạn.",
+      "edit": "Bản dựng của bạn.",
+      "intro": "Mang ảnh và video của bạn vào. Phần còn lại do bạn sáng tạo.",
+      "layout": "Layout của ByteWave",
+      "layout_desc": "Kết hợp ảnh và video trong cùng một bố cục.",
+      "effects": "Bộ lọc, hiệu ứng và",
+      "captions": "phụ đề chuyển động",
+      "captions_desc": "Tìm phong cách riêng. Thêm lời của chính bạn.",
+      "audio": "Công cụ âm thanh",
+      "audio_desc": "Xếp lớp các rãnh và tạo âm thanh cho video của bạn.",
+      "gallery": "Xem video được tạo bằng ByteWave →",
+      "editor_alt": "Trình chỉnh sửa ByteWave hiển thị cảnh hoàng hôn và công cụ chỉnh sửa trên thiết bị",
+      "layout_alt": "Layout của ByteWave kết hợp sáu ảnh và video biển trong một bố cục"
+    },
+    "credentials": {
+      "tag": "Ảnh, video và AI",
+      "title": "Nội dung này được tạo bằng AI?",
+      "check": "Kiểm tra ảnh hoặc video.",
+      "check_desc": "ByteWave đọc Content Credentials C2PA được hỗ trợ, gồm nhãn có chữ ký xác định nội dung do AI tạo. Quá trình kiểm tra diễn ra trên thiết bị của bạn.",
+      "how": "Cách kiểm tra tệp →",
+      "signed": "Bản xuất của bạn có chữ ký.",
+      "signed_desc": "Mỗi lần xuất bằng Lưu vào Ảnh, video nhận dấu nguồn gốc ByteWave có chữ ký số. Dấu này giúp xác định tệp đến từ ByteWave và liệu tệp có thay đổi sau khi ký hay không.",
+      "signed_link": "Cách hoạt động của bản xuất có chữ ký →",
+      "caveat": "Không có thông tin xác thực? Điều đó không có nghĩa là thật hay giả. Chữ ký không thể chứng minh cảnh quay đã diễn ra.",
+      "newsrooms": "Đang kiểm tra tư liệu cho một bài báo? Bắt đầu ở đây →"
+    },
+    "geese": {
+      "tag": "Mọi công cụ chỉnh sửa. Miễn phí.",
+      "opening": "Tự do như",
+      "emphasis": "đàn ngỗng.",
+      "desc": "Không thuê bao. Không hình mờ khi xuất. Không cần tài khoản để chỉnh sửa trên thiết bị.",
+      "fallback": "Mở bản tương thích",
+      "caption": "Đàn ngỗng bơi qua dòng nước, với dòng chữ “Free as in geese” trên màn hình.",
+      "alt": "Tự do như đàn ngỗng: bản xem trước ứng dụng ByteWave"
+    },
+    "privacy": {
+      "title": "Video của bạn ở lại trên thiết bị",
+      "intro": "Bắt đầu với những khoảnh khắc bạn đã ghi lại. Cắt clip, chỉnh âm thanh và tự chọn hiệu ứng. ByteWave chỉnh sửa và kết xuất ngay trên thiết bị Apple được hỗ trợ của bạn.",
+      "local": "ByteWave xử lý chỉnh sửa ngay trên thiết bị Apple của bạn.",
+      "sharing": "Không cần tài khoản để chỉnh sửa trên thiết bị, và video không được tải lên trừ khi bạn chủ động chọn đăng hoặc chia sẻ qua một tính năng trực tuyến.",
+      "stamp": "Mỗi bản xuất bằng Lưu vào Ảnh được ký bằng mật mã kèm siêu dữ liệu nguồn gốc ByteWave, giúp xác minh nguồn gốc ByteWave và liệu tệp có thay đổi sau khi ký. Chữ ký không thể chứng minh sự kiện được mô tả đã xảy ra.",
+      "stamp_link": "Tìm hiểu bản xuất có chữ ký xác nhận được điều gì.",
+      "guide": "Cách chỉnh sửa mà không tải thước phim lên"
+    },
+    "creative": {
+      "title": "Chán video AI chiếm đầy bảng tin?",
+      "intro": "Nếu Facebook hay TikTok tràn ngập clip được tạo tự động, hoặc tính năng AI của CapCut không phải thứ bạn muốn dùng để dựng phim, hãy bắt đầu với thước phim của chính bạn.",
+      "choice": "Bạn quay, bạn dựng, bạn quyết định chia sẻ.",
+      "tools": "ByteWave cung cấp công cụ để xử lý những gì bạn đã quay: phụ đề chuyển động, bộ lọc tùy chỉnh, quay chậm và âm thanh nhiều lớp. Có các tính năng hỗ trợ như nâng độ phân giải; bạn không cần tạo cảnh bằng câu lệnh để chỉnh sửa video.",
+      "feed": "Duyệt bảng tin công khai của ByteWave ẩn danh, với tùy chọn cá nhân hóa được tính trên thiết bị và không có lịch sử xem lưu trên máy chủ.",
+      "feed_link": "Xem cách bảng tin hoạt động.",
+      "facebook": "Cách giảm video AI trên bảng tin Facebook",
+      "tiktok": "Cách xem ít nội dung AI hơn trên TikTok",
+      "real": "Nội dung AI rác, thước phim thật và giành lại quyền sáng tạo",
+      "capcut": "Giải pháp thay thế CapCut miễn phí để chỉnh sửa thước phim của bạn",
+      "gallery": "Xem video được tạo bằng ByteWave",
+      "or": "hoặc",
+      "tutorial": "thử hướng dẫn làm mờ chuyển động.",
+      "download": "Chỉnh sửa thước phim của bạn miễn phí"
+    },
+    "compare": {
+      "title": "ByteWave và CapCut",
+      "intro": "Công cụ chỉnh sửa của ByteWave miễn phí. CapCut đưa một số công cụ tương tự vào các gói trả phí.",
+      "feature": "Tính năng",
+      "price": "Giá",
+      "free": "$0",
+      "plans": "Gói miễn phí và trả phí",
+      "watermarks": "Hình mờ",
+      "none": "Không có hình mờ ByteWave",
+      "varies": "Tùy công cụ và cách xuất",
+      "editing": "Chỉnh sửa",
+      "offline": "Trên thiết bị; không cần tài khoản",
+      "cloud": "Công cụ trên thiết bị và đám mây",
+      "data": "Xử lý dữ liệu",
+      "no_tracking": "Không theo dõi hành vi; tài khoản và đăng bài là tùy chọn",
+      "policy": "Xem chính sách quyền riêng tư CapCut",
+      "provenance": "Nguồn gốc video",
+      "stamp": "Dấu ByteWave khi Lưu vào Ảnh",
+      "export_options": "Kiểm tra tùy chọn xuất hiện tại",
+      "slow_motion": "Quay chậm",
+      "included": "Có sẵn",
+      "optical": "Luồng quang học: dùng thử miễn phí",
+      "motion": "Làm mờ chuyển động",
+      "pro_motion": "Được liệt kê trong Pro*",
+      "noise": "Giảm nhiễu video",
+      "pro": "Gói Pro",
+      "desktop": "Máy tính",
+      "upscale": "Nâng độ phân giải bằng AI",
+      "device": "Trên thiết bị",
+      "paid": "Thuê bao trả phí",
+      "mobile": "Cải thiện bằng AI trên di động",
+      "tracks": "Rãnh âm thanh",
+      "unlimited": "Không giới hạn rãnh",
+      "limits": "Kiểm tra giới hạn nền tảng",
+      "tts": "Chuyển văn bản thành giọng nói",
+      "voices": "Giọng miễn phí; giọng cao cấp dùng tín dụng",
+      "captions": "Phụ đề tự động",
+      "pro_captions": "Cần Pro để truy cập đầy đủ",
+      "code": "Mã nguồn bộ lọc có thể chỉnh sửa",
+      "metal": "Có mã nguồn bộ đổ bóng Metal",
+      "filter_tools": "Kiểm tra công cụ bộ lọc hiện tại",
+      "community": "Bộ lọc cộng đồng",
+      "shared": "Bộ đổ bóng được chia sẻ và có thể sửa",
+      "effects": "Hiệu ứng và mẫu miễn phí + Pro",
+      "subject": "Tách chủ thể cho bộ lọc",
+      "masks": "Công cụ tạo mặt nạ và cắt nền",
+      "note": "Kiểm tra ngày 18 tháng 10 năm 2026. Pro là thuê bao trả phí. *CapCut liệt kê làm mờ chuyển động trong Pro nhưng cũng quảng cáo phiên bản miễn phí. Quyền truy cập tùy nền tảng, khu vực và ưu đãi.",
+      "full": "So sánh đầy đủ"
+    },
+    "features": {
+      "title": "Bạn nhận được gì",
+      "items": [
+        {
+          "title": "Kiểm tra C2PA và nguồn gốc video",
+          "body": "Kiểm tra ảnh và video để tìm Content Credentials được hỗ trợ, gồm nhãn nội dung do AI tạo. Mỗi bản xuất bằng Lưu vào Ảnh còn nhận dấu ByteWave để giúp phát hiện thay đổi về sau."
+        },
+        {
+          "title": "Quay chậm và làm mờ chuyển động",
+          "body": "Làm video quay chậm mượt hơn với FRC. Làm mờ chuyển động và giảm nhiễu theo thời gian cũng được xử lý ngay trên thiết bị trước khi xem trước."
+        },
+        {
+          "title": "Nâng độ phân giải bằng AI",
+          "body": "Nâng độ phân giải trên thiết bị. Không xử lý trên đám mây, không chờ máy chủ."
+        },
+        {
+          "title": "Không giới hạn rãnh âm thanh",
+          "body": "Xếp lớp bao nhiêu clip âm thanh tùy nhu cầu trên dòng thời gian trực quan. Có sẵn hiệu ứng âm thanh. Không giới hạn rãnh."
+        },
+        {
+          "title": "Chuyển văn bản thành giọng nói",
+          "body": "Nhập văn bản để tổng hợp giọng nói hoặc tạo phụ đề trên thiết bị. Gắn thẻ tự động tùy chọn giúp người khác tìm video đã chia sẻ và cần tài khoản cùng sự đồng ý bật tính năng."
+        },
+        {
+          "title": "Hiệu ứng chữ",
+          "body": "Lấp lánh, nhiễu, neon và nhiều hơn nữa. Chữ chuyển động không đòi hỏi kiến thức đồ họa chuyển động."
+        },
+        {
+          "title": "Tách chủ thể",
+          "body": "Tách chủ thể khỏi nền và áp dụng bộ lọc riêng cho từng phần. Làm mờ nền, giữ chủ thể sắc nét chỉ với một lần chạm."
+        },
+        {
+          "title": "Bộ lọc tùy chỉnh có mã nguồn",
+          "body": "Mỗi bộ lọc cho bạn xem mã bộ đổ bóng bên trong. Sửa trực tiếp hoặc sao chép mã và nhờ ChatGPT tạo điều mới."
+        },
+        {
+          "title": "Bộ lọc cộng đồng",
+          "body": "Đăng bộ lọc bạn đã tạo. Khám phá và lấy bộ lọc của nhà sáng tạo khác. Chạm một lần để thêm vào thư viện."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Bộ lọc bạn thực sự có thể chỉnh sửa",
+      "desc": "Đa số trình chỉnh sửa giấu cách bộ lọc hoạt động. ByteWave cho bạn xem mã. Thay đổi, học hỏi hoặc sao chép mã và mô tả điều bạn muốn với AI; rồi dán kết quả trở lại.",
+      "comment": "// Nền phong cách ấn tượng, chủ thể sắc nét"
+    },
+    "cta": {
+      "desc": "Chỉnh sửa ngoại tuyến. Không cần tài khoản. Chỉ tải lên khi bạn chọn đăng.",
+      "apple": "Tải cho thiết bị Apple"
+    }
+  }
+}

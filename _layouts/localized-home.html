@@ -1,11 +1,23 @@
+{%- assign local_blog = site.pages | where: 'translation_key', 'blog-index' | where: 'lang', page.lang | first -%}
+{%- assign blog_base = local_blog.url | default: '/blog/' -%}
 {%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign h = t.home -%}
+{%- assign emphasis_class = '' -%}
+{%- if site.data.expanded_languages contains page.lang -%}
+  {%- assign emphasis_length = h.hero.emphasis | size -%}
+  {%- if emphasis_length > 9 -%}
+    {%- assign emphasis_class = 'hero-word-long' -%}
+  {%- elsif emphasis_length > 6 and page.lang != 'ar' -%}
+    {%- assign emphasis_class = 'hero-word-medium' -%}
+  {%- endif -%}
+{%- endif -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
 {%- assign home = page -%}
+{%- assign gallery = site.pages | where: 'translation_key', 'gallery' | where: 'lang', page.lang | first -%}
 {%- assign guide = site.pages | where: "translation_key", "private-editor" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -529,7 +541,7 @@
              fetchpriority="high" decoding="async">
     </picture>
     <p class="eyebrow">{{ h.hero.tag | escape }}</p>
-    <h1 id="hero-title"><span>{{ h.hero.opening | escape }}</span> <em>{{ h.hero.emphasis | escape }}</em> <span>{{ h.hero.ending | escape }}</span></h1>
+    <h1 id="hero-title"><span>{{ h.hero.opening | escape }}</span> <em class="{{ emphasis_class }}">{{ h.hero.emphasis | escape }}</em> <span>{{ h.hero.ending | escape }}</span></h1>
     <p class="hero-body">{{ h.hero.edit | escape }}<br>{{ h.hero.platforms | escape }}</p>
     <div class="hero-actions">
         <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=landing_ocean_hero{{ page.campaign_suffix }}&amp;mt=8" class="btn-primary">{{ h.download | escape }}</a>
@@ -548,7 +560,7 @@
             <li><strong>{{ h.showcase.effects | escape }} <a href="{{ home.url | relative_url }}tutorials/animated-captions/">{{ h.showcase.captions | escape }}</a></strong><span>{{ h.showcase.captions_desc | escape }}</span></li>
             <li><strong>{{ h.showcase.audio | escape }}</strong><span>{{ h.showcase.audio_desc | escape }}</span></li>
         </ul>
-        <a href="{{ home.url | relative_url }}gallery/">{{ h.showcase.gallery | escape }}</a>
+        <a href="{{ gallery.url | default: '/gallery/' | relative_url }}">{{ h.showcase.gallery | escape }}</a>
     </div>
     <div class="app-images">
         <img src="/assets/landing/editor.webp" width="560" height="1212" loading="lazy" decoding="async" alt="{{ h.showcase.editor_alt | escape }}">
@@ -568,11 +580,11 @@
         <div>
             <h3>{{ h.credentials.signed | escape }}</h3>
             <p>{{ h.credentials.signed_desc | escape }}</p>
-            <a href="{{ home.url | relative_url }}blog/provenance.html#signed-exports">{{ h.credentials.signed_link | escape }}</a>
+            <a href="{{ blog_base | relative_url }}provenance.html#signed-exports"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.credentials.signed_link | escape }}</a>
         </div>
     </div>
     <p class="credentials-note">{{ h.credentials.caveat | escape }}</p>
-    <a class="credentials-guide" href="{{ home.url | relative_url }}blog/tools-newsrooms-check-ai-generated-media.html">{{ h.credentials.newsrooms | escape }}</a>
+    <a class="credentials-guide" href="{{ blog_base | relative_url }}tools-newsrooms-check-ai-generated-media.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.credentials.newsrooms | escape }}</a>
 </section>
 
 <section class="geese-section" aria-labelledby="geese-title">
@@ -614,9 +626,9 @@
         {{ h.privacy.local | escape }} <strong>{{ h.privacy.sharing | escape }}</strong>
     </p>
     <p>
-        {{ h.privacy.stamp | escape }} <a href="{{ home.url | relative_url }}blog/provenance.html#signed-exports">{{ h.privacy.stamp_link | escape }}</a>
+        {{ h.privacy.stamp | escape }} <a href="{{ blog_base | relative_url }}provenance.html#signed-exports"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.privacy.stamp_link | escape }}</a>
     </p>
-    <p><a href="{{ guide.url | relative_url }}">{{ h.privacy.guide | escape }} →</a></p>
+    <p><a href="{{ guide.url | default: '/blog/best-video-editor-privacy-no-upload.html' | relative_url }}">{{ h.privacy.guide | escape }} →</a></p>
 </section>
 
 <hr class="divider">
@@ -630,15 +642,15 @@
         {{ h.creative.tools | escape }}
     </p>
     <p>
-        {{ h.creative.feed | escape }} <a href="{{ home.url | relative_url }}blog/how-bytewave-feed-works-without-server-watch-history.html">{{ h.creative.feed_link | escape }}</a>
+        {{ h.creative.feed | escape }} <a href="{{ blog_base | relative_url }}how-bytewave-feed-works-without-server-watch-history.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.creative.feed_link | escape }}</a>
     </p>
     <ul class="guide-links">
-        <li><a href="{{ home.url | relative_url }}blog/reduce-ai-videos-facebook-feed.html">{{ h.creative.facebook | escape }}</a></li>
-        <li><a href="{{ home.url | relative_url }}blog/reduce-ai-content-tiktok-feed.html">{{ h.creative.tiktok | escape }}</a></li>
-        <li><a href="{{ home.url | relative_url }}blog/tired-of-ai-videos-social-media.html">{{ h.creative.real | escape }}</a></li>
-        <li><a href="{{ home.url | relative_url }}blog/free-capcut-alternative-2026.html">{{ h.creative.capcut | escape }}</a></li>
+        <li><a href="{{ blog_base | relative_url }}reduce-ai-videos-facebook-feed.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.creative.facebook | escape }}</a></li>
+        <li><a href="{{ blog_base | relative_url }}reduce-ai-content-tiktok-feed.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.creative.tiktok | escape }}</a></li>
+        <li><a href="{{ blog_base | relative_url }}tired-of-ai-videos-social-media.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.creative.real | escape }}</a></li>
+        <li><a href="{{ blog_base | relative_url }}free-capcut-alternative-2026.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.creative.capcut | escape }}</a></li>
     </ul>
-    <p><a href="{{ home.url | relative_url }}gallery/">{{ h.creative.gallery | escape }}</a> {{ h.creative.or | escape }} <a href="{{ home.url | relative_url }}tutorials/motion-blur/">{{ h.creative.tutorial | escape }}</a></p>
+    <p><a href="{{ gallery.url | default: '/gallery/' | relative_url }}">{{ h.creative.gallery | escape }}</a> {{ h.creative.or | escape }} <a href="{{ home.url | relative_url }}tutorials/motion-blur/">{{ h.creative.tutorial | escape }}</a></p>
     <div class="hero-actions">
         <a class="btn-primary" href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=seo_creative_control{{ page.campaign_suffix }}&amp;mt=8">{{ h.creative.download | escape }}</a>
     </div>
@@ -676,7 +688,7 @@
 <tr><th scope="row">{{ h.compare.subject | escape }}</th><td>{{ h.compare.included | escape }}</td><td>{{ h.compare.masks | escape }}</td></tr>
 </tbody>
     </table>
-<p class="comparison-note" id="capcut-plan-note">{{ h.compare.note | escape }} <a href="{{ home.url | relative_url }}blog/free-capcut-alternative-2026.html">{{ h.compare.full | escape }}</a>.</p>
+<p class="comparison-note" id="capcut-plan-note">{{ h.compare.note | escape }} <a href="{{ blog_base | relative_url }}free-capcut-alternative-2026.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ h.compare.full | escape }}</a>.</p>
 </section>
 
 <hr class="divider">

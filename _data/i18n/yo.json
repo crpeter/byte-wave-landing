@@ -1,0 +1,231 @@
+{
+  "name": "Yorùbá",
+  "nav": {
+    "skip": "Lọ sí àkóónú",
+    "label": "Ìrìnàjò àkọ́kọ́",
+    "menu": "Àkójọ",
+    "home": "Ilé",
+    "features": "Àwọn àbùdá",
+    "compare": "Fi wé ara wọn",
+    "gallery": "Ilé àwòrán",
+    "tutorials": "Àwọn ẹ̀kọ́",
+    "blog": "Búlóògù",
+    "about": "Nípa wa",
+    "privacy": "Àṣírí",
+    "press": "Ilé ìròyìn",
+    "expression": "Òmìnira ọ̀rọ̀",
+    "download": "Ṣe ìgbàsílẹ̀ lọ́fẹ̀ẹ́"
+  },
+  "footer": {
+    "motto": "Ó yẹ kí àtúnṣe fídíò jẹ́ ọ̀fẹ́.",
+    "devices": "iPhone tó ní iOS 26 tàbí tuntun jù bẹ́ẹ̀ lọ · iPad tó ní iPadOS 26 tàbí tuntun jù bẹ́ẹ̀ lọ · Mac tó ní macOS 26 tàbí tuntun jù bẹ́ẹ̀ lọ àti Apple M1 tàbí tuntun jù bẹ́ẹ̀ lọ."
+  },
+  "get_free": "Gba ByteWave lọ́fẹ̀ẹ́",
+  "social_alt": "Àwòkọ́ṣe ByteWave fún ìkànnì àjọṣepọ̀",
+  "disclosure": {
+    "label": "Ìkéde nípa AI:",
+    "text": "Àpilẹ̀kọ yìí ní ọ̀rọ̀ tí àwòṣe èdè AI (LLM) ṣe.",
+    "by": "Látọwọ́",
+    "review": "ByteWave ṣàyẹ̀wò àwọn ẹ̀sùn nípa ọja; àwọn ìfiwéra ń fi èrè òwò ByteWave hàn, wọn kì í ṣe àyẹ̀wò olómìnira."
+  },
+  "player": {
+    "play": "Ṣeré fídíò",
+    "replay": "Ṣeré fídíò lẹ́ẹ̀kan sí i",
+    "retry": "Gbìyànjú fídíò lẹ́ẹ̀kan sí i",
+    "tap": "Fọwọ́ kàn án láti ṣeré fídíò",
+    "tap_hint": "Fọwọ́ kan ṣeré láti bẹ̀rẹ̀ fídíò náà.",
+    "loading": "Ń kó fídíò wá…",
+    "fallback": "Ń gbìyànjú ẹ̀dà fídíò tó bá ẹrọ mu…",
+    "failed": "A kò lè kó fídíò náà wá. Gbìyànjú lẹ́ẹ̀kan sí i tàbí ṣí ìjápọ̀ fídíò ní ìsàlẹ̀."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Olóòtú Fídíò Ọ̀fẹ́ Tó Ń Lo GPU fún iPhone, iPad àti Mac",
+      "description": "Ṣàtúnṣe àwòrán tí o ya pẹ̀lú ByteWave, olóòtú fídíò ọ̀fẹ́ fún iPhone, iPad àti Mac. Kò sí àmì omi tàbí ìforúkọsílẹ̀ owó. Àtúnṣe lórí ẹrọ, àkọlé ọ̀rọ̀, ipa àti ohùn.",
+      "keywords": "olóòtú fídíò ọ̀fẹ́, olóòtú fídíò láìsí àmì omi, àfidípò capcut, olóòtú fídíò ios, shader metal, olóòtú fídíò gpu, olóòtú fídíò láìsí ìforúkọsílẹ̀, olóòtú fídíò àṣírí, olóòtú fídíò ọ̀fẹ́ iphone",
+      "social_title": "ByteWave - Olóòtú Fídíò Ọ̀fẹ́ fún iPhone, iPad àti Mac",
+      "og_description": "Àwòrán rẹ. Ìpinnu iṣẹ́ ọnà rẹ. Àtúnṣe fídíò ọ̀fẹ́ lórí iPhone, iPad àti Mac, láìsí àmì omi tàbí ìforúkọsílẹ̀ owó.",
+      "twitter_description": "Ṣàtúnṣe àwòrán tí o ya. Kò sí àmì omi tàbí ìforúkọsílẹ̀ owó. Àtúnṣe lórí ẹrọ, pẹ̀lú pípín bí o bá fẹ́.",
+      "logo_alt": "Àmì ByteWave"
+    },
+    "schema": {
+      "description": "Olóòtú fídíò ọ̀fẹ́ fún iPhone, iPad àti Mac. Ṣàtúnṣe àwòrán tí o ya pẹ̀lú ìṣètò lórí ẹrọ, ohùn ní fẹ́lẹ́fẹ́lẹ́ àti ipa tó ń lo Metal. Kò sí àmì omi tàbí ìforúkọsílẹ̀ owó; pípín lórí ayélujára jẹ́ àṣàyàn.",
+      "features": "Olóòtú Shader Metal Àdáni, Ìgbéga Ìpinnu Gíga, Ìríru Ìṣípò, Ìdínkù Ariwo Àkókò, Àlẹ̀mọ́ Àwùjọ, Àwọn Ipa Ohùn Láìlópin, Ìṣètò Lórí Ẹrọ, Kíkà Content Credentials C2PA, Ìkéde Ìṣẹ̀dá AI Tí A Jẹ́rìí Sí, Ìtàn Orísun Fídíò Pẹ̀lú Kriptógíráfì"
+    },
+    "hero": {
+      "tag": "ByteWave · Olóòtú fídíò ọ̀fẹ́",
+      "opening": "Ṣẹ̀dá ohun kan",
+      "emphasis": "Tó jẹ́ òtítọ́",
+      "ending": "kì í ṣe reel lásán.",
+      "edit": "Ṣàtúnṣe àwòrán tí o ya. Lórí ẹrọ rẹ.",
+      "platforms": "Olóòtú fídíò ọ̀fẹ́ fún iPhone, iPad àti Mac.",
+      "examples": "Wo ohun tí o lè ṣẹ̀dá ↓",
+      "no_watermarks": "Kò sí ìforúkọsílẹ̀ owó. Kò sí àmì omi lórí fídíò tí o kó jáde.",
+      "devices": "iOS / iPadOS 26 tàbí tuntun jù bẹ́ẹ̀ lọ. Mac: macOS 26 tàbí tuntun jù bẹ́ẹ̀ lọ, M1 tàbí tuntun jù bẹ́ẹ̀ lọ.",
+      "play_background": "Ṣeré fídíò abẹ́lẹ̀",
+      "pause_background": "Dá fídíò abẹ́lẹ̀ dúró"
+    },
+    "download": "Ṣe ìgbàsílẹ̀ ByteWave",
+    "showcase": {
+      "tag": "Bẹ̀rẹ̀ pẹ̀lú ohun tí o ya",
+      "footage": "Àwòrán rẹ.",
+      "edit": "Àtúnṣe rẹ.",
+      "intro": "Mú àwòrán àti fídíò rẹ wá. Jẹ́ kí ìyókù jẹ́ ti ìṣẹ̀dá rẹ.",
+      "layout": "Layout láti ByteWave",
+      "layout_desc": "Darapọ̀ àwòrán àti fídíò nínú àkójọpọ̀ kan.",
+      "effects": "Àlẹ̀mọ́, ipa àti",
+      "captions": "àkọlé ọ̀rọ̀ tó ń rìn",
+      "captions_desc": "Wa ìrísí rẹ. Fi ọ̀rọ̀ tirẹ̀ sí i.",
+      "audio": "Irinṣẹ́ ohùn",
+      "audio_desc": "To àwọn ipa ohùn ní fẹ́lẹ́fẹ́lẹ́ kí o sì ṣe ohùn fídíò rẹ bí o ṣe fẹ́.",
+      "gallery": "Wo àwọn fídíò tí a ṣe pẹ̀lú ByteWave →",
+      "editor_alt": "Olóòtú ByteWave tó ń fi àwòrán ìwọ̀ oòrùn àti irinṣẹ́ àtúnṣe lórí ẹrọ hàn",
+      "layout_alt": "Layout láti ByteWave tó darapọ̀ àwòrán àti fídíò òkun mẹ́fà nínú àkójọpọ̀ kan"
+    },
+    "credentials": {
+      "tag": "Àwòrán, fídíò àti AI",
+      "title": "Ṣé AI ni a fi ṣe èyí?",
+      "check": "Ṣàyẹ̀wò àwòrán tàbí fídíò.",
+      "check_desc": "ByteWave ń ka Content Credentials C2PA tí a ń ṣe àtìlẹ́yìn fún, pẹ̀lú àmì tí a fọwọ́ sí tó ń dá àkóónú tí AI ṣe mọ̀. Àyẹ̀wò náà ń ṣiṣẹ́ lórí ẹrọ rẹ.",
+      "how": "Bí a ṣe ń ṣàyẹ̀wò fáìlì →",
+      "signed": "A ń fọwọ́ sí àwọn fáìlì tí o kó jáde.",
+      "signed_desc": "Gbogbo ohun tí o kó jáde pẹ̀lú Save to Photos ń gba àmì orísun ByteWave pẹ̀lú ìbuwọ́lu díjítà. Ó ń ràn wá lọ́wọ́ láti fi hàn pé fáìlì náà wá láti ByteWave àti bóyá ó ti yí padà lẹ́yìn ìbuwọ́lu.",
+      "signed_link": "Bí àwọn fáìlì tí a fọwọ́ sí ṣe ń ṣiṣẹ́ →",
+      "caveat": "Kò sí ẹ̀rí orísun? Ìyẹn kò túmọ̀ sí òtítọ́ tàbí èké. Ìbuwọ́lu kò lè fi hàn pé ìṣẹ̀lẹ̀ náà ṣẹlẹ̀.",
+      "newsrooms": "Ń ṣàyẹ̀wò àwòrán fún ìròyìn? Bẹ̀rẹ̀ níbí →"
+    },
+    "geese": {
+      "tag": "Gbogbo irinṣẹ́ àtúnṣe. Ọ̀fẹ́.",
+      "opening": "Òmìnira bí",
+      "emphasis": "ẹyẹ gúúsì.",
+      "desc": "Kò sí ìforúkọsílẹ̀ owó. Kò sí àmì omi lórí fídíò tí o kó jáde. O kò nílò àkọọ́lẹ̀ fún àtúnṣe lórí ẹrọ.",
+      "fallback": "Ṣí ẹ̀dà tó bá ẹrọ mu",
+      "caption": "Àwọn ẹyẹ gúúsì ń rìn lórí omi tó ń ṣàn, pẹ̀lú “Free as in geese” lójú ìbòjú.",
+      "alt": "Òmìnira bí ẹyẹ gúúsì: àwòkọ́ṣe ohun èlò ByteWave"
+    },
+    "privacy": {
+      "title": "Fídíò rẹ ń dúró lórí ẹrọ rẹ",
+      "intro": "Bẹ̀rẹ̀ pẹ̀lú àsìkò tí o gbà sílẹ̀. Gé àwọn apá fídíò, ṣètò ohùn, kí o sì yan ipa fúnra rẹ. ByteWave ń fi àtúnṣe àti ìṣètò sí ẹrọ Apple rẹ tí a ń ṣe àtìlẹ́yìn fún.",
+      "local": "ByteWave ń ṣe àtúnṣe lórí ẹrọ Apple rẹ.",
+      "sharing": "O kò nílò àkọọ́lẹ̀ fún àtúnṣe lórí ẹrọ, a kì í sì í gbé fídíò rẹ sókè ayélujára àyàfi tí o bá yan ní kedere láti tẹ̀ ẹ́ jáde tàbí pín in nípasẹ̀ àbùdá ayélujára.",
+      "stamp": "Gbogbo ohun tí a kó jáde pẹ̀lú Save to Photos ni a ń fọwọ́ sí nípasẹ̀ kriptógíráfì pẹ̀lú metadata orísun ByteWave, láti ran àyẹ̀wò orísun ByteWave rẹ̀ lọ́wọ́ àti bóyá fáìlì náà ti yí padà lẹ́yìn ìbuwọ́lu. Ìbuwọ́lu kò lè fi hàn pé ìṣẹ̀lẹ̀ tí a fi hàn ṣẹlẹ̀.",
+      "stamp_link": "Kọ́ ohun tí fáìlì tí a fọwọ́ sí ń jẹ́rìí sí.",
+      "guide": "Bí a ṣe ń ṣàtúnṣe láìgbé àwòrán sókè ayélujára"
+    },
+    "creative": {
+      "title": "Ṣé ó rẹ̀ ọ́ bí fídíò AI ṣe ń gba ojúewé rẹ?",
+      "intro": "Tí Facebook tàbí TikTok bá dà bí ibi tó kún fún fídíò tí a dá sílẹ̀, tàbí tí àwọn àbùdá AI CapCut kì í ṣe ohun tí o wá láti lò fún àtúnṣe, o lè bẹ̀rẹ̀ pẹ̀lú àwòrán tí o ya fúnra rẹ.",
+      "choice": "Àwọn ohun tí o gbà sílẹ̀, àtúnṣe rẹ, ìpinnu rẹ láti pín.",
+      "tools": "ByteWave fún ọ ní irinṣẹ́ láti ṣiṣẹ́ lórí ohun tí o ya: àkọlé ọ̀rọ̀ tó ń rìn, àlẹ̀mọ́ àdáni, ìṣípò díẹ̀díẹ̀ àti ohùn ní fẹ́lẹ́fẹ́lẹ́. Àwọn àbùdá ìrànlọ́wọ́ bí ìgbéga ìpinnu wà; o kò nílò láti ṣẹ̀dá ìran kan láti àṣẹ ọ̀rọ̀ kí o tó lè ṣàtúnṣe fídíò.",
+      "feed": "Wo ojúewé gbangba ByteWave láìfi orúkọ hàn, pẹ̀lú àṣàyàn àtúnṣe ara ẹni tí a ń ṣe lórí ẹrọ rẹ àti láìsí ìtàn ohun tí o wò lórí sáfà.",
+      "feed_link": "Wo bí ojúewé náà ṣe ń ṣiṣẹ́.",
+      "facebook": "Bí o ṣe lè dín fídíò AI kù lórí ojúewé Facebook rẹ",
+      "tiktok": "Bí o ṣe lè rí àkóónú AI díẹ̀ sí i lórí TikTok",
+      "real": "Àkóónú AI tí kò níye, àwòrán gidi àti gbígba àṣẹ ìṣẹ̀dá padà",
+      "capcut": "Àfidípò CapCut ọ̀fẹ́ fún àtúnṣe àwòrán tí o ya",
+      "gallery": "Wo àwọn fídíò tí a ṣe pẹ̀lú ByteWave",
+      "or": "tàbí",
+      "tutorial": "gbìyànjú ẹ̀kọ́ ìríru ìṣípò.",
+      "download": "Ṣàtúnṣe àwòrán tí o ya lọ́fẹ̀ẹ́"
+    },
+    "compare": {
+      "title": "ByteWave àti CapCut",
+      "intro": "Àwọn irinṣẹ́ àtúnṣe ByteWave jẹ́ ọ̀fẹ́. CapCut ń fi díẹ̀ lára irú irinṣẹ́ náà sínú ètò ìsanwó.",
+      "feature": "Àbùdá",
+      "price": "Owó",
+      "free": "$0",
+      "plans": "Ètò ọ̀fẹ́ àti ti ìsanwó",
+      "watermarks": "Àmì omi",
+      "none": "Kò sí àmì omi ByteWave",
+      "varies": "Ó dá lórí irinṣẹ́ àti ìkójáde",
+      "editing": "Àtúnṣe",
+      "offline": "Lórí ẹrọ; kò nílò àkọọ́lẹ̀",
+      "cloud": "Irinṣẹ́ lórí ẹrọ àti nínú àwọsánmà",
+      "data": "Ìtọ́jú dátà",
+      "no_tracking": "Kò sí tọpinpin ìwà; àkọọ́lẹ̀ àti títẹ̀jáde jẹ́ àṣàyàn",
+      "policy": "Wo ìlànà àṣírí CapCut",
+      "provenance": "Orísun fídíò",
+      "stamp": "Àmì ByteWave lórí Save to Photos",
+      "export_options": "Ṣàyẹ̀wò àṣàyàn ìkójáde tó wà báyìí",
+      "slow_motion": "Ìṣípò díẹ̀díẹ̀",
+      "included": "Ó wà nínú rẹ̀",
+      "optical": "Optical flow: gbìyànjú lọ́fẹ̀ẹ́",
+      "motion": "Ìríru ìṣípò",
+      "pro_motion": "A tò ó sínú Pro*",
+      "noise": "Ìdínkù ariwo fídíò",
+      "pro": "Ètò Pro",
+      "desktop": "Kọ̀ǹpútà orí tábìlì",
+      "upscale": "Ìgbéga ìpinnu pẹ̀lú AI",
+      "device": "Lórí ẹrọ",
+      "paid": "Ìforúkọsílẹ̀ owó",
+      "mobile": "Ìmúdára AI lórí fóònù",
+      "tracks": "Àwọn ipa ohùn",
+      "unlimited": "Kò sí ààlà àwọn ipa ohùn",
+      "limits": "Ṣàyẹ̀wò ààlà pẹpẹ",
+      "tts": "Ọ̀rọ̀ sí ohùn",
+      "voices": "Ohùn ọ̀fẹ́; ohùn àkànṣe ń lo kírẹ́dítì",
+      "captions": "Àkọlé ọ̀rọ̀ aládàáṣiṣẹ́",
+      "pro_captions": "Pro fún àǹfààní kíkún",
+      "code": "Kóòdù orísun àlẹ̀mọ́ tí a lè ṣàtúnṣe",
+      "metal": "Kóòdù orísun shader Metal wà nínú rẹ̀",
+      "filter_tools": "Ṣàyẹ̀wò irinṣẹ́ àlẹ̀mọ́ tó wà báyìí",
+      "community": "Àlẹ̀mọ́ àwùjọ",
+      "shared": "Shader tí a pín tí a sì lè ṣàtúnṣe",
+      "effects": "Ipa àti àwòṣe ọ̀fẹ́ àti Pro",
+      "subject": "Yíya kókó àwòrán sọ́tọ̀ fún àlẹ̀mọ́",
+      "masks": "Irinṣẹ́ ìbòjú àti gígé àwòrán",
+      "note": "A ṣàyẹ̀wò rẹ̀ ní Ọ̀wàrà 18, 2026. Pro jẹ́ ìforúkọsílẹ̀ owó. *CapCut tò ìríru ìṣípò sínú Pro, ṣùgbọ́n ó tún ń polówó ẹ̀dà ọ̀fẹ́. Àǹfààní yàtọ̀ sí pẹpẹ, agbègbè àti ìfilọ́lẹ̀.",
+      "full": "Ìfiwéra kíkún"
+    },
+    "features": {
+      "title": "Ohun tí o ń rí gbà",
+      "items": [
+        {
+          "title": "Àyẹ̀wò C2PA àti orísun fídíò",
+          "body": "Ṣàyẹ̀wò àwòrán àti fídíò fún Content Credentials tí a ń ṣe àtìlẹ́yìn fún, pẹ̀lú àmì ìṣẹ̀dá AI. Gbogbo ìkójáde Save to Photos tún ń gba àmì ByteWave láti ran ìdámọ̀ àyípadà ọjọ́ iwájú lọ́wọ́."
+        },
+        {
+          "title": "Ìṣípò díẹ̀díẹ̀ àti ìríru ìṣípò",
+          "body": "Jẹ́ kí fídíò ìṣípò díẹ̀díẹ̀ rọrùn sí i pẹ̀lú FRC. A tún ń ṣe ìríru ìṣípò àti ìdínkù ariwo àkókò lórí ẹrọ rẹ kí àwòkọ́ṣe tó hàn."
+        },
+        {
+          "title": "Ìgbéga ìpinnu pẹ̀lú AI",
+          "body": "Gbé ìpinnu àwòrán ga lórí ẹrọ. Kò sí ìṣètò àwọsánmà, kò sí dídúró de sáfà."
+        },
+        {
+          "title": "Àwọn ipa ohùn láìlópin",
+          "body": "To apá ohùn bí o ṣe nílò tó ní fẹ́lẹ́fẹ́lẹ́ lórí ìlà àkókò tí o lè rí. Ipa ohùn inú ohun èlò. Kò sí ààlà ipa ohùn."
+        },
+        {
+          "title": "Ọ̀rọ̀ sí ohùn",
+          "body": "Tẹ ọ̀rọ̀ fún ṣíṣe ohùn tàbí dá àkọlé ọ̀rọ̀ sílẹ̀ lórí ẹrọ rẹ. Fífi àmì sí aládàáṣiṣẹ́, tó jẹ́ àṣàyàn, ń ran àwọn míì lọ́wọ́ láti rí fídíò tí a pín, ó sì nílò àkọọ́lẹ̀ àti ìfọwọ́sí."
+        },
+        {
+          "title": "Ipa ọ̀rọ̀",
+          "body": "Ìmọ́lẹ̀, glitch, neon àti bẹ́ẹ̀ bẹ́ẹ̀ lọ. Ọ̀rọ̀ tó ń rìn tí kò nílò ìmọ̀ àwòrán tó ń rìn."
+        },
+        {
+          "title": "Yíya kókó àwòrán sọ́tọ̀",
+          "body": "Ya kókó àwòrán kúrò ní abẹ́lẹ̀ kí o sì lo àlẹ̀mọ́ fún ọ̀kọ̀ọ̀kan lọ́tọ̀. Mú abẹ́lẹ̀ rú, kí kókó àwòrán dúró kedere; ìfọwọ́kàn kan ṣoṣo."
+        },
+        {
+          "title": "Àlẹ̀mọ́ àdáni pẹ̀lú kóòdù orísun",
+          "body": "Gbogbo àlẹ̀mọ́ ń fi kóòdù shader inú rẹ̀ hàn ọ́. Ṣàtúnṣe rẹ̀ tààrà, tàbí da kóòdù náà kọ kí o sì sọ fún ChatGPT láti ṣẹ̀dá ohun tuntun."
+        },
+        {
+          "title": "Àlẹ̀mọ́ àwùjọ",
+          "body": "Tẹ àlẹ̀mọ́ tí o ṣe jáde. Wo kí o sì gba àlẹ̀mọ́ láti ọ̀dọ̀ àwọn olùṣẹ̀dá míì. Ìfọwọ́kàn kan láti fi kún ibi ìkójọpọ̀ rẹ."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Àlẹ̀mọ́ tí o lè ṣàtúnṣe gan-an",
+      "desc": "Ọ̀pọ̀ olóòtú ń pa bí àlẹ̀mọ́ ṣe ń ṣiṣẹ́ mọ́. ByteWave ń fi kóòdù hàn ọ́. Yí i padà, kọ́ ẹ̀kọ́ lára rẹ̀, tàbí da a kọ kí o sì ṣàlàyé ohun tí o fẹ́ fún AI; lẹ èsì náà padà sínú rẹ̀.",
+      "comment": "// Abẹ́lẹ̀ ní ọ̀nà Impressionism, kókó àwòrán tó ṣe kedere"
+    },
+    "cta": {
+      "desc": "Ṣàtúnṣe láìsí ayélujára. Kò nílò àkọọ́lẹ̀. Gbé sókè nígbà tí o bá yan láti tẹ̀ jáde nìkan.",
+      "apple": "Ṣe ìgbàsílẹ̀ fún Apple"
+    }
+  }
+}

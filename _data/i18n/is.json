@@ -1,0 +1,231 @@
+{
+  "name": "Íslenska",
+  "nav": {
+    "skip": "Fara í efni",
+    "label": "Aðalvalmynd",
+    "menu": "Valmynd",
+    "home": "Forsíða",
+    "features": "Eiginleikar",
+    "compare": "Samanburður",
+    "gallery": "Myndasafn",
+    "tutorials": "Leiðbeiningar",
+    "blog": "Blogg",
+    "about": "Um",
+    "privacy": "Persónuvernd",
+    "press": "Fjölmiðlar",
+    "expression": "Tjáningarfrelsi",
+    "download": "Sækja ókeypis"
+  },
+  "footer": {
+    "motto": "Myndvinnsla á að vera ókeypis.",
+    "devices": "iPhone með iOS 26 eða nýrra · iPad með iPadOS 26 eða nýrra · Mac með macOS 26 eða nýrra og Apple M1 eða nýrri örgjörva."
+  },
+  "get_free": "Sæktu ByteWave ókeypis",
+  "social_alt": "Forskoðun fyrir samfélagsmiðla með vörumerki ByteWave",
+  "disclosure": {
+    "label": "Upplýsingar um gervigreind:",
+    "text": "Þessi grein inniheldur texta sem var búinn til með stóru gervigreindarmállíkani (LLM).",
+    "by": "Eftir",
+    "review": "ByteWave fór yfir fullyrðingar um vöruna; samanburðurinn endurspeglar viðskiptahagsmuni ByteWave og er ekki óháð umsögn."
+  },
+  "player": {
+    "play": "Spila myndskeið",
+    "replay": "Spila myndskeið aftur",
+    "retry": "Reyna aftur að spila",
+    "tap": "Ýttu til að spila myndskeið",
+    "tap_hint": "Ýttu á spilun til að hefja myndskeiðið.",
+    "loading": "Hleð myndskeiði…",
+    "fallback": "Reyni samhæfa myndskeiðið…",
+    "failed": "Ekki tókst að hlaða myndskeiðinu. Reyndu aftur eða opnaðu myndskeiðstengilinn hér fyrir neðan."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Ókeypis GPU-knúið myndvinnsluforrit fyrir iPhone, iPad og Mac",
+      "description": "Klipptu þínar eigin upptökur með ByteWave, ókeypis myndvinnsluforriti fyrir iPhone, iPad og Mac. Engin vatnsmerki eða áskrift. Staðbundin klipping, skjátextar, brellur og hljóð.",
+      "keywords": "ókeypis myndvinnsla, myndvinnsla án vatnsmerkis, valkostur við capcut, ios myndvinnsla, metal shaders, gpu myndvinnsla, myndvinnsla án áskriftar, persónuvernd í myndvinnslu, ókeypis myndvinnsla iphone",
+      "social_title": "ByteWave - Ókeypis myndvinnsla fyrir iPhone, iPad og Mac",
+      "og_description": "Þínar upptökur. Þínar skapandi ákvarðanir. Ókeypis staðbundin myndvinnsla fyrir iPhone, iPad og Mac, án vatnsmerkja eða áskriftar.",
+      "twitter_description": "Klipptu þínar eigin upptökur. Engin vatnsmerki eða áskrift. Staðbundin myndvinnsla með valfrjálsri deilingu.",
+      "logo_alt": "ByteWave-merki"
+    },
+    "schema": {
+      "description": "Ókeypis myndvinnsluforrit fyrir iPhone, iPad og Mac. Klipptu eigin upptökur með staðbundinni myndgerð, hljóði í mörgum lögum og Metal-knúnum brellum. Engin vatnsmerki eða áskrift; deiling á netinu er valfrjáls.",
+      "features": "Ritill fyrir sérsniðna Metal-skyggjara, uppskalun í ofurupplausn, hreyfiþoka, tímabundin suðminnkun, síur frá samfélaginu, ótakmarkaður fjöldi hljóðrása, vinnsla í tækinu, lestur C2PA Content Credentials, staðfestar yfirlýsingar um gervigreindargerð, dulritaður uppruni myndskeiða"
+    },
+    "hero": {
+      "tag": "ByteWave · Ókeypis myndvinnsla",
+      "opening": "Skapaðu eitthvað",
+      "emphasis": "ekta",
+      "ending": "ekki bara enn eitt stuttmyndskeiðið.",
+      "edit": "Klipptu þínar eigin upptökur. Staðbundið í tækinu.",
+      "platforms": "Ókeypis myndvinnsluforrit fyrir iPhone, iPad og Mac.",
+      "examples": "Sjáðu hvað þú getur skapað ↓",
+      "no_watermarks": "Engin áskrift. Engin vatnsmerki við útflutning.",
+      "devices": "iOS / iPadOS 26 eða nýrra. Mac: macOS 26 eða nýrra, M1 eða nýrri.",
+      "play_background": "Spila bakgrunnsmyndskeið",
+      "pause_background": "Gera hlé á bakgrunnsmyndskeiði"
+    },
+    "download": "Sækja ByteWave",
+    "showcase": {
+      "tag": "Byrjaðu á því sem þú tókst upp",
+      "footage": "Þínar upptökur.",
+      "edit": "Þín klipping.",
+      "intro": "Komdu með myndirnar þínar og myndskeiðin. Gerðu afganginn að þínu.",
+      "layout": "Layout frá ByteWave",
+      "layout_desc": "Sameinaðu myndir og myndskeið í eina samsetningu.",
+      "effects": "Síur, brellur og",
+      "captions": "hreyfanlegir skjátextar",
+      "captions_desc": "Finndu þinn stíl. Settu þín eigin orð á hann.",
+      "audio": "Hljóðverkfæri",
+      "audio_desc": "Leggðu saman hljóðrásir og mótaðu hljóðið í myndskeiðinu.",
+      "gallery": "Sjáðu myndskeið gerð með ByteWave →",
+      "editor_alt": "ByteWave-ritill með sólarlagsupptöku og myndvinnsluverkfærum sem keyra í tækinu",
+      "layout_alt": "Layout frá ByteWave sameinar sex sjávarmyndir og myndskeið í eina samsetningu"
+    },
+    "credentials": {
+      "tag": "Myndir, myndskeið og gervigreind",
+      "title": "Var þetta gert með gervigreind?",
+      "check": "Athugaðu mynd eða myndskeið.",
+      "check_desc": "ByteWave les studd C2PA Content Credentials, þar á meðal undirritaðar merkingar sem auðkenna efni gert með gervigreind. Athugunin fer fram í tækinu þínu.",
+      "how": "Svona athugarðu skrá →",
+      "signed": "Útfluttar skrár eru undirritaðar.",
+      "signed_desc": "Hver útflutningur með Vista í Myndir fær upprunastimpil ByteWave með stafrænni undirskrift. Hann hjálpar til við að sýna að skráin kom úr ByteWave og hvort hún hefur breyst frá undirritun.",
+      "signed_link": "Svona virkar undirritaður útflutningur →",
+      "caveat": "Engin upprunavottorð? Það þýðir hvorki ekta né falsað. Undirskrift sannar ekki að atburður hafi átt sér stað.",
+      "newsrooms": "Ertu að athuga upptökur fyrir frétt? Byrjaðu hér →"
+    },
+    "geese": {
+      "tag": "Öll myndvinnsluverkfærin. Ókeypis.",
+      "opening": "Frjáls eins og",
+      "emphasis": "gæs.",
+      "desc": "Engin áskrift. Engin vatnsmerki við útflutning. Engan aðgang þarf fyrir staðbundna vinnslu.",
+      "fallback": "Opna samhæft afrit",
+      "caption": "Gæsir sigla um rennandi vatn með textanum “Free as in geese” á skjánum.",
+      "alt": "Frjáls eins og gæs: kynning á ByteWave-appinu"
+    },
+    "privacy": {
+      "title": "Myndskeiðin þín haldast í tækinu",
+      "intro": "Byrjaðu á augnablikunum sem þú tókst upp. Snyrtu klippur, mótaðu hljóðið og veldu brellurnar sjálf/ur. ByteWave heldur klippingu og myndgerð í studda Apple-tækinu þínu.",
+      "local": "ByteWave vinnur myndskeið staðbundið í Apple-tækinu þínu.",
+      "sharing": "Engan aðgang þarf fyrir staðbundna vinnslu og myndskeiðunum þínum er ekki hlaðið upp nema þú veljir sérstaklega að birta eða deila þeim með neteiginleika.",
+      "stamp": "Hver útflutningur með Vista í Myndir er undirritaður með dulritun og upprunalýsigögnum ByteWave til að hjálpa við að staðfesta ByteWave-uppruna hans og hvort skráin hefur breyst frá undirritun. Undirskrift getur ekki sannað að sýndur atburður hafi átt sér stað.",
+      "stamp_link": "Lestu hvað undirritaður útflutningur getur staðfest.",
+      "guide": "Hvernig á að klippa án þess að hlaða upptökunum upp"
+    },
+    "creative": {
+      "title": "Þreytt/ur á að gervigreindarmyndskeið taki yfir streymið?",
+      "intro": "Ef Facebook eða TikTok virðist yfirfullt af tilbúnum klippum, eða gervigreindareiginleikar CapCut eru ekki það sem þú vildir vinna með, geturðu byrjað á eigin upptökum.",
+      "choice": "Þínar upptökur, þín klipping, þitt val að deila.",
+      "tools": "ByteWave gefur þér verkfæri til að vinna með það sem þú tókst upp: hreyfanlega skjátexta, sérsniðnar síur, hægmynd og hljóð í mörgum lögum. Hjálpareiginleikar á borð við uppskalun eru í boði; þú þarft ekki að búa til senu út frá fyrirmælum til að klippa myndskeið.",
+      "feed": "Skoðaðu opinbert streymi ByteWave nafnlaust, með valfrjálsri sérstillingu sem er reiknuð í tækinu þínu og án áhorfssögu á netþjóni.",
+      "feed_link": "Sjáðu hvernig streymið virkar.",
+      "facebook": "Hvernig á að fækka gervigreindarmyndskeiðum í Facebook-streyminu",
+      "tiktok": "Hvernig á að sjá minna gervigreindarefni á TikTok",
+      "real": "Gervigreindarrusl, ekta upptökur og að endurheimta skapandi stjórn",
+      "capcut": "Ókeypis valkostur við CapCut til að klippa eigin upptökur",
+      "gallery": "Sjáðu myndskeið gerð með ByteWave",
+      "or": "eða",
+      "tutorial": "prófaðu leiðbeiningarnar um hreyfiþoku.",
+      "download": "Klipptu þínar eigin upptökur ókeypis"
+    },
+    "compare": {
+      "title": "ByteWave á móti CapCut",
+      "intro": "Myndvinnsluverkfæri ByteWave eru ókeypis. CapCut setur sum sömu verkfæri í greiddar áskriftir.",
+      "feature": "Eiginleiki",
+      "price": "Verð",
+      "free": "$0",
+      "plans": "Ókeypis og greiddar áskriftir",
+      "watermarks": "Vatnsmerki",
+      "none": "Ekkert ByteWave-vatnsmerki",
+      "varies": "Fer eftir verkfæri og útflutningi",
+      "editing": "Myndvinnsla",
+      "offline": "Í tækinu; engan aðgang þarf",
+      "cloud": "Staðbundin verkfæri og skýjaverkfæri",
+      "data": "Meðferð gagna",
+      "no_tracking": "Engin atferlisrakning; aðgangur og birting eru valfrjáls",
+      "policy": "Sjá persónuverndarstefnu CapCut",
+      "provenance": "Uppruni myndskeiða",
+      "stamp": "ByteWave-stimpill við Vista í Myndir",
+      "export_options": "Athugaðu núverandi útflutningsmöguleika",
+      "slow_motion": "Hægmynd",
+      "included": "Innifalið",
+      "optical": "Optískt flæði: ókeypis prufa",
+      "motion": "Hreyfiþoka",
+      "pro_motion": "Skráð í Pro*",
+      "noise": "Suðminnkun í myndskeiðum",
+      "pro": "Pro-áskrift",
+      "desktop": "Tölva",
+      "upscale": "Uppskalun með gervigreind",
+      "device": "Í tækinu",
+      "paid": "Greidd áskrift",
+      "mobile": "Gervigreindarbæting í farsíma",
+      "tracks": "Hljóðrásir",
+      "unlimited": "Engin takmörk á fjölda rása",
+      "limits": "Athugaðu takmarkanir kerfisins",
+      "tts": "Texti í tal",
+      "voices": "Ókeypis raddir; úrvalsraddir nota inneign",
+      "captions": "Sjálfvirkir skjátextar",
+      "pro_captions": "Pro fyrir fullan aðgang",
+      "code": "Breytanlegur frumkóði sía",
+      "metal": "Frumkóði Metal-skyggjara fylgir",
+      "filter_tools": "Athugaðu núverandi síuverkfæri",
+      "community": "Síur frá samfélaginu",
+      "shared": "Sameiginlegir breytanlegir skyggjarar",
+      "effects": "Ókeypis brellur og Pro-brellur og sniðmát",
+      "subject": "Einangrun myndefnis fyrir síur",
+      "masks": "Grímu- og úrklippiverkfæri",
+      "note": "Athugað 18. október 2026. Pro er greidd áskrift. *CapCut skráir hreyfiþoku í Pro en auglýsir einnig ókeypis útgáfur. Aðgangur fer eftir kerfi, svæði og tilboði.",
+      "full": "Allur samanburðurinn"
+    },
+    "features": {
+      "title": "Það sem þú færð",
+      "items": [
+        {
+          "title": "C2PA-athuganir og uppruni myndskeiða",
+          "body": "Athugaðu myndir og myndskeið með tilliti til studdra Content Credentials, þar á meðal merkinga um gervigreindargerð. Hver útflutningur með Vista í Myndir fær einnig ByteWave-stimpil sem hjálpar við að greina síðari breytingar."
+        },
+        {
+          "title": "Hægmynd og hreyfiþoka",
+          "body": "Gerðu hægmyndir mýkri með FRC. Hreyfiþoka og tímabundin suðminnkun eru líka unnar staðbundið í tækinu áður en forskoðun hefst."
+        },
+        {
+          "title": "Uppskalun með gervigreind",
+          "body": "Auktu upplausn í tækinu. Engin skýjavinnsla, engin bið eftir netþjóni."
+        },
+        {
+          "title": "Ótakmarkaðar hljóðrásir",
+          "body": "Leggðu eins margar hljóðklippur og þú þarft á sjónræna tímalínu. Innbyggðar hljóðbrellur. Engin takmörk á fjölda rása."
+        },
+        {
+          "title": "Texti í tal",
+          "body": "Skrifaðu texta fyrir talgervingu eða búðu til skjátexta í tækinu. Valfrjáls sjálfvirk merking hjálpar öðrum að finna deild myndskeið og krefst aðgangs og samþykkis."
+        },
+        {
+          "title": "Textabrellur",
+          "body": "Glitrandi, truflaður, neonlýstur texti og fleira. Hreyfanlegur texti sem krefst ekki reynslu af hreyfigrafík."
+        },
+        {
+          "title": "Einangrun myndefnis",
+          "body": "Aðskildu myndefni frá bakgrunni og beittu síum á hvort tveggja sjálfstætt. Þokaðu bakgrunninn og haltu myndefninu skörpu með einum snertingi."
+        },
+        {
+          "title": "Sérsniðnar síur með frumkóða",
+          "body": "Hver sía sýnir þér skyggjarakóðann á bak við hana. Breyttu honum beint eða afritaðu kóðann og biddu ChatGPT að búa til eitthvað nýtt."
+        },
+        {
+          "title": "Síur frá samfélaginu",
+          "body": "Birtu síur sem þú hefur búið til. Skoðaðu og sæktu síur frá öðrum sköpurum. Einn snertingur bætir þeim í safnið þitt."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Síur sem þú getur raunverulega breytt",
+      "desc": "Flest myndvinnsluforrit fela virkni síanna. ByteWave sýnir þér kóðann. Breyttu honum, lærðu af honum eða afritaðu hann og lýstu því sem þú vilt fyrir gervigreind; límdu niðurstöðuna aftur inn.",
+      "comment": "// Impressjónískur bakgrunnur, skarpt myndefni"
+    },
+    "cta": {
+      "desc": "Klipptu án nettengingar. Engan aðgang þarf. Hladdu aðeins upp þegar þú velur að birta.",
+      "apple": "Sækja fyrir Apple"
+    }
+  }
+}

@@ -7,7 +7,7 @@
 {%- assign captions = site.pages | where: "translation_key", "creation-animated-captions" | where: "lang", page.lang | first -%}
 {%- assign stickers = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +58,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
       "author": {
         "@type": "Organization",
         "name": "ByteWave",
-        "url": "{{ about.url | absolute_url }}"
+        "url": "{{ about.url | default: '/about.html' | absolute_url }}"
       },
       "publisher": {
         "@type": "Organization",
@@ -175,7 +175,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
 <article class="creation-guide layout-page">
     <p class="eyebrow">{{ t.home.showcase.layout | escape }}</p>
     <h1>{{ g.title | escape }}</h1>
-    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | relative_url }}">ByteWave</a> · {{ g.updated | escape }} <time datetime="{{ g.modified }}">{{ g.date | escape }}</time></p>
+    <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about.url | default: '/about.html' | relative_url }}">ByteWave</a> · {{ g.updated | escape }} <time datetime="{{ g.modified }}">{{ g.date | escape }}</time></p>
     <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ g.publisher | escape }}</p>
 
     <p class="lead">{{ g.lead | escape }}</p>
@@ -296,7 +296,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     <p>{{ g.pricing | escape }}</p>
 
     <p><a class="button" href="{{ page.store_url | escape }}">{{ t.get_free | escape }}</a></p>
-    <aside class="guide-related" aria-label="{{ g.related | escape }}"><ul><li><a href="{{ gallery.url | relative_url }}">{{ g.gallery | escape }}</a></li><li><a href="{{ captions.url | relative_url }}">{{ g.captions | escape }}</a></li><li><a href="{{ stickers.url | relative_url }}">{{ g.stickers | escape }}</a></li></ul></aside>
+    <aside class="guide-related" aria-label="{{ g.related | escape }}"><ul><li><a href="{{ gallery.url | default: '/gallery/' | relative_url }}">{{ g.gallery | escape }}</a></li><li><a href="{{ captions.url | relative_url }}">{{ g.captions | escape }}</a></li><li><a href="{{ stickers.url | relative_url }}">{{ g.stickers | escape }}</a></li></ul></aside>
 </article>
 </main>
 {% include localized-footer.html %}

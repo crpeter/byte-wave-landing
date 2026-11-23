@@ -1,0 +1,98 @@
+{
+  "title": "Vejledninger til videoredigering",
+  "description": "Korte ByteWave-vejledninger til videocollager, animerede undertekster, teksteffekter, bevægelige stickers, bevægelsessløring og kontrol af Content Credentials.",
+  "intro": "Lav et layout, tilføj undertekster, animer stickers, eller tjek en fil. Korte vejledninger til ByteWaves værktøjer.",
+  "action": "Se vejledning",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout fra ByteWave",
+      "description": "Stabl klip, byg gitre, og prøv nye former.",
+      "format": "Tre videoeksempler",
+      "alt": "Bikagelayout med optagelser af månen og en hund"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Tilføj animerede undertekster",
+      "description": "Dine ord på din video.",
+      "format": "Skriftlig vejledning",
+      "alt": "Tilføj animerede undertekster."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Vælg teksteffekter til undertekster",
+      "description": "Orbital Letters, Supernova, Ember Ash og mere.",
+      "format": "Skriftlig vejledning",
+      "alt": "Teksteffekter til undertekster."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Importer dine egne skrifttyper",
+      "description": "Brug TTF- og OTF-skrifttyper i dine videoundertekster.",
+      "format": "Skriftlig vejledning",
+      "alt": "Dine skrifttyper. Din video. Importer TTF- og OTF-skrifttyper i ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Animer stickers med keyframes",
+      "description": "Placering, størrelse, rotation og keyframes.",
+      "format": "Skriftlig vejledning",
+      "alt": "Få dine stickers til at bevæge sig."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Tilføj bevægelsessløring til video",
+      "description": "Sammenlign resultatet side om side, find Bevægelsessløring i editoren, og tilpas styrken til dit klip.",
+      "format": "iPhone · Sammenligning på 20 sekunder",
+      "alt": "Sammenligning af havnevideo: originalen til venstre, ByteWave-bevægelsessløring til højre.",
+      "left": "Original",
+      "right": "ByteWave-bevægelsessløring"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Konvertering af billedhastighed til slowmotion",
+      "description": "Sammenlign et kolibriklip ved 0,1× hastighed, og se, hvordan konvertering af billedhastighed ændrer langsomme bevægelser.",
+      "format": "iPhone · Sammenligning på 30 sekunder",
+      "alt": "Kolibrisammenligning: almindelig 0,1× nedsættelse til venstre, ByteWaves konvertering af billedhastighed til højre.",
+      "left": "Almindelig nedsættelse · 0,1×",
+      "right": "ByteWave FRC · 0,1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Tidslig støjreduktion",
+      "description": "Sammenlign støj og fine detaljer i Apples eksempeloptagelser, og lær, hvad du skal se efter i dine egne klip.",
+      "format": "iPhone · Sammenligning på 8 sekunder",
+      "alt": "Apple-eksempel med rødt løv: originalen til venstre, ByteWaves tidslige støjreduktion til højre.",
+      "left": "Original",
+      "right": "ByteWave-støjreduktion"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Tjek C2PA Content Credentials",
+      "description": "Åbn et oprindelsesmærke, og lær, hvad verificerede AI-erklæringer, metadatavurderinger og manglende dokumentation betyder.",
+      "format": "Fotos og videoer · Skriftlig vejledning",
+      "alt": "Tjek Content Credentials i ByteWave: vejledning til foto- og videooprindelse."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Fjern placeringsmetadata",
+      "description": "Undersøg en arbejdskopi af videoen, fjern redigerbare felter, og tjek, hvad der er tilbage, inden deling.",
+      "format": "Privatliv · Skriftlig vejledning",
+      "alt": "Vid mere. Del mindre. Tjek og fjern redigerbare metadata, inden du deler din video."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Oversæt videoundertekster",
+      "description": "Oversæt automatiske undertekster til et andet understøttet sprog, sammenlign med originalen, og tjek resultatet inden eksport.",
+      "format": "iPhone og iPad · Skriftlig vejledning",
+      "alt": "Oversæt videoundertekster. Oversæt automatiske undertekster til et andet understøttet sprog, sammenlign med originalen, og tjek resultatet inden eksport."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Få effekter til at reagere på musik",
+      "description": "Vælg et lydfilter, sammenlign forudindstillinger med animeret geometri, og tjek reaktionen i stille og kraftigere passager.",
+      "format": "iPhone og iPad · Skriftlig vejledning",
+      "alt": "Få effekter til at reagere på musik. Vælg et lydfilter, sammenlign forudindstillinger med animeret geometri, og tjek reaktionen i stille og kraftigere passager."
+    }
+  ]
+}

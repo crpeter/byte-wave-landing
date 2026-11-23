@@ -1,0 +1,231 @@
+{
+  "name": "Română",
+  "nav": {
+    "skip": "Sari la conținut",
+    "label": "Navigare principală",
+    "menu": "Meniu",
+    "home": "Acasă",
+    "features": "Funcții",
+    "compare": "Comparație",
+    "gallery": "Galerie",
+    "tutorials": "Tutoriale",
+    "blog": "Blog",
+    "about": "Despre",
+    "privacy": "Confidențialitate",
+    "press": "Presă",
+    "expression": "Exprimare liberă",
+    "download": "Descarcă gratuit"
+  },
+  "footer": {
+    "motto": "Editarea video ar trebui să fie gratuită.",
+    "devices": "iPhone cu iOS 26 sau ulterior · iPad cu iPadOS 26 sau ulterior · Mac cu macOS 26 sau ulterior și Apple M1 sau ulterior."
+  },
+  "get_free": "Obține ByteWave gratuit",
+  "social_alt": "Previzualizare pentru distribuire cu marca ByteWave",
+  "disclosure": {
+    "label": "Dezvăluire privind AI:",
+    "text": "Acest articol include text generat cu un model lingvistic de inteligență artificială (LLM).",
+    "by": "De",
+    "review": "Afirmațiile despre produs au fost verificate de ByteWave; comparațiile reflectă interesul comercial al ByteWave și nu sunt recenzii independente."
+  },
+  "player": {
+    "play": "Redă videoclipul",
+    "replay": "Redă din nou",
+    "retry": "Reîncearcă videoclipul",
+    "tap": "Atinge pentru redare",
+    "tap_hint": "Atinge butonul de redare pentru a porni videoclipul.",
+    "loading": "Se încarcă videoclipul…",
+    "fallback": "Se încearcă versiunea compatibilă…",
+    "failed": "Videoclipul nu s-a putut încărca. Reîncearcă sau deschide linkul de mai jos."
+  },
+  "home": {
+    "seo": {
+      "title": "ByteWave - Editor video gratuit cu GPU pentru iPhone, iPad și Mac",
+      "description": "Editează propriile filmări cu ByteWave, un editor video gratuit pentru iPhone, iPad și Mac. Fără filigrane sau abonamente. Editare locală, subtitrări, efecte și sunet.",
+      "keywords": "editor video gratuit, editor video fără filigran, alternativă capcut, editor video ios, shadere metal, editor video gpu, editor video fără abonament, editor video confidențialitate, editor video gratuit iphone",
+      "social_title": "ByteWave - Editor video gratuit pentru iPhone, iPad și Mac",
+      "og_description": "Filmările tale. Alegerile tale creative. Editare video locală gratuită pentru iPhone, iPad și Mac, fără filigrane sau abonamente.",
+      "twitter_description": "Editează propriile filmări. Fără filigrane sau abonamente. Editare video locală cu distribuire opțională.",
+      "logo_alt": "Sigla ByteWave"
+    },
+    "schema": {
+      "description": "Editor video gratuit pentru iPhone, iPad și Mac. Editează filmările tale cu randare locală, sunet pe mai multe straturi și efecte Metal. Fără filigrane sau abonamente; distribuirea online este opțională.",
+      "features": "Editor de shadere Metal personalizate, mărire Super Resolution, estomparea mișcării, reducerea temporală a zgomotului, filtre comunitare, piste audio nelimitate, procesare pe dispozitiv, citirea acreditărilor de conținut C2PA, declarații verificate de generare AI, proveniență video criptografică"
+    },
+    "hero": {
+      "tag": "ByteWave · Editor video gratuit",
+      "opening": "Creează ceva",
+      "emphasis": "real",
+      "ending": "nu doar un reel.",
+      "edit": "Editează propriile filmări. Local, pe dispozitiv.",
+      "platforms": "Editor video gratuit pentru iPhone, iPad și Mac.",
+      "examples": "Vezi ce poți crea ↓",
+      "no_watermarks": "Fără abonamente. Fără filigrane la export.",
+      "devices": "iOS / iPadOS 26 sau ulterior. Mac: macOS 26 sau ulterior, M1 sau ulterior.",
+      "play_background": "Redă videoclipul de fundal",
+      "pause_background": "Întrerupe videoclipul de fundal"
+    },
+    "download": "Descarcă ByteWave",
+    "showcase": {
+      "tag": "Începe cu ce ai filmat",
+      "footage": "Filmările tale.",
+      "edit": "Montajul tău.",
+      "intro": "Adu fotografiile și videoclipurile tale. Dă-le forma ta.",
+      "layout": "Layout de la ByteWave",
+      "layout_desc": "Combină fotografii și videoclipuri într-o singură compoziție.",
+      "effects": "Filtre, efecte și",
+      "captions": "subtitrări animate",
+      "captions_desc": "Găsește-ți stilul. Pune-ți cuvintele în el.",
+      "audio": "Instrumente audio",
+      "audio_desc": "Suprapune piste și modelează sunetul videoclipului.",
+      "gallery": "Vezi videoclipuri create cu ByteWave →",
+      "editor_alt": "Editorul ByteWave cu filmări de apus și instrumente de editare pe dispozitiv",
+      "layout_alt": "Layout de la ByteWave combină șase fotografii și videoclipuri cu oceanul într-o compoziție"
+    },
+    "credentials": {
+      "tag": "Fotografii, videoclipuri și AI",
+      "title": "A fost creat cu AI?",
+      "check": "Verifică o fotografie sau un videoclip.",
+      "check_desc": "ByteWave citește acreditările de conținut C2PA acceptate, inclusiv etichete semnate care identifică materialul generat cu AI. Verificarea rulează pe dispozitiv.",
+      "how": "Cum verifici un fișier →",
+      "signed": "Exporturile tale sunt semnate.",
+      "signed_desc": "Fiecare export prin Salvare în Poze primește o ștampilă de proveniență ByteWave cu semnătură digitală. Aceasta ajută la identificarea originii ByteWave și a modificărilor ulterioare semnării.",
+      "signed_link": "Cum funcționează exporturile semnate →",
+      "caveat": "Nu există acreditări? Asta nu înseamnă autentic sau fals. O semnătură nu poate dovedi că o scenă s-a petrecut.",
+      "newsrooms": "Verifici filmări pentru un reportaj? Începe aici →"
+    },
+    "geese": {
+      "tag": "Toate instrumentele de editare. Gratuit.",
+      "opening": "Liber ca",
+      "emphasis": "gâștele.",
+      "desc": "Fără abonamente. Fără filigrane la export. Editarea locală nu necesită cont.",
+      "fallback": "Deschide copia compatibilă",
+      "caption": "Gâște înaintând prin apă în mișcare, cu „Free as in geese” pe ecran.",
+      "alt": "Liber ca gâștele: previzualizare ByteWave"
+    },
+    "privacy": {
+      "title": "Videoclipurile rămân pe dispozitivul tău",
+      "intro": "Începe cu momentele înregistrate. Taie clipuri, modelează sunetul și alege singur efectele. ByteWave păstrează editarea și randarea pe dispozitivul Apple compatibil.",
+      "local": "ByteWave procesează editarea local pe dispozitivul Apple.",
+      "sharing": "Editarea locală nu necesită cont, iar videoclipurile nu sunt încărcate decât dacă alegi explicit să le publici sau distribui printr-o funcție online.",
+      "stamp": "Fiecare export prin Salvare în Poze este semnat criptografic cu metadate de proveniență ByteWave, pentru a ajuta la verificarea originii ByteWave și a modificărilor după semnare. O semnătură nu dovedește că evenimentul reprezentat s-a petrecut.",
+      "stamp_link": "Află ce demonstrează exporturile semnate.",
+      "guide": "Cum editezi fără să încarci filmările"
+    },
+    "creative": {
+      "title": "Te-ai săturat de videoclipurile AI care îți acaparează fluxul?",
+      "intro": "Dacă Facebook sau TikTok pare plin de clipuri generate, ori funcțiile AI din CapCut nu sunt cele cu care vrei să editezi, începe cu propriile filmări.",
+      "choice": "Înregistrările tale, montajele tale, alegerea ta de a distribui.",
+      "tools": "ByteWave îți oferă instrumente pentru ce ai filmat: subtitrări animate, filtre personalizate, mișcare lentă și sunet stratificat. Sunt disponibile funcții de asistență precum mărirea rezoluției; nu trebuie să generezi o scenă dintr-o descriere pentru a edita un videoclip.",
+      "feed": "Explorează anonim fluxul public ByteWave, cu personalizare opțională calculată pe dispozitiv și fără istoric de vizionare pe server.",
+      "feed_link": "Vezi cum funcționează fluxul.",
+      "facebook": "Cum reduci videoclipurile AI din fluxul Facebook",
+      "tiktok": "Cum vezi mai puțin conținut AI pe TikTok",
+      "real": "Conținut AI de slabă calitate, filmări reale și recâștigarea controlului creativ",
+      "capcut": "O alternativă gratuită la CapCut pentru propriile filmări",
+      "gallery": "Vezi videoclipuri create cu ByteWave",
+      "or": "sau",
+      "tutorial": "încearcă tutorialul despre estomparea mișcării.",
+      "download": "Editează-ți filmările gratuit"
+    },
+    "compare": {
+      "title": "ByteWave vs. CapCut",
+      "intro": "Instrumentele ByteWave sunt gratuite. CapCut include unele instrumente similare în planuri plătite.",
+      "feature": "Funcție",
+      "price": "Preț",
+      "free": "$0",
+      "plans": "Planuri gratuite și plătite",
+      "watermarks": "Filigrane",
+      "none": "Fără filigran ByteWave",
+      "varies": "Depinde de instrument și export",
+      "editing": "Editare",
+      "offline": "Pe dispozitiv; fără cont obligatoriu",
+      "cloud": "Instrumente locale și cloud",
+      "data": "Gestionarea datelor",
+      "no_tracking": "Fără urmărirea comportamentului; conturi și publicare opționale",
+      "policy": "Vezi politica de confidențialitate CapCut",
+      "provenance": "Proveniența videoclipului",
+      "stamp": "Ștampilă ByteWave la Salvare în Poze",
+      "export_options": "Verifică opțiunile actuale de export",
+      "slow_motion": "Mișcare lentă",
+      "included": "Inclusă",
+      "optical": "Flux optic: încercare gratuită",
+      "motion": "Estomparea mișcării",
+      "pro_motion": "Listată în Pro*",
+      "noise": "Reducerea zgomotului video",
+      "pro": "Plan Pro",
+      "desktop": "Desktop",
+      "upscale": "Mărire cu AI",
+      "device": "Pe dispozitiv",
+      "paid": "Abonament plătit",
+      "mobile": "Îmbunătățire AI pe mobil",
+      "tracks": "Piste audio",
+      "unlimited": "Fără limită de piste",
+      "limits": "Verifică limitele platformei",
+      "tts": "Text în vorbire",
+      "voices": "Voci gratuite; vocile premium folosesc credite",
+      "captions": "Subtitrări automate",
+      "pro_captions": "Pro pentru acces complet",
+      "code": "Cod sursă de filtru editabil",
+      "metal": "Codul shader Metal este inclus",
+      "filter_tools": "Verifică instrumentele de filtrare actuale",
+      "community": "Filtre comunitare",
+      "shared": "Shadere editabile distribuite",
+      "effects": "Efecte și șabloane gratuite + Pro",
+      "subject": "Izolarea subiectului pentru filtre",
+      "masks": "Instrumente de mască și decupare",
+      "note": "Verificat la 18 octombrie 2026. Pro este un abonament plătit. *CapCut listează estomparea mișcării în Pro, dar promovează și versiuni gratuite. Accesul variază după platformă, regiune și ofertă.",
+      "full": "Comparația completă"
+    },
+    "features": {
+      "title": "Ce primești",
+      "items": [
+        {
+          "title": "Verificări C2PA și proveniență video",
+          "body": "Verifică fotografii și videoclipuri pentru acreditări de conținut acceptate, inclusiv etichete de generare AI. Fiecare Salvare în Poze primește și o ștampilă ByteWave pentru identificarea modificărilor ulterioare."
+        },
+        {
+          "title": "Mișcare lentă și estomparea mișcării",
+          "body": "Fă mișcarea lentă mai fluidă cu FRC. Estomparea mișcării și reducerea temporală a zgomotului sunt procesate local înainte de previzualizare."
+        },
+        {
+          "title": "Mărire cu AI",
+          "body": "Mărește rezoluția pe dispozitiv. Fără procesare cloud sau așteptare după un server."
+        },
+        {
+          "title": "Piste audio nelimitate",
+          "body": "Suprapune câte clipuri audio ai nevoie pe o cronologie vizuală. Efecte sonore incluse. Fără limite de piste."
+        },
+        {
+          "title": "Text în vorbire",
+          "body": "Scrie text pentru sinteză vocală sau generează subtitrări pe dispozitiv. Etichetarea automată opțională ajută la descoperirea videoclipurilor distribuite și necesită cont și acord explicit."
+        },
+        {
+          "title": "Efecte de text",
+          "body": "Sclipiri, glitch, neon și altele. Text animat fără experiență în grafică în mișcare."
+        },
+        {
+          "title": "Izolarea subiectului",
+          "body": "Separă subiectele de fundal și aplică filtre independent. Estompează fundalul și păstrează subiectul clar, cu o atingere."
+        },
+        {
+          "title": "Filtre personalizate cu cod sursă",
+          "body": "Fiecare filtru îți arată codul shader. Editează-l direct sau copiază-l și cere-i lui ChatGPT ceva nou."
+        },
+        {
+          "title": "Filtre comunitare",
+          "body": "Publică filtrele create. Explorează și ia filtre de la alți creatori. O atingere le adaugă în bibliotecă."
+        }
+      ]
+    },
+    "filters": {
+      "title": "Filtre pe care chiar le poți edita",
+      "desc": "Majoritatea editoarelor ascund funcționarea filtrelor. ByteWave îți arată codul. Modifică-l, învață din el sau copiază-l și descrie unui AI ce vrei; lipește rezultatul înapoi.",
+      "comment": "// Fundal impresionist, subiect clar"
+    },
+    "cta": {
+      "desc": "Editează offline. Fără cont obligatoriu. Încarcă doar când alegi să publici.",
+      "apple": "Descarcă pentru Apple"
+    }
+  }
+}

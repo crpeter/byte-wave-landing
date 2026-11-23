@@ -1,0 +1,98 @@
+{
+  "title": "Hướng dẫn chỉnh sửa video",
+  "description": "Hướng dẫn ngắn của ByteWave về ghép video, phụ đề chuyển động, hiệu ứng chữ, nhãn dán chuyển động, làm mờ chuyển động và kiểm tra Content Credentials.",
+  "intro": "Tạo bố cục, thêm phụ đề, làm nhãn dán chuyển động hoặc kiểm tra tệp. Các hướng dẫn ngắn về công cụ ByteWave.",
+  "action": "Xem hướng dẫn",
+  "cards": [
+    {
+      "href": "/layout/",
+      "title": "Layout của ByteWave",
+      "description": "Xếp lớp clip, tạo lưới và thử hình dạng mới.",
+      "format": "Ba video ví dụ",
+      "alt": "Bố cục tổ ong có cảnh mặt trăng và chú chó"
+    },
+    {
+      "href": "/tutorials/animated-captions/",
+      "title": "Thêm phụ đề chuyển động",
+      "description": "Lời của bạn, trên video của bạn.",
+      "format": "Hướng dẫn bằng văn bản",
+      "alt": "Thêm phụ đề chuyển động."
+    },
+    {
+      "href": "/tutorials/caption-text-effects/",
+      "title": "Chọn hiệu ứng chữ cho phụ đề",
+      "description": "Orbital Letters, Supernova, Ember Ash và nhiều hơn nữa.",
+      "format": "Hướng dẫn bằng văn bản",
+      "alt": "Hiệu ứng chữ cho phụ đề."
+    },
+    {
+      "href": "/tutorials/import-custom-fonts/",
+      "title": "Nhập phông chữ của riêng bạn",
+      "description": "Dùng phông TTF và OTF trong phụ đề video.",
+      "format": "Hướng dẫn bằng văn bản",
+      "alt": "Phông chữ của bạn. Video của bạn. Nhập phông TTF và OTF vào ByteWave."
+    },
+    {
+      "href": "/tutorials/animate-stickers/",
+      "title": "Làm nhãn dán chuyển động bằng khung hình chính",
+      "description": "Vị trí, kích thước, góc xoay và khung hình chính.",
+      "format": "Hướng dẫn bằng văn bản",
+      "alt": "Cho nhãn dán chuyển động."
+    },
+    {
+      "href": "/tutorials/motion-blur/",
+      "title": "Thêm làm mờ chuyển động vào video",
+      "description": "So sánh hai phiên bản cạnh nhau, tìm Làm mờ chuyển động trong trình chỉnh sửa và điều chỉnh cường độ cho clip.",
+      "format": "iPhone · So sánh 20 giây",
+      "alt": "So sánh video bến cảng: bản gốc bên trái, làm mờ chuyển động ByteWave bên phải.",
+      "left": "Bản gốc",
+      "right": "Làm mờ chuyển động ByteWave"
+    },
+    {
+      "href": "/tutorials/frame-rate-conversion/",
+      "title": "Chuyển đổi tốc độ khung hình để quay chậm",
+      "description": "So sánh clip chim ruồi ở tốc độ 0.1× và xem chuyển đổi tốc độ khung hình thay đổi chuyển động quay chậm thế nào.",
+      "format": "iPhone · So sánh 30 giây",
+      "alt": "So sánh chim ruồi: giảm tốc thông thường 0.1× bên trái, chuyển đổi tốc độ khung hình ByteWave bên phải.",
+      "left": "Giảm tốc thông thường · 0.1×",
+      "right": "ByteWave FRC · 0.1×"
+    },
+    {
+      "href": "/tutorials/temporal-noise-reduction/",
+      "title": "Giảm nhiễu theo thời gian",
+      "description": "So sánh nhiễu và chi tiết nhỏ trong tư liệu mẫu của Apple, rồi tìm hiểu cần quan sát gì ở clip của bạn.",
+      "format": "iPhone · So sánh 8 giây",
+      "alt": "Ví dụ tán lá đỏ của Apple: bản gốc bên trái, giảm nhiễu theo thời gian ByteWave bên phải.",
+      "left": "Bản gốc",
+      "right": "Giảm nhiễu ByteWave"
+    },
+    {
+      "href": "/tutorials/check-c2pa-content-credentials/",
+      "title": "Kiểm tra Content Credentials C2PA",
+      "description": "Mở huy hiệu nguồn gốc và tìm hiểu ý nghĩa của khai báo AI đã xác minh, đánh giá siêu dữ liệu và tình trạng thiếu bằng chứng.",
+      "format": "Ảnh và video · Hướng dẫn bằng văn bản",
+      "alt": "Kiểm tra Content Credentials trong ByteWave: hướng dẫn nguồn gốc ảnh và video."
+    },
+    {
+      "href": "/tutorials/remove-location-metadata/",
+      "title": "Xóa siêu dữ liệu vị trí",
+      "description": "Kiểm tra bản video làm việc, xóa các trường có thể sửa và kiểm tra phần còn lại trước khi chia sẻ.",
+      "format": "Quyền riêng tư · Hướng dẫn bằng văn bản",
+      "alt": "Hiểu rõ hơn. Chia sẻ ít hơn. Kiểm tra và xóa siêu dữ liệu có thể sửa trước khi chia sẻ video."
+    },
+    {
+      "href": "/tutorials/translate-video-captions/",
+      "title": "Dịch phụ đề video",
+      "description": "Chuyển phụ đề tự động sang ngôn ngữ được hỗ trợ khác, đối chiếu bản gốc và kiểm tra kết quả trước khi xuất.",
+      "format": "iPhone và iPad · Hướng dẫn bằng văn bản",
+      "alt": "Dịch phụ đề video. Chuyển phụ đề tự động sang ngôn ngữ được hỗ trợ khác, đối chiếu bản gốc và kiểm tra kết quả trước khi xuất."
+    },
+    {
+      "href": "/tutorials/audio-reactive-video-effects/",
+      "title": "Cho hiệu ứng phản ứng với nhạc",
+      "description": "Chọn bộ lọc Âm thanh, so sánh các mẫu hình học chuyển động và kiểm tra phản ứng ở đoạn nhỏ tiếng lẫn lớn tiếng.",
+      "format": "iPhone và iPad · Hướng dẫn bằng văn bản",
+      "alt": "Cho hiệu ứng phản ứng với nhạc. Chọn bộ lọc Âm thanh, so sánh các mẫu hình học chuyển động và kiểm tra phản ứng ở đoạn nhỏ tiếng lẫn lớn tiếng."
+    }
+  ]
+}

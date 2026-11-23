@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Návod pre ByteWave",
+    "updatedLabel": "Aktualizované",
+    "updatedDate": "23. novembra 2026",
+    "relatedLabel": "Súvisiace návody"
+  },
+  "captionEffects": {
+    "title": "Textové efekty titulkov v ByteWave",
+    "description": "Vyberte textový efekt titulkov v ByteWave, prezrite animáciu a porovnajte Orbital Letters, Supernova a Ember Ash.",
+    "lead": "Vyskúšajte efekt na vlastných slovách. Pred exportom si ho pozrite nad svojimi zábermi.",
+    "stepsHeading": "Vyberte efekt",
+    "step1": "Vyberte titulok v projekte ByteWave.",
+    "step2": "Otvorte jeho textové efekty a vyberte predvoľbu.",
+    "step3": "Prehrajte video a sledujte efekt v pohybe.",
+    "presetsHeading": "Tri na vyskúšanie",
+    "tip": "Vyskúšajte s každým efektom rovnakú krátku frázu. Prispôsobte písmo, veľkosť a farbu záberom.",
+    "fromScratch": "Začínate od nuly?",
+    "firstCaption": "Pridajte prvý titulok",
+    "fontsPrompt": "Chcete iné písmo?",
+    "importFont": "Importujte vlastné písmo",
+    "relatedSticker": "Animovať nálepku"
+  },
+  "customFonts": {
+    "title": "Vaše písma nemajú vyžadovať predplatné.",
+    "description": "Importujte vlastné písma TTF alebo OTF do ByteWave na iPhone. Vyberte súbor a pomocou Moje písma zadarmo upravujte titulky.",
+    "lead": "Prineste si do videa vlastné písmo. Import písem v ByteWave je zadarmo.",
+    "stepsHeading": "Import písma na iPhone",
+    "step1": "Uložte písmo TrueType (.ttf) alebo OpenType (.otf) do aplikácie Súbory. Prípadný archív ZIP najprv rozbaľte.",
+    "step2": "Vyberte titulok v projekte ByteWave a otvorte jeho panel Písmo.",
+    "step3": "Klepnite na Importovať písmo a vyberte súbor.",
+    "step4": "Nájdite ho v Moje písma. Klepnutím ho použijete na titulok.",
+    "preview": "Prehrajte video, skontrolujte text, upravte veľkosť a farbu a potom exportujte.",
+    "unsupportedHeading": "Súbor sa nedá vybrať?",
+    "unsupported": "Vyberte samotný súbor .ttf alebo .otf. Tento importér nepodporuje webové písma ako .woff a .woff2.",
+    "startPrompt": "Začínate s prázdnym projektom?",
+    "firstCaption": "Pridajte prvý titulok",
+    "effectsPrompt": "Potom vyskúšajte",
+    "effectsLink": "textové efekty titulkov",
+    "license": "ByteWave si za import písem nič neúčtuje. Samotné písmo môže mať vlastnú cenu a licenciu; overte podmienky autora pre zamýšľané použitie."
+  }
+}

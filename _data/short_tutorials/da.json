@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-vejledning",
+    "updatedLabel": "Opdateret",
+    "updatedDate": "23. november 2026",
+    "relatedLabel": "Relaterede vejledninger"
+  },
+  "captionEffects": {
+    "title": "Teksteffekter til undertekster i ByteWave",
+    "description": "Vælg en teksteffekt til undertekster i ByteWave, se animationen, og sammenlign Orbital Letters, Supernova og Ember Ash.",
+    "lead": "Prøv en effekt på dine egne ord. Se den over dine optagelser inden eksport.",
+    "stepsHeading": "Vælg en effekt",
+    "step1": "Vælg en undertekst i dit ByteWave-projekt.",
+    "step2": "Åbn dens teksteffekter, og vælg en forudindstilling.",
+    "step3": "Afspil videoen for at se effekten i bevægelse.",
+    "presetsHeading": "Tre, du kan prøve",
+    "tip": "Prøv den samme korte sætning med hver effekt. Tilpas skrifttype, størrelse og farve til dine optagelser.",
+    "fromScratch": "Starter du fra bunden?",
+    "firstCaption": "Tilføj din første undertekst",
+    "fontsPrompt": "Vil du have en anden skrifttype?",
+    "importFont": "Importer din egen skrifttype",
+    "relatedSticker": "Animer en sticker"
+  },
+  "customFonts": {
+    "title": "Dine skrifttyper bør ikke kræve et abonnement.",
+    "description": "Importer dine egne TTF- eller OTF-skrifttyper i ByteWave på iPhone. Vælg en fil, og brug Mine skrifttyper til gratis at style undertekster.",
+    "lead": "Brug din egen skrifttype i din video. ByteWaves skrifttypeimport er gratis.",
+    "stepsHeading": "Importer en skrifttype på iPhone",
+    "step1": "Gem en TrueType- (.ttf) eller OpenType-skrifttype (.otf) i appen Arkiver. Pak eventuelle ZIP-arkiver ud først.",
+    "step2": "Vælg en undertekst i dit ByteWave-projekt, og åbn panelet Skrifttype.",
+    "step3": "Tryk på Importer skrifttype, og vælg filen.",
+    "step4": "Find den under Mine skrifttyper. Tryk på skrifttypen for at anvende den på din undertekst.",
+    "preview": "Afspil videoen for at tjekke teksten, tilpas størrelse og farve, og eksporter derefter.",
+    "unsupportedHeading": "Kan filen ikke vælges?",
+    "unsupported": "Vælg selve .ttf- eller .otf-filen. Webskrifttyper som .woff og .woff2 understøttes ikke af denne importfunktion.",
+    "startPrompt": "Starter du med et tomt projekt?",
+    "firstCaption": "Tilføj din første undertekst",
+    "effectsPrompt": "Prøv derefter",
+    "effectsLink": "teksteffekter til undertekster",
+    "license": "ByteWave tager ikke betaling for at importere skrifttyper. Selve skrifttypen kan have sin egen pris og licens; tjek skaberens vilkår for din brug."
+  }
+}

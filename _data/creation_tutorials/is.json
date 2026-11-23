@@ -1,0 +1,39 @@
+{
+  "common": {
+    "eyebrow": "ByteWave-leiðbeiningar",
+    "updatedLabel": "Uppfært",
+    "updatedDate": "23. nóvember 2026",
+    "relatedLabel": "Tengdar leiðbeiningar"
+  },
+  "animatedCaptions": {
+    "title": "Hvernig á að bæta við hreyfanlegum skjátextum í ByteWave",
+    "description": "Bættu texta við myndskeiðið þitt, veldu hreyfibrellu og staðsettu skjátextann í ByteWave. Stuttar leiðbeiningar fyrir iPhone, iPad og Mac.",
+    "lead": "Bættu eigin texta við myndskeið og gefðu honum hreyfibrellu.",
+    "stepsHeading": "Bættu við skjátexta",
+    "step1": "Opnaðu myndskeiðið þitt í ByteWave og bættu við skjátexta.",
+    "step2": "Sláðu inn textann og veldu síðan skjátextann til að breyta stílnum.",
+    "step3": "Veldu leturgerð, stærð og lit. Staðsettu textann yfir myndskeiðinu.",
+    "step4": "Veldu textabrellu og spilaðu myndskeiðið til að forskoða hreyfinguna.",
+    "readabilityHeading": "Hafðu textann læsilegan",
+    "readabilityText": "Notaðu stutta setningu og lit sem sker sig úr upptökunni. Athugaðu að hreyfingin gefi nægan tíma til að lesa.",
+    "relatedIntro": "Ertu að leita að ákveðnum stíl? Í",
+    "relatedAnchor": "leiðbeiningum um skjátextabrellur",
+    "relatedTail": "er fjallað um forstillingar eins og Orbital Letters og Ember Ash.",
+    "relatedSticker": "Hreyfa límmiða"
+  },
+  "animateStickers": {
+    "title": "Hvernig á að hreyfa límmiða í ByteWave",
+    "description": "Láttu límmiða færast yfir myndskeiðið í ByteWave. Notaðu tímasetningu og lykilramma til að breyta staðsetningu, stærð og snúningi.",
+    "lead": "Notaðu lykilramma til að færa límmiða, breyta stærð hans eða snúa honum með tímanum.",
+    "stepsHeading": "Stilltu hreyfinguna",
+    "step1": "Bættu límmiða við myndskeiðið og veldu hann.",
+    "step2": "Stilltu hvenær hann birtist með tímastýringunum.",
+    "step3": "Notaðu lykilrammastýringarnar til að skrá upphafsstaðsetningu, stærð og snúning.",
+    "step4": "Farðu á síðari tímapunkt og settu annan lykilramma með annarri staðsetningu, stærð eða snúningi.",
+    "step5": "Spilaðu myndskeiðið til að forskoða hreyfinguna á milli þeirra.",
+    "readabilityHeading": "Byrjaðu með tvo lykilramma",
+    "readabilityText": "Prófaðu að færa límmiða frá annarri hlið myndarinnar yfir á hina. Þegar það lítur vel út geturðu bætt við stærðarbreytingu eða snúningi.",
+    "relatedCaption": "Bæta við hreyfanlegum skjátextum",
+    "relatedLayout": "Búa til myndskeiðaklippimynd"
+  }
+}

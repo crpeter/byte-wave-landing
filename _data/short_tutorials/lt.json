@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave pamoka",
+    "updatedLabel": "Atnaujinta",
+    "updatedDate": "2026 m. lapkričio 23 d.",
+    "relatedLabel": "Susiję vadovai"
+  },
+  "captionEffects": {
+    "title": "Subtitrų teksto efektai ByteWave",
+    "description": "Pasirinkite subtitrų efektą ByteWave, peržiūrėkite animaciją ir palyginkite Orbital Letters, Supernova bei Ember Ash.",
+    "lead": "Išbandykite efektą su savo žodžiais. Prieš eksportuodami peržiūrėkite jį virš savo vaizdo.",
+    "stepsHeading": "Pasirinkite efektą",
+    "step1": "Pasirinkite subtitrą ByteWave projekte.",
+    "step2": "Atverkite teksto efektus ir pasirinkite ruošinį.",
+    "step3": "Paleiskite vaizdą, kad pamatytumėte efektą judant.",
+    "presetsHeading": "Trys, kuriuos verta išbandyti",
+    "tip": "Su kiekvienu efektu išbandykite tą pačią trumpą frazę. Šriftą, dydį ir spalvą pritaikykite vaizdui.",
+    "fromScratch": "Pradedate nuo nulio?",
+    "firstCaption": "Pridėkite pirmą subtitrą",
+    "fontsPrompt": "Norite kito šrifto?",
+    "importFont": "Importuokite savo šriftą",
+    "relatedSticker": "Animuokite lipduką"
+  },
+  "customFonts": {
+    "title": "Jūsų šriftams neturėtų reikėti prenumeratos.",
+    "description": "Importuokite TTF ar OTF šriftus į ByteWave iPhone. Pasirinkite failą ir naudokite Mano šriftus nemokamam subtitrų stiliui.",
+    "lead": "Pridėkite savo šriftą į vaizdo įrašą. ByteWave šriftų importas nemokamas.",
+    "stepsHeading": "Importuokite šriftą iPhone",
+    "step1": "Išsaugokite TrueType (.ttf) ar OpenType (.otf) šriftą programoje Failai. Pirmiausia išskleiskite ZIP archyvą.",
+    "step2": "Pasirinkite subtitrą ByteWave projekte ir atverkite Šrifto skydelį.",
+    "step3": "Palieskite Importuoti šriftą ir pasirinkite failą.",
+    "step4": "Raskite jį skiltyje Mano šriftai. Palieskite šriftą, kad pritaikytumėte subtitrui.",
+    "preview": "Paleiskite vaizdą tekstui patikrinti, pakoreguokite dydį bei spalvą ir eksportuokite.",
+    "unsupportedHeading": "Negalite pasirinkti failo?",
+    "unsupported": "Pasirinkite patį .ttf ar .otf failą. Šis importuotojas nepalaiko žiniatinklio šriftų, pavyzdžiui, .woff ir .woff2.",
+    "startPrompt": "Pradedate su tuščiu projektu?",
+    "firstCaption": "Pridėkite pirmą subtitrą",
+    "effectsPrompt": "Tada išbandykite",
+    "effectsLink": "subtitrų teksto efektus",
+    "license": "ByteWave už šriftų importą neima mokesčio. Pats šriftas gali turėti kainą ir licenciją; patikrinkite kūrėjo sąlygas jūsų naudojimui."
+  }
+}

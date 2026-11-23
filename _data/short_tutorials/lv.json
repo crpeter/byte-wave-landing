@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "ByteWave pamācība",
+    "updatedLabel": "Atjaunināts",
+    "updatedDate": "2026. gada 23. novembris",
+    "relatedLabel": "Saistītās pamācības"
+  },
+  "captionEffects": {
+    "title": "Subtitru teksta efekti ByteWave",
+    "description": "Izvēlies subtitru teksta efektu ByteWave, priekšskati tā animāciju un salīdzini Orbital Letters, Supernova un Ember Ash.",
+    "lead": "Izmēģini efektu ar saviem vārdiem. Priekšskati to uz sava ieraksta pirms eksporta.",
+    "stepsHeading": "Izvēlies efektu",
+    "step1": "Atlasi subtitrus savā ByteWave projektā.",
+    "step2": "Atver to teksta efektus un izvēlies priekšiestatījumu.",
+    "step3": "Atskaņo video, lai redzētu efektu kustībā.",
+    "presetsHeading": "Trīs efekti izmēģināšanai",
+    "tip": "Izmēģini vienu un to pašu īso frāzi ar katru efektu. Pielāgo fontu, izmēru un krāsu savam ierakstam.",
+    "fromScratch": "Sāc no nulles?",
+    "firstCaption": "Pievieno pirmos subtitrus",
+    "fontsPrompt": "Vēlies citu burtveidolu?",
+    "importFont": "Importē savu fontu",
+    "relatedSticker": "Animē uzlīmi"
+  },
+  "customFonts": {
+    "title": "Taviem fontiem nevajadzētu prasīt abonementu.",
+    "description": "Importē savus TTF vai OTF fontus ByteWave iPhone ierīcē. Izvēlies failu un izmanto Mani fonti, lai bez maksas veidotu subtitru stilu.",
+    "lead": "Izmanto video savu fontu. ByteWave fontu imports ir bez maksas.",
+    "stepsHeading": "Importē fontu iPhone ierīcē",
+    "step1": "Saglabā TrueType (.ttf) vai OpenType (.otf) fontu lietotnē Faili. Vispirms izpako ZIP arhīvus.",
+    "step2": "Atlasi subtitrus savā ByteWave projektā un atver to Fonta paneli.",
+    "step3": "Pieskaries Importēt fontu un izvēlies failu.",
+    "step4": "Atrodi to sadaļā Mani fonti. Pieskaries fontam, lai piemērotu to subtitriem.",
+    "preview": "Atskaņo video, lai pārbaudītu tekstu, pielāgo tā izmēru un krāsu un pēc tam eksportē.",
+    "unsupportedHeading": "Failu nevar atlasīt?",
+    "unsupported": "Izvēlies pašu .ttf vai .otf failu. Šis importētājs neatbalsta tīmekļa fontus, piemēram, .woff un .woff2.",
+    "startPrompt": "Sāc ar tukšu projektu?",
+    "firstCaption": "Pievieno pirmos subtitrus",
+    "effectsPrompt": "Pēc tam izmēģini",
+    "effectsLink": "subtitru teksta efektus",
+    "license": "ByteWave neprasa maksu par fontu importēšanu. Pašam fontam var būt sava cena un licence; pārbaudi autora noteikumus savai lietošanai."
+  }
+}

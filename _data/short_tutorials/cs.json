@@ -1,0 +1,42 @@
+{
+  "common": {
+    "eyebrow": "Návod pro ByteWave",
+    "updatedLabel": "Aktualizováno",
+    "updatedDate": "23. listopadu 2026",
+    "relatedLabel": "Související návody"
+  },
+  "captionEffects": {
+    "title": "Textové efekty titulků v ByteWave",
+    "description": "Vyberte textový efekt titulků v ByteWave, prohlédněte animaci a porovnejte Orbital Letters, Supernova a Ember Ash.",
+    "lead": "Vyzkoušejte efekt na vlastních slovech. Před exportem si ho prohlédněte nad svými záběry.",
+    "stepsHeading": "Vyberte efekt",
+    "step1": "Vyberte titulek v projektu ByteWave.",
+    "step2": "Otevřete jeho textové efekty a vyberte předvolbu.",
+    "step3": "Přehrajte video a sledujte efekt v pohybu.",
+    "presetsHeading": "Tři k vyzkoušení",
+    "tip": "Vyzkoušejte s každým efektem stejnou krátkou frázi. Přizpůsobte písmo, velikost a barvu záběrům.",
+    "fromScratch": "Začínáte od nuly?",
+    "firstCaption": "Přidejte první titulek",
+    "fontsPrompt": "Chcete jiné písmo?",
+    "importFont": "Importujte vlastní písmo",
+    "relatedSticker": "Animovat samolepku"
+  },
+  "customFonts": {
+    "title": "Vaše písma nemají vyžadovat předplatné.",
+    "description": "Importujte vlastní písma TTF nebo OTF do ByteWave na iPhonu. Vyberte soubor a pomocí Moje písma zdarma upravujte titulky.",
+    "lead": "Přineste si do videa vlastní písmo. Import písem v ByteWave je zdarma.",
+    "stepsHeading": "Import písma na iPhonu",
+    "step1": "Uložte písmo TrueType (.ttf) nebo OpenType (.otf) do aplikace Soubory. Případný archiv ZIP nejprve rozbalte.",
+    "step2": "Vyberte titulek v projektu ByteWave a otevřete jeho panel Písmo.",
+    "step3": "Klepněte na Importovat písmo a vyberte soubor.",
+    "step4": "Najděte ho v Moje písma. Klepnutím ho použijete na titulek.",
+    "preview": "Přehrajte video, zkontrolujte text, upravte velikost a barvu a poté exportujte.",
+    "unsupportedHeading": "Soubor nelze vybrat?",
+    "unsupported": "Vyberte samotný soubor .ttf nebo .otf. Tento importér nepodporuje webová písma jako .woff a .woff2.",
+    "startPrompt": "Začínáte s prázdným projektem?",
+    "firstCaption": "Přidejte první titulek",
+    "effectsPrompt": "Poté vyzkoušejte",
+    "effectsLink": "textové efekty titulků",
+    "license": "ByteWave si za import písem nic neúčtuje. Samotné písmo může mít vlastní cenu a licenci; ověřte podmínky autora pro zamýšlené použití."
+  }
+}
