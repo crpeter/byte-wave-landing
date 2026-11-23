@@ -158,7 +158,7 @@ print("Verified 17 press kits, 68 copy blocks, source facts, asset links and loc
 
 catalog = json.loads((SOURCE / "_data/blog_sections.json").read_text())
 entries = [entry for section in catalog.values() for entry in section]
-assert len(entries) == 82 and len(catalog) == 5
+assert len(entries) == 85 and len(catalog) == 5
 assert catalog["platforms-creators"][0]["brand"] == "X / Twitter"
 for lang, slug in {"en": "", **LOCALES}.items():
     rendered = (RENDERED / slug / "blog/index.html").read_text()
@@ -273,6 +273,9 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "adobe-firefly-partner-models-creative-control": (4, 8, 2),
+    "california-openai-agent-testing-lawsuit": (4, 9, 2),
+    "ai-investment-oracle-fed-hedge-fund-risk": (5, 9, 2),
     "gta-online-anger-scores-player-privacy": (6, 16, 4),
     "meta-muse-ai-privacy-concerns": (8, 23, 5),
     "bytewave-vs-meta-creative-control": (5, 16, 0),

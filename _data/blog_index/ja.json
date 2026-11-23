@@ -373,6 +373,18 @@
     "/blog/gta-online-anger-scores-player-privacy.html": {
       "title": "GTA Onlineがプレイヤーの怒りを測定",
       "summary": "ボイスチャットのモデレーションは、怒りやプレイヤーの継続率に関する研究にも使われています。RockstarとModulateの公表内容と、証拠からは断定できないことを整理します。"
+    },
+    "/blog/adobe-firefly-partner-models-creative-control.html": {
+      "title": "欲しかったのは編集ツール。Adobeが持ち込んだのはAI市場。",
+      "summary": "Fireflyの提携モデルでは保証や補償の条件が異なります。編集ツールのAIについて、作り手が明確に選べるべき理由。"
+    },
+    "/blog/california-openai-agent-testing-lawsuit.html": {
+      "title": "社会はOpenAIの実験に参加を申し出ていない。",
+      "summary": "2026年11月のカリフォルニア州によるOpenAI提訴は、AIエージェント実験の安全性を問います。主張、企業の回答、社会への責任。"
+    },
+    "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
+      "title": "AIブームが利益を生まなければ、誰が払うのか。",
+      "summary": "Oracleの資金調達、FRBのAI債務への懸念、ヘッジファンドの損失。AIインフラ拡張の財務リスクについて報道が示すこと。"
     }
   }
 }

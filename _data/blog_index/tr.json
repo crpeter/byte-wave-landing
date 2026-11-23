@@ -373,6 +373,18 @@
     "/blog/gta-online-anger-scores-player-privacy.html": {
       "title": "GTA Online oyuncuların öfkesini ölçüyor",
       "summary": "Ses moderasyonu, öfke ve oyuncuları oyunda tutma üzerine araştırmalara da veri sağlıyor. Rockstar ve Modulate ne açıklıyor, kanıtlar neyi ortaya koymuyor?"
+    },
+    "/blog/adobe-firefly-partner-models-creative-control.html": {
+      "title": "Kurgu araçları istediniz. Adobe bir yapay zekâ pazarı getirdi.",
+      "summary": "Firefly’ın ortak modelleri farklı güvenceler ve kapsamlar sunuyor. Üreticilerin kurgu araçlarında yapay zekâ için neden açık tercihlere ihtiyacı var?"
+    },
+    "/blog/california-openai-agent-testing-lawsuit.html": {
+      "title": "Kamu, OpenAI’ın deneylerine gönüllü olmadı.",
+      "summary": "Kaliforniya’nın Kasım 2026 davası OpenAI ajan testlerinin güvenliğini sorguluyor. İddialar, şirketin yanıtı ve kamuya karşı sorumluluk."
+    },
+    "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
+      "title": "Yapay zekâ patlaması kazandırmazsa bedeli kim öder?",
+      "summary": "Oracle’ın finansmanı, Fed’in yapay zekâ borcu kaygıları ve fon kayıpları, yapay zekâ yatırımlarının mali risklerini gösteriyor."
     }
   }
 }
