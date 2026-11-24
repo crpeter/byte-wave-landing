@@ -1,0 +1,102 @@
+{
+  "title": "Pagaminta su ByteWave",
+  "seo_title": "Pagaminta su ByteWave Galerija",
+  "description": "Naršykite vaizdo įrašus ir vaizdus, sukurtus naudojant ByteWave: horizontalaus slinkimo maketus, Möbius ir bangų deformacijas, saulėlydžio tinklelius, sulėtintą vaizdą ir dar daugiau.",
+  "aria_label": "Vaizdo įrašai ir nuotraukos, sukurtos su ByteWave",
+  "open_video": "Atidaryti vaizdo įrašą",
+  "download": "Parsisiųsti ByteWave Nemokamai",
+  "credit": "Apple pavyzdžių medžiaga, redaguota ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Slinkimo stulpeliai saulėlydžių, pakrančių ir kasdienių akimirkų.",
+      "action": "Naršyti Layout iš ByteWave",
+      "alt": "The All Scroll. Slinkimo stulpeliai saulėlydžių, pakrančių ir kasdienių akimirkų."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Horizontalus slinkimas · Möbius Iškreipimas",
+      "effect": "Mūsų pirmasis horizontalus slinkimo išdėstymas, suvyniotas į Möbius mezginį.",
+      "action": "Naršyti Layout iš ByteWave",
+      "alt": "Horizontalus slinkimas · Möbius Iškreipimas. Mūsų pirmasis horizontalus slinkimo išdėstymas, suvyniotas į Möbius mezginį."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Horizontalus slinkimas · Bangos",
+      "effect": "Horizontalus slinkimas su bangos deformacija.",
+      "action": "Naršyti Layout iš ByteWave",
+      "alt": "Horizontalus slinkimas · Bangos. Horizontalus slinkimas su bangos deformacija."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Saulėlydžio šešiakampiai (kraštovaizdis)",
+      "effect": "Layout nuo ByteWave · Kraštovaizdis",
+      "action": "Ištirkite abi orientacijas",
+      "alt": "Saulėlydžio šešiakampiai (kraštovaizdis). Layout nuo ByteWave · Kraštovaizdis"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Iškreiptas saulėlydis",
+      "effect": "Layout nuo ByteWave · lenktos saulėlydžio juostos",
+      "action": "Naršyti Layout iš ByteWave",
+      "alt": "Iškreiptas saulėlydis. Layout nuo ByteWave · lenktos saulėlydžio juostos"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Pajūrio tinklelis iki paplūdimio",
+      "effect": "Layout nuo ByteWave · šešių skydelių tinklelis iki viso kadro",
+      "action": "Naršyti Layout iš ByteWave",
+      "alt": "Pajūrio tinklelis iki paplūdimio. Layout nuo ByteWave · šešių skydelių tinklelis iki viso kadro"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Saulėlydžio šešiakampiai (vertikaliai)",
+      "effect": "Layout nuo ByteWave · Portretas",
+      "action": "Ištirkite abi orientacijas",
+      "alt": "Saulėlydžio šešiakampiai (vertikaliai). Layout nuo ByteWave · Portretas"
+    },
+    {
+      "id": "air-show",
+      "title": "Oro šou 3D formatu",
+      "effect": "Animuoti 3D tekstas",
+      "action": "Išbandykite šį efektą: caption text effects",
+      "alt": "Oro šou 3D formatu. Animuoti 3D tekstas"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Pradinis greitis → sulėtintas vaizdas",
+      "action": "Išbandykite šį efektą: kadrų dažnio konvertavimas",
+      "alt": "The Quadruple Dive. Pradinis greitis → sulėtintas vaizdas"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animuoti tekstą",
+      "action": "Išbandykite šį efektą: caption text effects",
+      "alt": "Free as in Geese. Animuoti tekstą"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird, sulėtintas",
+      "effect": "0,1× greitis · 8× FRC",
+      "action": "Išbandykite šį efektą: kadrų dažnio konvertavimas",
+      "alt": "Hummingbird, sulėtintas. 0,1× greitis · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Prie uosto",
+      "effect": "Judėjimo suliejimas",
+      "action": "Išbandykite šį efektą: judesio suliejimas",
+      "alt": "Prie uosto. Judėjimo suliejimas"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Raudoni lapai",
+      "effect": "Laikinasis triukšmo mažinimas",
+      "action": "Išbandykite šį efektą: laikinas triukšmo mažinimas",
+      "alt": "Raudoni lapai. Laikinasis triukšmo mažinimas"
+    }
+  ]
+}

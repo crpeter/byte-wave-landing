@@ -1,0 +1,102 @@
+{
+  "title": "Framleitt með ByteWave",
+  "seo_title": "Framleitt með ByteWave Gallerí",
+  "description": "Kannaðu myndskeið og myndir sem gerðar eru með ByteWave: lárétt skrunskipulag, Möbius og bylgjulög, sólarlagsnet, hægfara hreyfingu og fleira.",
+  "aria_label": "Myndbönd og myndir gerðar með ByteWave",
+  "open_video": "Opna myndskeið",
+  "download": "Sækja ByteWave ókeypis",
+  "credit": "Apple sýnishorn af myndefni, breytt í ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Skruna dálka af sólsetur, strandlengjum og daglegum augnablikum.",
+      "action": "Skoða Layout frá ByteWave",
+      "alt": "The All Scroll. Skruna dálka af sólsetur, strandlengjum og daglegum augnablikum."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Lárétt fletting · Möbius Breyta",
+      "effect": "Fyrsta lárétta skrunuppsetningin okkar, vafin í Möbius varp.",
+      "action": "Skoða Layout frá ByteWave",
+      "alt": "Lárétt fletting · Möbius Breyta. Fyrsta lárétta skrunuppsetningin okkar, vafin í Möbius varp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Lárétt skrun · Waves",
+      "effect": "Lárétt fletti með bylgju varpa.",
+      "action": "Skoða Layout frá ByteWave",
+      "alt": "Lárétt skrun · Waves. Lárétt fletti með bylgju varpa."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Sunset sexhyrningar (landscape)",
+      "effect": "Layout frá ByteWave · Landslag",
+      "action": "Kannaðu báðar stefnurnar",
+      "alt": "Sunset sexhyrningar (landscape). Layout frá ByteWave · Landslag"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Sólsetur",
+      "effect": "Layout frá ByteWave · boginn sólsetur hljómsveitir",
+      "action": "Skoða Layout frá ByteWave",
+      "alt": "Sólsetur. Layout frá ByteWave · boginn sólsetur hljómsveitir"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Seaside grid að ströndinni",
+      "effect": "Layout frá ByteWave · sex-spjald rist til fullur ramma",
+      "action": "Skoða Layout frá ByteWave",
+      "alt": "Seaside grid að ströndinni. Layout frá ByteWave · sex-spjald rist til fullur ramma"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Sunset hexagons (lóðrétt)",
+      "effect": "Layout frá ByteWave · Portrett",
+      "action": "Kannaðu báðar stefnurnar",
+      "alt": "Sunset hexagons (lóðrétt). Layout frá ByteWave · Portrett"
+    },
+    {
+      "id": "air-show",
+      "title": "Air sýning í 3D",
+      "effect": "Hreyfimyndir 3D texta",
+      "action": "Prófaðu þessa áhrif: textaáhrif fyrir texta",
+      "alt": "Air sýning í 3D. Hreyfimyndir 3D texta"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Upprunalega hraði → hægur hreyfing",
+      "action": "Prófaðu þessa áhrif: rammahraði viðskipti",
+      "alt": "The Quadruple Dive. Upprunalega hraði → hægur hreyfing"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Hreyfimyndir",
+      "action": "Prófaðu þessa áhrif: textaáhrif fyrir texta",
+      "alt": "Free as in Geese. Hreyfimyndir"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird, hægari",
+      "effect": "0. 1× hraði · 8× FRC",
+      "action": "Prófaðu þessa áhrif: rammahraði viðskipti",
+      "alt": "Hummingbird, hægari. 0. 1× hraði · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Í höfninni",
+      "effect": "Hreyfióskýring",
+      "action": "Prófaðu þessa áhrif: hreyfióskýring",
+      "alt": "Í höfninni. Hreyfióskýring"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Rauð lauf",
+      "effect": "Tímabundin hávaðaminnkun",
+      "action": "Prófaðu þessa áhrif: tímabundin hávaðaminnkun",
+      "alt": "Rauð lauf. Tímabundin hávaðaminnkun"
+    }
+  ]
+}

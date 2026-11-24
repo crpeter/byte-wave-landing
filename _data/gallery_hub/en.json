@@ -1,0 +1,102 @@
+{
+  "title": "Made with ByteWave",
+  "seo_title": "Made with ByteWave Gallery",
+  "description": "Explore videos and images made with ByteWave: horizontal scrolling layouts, Möbius and wave warps, sunset grids, slow motion, and more.",
+  "aria_label": "Videos and images made with ByteWave",
+  "open_video": "Open video",
+  "download": "Download ByteWave Free",
+  "credit": "Apple sample footage, edited in ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Scrolling columns of sunsets, coastlines, and everyday moments.",
+      "action": "Explore Layout from ByteWave",
+      "alt": "The All Scroll. Scrolling columns of sunsets, coastlines, and everyday moments."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Horizontal Scroll · Möbius Warp",
+      "effect": "Our first horizontal-scrolling layout, wrapped in a Möbius warp.",
+      "action": "Explore Layout from ByteWave",
+      "alt": "Horizontal Scroll · Möbius Warp. Our first horizontal-scrolling layout, wrapped in a Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Horizontal Scroll · Waves",
+      "effect": "Horizontal scrolling with a wave warp.",
+      "action": "Explore Layout from ByteWave",
+      "alt": "Horizontal Scroll · Waves. Horizontal scrolling with a wave warp."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Sunset hexagons (landscape)",
+      "effect": "Layout from ByteWave · Landscape",
+      "action": "Explore both orientations",
+      "alt": "Sunset hexagons (landscape). Layout from ByteWave · Landscape"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Warped sunset",
+      "effect": "Layout from ByteWave · curved sunset bands",
+      "action": "Explore Layout from ByteWave",
+      "alt": "Warped sunset. Layout from ByteWave · curved sunset bands"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Seaside grid to beach",
+      "effect": "Layout from ByteWave · six-panel grid to full frame",
+      "action": "Explore Layout from ByteWave",
+      "alt": "Seaside grid to beach. Layout from ByteWave · six-panel grid to full frame"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Sunset hexagons (portrait)",
+      "effect": "Layout from ByteWave · Portrait",
+      "action": "Explore both orientations",
+      "alt": "Sunset hexagons (portrait). Layout from ByteWave · Portrait"
+    },
+    {
+      "id": "air-show",
+      "title": "Air show in 3D",
+      "effect": "Animated 3D text",
+      "action": "Try this effect: caption text effects",
+      "alt": "Air show in 3D. Animated 3D text"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Original speed → slow motion",
+      "action": "Try this effect: frame rate conversion",
+      "alt": "The Quadruple Dive. Original speed → slow motion"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animated text",
+      "action": "Try this effect: caption text effects",
+      "alt": "Free as in Geese. Animated text"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird, slowed down",
+      "effect": "0.1× speed · 8× FRC",
+      "action": "Try this effect: frame rate conversion",
+      "alt": "Hummingbird, slowed down. 0.1× speed · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "At the harbor",
+      "effect": "Motion blur",
+      "action": "Try this effect: motion blur",
+      "alt": "At the harbor. Motion blur"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Red leaves",
+      "effect": "Temporal noise reduction",
+      "action": "Try this effect: temporal noise reduction",
+      "alt": "Red leaves. Temporal noise reduction"
+    }
+  ]
+}

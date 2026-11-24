@@ -8,7 +8,7 @@
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
 {%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -8,6 +8,14 @@ on:
       - '_includes/blog-index-card.html'
       - '_layouts/localized-editorial.html'
       - '**/blog/*.html'
+      - '_data/about.yml'
+      - '_data/privacy.yml'
+      - '_data/expression.yml'
+      - '_data/press/**'
+      - '_layouts/localized-about.html'
+      - '_layouts/localized-privacy.html'
+      - '_layouts/localized-expression.html'
+      - '_layouts/localized-press.html'
       - '_data/gallery_hub/**'
       - '_data/tutorial_hub/**'
       - '_layouts/localized-information.html'
@@ -20,6 +28,7 @@ on:
       - '**/gallery/index.md'
       - '**/tutorials/index.md'
       - 'scripts/test_secondary_browser.cjs'
+      - 'scripts/test_expanded_secondary_browser.cjs'
       - '.github/workflows/secondary-browser-qa.yml'
 permissions:
   contents: read
@@ -45,6 +54,7 @@ jobs:
           python3 -m http.server 8765 --directory _site >/tmp/bytewave-secondary-http.log 2>&1 &
           sleep 2
           node scripts/test_secondary_browser.cjs
+          node scripts/test_expanded_secondary_browser.cjs
       - name: Upload localized screenshots and checks
         if: always()
         uses: actions/upload-artifact@v4

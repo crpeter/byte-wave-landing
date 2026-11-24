@@ -1,3 +1,4 @@
+{%- assign feed_page = site.pages | where: "translation_key", "how-bytewave-feed-works-without-server-watch-history" | where: "lang", page.lang | first -%}
 {%- assign press_page = site.pages | where: "translation_key", "press" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign a = site.data.about[page.lang] -%}
@@ -5,7 +6,7 @@
 {%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
 {%- assign about_page = page -%}
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -62,7 +63,7 @@
     {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
     <li><a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ a.privacy | escape }}</a></li>
     <li><a href="{{ press_page.url | relative_url }}">{{ a.press | escape }}</a></li>
-    <li><a href="{{ home.url | relative_url }}blog/how-bytewave-feed-works-without-server-watch-history.html">{{ a.feed | escape }}</a></li>
+    <li><a href="{{ feed_page.url | default: '/blog/how-bytewave-feed-works-without-server-watch-history.html' | relative_url }}"{% unless feed_page %} hreflang="en"{% endunless %}>{{ a.feed | escape }}</a></li>
     <li><a href="/blog/provenance.html" hreflang="en">{{ a.provenance | escape }}</a></li>
   </ul>
 </article></main>

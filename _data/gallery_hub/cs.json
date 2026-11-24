@@ -1,0 +1,102 @@
+{
+  "title": "Vyrobeno s ByteWave",
+  "seo_title": "Vytvořeno pomocí ByteWave Galerie",
+  "description": "Prozkoumejte videa a obrázky vytvořené pomocí ByteWave: horizontální rolovací rozložení, Möbius a vlnové deformace, mřížky západu slunce, zpomalený pohyb a další.",
+  "aria_label": "Videa a obrázky pořízené pomocí ByteWave",
+  "open_video": "Otevřít video",
+  "download": "Stáhnout ByteWave Zdarma",
+  "credit": "Apple ukázkový záznam, upravený v ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Rolování sloupce západy slunce, pobřeží a každodenní okamžiky.",
+      "action": "Prozkoumejte Layout z ByteWave",
+      "alt": "The All Scroll. Rolování sloupce západy slunce, pobřeží a každodenní okamžiky."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Vodorovné posouvání · Möbius Zkroucení",
+      "effect": "Naše první horizontálně rolující rozvržení, zabalené do Möbius warp.",
+      "action": "Prozkoumejte Layout z ByteWave",
+      "alt": "Vodorovné posouvání · Möbius Zkroucení. Naše první horizontálně rolující rozvržení, zabalené do Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Horizontální rolování · Vlny",
+      "effect": "Horizontální rolování s vlnou warp.",
+      "action": "Prozkoumejte Layout z ByteWave",
+      "alt": "Horizontální rolování · Vlny. Horizontální rolování s vlnou warp."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Západ slunce šestiúhelníky (na šířku)",
+      "effect": "Layout od ByteWave · Krajina",
+      "action": "Prozkoumejte obě orientace",
+      "alt": "Západ slunce šestiúhelníky (na šířku). Layout od ByteWave · Krajina"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Zkroucený západ slunce",
+      "effect": "Layout od ByteWave · zakřivené pásy západu slunce",
+      "action": "Prozkoumejte Layout z ByteWave",
+      "alt": "Zkroucený západ slunce. Layout od ByteWave · zakřivené pásy západu slunce"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Přímořská mřížka na pláž",
+      "effect": "Layout od ByteWave · šesti panelová mřížka na plný rámeček",
+      "action": "Prozkoumejte Layout z ByteWave",
+      "alt": "Přímořská mřížka na pláž. Layout od ByteWave · šesti panelová mřížka na plný rámeček"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Západ slunce šestiúhelníky (na výšku)",
+      "effect": "Layout od ByteWave · Portrét",
+      "action": "Prozkoumejte obě orientace",
+      "alt": "Západ slunce šestiúhelníky (na výšku). Layout od ByteWave · Portrét"
+    },
+    {
+      "id": "air-show",
+      "title": "Letecká show ve 3D",
+      "effect": "Animovaný 3D text",
+      "action": "Vyzkoušejte tento efekt: textový popisek",
+      "alt": "Letecká show ve 3D. Animovaný 3D text"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Původní rychlost → zpomalený pohyb",
+      "action": "Vyzkoušejte tento efekt: převod snímkové frekvence",
+      "alt": "The Quadruple Dive. Původní rychlost → zpomalený pohyb"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animovaný text",
+      "action": "Vyzkoušejte tento efekt: textový popisek",
+      "alt": "Free as in Geese. Animovaný text"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibřík, zpomalený",
+      "effect": "0,1× rychlost · 8× FRC",
+      "action": "Vyzkoušejte tento efekt: převod snímkové frekvence",
+      "alt": "Kolibřík, zpomalený. 0,1× rychlost · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "V přístavu",
+      "effect": "Rozmazání pohybu",
+      "action": "Vyzkoušejte tento efekt: motion blur",
+      "alt": "V přístavu. Rozmazání pohybu"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Červené listy",
+      "effect": "Dočasná redukce šumu",
+      "action": "Vyzkoušejte tento efekt: redukce šumu v čase",
+      "alt": "Červené listy. Dočasná redukce šumu"
+    }
+  ]
+}

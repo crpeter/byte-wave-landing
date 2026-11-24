@@ -1,0 +1,102 @@
+{
+  "title": "ByteWave-wan ruwasqa",
+  "seo_title": "ByteWave-wan ruwasqa kuyuy siq'ikuna wasi",
+  "description": "ByteWave-wan ruwasqa kuyuy siq'ikunata, siq'ikunatapas qhaway: kinray kuyuy, Möbius, unu q'iwiykuna, inti haykuy patarakuna, allimanta kuyuy, hukkunapas.",
+  "aria_label": "ByteWave-wan ruwasqa kuyuy siq'ikuna, siq'ikunapas",
+  "open_video": "Kuyuy siq'ita kichay",
+  "download": "ByteWave-ta mana qullqillapa uraykachiy",
+  "credit": "Apple-pa ejemplo kuyuy siq'in, ByteWave-wan allichasqa.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Inti chinkaykuna, mama qucha patakuna, sapa p'unchaw kausaypa siq'inkuna sayaq wachukunapi purinku.",
+      "action": "ByteWave Layout nisqata qhaway",
+      "alt": "The All Scroll. Inti chinkaykuna, mama qucha patakuna, sapa p'unchaw kausaypa siq'inkuna sayaq wachukunapi purinku."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Kinray puriy · Möbius k'uyuy",
+      "effect": "Ñawpaq kinray puriq wakichiyniyku, Möbius k'uyuywan.",
+      "action": "ByteWave Layout nisqata qhaway",
+      "alt": "Kinray puriy · Möbius k'uyuy. Ñawpaq kinray puriq wakichiyniyku, Möbius k'uyuywan."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Kinray puriy · Unu q'inqukuna",
+      "effect": "Kinray puriy unu q'inqu hina k'uyuywan.",
+      "action": "ByteWave Layout nisqata qhaway",
+      "alt": "Kinray puriy · Unu q'inqukuna. Kinray puriy unu q'inqu hina k'uyuywan."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Inti chinkaypa suqta kuchuyuq siq'inkuna (kinray)",
+      "effect": "ByteWave Layout · Kinray.",
+      "action": "Iskaynin sayayninta qhaway",
+      "alt": "Inti chinkaypa suqta kuchuyuq siq'inkuna (kinray). ByteWave Layout · Kinray."
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "K'uyusqa inti chinkay",
+      "effect": "ByteWave Layout · K'uyusqa inti chinkay wachukuna.",
+      "action": "ByteWave Layout nisqata qhaway",
+      "alt": "K'uyusqa inti chinkay. ByteWave Layout · K'uyusqa inti chinkay wachukuna."
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Qucha patapa tawak'uchukunamanta rit'i aqu pataman",
+      "effect": "ByteWave Layout · Suqta t'aqamanta hunt'a siq'iman.",
+      "action": "ByteWave Layout nisqata qhaway",
+      "alt": "Qucha patapa tawak'uchukunamanta rit'i aqu pataman. ByteWave Layout · Suqta t'aqamanta hunt'a siq'iman."
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Inti chinkaypa suqta kuchuyuq siq'inkuna (sayaq)",
+      "effect": "ByteWave Layout · Sayaq.",
+      "action": "Iskaynin sayayninta qhaway",
+      "alt": "Inti chinkaypa suqta kuchuyuq siq'inkuna (sayaq). ByteWave Layout · Sayaq."
+    },
+    {
+      "id": "air-show",
+      "title": "3D wayra pukllay",
+      "effect": "Kuyuq 3D qillqa.",
+      "action": "Kayta malliy: rimasqa qillqapa kuyuy rurayninkuna",
+      "alt": "3D wayra pukllay. Kuyuq 3D qillqa."
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Ñawpaq utqhay → allimanta kuyuy.",
+      "action": "Kayta malliy: sapa segundopi siq'ikuna yupayta tikray",
+      "alt": "The Quadruple Dive. Ñawpaq utqhay → allimanta kuyuy."
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Kuyuq qillqa.",
+      "action": "Kayta malliy: rimasqa qillqapa kuyuy rurayninkuna",
+      "alt": "Free as in Geese. Kuyuq qillqa."
+    },
+    {
+      "id": "hummingbird",
+      "title": "Allimanta kuyuq q'inti",
+      "effect": "0.1× utqhay · 8× FRC.",
+      "action": "Kayta malliy: sapa segundopi siq'ikuna yupayta tikray",
+      "alt": "Allimanta kuyuq q'inti. 0.1× utqhay · 8× FRC."
+    },
+    {
+      "id": "harbor",
+      "title": "Wamp'ukuna sayananpi",
+      "effect": "Kuyuyrayku mana sut'i siq'i.",
+      "action": "Kayta malliy: kuyuyrayku mana sut'i siq'i",
+      "alt": "Wamp'ukuna sayananpi. Kuyuyrayku mana sut'i siq'i."
+    },
+    {
+      "id": "red-leaves",
+      "title": "Puka rap'ikuna",
+      "effect": "Qatiq siq'ikunawan siq'ipa ch'aqwayninta pisiyachiy.",
+      "action": "Kayta malliy: qatiq siq'ikunapi ch'aqwayta pisiyachiy",
+      "alt": "Puka rap'ikuna. Qatiq siq'ikunawan siq'ipa ch'aqwayninta pisiyachiy."
+    }
+  ]
+}

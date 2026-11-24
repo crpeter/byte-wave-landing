@@ -1,0 +1,102 @@
+{
+  "title": "Realizat cu ByteWave",
+  "seo_title": "Galerie de creații realizate cu ByteWave",
+  "description": "Explorați videoclipuri și imagini realizate cu ByteWave: machete de derulare orizontală, Möbius și deformări de undă, grile de apus de soare, mișcare lentă și multe altele.",
+  "aria_label": "Videoclipuri şi imagini realizate cu ByteWave",
+  "open_video": "Deschideți videoclipul",
+  "download": "Descarcă ByteWave gratuit",
+  "credit": "Material video demonstrativ Apple, editat în ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Derularea coloanelor de apusuri de soare, coaste, și momente de zi cu zi.",
+      "action": "Explorează Layout din ByteWave",
+      "alt": "The All Scroll. Derularea coloanelor de apusuri de soare, coaste, și momente de zi cu zi."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Derulare orizontală · Deformare Möbius",
+      "effect": "Primul nostru aranjament cu derulare orizontală, înfășurat într-o deformare Möbius.",
+      "action": "Explorează Layout din ByteWave",
+      "alt": "Derulare orizontală · Deformare Möbius. Primul nostru aranjament cu derulare orizontală, înfășurat într-o deformare Möbius."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Derulare orizontală · Valuri",
+      "effect": "Derulare orizontală cu o răsucire a valului.",
+      "action": "Explorează Layout din ByteWave",
+      "alt": "Derulare orizontală · Valuri. Derulare orizontală cu o răsucire a valului."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Apus de soare hexagoane (peisaj)",
+      "effect": "Layout din ByteWave · Peisaj",
+      "action": "Explorați ambele orientări",
+      "alt": "Apus de soare hexagoane (peisaj). Layout din ByteWave · Peisaj"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Apus de soare deformat",
+      "effect": "Layout din ByteWave · benzi curbate de apus de soare",
+      "action": "Explorează Layout din ByteWave",
+      "alt": "Apus de soare deformat. Layout din ByteWave · benzi curbate de apus de soare"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Grila de la malul mării la plajă",
+      "effect": "Layout de la ByteWave · grilă cu șase panouri la cadru întreg",
+      "action": "Explorează Layout din ByteWave",
+      "alt": "Grila de la malul mării la plajă. Layout de la ByteWave · grilă cu șase panouri la cadru întreg"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Hexagoane de apus (portret)",
+      "effect": "Layout din ByteWave · Portret",
+      "action": "Explorați ambele orientări",
+      "alt": "Hexagoane de apus (portret). Layout din ByteWave · Portret"
+    },
+    {
+      "id": "air-show",
+      "title": "Spectacol aerian în 3D",
+      "effect": "Text 3D animat",
+      "action": "Încercați acest efect: efecte pentru textul subtitrărilor",
+      "alt": "Spectacol aerian în 3D. Text 3D animat"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Viteza originală → mișcare lentă",
+      "action": "Încercați acest efect: conversia frecvenței cadrelor",
+      "alt": "The Quadruple Dive. Viteza originală → mișcare lentă"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Text animat",
+      "action": "Încercați acest efect: efecte pentru textul subtitrărilor",
+      "alt": "Free as in Geese. Text animat"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Colibri, încetinit",
+      "effect": "0,1× viteză · 8× FRC",
+      "action": "Încercați acest efect: conversia frecvenței cadrelor",
+      "alt": "Colibri, încetinit. 0,1× viteză · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "La port",
+      "effect": "Estomparea mișcării",
+      "action": "Încercați acest efect: estomparea mișcării",
+      "alt": "La port. Estomparea mișcării"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Frunze roșii",
+      "effect": "Reducerea zgomotului temporal",
+      "action": "Încercați acest efect: reducerea zgomotului temporal",
+      "alt": "Frunze roșii. Reducerea zgomotului temporal"
+    }
+  ]
+}

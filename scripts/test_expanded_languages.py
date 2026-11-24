@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the app-language homepage/tutorial rollout and its English fallbacks."""
+"""Check the app-language homepage/tutorial rollout and remaining English blog fallbacks."""
 import json
 import re
 from html import unescape
@@ -73,14 +73,14 @@ for lang in locales:
             local = urlparse(href).path
             if local.startswith(f'/{lang}/'):
                 suffix = local.removeprefix(f'/{lang}/')
-                assert not suffix or suffix.startswith(('tutorials/', 'layout/')), (rendered, href)
+                assert not suffix or suffix.startswith(('tutorials/', 'layout/', 'gallery/')) or suffix in {'about.html', 'press.html', 'privacy.html', 'free-expression.html'}, (rendered, href)
         if path == 'tutorials/index.html':
             for slug in slugs:
                 assert f'/{lang}/tutorials/{slug}/' in page.links, (rendered, slug)
             assert f'/{lang}/layout/' in page.links, rendered
         if path == 'index.html':
             assert '/blog/best-video-editor-privacy-no-upload.html' in page.links, rendered
-            assert '/gallery/' in page.links and '/blog/provenance.html#signed-exports' in page.links, rendered
+            assert f'/{lang}/gallery/' in page.links and '/blog/provenance.html#signed-exports' in page.links, rendered
             assert '/assets/landing/golden-sunrise/sunrise-1920.webp' in page.media, rendered
         if path.startswith('tutorials/') and path != 'tutorials/index.html':
             assert len(re.findall(r'class="[^"]*\bai-disclosure\b', raw)) == 1, rendered
