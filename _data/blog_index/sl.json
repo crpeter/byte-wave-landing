@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Vodiči za urejanje videa brez računa",
+  "description": "Urejajte video na iPhonu brez računa in preizkusite delo brez povezave v ByteWave.",
+  "subtitle": "Urejajte v napravi. Preverite, kaj deluje brez interneta.",
+  "all_articles_label": "Vsi članki v angleščini",
+  "disclosure": "Ta članek vključuje besedilo, ustvarjeno z jezikovnim modelom umetne inteligence (LLM).",
+  "tags": {
+    "guide": "Vodič",
+    "offline-editing-guide": "Vodič za urejanje brez povezave"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Kako urejati videe na iPhonu brez ustvarjanja računa",
+      "summary": "Urejajte in izvažajte videe z ByteWave brez računa za urejanje, e-poštne registracije, naročnine ali vodnega žiga. Tudi na iPadu in Macu z Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Bi lahko dokončali video, če bi vaš račun izginil?",
+      "summary": "Preizkusite ByteWave v letalskem načinu: lokalni posnetek, urejanje brez prijave in shranjevanje v Fotografije. Preverite, kaj deluje brez interneta."
+    }
+  }
+}

@@ -71,6 +71,9 @@ for lang in locales:
         if lang == 'ar': assert 'dir="rtl"' in raw.split('<head>')[0], rendered
         for href in page.links:
             local = urlparse(href).path
+            if local == f'/{lang}/blog/':
+                assert (ROOT / lang / 'blog/index.html').is_file(), (rendered, href)
+                continue
             if local.startswith(f'/{lang}/'):
                 suffix = local.removeprefix(f'/{lang}/')
                 assert not suffix or suffix.startswith(('tutorials/', 'layout/')), (rendered, href)

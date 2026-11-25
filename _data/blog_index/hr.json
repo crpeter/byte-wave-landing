@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Vodiči za uređivanje videa bez računa",
+  "description": "Uređujte video na iPhoneu bez računa i isprobajte izvanmrežno uređivanje u ByteWaveu.",
+  "subtitle": "Uređujte na uređaju. Provjerite što radi bez interneta.",
+  "all_articles_label": "Svi članci na engleskom",
+  "disclosure": "Ovaj članak sadrži tekst generiran jezičnim modelom umjetne inteligencije (LLM).",
+  "tags": {
+    "guide": "Vodič",
+    "offline-editing-guide": "Vodič za izvanmrežno uređivanje"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Kako uređivati video na iPhoneu bez otvaranja računa",
+      "summary": "Uređujte i izvozite video u ByteWaveu bez računa za uređivanje, prijave e-poštom, pretplate ili vodenog žiga. I na iPadu i Macu s Apple Silicon čipom."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Biste li mogli dovršiti video da vam račun nestane?",
+      "summary": "Isprobajte ByteWave u zrakoplovnom modu: lokalni isječak, uređivanje bez prijave i spremanje u Foto. Provjerite što radi bez interneta."
+    }
+  }
+}

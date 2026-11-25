@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Miongozo ya kuhariri video bila akaunti",
+  "description": "Hariri video kwenye iPhone bila akaunti na ujaribu ByteWave bila intaneti.",
+  "subtitle": "Hariri kwenye kifaa chako. Angalia kinachofanya kazi bila intaneti.",
+  "all_articles_label": "Makala zote kwa Kiingereza",
+  "disclosure": "Makala hii ina maandishi yaliyotengenezwa kwa modeli ya lugha ya AI (LLM).",
+  "tags": {
+    "guide": "Mwongozo",
+    "offline-editing-guide": "Mwongozo wa kuhariri bila intaneti"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Jinsi ya kuhariri video kwenye iPhone bila kufungua akaunti",
+      "summary": "Hariri na kuhamisha video kwa ByteWave bila akaunti ya kuhariri, usajili wa barua pepe, ada ya usajili au alama ya maji. Pia kwenye iPad na Mac yenye Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Ungeweza kumaliza video yako kama akaunti yako ingetoweka?",
+      "summary": "Jaribu ByteWave katika hali ya ndege: tumia klipu ya kifaa, hariri bila kuingia kwenye akaunti na uhifadhi kwenye Picha. Angalia kinachofanya kazi bila intaneti."
+    }
+  }
+}

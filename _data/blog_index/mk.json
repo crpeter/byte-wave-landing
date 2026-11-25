@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Водичи за уредување видео без сметка",
+  "description": "Уредувајте видео на iPhone без сметка и испробајте го ByteWave без интернет.",
+  "subtitle": "Уредувајте на уредот. Проверете што работи без интернет.",
+  "all_articles_label": "Сите статии на англиски",
+  "disclosure": "Оваа статија вклучува текст генериран со јазичен модел на вештачка интелигенција (LLM).",
+  "tags": {
+    "guide": "Водич",
+    "offline-editing-guide": "Водич за уредување без интернет"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Како да уредувате видео на iPhone без да создадете сметка",
+      "summary": "Уредувајте и извезувајте видео со ByteWave без сметка за уредување, регистрација со е-пошта, претплата или воден жиг. И на iPad и Mac со Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Би можеле ли да го завршите видеото ако вашата сметка исчезне?",
+      "summary": "Испробајте ByteWave во авионски режим: локален клип, уредување без најава и зачувување во Фотографии. Проверете што работи без интернет."
+    }
+  }
+}
