@@ -1,4 +1,7 @@
 {%- assign local_blog = site.pages | where: 'translation_key', 'blog-index' | where: 'lang', page.lang | first -%}
+{%- if local_blog.blog_coverage == 'partial' -%}
+  {%- assign local_blog = nil -%}
+{%- endif -%}
 {%- assign blog_base = local_blog.url | default: '/blog/' -%}
 {%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}

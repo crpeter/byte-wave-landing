@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Οδηγοί επεξεργασίας βίντεο χωρίς λογαριασμό",
+  "description": "Επεξεργαστείτε βίντεο στο iPhone χωρίς λογαριασμό και δοκιμάστε το ByteWave χωρίς διαδίκτυο.",
+  "subtitle": "Επεξεργασία στη συσκευή σας. Δείτε τι λειτουργεί χωρίς διαδίκτυο.",
+  "all_articles_label": "Όλα τα άρθρα στα αγγλικά",
+  "disclosure": "Το άρθρο περιλαμβάνει κείμενο που δημιουργήθηκε με γλωσσικό μοντέλο τεχνητής νοημοσύνης (LLM).",
+  "tags": {
+    "guide": "Οδηγός",
+    "offline-editing-guide": "Οδηγός επεξεργασίας εκτός σύνδεσης"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Πώς να επεξεργαστείτε βίντεο στο iPhone χωρίς να δημιουργήσετε λογαριασμό",
+      "summary": "Επεξεργαστείτε και εξαγάγετε βίντεο με το ByteWave χωρίς λογαριασμό επεξεργασίας, εγγραφή με email, συνδρομή ή υδατογράφημα. Και σε iPad και Mac με Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Θα ολοκληρώνατε το βίντεό σας αν εξαφανιζόταν ο λογαριασμός σας;",
+      "summary": "Δοκιμάστε το ByteWave σε λειτουργία πτήσης: τοπικό κλιπ, επεξεργασία χωρίς είσοδο και αποθήκευση στις Φωτογραφίες. Δείτε τι λειτουργεί χωρίς διαδίκτυο."
+    }
+  }
+}

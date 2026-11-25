@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Leiðbeiningar um myndvinnslu án aðgangs",
+  "description": "Breyttu myndskeiðum á iPhone án aðgangs og prófaðu ByteWave án nettengingar.",
+  "subtitle": "Vinnsla í tækinu þínu. Kannaðu hvað virkar án internets.",
+  "all_articles_label": "Allar greinar á ensku",
+  "disclosure": "Þessi grein inniheldur texta sem var búinn til með stóru gervigreindarmállíkani (LLM).",
+  "tags": {
+    "guide": "Leiðbeiningar",
+    "offline-editing-guide": "Leiðbeiningar um vinnslu án nettengingar"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Hvernig á að breyta myndskeiðum á iPhone án þess að stofna aðgang",
+      "summary": "Breyttu og flyttu út myndskeið með ByteWave án vinnsluaðgangs, tölvupóstskráningar, áskriftar eða vatnsmerkis. Líka á iPad og Mac með Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Gætirðu lokið myndskeiðinu ef aðgangurinn þinn hyrfi?",
+      "summary": "Prófaðu ByteWave í flugstillingu: staðbundin klippa, vinnsla án innskráningar og vistun í Myndir. Kannaðu hvað virkar án internets."
+    }
+  }
+}

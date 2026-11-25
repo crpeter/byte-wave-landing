@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Jagororin gyaran bidiyo ba tare da asusu ba",
+  "description": "Gyara bidiyo a iPhone ba tare da asusu ba, ka gwada ByteWave ba tare da intanet ba.",
+  "subtitle": "Yi gyara a na'urarka. Duba abin da yake aiki ba tare da intanet ba.",
+  "all_articles_label": "Duk makaloli da Turanci",
+  "disclosure": "Wannan maƙala tana ɗauke da rubutun da samfurin harshe na AI (LLM) ya samar.",
+  "tags": {
+    "guide": "Jagora",
+    "offline-editing-guide": "Jagorar gyara ba tare da intanet ba"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Yadda za ka gyara bidiyo a iPhone ba tare da ƙirƙirar asusu ba",
+      "summary": "Gyara ka fitar da bidiyo da ByteWave ba tare da asusun gyara, rajistar imel, biyan kuɗin rajista ko alamar ruwa ba. Har da iPad da Mac mai Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Za ka iya gama bidiyoka idan asusunka ya ɓace?",
+      "summary": "Gwada ByteWave a yanayin jirgin sama: bidiyon na'ura, gyara ba tare da shiga asusu ba, da adanawa a Photos. Duba abin da yake aiki ba tare da intanet ba."
+    }
+  }
+}

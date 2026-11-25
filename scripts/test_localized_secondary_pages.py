@@ -483,3 +483,6 @@ for lang, slug in LOCALES.items():
         assert f'href="/{slug}/{route}"' in home, (lang, route, "homepage reading link")
         assert f'href="/{route}"' not in home, (lang, route, "English homepage link")
 print("Verified localized homepage reading links for the new feed and editing guides.")
+
+from test_expanded_blog_guides import main as check_expanded_blog_guides
+check_expanded_blog_guides()

@@ -13,7 +13,7 @@
 {%- assign verify = locale_pages | where: "translation_key", "creation-check-c2pa-content-credentials" | first -%}
 {%- assign metadata = locale_pages | where: "translation_key", "creation-remove-location-metadata" | first -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -205,6 +205,16 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   <p class="ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ b.disclosure | escape }}</p>
   <p class="subtitle">{{ b.subtitle | escape }}</p>
 
+  {% if b.starter %}
+  <section class="blog-section" aria-labelledby="edit-videos">
+    <h2 id="edit-videos">{{ b.tags.guide | escape }}</h2>
+    {% for card in b.card_order %}
+      {% include blog-index-card.html %}
+    {% endfor %}
+    <p class="section-download"><a href="{{ tutorials_page.url | relative_url }}">{{ t.nav.tutorials | escape }}</a></p>
+    <p class="section-download"><a href="/blog/" hreflang="en">{{ b.all_articles_label | escape }}</a></p>
+  </section>
+  {% else %}
   <div class="topic-links" aria-label="{{ b.topics | escape }}">
     <a href="#meta-record" class="meta-topic">{{ b.sections["meta-record"].title | escape }}</a>
     <a href="#edit-videos">{{ b.sections["edit-videos"].title | escape }}</a>
@@ -262,6 +272,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
       {% include blog-index-card.html %}
     {% endfor %}
 </div></section>
+  {% endif %}
 </main>
 
 {% include localized-footer.html %}

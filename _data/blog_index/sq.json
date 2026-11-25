@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Udhëzues montazhi video pa llogari",
+  "description": "Montoni video në iPhone pa llogari dhe provoni punën pa internet me ByteWave.",
+  "subtitle": "Montoni në pajisjen tuaj. Kontrolloni çfarë punon pa internet.",
+  "all_articles_label": "Të gjithë artikujt në anglisht",
+  "disclosure": "Ky artikull përfshin tekst të gjeneruar me një model gjuhësor të inteligjencës artificiale (LLM).",
+  "tags": {
+    "guide": "Udhëzues",
+    "offline-editing-guide": "Udhëzues montazhi pa internet"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Si të montoni video në iPhone pa krijuar llogari",
+      "summary": "Montoni dhe eksportoni video me ByteWave pa llogari montazhi, regjistrim me email, abonim ose filigran. Edhe në iPad dhe Mac me Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "A do ta përfundonit videon po t'ju zhdukej llogaria?",
+      "summary": "Provoni ByteWave në modalitetin e avionit: klip lokal, montazh pa hyrë në llogari dhe ruajtje te Photos. Kontrolloni çfarë punon pa internet."
+    }
+  }
+}

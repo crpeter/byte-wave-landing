@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "Video rediģēšanas pamācības bez konta",
+  "description": "Rediģē video iPhone tālrunī bez konta un pārbaudi ByteWave darbību bez interneta.",
+  "subtitle": "Rediģē savā ierīcē. Pārbaudi, kas darbojas bez interneta.",
+  "all_articles_label": "Visi raksti angļu valodā",
+  "disclosure": "Šajā rakstā ir teksts, kas ģenerēts ar mākslīgā intelekta valodas modeli (LLM).",
+  "tags": {
+    "guide": "Pamācība",
+    "offline-editing-guide": "Bezsaistes rediģēšanas pamācība"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "Kā rediģēt video iPhone tālrunī, neveidojot kontu",
+      "summary": "Rediģē un eksportē video ar ByteWave bez rediģēšanas konta, e-pasta reģistrācijas, abonementa vai ūdenszīmes. Arī iPad un Mac ar Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "Vai tu pabeigtu video, ja tavs konts pazustu?",
+      "summary": "Izmēģini ByteWave lidmašīnas režīmā: lokāls klips, rediģēšana bez pieteikšanās un saglabāšana lietotnē Photos. Pārbaudi, kas darbojas bez interneta."
+    }
+  }
+}

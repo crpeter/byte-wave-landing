@@ -1,0 +1,32 @@
+{
+  "starter": true,
+  "seo": "أدلة تحرير الفيديو بدون حساب",
+  "description": "حرّر الفيديو على iPhone بدون حساب، وجرّب العمل دون اتصال بالإنترنت في ByteWave.",
+  "subtitle": "حرّر على جهازك. وتحقق مما يعمل دون إنترنت.",
+  "all_articles_label": "جميع المقالات باللغة الإنجليزية",
+  "disclosure": "يتضمن هذا المقال نصًا مولدًا باستخدام نموذج لغوي للذكاء الاصطناعي (LLM).",
+  "tags": {
+    "guide": "دليل",
+    "offline-editing-guide": "دليل التحرير دون اتصال"
+  },
+  "card_order": [
+    {
+      "href": "/blog/edit-videos-no-account-iphone.html",
+      "tag": "guide"
+    },
+    {
+      "href": "/blog/offline-video-editor-airplane-mode-test.html",
+      "tag": "offline-editing-guide"
+    }
+  ],
+  "cards": {
+    "/blog/edit-videos-no-account-iphone.html": {
+      "title": "كيفية تحرير الفيديو على iPhone دون إنشاء حساب",
+      "summary": "حرّر الفيديو وصدّره باستخدام ByteWave دون حساب للتحرير أو تسجيل بالبريد الإلكتروني أو اشتراك أو علامة مائية. ويعمل أيضًا على iPad وMac بمعالج Apple Silicon."
+    },
+    "/blog/offline-video-editor-airplane-mode-test.html": {
+      "title": "هل يمكنك إنهاء الفيديو لو اختفى حسابك؟",
+      "summary": "جرّب ByteWave في نمط الطيران: استخدم مقطعًا محليًا، وحرّر دون تسجيل الدخول، واحفظ في الصور. تحقق مما يعمل دون اتصال بالإنترنت."
+    }
+  }
+}
