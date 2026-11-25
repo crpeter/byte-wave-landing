@@ -7,7 +7,8 @@
   "disclosure": "See artikkel sisaldab tehisintellekti keelemudeli (LLM) loodud teksti.",
   "tags": {
     "guide": "Juhend",
-    "offline-editing-guide": "Võrguühenduseta töötluse juhend"
+    "offline-editing-guide": "Võrguühenduseta töötluse juhend",
+    "privacy": "Privaatsus"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Kas suudaksid video valmis teha, kui su konto kaoks?",
       "summary": "Proovi ByteWave'i lennurežiimis: kohalik klipp, töötlus ilma sisselogimiseta ja salvestamine rakendusse Photos. Kontrolli, mis töötab internetita."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Privaatne videoredaktor: töötle ilma pilve üles laadimata",
+      "summary": "Töötle videoid kohapeal ByteWave'iga iPhone'is, iPadis ja Macis. Ilma töötluskonto, tellimuse või ekspordivesimärgita. Selged vastused võrguühenduseta töö ja üleslaadimise kohta."
     }
   }
 }

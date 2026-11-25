@@ -7,7 +7,8 @@
   "disclosure": "บทความนี้มีข้อความที่สร้างด้วยโมเดลภาษา AI (LLM)",
   "tags": {
     "guide": "คู่มือ",
-    "offline-editing-guide": "คู่มือตัดต่อแบบออฟไลน์"
+    "offline-editing-guide": "คู่มือตัดต่อแบบออฟไลน์",
+    "privacy": "ความเป็นส่วนตัว"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "คุณจะทำวิดีโอให้เสร็จได้ไหม หากบัญชีหายไป?",
       "summary": "ลอง ByteWave ในโหมดเครื่องบิน: ใช้คลิปในเครื่อง ตัดต่อโดยไม่ต้องลงชื่อเข้าใช้ และบันทึกไปยังรูปภาพ ดูว่าอะไรทำงานได้โดยไม่มีอินเทอร์เน็ต"
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "ตัวตัดต่อวิดีโอที่รักษาความเป็นส่วนตัว: ไม่ต้องอัปโหลดขึ้นคลาวด์",
+      "summary": "ตัดต่อในเครื่องด้วย ByteWave บน iPhone, iPad และ Mac ไม่ต้องมีบัญชีตัดต่อ จ่ายค่าสมาชิก หรือมีลายน้ำเมื่อส่งออก พร้อมคำตอบเรื่องการใช้ออฟไลน์และการอัปโหลด"
     }
   }
 }

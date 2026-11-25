@@ -7,7 +7,8 @@
   "disclosure": "អត្ថបទនេះមានអត្ថបទដែលបង្កើតដោយម៉ូដែលភាសា AI (LLM)។",
   "tags": {
     "guide": "មគ្គុទ្ទេសក៍",
-    "offline-editing-guide": "មគ្គុទ្ទេសក៍កាត់តដោយគ្មានអ៊ីនធឺណិត"
+    "offline-editing-guide": "មគ្គុទ្ទេសក៍កាត់តដោយគ្មានអ៊ីនធឺណិត",
+    "privacy": "ឯកជនភាព"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "តើអ្នកអាចបញ្ចប់វីដេអូបានទេ បើគណនីរបស់អ្នកបាត់ទៅ?",
       "summary": "សាកល្បង ByteWave ក្នុងមុខងារនៅលើយន្តហោះ៖ ប្រើឃ្លីបក្នុងឧបករណ៍ កាត់តដោយមិនចូលគណនី និងរក្សាទុកក្នុង Photos។ ពិនិត្យមើលអ្វីដែលដំណើរការដោយគ្មានអ៊ីនធឺណិត។"
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "កម្មវិធីកាត់តវីដេអូរក្សាឯកជនភាព៖ កាត់តដោយមិនបង្ហោះទៅពពក",
+      "summary": "កាត់តក្នុងឧបករណ៍ជាមួយ ByteWave លើ iPhone, iPad និង Mac។ មិនត្រូវការគណនីកាត់ត ការជាវ ឬស្នាមទឹកពេលនាំចេញ។ ចម្លើយអំពីការប្រើដោយគ្មានអ៊ីនធឺណិត និងការបង្ហោះ។"
     }
   }
 }

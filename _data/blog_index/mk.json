@@ -7,7 +7,8 @@
   "disclosure": "Оваа статија вклучува текст генериран со јазичен модел на вештачка интелигенција (LLM).",
   "tags": {
     "guide": "Водич",
-    "offline-editing-guide": "Водич за уредување без интернет"
+    "offline-editing-guide": "Водич за уредување без интернет",
+    "privacy": "Приватност"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Би можеле ли да го завршите видеото ако вашата сметка исчезне?",
       "summary": "Испробајте ByteWave во авионски режим: локален клип, уредување без најава и зачувување во Фотографии. Проверете што работи без интернет."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Приватен видеоуредувач: уредувајте без прикачување во облак",
+      "summary": "Уредувајте локално со ByteWave на iPhone, iPad и Mac. Без сметка за уредување, претплата или воден жиг при извоз. Одговори за работа без интернет и прикачување."
     }
   }
 }

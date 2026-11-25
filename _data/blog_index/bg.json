@@ -7,7 +7,8 @@
   "disclosure": "Тази статия включва текст, генериран с езиков модел с изкуствен интелект (LLM).",
   "tags": {
     "guide": "Ръководство",
-    "offline-editing-guide": "Ръководство за офлайн редактиране"
+    "offline-editing-guide": "Ръководство за офлайн редактиране",
+    "privacy": "Поверителност"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Бихте ли завършили видеото си, ако акаунтът ви изчезне?",
       "summary": "Изпробвайте ByteWave в самолетен режим: локален клип, редактиране без вход и запазване в Снимки. Проверете какво работи без интернет."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Поверителен видеоредактор: редактирайте без качване в облака",
+      "summary": "Редактирайте локално с ByteWave на iPhone, iPad и Mac. Без акаунт за редактиране, абонамент или воден знак при експортиране. Отговори за офлайн работа и качвания."
     }
   }
 }

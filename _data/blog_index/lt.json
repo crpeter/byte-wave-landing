@@ -7,7 +7,8 @@
   "disclosure": "Šiame straipsnyje yra teksto, sukurto dirbtinio intelekto kalbos modeliu (LLM).",
   "tags": {
     "guide": "Vadovas",
-    "offline-editing-guide": "Redagavimo be interneto vadovas"
+    "offline-editing-guide": "Redagavimo be interneto vadovas",
+    "privacy": "Privatumas"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Ar baigtumėte vaizdo įrašą, jei jūsų paskyra dingtų?",
       "summary": "Išbandykite ByteWave skrydžio režimu: vietinis klipas, redagavimas neprisijungus prie paskyros ir išsaugojimas Photos. Patikrinkite veikimą be interneto."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Privatus vaizdo redaktorius: redaguokite nekeldami į debesiją",
+      "summary": "Redaguokite vietoje su ByteWave iPhone, iPad ir Mac. Be redagavimo paskyros, prenumeratos ar vandens ženklo eksportuojant. Atsakymai apie darbą be interneto ir įkėlimą."
     }
   }
 }

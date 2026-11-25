@@ -7,7 +7,8 @@
   "disclosure": "Šajā rakstā ir teksts, kas ģenerēts ar mākslīgā intelekta valodas modeli (LLM).",
   "tags": {
     "guide": "Pamācība",
-    "offline-editing-guide": "Bezsaistes rediģēšanas pamācība"
+    "offline-editing-guide": "Bezsaistes rediģēšanas pamācība",
+    "privacy": "Privātums"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Vai tu pabeigtu video, ja tavs konts pazustu?",
       "summary": "Izmēģini ByteWave lidmašīnas režīmā: lokāls klips, rediģēšana bez pieteikšanās un saglabāšana lietotnē Photos. Pārbaudi, kas darbojas bez interneta."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Privāts video redaktors: rediģē bez augšupielādes mākonī",
+      "summary": "Rediģē lokāli ar ByteWave iPhone, iPad un Mac ierīcēs. Bez rediģēšanas konta, abonementa vai ūdenszīmes eksportā. Atbildes par bezsaistes darbu un augšupielādi."
     }
   }
 }

@@ -7,7 +7,8 @@
   "disclosure": "Ovaj članak sadrži tekst generiran jezičnim modelom umjetne inteligencije (LLM).",
   "tags": {
     "guide": "Vodič",
-    "offline-editing-guide": "Vodič za izvanmrežno uređivanje"
+    "offline-editing-guide": "Vodič za izvanmrežno uređivanje",
+    "privacy": "Privatnost"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Biste li mogli dovršiti video da vam račun nestane?",
       "summary": "Isprobajte ByteWave u zrakoplovnom modu: lokalni isječak, uređivanje bez prijave i spremanje u Foto. Provjerite što radi bez interneta."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Privatni uređivač videa: uređujte bez prijenosa u oblak",
+      "summary": "Uređujte lokalno s ByteWaveom na iPhoneu, iPadu i Macu. Bez računa za uređivanje, pretplate i vodenog žiga pri izvozu. Odgovori o radu bez interneta i prijenosu."
     }
   }
 }

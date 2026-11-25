@@ -7,7 +7,8 @@
   "disclosure": "Þessi grein inniheldur texta sem var búinn til með stóru gervigreindarmállíkani (LLM).",
   "tags": {
     "guide": "Leiðbeiningar",
-    "offline-editing-guide": "Leiðbeiningar um vinnslu án nettengingar"
+    "offline-editing-guide": "Leiðbeiningar um vinnslu án nettengingar",
+    "privacy": "Persónuvernd"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Gætirðu lokið myndskeiðinu ef aðgangurinn þinn hyrfi?",
       "summary": "Prófaðu ByteWave í flugstillingu: staðbundin klippa, vinnsla án innskráningar og vistun í Myndir. Kannaðu hvað virkar án internets."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Einkavæn myndvinnsla: breyttu án upphleðslu í skýið",
+      "summary": "Breyttu myndskeiðum staðbundið með ByteWave á iPhone, iPad og Mac. Enginn vinnsluaðgangur, áskrift eða vatnsmerki við útflutning. Svör um notkun án nets og upphleðslur."
     }
   }
 }

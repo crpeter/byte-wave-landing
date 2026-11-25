@@ -7,7 +7,8 @@
   "disclosure": "Ky artikull përfshin tekst të gjeneruar me një model gjuhësor të inteligjencës artificiale (LLM).",
   "tags": {
     "guide": "Udhëzues",
-    "offline-editing-guide": "Udhëzues montazhi pa internet"
+    "offline-editing-guide": "Udhëzues montazhi pa internet",
+    "privacy": "Privatësia"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "A do ta përfundonit videon po t'ju zhdukej llogaria?",
       "summary": "Provoni ByteWave në modalitetin e avionit: klip lokal, montazh pa hyrë në llogari dhe ruajtje te Photos. Kontrolloni çfarë punon pa internet."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Redaktues privat videoje: montoni pa ngarkime në re",
+      "summary": "Montoni lokalisht me ByteWave në iPhone, iPad dhe Mac. Pa llogari montazhi, abonim ose filigran në eksport. Përgjigje për përdorimin pa internet dhe ngarkimet."
     }
   }
 }
