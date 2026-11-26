@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Hướng dẫn",
     "offline-editing-guide": "Hướng dẫn chỉnh sửa ngoại tuyến",
-    "privacy": "Quyền riêng tư"
+    "privacy": "Quyền riêng tư",
+    "roundup": "tổng hợp"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Trình chỉnh sửa video riêng tư: không cần tải lên đám mây",
       "summary": "Chỉnh sửa cục bộ bằng ByteWave trên iPhone, iPad và Mac. Không cần tài khoản chỉnh sửa, gói thuê bao hay hình mờ khi xuất. Giải đáp về dùng ngoại tuyến và tải lên."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Trình chỉnh sửa video miễn phí không có hình mờ tốt nhất năm 2026",
+      "summary": "Bài tổng hợp của ByteWave có công khai lợi ích thương mại, giới thiệu các trình chỉnh sửa không chèn hình mờ riêng khi xuất thông thường, gồm ByteWave, DaVinci Resolve và iMovie."
     }
   }
 }

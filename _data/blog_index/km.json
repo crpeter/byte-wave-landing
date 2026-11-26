@@ -8,7 +8,8 @@
   "tags": {
     "guide": "មគ្គុទ្ទេសក៍",
     "offline-editing-guide": "មគ្គុទ្ទេសក៍កាត់តដោយគ្មានអ៊ីនធឺណិត",
-    "privacy": "ឯកជនភាព"
+    "privacy": "ឯកជនភាព",
+    "roundup": "ការប្រៀបធៀប"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "កម្មវិធីកាត់តវីដេអូរក្សាឯកជនភាព៖ កាត់តដោយមិនបង្ហោះទៅពពក",
       "summary": "កាត់តក្នុងឧបករណ៍ជាមួយ ByteWave លើ iPhone, iPad និង Mac។ មិនត្រូវការគណនីកាត់ត ការជាវ ឬស្នាមទឹកពេលនាំចេញ។ ចម្លើយអំពីការប្រើដោយគ្មានអ៊ីនធឺណិត និងការបង្ហោះ។"
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "កម្មវិធីកែវីដេអូឥតគិតថ្លៃល្អបំផុតដែលគ្មានសញ្ញាសម្គាល់នៅឆ្នាំ 2026",
+      "summary": "ការប្រៀបធៀបរបស់ ByteWave ដែលបង្ហាញផលប្រយោជន៍ពាណិជ្ជកម្មរបស់ខ្លួន អំពីកម្មវិធីដែលមិនបន្ថែមសញ្ញាសម្គាល់លើការនាំចេញធម្មតា រួមមាន ByteWave, DaVinci Resolve និង iMovie។"
     }
   }
 }

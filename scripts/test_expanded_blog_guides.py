@@ -10,7 +10,11 @@ from urllib.parse import urlsplit
 SOURCE = Path(__file__).resolve().parents[1]
 SITE = SOURCE / '_site'
 LANGUAGES = json.loads((SOURCE / '_data/expanded_languages.json').read_text())
-SLUGS = ('edit-videos-no-account-iphone', 'offline-video-editor-airplane-mode-test')
+SLUGS = (
+    'edit-videos-no-account-iphone',
+    'offline-video-editor-airplane-mode-test',
+    'best-free-video-editor-no-watermark',
+)
 PRIVATE_SLUG = 'best-video-editor-privacy-no-upload'
 
 
@@ -46,7 +50,7 @@ def main():
         assert set(data['cards']) == {f'/blog/{slug}.html' for slug in (*SLUGS, PRIVATE_SLUG)}, lang
         index = (SITE / lang / 'blog/index.html').read_text()
         cards = re.findall(r'<a\b[^>]*class="post-card"[^>]*>.*?</a>', index, re.S)
-        assert len(cards) == 3, (lang, 'blank or extra archive cards')
+        assert len(cards) == len(SLUGS) + 1, (lang, 'blank or extra archive cards')
         assert {Article(card).links[0]['href'] for card in cards} == urls, lang
         assert all(f'hreflang="{lang}"' in card for card in cards), lang
         for card in cards:
@@ -90,6 +94,16 @@ def main():
                     assert f'{field}: {match[1]}' in source.read_text(), (lang, slug, 'changed source date')
             if lang == 'ar':
                 assert 'dir="rtl"' in raw.split('<head>')[0], slug
+            if slug == 'best-free-video-editor-no-watermark':
+                assert {a['href'] for a in translated.links if a['href'].startswith('https://')} == {
+                    a['href'] for a in english[slug].links if a['href'].startswith('https://')
+                }, (lang, 'changed external product link')
+                article_links = {a.get('href') for a in article.links}
+                assert f'/{lang}/privacy.html' in article_links, (lang, 'English privacy-policy link')
+                assert f'/{lang}/#download' in article_links, (lang, 'English download destination')
+                incoming = (SITE / lang / 'blog/edit-videos-no-account-iphone.html').read_text()
+                assert f'href="/{lang}/blog/{slug}.html"' in incoming, (lang, 'missing related-guide link')
+                assert f'href="/blog/{slug}.html"' not in incoming, (lang, 'stale English related-guide link')
         guide_source = (SOURCE / lang / 'blog' / f'{PRIVATE_SLUG}.html').read_text()
         guide = (SITE / lang / 'blog' / f'{PRIVATE_SLUG}.html').read_text()
         guide_article = Article(re.search(r'<article\b[^>]*>(.*?)</article>', guide, re.S)[1])

@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Ръководство",
     "offline-editing-guide": "Ръководство за офлайн редактиране",
-    "privacy": "Поверителност"
+    "privacy": "Поверителност",
+    "roundup": "сравнение"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Поверителен видеоредактор: редактирайте без качване в облака",
       "summary": "Редактирайте локално с ByteWave на iPhone, iPad и Mac. Без акаунт за редактиране, абонамент или воден знак при експортиране. Отговори за офлайн работа и качвания."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Най-добрият безплатен видеоредактор без воден знак през 2026 г.",
+      "summary": "Сравнение от ByteWave с обявен търговски интерес на редактори, които не добавят свой воден знак при стандартен експорт, включително ByteWave, DaVinci Resolve и iMovie."
     }
   }
 }

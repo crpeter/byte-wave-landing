@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Guide",
     "offline-editing-guide": "Guide til offline redigering",
-    "privacy": "Privatliv"
+    "privacy": "Privatliv",
+    "roundup": "oversigt"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Privat videoredigering: rediger uden upload til skyen",
       "summary": "Rediger lokalt med ByteWave på iPhone, iPad og Mac. Ingen redigeringskonto, abonnement eller vandmærke ved eksport. Klare svar om offline brug og upload."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Den bedste gratis videoeditor uden vandmærke i 2026",
+      "summary": "En oversigt fra ByteWave med oplysning om den kommercielle interesse: editorer uden eget vandmærke ved almindelig eksport, herunder ByteWave, DaVinci Resolve og iMovie."
     }
   }
 }

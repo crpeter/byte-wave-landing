@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Οδηγός",
     "offline-editing-guide": "Οδηγός επεξεργασίας εκτός σύνδεσης",
-    "privacy": "Απόρρητο"
+    "privacy": "Απόρρητο",
+    "roundup": "επισκόπηση"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Ιδιωτική επεξεργασία βίντεο χωρίς μεταφόρτωση στο cloud",
       "summary": "Επεξεργαστείτε τοπικά με το ByteWave σε iPhone, iPad και Mac. Χωρίς λογαριασμό επεξεργασίας, συνδρομή ή υδατογράφημα εξαγωγής. Απαντήσεις για χρήση εκτός σύνδεσης και μεταφορτώσεις."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Το καλύτερο δωρεάν πρόγραμμα επεξεργασίας βίντεο χωρίς υδατογράφημα το 2026",
+      "summary": "Σύγκριση από το ByteWave με γνωστοποίηση του εμπορικού ενδιαφέροντός του: εφαρμογές χωρίς υδατογράφημα στις τυπικές εξαγωγές, όπως ByteWave, DaVinci Resolve και iMovie."
     }
   }
 }

@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Ìtọ́sọ́nà",
     "offline-editing-guide": "Ìtọ́sọ́nà àtúnṣe láìsí intanẹẹti",
-    "privacy": "Àṣírí"
+    "privacy": "Àṣírí",
+    "roundup": "àkójọpọ̀"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Olóòtú fídíò tó dáàbò bo àṣírí: ṣàtúnṣe láìgbé e sí awọsanma",
       "summary": "Ṣàtúnṣe nínú ẹ̀rọ pẹ̀lú ByteWave lórí iPhone, iPad àti Mac. Láìsí àkọọ́lẹ̀ àtúnṣe, ìsanwó àkókò tàbí àmì omi nígbà fífi jáde. Àlàyé nípa lílò láìsí intanẹẹti àti gbígbé fáìlì sókè."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Olóòtú fídíò ọ̀fẹ́ tó dára jù láìsí àmì omi ní 2026",
+      "summary": "Àkójọpọ̀ ByteWave tó sọ ìfẹ́ òwò rẹ̀ ní gbangba nípa àwọn olóòtú tí kò fi àmì wọn sí fídíò tí a ń gbé jáde lọ́nà déédéé, títí kan ByteWave, DaVinci Resolve àti iMovie."
     }
   }
 }

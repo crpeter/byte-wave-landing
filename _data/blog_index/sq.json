@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Udhëzues",
     "offline-editing-guide": "Udhëzues montazhi pa internet",
-    "privacy": "Privatësia"
+    "privacy": "Privatësia",
+    "roundup": "përmbledhje"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Redaktues privat videoje: montoni pa ngarkime në re",
       "summary": "Montoni lokalisht me ByteWave në iPhone, iPad dhe Mac. Pa llogari montazhi, abonim ose filigran në eksport. Përgjigje për përdorimin pa internet dhe ngarkimet."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Redaktuesi më i mirë falas i videove pa shenjë uji në vitin 2026",
+      "summary": "Një përmbledhje nga ByteWave me interesin tregtar të deklaruar: redaktues që nuk shtojnë shenjën e tyre në eksportet standarde, përfshirë ByteWave, DaVinci Resolve dhe iMovie."
     }
   }
 }

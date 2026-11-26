@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Leiðbeiningar",
     "offline-editing-guide": "Leiðbeiningar um vinnslu án nettengingar",
-    "privacy": "Persónuvernd"
+    "privacy": "Persónuvernd",
+    "roundup": "yfirlit"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Einkavæn myndvinnsla: breyttu án upphleðslu í skýið",
       "summary": "Breyttu myndskeiðum staðbundið með ByteWave á iPhone, iPad og Mac. Enginn vinnsluaðgangur, áskrift eða vatnsmerki við útflutning. Svör um notkun án nets og upphleðslur."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Besti ókeypis myndskeiðaritillinn án vatnsmerkis árið 2026",
+      "summary": "Yfirlit frá ByteWave með upplýstum viðskiptahagsmunum um ritla sem bæta ekki eigin vatnsmerki við venjulegan útflutning, þar á meðal ByteWave, DaVinci Resolve og iMovie."
     }
   }
 }
