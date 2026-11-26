@@ -40,6 +40,7 @@ with tempfile.TemporaryDirectory() as folder:
         ('_config.yml', 'assets/videos/layout/warped-sunset/*', 'assets/videos/layout/warped-sunset', 'linked resource excluded from publication'),
         ('gallery/index.html', 'poster="/assets/videos/layout/warped-sunset-4k/poster.jpg"', 'poster="/assets/videos/layout/warped-sunset-4k/missing.jpg"', 'broken link /assets/videos/layout/warped-sunset-4k/missing.jpg'),
         ('gallery/index.html', 'data-stream="/assets/videos/layout/warped-sunset-4k/original.m3u8"', 'data-stream="/assets/videos/layout/warped-sunset-4k/missing.m3u8"', 'broken link /assets/videos/layout/warped-sunset-4k/missing.m3u8'),
+        ('ar/about.html', 'href="/ar/privacy.html"', 'href="/privacy.html"', 'missing shared footer links'),
         ('ar/index.html', 'href="/blog/"', 'href="/ar/blog/"', 'missing shared footer links'),
         ('ar/tutorials/animated-captions/index.html', '(LLM)', '(edited)', 'disclosure must explicitly identify'),
     ]

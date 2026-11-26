@@ -1,0 +1,102 @@
+{
+  "title": "An yi da ByteWave",
+  "seo_title": "Tarin bidiyon da aka yi da ByteWave",
+  "description": "Duba bidiyo da hotunan da aka yi da ByteWave: tsarin gungurawa a kwance, lanƙwasawar Möbius da raƙuma, tsarin faɗuwar rana, motsi a hankali da ƙari.",
+  "aria_label": "Bidiyo da hotunan da aka yi da ByteWave",
+  "open_video": "Buɗe bidiyo",
+  "download": "Sauke ByteWave kyauta",
+  "credit": "Bidiyon misali na Apple, wanda aka gyara da ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Ginshikan hotunan faɗuwar rana, bakin teku da al'amuran yau da kullum suna gungurawa.",
+      "action": "Duba Layout na ByteWave",
+      "alt": "The All Scroll. Ginshikan hotunan faɗuwar rana, bakin teku da al'amuran yau da kullum suna gungurawa."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Gungurawa a kwance · Lanƙwasawar Möbius",
+      "effect": "Tsarinmu na farko mai gungurawa a kwance, tare da lanƙwasawar Möbius.",
+      "action": "Duba Layout na ByteWave",
+      "alt": "Gungurawa a kwance · Lanƙwasawar Möbius. Tsarinmu na farko mai gungurawa a kwance, tare da lanƙwasawar Möbius."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Gungurawa a kwance · Raƙuma",
+      "effect": "Gungurawa a kwance tare da lanƙwasawar raƙuma.",
+      "action": "Duba Layout na ByteWave",
+      "alt": "Gungurawa a kwance · Raƙuma. Gungurawa a kwance tare da lanƙwasawar raƙuma."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Siffofi masu kusurwa shida na faɗuwar rana (a kwance)",
+      "effect": "Layout na ByteWave · A kwance.",
+      "action": "Duba dukkan alkibla biyu",
+      "alt": "Siffofi masu kusurwa shida na faɗuwar rana (a kwance). Layout na ByteWave · A kwance."
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Faɗuwar rana mai lanƙwasa",
+      "effect": "Layout na ByteWave · Lanƙwasassun tsirin faɗuwar rana.",
+      "action": "Duba Layout na ByteWave",
+      "alt": "Faɗuwar rana mai lanƙwasa. Layout na ByteWave · Lanƙwasassun tsirin faɗuwar rana."
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Daga tsarin bakin teku zuwa rairayin bakin teku",
+      "effect": "Layout na ByteWave · Daga allo shida zuwa cikakken firam.",
+      "action": "Duba Layout na ByteWave",
+      "alt": "Daga tsarin bakin teku zuwa rairayin bakin teku. Layout na ByteWave · Daga allo shida zuwa cikakken firam."
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Siffofi masu kusurwa shida na faɗuwar rana (a tsaye)",
+      "effect": "Layout na ByteWave · A tsaye.",
+      "action": "Duba dukkan alkibla biyu",
+      "alt": "Siffofi masu kusurwa shida na faɗuwar rana (a tsaye). Layout na ByteWave · A tsaye."
+    },
+    {
+      "id": "air-show",
+      "title": "Nunin jiragen sama a 3D",
+      "effect": "Rubutun 3D mai motsi.",
+      "action": "Gwada tasirin rubutun magana",
+      "alt": "Nunin jiragen sama a 3D. Rubutun 3D mai motsi."
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Gudun asali → motsi a hankali.",
+      "action": "Gwada sauya yawan firam",
+      "alt": "The Quadruple Dive. Gudun asali → motsi a hankali."
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Rubutu mai motsi.",
+      "action": "Gwada tasirin rubutun magana",
+      "alt": "Free as in Geese. Rubutu mai motsi."
+    },
+    {
+      "id": "hummingbird",
+      "title": "Tsuntsun hummingbird a hankali",
+      "effect": "Gudun 0.1× · FRC 8×.",
+      "action": "Gwada sauya yawan firam",
+      "alt": "Tsuntsun hummingbird a hankali. Gudun 0.1× · FRC 8×."
+    },
+    {
+      "id": "harbor",
+      "title": "A tashar jiragen ruwa",
+      "effect": "Tasirin motion blur.",
+      "action": "Gwada motion blur",
+      "alt": "A tashar jiragen ruwa. Tasirin motion blur."
+    },
+    {
+      "id": "red-leaves",
+      "title": "Jajayen ganye",
+      "effect": "Rage hayaniyar hoto ta amfani da firam masu biye da juna.",
+      "action": "Gwada rage hayaniyar hoto a jerin firam",
+      "alt": "Jajayen ganye. Rage hayaniyar hoto ta amfani da firam masu biye da juna."
+    }
+  ]
+}

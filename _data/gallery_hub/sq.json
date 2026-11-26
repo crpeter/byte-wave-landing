@@ -1,0 +1,102 @@
+{
+  "title": "E bërë me ByteWave",
+  "seo_title": "E krijuar me ByteWave Gallery",
+  "description": "Eksploro videot dhe imazhet e krijuara me ByteWave: skena horizontale të rrotullimit, Möbius dhe deformime të valëve, rrjeta të perëndimit të diellit, lëvizje të ngadaltë dhe më shumë.",
+  "aria_label": "Video dhe imazhe të bërë me ByteWave",
+  "open_video": "Hap video",
+  "download": "Shkarko ByteWave pa pagesë",
+  "credit": "Apple shembuj të filmimit, të modifikuara në ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Shkëmbimi i kolonave të perëndimit të diellit, bregdetit, dhe momenteve të përditshme.",
+      "action": "Eksploro Layout nga ByteWave",
+      "alt": "The All Scroll. Shkëmbimi i kolonave të perëndimit të diellit, bregdetit, dhe momenteve të përditshme."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Lëvizje horizontale · Deformim Möbius",
+      "effect": "Paraqitja jonë e parë me lëvizje horizontale, e mbështjellë në një deformim Möbius.",
+      "action": "Eksploro Layout nga ByteWave",
+      "alt": "Lëvizje horizontale · Deformim Möbius. Paraqitja jonë e parë me lëvizje horizontale, e mbështjellë në një deformim Möbius."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Lëvizje horizontale · Valë",
+      "effect": "Lëvizje horizontale me deformim valësh.",
+      "action": "Eksploro Layout nga ByteWave",
+      "alt": "Lëvizje horizontale · Valë. Lëvizje horizontale me deformim valësh."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Gjashtëkëndësha të perëndimit (horizontal)",
+      "effect": "Layout nga ByteWave · Pejzazh",
+      "action": "Eksploro të dyja orientimet",
+      "alt": "Gjashtëkëndësha të perëndimit (horizontal). Layout nga ByteWave · Pejzazh"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Perëndimi i deformuar",
+      "effect": "Layout nga ByteWave · banda të kurbuara të perëndimit të diellit",
+      "action": "Eksploro Layout nga ByteWave",
+      "alt": "Perëndimi i deformuar. Layout nga ByteWave · banda të kurbuara të perëndimit të diellit"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Rrjeta bregdetare në plazh",
+      "effect": "Layout nga ByteWave · rrjetë me gjashtë panele në kornizë të plotë",
+      "action": "Eksploro Layout nga ByteWave",
+      "alt": "Rrjeta bregdetare në plazh. Layout nga ByteWave · rrjetë me gjashtë panele në kornizë të plotë"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Gjashtëkëndësha të perëndimit (vertikal)",
+      "effect": "Layout nga ByteWave · Portret",
+      "action": "Eksploro të dyja orientimet",
+      "alt": "Gjashtëkëndësha të perëndimit (vertikal). Layout nga ByteWave · Portret"
+    },
+    {
+      "id": "air-show",
+      "title": "Shfaqje ajrore në 3D",
+      "effect": "Teksti i animuar 3D",
+      "action": "Provoni këtë efekt: efekte të tekstit të titrave",
+      "alt": "Shfaqje ajrore në 3D. Teksti i animuar 3D"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Shpejtësia origjinale → ngadalësimi",
+      "action": "Provo këtë efekt: konvertimi i framerate",
+      "alt": "The Quadruple Dive. Shpejtësia origjinale → ngadalësimi"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Teksti i animuar",
+      "action": "Provoni këtë efekt: efekte të tekstit të titrave",
+      "alt": "Free as in Geese. Teksti i animuar"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibri në lëvizje të ngadaltë",
+      "effect": "0.1× shpejtësi · 8× FRC",
+      "action": "Provo këtë efekt: konvertimi i framerate",
+      "alt": "Kolibri në lëvizje të ngadaltë. 0.1× shpejtësi · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Në port",
+      "effect": "Lëvizja e paqartë",
+      "action": "Provo këtë efekt: lëvizje e paqartë",
+      "alt": "Në port. Lëvizja e paqartë"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Gjethe të kuqe",
+      "effect": "Reduktim i zhurmës nëpër kuadro",
+      "action": "Provoni këtë efekt: reduktim i zhurmës nëpër kuadro",
+      "alt": "Gjethe të kuqe. Reduktim i zhurmës nëpër kuadro"
+    }
+  ]
+}

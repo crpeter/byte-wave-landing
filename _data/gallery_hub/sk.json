@@ -1,0 +1,102 @@
+{
+  "title": "Vyrobené s ByteWave",
+  "seo_title": "Vyrobené s ByteWave Galéria",
+  "description": "Preskúmajte videá a obrázky vytvorené pomocou ByteWave: rozloženia s horizontálnym rolovaním, Möbius a vlnové deformácie, mriežky západu slnka, spomalený pohyb a ďalšie.",
+  "aria_label": "Videá a obrázky vytvorené s ByteWave",
+  "open_video": "Otvoriť video",
+  "download": "Stiahnuť ByteWave zadarmo",
+  "credit": "Apple ukážkový záznam, upravený v ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Rolovanie stĺpcov západov slnka, pobrežia a každodenných momentov.",
+      "action": "Preskúmať Layout z ByteWave",
+      "alt": "The All Scroll. Rolovanie stĺpcov západov slnka, pobrežia a každodenných momentov."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Horizontálne rolovanie · Möbius Zmeniť polohu",
+      "effect": "Naše prvé horizontálne rolovanie, zabalené do Möbius warp.",
+      "action": "Preskúmať Layout z ByteWave",
+      "alt": "Horizontálne rolovanie · Möbius Zmeniť polohu. Naše prvé horizontálne rolovanie, zabalené do Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Horizontálne rolovanie · Vlny",
+      "effect": "Horizontálne rolovanie s vlnovou deformáciou.",
+      "action": "Preskúmať Layout z ByteWave",
+      "alt": "Horizontálne rolovanie · Vlny. Horizontálne rolovanie s vlnovou deformáciou."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Západ slnka šesťuholníky (na šírku)",
+      "effect": "Layout od ByteWave · Krajina",
+      "action": "Preskúmajte obe orientácie",
+      "alt": "Západ slnka šesťuholníky (na šírku). Layout od ByteWave · Krajina"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Pokrytý západ slnka",
+      "effect": "Layout od ByteWave · zakrivené pásy západu slnka",
+      "action": "Preskúmať Layout z ByteWave",
+      "alt": "Pokrytý západ slnka. Layout od ByteWave · zakrivené pásy západu slnka"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Priestor od prímorskej mriežky k pláži",
+      "effect": "Layout od ByteWave · šesť-panel mriežka na plný rám",
+      "action": "Preskúmať Layout z ByteWave",
+      "alt": "Priestor od prímorskej mriežky k pláži. Layout od ByteWave · šesť-panel mriežka na plný rám"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Západ slnka šesťuholníky (na výšku)",
+      "effect": "Layout od ByteWave · Portrét",
+      "action": "Preskúmajte obe orientácie",
+      "alt": "Západ slnka šesťuholníky (na výšku). Layout od ByteWave · Portrét"
+    },
+    {
+      "id": "air-show",
+      "title": "Letecká prehliadka v 3D",
+      "effect": "Animovaný 3D text",
+      "action": "Vyskúšajte tento efekt: textový efekt titulku",
+      "alt": "Letecká prehliadka v 3D. Animovaný 3D text"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Pôvodná rýchlosť → spomalený pohyb",
+      "action": "Vyskúšajte tento efekt: konverzia rýchlosti snímok",
+      "alt": "The Quadruple Dive. Pôvodná rýchlosť → spomalený pohyb"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animovaný text",
+      "action": "Vyskúšajte tento efekt: textový efekt titulku",
+      "alt": "Free as in Geese. Animovaný text"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird, spomalenie",
+      "effect": "0,1× rýchlosť · 8× FRC",
+      "action": "Vyskúšajte tento efekt: konverzia rýchlosti snímok",
+      "alt": "Hummingbird, spomalenie. 0,1× rýchlosť · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "V prístave",
+      "effect": "Rozmazanie pohybu",
+      "action": "Vyskúšajte tento efekt: pohybové rozmazanie",
+      "alt": "V prístave. Rozmazanie pohybu"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Červené listy",
+      "effect": "Časová redukcia šumu",
+      "action": "Vyskúšajte tento efekt: časová redukcia šumu",
+      "alt": "Červené listy. Časová redukcia šumu"
+    }
+  ]
+}

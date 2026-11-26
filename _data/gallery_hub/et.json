@@ -1,0 +1,102 @@
+{
+  "title": "Valmistatud ByteWave",
+  "seo_title": "Valmistatud ByteWave Galerii",
+  "description": "Avastage ByteWave abil loodud videoid ja pilte: horisontaalsed kerimispaigutused, Möbius ja lainekujulised vääned, päikeseloojangu võrgud, aegluubis liikumine ja palju muud.",
+  "aria_label": "Videod ja pildid tehtud ByteWave",
+  "open_video": "Ava video",
+  "download": "Lae alla ByteWave Tasuta",
+  "credit": "Apple näidismaterjal, redigeeritud ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Päikeseloojangutest, rannikujoontest ja igapäevahetkedest koosnevad veerud.",
+      "action": "Tutvu Layout alates ByteWave",
+      "alt": "The All Scroll. Päikeseloojangutest, rannikujoontest ja igapäevahetkedest koosnevad veerud."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Horisontaalne kerimine · Möbius Keeramine",
+      "effect": "Meie esimene horisontaalselt keritav paigutus, mis on pakitud Möbius keerdkäiku.",
+      "action": "Tutvu Layout alates ByteWave",
+      "alt": "Horisontaalne kerimine · Möbius Keeramine. Meie esimene horisontaalselt keritav paigutus, mis on pakitud Möbius keerdkäiku."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Horisontaalne kerimine · Laine",
+      "effect": "Horisontaalne kerimine laine keerdumisega.",
+      "action": "Tutvu Layout alates ByteWave",
+      "alt": "Horisontaalne kerimine · Laine. Horisontaalne kerimine laine keerdumisega."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Päikeseloojangu kuusnurgad (maastik)",
+      "effect": "Layout alates ByteWave · Maastik",
+      "action": "Tutvuge mõlema orientatsiooniga",
+      "alt": "Päikeseloojangu kuusnurgad (maastik). Layout alates ByteWave · Maastik"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Warped päikeseloojang",
+      "effect": "Layout alates ByteWave · kõverdatud päikeseloojangu ribad",
+      "action": "Tutvu Layout alates ByteWave",
+      "alt": "Warped päikeseloojang. Layout alates ByteWave · kõverdatud päikeseloojangu ribad"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Mereäärne võrk rannale",
+      "effect": "Layout alates ByteWave · kuue paneeli võrgustik täieliku kaadriga",
+      "action": "Tutvu Layout alates ByteWave",
+      "alt": "Mereäärne võrk rannale. Layout alates ByteWave · kuue paneeli võrgustik täieliku kaadriga"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Päikeseloojangu kuusnurgad (vertikaalne)",
+      "effect": "Layout alates ByteWave · Portree",
+      "action": "Tutvuge mõlema orientatsiooniga",
+      "alt": "Päikeseloojangu kuusnurgad (vertikaalne). Layout alates ByteWave · Portree"
+    },
+    {
+      "id": "air-show",
+      "title": "Õhushow 3D-s",
+      "effect": "Animeeritud 3D-tekst",
+      "action": "Proovige seda efekti: pealkirja tekstiefektid",
+      "alt": "Õhushow 3D-s. Animeeritud 3D-tekst"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Algne kiirus → aegluubis",
+      "action": "Proovige seda efekti: kaadrisageduse teisendamine",
+      "alt": "The Quadruple Dive. Algne kiirus → aegluubis"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animeeritud tekst",
+      "action": "Proovige seda efekti: pealkirja tekstiefektid",
+      "alt": "Free as in Geese. Animeeritud tekst"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibri, aeglustatud",
+      "effect": "0, 1× kiirus · 8× FRC",
+      "action": "Proovige seda efekti: kaadrisageduse teisendamine",
+      "alt": "Kolibri, aeglustatud. 0, 1× kiirus · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Sadama juures",
+      "effect": "Liikumise hägusus",
+      "action": "Proovige seda efekti: liikumishägu",
+      "alt": "Sadama juures. Liikumise hägusus"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Punased lehed",
+      "effect": "Ajaline müravähendus",
+      "action": "Proovige seda efekti: ajutine müravähendus",
+      "alt": "Punased lehed. Ajaline müravähendus"
+    }
+  ]
+}

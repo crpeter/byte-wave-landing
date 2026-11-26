@@ -229,23 +229,13 @@ def main(config_path=SOURCE_ROOT / "_config.yml") -> int:
             if p.main_count != 1: errors.append(f"{rel}: expected one main landmark")
             if "#main" not in p.links or "main" not in p.ids: errors.append(f"{rel}: missing skip link or target")
             required_footer = {"/", "/gallery/", "/tutorials/", "/blog/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html", "/dmca.html"}
-            if is_localized and p.lang in EXPANDED_LOCALES:
-                # These languages currently cover the homepage and tutorials.
-                required_footer.remove('/'); required_footer.add(f'/{locale_slug(p.lang)}/')
-                required_footer.remove('/tutorials/'); required_footer.add(f'/{locale_slug(p.lang)}/tutorials/')
-            elif is_localized:
-                required_footer.remove("/"); required_footer.add(f"/{locale_slug(p.lang)}/")
-                required_footer.remove("/press.html")
-                required_footer.add(f"/{locale_slug(p.lang)}/press.html")
-                required_footer.remove("/about.html")
-                required_footer.add(f"/{locale_slug(p.lang)}/about.html")
-                required_footer.remove("/privacy.html")
-                required_footer.add(f"/{locale_slug(p.lang)}/privacy.html")
-                required_footer.remove("/free-expression.html")
-                required_footer.add(f"/{locale_slug(p.lang)}/free-expression.html")
-                for section in ("blog", "gallery", "tutorials"):
-                    required_footer.remove(f"/{section}/")
-                    required_footer.add(f"/{locale_slug(p.lang)}/{section}/")
+            if is_localized:
+                for route in ("/", "/gallery/", "/tutorials/", "/about.html", "/press.html", "/privacy.html", "/free-expression.html"):
+                    required_footer.remove(route)
+                    required_footer.add(f"/{locale_slug(p.lang)}{route}")
+                if p.lang not in EXPANDED_LOCALES:
+                    required_footer.remove("/blog/")
+                    required_footer.add(f"/{locale_slug(p.lang)}/blog/")
             if not required_footer.issubset(p.footer_links): errors.append(f"{rel}: missing shared footer links")
             if not p.metas.get("description"): errors.append(f"{rel}: missing description")
             for key in REQUIRED:

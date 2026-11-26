@@ -1,4 +1,4 @@
-# Homepage and tutorial languages
+# Website localization
 
 The homepage, tutorial directory and twelve tutorial destinations cover all 39
 ByteWave app languages. The website has 40 locale variants because it retains
@@ -11,9 +11,11 @@ Each has a homepage, tutorial index, Layout guide, and eleven pages under
 The added `_data/i18n/*.json` files contain homepage copy and shared interface
 strings; existing locales retain their YAML files.
 
-Blog articles, the gallery and policy/company pages have not been translated
-into these additional languages. Their links fall back to the existing English
-destinations. Language menus and hreflang alternates list only real translations
+Gallery, About, Press, Privacy Policy, and Free Expression / Appeals also cover
+all 40 locale variants. The 23 additional locales include the full source text,
+metadata, gallery descriptions, press copy controls, and policy/appeal details.
+Blog articles have not been translated into these additional languages; their
+links fall back to existing English destinations. Language menus and hreflang alternates list only real translations
 of the current page. The sitemap discovers the new pages automatically.
 
 The new translations are machine-assisted. Quechua in particular needs
@@ -32,5 +34,15 @@ python3 scripts/test_expanded_languages.py
 ```
 
 The expansion check also runs through `test_site_validation.py`. It verifies the
-322 added pages, metadata, tutorial destinations, disclosure presence, translation
-data structure, Arabic direction and links to untranslated sections.
+322 homepage/tutorial pages, metadata, tutorial destinations, disclosure presence, translation
+data structure, Arabic direction and links to untranslated blog sections.
+
+Run `python3 scripts/test_expanded_secondary_pages.py` after building to check
+the additional 115 company, policy, press, and gallery pages. It checks complete
+translation data and rendered text, reciprocal language alternates, same-language
+navigation, English blog fallbacks, Arabic RTL, and the original contact links.
+
+The secondary-page translations are machine-assisted drafts. Native-speaker
+review, especially for Quechua and policy wording, remains necessary; structural
+checks do not certify linguistic or legal equivalence. Source policy and press
+fact dates are retained; page modification dates record the translation update.

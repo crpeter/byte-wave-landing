@@ -1,0 +1,102 @@
+{
+  "title": "Izgatavots ar ByteWave",
+  "seo_title": "Izgatavots ar ByteWave Galerija",
+  "description": "Izpētiet videoklipus un attēlus, kas izveidoti ar ByteWave: horizontālās ritināšanas izkārtojumi, Möbius un viļņu līknes, saulrieta režģi, lēna kustība un daudz kas cits.",
+  "aria_label": "Video un attēli, kas uzņemti ar ByteWave",
+  "open_video": "Atvērt videoklipu",
+  "download": "Lejupielādēt ByteWave Bezmaksas",
+  "credit": "Apple parauga video, rediģēts ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Ritinot kolonnas saulrietu, krasta līnijas, un ikdienas mirkļus.",
+      "action": "Izpētīt Layout no ByteWave",
+      "alt": "The All Scroll. Ritinot kolonnas saulrietu, krasta līnijas, un ikdienas mirkļus."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Horizontālā ritināšana · Möbius Izliekums",
+      "effect": "Mūsu pirmais horizontāla ritināšana izkārtojums, ietīts Möbius warp.",
+      "action": "Izpētīt Layout no ByteWave",
+      "alt": "Horizontālā ritināšana · Möbius Izliekums. Mūsu pirmais horizontāla ritināšana izkārtojums, ietīts Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Horizontālā ritināšana · Viļņi",
+      "effect": "Horizontālā ritināšana ar viļņu vērpjot.",
+      "action": "Izpētīt Layout no ByteWave",
+      "alt": "Horizontālā ritināšana · Viļņi. Horizontālā ritināšana ar viļņu vērpjot."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Saulrieta sešstūri (ainava)",
+      "effect": "Layout no ByteWave · Ainava",
+      "action": "Izpētiet abas orientācijas",
+      "alt": "Saulrieta sešstūri (ainava). Layout no ByteWave · Ainava"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Savērpts saulriets",
+      "effect": "Layout no ByteWave · izliektas saulrieta joslas",
+      "action": "Izpētīt Layout no ByteWave",
+      "alt": "Savērpts saulriets. Layout no ByteWave · izliektas saulrieta joslas"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Piejūras režģis līdz pludmalei",
+      "effect": "Layout no ByteWave · sešu paneļu režģis uz pilnu rāmi",
+      "action": "Izpētīt Layout no ByteWave",
+      "alt": "Piejūras režģis līdz pludmalei. Layout no ByteWave · sešu paneļu režģis uz pilnu rāmi"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Saulrieta sešstūri (portrets)",
+      "effect": "Layout no ByteWave · Portrets",
+      "action": "Izpētiet abas orientācijas",
+      "alt": "Saulrieta sešstūri (portrets). Layout no ByteWave · Portrets"
+    },
+    {
+      "id": "air-show",
+      "title": "Gaisa šovs 3D",
+      "effect": "Animēts 3D teksts",
+      "action": "Izmēģiniet šo efektu: paraksta teksta efekti",
+      "alt": "Gaisa šovs 3D. Animēts 3D teksts"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Sākotnējais ātrums → lēna kustība",
+      "action": "Izmēģiniet šo efektu: kadru nomaiņas ātruma konvertēšana",
+      "alt": "The Quadruple Dive. Sākotnējais ātrums → lēna kustība"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animēts teksts",
+      "action": "Izmēģiniet šo efektu: paraksta teksta efekti",
+      "alt": "Free as in Geese. Animēts teksts"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibri, palēnināja",
+      "effect": "0,1× ātrums · 8× FRC",
+      "action": "Izmēģiniet šo efektu: kadru nomaiņas ātruma konvertēšana",
+      "alt": "Kolibri, palēnināja. 0,1× ātrums · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Pie ostas",
+      "effect": "Kustības izplūdums",
+      "action": "Izmēģiniet šo efektu: kustības izplūdums",
+      "alt": "Pie ostas. Kustības izplūdums"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Sarkanas lapas",
+      "effect": "Temporāla trokšņa samazināšana",
+      "action": "Izmēģiniet šo efektu: laika trokšņa samazināšana",
+      "alt": "Sarkanas lapas. Temporāla trokšņa samazināšana"
+    }
+  ]
+}

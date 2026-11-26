@@ -1,0 +1,8 @@
+---
+layout: localized-gallery
+translation_key: gallery
+lang: is
+permalink: /is/gallery/
+store_url: https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=gallery_is&mt=8
+last_modified_at: "2026-11-24"
+---
