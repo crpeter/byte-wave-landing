@@ -1,0 +1,102 @@
+{
+  "title": "Fremstillet med ByteWave",
+  "seo_title": "Lavet med ByteWave Galleri",
+  "description": "Udforsk videoer og billeder lavet med ByteWave: vandrette rulle layouts, Möbius og bølge warps, solnedgang gitre, slow motion og meget mere.",
+  "aria_label": "Videoer og billeder lavet med ByteWave",
+  "open_video": "Åbn video",
+  "download": "Download ByteWave Gratis at downloade",
+  "credit": "Apple prøveoptagelser, redigeret i ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Rullende kolonner af solnedgange, kystlinjer og hverdagsøjeblikke.",
+      "action": "Udforsk Layout fra ByteWave",
+      "alt": "The All Scroll. Rullende kolonner af solnedgange, kystlinjer og hverdagsøjeblikke."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Vandret rulning · Möbius Forvrængning",
+      "effect": "Vores første vandret-rullende layout, pakket ind i en Möbius warp.",
+      "action": "Udforsk Layout fra ByteWave",
+      "alt": "Vandret rulning · Möbius Forvrængning. Vores første vandret-rullende layout, pakket ind i en Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Vandret rulning · Bølger",
+      "effect": "Vandret rulning med en bølge warp.",
+      "action": "Udforsk Layout fra ByteWave",
+      "alt": "Vandret rulning · Bølger. Vandret rulning med en bølge warp."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Solnedgangsekskanter (liggende)",
+      "effect": "Layout fra ByteWave · Landskab",
+      "action": "Udforsk begge retninger",
+      "alt": "Solnedgangsekskanter (liggende). Layout fra ByteWave · Landskab"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Forvrænget solnedgang",
+      "effect": "Layout fra ByteWave · buede solnedgangsbånd",
+      "action": "Udforsk Layout fra ByteWave",
+      "alt": "Forvrænget solnedgang. Layout fra ByteWave · buede solnedgangsbånd"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Fra kyst til strand",
+      "effect": "Layout fra ByteWave · seks-panel gitter til fuld ramme",
+      "action": "Udforsk Layout fra ByteWave",
+      "alt": "Fra kyst til strand. Layout fra ByteWave · seks-panel gitter til fuld ramme"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Solnedgangsekskanter (stående)",
+      "effect": "Layout fra ByteWave · Portræt",
+      "action": "Udforsk begge retninger",
+      "alt": "Solnedgangsekskanter (stående). Layout fra ByteWave · Portræt"
+    },
+    {
+      "id": "air-show",
+      "title": "Luftshow i 3D",
+      "effect": "Animeret 3D-tekst",
+      "action": "Prøv denne effekt: billedteksteffekter",
+      "alt": "Luftshow i 3D. Animeret 3D-tekst"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Oprindelig hastighed → slowmotion",
+      "action": "Prøv denne effekt: konvertering af billedfrekvens",
+      "alt": "The Quadruple Dive. Oprindelig hastighed → slowmotion"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animeret tekst",
+      "action": "Prøv denne effekt: billedteksteffekter",
+      "alt": "Free as in Geese. Animeret tekst"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibri, sænket",
+      "effect": "0, 1× hastighed · 8× FRC",
+      "action": "Prøv denne effekt: konvertering af billedfrekvens",
+      "alt": "Kolibri, sænket. 0, 1× hastighed · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Ved havnen",
+      "effect": "Bevægelsessløring",
+      "action": "Prøv denne effekt: bevægelsessløring",
+      "alt": "Ved havnen. Bevægelsessløring"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Røde blade",
+      "effect": "Tidsmæssig støjreduktion",
+      "action": "Prøv denne effekt: tidsmæssig støjreduktion",
+      "alt": "Røde blade. Tidsmæssig støjreduktion"
+    }
+  ]
+}

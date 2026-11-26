@@ -1,0 +1,102 @@
+{
+  "title": "ធ្វើជាមួយ ByteWave",
+  "seo_title": "ByteWave វិចិត្រសាល",
+  "description": "ស្វែង​រក​វីដេអូ និង​រូបភាព​ដែល​បាន​បង្កើត​ដោយ ByteWave   ៖ ប្លង់​រមូរ​ផ្ដេក Möbius និង wave warps, sunset grids, slow motion, and more.",
+  "aria_label": "វីដេអូ និង រូបភាព ដែល ធ្វើ ឡើង ដោយ ByteWave",
+  "open_video": "បើក​វីដេអូ",
+  "download": "ទាញយក ByteWave ដោយឥតគិតថ្លៃ",
+  "credit": "Apple វីដេអូ​ឧទាហរណ៍, កែសម្រួល​ក្នុង ByteWave ។",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "រមូរ​ជួរឈរ​នៃ​ថ្ងៃ​លិច ព្រំដែន​សមុទ្រ និង​ពេលវេលា​ប្រចាំថ្ងៃ   ។",
+      "action": "ស្វែងយល់ Layout ពី ByteWave",
+      "alt": "The All Scroll. រមូរ​ជួរឈរ​នៃ​ថ្ងៃ​លិច ព្រំដែន​សមុទ្រ និង​ពេលវេលា​ប្រចាំថ្ងៃ   ។"
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "រមូរ​ផ្ដេក · Möbius បង្វិល",
+      "effect": "ប្លង់​រមូរ​ផ្ដេក​ដំបូង​របស់​យើង​ត្រូវ​បាន​វេចខ្ចប់​ក្នុង​ការ​កោង Möbius ។",
+      "action": "ស្វែងយល់ Layout ពី ByteWave",
+      "alt": "រមូរ​ផ្ដេក · Möbius បង្វិល. ប្លង់​រមូរ​ផ្ដេក​ដំបូង​របស់​យើង​ត្រូវ​បាន​វេចខ្ចប់​ក្នុង​ការ​កោង Möbius ។"
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "រមូរ​ផ្ដេក",
+      "effect": "ការ​រមូរ​ផ្ដេក​ជាមួយ​នឹង​ការ​បង្វិល​រលក   ។",
+      "action": "ស្វែងយល់ Layout ពី ByteWave",
+      "alt": "រមូរ​ផ្ដេក. ការ​រមូរ​ផ្ដេក​ជាមួយ​នឹង​ការ​បង្វិល​រលក   ។"
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": " Hexagons ពេល​លិច​ព្រះអាទិត្យ (ផ្ដេក)",
+      "effect": "Layout ពី ByteWave · ផ្ដេក",
+      "action": "រកមើល​ទិស​ទាំង​ពីរ",
+      "alt": " Hexagons ពេល​លិច​ព្រះអាទិត្យ (ផ្ដេក). Layout ពី ByteWave · ផ្ដេក"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "លិច​ព្រះអាទិត្យ​ដែល​បាន​បង្ខូច",
+      "effect": "Layout ពី ByteWave",
+      "action": "ស្វែងយល់ Layout ពី ByteWave",
+      "alt": "លិច​ព្រះអាទិត្យ​ដែល​បាន​បង្ខូច. Layout ពី ByteWave"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "ក្រឡាចត្រង្គ​ឆ្នេរសមុទ្រ​ទៅ​ឆ្នេរ",
+      "effect": "Layout ពី ByteWave ·ក្រឡាចត្រង្គបន្ទះប្រាំមួយទៅស៊ុមពេញលេញ",
+      "action": "ស្វែងយល់ Layout ពី ByteWave",
+      "alt": "ក្រឡាចត្រង្គ​ឆ្នេរសមុទ្រ​ទៅ​ឆ្នេរ. Layout ពី ByteWave ·ក្រឡាចត្រង្គបន្ទះប្រាំមួយទៅស៊ុមពេញលេញ"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": " Hexagon ពេល​លិច​ព្រះអាទិត្យ (បញ្ឈរ)",
+      "effect": "Layout from ByteWave · រូបរាង",
+      "action": "រកមើល​ទិស​ទាំង​ពីរ",
+      "alt": " Hexagon ពេល​លិច​ព្រះអាទិត្យ (បញ្ឈរ). Layout from ByteWave · រូបរាង"
+    },
+    {
+      "id": "air-show",
+      "title": "បង្ហាញ​អាកាស​ក្នុង 3D",
+      "effect": "អត្ថបទ 3D ដែល​មាន​ចលនា",
+      "action": "ព្យាយាម​បែបផែន​នេះ   ៖ បែបផែន​អត្ថបទ​ចំណង​ជើង",
+      "alt": "បង្ហាញ​អាកាស​ក្នុង 3D. អត្ថបទ 3D ដែល​មាន​ចលនា"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "ល្បឿន​ដើម → ចលនា​យឺត",
+      "action": "សាកល្បង​បែបផែន​នេះ   ៖ បម្លែង​អត្រា​ស៊ុម",
+      "alt": "The Quadruple Dive. ល្បឿន​ដើម → ចលនា​យឺត"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "អត្ថបទ​មាន​ចលនា",
+      "action": "ព្យាយាម​បែបផែន​នេះ   ៖ បែបផែន​អត្ថបទ​ចំណង​ជើង",
+      "alt": "Free as in Geese. អត្ថបទ​មាន​ចលនា"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird ថយ​ចុះ",
+      "effect": "ល្បឿន 0. 1x · 8x FRC",
+      "action": "សាកល្បង​បែបផែន​នេះ   ៖ បម្លែង​អត្រា​ស៊ុម",
+      "alt": "Hummingbird ថយ​ចុះ. ល្បឿន 0. 1x · 8x FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "នៅ​កំពង់ផែ",
+      "effect": "ភាព​ព្រិល​នៃ​ចលនា",
+      "action": "សាកល្បង​បែបផែន​នេះ   ៖ ការ​ព្រិល​ចលនា",
+      "alt": "នៅ​កំពង់ផែ. ភាព​ព្រិល​នៃ​ចលនា"
+    },
+    {
+      "id": "red-leaves",
+      "title": "ស្លឹក​ក្រហម",
+      "effect": "ការ​កាត់​បន្ថយ​សំឡេង​រំខាន​បណ្ដោះអាសន្ន",
+      "action": "សាកល្បង​បែបផែន​នេះ   ៖ ការ​កាត់​បន្ថយ​សំឡេង​រំខាន​បណ្ដោះអាសន្ន",
+      "alt": "ស្លឹក​ក្រហម. ការ​កាត់​បន្ថយ​សំឡេង​រំខាន​បណ្ដោះអាសន្ន"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Napravljeno s ByteWave",
+  "seo_title": "Napravljeno s ByteWave Galerija",
+  "description": "Istražite videozapise i slike napravljene pomoću ByteWave: rasporedi vodoravnog pomicanja, Möbius i valne krivulje, rešetke zalaska sunca, usporeni pokret i još mnogo toga.",
+  "aria_label": "Videozapisi i slike napravljeni s ByteWave",
+  "open_video": "Otvori videozapis",
+  "download": "Preuzimanje ByteWave besplatno",
+  "credit": "Apple uzorak snimke, uređen u ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Pomicanje stupaca zalazaka sunca, obala i svakodnevnih trenutaka.",
+      "action": "Istražite Layout od ByteWave",
+      "alt": "The All Scroll. Pomicanje stupaca zalazaka sunca, obala i svakodnevnih trenutaka."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Vodoravno pomicanje · Möbius Okretanje",
+      "effect": "Naš prvi horizontalni izgled, omotan u Möbius warp.",
+      "action": "Istražite Layout od ByteWave",
+      "alt": "Vodoravno pomicanje · Möbius Okretanje. Naš prvi horizontalni izgled, omotan u Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Vodoravno pomicanje · Valovi",
+      "effect": "Vodoravno pomicanje s valnim krivuljom.",
+      "action": "Istražite Layout od ByteWave",
+      "alt": "Vodoravno pomicanje · Valovi. Vodoravno pomicanje s valnim krivuljom."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Zalazak sunca šesterokut (pejzaž)",
+      "effect": "Layout od ByteWave · Pejzaž",
+      "action": "Istražite obje orijentacije",
+      "alt": "Zalazak sunca šesterokut (pejzaž). Layout od ByteWave · Pejzaž"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Iskrivljeni zalazak sunca",
+      "effect": "Layout od ByteWave · zakrivljene trake zalaska sunca",
+      "action": "Istražite Layout od ByteWave",
+      "alt": "Iskrivljeni zalazak sunca. Layout od ByteWave · zakrivljene trake zalaska sunca"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Odmor na plaži",
+      "effect": "Layout od ByteWave · šest panela rešetke do punog kadra",
+      "action": "Istražite Layout od ByteWave",
+      "alt": "Odmor na plaži. Layout od ByteWave · šest panela rešetke do punog kadra"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Šesnaesterci zalaska sunca (portret)",
+      "effect": "Layout od ByteWave · Portret",
+      "action": "Istražite obje orijentacije",
+      "alt": "Šesnaesterci zalaska sunca (portret). Layout od ByteWave · Portret"
+    },
+    {
+      "id": "air-show",
+      "title": "Zračni show u 3D",
+      "effect": "Animirani 3D tekst",
+      "action": "Isprobajte ovaj efekt: efekt teksta za opis",
+      "alt": "Zračni show u 3D. Animirani 3D tekst"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Izvorna brzina → usporena snimka",
+      "action": "Isprobajte ovaj efekt: pretvorba brzine kadrova",
+      "alt": "The Quadruple Dive. Izvorna brzina → usporena snimka"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animirani tekst",
+      "action": "Isprobajte ovaj efekt: efekt teksta za opis",
+      "alt": "Free as in Geese. Animirani tekst"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibrić, usporeno",
+      "effect": "0.1× brzina · 8× FRC",
+      "action": "Isprobajte ovaj efekt: pretvorba brzine kadrova",
+      "alt": "Kolibrić, usporeno. 0.1× brzina · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "U luci",
+      "effect": "Mutnoća pokreta",
+      "action": "Isprobajte ovaj efekt: zamućenje pokreta",
+      "alt": "U luci. Mutnoća pokreta"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Crveni listovi",
+      "effect": "Privremeno smanjenje buke",
+      "action": "Isprobajte ovaj efekt: vremensko smanjenje buke",
+      "alt": "Crveni listovi. Privremeno smanjenje buke"
+    }
+  ]
+}

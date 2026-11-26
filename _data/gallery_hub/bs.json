@@ -1,0 +1,102 @@
+{
+  "title": "Napravljeno sa ByteWave",
+  "seo_title": "Napravljeno sa ByteWave Galerija",
+  "description": "Istražite videozapise i slike napravljene sa ByteWave: horizontalni rasporedi, Möbius i valne deformacije, rešetke zalaska sunca, usporeni pokreti i još mnogo toga.",
+  "aria_label": "Videozapisi i slike napravljeni sa ByteWave",
+  "open_video": "Otvori video",
+  "download": "Preuzmi ByteWave besplatno",
+  "credit": "Apple uzorak snimke, uređeno u ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Pomicanje kolona zalazaka sunca, obala i svakodnevnih trenutaka.",
+      "action": "Istraži Layout od ByteWave",
+      "alt": "The All Scroll. Pomicanje kolona zalazaka sunca, obala i svakodnevnih trenutaka."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Vodoravno pomicanje · Möbius Warp",
+      "effect": "Naš prvi horizontalni raspored, omotan u Möbius warp.",
+      "action": "Istraži Layout od ByteWave",
+      "alt": "Vodoravno pomicanje · Möbius Warp. Naš prvi horizontalni raspored, omotan u Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Vodoravno kretanje",
+      "effect": "Horizontalno kretanje sa valnim deformacijama.",
+      "action": "Istraži Layout od ByteWave",
+      "alt": "Vodoravno kretanje. Horizontalno kretanje sa valnim deformacijama."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Sunset hexagons (landscape)",
+      "effect": "Layout od ByteWave · Pejzaž",
+      "action": "Istražite obje orijentacije",
+      "alt": "Sunset hexagons (landscape). Layout od ByteWave · Pejzaž"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Zalazak sunca",
+      "effect": "Layout from ByteWave · curved sunset bands",
+      "action": "Istraži Layout od ByteWave",
+      "alt": "Zalazak sunca. Layout from ByteWave · curved sunset bands"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Od mora do plaže",
+      "effect": "Layout od ByteWave · šest-panel rešetka do punog kadra",
+      "action": "Istraži Layout od ByteWave",
+      "alt": "Od mora do plaže. Layout od ByteWave · šest-panel rešetka do punog kadra"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Sunset hexagons (portrait)",
+      "effect": "Layout od ByteWave · Portret",
+      "action": "Istražite obje orijentacije",
+      "alt": "Sunset hexagons (portrait). Layout od ByteWave · Portret"
+    },
+    {
+      "id": "air-show",
+      "title": "Zračni prikaz u 3D",
+      "effect": "Animirani 3D tekst",
+      "action": "Pokušajte ovaj efekt: efekti teksta naslova",
+      "alt": "Zračni prikaz u 3D. Animirani 3D tekst"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Originalna brzina → usporeni pokret",
+      "action": "Pokušajte ovaj efekt: pretvorba brzine kadrova",
+      "alt": "The Quadruple Dive. Originalna brzina → usporeni pokret"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animirani tekst",
+      "action": "Pokušajte ovaj efekt: efekti teksta naslova",
+      "alt": "Free as in Geese. Animirani tekst"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibri, uspori.",
+      "effect": "0.1× brzina · 8× FRC",
+      "action": "Pokušajte ovaj efekt: pretvorba brzine kadrova",
+      "alt": "Kolibri, uspori.. 0.1× brzina · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "U luci",
+      "effect": "Pokretno zamućenje",
+      "action": "Pokušajte ovaj efekt: zamagljivanje kretanja",
+      "alt": "U luci. Pokretno zamućenje"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Crveno lišće",
+      "effect": "Time-based noise reduction",
+      "action": "Pokušajte ovaj efekt: privremeno smanjenje buke",
+      "alt": "Crveno lišće. Time-based noise reduction"
+    }
+  ]
+}

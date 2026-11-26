@@ -1,0 +1,102 @@
+{
+  "title": "Được tạo bằng ByteWave",
+  "seo_title": "Thư viện tác phẩm được tạo bằng ByteWave",
+  "description": "Khám phá video và hình ảnh được tạo ra với ByteWave: bố cục cuộn ngang, Möbius và sóng xoắn, lưới hoàng hôn, chuyển động chậm, và nhiều hơn nữa.",
+  "aria_label": "Video và hình ảnh được tạo ra với ByteWave",
+  "open_video": "Mở đoạn phim",
+  "download": "Tải về ByteWave miễn phí",
+  "credit": "Video mẫu của Apple, được chỉnh sửa bằng ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Cuộn cột của mặt trời lặn, bờ biển, và những khoảnh khắc hàng ngày.",
+      "action": "Tìm hiểu Layout từ ByteWave",
+      "alt": "The All Scroll. Cuộn cột của mặt trời lặn, bờ biển, và những khoảnh khắc hàng ngày."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Cuộn ngang · Biến dạng Möbius",
+      "effect": "Bố cục cuộn ngang đầu tiên của chúng tôi, được uốn theo dạng Möbius.",
+      "action": "Tìm hiểu Layout từ ByteWave",
+      "alt": "Cuộn ngang · Biến dạng Möbius. Bố cục cuộn ngang đầu tiên của chúng tôi, được uốn theo dạng Möbius."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Cuộn ngang · Sóng",
+      "effect": "Cuộn ngang với biến dạng dạng sóng.",
+      "action": "Tìm hiểu Layout từ ByteWave",
+      "alt": "Cuộn ngang · Sóng. Cuộn ngang với biến dạng dạng sóng."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Các hình lục giác hoàng hôn (ngang)",
+      "effect": "Layout từ ByteWave · Khung ngang",
+      "action": "Khám phá cả hai hướng",
+      "alt": "Các hình lục giác hoàng hôn (ngang). Layout từ ByteWave · Khung ngang"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Mặt trời lặn biến dạng",
+      "effect": "Layout từ ByteWave · Các dải hoàng hôn uốn cong",
+      "action": "Tìm hiểu Layout từ ByteWave",
+      "alt": "Mặt trời lặn biến dạng. Layout từ ByteWave · Các dải hoàng hôn uốn cong"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Đường lưới bờ biển đến bãi biển",
+      "effect": "Layout từ ByteWave · Từ lưới sáu ô sang toàn khung hình",
+      "action": "Tìm hiểu Layout từ ByteWave",
+      "alt": "Đường lưới bờ biển đến bãi biển. Layout từ ByteWave · Từ lưới sáu ô sang toàn khung hình"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Lục giác hoàng hôn (thẳng đứng)",
+      "effect": "Layout từ ByteWave · Khung dọc",
+      "action": "Khám phá cả hai hướng",
+      "alt": "Lục giác hoàng hôn (thẳng đứng). Layout từ ByteWave · Khung dọc"
+    },
+    {
+      "id": "air-show",
+      "title": "Chương trình bay 3D",
+      "effect": "Văn bản 3D hoạt hình",
+      "action": "Thử hiệu ứng này: hiệu ứng chữ phụ đề",
+      "alt": "Chương trình bay 3D. Văn bản 3D hoạt hình"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Tốc độ ban đầu → chuyển động chậm",
+      "action": "Thử hiệu ứng này: chuyển đổi tốc độ khung",
+      "alt": "The Quadruple Dive. Tốc độ ban đầu → chuyển động chậm"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Văn bản hoạt hình",
+      "action": "Thử hiệu ứng này: hiệu ứng chữ phụ đề",
+      "alt": "Free as in Geese. Văn bản hoạt hình"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Chim ruồi ở tốc độ chậm",
+      "effect": "Tốc độ 0.1× · 8× FRC",
+      "action": "Thử hiệu ứng này: chuyển đổi tốc độ khung",
+      "alt": "Chim ruồi ở tốc độ chậm. Tốc độ 0.1× · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Ở bến cảng.",
+      "effect": "Mờ chuyển động",
+      "action": "Thử hiệu ứng này: chuyển động mờ",
+      "alt": "Ở bến cảng.. Mờ chuyển động"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Lá đỏ",
+      "effect": "Giảm nhiễu thời gian",
+      "action": "Thử hiệu ứng này: giảm nhiễu thời gian",
+      "alt": "Lá đỏ. Giảm nhiễu thời gian"
+    }
+  ]
+}

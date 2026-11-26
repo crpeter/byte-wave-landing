@@ -1,0 +1,102 @@
+{
+  "title": "Imetengenezwa kwa ByteWave",
+  "seo_title": "Matunzio ya kazi zilizotengenezwa kwa ByteWave",
+  "description": "Tazama video na picha zilizotengenezwa kwa ByteWave: mipangilio inayosogea kwa mlalo, mikunjo ya Möbius na mawimbi, gridi za machweo, mwendo wa polepole na zaidi.",
+  "aria_label": "Video na picha zilizotengenezwa kwa ByteWave",
+  "open_video": "Fungua video",
+  "download": "Pakua ByteWave bure",
+  "credit": "Video ya mfano ya Apple, iliyohaririwa kwa ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Safu zinazosogea za machweo, ufukwe na matukio ya kila siku.",
+      "action": "Gundua Layout kutoka ByteWave",
+      "alt": "The All Scroll. Safu zinazosogea za machweo, ufukwe na matukio ya kila siku."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Mwendo wa mlalo · Mkunjo wa Möbius",
+      "effect": "Mpangilio wetu wa kwanza unaosogea kwa mlalo, ukiwa katika mkunjo wa Möbius.",
+      "action": "Gundua Layout kutoka ByteWave",
+      "alt": "Mwendo wa mlalo · Mkunjo wa Möbius. Mpangilio wetu wa kwanza unaosogea kwa mlalo, ukiwa katika mkunjo wa Möbius."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Mwendo wa mlalo · Mawimbi",
+      "effect": "Mwendo wa mlalo wenye mkunjo wa mawimbi.",
+      "action": "Gundua Layout kutoka ByteWave",
+      "alt": "Mwendo wa mlalo · Mawimbi. Mwendo wa mlalo wenye mkunjo wa mawimbi."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Maumbo ya pembe sita ya machweo (mlalo)",
+      "effect": "Layout kutoka ByteWave · Mlalo",
+      "action": "Gundua mielekeo yote miwili",
+      "alt": "Maumbo ya pembe sita ya machweo (mlalo). Layout kutoka ByteWave · Mlalo"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Machweo yaliyopinda",
+      "effect": "Layout kutoka ByteWave · Mikanda ya machweo iliyopinda",
+      "action": "Gundua Layout kutoka ByteWave",
+      "alt": "Machweo yaliyopinda. Layout kutoka ByteWave · Mikanda ya machweo iliyopinda"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Kutoka gridi ya baharini hadi ufukweni",
+      "effect": "Layout kutoka ByteWave · Gridi ya sehemu sita hadi picha nzima",
+      "action": "Gundua Layout kutoka ByteWave",
+      "alt": "Kutoka gridi ya baharini hadi ufukweni. Layout kutoka ByteWave · Gridi ya sehemu sita hadi picha nzima"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Maumbo ya pembe sita ya machweo (wima)",
+      "effect": "Layout kutoka ByteWave · Wima",
+      "action": "Gundua mielekeo yote miwili",
+      "alt": "Maumbo ya pembe sita ya machweo (wima). Layout kutoka ByteWave · Wima"
+    },
+    {
+      "id": "air-show",
+      "title": "Onyesho la ndege katika 3D",
+      "effect": "Maandishi ya 3D yanayosogea",
+      "action": "Jaribu athari za maandishi ya manukuu",
+      "alt": "Onyesho la ndege katika 3D. Maandishi ya 3D yanayosogea"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Kasi ya asili → mwendo wa polepole",
+      "action": "Jaribu ubadilishaji wa kasi ya fremu",
+      "alt": "The Quadruple Dive. Kasi ya asili → mwendo wa polepole"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Maandishi yanayosogea",
+      "action": "Jaribu athari za maandishi ya manukuu",
+      "alt": "Free as in Geese. Maandishi yanayosogea"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Ndege hummingbird kwa mwendo wa polepole",
+      "effect": "Kasi ya 0.1× · 8× FRC",
+      "action": "Jaribu ubadilishaji wa kasi ya fremu",
+      "alt": "Ndege hummingbird kwa mwendo wa polepole. Kasi ya 0.1× · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Bandarini",
+      "effect": "Ukungu wa mwendo",
+      "action": "Jaribu ukungu wa mwendo",
+      "alt": "Bandarini. Ukungu wa mwendo"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Majani mekundu",
+      "effect": "Upunguzaji wa kelele za picha kwa kutumia fremu zinazofuatana",
+      "action": "Jaribu upunguzaji wa kelele za picha kwa kutumia fremu zinazofuatana",
+      "alt": "Majani mekundu. Upunguzaji wa kelele za picha kwa kutumia fremu zinazofuatana"
+    }
+  ]
+}

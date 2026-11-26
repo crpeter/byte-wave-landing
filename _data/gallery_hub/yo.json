@@ -1,0 +1,102 @@
+{
+  "title": "A ṣe pẹ̀lú ByteWave",
+  "seo_title": "Àkójọpọ̀ iṣẹ́ tí a ṣe pẹ̀lú ByteWave",
+  "description": "Wo fídíò àti àwòrán tí a ṣe pẹ̀lú ByteWave: ìṣètò tó ń yí sí ẹ̀gbẹ́, yíyí Möbius àti ìgbì, àkójọpọ̀ ìwọ̀ oòrùn, ìṣípò lọ́ra àti púpọ̀ sí i.",
+  "aria_label": "Fídíò àti àwòrán tí a ṣe pẹ̀lú ByteWave",
+  "open_video": "Ṣí fídíò",
+  "download": "Gba ByteWave lọ́fẹ̀ẹ́",
+  "credit": "Fídíò àpẹẹrẹ Apple, tí a ṣàtúnṣe nínú ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Àwọn ọ̀wọ́ àwòrán ìwọ̀ oòrùn, etí òkun àti ìṣẹ̀lẹ̀ ojoojúmọ́ tó ń yí.",
+      "action": "Ṣàwárí Layout láti ByteWave",
+      "alt": "The All Scroll. Àwọn ọ̀wọ́ àwòrán ìwọ̀ oòrùn, etí òkun àti ìṣẹ̀lẹ̀ ojoojúmọ́ tó ń yí."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Yíyí sí ẹ̀gbẹ́ · Yíyí Möbius",
+      "effect": "Ìṣètò àkọ́kọ́ wa tó ń yí sí ẹ̀gbẹ́, tí a fi yíyí Möbius yí ká.",
+      "action": "Ṣàwárí Layout láti ByteWave",
+      "alt": "Yíyí sí ẹ̀gbẹ́ · Yíyí Möbius. Ìṣètò àkọ́kọ́ wa tó ń yí sí ẹ̀gbẹ́, tí a fi yíyí Möbius yí ká."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Yíyí sí ẹ̀gbẹ́ · Ìgbì",
+      "effect": "Yíyí sí ẹ̀gbẹ́ pẹ̀lú yíyí bí ìgbì.",
+      "action": "Ṣàwárí Layout láti ByteWave",
+      "alt": "Yíyí sí ẹ̀gbẹ́ · Ìgbì. Yíyí sí ẹ̀gbẹ́ pẹ̀lú yíyí bí ìgbì."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Ìwọ̀ oòrùn nínú apẹrẹ igun mẹ́fà (ní ìbú)",
+      "effect": "Layout láti ByteWave · Ní ìbú",
+      "action": "Wo ìtọ́sọ́nà méjèèjì",
+      "alt": "Ìwọ̀ oòrùn nínú apẹrẹ igun mẹ́fà (ní ìbú). Layout láti ByteWave · Ní ìbú"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Ìwọ̀ oòrùn tí a tẹ̀",
+      "effect": "Layout láti ByteWave · Àwọn ọ̀wọ́ ìwọ̀ oòrùn tí a tẹ̀",
+      "action": "Ṣàwárí Layout láti ByteWave",
+      "alt": "Ìwọ̀ oòrùn tí a tẹ̀. Layout láti ByteWave · Àwọn ọ̀wọ́ ìwọ̀ oòrùn tí a tẹ̀"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Láti àkójọpọ̀ etí òkun sí etí òkun",
+      "effect": "Layout láti ByteWave · Láti apá mẹ́fà sí àwòrán kíkún",
+      "action": "Ṣàwárí Layout láti ByteWave",
+      "alt": "Láti àkójọpọ̀ etí òkun sí etí òkun. Layout láti ByteWave · Láti apá mẹ́fà sí àwòrán kíkún"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Ìwọ̀ oòrùn nínú apẹrẹ igun mẹ́fà (ní gíga)",
+      "effect": "Layout láti ByteWave · Ní gíga",
+      "action": "Wo ìtọ́sọ́nà méjèèjì",
+      "alt": "Ìwọ̀ oòrùn nínú apẹrẹ igun mẹ́fà (ní gíga). Layout láti ByteWave · Ní gíga"
+    },
+    {
+      "id": "air-show",
+      "title": "Ìfihàn ọkọ̀ òfuurufú ní 3D",
+      "effect": "Ọ̀rọ̀ 3D tó ń rìn",
+      "action": "Gbìyànjú ipa ọ̀rọ̀ àkọlé",
+      "alt": "Ìfihàn ọkọ̀ òfuurufú ní 3D. Ọ̀rọ̀ 3D tó ń rìn"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Ìyára àkọ́kọ́ → ìṣípò lọ́ra",
+      "action": "Gbìyànjú yíyí iye férémù padà",
+      "alt": "The Quadruple Dive. Ìyára àkọ́kọ́ → ìṣípò lọ́ra"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Ọ̀rọ̀ tó ń rìn",
+      "action": "Gbìyànjú ipa ọ̀rọ̀ àkọlé",
+      "alt": "Free as in Geese. Ọ̀rọ̀ tó ń rìn"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Ẹyẹ hummingbird ní ìṣípò lọ́ra",
+      "effect": "Ìyára 0.1× · 8× FRC",
+      "action": "Gbìyànjú yíyí iye férémù padà",
+      "alt": "Ẹyẹ hummingbird ní ìṣípò lọ́ra. Ìyára 0.1× · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "Ní èbúté",
+      "effect": "Blur ìṣípò",
+      "action": "Gbìyànjú blur ìṣípò",
+      "alt": "Ní èbúté. Blur ìṣípò"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Ewé pupa",
+      "effect": "Dídín ariwo àwòrán kù pẹ̀lú àwọn férémù tó tẹ̀lé ara wọn",
+      "action": "Gbìyànjú dídín ariwo àwòrán kù pẹ̀lú àwọn férémù tó tẹ̀lé ara wọn",
+      "alt": "Ewé pupa. Dídín ariwo àwòrán kù pẹ̀lú àwọn férémù tó tẹ̀lé ara wọn"
+    }
+  ]
+}

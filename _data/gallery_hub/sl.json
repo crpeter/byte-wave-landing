@@ -1,0 +1,102 @@
+{
+  "title": "Izdelano z ByteWave",
+  "seo_title": "Izdelano z ByteWave Galerija",
+  "description": "Raziščite videoposnetke in slike, ustvarjene z ByteWave: postavitve vodoravnega drsenja, Möbius in valovne krivulje, mreže sončnega zahoda, počasni posnetki in še več.",
+  "aria_label": "Video posnetki in slike, narejeni z ByteWave",
+  "open_video": "Odpri videoposnetek",
+  "download": "Prenos ByteWave Brezplačno",
+  "credit": "Apple vzorčni posnetek, urejen v ByteWave.",
+  "cards": [
+    {
+      "id": "all-scroll",
+      "title": "The All Scroll",
+      "effect": "Drsni stolpci sončnih zahodov, obal in vsakdanjih trenutkov.",
+      "action": "Raziščite Layout od ByteWave",
+      "alt": "The All Scroll. Drsni stolpci sončnih zahodov, obal in vsakdanjih trenutkov."
+    },
+    {
+      "id": "horizontal-scroll-mobius-warp",
+      "title": "Vodoravno drsenje · Möbius Poševno drsenje",
+      "effect": "Naša prva postavitev z vodoravnim drsenjem, zavita v Möbius warp.",
+      "action": "Raziščite Layout od ByteWave",
+      "alt": "Vodoravno drsenje · Möbius Poševno drsenje. Naša prva postavitev z vodoravnim drsenjem, zavita v Möbius warp."
+    },
+    {
+      "id": "horizontal-scroll-waves",
+      "title": "Vodoravno drsenje · Valovi",
+      "effect": "Vodoravno drsenje z valovno krivuljo.",
+      "action": "Raziščite Layout od ByteWave",
+      "alt": "Vodoravno drsenje · Valovi. Vodoravno drsenje z valovno krivuljo."
+    },
+    {
+      "id": "sunset-hexagons-landscape",
+      "title": "Sončni zahod šestkotniki (ležeče)",
+      "effect": "Layout od ByteWave · Ležeče",
+      "action": "Raziščite obe usmeritvi",
+      "alt": "Sončni zahod šestkotniki (ležeče). Layout od ByteWave · Ležeče"
+    },
+    {
+      "id": "warped-sunset-4k",
+      "title": "Popačen sončni zahod",
+      "effect": "Layout od ByteWave · ukrivljeni pasovi sončnega zahoda",
+      "action": "Raziščite Layout od ByteWave",
+      "alt": "Popačen sončni zahod. Layout od ByteWave · ukrivljeni pasovi sončnega zahoda"
+    },
+    {
+      "id": "seaside-grid-to-beach",
+      "title": "Od morja do plaže",
+      "effect": "Layout od ByteWave · šest-panel mreža do polnega okvirja",
+      "action": "Raziščite Layout od ByteWave",
+      "alt": "Od morja do plaže. Layout od ByteWave · šest-panel mreža do polnega okvirja"
+    },
+    {
+      "id": "sunset-hexagons",
+      "title": "Sončni zahod šesterokotniki (portrait)",
+      "effect": "Layout od ByteWave · Portret",
+      "action": "Raziščite obe usmeritvi",
+      "alt": "Sončni zahod šesterokotniki (portrait). Layout od ByteWave · Portret"
+    },
+    {
+      "id": "air-show",
+      "title": "Zračna predstava v 3D",
+      "effect": "Animirano 3D-besedilo",
+      "action": "Poskusite ta učinek: učinki besedila z napisi",
+      "alt": "Zračna predstava v 3D. Animirano 3D-besedilo"
+    },
+    {
+      "id": "quadruple-dive",
+      "title": "The Quadruple Dive",
+      "effect": "Izvirna hitrost → počasen posnetek",
+      "action": "Poskusite ta učinek: pretvorba hitrosti sličic",
+      "alt": "The Quadruple Dive. Izvirna hitrost → počasen posnetek"
+    },
+    {
+      "id": "free-as-in-geese",
+      "title": "Free as in Geese",
+      "effect": "Animirano besedilo",
+      "action": "Poskusite ta učinek: učinki besedila z napisi",
+      "alt": "Free as in Geese. Animirano besedilo"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Kolibri, upočasnjen",
+      "effect": "0,1× hitrost · 8× FRC",
+      "action": "Poskusite ta učinek: pretvorba hitrosti sličic",
+      "alt": "Kolibri, upočasnjen. 0,1× hitrost · 8× FRC"
+    },
+    {
+      "id": "harbor",
+      "title": "V pristanišču",
+      "effect": "Zameglitev gibanja",
+      "action": "Preizkusite ta učinek: zameglitev gibanja",
+      "alt": "V pristanišču. Zameglitev gibanja"
+    },
+    {
+      "id": "red-leaves",
+      "title": "Rdeči listi",
+      "effect": "Časovno zmanjšanje šuma",
+      "action": "Poskusite ta učinek: časovno zmanjšanje šuma",
+      "alt": "Rdeči listi. Časovno zmanjšanje šuma"
+    }
+  ]
+}
