@@ -7,7 +7,8 @@
   "disclosure": "Wannan maƙala tana ɗauke da rubutun da samfurin harshe na AI (LLM) ya samar.",
   "tags": {
     "guide": "Jagora",
-    "offline-editing-guide": "Jagorar gyara ba tare da intanet ba"
+    "offline-editing-guide": "Jagorar gyara ba tare da intanet ba",
+    "privacy": "Sirri"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Za ka iya gama bidiyoka idan asusunka ya ɓace?",
       "summary": "Gwada ByteWave a yanayin jirgin sama: bidiyon na'ura, gyara ba tare da shiga asusu ba, da adanawa a Photos. Duba abin da yake aiki ba tare da intanet ba."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Editan bidiyo mai kiyaye sirri: gyara ba tare da ɗorawa zuwa gajimare ba",
+      "summary": "Gyara a na'ura da ByteWave a iPhone, iPad da Mac. Ba asusun gyara, biyan kuɗin rajista ko alamar ruwa a fitarwa. Amsoshi game da aiki ba tare da intanet ba da ɗora fayiloli."
     }
   }
 }

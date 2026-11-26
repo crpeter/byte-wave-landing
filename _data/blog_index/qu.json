@@ -7,7 +7,8 @@
   "disclosure": "Kay qillqapiqa AI simi modelowan (LLM) ruwasqa qillqa kachkan.",
   "tags": {
     "guide": "Yachachiy",
-    "offline-editing-guide": "Mana internetniyuq allichay yachachiy"
+    "offline-editing-guide": "Mana internetniyuq allichay yachachiy",
+    "privacy": "Sapanchasqa kay"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Cuentayki chinkaptin, videoykita tukuyta atiwaqchu?",
       "summary": "ByteWaveta avión modo nisqapi malliy: aparatupi kaq videowan, mana cuentaman yaykuspa allichay, Fotos nisqapi waqaychay. Mana internetniyuq ima llamk'asqanta qhaway."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Sapanchasqa video allichaq: mana nube nisqaman apachispa allichay",
+      "summary": "ByteWavewan iPhone, iPad, Mac nisqakunapi aparatupi videota allichay. Mana allichanapaq cuentayuq, mana suscripcionniyuq, mana yaku unanchayuq. Mana internetniyuq llamk'aymanta, wichaykachiykunamanta sut'i kutichiykuna."
     }
   }
 }

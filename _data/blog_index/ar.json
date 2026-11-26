@@ -7,7 +7,8 @@
   "disclosure": "يتضمن هذا المقال نصًا مولدًا باستخدام نموذج لغوي للذكاء الاصطناعي (LLM).",
   "tags": {
     "guide": "دليل",
-    "offline-editing-guide": "دليل التحرير دون اتصال"
+    "offline-editing-guide": "دليل التحرير دون اتصال",
+    "privacy": "الخصوصية"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "هل يمكنك إنهاء الفيديو لو اختفى حسابك؟",
       "summary": "جرّب ByteWave في نمط الطيران: استخدم مقطعًا محليًا، وحرّر دون تسجيل الدخول، واحفظ في الصور. تحقق مما يعمل دون اتصال بالإنترنت."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "محرر فيديو يحافظ على الخصوصية: حرّر دون رفع إلى السحابة",
+      "summary": "حرّر الفيديو محليًا باستخدام ByteWave على iPhone وiPad وMac. دون حساب للتحرير أو اشتراك أو علامة مائية عند التصدير. إجابات واضحة عن العمل دون اتصال ورفع الملفات."
     }
   }
 }

@@ -7,7 +7,8 @@
   "disclosure": "Bài viết này có nội dung do mô hình ngôn ngữ AI (LLM) tạo ra.",
   "tags": {
     "guide": "Hướng dẫn",
-    "offline-editing-guide": "Hướng dẫn chỉnh sửa ngoại tuyến"
+    "offline-editing-guide": "Hướng dẫn chỉnh sửa ngoại tuyến",
+    "privacy": "Quyền riêng tư"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Bạn có thể hoàn thành video nếu tài khoản biến mất không?",
       "summary": "Thử ByteWave ở chế độ máy bay: dùng video cục bộ, chỉnh sửa không cần đăng nhập và lưu vào Ảnh. Kiểm tra những gì hoạt động khi không có mạng."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Trình chỉnh sửa video riêng tư: không cần tải lên đám mây",
+      "summary": "Chỉnh sửa cục bộ bằng ByteWave trên iPhone, iPad và Mac. Không cần tài khoản chỉnh sửa, gói thuê bao hay hình mờ khi xuất. Giải đáp về dùng ngoại tuyến và tải lên."
     }
   }
 }

@@ -7,7 +7,8 @@
   "disclosure": "Denne artikel indeholder tekst genereret med en AI-sprogmodel (LLM).",
   "tags": {
     "guide": "Guide",
-    "offline-editing-guide": "Guide til offline redigering"
+    "offline-editing-guide": "Guide til offline redigering",
+    "privacy": "Privatliv"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Kunne du gøre din video færdig, hvis din konto forsvandt?",
       "summary": "Prøv ByteWave i flyfunktion: brug et lokalt klip, rediger uden login, og gem i Fotos. Se, hvad der virker uden internet."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Privat videoredigering: rediger uden upload til skyen",
+      "summary": "Rediger lokalt med ByteWave på iPhone, iPad og Mac. Ingen redigeringskonto, abonnement eller vandmærke ved eksport. Klare svar om offline brug og upload."
     }
   }
 }

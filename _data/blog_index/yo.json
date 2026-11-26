@@ -7,7 +7,8 @@
   "disclosure": "Àpilẹ̀kọ yìí ní ọ̀rọ̀ tí àwòṣe èdè AI (LLM) ṣe.",
   "tags": {
     "guide": "Ìtọ́sọ́nà",
-    "offline-editing-guide": "Ìtọ́sọ́nà àtúnṣe láìsí intanẹẹti"
+    "offline-editing-guide": "Ìtọ́sọ́nà àtúnṣe láìsí intanẹẹti",
+    "privacy": "Àṣírí"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Ṣé o lè parí fídíò rẹ bí àkọọ́lẹ̀ rẹ bá pòórá?",
       "summary": "Dán ByteWave wò ní ipò ọkọ̀ òfuurufú: fídíò inú ẹ̀rọ, àtúnṣe láìwọlé, àti fífi pamọ́ sínú Photos. Ṣàyẹ̀wò ohun tó ń ṣiṣẹ́ láìsí intanẹẹti."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Olóòtú fídíò tó dáàbò bo àṣírí: ṣàtúnṣe láìgbé e sí awọsanma",
+      "summary": "Ṣàtúnṣe nínú ẹ̀rọ pẹ̀lú ByteWave lórí iPhone, iPad àti Mac. Láìsí àkọọ́lẹ̀ àtúnṣe, ìsanwó àkókò tàbí àmì omi nígbà fífi jáde. Àlàyé nípa lílò láìsí intanẹẹti àti gbígbé fáìlì sókè."
     }
   }
 }

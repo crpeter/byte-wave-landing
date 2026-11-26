@@ -11,6 +11,7 @@ SOURCE = Path(__file__).resolve().parents[1]
 SITE = SOURCE / '_site'
 LANGUAGES = json.loads((SOURCE / '_data/expanded_languages.json').read_text())
 SLUGS = ('edit-videos-no-account-iphone', 'offline-video-editor-airplane-mode-test')
+PRIVATE_SLUG = 'best-video-editor-privacy-no-upload'
 
 
 class Article(HTMLParser):
@@ -36,14 +37,16 @@ def body(path):
 
 def main():
     english = {slug: Article(body(SOURCE / 'blog' / f'{slug}.html')) for slug in SLUGS}
+    original_guide = (SITE / 'blog' / f'{PRIVATE_SLUG}.html').read_text()
+    guide_reference = Article(re.search(r'<article\b[^>]*>(.*?)</article>', original_guide, re.S)[1])
     for lang in LANGUAGES:
         data = json.loads((SOURCE / '_data/blog_index' / f'{lang}.json').read_text())
-        urls = {f'/{lang}/blog/{slug}.html' for slug in SLUGS}
+        urls = {f'/{lang}/blog/{slug}.html' for slug in (*SLUGS, PRIVATE_SLUG)}
         assert data['starter'] is True, lang
-        assert set(data['cards']) == {f'/blog/{slug}.html' for slug in SLUGS}, lang
+        assert set(data['cards']) == {f'/blog/{slug}.html' for slug in (*SLUGS, PRIVATE_SLUG)}, lang
         index = (SITE / lang / 'blog/index.html').read_text()
         cards = re.findall(r'<a\b[^>]*class="post-card"[^>]*>.*?</a>', index, re.S)
-        assert len(cards) == 2, (lang, 'blank or extra archive cards')
+        assert len(cards) == 3, (lang, 'blank or extra archive cards')
         assert {Article(card).links[0]['href'] for card in cards} == urls, lang
         assert all(f'hreflang="{lang}"' in card for card in cards), lang
         for card in cards:
@@ -87,9 +90,34 @@ def main():
                     assert f'{field}: {match[1]}' in source.read_text(), (lang, slug, 'changed source date')
             if lang == 'ar':
                 assert 'dir="rtl"' in raw.split('<head>')[0], slug
+        guide_source = (SOURCE / lang / 'blog' / f'{PRIVATE_SLUG}.html').read_text()
+        guide = (SITE / lang / 'blog' / f'{PRIVATE_SLUG}.html').read_text()
+        guide_article = Article(re.search(r'<article\b[^>]*>(.*?)</article>', guide, re.S)[1])
+        for tag in ('h1', 'h2', 'h3', 'p', 'a'):
+            assert guide_article.counts[tag] == guide_reference.counts[tag], (lang, 'incomplete private guide', tag)
+        assert guide_article.text != guide_reference.text, (lang, 'English private guide')
+        assert '{{' not in guide and '{%' not in guide and 'href="@' not in guide, lang
+        for date in ('published_on: "2026-04-26"', 'updated_on: "2026-11-15"'):
+            assert date in guide_source, (lang, 'changed private-guide source date')
+        guide_links = {a.get('href') for a in guide_article.links}
+        for target in ('edit-videos-no-account-iphone', 'offline-video-editor-airplane-mode-test'):
+            assert f'/{lang}/blog/{target}.html' in guide_links, (lang, target)
+        assert f'/{lang}/tutorials/remove-location-metadata/' in guide_links, lang
+        for link in guide_article.links:
+            href = link.get('href', '')
+            if href.startswith('/blog/'):
+                assert link.get('hreflang') == 'en', (lang, href)
+                assert re.search(re.escape(f'href="{href}"') + r'[^>]*>.*?</a>\s*<small lang="en">\(English\)</small>', guide, re.S), (lang, href)
+        for relative in ('index.html', 'blog/edit-videos-no-account-iphone.html'):
+            incoming = (SITE / lang / relative).read_text()
+            assert f'href="/{lang}/blog/{PRIVATE_SLUG}.html"' in incoming, (lang, relative, 'private guide is not discoverable')
+            assert f'href="/blog/{PRIVATE_SLUG}.html"' not in incoming, (lang, relative, 'stale English private-guide link')
+        for other in LANGUAGES:
+            assert f'hreflang="{other}" href="https://bytewaveai.com/{other}/blog/{PRIVATE_SLUG}.html"' in guide, (lang, other)
         if lang == 'ar':
+            assert 'dir="rtl"' in guide.split('<head>')[0], 'Arabic private guide'
             assert 'dir="rtl"' in index.split('<head>')[0], 'Arabic blog index'
-    print(f'Validated {len(LANGUAGES)} partial blog indexes and {len(LANGUAGES)*len(SLUGS)} complete articles, links, dates and RTL.')
+    print(f'Validated {len(LANGUAGES)} partial blog indexes and {len(LANGUAGES)*(len(SLUGS)+1)} complete articles, links, dates and RTL.')
 
 
 if __name__ == '__main__':

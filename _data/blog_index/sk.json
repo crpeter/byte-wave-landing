@@ -7,7 +7,8 @@
   "disclosure": "Tento článok obsahuje text vytvorený jazykovým modelom umelej inteligencie (LLM).",
   "tags": {
     "guide": "Návod",
-    "offline-editing-guide": "Návod na úpravy offline"
+    "offline-editing-guide": "Návod na úpravy offline",
+    "privacy": "Súkromie"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Dokázali by ste dokončiť video, keby váš účet zmizol?",
       "summary": "Vyskúšajte ByteWave v režime lietadlo: lokálny klip, úpravy bez prihlásenia a uloženie do Fotiek. Overte, čo funguje bez internetu."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Súkromný videoeditor: úpravy bez nahrávania do cloudu",
+      "summary": "Upravujte videá lokálne s ByteWave na iPhone, iPade a Macu. Bez účtu na úpravy, predplatného či vodoznaku pri exporte. Odpovede o práci offline a nahrávaní."
     }
   }
 }

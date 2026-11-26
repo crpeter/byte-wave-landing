@@ -7,7 +7,8 @@
   "disclosure": "Acest articol include text generat cu un model lingvistic de inteligență artificială (LLM).",
   "tags": {
     "guide": "Ghid",
-    "offline-editing-guide": "Ghid de editare offline"
+    "offline-editing-guide": "Ghid de editare offline",
+    "privacy": "Confidențialitate"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Ai putea termina videoclipul dacă ți-ar dispărea contul?",
       "summary": "Încearcă ByteWave în modul Avion: folosește un clip local, editează fără autentificare și salvează în Poze. Verifică ce funcționează fără internet."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Editor video privat: editează fără încărcări în cloud",
+      "summary": "Editează local cu ByteWave pe iPhone, iPad și Mac. Fără cont pentru editare, abonament sau filigran la export. Răspunsuri despre lucrul offline și încărcări."
     }
   }
 }

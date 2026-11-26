@@ -7,7 +7,8 @@
   "disclosure": "Το άρθρο περιλαμβάνει κείμενο που δημιουργήθηκε με γλωσσικό μοντέλο τεχνητής νοημοσύνης (LLM).",
   "tags": {
     "guide": "Οδηγός",
-    "offline-editing-guide": "Οδηγός επεξεργασίας εκτός σύνδεσης"
+    "offline-editing-guide": "Οδηγός επεξεργασίας εκτός σύνδεσης",
+    "privacy": "Απόρρητο"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Θα ολοκληρώνατε το βίντεό σας αν εξαφανιζόταν ο λογαριασμός σας;",
       "summary": "Δοκιμάστε το ByteWave σε λειτουργία πτήσης: τοπικό κλιπ, επεξεργασία χωρίς είσοδο και αποθήκευση στις Φωτογραφίες. Δείτε τι λειτουργεί χωρίς διαδίκτυο."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Ιδιωτική επεξεργασία βίντεο χωρίς μεταφόρτωση στο cloud",
+      "summary": "Επεξεργαστείτε τοπικά με το ByteWave σε iPhone, iPad και Mac. Χωρίς λογαριασμό επεξεργασίας, συνδρομή ή υδατογράφημα εξαγωγής. Απαντήσεις για χρήση εκτός σύνδεσης και μεταφορτώσεις."
     }
   }
 }

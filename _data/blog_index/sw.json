@@ -7,7 +7,8 @@
   "disclosure": "Makala hii ina maandishi yaliyotengenezwa kwa modeli ya lugha ya AI (LLM).",
   "tags": {
     "guide": "Mwongozo",
-    "offline-editing-guide": "Mwongozo wa kuhariri bila intaneti"
+    "offline-editing-guide": "Mwongozo wa kuhariri bila intaneti",
+    "privacy": "Faragha"
   },
   "card_order": [
     {
@@ -17,6 +18,11 @@
     {
       "href": "/blog/offline-video-editor-airplane-mode-test.html",
       "tag": "offline-editing-guide"
+    },
+    {
+      "href": "/blog/best-video-editor-privacy-no-upload.html",
+      "tag": "privacy",
+      "guide": true
     }
   ],
   "cards": {
@@ -27,6 +33,10 @@
     "/blog/offline-video-editor-airplane-mode-test.html": {
       "title": "Ungeweza kumaliza video yako kama akaunti yako ingetoweka?",
       "summary": "Jaribu ByteWave katika hali ya ndege: tumia klipu ya kifaa, hariri bila kuingia kwenye akaunti na uhifadhi kwenye Picha. Angalia kinachofanya kazi bila intaneti."
+    },
+    "/blog/best-video-editor-privacy-no-upload.html": {
+      "title": "Kihariri cha video kinacholinda faragha: hariri bila kupakia kwenye wingu",
+      "summary": "Hariri ndani ya kifaa kwa ByteWave kwenye iPhone, iPad na Mac. Bila akaunti ya kuhariri, ada ya usajili au alama ya maji kwenye video iliyohamishwa. Maelezo kuhusu matumizi bila intaneti na upakiaji."
     }
   }
 }

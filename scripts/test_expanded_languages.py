@@ -71,8 +71,9 @@ for lang in locales:
         if lang == 'ar': assert 'dir="rtl"' in raw.split('<head>')[0], rendered
         for href in page.links:
             local = urlparse(href).path
-            if local == f'/{lang}/blog/':
-                assert (ROOT / lang / 'blog/index.html').is_file(), (rendered, href)
+            if local in {f'/{lang}/blog/', f'/{lang}/blog/best-video-editor-privacy-no-upload.html'}:
+                target = local.lstrip('/') + ('index.html' if local.endswith('/') else '')
+                assert (ROOT / target).is_file(), (rendered, href)
                 continue
             if local.startswith(f'/{lang}/'):
                 suffix = local.removeprefix(f'/{lang}/')
@@ -82,7 +83,7 @@ for lang in locales:
                 assert f'/{lang}/tutorials/{slug}/' in page.links, (rendered, slug)
             assert f'/{lang}/layout/' in page.links, rendered
         if path == 'index.html':
-            assert '/blog/best-video-editor-privacy-no-upload.html' in page.links, rendered
+            assert f'/{lang}/blog/best-video-editor-privacy-no-upload.html' in page.links, rendered
             assert f'/{lang}/gallery/' in page.links and '/blog/provenance.html#signed-exports' in page.links, rendered
             assert '/assets/landing/golden-sunrise/sunrise-1920.webp' in page.media, rendered
         if path.startswith('tutorials/') and path != 'tutorials/index.html':

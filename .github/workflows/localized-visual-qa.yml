@@ -17,7 +17,8 @@ permissions:
 jobs:
   responsive-browser:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    # Allow two full site builds (~10 minutes each), plus browser setup and QA.
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - name: Render website with the GitHub Pages builder
