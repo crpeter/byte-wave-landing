@@ -12,9 +12,16 @@
     "roundup": "преглед",
     "tutorial": "упатство",
     "privacy-guide": "водич за приватност",
-    "provenance-guide": "Водич за потеклото на содржината"
+    "provenance-guide": "Водич за потеклото на содржината",
+    "platform-control-opinion": "Контрола на платформите и мислење"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Дали отстранувањето метаподатоци ги отстранува и ознаките за ВИ?",
       "summary": "Отстранувањето метаподатоци може да влијае врз вградените C2PA Content Credentials. Разберете ја разликата меѓу метаподатоци, видливи водени жигови и ознаки за ВИ на платформите."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Училиштата рекоа не на ВИ. Google им се закани со губење на пристапот до пребарување.",
+      "summary": "Лос Анџелес привремено ги блокира резимеата со ВИ. Училиштата треба да можат да одбијат генеративна ВИ без да го изгубат Google Search."
     }
   }
 }

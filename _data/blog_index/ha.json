@@ -12,9 +12,16 @@
     "roundup": "bita",
     "tutorial": "koyarwa",
     "privacy-guide": "jagorar keɓantawa",
-    "provenance-guide": "Jagorar asalin abun ciki"
+    "provenance-guide": "Jagorar asalin abun ciki",
+    "platform-control-opinion": "Ikon dandamali da ra’ayi"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Shin cire bayanan metadata yana cire alamomin AI ma?",
       "summary": "Cire metadata na iya shafar Content Credentials na C2PA da aka saka a fayil. Fahimci bambancin metadata na fayil, alamar ruwa mai bayyana da alamomin AI na dandamali."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Makarantu sun ce a’a ga AI. Google ya yi barazanar hana su amfani da bincike.",
+      "summary": "Los Angeles ta toshe taƙaitawar AI na ɗan lokaci. Ya kamata makarantu su iya ƙin AI mai samar da abun ciki ba tare da rasa Google Search ba."
     }
   }
 }

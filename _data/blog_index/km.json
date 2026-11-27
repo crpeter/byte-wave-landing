@@ -12,9 +12,16 @@
     "roundup": "ការប្រៀបធៀប",
     "tutorial": "ការណែនាំ",
     "privacy-guide": "ការណែនាំអំពីឯកជនភាព",
-    "provenance-guide": "មគ្គុទ្ទេសក៍អំពីប្រភពមាតិកា"
+    "provenance-guide": "មគ្គុទ្ទេសក៍អំពីប្រភពមាតិកា",
+    "platform-control-opinion": "ការគ្រប់គ្រងរបស់វេទិកា និងមតិយោបល់"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "តើការលុបទិន្នន័យមេតាក៏លុបស្លាក AI ដែរឬទេ?",
       "summary": "ការលុបទិន្នន័យមេតាអាចប៉ះពាល់ដល់ Content Credentials របស់ C2PA ដែលបង្កប់ក្នុងឯកសារ។ ស្វែងយល់ពីភាពខុសគ្នារវាងទិន្នន័យមេតា ស្នាមទឹកដែលមើលឃើញ និងស្លាក AI របស់វេទិកា។"
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "សាលារៀនបាននិយាយថាទេចំពោះ AI។ Google បានគំរាមកាត់សិទ្ធិស្វែងរករបស់ពួកគេ។",
+      "summary": "ឡូសអេនជឺលេសបិទសេចក្តីសង្ខេប AI ជាបណ្តោះអាសន្ន។ សាលាគួរអាចបដិសេធ AI បង្កើតមាតិកា ដោយមិនបាត់បង់ Google Search។"
     }
   }
 }

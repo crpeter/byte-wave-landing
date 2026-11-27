@@ -12,9 +12,16 @@
     "roundup": "ülevaade",
     "tutorial": "õpetus",
     "privacy-guide": "privaatsusjuhend",
-    "provenance-guide": "Sisu päritolu juhend"
+    "provenance-guide": "Sisu päritolu juhend",
+    "platform-control-opinion": "Platvormide kontroll ja arvamus"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Kas metaandmete eemaldamine eemaldab ka tehisintellekti märgised?",
       "summary": "Metaandmete eemaldamine võib mõjutada manustatud C2PA Content Credentialsi päritolutõendeid. Erista faili metaandmeid, nähtavaid vesimärke ja platvormide tehisintellekti märgiseid."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Koolid ütlesid tehisarule ei. Google ähvardas nende otsingule ligipääsu sulgeda.",
+      "summary": "Los Angeles blokeerib ajutiselt tehisaru ülevaated. Koolid peaksid saama generatiivsest tehisarust keelduda Google’i otsingut kaotamata."
     }
   }
 }

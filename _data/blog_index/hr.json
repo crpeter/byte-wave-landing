@@ -12,9 +12,16 @@
     "roundup": "pregled",
     "tutorial": "vodič",
     "privacy-guide": "vodič za privatnost",
-    "provenance-guide": "Vodič za podrijetlo sadržaja"
+    "provenance-guide": "Vodič za podrijetlo sadržaja",
+    "platform-control-opinion": "Kontrola platformi i mišljenje"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Uklanja li brisanje metapodataka i oznake umjetne inteligencije?",
       "summary": "Uklanjanje metapodataka može utjecati na ugrađene C2PA Content Credentials. Saznajte razliku između metapodataka datoteke, vidljivih vodenih žigova i AI oznaka platformi."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Škole su rekle ne umjetnoj inteligenciji. Google im je zaprijetio ukidanjem pristupa pretraživanju.",
+      "summary": "Los Angeles privremeno blokira AI sažetke. Škole bi trebale moći odbiti generativnu umjetnu inteligenciju bez gubitka Google pretraživanja."
     }
   }
 }

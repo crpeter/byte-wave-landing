@@ -12,9 +12,16 @@
     "roundup": "oversigt",
     "tutorial": "vejledning",
     "privacy-guide": "privatlivsguide",
-    "provenance-guide": "Guide til indholdets oprindelse"
+    "provenance-guide": "Guide til indholdets oprindelse",
+    "platform-control-opinion": "Platformskontrol og holdning"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Fjerner sletning af metadata også AI-mærkninger?",
       "summary": "Fjernelse af metadata kan påvirke indlejrede C2PA Content Credentials. Forstå forskellen på filmetadata, synlige vandmærker og platformenes AI-mærkninger."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Skolerne sagde nej til AI. Google truede deres adgang til søgning.",
+      "summary": "Los Angeles blokerer midlertidigt AI-oversigter. Skoler bør kunne afvise generativ AI uden at miste Google Søgning."
     }
   }
 }

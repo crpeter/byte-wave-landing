@@ -12,9 +12,16 @@
     "roundup": "muhtasari",
     "tutorial": "mafunzo",
     "privacy-guide": "mwongozo wa faragha",
-    "provenance-guide": "Mwongozo wa asili ya maudhui"
+    "provenance-guide": "Mwongozo wa asili ya maudhui",
+    "platform-control-opinion": "Udhibiti wa majukwaa na maoni"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Je, kuondoa metadata huondoa pia lebo za AI?",
       "summary": "Kuondoa metadata kunaweza kuathiri Content Credentials za C2PA zilizopachikwa. Elewa tofauti kati ya metadata ya faili, alama za maji zinazoonekana na lebo za AI za majukwaa."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Shule zilikataa AI. Google ikatishia kuzinyima huduma ya utafutaji.",
+      "summary": "Los Angeles inazuia muhtasari wa AI kwa muda. Shule zinapaswa kuweza kukataa AI zalishi bila kupoteza Google Search."
     }
   }
 }

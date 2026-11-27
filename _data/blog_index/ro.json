@@ -12,9 +12,16 @@
     "roundup": "selecție",
     "tutorial": "tutorial",
     "privacy-guide": "ghid de confidențialitate",
-    "provenance-guide": "Ghid despre proveniență"
+    "provenance-guide": "Ghid despre proveniență",
+    "platform-control-opinion": "Controlul platformelor și opinie"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Eliminarea metadatelor elimină și etichetele AI?",
       "summary": "Eliminarea metadatelor poate afecta Content Credentials C2PA încorporate. Află diferența dintre metadatele fișierului, filigranele vizibile și etichetele AI ale platformelor."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Școlile au spus nu inteligenței artificiale. Google le-a amenințat accesul la căutare.",
+      "summary": "Los Angeles blochează temporar rezumatele AI. Școlile ar trebui să poată refuza AI generativă fără să piardă Căutarea Google."
     }
   }
 }

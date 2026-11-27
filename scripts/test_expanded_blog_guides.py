@@ -11,6 +11,7 @@ SOURCE = Path(__file__).resolve().parents[1]
 SITE = SOURCE / '_site'
 LANGUAGES = json.loads((SOURCE / '_data/expanded_languages.json').read_text())
 SLUGS = (
+    'google-schools-ai-search-access',
     'edit-videos-no-account-iphone',
     'offline-video-editor-airplane-mode-test',
     'best-free-video-editor-no-watermark',
@@ -98,6 +99,11 @@ def main():
                     assert f'{field}: {match[1]}' in source.read_text(), (lang, slug, 'changed source date')
             if lang == 'ar':
                 assert 'dir="rtl"' in raw.split('<head>')[0], slug
+            if slug == 'google-schools-ai-search-access':
+                assert {a['href'] for a in translated.links if a['href'].startswith('https://')} == {
+                    a['href'] for a in english[slug].links if a['href'].startswith('https://')
+                }, (lang, slug, 'changed source citation')
+                assert '/blog/keep-ai-out-of-the-classroom.html' in {a['href'] for a in translated.links}, (lang, 'missing related reading')
             if slug in ('can-photos-videos-reveal-your-address', 'content-credentials-privacy'):
                 assert {a['href'] for a in translated.links if a['href'].startswith('https://')} == {
                     a['href'] for a in english[slug].links if a['href'].startswith('https://')

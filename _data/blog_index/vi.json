@@ -12,9 +12,16 @@
     "roundup": "tổng hợp",
     "tutorial": "hướng dẫn",
     "privacy-guide": "hướng dẫn quyền riêng tư",
-    "provenance-guide": "Hướng dẫn về nguồn gốc nội dung"
+    "provenance-guide": "Hướng dẫn về nguồn gốc nội dung",
+    "platform-control-opinion": "Quyền kiểm soát của nền tảng và quan điểm"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Xóa siêu dữ liệu có xóa cả nhãn AI không?",
       "summary": "Việc xóa siêu dữ liệu có thể ảnh hưởng đến Content Credentials C2PA được nhúng. Tìm hiểu sự khác biệt giữa siêu dữ liệu của tệp, hình mờ nhìn thấy được và nhãn AI của nền tảng."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Các trường nói không với AI. Google đe dọa cắt quyền tìm kiếm của họ.",
+      "summary": "Los Angeles tạm chặn phần tổng quan bằng AI. Trường học phải có quyền từ chối AI tạo sinh mà không mất Google Tìm kiếm."
     }
   }
 }

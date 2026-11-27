@@ -12,9 +12,16 @@
     "roundup": "επισκόπηση",
     "tutorial": "οδηγός",
     "privacy-guide": "οδηγός απορρήτου",
-    "provenance-guide": "Οδηγός προέλευσης περιεχομένου"
+    "provenance-guide": "Οδηγός προέλευσης περιεχομένου",
+    "platform-control-opinion": "Έλεγχος πλατφορμών και άποψη"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Η αφαίρεση μεταδεδομένων αφαιρεί και τις ετικέτες AI;",
       "summary": "Η αφαίρεση μεταδεδομένων μπορεί να επηρεάσει τα ενσωματωμένα Content Credentials του C2PA. Μάθετε τη διαφορά ανάμεσα σε μεταδεδομένα, ορατά υδατογραφήματα και ετικέτες AI των πλατφορμών."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Τα σχολεία είπαν όχι στην ΤΝ. Η Google απείλησε την πρόσβασή τους στην αναζήτηση.",
+      "summary": "Το Λος Άντζελες μπλοκάρει προσωρινά τις συνόψεις ΤΝ. Τα σχολεία πρέπει να μπορούν να αρνούνται την παραγωγική ΤΝ χωρίς να χάνουν την Αναζήτηση Google."
     }
   }
 }

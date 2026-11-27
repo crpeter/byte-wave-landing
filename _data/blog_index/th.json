@@ -12,9 +12,16 @@
     "roundup": "รวมตัวเลือก",
     "tutorial": "บทสอน",
     "privacy-guide": "คู่มือความเป็นส่วนตัว",
-    "provenance-guide": "คู่มือที่มาของเนื้อหา"
+    "provenance-guide": "คู่มือที่มาของเนื้อหา",
+    "platform-control-opinion": "อำนาจควบคุมของแพลตฟอร์มและความคิดเห็น"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "ลบข้อมูลเมตาแล้ว ป้าย AI จะหายไปด้วยไหม?",
       "summary": "การลบข้อมูลเมตาอาจกระทบ Content Credentials แบบ C2PA ที่ฝังอยู่ในไฟล์ ทำความเข้าใจความต่างระหว่างข้อมูลเมตา ลายน้ำที่มองเห็น และป้าย AI ของแพลตฟอร์ม"
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "โรงเรียนปฏิเสธ AI แล้ว Google ก็ขู่จะตัดสิทธิ์การค้นหา",
+      "summary": "ลอสแอนเจลิสปิดภาพรวมโดย AI ชั่วคราว โรงเรียนควรปฏิเสธ AI สร้างเนื้อหาได้โดยไม่เสียสิทธิ์ใช้ Google Search"
     }
   }
 }

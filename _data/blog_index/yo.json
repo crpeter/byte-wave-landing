@@ -12,9 +12,16 @@
     "roundup": "àkójọpọ̀",
     "tutorial": "ìtọ́sọ́nà",
     "privacy-guide": "ìtọ́sọ́nà àṣírí",
-    "provenance-guide": "Ìtọ́sọ́nà nípa orísun àkóónú"
+    "provenance-guide": "Ìtọ́sọ́nà nípa orísun àkóónú",
+    "platform-control-opinion": "Ìṣàkóso àwọn pẹpẹ àti èrò"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Ṣé yíyọ metadata máa ń yọ àmì AI kúrò pẹ̀lú?",
       "summary": "Yíyọ metadata lè kan Content Credentials C2PA tí a fi sínú fáìlì. Mọ ìyàtọ̀ láàárín metadata fáìlì, àmì omi tí a lè rí, àti àmì AI tí pẹpẹ ń fi hàn."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Àwọn ilé ẹ̀kọ́ sọ pé àwọn kò fẹ́ AI. Google sì halẹ̀ láti gé ọ̀nà ìwádìí wọn kúrò.",
+      "summary": "Los Angeles ti dá àkótán AI dúró fún ìgbà díẹ̀. Ilé ẹ̀kọ́ yẹ kí ó lè kọ AI tí ń dá àkóónú sílẹ̀ láì pàdánù Google Search."
     }
   }
 }

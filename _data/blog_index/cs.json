@@ -12,9 +12,16 @@
     "roundup": "přehled",
     "tutorial": "návod",
     "privacy-guide": "průvodce soukromím",
-    "provenance-guide": "Průvodce původem obsahu"
+    "provenance-guide": "Průvodce původem obsahu",
+    "platform-control-opinion": "Kontrola platforem a názor"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Odstraní se s metadaty i označení AI?",
       "summary": "Odstranění metadat může ovlivnit vložené Content Credentials podle C2PA. Poznejte rozdíl mezi metadaty souboru, viditelným vodoznakem a označením AI na platformě."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Školy řekly AI ne. Google jim pohrozil ztrátou přístupu k vyhledávání.",
+      "summary": "Los Angeles dočasně blokuje přehledy od AI. Školy by měly mít možnost odmítnout generativní AI bez ztráty vyhledávání Google."
     }
   }
 }

@@ -12,9 +12,16 @@
     "roundup": "сравнение",
     "tutorial": "урок",
     "privacy-guide": "ръководство за поверителност",
-    "provenance-guide": "Ръководство за произхода"
+    "provenance-guide": "Ръководство за произхода",
+    "platform-control-opinion": "Контрол на платформите и мнение"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Премахването на метаданни премахва ли и етикетите за ИИ?",
       "summary": "Премахването на метаданни може да засегне вградените Content Credentials по C2PA. Разберете разликата между метаданни, видими водни знаци и етикети за ИИ в платформите."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Училищата казаха „не“ на ИИ. Google заплаши достъпа им до търсене.",
+      "summary": "Лос Анджелис временно блокира обобщенията с ИИ. Училищата трябва да могат да отказват генеративен ИИ, без да губят Google Търсене."
     }
   }
 }

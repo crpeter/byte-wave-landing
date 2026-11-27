@@ -12,9 +12,16 @@
     "roundup": "përmbledhje",
     "tutorial": "udhëzues",
     "privacy-guide": "udhëzues privatësie",
-    "provenance-guide": "Udhëzues për prejardhjen e përmbajtjes"
+    "provenance-guide": "Udhëzues për prejardhjen e përmbajtjes",
+    "platform-control-opinion": "Kontrolli i platformave dhe opinion"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "A i heq fshirja e metadatave edhe etiketat e AI-së?",
       "summary": "Heqja e metadatave mund të ndikojë te Content Credentials të C2PA të integruara në skedar. Mësoni dallimin mes metadatave, filigranëve të dukshëm dhe etiketave të AI-së në platforma."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Shkollat i thanë jo AI-së. Google kërcënoi t’u hiqte qasjen në kërkim.",
+      "summary": "Los Angeles bllokon përkohësisht përmbledhjet me AI. Shkollat duhet të mund ta refuzojnë AI-në gjeneruese pa humbur Google Search."
     }
   }
 }

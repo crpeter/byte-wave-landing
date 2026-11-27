@@ -12,9 +12,16 @@
     "roundup": "apžvalga",
     "tutorial": "pamoka",
     "privacy-guide": "privatumo vadovas",
-    "provenance-guide": "Turinio kilmės vadovas"
+    "provenance-guide": "Turinio kilmės vadovas",
+    "platform-control-opinion": "Platformų kontrolė ir nuomonė"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Ar pašalinus metaduomenis išnyksta ir DI žymos?",
       "summary": "Metaduomenų šalinimas gali paveikti įterptus C2PA Content Credentials. Sužinokite, kuo skiriasi failo metaduomenys, matomi vandens ženklai ir platformų DI žymos."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Mokyklos pasakė „ne“ dirbtiniam intelektui. „Google“ pagrasino atimti jų prieigą prie paieškos.",
+      "summary": "Los Andželas laikinai blokuoja DI apžvalgas. Mokyklos turėtų galėti atsisakyti generatyvinio DI neprarasdamos „Google“ paieškos."
     }
   }
 }

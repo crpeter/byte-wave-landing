@@ -12,9 +12,16 @@
     "roundup": "pārskats",
     "tutorial": "pamācība",
     "privacy-guide": "privātuma ceļvedis",
-    "provenance-guide": "Satura izcelsmes ceļvedis"
+    "provenance-guide": "Satura izcelsmes ceļvedis",
+    "platform-control-opinion": "Platformu kontrole un viedoklis"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Vai metadatu noņemšana noņem arī MI marķējumus?",
       "summary": "Metadatu noņemšana var ietekmēt iegultos C2PA Content Credentials. Izprotiet atšķirību starp faila metadatiem, redzamām ūdenszīmēm un platformu MI marķējumiem."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Skolas teica mākslīgajam intelektam nē. Google draudēja liegt tām piekļuvi meklēšanai.",
+      "summary": "Losandželosa īslaicīgi bloķē MI kopsavilkumus. Skolām jāvar atteikties no ģeneratīvā MI, nezaudējot Google meklēšanu."
     }
   }
 }

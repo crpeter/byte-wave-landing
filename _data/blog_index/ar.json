@@ -12,9 +12,16 @@
     "roundup": "مقارنة",
     "tutorial": "دليل تعليمي",
     "privacy-guide": "دليل الخصوصية",
-    "provenance-guide": "دليل إثبات المصدر"
+    "provenance-guide": "دليل إثبات المصدر",
+    "platform-control-opinion": "تحكّم المنصات ورأي"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "هل تؤدي إزالة البيانات الوصفية إلى إزالة تسميات الذكاء الاصطناعي أيضًا؟",
       "summary": "قد تؤثر إزالة البيانات الوصفية في بيانات اعتماد المحتوى C2PA المضمّنة. تعرّف على الفرق بين بيانات الملف الوصفية والعلامات المائية المرئية وتسميات الذكاء الاصطناعي على المنصات."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "قالت المدارس لا للذكاء الاصطناعي. فهددت Google وصولها إلى البحث.",
+      "summary": "تعطّل لوس أنجلوس ملخصات الذكاء الاصطناعي مؤقتًا. يجب أن تتمكن المدارس من رفض الذكاء الاصطناعي التوليدي دون خسارة بحث Google."
     }
   }
 }

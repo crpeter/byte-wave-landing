@@ -12,9 +12,16 @@
     "roundup": "yfirlit",
     "tutorial": "leiðbeiningar",
     "privacy-guide": "persónuverndarleiðbeiningar",
-    "provenance-guide": "Leiðarvísir um uppruna efnis"
+    "provenance-guide": "Leiðarvísir um uppruna efnis",
+    "platform-control-opinion": "Stjórn vettvanga og skoðun"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Fjarlægir eyðing lýsigagna líka gervigreindarmerkingar?",
       "summary": "Eyðing lýsigagna getur haft áhrif á innfelld C2PA Content Credentials. Kynntu þér muninn á lýsigögnum skráa, sýnilegum vatnsmerkjum og gervigreindarmerkingum miðla."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Skólar sögðu nei við gervigreind. Google hótaði að loka á leit þeirra.",
+      "summary": "Los Angeles lokar tímabundið á samantektir gervigreindar. Skólar eiga að geta hafnað skapandi gervigreind án þess að missa Google-leit."
     }
   }
 }

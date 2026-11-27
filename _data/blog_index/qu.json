@@ -12,9 +12,16 @@
     "roundup": "tupanachiy",
     "tutorial": "yachachiy",
     "privacy-guide": "sapanchasqa willakuypaq yachachiy",
-    "provenance-guide": "Maymanta hamusqanmanta yachachiq"
+    "provenance-guide": "Maymanta hamusqanmanta yachachiq",
+    "platform-control-opinion": "Plataformakunapa kamachiynin hinaspa yuyay"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -81,6 +88,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "¿Metadatokunata pichaspa AI etiquetakunatapas pichanchikchu?",
       "summary": "Metadatokunata pichayqa archivopi kachkaq C2PA Content Credentialsta hukmanyachinman. Yachay imaynatachus archivo metadatokuna, rikukuq unu markakuna, plataformapa AI etiquetankunapas hukniray kanku."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Yachaywasikuna AI-ta mana munarqankuchu. Google maskayta qichunankunawan mancharichirqan.",
+      "summary": "Los Angelesqa AI pisiyachisqa willakuykunata wak pachallapaq hark'an. Yachaywasikunaqa Google Searchta mana chinkachispa AI generativota mana chaskiyta atinan."
     }
   }
 }
