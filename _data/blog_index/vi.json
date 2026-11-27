@@ -14,9 +14,16 @@
     "privacy-guide": "hướng dẫn quyền riêng tư",
     "provenance-guide": "Hướng dẫn về nguồn gốc nội dung",
     "ai-media": "AI và truyền thông",
-    "platform-control-opinion": "Quyền kiểm soát của nền tảng và quan điểm"
+    "platform-control-opinion": "Quyền kiểm soát của nền tảng và quan điểm",
+    "opinion": "Quan điểm"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Các trường nói không với AI. Google đe dọa cắt quyền tìm kiếm của họ.",
       "summary": "Los Angeles tạm chặn phần tổng quan bằng AI. Trường học phải có quyền từ chối AI tạo sinh mà không mất Google Tìm kiếm."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Không ai bầu ra vị thần máy móc của các anh.",
+      "summary": "Những phát biểu được đưa tin của Max Tegmark về Anthropic, giới hạn của tham vấn công chúng và vì sao lời hứa an toàn AI không thay thế quyền kiểm soát dân chủ."
     }
   }
 }

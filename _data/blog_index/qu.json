@@ -14,9 +14,16 @@
     "privacy-guide": "sapanchasqa willakuypaq yachachiy",
     "provenance-guide": "Maymanta hamusqanmanta yachachiq",
     "ai-media": "AI hinaspa willakuykuna",
-    "platform-control-opinion": "Plataformakunapa kamachiynin hinaspa yuyay"
+    "platform-control-opinion": "Plataformakunapa kamachiynin hinaspa yuyay",
+    "opinion": "Yuyay"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Yachaywasikuna AI-ta mana munarqankuchu. Google maskayta qichunankunawan mancharichirqan.",
       "summary": "Los Angelesqa AI pisiyachisqa willakuykunata wak pachallapaq hark'an. Yachaywasikunaqa Google Searchta mana chinkachispa AI generativota mana chaskiyta atinan."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Mana pipas makina diosniykichikta akllarqanchu.",
+      "summary": "Max Tegmarkpa Anthropicmanta nisqankuna, llaqtapa rimayninta uyarinapaq saywakuna, hinallataq imarayku AI waqaychaymanta promesakuna demokratiku kamachiyta mana rantiyta atinkuchu."
     }
   }
 }

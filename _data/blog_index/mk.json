@@ -14,9 +14,16 @@
     "privacy-guide": "водич за приватност",
     "provenance-guide": "Водич за потеклото на содржината",
     "ai-media": "ВИ и медиуми",
-    "platform-control-opinion": "Контрола на платформите и мислење"
+    "platform-control-opinion": "Контрола на платформите и мислење",
+    "opinion": "Мислење"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Училиштата рекоа не на ВИ. Google им се закани со губење на пристапот до пребарување.",
       "summary": "Лос Анџелес привремено ги блокира резимеата со ВИ. Училиштата треба да можат да одбијат генеративна ВИ без да го изгубат Google Search."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Никој не го избрал вашиот машински бог.",
+      "summary": "Наводите на Макс Тегмарк за Anthropic, границите на јавните консултации и зошто ветувањата за безбедна ВИ не ја заменуваат демократската контрола."
     }
   }
 }

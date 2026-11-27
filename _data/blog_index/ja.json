@@ -389,6 +389,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "学校はAIにノーと言った。Googleは検索へのアクセス停止を持ち出した。",
       "summary": "ロサンゼルスの学校区がAIによる概要を一時的に無効化。学校はGoogle検索を失うことなく生成AIを断れるべきです。"
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "あなたたちの機械の神を、誰も選んでいない。",
+      "summary": "報道されたマックス・テグマーク氏のAnthropicに関する発言、一般市民への意見聴取の限界、そしてAIの安全性の約束が民主的な統制に代われない理由。"
     }
   }
 }

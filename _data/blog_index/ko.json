@@ -389,6 +389,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "학교는 AI에 반대했다. 구글은 검색 접근을 끊겠다고 위협했다.",
       "summary": "로스앤젤레스가 AI 개요를 일시적으로 차단했습니다. 학교는 구글 검색을 잃지 않고도 생성형 AI를 거부할 수 있어야 합니다."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "당신들의 기계 신을 뽑은 사람은 없다.",
+      "summary": "보도된 맥스 테그마크의 Anthropic 관련 발언, 시민 의견 수렴의 한계, 그리고 AI 안전 약속이 민주적 통제를 대신할 수 없는 이유."
     }
   }
 }

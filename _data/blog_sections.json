@@ -314,6 +314,12 @@
       "image": "/assets/brands/x.svg"
     },
     {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
+    {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
       "brand": "Google",

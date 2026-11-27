@@ -14,9 +14,16 @@
     "privacy-guide": "udhëzues privatësie",
     "provenance-guide": "Udhëzues për prejardhjen e përmbajtjes",
     "ai-media": "AI dhe media",
-    "platform-control-opinion": "Kontrolli i platformave dhe opinion"
+    "platform-control-opinion": "Kontrolli i platformave dhe opinion",
+    "opinion": "Opinion"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Shkollat i thanë jo AI-së. Google kërcënoi t’u hiqte qasjen në kërkim.",
       "summary": "Los Angeles bllokon përkohësisht përmbledhjet me AI. Shkollat duhet të mund ta refuzojnë AI-në gjeneruese pa humbur Google Search."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Askush nuk e zgjodhi zotin tuaj makinë.",
+      "summary": "Pretendimet e raportuara të Max Tegmark për Anthropic, kufijtë e konsultimit publik dhe pse premtimet për sigurinë e IA-së nuk zëvendësojnë kontrollin demokratik."
     }
   }
 }

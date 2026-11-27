@@ -14,9 +14,16 @@
     "privacy-guide": "οδηγός απορρήτου",
     "provenance-guide": "Οδηγός προέλευσης περιεχομένου",
     "ai-media": "AI και μέσα",
-    "platform-control-opinion": "Έλεγχος πλατφορμών και άποψη"
+    "platform-control-opinion": "Έλεγχος πλατφορμών και άποψη",
+    "opinion": "Άποψη"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Τα σχολεία είπαν όχι στην ΤΝ. Η Google απείλησε την πρόσβασή τους στην αναζήτηση.",
       "summary": "Το Λος Άντζελες μπλοκάρει προσωρινά τις συνόψεις ΤΝ. Τα σχολεία πρέπει να μπορούν να αρνούνται την παραγωγική ΤΝ χωρίς να χάνουν την Αναζήτηση Google."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Κανείς δεν εξέλεξε τον μηχανικό θεό σας.",
+      "summary": "Οι αναφερόμενοι ισχυρισμοί του Max Tegmark για την Anthropic, τα όρια της δημόσιας διαβούλευσης και γιατί οι υποσχέσεις ασφάλειας της ΤΝ δεν αντικαθιστούν τον δημοκρατικό έλεγχο."
     }
   }
 }

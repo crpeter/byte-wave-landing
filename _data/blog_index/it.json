@@ -389,6 +389,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Le scuole hanno detto no all’IA. Google ha minacciato il loro accesso alla ricerca.",
       "summary": "Los Angeles blocca temporaneamente i riepiloghi IA. Le scuole dovrebbero poter rifiutare l’IA generativa senza perdere Google Search."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Nessuno ha eletto il vostro dio macchina.",
+      "summary": "Le dichiarazioni attribuite a Max Tegmark su Anthropic, i limiti della consultazione pubblica e perché le promesse di sicurezza dell’IA non sostituiscono il controllo democratico."
     }
   }
 }

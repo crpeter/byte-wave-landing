@@ -389,6 +389,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "學校對 AI 說不。Google 卻威脅切斷搜尋服務。",
       "summary": "洛杉磯學區暫時停用 AI 摘要。學校應能拒絕生成式 AI，同時保有 Google 搜尋。"
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "沒有人選出你們的機器之神。",
+      "summary": "Max Tegmark 對 Anthropic 的說法、徵詢公眾意見的侷限，以及為何 AI 安全承諾無法取代民主監督。"
     }
   }
 }

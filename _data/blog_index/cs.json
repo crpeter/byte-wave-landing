@@ -14,9 +14,16 @@
     "privacy-guide": "průvodce soukromím",
     "provenance-guide": "Průvodce původem obsahu",
     "ai-media": "AI a média",
-    "platform-control-opinion": "Kontrola platforem a názor"
+    "platform-control-opinion": "Kontrola platforem a názor",
+    "opinion": "Názor"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Školy řekly AI ne. Google jim pohrozil ztrátou přístupu k vyhledávání.",
       "summary": "Los Angeles dočasně blokuje přehledy od AI. Školy by měly mít možnost odmítnout generativní AI bez ztráty vyhledávání Google."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Vašeho strojového boha nikdo nezvolil.",
+      "summary": "Tvrzení Maxe Tegmarka o Anthropic, meze veřejných konzultací a proč sliby bezpečné AI nenahrazují demokratickou kontrolu."
     }
   }
 }

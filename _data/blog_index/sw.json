@@ -14,9 +14,16 @@
     "privacy-guide": "mwongozo wa faragha",
     "provenance-guide": "Mwongozo wa asili ya maudhui",
     "ai-media": "AI na vyombo vya habari",
-    "platform-control-opinion": "Udhibiti wa majukwaa na maoni"
+    "platform-control-opinion": "Udhibiti wa majukwaa na maoni",
+    "opinion": "Maoni"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Shule zilikataa AI. Google ikatishia kuzinyima huduma ya utafutaji.",
       "summary": "Los Angeles inazuia muhtasari wa AI kwa muda. Shule zinapaswa kuweza kukataa AI zalishi bila kupoteza Google Search."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Hakuna aliyemchagua mungu wenu wa mashine.",
+      "summary": "Madai yaliyoripotiwa ya Max Tegmark kuhusu Anthropic, mipaka ya mashauriano ya umma, na kwa nini ahadi za usalama wa AI hazichukui nafasi ya udhibiti wa kidemokrasia."
     }
   }
 }

@@ -389,6 +389,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Okullar yapay zekâya hayır dedi. Google, arama erişimlerini kesmekle tehdit etti.",
       "summary": "Los Angeles, yapay zekâ özetlerini geçici olarak engelliyor. Okullar, Google Arama’yı kaybetmeden üretken yapay zekâyı reddedebilmeli."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Makine tanrınızı kimse seçmedi.",
+      "summary": "Max Tegmark’ın Anthropic hakkında haberleştirilen sözleri, kamuoyu katılımının sınırları ve yapay zekâ güvenliği vaatlerinin neden demokratik denetimin yerini tutamayacağı."
     }
   }
 }

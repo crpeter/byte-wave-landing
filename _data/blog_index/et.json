@@ -14,9 +14,16 @@
     "privacy-guide": "privaatsusjuhend",
     "provenance-guide": "Sisu päritolu juhend",
     "ai-media": "Tehisintellekt ja meedia",
-    "platform-control-opinion": "Platvormide kontroll ja arvamus"
+    "platform-control-opinion": "Platvormide kontroll ja arvamus",
+    "opinion": "Arvamus"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Koolid ütlesid tehisarule ei. Google ähvardas nende otsingule ligipääsu sulgeda.",
       "summary": "Los Angeles blokeerib ajutiselt tehisaru ülevaated. Koolid peaksid saama generatiivsest tehisarust keelduda Google’i otsingut kaotamata."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Keegi ei valinud teie masinjumalat.",
+      "summary": "Max Tegmarki vahendatud väited Anthropici kohta, avaliku kaasamise piirid ja miks tehisintellekti ohutuslubadused ei asenda demokraatlikku kontrolli."
     }
   }
 }

@@ -389,6 +389,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Koulut sanoivat tekoälylle ei. Google uhkasi viedä hakupalvelun.",
       "summary": "Los Angeles estää tekoälykoosteet väliaikaisesti. Koulujen pitäisi voida kieltäytyä generatiivisesta tekoälystä menettämättä Google-hakua."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Kukaan ei valinnut konejumalaanne.",
+      "summary": "Max Tegmarkin uutisoidut väitteet Anthropicista, julkisen kuulemisen rajat ja miksi tekoälyn turvallisuuslupaukset eivät korvaa demokraattista valvontaa."
     }
   }
 }

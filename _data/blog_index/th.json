@@ -14,9 +14,16 @@
     "privacy-guide": "คู่มือความเป็นส่วนตัว",
     "provenance-guide": "คู่มือที่มาของเนื้อหา",
     "ai-media": "AI และสื่อ",
-    "platform-control-opinion": "อำนาจควบคุมของแพลตฟอร์มและความคิดเห็น"
+    "platform-control-opinion": "อำนาจควบคุมของแพลตฟอร์มและความคิดเห็น",
+    "opinion": "ความคิดเห็น"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "โรงเรียนปฏิเสธ AI แล้ว Google ก็ขู่จะตัดสิทธิ์การค้นหา",
       "summary": "ลอสแอนเจลิสปิดภาพรวมโดย AI ชั่วคราว โรงเรียนควรปฏิเสธ AI สร้างเนื้อหาได้โดยไม่เสียสิทธิ์ใช้ Google Search"
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "ไม่มีใครเลือกเทพจักรกลของพวกคุณมาปกครอง",
+      "summary": "คำกล่าวของ Max Tegmark เกี่ยวกับ Anthropic ตามรายงานข่าว ขีดจำกัดของการรับฟังสาธารณะ และเหตุใดคำมั่นเรื่องความปลอดภัยของ AI จึงแทนการกำกับดูแลแบบประชาธิปไตยไม่ได้"
     }
   }
 }

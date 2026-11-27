@@ -14,9 +14,16 @@
     "privacy-guide": "دليل الخصوصية",
     "provenance-guide": "دليل إثبات المصدر",
     "ai-media": "وسائط الذكاء الاصطناعي",
-    "platform-control-opinion": "تحكّم المنصات ورأي"
+    "platform-control-opinion": "تحكّم المنصات ورأي",
+    "opinion": "رأي"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "قالت المدارس لا للذكاء الاصطناعي. فهددت Google وصولها إلى البحث.",
       "summary": "تعطّل لوس أنجلوس ملخصات الذكاء الاصطناعي مؤقتًا. يجب أن تتمكن المدارس من رفض الذكاء الاصطناعي التوليدي دون خسارة بحث Google."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "لم ينتخب أحد إلهكم الآلي.",
+      "summary": "تصريحات ماكس تيغمارك المنقولة عن Anthropic، وحدود التشاور العام، ولماذا لا تحل وعود سلامة الذكاء الاصطناعي محل الرقابة الديمقراطية."
     }
   }
 }

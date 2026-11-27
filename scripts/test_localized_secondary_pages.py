@@ -158,7 +158,7 @@ print("Verified 17 press kits, 68 copy blocks, source facts, asset links and loc
 
 catalog = json.loads((SOURCE / "_data/blog_sections.json").read_text())
 entries = [entry for section in catalog.values() for entry in section]
-assert len(entries) == 86 and len(catalog) == 5
+assert len(entries) == 87 and len(catalog) == 5
 assert catalog["platforms-creators"][0]["brand"] == "X / Twitter"
 for lang, slug in {"en": "", **LOCALES}.items():
     rendered = (RENDERED / slug / "blog/index.html").read_text()
@@ -273,6 +273,7 @@ print("Verified both AI-label guides in all 17 languages, including citations, s
 
 # Check the complete article body and resolve each source link across editions.
 article_counts = {
+    "anthropic-tegmark-democratic-control": (5, 18, 3),
     "adobe-firefly-partner-models-creative-control": (4, 8, 2),
     "california-openai-agent-testing-lawsuit": (4, 9, 2),
     "ai-investment-oracle-fed-hedge-fund-risk": (5, 9, 2),

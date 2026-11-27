@@ -14,9 +14,16 @@
     "privacy-guide": "ការណែនាំអំពីឯកជនភាព",
     "provenance-guide": "មគ្គុទ្ទេសក៍អំពីប្រភពមាតិកា",
     "ai-media": "AI និងប្រព័ន្ធផ្សព្វផ្សាយ",
-    "platform-control-opinion": "ការគ្រប់គ្រងរបស់វេទិកា និងមតិយោបល់"
+    "platform-control-opinion": "ការគ្រប់គ្រងរបស់វេទិកា និងមតិយោបល់",
+    "opinion": "មតិ"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "សាលារៀនបាននិយាយថាទេចំពោះ AI។ Google បានគំរាមកាត់សិទ្ធិស្វែងរករបស់ពួកគេ។",
       "summary": "ឡូសអេនជឺលេសបិទសេចក្តីសង្ខេប AI ជាបណ្តោះអាសន្ន។ សាលាគួរអាចបដិសេធ AI បង្កើតមាតិកា ដោយមិនបាត់បង់ Google Search។"
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "គ្មាននរណាបោះឆ្នោតជ្រើសរើសព្រះម៉ាស៊ីនរបស់អ្នកទេ។",
+      "summary": "ការអះអាងរបស់ Max Tegmark អំពី Anthropic តាមសារព័ត៌មាន ដែនកំណត់នៃការពិគ្រោះជាមួយសាធារណជន និងមូលហេតុដែលសន្យាសុវត្ថិភាព AI មិនអាចជំនួសការត្រួតពិនិត្យតាមបែបប្រជាធិបតេយ្យ។"
     }
   }
 }

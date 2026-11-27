@@ -389,6 +389,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Schulen sagten Nein zu KI. Google drohte mit dem Entzug der Suche.",
       "summary": "Los Angeles blockiert vorübergehend KI-Zusammenfassungen. Schulen sollten generative KI ablehnen können, ohne die Google-Suche zu verlieren."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Niemand hat euren Maschinengott gewählt.",
+      "summary": "Max Tegmarks berichtete Aussagen über Anthropic, die Grenzen öffentlicher Beteiligung und warum KI-Sicherheitsversprechen demokratische Kontrolle nicht ersetzen können."
     }
   }
 }

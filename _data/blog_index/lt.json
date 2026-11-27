@@ -14,9 +14,16 @@
     "privacy-guide": "privatumo vadovas",
     "provenance-guide": "Turinio kilmės vadovas",
     "ai-media": "DI ir medijos",
-    "platform-control-opinion": "Platformų kontrolė ir nuomonė"
+    "platform-control-opinion": "Platformų kontrolė ir nuomonė",
+    "opinion": "Nuomonė"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Mokyklos pasakė „ne“ dirbtiniam intelektui. „Google“ pagrasino atimti jų prieigą prie paieškos.",
       "summary": "Los Andželas laikinai blokuoja DI apžvalgas. Mokyklos turėtų galėti atsisakyti generatyvinio DI neprarasdamos „Google“ paieškos."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Jūsų mašinų dievo niekas neišrinko.",
+      "summary": "Pranešti Maxo Tegmarko teiginiai apie Anthropic, viešų konsultacijų ribos ir kodėl DI saugumo pažadai nepakeičia demokratinės kontrolės."
     }
   }
 }

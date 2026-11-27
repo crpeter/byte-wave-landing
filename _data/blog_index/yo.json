@@ -14,9 +14,16 @@
     "privacy-guide": "ìtọ́sọ́nà àṣírí",
     "provenance-guide": "Ìtọ́sọ́nà nípa orísun àkóónú",
     "ai-media": "AI àti àwọn ilé iṣẹ́ ìròyìn",
-    "platform-control-opinion": "Ìṣàkóso àwọn pẹpẹ àti èrò"
+    "platform-control-opinion": "Ìṣàkóso àwọn pẹpẹ àti èrò",
+    "opinion": "Èrò"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Àwọn ilé ẹ̀kọ́ sọ pé àwọn kò fẹ́ AI. Google sì halẹ̀ láti gé ọ̀nà ìwádìí wọn kúrò.",
       "summary": "Los Angeles ti dá àkótán AI dúró fún ìgbà díẹ̀. Ilé ẹ̀kọ́ yẹ kí ó lè kọ AI tí ń dá àkóónú sílẹ̀ láì pàdánù Google Search."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Kò sí ẹni tó yan ọlọ́run ẹ̀rọ yín.",
+      "summary": "Àwọn ẹ̀sùn Max Tegmark nípa Anthropic tí ìròyìn gbé jáde, ààlà ìgbìmọ̀ pẹ̀lú aráàlú, àti ìdí tí ìlérí ààbò AI kò fi lè rọ́pò àkóso tiwántíwá."
     }
   }
 }

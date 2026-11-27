@@ -14,9 +14,16 @@
     "privacy-guide": "vodič za zasebnost",
     "provenance-guide": "Vodnik po izvoru vsebine",
     "ai-media": "UI in mediji",
-    "platform-control-opinion": "Nadzor platform in mnenje"
+    "platform-control-opinion": "Nadzor platform in mnenje",
+    "opinion": "Mnenje"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Šole so rekle ne umetni inteligenci. Google jim je zagrozil z odvzemom dostopa do iskanja.",
       "summary": "Los Angeles začasno blokira povzetke UI. Šole bi morale smeti zavrniti generativno UI, ne da bi izgubile Iskanje Google."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Nihče ni izvolil vašega strojnega boga.",
+      "summary": "Navedbe Maxa Tegmarka o Anthropicu, meje javnega posvetovanja in zakaj obljube o varnosti umetne inteligence ne nadomestijo demokratičnega nadzora."
     }
   }
 }

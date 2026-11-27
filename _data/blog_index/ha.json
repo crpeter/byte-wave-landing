@@ -14,9 +14,16 @@
     "privacy-guide": "jagorar keɓantawa",
     "provenance-guide": "Jagorar asalin abun ciki",
     "ai-media": "AI da kafofin watsa labarai",
-    "platform-control-opinion": "Ikon dandamali da ra’ayi"
+    "platform-control-opinion": "Ikon dandamali da ra’ayi",
+    "opinion": "Ra’ayi"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Makarantu sun ce a’a ga AI. Google ya yi barazanar hana su amfani da bincike.",
       "summary": "Los Angeles ta toshe taƙaitawar AI na ɗan lokaci. Ya kamata makarantu su iya ƙin AI mai samar da abun ciki ba tare da rasa Google Search ba."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Babu wanda ya zaɓi allahn na’urarku.",
+      "summary": "Zargin Max Tegmark game da Anthropic da aka ruwaito, iyakokin neman ra’ayin jama’a, da dalilin da alkawarin tsaron AI ba ya maye gurbin ikon dimokuraɗiyya."
     }
   }
 }

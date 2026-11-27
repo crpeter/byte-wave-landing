@@ -14,9 +14,16 @@
     "privacy-guide": "privātuma ceļvedis",
     "provenance-guide": "Satura izcelsmes ceļvedis",
     "ai-media": "MI un mediji",
-    "platform-control-opinion": "Platformu kontrole un viedoklis"
+    "platform-control-opinion": "Platformu kontrole un viedoklis",
+    "opinion": "Viedoklis"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Skolas teica mākslīgajam intelektam nē. Google draudēja liegt tām piekļuvi meklēšanai.",
       "summary": "Losandželosa īslaicīgi bloķē MI kopsavilkumus. Skolām jāvar atteikties no ģeneratīvā MI, nezaudējot Google meklēšanu."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Neviens nav ievēlējis jūsu mašīnu dievu.",
+      "summary": "Maksa Tegmarka izteikumi par Anthropic, sabiedriskās apspriešanas robežas un kāpēc MI drošības solījumi neaizstāj demokrātisku kontroli."
     }
   }
 }

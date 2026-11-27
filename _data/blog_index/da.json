@@ -14,9 +14,16 @@
     "privacy-guide": "privatlivsguide",
     "provenance-guide": "Guide til indholdets oprindelse",
     "ai-media": "AI og medier",
-    "platform-control-opinion": "Platformskontrol og holdning"
+    "platform-control-opinion": "Platformskontrol og holdning",
+    "opinion": "Holdning"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Skolerne sagde nej til AI. Google truede deres adgang til søgning.",
       "summary": "Los Angeles blokerer midlertidigt AI-oversigter. Skoler bør kunne afvise generativ AI uden at miste Google Søgning."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Ingen har valgt jeres maskingud.",
+      "summary": "Max Tegmarks omtalte udsagn om Anthropic, grænserne for offentlig inddragelse og hvorfor løfter om AI-sikkerhed ikke erstatter demokratisk kontrol."
     }
   }
 }

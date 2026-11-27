@@ -14,9 +14,16 @@
     "privacy-guide": "ръководство за поверителност",
     "provenance-guide": "Ръководство за произхода",
     "ai-media": "ИИ и медии",
-    "platform-control-opinion": "Контрол на платформите и мнение"
+    "platform-control-opinion": "Контрол на платформите и мнение",
+    "opinion": "Мнение"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Училищата казаха „не“ на ИИ. Google заплаши достъпа им до търсене.",
       "summary": "Лос Анджелис временно блокира обобщенията с ИИ. Училищата трябва да могат да отказват генеративен ИИ, без да губят Google Търсене."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Никой не е избирал вашия машинен бог.",
+      "summary": "Твърденията на Макс Тегмарк за Anthropic, границите на обществените консултации и защо обещанията за безопасен ИИ не заменят демократичния контрол."
     }
   }
 }

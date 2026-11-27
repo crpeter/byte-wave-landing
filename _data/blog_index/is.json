@@ -14,9 +14,16 @@
     "privacy-guide": "persónuverndarleiðbeiningar",
     "provenance-guide": "Leiðarvísir um uppruna efnis",
     "ai-media": "Gervigreind og miðlar",
-    "platform-control-opinion": "Stjórn vettvanga og skoðun"
+    "platform-control-opinion": "Stjórn vettvanga og skoðun",
+    "opinion": "Skoðun"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/google-schools-ai-search-access.html",
       "tag": "platform-control-opinion",
@@ -101,6 +108,10 @@
     "/blog/google-schools-ai-search-access.html": {
       "title": "Skólar sögðu nei við gervigreind. Google hótaði að loka á leit þeirra.",
       "summary": "Los Angeles lokar tímabundið á samantektir gervigreindar. Skólar eiga að geta hafnað skapandi gervigreind án þess að missa Google-leit."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Enginn kaus vélguðinn ykkar.",
+      "summary": "Ummæli Max Tegmark um Anthropic samkvæmt fréttum, takmörk samráðs og hvers vegna loforð um örugga gervigreind koma ekki í stað lýðræðislegs aðhalds."
     }
   }
 }
