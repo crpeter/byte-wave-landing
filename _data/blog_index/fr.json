@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Qui paie si le boom de l’IA ne rapporte pas ?",
       "summary": "Financement d’Oracle, inquiétudes de la Fed et pertes des fonds : ce que les rapports révèlent des risques financiers de l’expansion de l’IA."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Personne n’a élu votre dieu machine.",
+      "summary": "Les propos de Max Tegmark sur Anthropic rapportés par la presse, les limites de la consultation publique et pourquoi les promesses de sécurité de l’IA ne remplacent pas le contrôle démocratique."
     }
   }
 }

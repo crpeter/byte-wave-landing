@@ -405,6 +405,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Who Pays If the AI Boom Doesn’t Pay?",
       "summary": "Oracle’s fundraising, the Fed’s AI-debt concerns and hedge-fund losses reveal the financial risks behind the AI buildout. What the reports establish."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Nobody Elected Your Machine God.",
+      "summary": "Max Tegmark’s reported remarks about Anthropic, the limits of public consultation, and why AI safety promises cannot replace democratic control."
     }
   }
 }

@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "¿Quién paga si el auge de la IA no resulta rentable?",
       "summary": "La financiación de Oracle, las preocupaciones de la Fed y las pérdidas de fondos muestran los riesgos financieros de la expansión de la IA."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Nadie eligió a tu dios de las máquinas.",
+      "summary": "Las declaraciones atribuidas a Max Tegmark sobre Anthropic, los límites de la consulta pública y por qué las promesas de seguridad de la IA no sustituyen al control democrático."
     }
   }
 }

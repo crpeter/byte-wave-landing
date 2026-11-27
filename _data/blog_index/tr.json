@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Yapay zekâ patlaması kazandırmazsa bedeli kim öder?",
       "summary": "Oracle’ın finansmanı, Fed’in yapay zekâ borcu kaygıları ve fon kayıpları, yapay zekâ yatırımlarının mali risklerini gösteriyor."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Makine tanrınızı kimse seçmedi.",
+      "summary": "Max Tegmark’ın Anthropic hakkında haberleştirilen sözleri, kamuoyu katılımının sınırları ve yapay zekâ güvenliği vaatlerinin neden demokratik denetimin yerini tutamayacağı."
     }
   }
 }

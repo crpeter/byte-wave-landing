@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "AI 붐이 돈을 벌지 못하면 누가 내나요?",
       "summary": "Oracle의 자금 조달, 연준의 AI 부채 우려, 헤지펀드 손실이 보여 주는 AI 확장의 재무 위험과 보도의 한계."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "당신들의 기계 신을 뽑은 사람은 없다.",
+      "summary": "보도된 맥스 테그마크의 Anthropic 관련 발언, 시민 의견 수렴의 한계, 그리고 AI 안전 약속이 민주적 통제를 대신할 수 없는 이유."
     }
   }
 }

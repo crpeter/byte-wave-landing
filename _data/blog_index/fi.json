@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Kuka maksaa, jos tekoälybuumi ei kannata?",
       "summary": "Oraclen rahoitus, Fedin tekoälyvelkahuolet ja hedge-rahastojen tappiot kertovat tekoälyrakentamisen taloudellisista riskeistä."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Kukaan ei valinnut konejumalaanne.",
+      "summary": "Max Tegmarkin uutisoidut väitteet Anthropicista, julkisen kuulemisen rajat ja miksi tekoälyn turvallisuuslupaukset eivät korvaa demokraattista valvontaa."
     }
   }
 }
