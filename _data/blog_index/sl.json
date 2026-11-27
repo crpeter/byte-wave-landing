@@ -12,7 +12,8 @@
     "roundup": "pregled",
     "tutorial": "vodič",
     "privacy-guide": "vodič za zasebnost",
-    "provenance-guide": "Vodnik po izvoru vsebine"
+    "provenance-guide": "Vodnik po izvoru vsebine",
+    "ai-media": "UI in mediji"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Ali odstranitev metapodatkov odstrani tudi oznake UI?",
       "summary": "Odstranjevanje metapodatkov lahko vpliva na vdelane C2PA Content Credentials. Spoznajte razliko med metapodatki datoteke, vidnimi vodnimi žigi in oznakami UI na platformah."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Brez oznake UI ne pomeni, da je video resničen.",
+      "summary": "Facebook je pustil globoki ponaredek na spletu brez oznake UI. Spoznajte, zakaj manjkajoče oznake in Content Credentials ne dokazujejo, da je video resničen."
     }
   }
 }

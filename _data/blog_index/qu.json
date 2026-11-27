@@ -12,7 +12,8 @@
     "roundup": "tupanachiy",
     "tutorial": "yachachiy",
     "privacy-guide": "sapanchasqa willakuypaq yachachiy",
-    "provenance-guide": "Maymanta hamusqanmanta yachachiq"
+    "provenance-guide": "Maymanta hamusqanmanta yachachiq",
+    "ai-media": "AI hinaspa willakuykuna"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "¿Metadatokunata pichaspa AI etiquetakunatapas pichanchikchu?",
       "summary": "Metadatokunata pichayqa archivopi kachkaq C2PA Content Credentialsta hukmanyachinman. Yachay imaynatachus archivo metadatokuna, rikukuq unu markakuna, plataformapa AI etiquetankunapas hukniray kanku."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "AI etiqueta mana kaptinpas, videoqa manam chiqaq kananpaqchu.",
+      "summary": "Facebook huk deepfake videota internetpi saqirqan, AI etiquetayuq mana kaspa. Yachay imaraykuchus etiqueta utaq Content Credentials mana kasqanqa videopa chiqaq kasqanta mana rikuchinchu."
     }
   }
 }

@@ -18,6 +18,7 @@ SLUGS = (
     'can-photos-videos-reveal-your-address',
     'content-credentials-privacy',
     'does-removing-metadata-remove-ai-labels',
+    'no-ai-label-does-not-mean-real',
 )
 PRIVATE_SLUG = 'best-video-editor-privacy-no-upload'
 
@@ -121,10 +122,20 @@ def main():
                 article_links = {a.get('href') for a in article.links}
                 for target in ('tutorials/remove-location-metadata/', 'tutorials/check-c2pa-content-credentials/', 'blog/can-photos-videos-reveal-your-address.html'):
                     assert f'/{lang}/{target}' in article_links, (lang, slug, 'English related destination', target)
-                assert '/blog/no-ai-label-does-not-mean-real.html' in article_links, (lang, 'missing evidence caution')
+                assert f'/{lang}/blog/no-ai-label-does-not-mean-real.html' in article_links, (lang, 'missing localized evidence caution')
+                assert '/blog/no-ai-label-does-not-mean-real.html' not in article_links, (lang, 'stale English evidence caution')
                 incoming = (SITE / lang / 'tutorials/remove-location-metadata/index.html').read_text()
                 assert f'href="/{lang}/blog/{slug}.html"' in incoming, (lang, 'missing localized metadata tutorial link')
                 assert f'href="/blog/{slug}.html"' not in incoming, (lang, 'stale English metadata tutorial link')
+            if slug == 'no-ai-label-does-not-mean-real':
+                assert {a['href'] for a in translated.links if a['href'].startswith('https://')} == {
+                    a['href'] for a in english[slug].links if a['href'].startswith('https://')
+                }, (lang, slug, 'changed source citation')
+                assert '33%' in re.sub(r'\s+', '', ''.join(translated.text)), (lang, 'changed selected-sample result')
+                article_links = {a.get('href') for a in article.links}
+                assert f'/{lang}/tutorials/check-c2pa-content-credentials/' in article_links, (lang, 'English C2PA tutorial')
+                assert f'/{lang}/blog/does-removing-metadata-remove-ai-labels.html' in article_links, (lang, 'English metadata guide')
+                assert '/blog/check-ai-video-without-uploading.html' in article_links, (lang, 'missing related-reading fallback')
             if slug == 'slow-motion-video-iphone-free':
                 assert len(re.findall(r'<div class="step">', body(source))) == 5, (lang, 'missing slow-motion step')
                 assert translated.counts['div'] == english[slug].counts['div'], (lang, 'incomplete step/callout structure')

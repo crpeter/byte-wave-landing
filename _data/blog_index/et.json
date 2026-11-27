@@ -12,7 +12,8 @@
     "roundup": "ülevaade",
     "tutorial": "õpetus",
     "privacy-guide": "privaatsusjuhend",
-    "provenance-guide": "Sisu päritolu juhend"
+    "provenance-guide": "Sisu päritolu juhend",
+    "ai-media": "Tehisintellekt ja meedia"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Kas metaandmete eemaldamine eemaldab ka tehisintellekti märgised?",
       "summary": "Metaandmete eemaldamine võib mõjutada manustatud C2PA Content Credentialsi päritolutõendeid. Erista faili metaandmeid, nähtavaid vesimärke ja platvormide tehisintellekti märgiseid."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Tehisintellekti märgise puudumine ei tähenda, et video on päris.",
+      "summary": "Facebook jättis süvavõltsingu veebi ilma tehisintellekti märgiseta. Loe, miks puuduvad märgised ja Content Credentialsi päritolutõendid ei tõesta video ehtsust."
     }
   }
 }

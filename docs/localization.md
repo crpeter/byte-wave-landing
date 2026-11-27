@@ -14,11 +14,12 @@ strings; existing locales retain their YAML files.
 Gallery, About, Press, Privacy Policy, and Free Expression / Appeals also cover
 all 40 locale variants. The 23 additional locales include the full source text,
 metadata, gallery descriptions, press copy controls, and policy/appeal details.
-Each additional language has a partial blog index with eight complete guides:
+Each additional language has a partial blog index with nine complete guides:
 editing without an account, the airplane-mode editing test, private editing without
 cloud uploads, free video editors without watermarks, free slow-motion editing
 on iPhone, location clues in photos and videos, Content Credentials privacy,
-and the effect of metadata removal on AI labels.
+the effect of metadata removal on AI labels, and why a missing AI label does not
+prove a video is real.
 The indexes retain an explicit link to the full English archive.
 Links to available translations stay in the selected language; links to untranslated articles use labelled English
 destinations. Language menus and hreflang alternates list only real translations
@@ -54,7 +55,7 @@ checks do not certify linguistic or legal equivalence. Source policy and press
 fact dates are retained; page modification dates record the translation update.
 
 Run `python3 scripts/test_expanded_blog_guides.py` after building to check the
-23 partial blog indexes and 184 translated articles. It checks source-complete
+23 partial blog indexes and 207 translated articles. It checks source-complete
 article structure, preserved source dates and product links, same-language
 navigation and related reading, labelled English fallbacks, reciprocal language
 alternates, and Arabic RTL. Slow-motion checks also retain all five steps, frame-rate
@@ -65,6 +66,9 @@ The AI-label guide retains the source citations and study result, distinguishes
 embedded credentials from visible watermarks and platform labels, and preserves
 the preprint's unreviewed status and limits on generalizing its findings. Both
 privacy guides and the metadata tutorial link to the translated AI-label guide.
+The missing-label guide preserves the Oversight Board case, C2PA limitations,
+and the preprint's 33% result for its selected sample, without generalizing it
+to all social media. It and the metadata guide link to each other's translations.
 The localized secondary-page suite also runs it.
 Editorial source and update dates are retained rather than changed to the
 translation date; commercial-interest and AI-assistance disclosures remain visible.

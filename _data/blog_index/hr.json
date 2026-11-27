@@ -12,7 +12,8 @@
     "roundup": "pregled",
     "tutorial": "vodič",
     "privacy-guide": "vodič za privatnost",
-    "provenance-guide": "Vodič za podrijetlo sadržaja"
+    "provenance-guide": "Vodič za podrijetlo sadržaja",
+    "ai-media": "AI i mediji"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Uklanja li brisanje metapodataka i oznake umjetne inteligencije?",
       "summary": "Uklanjanje metapodataka može utjecati na ugrađene C2PA Content Credentials. Saznajte razliku između metapodataka datoteke, vidljivih vodenih žigova i AI oznaka platformi."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Bez AI oznake ne znači da je video stvaran.",
+      "summary": "Facebook je ostavio deepfake na internetu bez AI oznake. Saznajte zašto nedostatak oznaka i Content Credentials ne može dokazati da je video stvaran."
     }
   }
 }
