@@ -10,7 +10,8 @@
     "offline-editing-guide": "คู่มือตัดต่อแบบออฟไลน์",
     "privacy": "ความเป็นส่วนตัว",
     "roundup": "รวมตัวเลือก",
-    "tutorial": "บทสอน"
+    "tutorial": "บทสอน",
+    "privacy-guide": "คู่มือความเป็นส่วนตัว"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "วิธีทำวิดีโอสโลว์โมชันบน iPhone ฟรีโดยไม่มีลายน้ำ",
       "summary": "คู่มือทีละขั้นตอนสำหรับสร้างวิดีโอสโลว์โมชันที่ลื่นไหลบน iPhone ฟรี เพิ่มความลื่นไหลของสโลว์โมชันด้วย FRC"
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "คนอื่นหาที่อยู่ของคุณจากรูปหรือวิดีโอได้ไหม?",
+      "summary": "รูปหรือวิดีโออาจเปิดเผยตำแหน่งผ่านข้อมูลเมตา รายละเอียดที่มองเห็น หรือเสียง ตรวจทั้งสามอย่างก่อนแชร์ แล้วตรวจไฟล์สุดท้ายอีกครั้ง"
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "ความเป็นส่วนตัวของ Content Credentials: รูปของคุณแชร์อะไรบ้าง",
+      "summary": "Content Credentials อาจมีตัวตน บัญชีโซเชียล ประวัติการแก้ไข และภาพย่อของต้นทาง ดูสิ่งที่แนบไว้ก่อนแชร์รูป"
     }
   }
 }

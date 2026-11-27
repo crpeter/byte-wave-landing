@@ -10,7 +10,8 @@
     "offline-editing-guide": "Mwongozo wa kuhariri bila intaneti",
     "privacy": "Faragha",
     "roundup": "muhtasari",
-    "tutorial": "mafunzo"
+    "tutorial": "mafunzo",
+    "privacy-guide": "mwongozo wa faragha"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Jinsi ya kutengeneza video za mwendo wa polepole kwenye iPhone bure bila alama ya maji",
       "summary": "Mwongozo wa hatua kwa hatua wa video laini za mwendo wa polepole kwenye iPhone bure. Boresha ulaini wa mwendo kwa FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Je, mtu anaweza kupata anwani yako kupitia picha au video?",
+      "summary": "Picha au video inaweza kuonyesha eneo lako kupitia metadata, maelezo yanayoonekana au sauti. Kagua yote matatu kabla ya kushiriki, kisha faili la mwisho."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Faragha ya Content Credentials: picha yako inashiriki nini",
+      "summary": "Content Credentials zinaweza kujumuisha utambulisho, akaunti za kijamii, historia ya uhariri na vijipicha vya vyanzo. Hakiki unachoambatisha kabla ya kushiriki picha."
     }
   }
 }

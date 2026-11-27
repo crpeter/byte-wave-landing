@@ -10,7 +10,8 @@
     "offline-editing-guide": "Bezsaistes rediģēšanas pamācība",
     "privacy": "Privātums",
     "roundup": "pārskats",
-    "tutorial": "pamācība"
+    "tutorial": "pamācība",
+    "privacy-guide": "privātuma ceļvedis"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Kā bez maksas veidot palēninātus video iPhone bez ūdenszīmes",
       "summary": "Soli pa solim par plūstošu palēninātu video veidošanu iPhone bez maksas. Padariet palēnināto kustību vienmērīgāku ar FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Vai kāds var atrast jūsu adresi pēc fotoattēla vai video?",
+      "summary": "Fotoattēls vai video var atklāt atrašanās vietu ar metadatiem, redzamām detaļām vai skaņu. Pirms kopīgošanas pārbaudiet visas trīs un gala failu."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Content Credentials privātums: ko kopīgo jūsu fotoattēls",
+      "summary": "Content Credentials var ietvert identitāti, sociālos kontus, rediģēšanas vēsturi un avotu sīktēlus. Pirms fotoattēla kopīgošanas apskatiet pievienotos datus."
     }
   }
 }

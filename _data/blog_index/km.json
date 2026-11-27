@@ -10,7 +10,8 @@
     "offline-editing-guide": "មគ្គុទ្ទេសក៍កាត់តដោយគ្មានអ៊ីនធឺណិត",
     "privacy": "ឯកជនភាព",
     "roundup": "ការប្រៀបធៀប",
-    "tutorial": "ការណែនាំ"
+    "tutorial": "ការណែនាំ",
+    "privacy-guide": "ការណែនាំអំពីឯកជនភាព"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "របៀបបង្កើតវីដេអូចលនាយឺតលើ iPhone ឥតគិតថ្លៃ ដោយគ្មានសញ្ញាសម្គាល់",
       "summary": "ការណែនាំជាជំហានៗសម្រាប់បង្កើតវីដេអូចលនាយឺតរលូនលើ iPhone ឥតគិតថ្លៃ។ ធ្វើឱ្យចលនាយឺតរលូនជាងមុនដោយប្រើ FRC។"
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "តើអ្នកផ្សេងអាចរកអាសយដ្ឋានរបស់អ្នកពីរូបថត ឬវីដេអូបានទេ?",
+      "summary": "រូបថត ឬវីដេអូអាចបង្ហាញទីតាំងតាមទិន្នន័យមេតា ព័ត៌មានដែលមើលឃើញ ឬសំឡេង។ ពិនិត្យទាំងបីមុនចែករំលែក ហើយពិនិត្យឯកសារចុងក្រោយ។"
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "ឯកជនភាព Content Credentials៖ អ្វីដែលរូបថតរបស់អ្នកចែករំលែក",
+      "summary": "Content Credentials អាចមានអត្តសញ្ញាណ គណនីសង្គម ប្រវត្តិកែប្រែ និងរូបតូចៗនៃប្រភព។ ពិនិត្យអ្វីដែលអ្នកភ្ជាប់មុនចែករំលែករូបថត។"
     }
   }
 }

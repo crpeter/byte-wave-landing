@@ -10,7 +10,8 @@
     "offline-editing-guide": "Ghid de editare offline",
     "privacy": "Confidențialitate",
     "roundup": "selecție",
-    "tutorial": "tutorial"
+    "tutorial": "tutorial",
+    "privacy-guide": "ghid de confidențialitate"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Cum faci gratuit videoclipuri cu încetinitorul pe iPhone, fără filigran",
       "summary": "Ghid pas cu pas pentru videoclipuri fluide cu încetinitorul pe iPhone, gratuit. Fă mișcarea lentă mai fluidă cu FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Poate cineva să-ți afle adresa dintr-o fotografie sau un videoclip?",
+      "summary": "O fotografie sau un videoclip poate dezvălui locația prin metadate, detalii vizibile ori sunet. Verifică toate trei înainte de distribuire, apoi fișierul final."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Confidențialitatea Content Credentials: ce distribuie fotografia ta",
+      "summary": "Content Credentials pot include identitatea, conturile sociale, istoricul editării și miniaturi ale surselor. Verifică ce atașezi înainte de a distribui o fotografie."
     }
   }
 }

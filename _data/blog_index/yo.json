@@ -10,7 +10,8 @@
     "offline-editing-guide": "Ìtọ́sọ́nà àtúnṣe láìsí intanẹẹti",
     "privacy": "Àṣírí",
     "roundup": "àkójọpọ̀",
-    "tutorial": "ìtọ́sọ́nà"
+    "tutorial": "ìtọ́sọ́nà",
+    "privacy-guide": "ìtọ́sọ́nà àṣírí"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Bí a ṣe ń ṣe fídíò ìṣípò díẹ̀díẹ̀ lórí iPhone ọ̀fẹ́ láìsí àmì omi",
       "summary": "Ìtọ́sọ́nà ní ìgbésẹ̀ fún fídíò ìṣípò díẹ̀díẹ̀ tó rọrùn lórí iPhone ọ̀fẹ́. Lo FRC láti mú kí ìṣípò díẹ̀díẹ̀ rọrùn síi."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Ṣé ẹnikan lè rí àdírẹ́sì rẹ láti inú fọ́tò tàbí fídíò?",
+      "summary": "Fọ́tò tàbí fídíò lè fi ibi tí o wà hàn nípasẹ̀ metadata, ohun tí a rí tàbí ohùn. Ṣàyẹ̀wò mẹ́tẹ̀ẹ̀ta ṣáájú pípín, kí o sì wo fáìlì ìkẹyìn."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Àṣírí Content Credentials: ohun tí fọ́tò rẹ ń pín",
+      "summary": "Content Credentials lè ní ìdánimọ̀, àkọọ́lẹ̀ àwùjọ, ìtàn àtúnṣe àti àwòrán kéékèèké ti orísun. Wo ohun tí o ń so mọ́ ọn kí o tó pín fọ́tò."
     }
   }
 }

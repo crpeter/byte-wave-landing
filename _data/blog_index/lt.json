@@ -10,7 +10,8 @@
     "offline-editing-guide": "Redagavimo be interneto vadovas",
     "privacy": "Privatumas",
     "roundup": "apžvalga",
-    "tutorial": "pamoka"
+    "tutorial": "pamoka",
+    "privacy-guide": "privatumo vadovas"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Kaip nemokamai kurti sulėtintus vaizdo įrašus iPhone be vandens ženklo",
       "summary": "Nuoseklus vadovas, kaip nemokamai kurti sklandžius sulėtintus vaizdo įrašus iPhone. Padarykite sulėtintą vaizdą sklandesnį su FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Ar kas nors gali sužinoti jūsų adresą iš nuotraukos ar vaizdo įrašo?",
+      "summary": "Nuotrauka ar vaizdo įrašas gali atskleisti vietą per metaduomenis, matomas detales ar garsą. Prieš dalydamiesi patikrinkite visus tris ir galutinį failą."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Content Credentials privatumas: kuo dalijasi jūsų nuotrauka",
+      "summary": "Content Credentials gali apimti tapatybę, socialines paskyras, redagavimo istoriją ir šaltinių miniatiūras. Prieš dalydamiesi nuotrauka peržiūrėkite pridedamus duomenis."
     }
   }
 }

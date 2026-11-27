@@ -10,7 +10,8 @@
     "offline-editing-guide": "Vodič za urejanje brez povezave",
     "privacy": "Zasebnost",
     "roundup": "pregled",
-    "tutorial": "vodič"
+    "tutorial": "vodič",
+    "privacy-guide": "vodič za zasebnost"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Kako brezplačno ustvariti počasne posnetke na iPhonu brez vodnega žiga",
       "summary": "Vodič po korakih za brezplačno ustvarjanje tekočih počasnih posnetkov na iPhonu. Izboljšajte tekočnost s FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Lahko kdo iz fotografije ali videa ugotovi vaš naslov?",
+      "summary": "Fotografija ali video lahko razkrije lokacijo z metapodatki, vidnimi podrobnostmi ali zvokom. Pred deljenjem preverite vse troje in nato končno datoteko."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Zasebnost Content Credentials: kaj deli vaša fotografija",
+      "summary": "Content Credentials lahko vključujejo identiteto, družbene račune, zgodovino urejanja in sličice virov. Pred deljenjem fotografije preverite, kaj prilagate."
     }
   }
 }

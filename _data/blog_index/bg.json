@@ -10,7 +10,8 @@
     "offline-editing-guide": "Ръководство за офлайн редактиране",
     "privacy": "Поверителност",
     "roundup": "сравнение",
-    "tutorial": "урок"
+    "tutorial": "урок",
+    "privacy-guide": "ръководство за поверителност"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Как да правите забавени видеоклипове на iPhone безплатно и без воден знак",
       "summary": "Ръководство стъпка по стъпка за плавни забавени видеоклипове на iPhone безплатно. Направете забавения каданс по-плавен с FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Може ли някой да открие адреса ви от снимка или видео?",
+      "summary": "Снимка или видео може да разкрие местоположението ви чрез метаданни, видими подробности или звук. Проверете и трите, а след това и крайния файл."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Поверителност на Content Credentials: какво споделя снимката ви",
+      "summary": "Content Credentials могат да включват самоличност, социални профили, история на редакциите и миниатюри на източниците. Прегледайте приложеното преди споделяне."
     }
   }
 }

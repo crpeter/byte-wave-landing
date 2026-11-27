@@ -1,5 +1,6 @@
 {%- assign tutorials_page = site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | first -%}
 {%- assign local_blog = site.pages | where: 'translation_key', 'blog-index' | where: 'lang', page.lang | first -%}
+{%- assign location_article = site.pages | where: 'translation_key', 'can-photos-videos-reveal-your-address' | where: 'lang', page.lang | first -%}
 {%- if local_blog.blog_coverage == 'partial' -%}
   {%- assign local_blog = nil -%}
 {%- endif -%}
@@ -139,7 +140,7 @@
     <p>{{ d.photosP | escape }}</p>
     <p>{{ d.credentialsP | escape }}</p>
     <p>{{ d.visibleP | escape }} <a href="{{ blog_base | relative_url }}does-emoji-protect-child-face-facebook.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ d.emojiLink | escape }}</a>.</p>
-    <p>{{ d.beforeShare | escape }} <a href="{{ blog_base | relative_url }}can-photos-videos-reveal-your-address.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ d.locationLink | escape }}</a> {{ d.and | escape }} <a href="{{ blog_base | relative_url }}does-removing-metadata-remove-ai-labels.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ d.evidenceLink | escape }}</a>.</p>
+    <p>{{ d.beforeShare | escape }} <a href="{{ location_article.url | default: '/blog/can-photos-videos-reveal-your-address.html' | relative_url }}"{% unless location_article %} hreflang="en"{% endunless %}>{{ d.locationLink | escape }}</a> {{ d.and | escape }} <a href="{{ blog_base | relative_url }}does-removing-metadata-remove-ai-labels.html"{% unless local_blog %} hreflang="en"{% endunless %}>{{ d.evidenceLink | escape }}</a>.</p>
   {% endif %}
 </article>
 </main>
