@@ -9,7 +9,8 @@
     "guide": "Guide",
     "offline-editing-guide": "Guide til offline redigering",
     "privacy": "Privatliv",
-    "roundup": "oversigt"
+    "roundup": "oversigt",
+    "tutorial": "vejledning"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Den bedste gratis videoeditor uden vandmærke i 2026",
       "summary": "En oversigt fra ByteWave med oplysning om den kommercielle interesse: editorer uden eget vandmærke ved almindelig eksport, herunder ByteWave, DaVinci Resolve og iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Lav slowmotionvideoer gratis på iPhone uden vandmærke",
+      "summary": "Trinvis guide til gratis, flydende slowmotionvideoer på iPhone. Gør slowmotion mere flydende med FRC."
     }
   }
 }

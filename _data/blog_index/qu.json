@@ -9,7 +9,8 @@
     "guide": "Yachachiy",
     "offline-editing-guide": "Mana internetniyuq allichay yachachiy",
     "privacy": "Sapanchasqa kay",
-    "roundup": "tupanachiy"
+    "roundup": "tupanachiy",
+    "tutorial": "yachachiy"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "2026 watapi mana yakupa unanchanwan aswan allin mana qullqillapa video allichaq",
       "summary": "ByteWavepa qhatuy munayninta willaspa ruwasqan tupanachiy: sapa kuti lluqsichisqapi mana kikin unanchanta yapaykuq allichaqkuna, ByteWave, DaVinci Resolve hinaspa iMovie hina."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "iPhonepi mana qullqillapa, mana yakupa unanchanwan allillamanta kuyuriq videokunata imayna ruway",
+      "summary": "iPhonepi mana qullqillapa llampu allillamanta kuyuriq videokunata ruwanapaq, ñan ñan yachachiy. FRCwan aswan llampu kuyuriyta ruway."
     }
   }
 }

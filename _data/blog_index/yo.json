@@ -9,7 +9,8 @@
     "guide": "Ìtọ́sọ́nà",
     "offline-editing-guide": "Ìtọ́sọ́nà àtúnṣe láìsí intanẹẹti",
     "privacy": "Àṣírí",
-    "roundup": "àkójọpọ̀"
+    "roundup": "àkójọpọ̀",
+    "tutorial": "ìtọ́sọ́nà"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Olóòtú fídíò ọ̀fẹ́ tó dára jù láìsí àmì omi ní 2026",
       "summary": "Àkójọpọ̀ ByteWave tó sọ ìfẹ́ òwò rẹ̀ ní gbangba nípa àwọn olóòtú tí kò fi àmì wọn sí fídíò tí a ń gbé jáde lọ́nà déédéé, títí kan ByteWave, DaVinci Resolve àti iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Bí a ṣe ń ṣe fídíò ìṣípò díẹ̀díẹ̀ lórí iPhone ọ̀fẹ́ láìsí àmì omi",
+      "summary": "Ìtọ́sọ́nà ní ìgbésẹ̀ fún fídíò ìṣípò díẹ̀díẹ̀ tó rọrùn lórí iPhone ọ̀fẹ́. Lo FRC láti mú kí ìṣípò díẹ̀díẹ̀ rọrùn síi."
     }
   }
 }

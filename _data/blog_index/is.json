@@ -9,7 +9,8 @@
     "guide": "Leiðbeiningar",
     "offline-editing-guide": "Leiðbeiningar um vinnslu án nettengingar",
     "privacy": "Persónuvernd",
-    "roundup": "yfirlit"
+    "roundup": "yfirlit",
+    "tutorial": "leiðbeiningar"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Besti ókeypis myndskeiðaritillinn án vatnsmerkis árið 2026",
       "summary": "Yfirlit frá ByteWave með upplýstum viðskiptahagsmunum um ritla sem bæta ekki eigin vatnsmerki við venjulegan útflutning, þar á meðal ByteWave, DaVinci Resolve og iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Svona gerirðu ókeypis hægmynd á iPhone án vatnsmerkis",
+      "summary": "Leiðbeiningar skref fyrir skref um að gera mjúka hægmynd á iPhone ókeypis. Gerðu hæga hreyfingu mýkri með FRC."
     }
   }
 }

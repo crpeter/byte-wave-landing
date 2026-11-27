@@ -9,7 +9,8 @@
     "guide": "Hướng dẫn",
     "offline-editing-guide": "Hướng dẫn chỉnh sửa ngoại tuyến",
     "privacy": "Quyền riêng tư",
-    "roundup": "tổng hợp"
+    "roundup": "tổng hợp",
+    "tutorial": "hướng dẫn"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Trình chỉnh sửa video miễn phí không có hình mờ tốt nhất năm 2026",
       "summary": "Bài tổng hợp của ByteWave có công khai lợi ích thương mại, giới thiệu các trình chỉnh sửa không chèn hình mờ riêng khi xuất thông thường, gồm ByteWave, DaVinci Resolve và iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Cách tạo video quay chậm trên iPhone miễn phí, không có hình mờ",
+      "summary": "Hướng dẫn từng bước tạo video quay chậm mượt mà trên iPhone miễn phí. Làm chuyển động chậm mượt hơn với FRC."
     }
   }
 }

@@ -9,7 +9,8 @@
     "guide": "Vadovas",
     "offline-editing-guide": "Redagavimo be interneto vadovas",
     "privacy": "Privatumas",
-    "roundup": "apžvalga"
+    "roundup": "apžvalga",
+    "tutorial": "pamoka"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Geriausia nemokama vaizdo redagavimo programa be vandens ženklo 2026 m.",
       "summary": "„ByteWave“ apžvalga su atskleistu komerciniu interesu: programos, kurios įprastai eksportuojant neprideda savo vandens ženklo, įskaitant „ByteWave“, „DaVinci Resolve“ ir „iMovie“."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Kaip nemokamai kurti sulėtintus vaizdo įrašus iPhone be vandens ženklo",
+      "summary": "Nuoseklus vadovas, kaip nemokamai kurti sklandžius sulėtintus vaizdo įrašus iPhone. Padarykite sulėtintą vaizdą sklandesnį su FRC."
     }
   }
 }

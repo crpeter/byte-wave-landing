@@ -9,7 +9,8 @@
     "guide": "Ghid",
     "offline-editing-guide": "Ghid de editare offline",
     "privacy": "Confidențialitate",
-    "roundup": "selecție"
+    "roundup": "selecție",
+    "tutorial": "tutorial"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Cel mai bun editor video gratuit fără filigran în 2026",
       "summary": "O selecție realizată de ByteWave, cu interesul comercial declarat, de editori care nu adaugă propriul filigran la exporturile standard, inclusiv ByteWave, DaVinci Resolve și iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Cum faci gratuit videoclipuri cu încetinitorul pe iPhone, fără filigran",
+      "summary": "Ghid pas cu pas pentru videoclipuri fluide cu încetinitorul pe iPhone, gratuit. Fă mișcarea lentă mai fluidă cu FRC."
     }
   }
 }

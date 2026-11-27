@@ -9,7 +9,8 @@
     "guide": "Водич",
     "offline-editing-guide": "Водич за уредување без интернет",
     "privacy": "Приватност",
-    "roundup": "преглед"
+    "roundup": "преглед",
+    "tutorial": "упатство"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Најдобриот бесплатен видеоредактор без воден жиг во 2026 година",
       "summary": "Преглед од ByteWave со обелоденет комерцијален интерес: редактори што не додаваат свој воден жиг при стандарден извоз, вклучувајќи ByteWave, DaVinci Resolve и iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Како бесплатно да правите забавени видеа на iPhone без воден жиг",
+      "summary": "Водич чекор по чекор за мазни забавени видеа на iPhone бесплатно. Направете го забавеното движење помазно со FRC."
     }
   }
 }
