@@ -12,7 +12,8 @@
     "roundup": "përmbledhje",
     "tutorial": "udhëzues",
     "privacy-guide": "udhëzues privatësie",
-    "provenance-guide": "Udhëzues për prejardhjen e përmbajtjes"
+    "provenance-guide": "Udhëzues për prejardhjen e përmbajtjes",
+    "ai-media": "AI dhe media"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "A i heq fshirja e metadatave edhe etiketat e AI-së?",
       "summary": "Heqja e metadatave mund të ndikojë te Content Credentials të C2PA të integruara në skedar. Mësoni dallimin mes metadatave, filigranëve të dukshëm dhe etiketave të AI-së në platforma."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Mungesa e etiketës AI nuk do të thotë se videoja është reale.",
+      "summary": "Facebook la një deepfake në internet pa etiketë AI. Mësoni pse mungesa e etiketave dhe e Content Credentials nuk provon se një video është reale."
     }
   }
 }

@@ -12,7 +12,8 @@
     "roundup": "apžvalga",
     "tutorial": "pamoka",
     "privacy-guide": "privatumo vadovas",
-    "provenance-guide": "Turinio kilmės vadovas"
+    "provenance-guide": "Turinio kilmės vadovas",
+    "ai-media": "DI ir medijos"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Ar pašalinus metaduomenis išnyksta ir DI žymos?",
       "summary": "Metaduomenų šalinimas gali paveikti įterptus C2PA Content Credentials. Sužinokite, kuo skiriasi failo metaduomenys, matomi vandens ženklai ir platformų DI žymos."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "DI žymos nebuvimas nereiškia, kad vaizdo įrašas tikras.",
+      "summary": "Facebook paliko sintetinę vaizdo klastotę internete be DI žymos. Sužinokite, kodėl žymų ir Content Credentials nebuvimas neįrodo vaizdo įrašo tikrumo."
     }
   }
 }

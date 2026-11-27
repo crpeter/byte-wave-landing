@@ -12,7 +12,8 @@
     "roundup": "ការប្រៀបធៀប",
     "tutorial": "ការណែនាំ",
     "privacy-guide": "ការណែនាំអំពីឯកជនភាព",
-    "provenance-guide": "មគ្គុទ្ទេសក៍អំពីប្រភពមាតិកា"
+    "provenance-guide": "មគ្គុទ្ទេសក៍អំពីប្រភពមាតិកា",
+    "ai-media": "AI និងប្រព័ន្ធផ្សព្វផ្សាយ"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "តើការលុបទិន្នន័យមេតាក៏លុបស្លាក AI ដែរឬទេ?",
       "summary": "ការលុបទិន្នន័យមេតាអាចប៉ះពាល់ដល់ Content Credentials របស់ C2PA ដែលបង្កប់ក្នុងឯកសារ។ ស្វែងយល់ពីភាពខុសគ្នារវាងទិន្នន័យមេតា ស្នាមទឹកដែលមើលឃើញ និងស្លាក AI របស់វេទិកា។"
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "គ្មានស្លាក AI មិនមានន័យថាវីដេអូជាការថតពិតទេ។",
+      "summary": "Facebook បានទុកវីដេអូ deepfake លើអ៊ីនធឺណិតដោយគ្មានស្លាក AI។ ស្វែងយល់ថាហេតុអ្វីការគ្មានស្លាក និង Content Credentials មិនអាចបញ្ជាក់ថាវីដេអូជាការថតពិតបាន។"
     }
   }
 }

@@ -12,7 +12,8 @@
     "roundup": "tổng hợp",
     "tutorial": "hướng dẫn",
     "privacy-guide": "hướng dẫn quyền riêng tư",
-    "provenance-guide": "Hướng dẫn về nguồn gốc nội dung"
+    "provenance-guide": "Hướng dẫn về nguồn gốc nội dung",
+    "ai-media": "AI và truyền thông"
   },
   "card_order": [
     {
@@ -47,6 +48,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +86,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Xóa siêu dữ liệu có xóa cả nhãn AI không?",
       "summary": "Việc xóa siêu dữ liệu có thể ảnh hưởng đến Content Credentials C2PA được nhúng. Tìm hiểu sự khác biệt giữa siêu dữ liệu của tệp, hình mờ nhìn thấy được và nhãn AI của nền tảng."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Không có nhãn AI không có nghĩa là video thật.",
+      "summary": "Facebook đã để một deepfake trực tuyến mà không gắn nhãn AI. Tìm hiểu vì sao thiếu nhãn và Content Credentials không thể chứng minh video là thật."
     }
   }
 }
