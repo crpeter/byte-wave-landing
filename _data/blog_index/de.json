@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Wer zahlt, wenn sich der KI-Boom nicht auszahlt?",
       "summary": "Oracles Finanzierung, die KI-Schuldensorgen der Fed und Hedgefonds-Verluste zeigen Risiken hinter dem KI-Ausbau. Was die Berichte belegen."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Schulen sagten Nein zu KI. Google drohte mit dem Entzug der Suche.",
+      "summary": "Los Angeles blockiert vorübergehend KI-Zusammenfassungen. Schulen sollten generative KI ablehnen können, ohne die Google-Suche zu verlieren."
     }
   }
 }

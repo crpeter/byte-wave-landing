@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "如果AI熱潮不賺錢，誰來付帳？",
       "summary": "Oracle募資、聯準會對AI債務的擔憂及避險基金虧損，揭示AI擴張背後的財務風險。報導究竟證明了什麼？"
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "學校對 AI 說不。Google 卻威脅切斷搜尋服務。",
+      "summary": "洛杉磯學區暫時停用 AI 摘要。學校應能拒絕生成式 AI，同時保有 Google 搜尋。"
     }
   }
 }

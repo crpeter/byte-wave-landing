@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Quem paga se o boom da IA não compensar?",
       "summary": "O financiamento da Oracle, as preocupações da Fed e as perdas de fundos mostram os riscos financeiros da expansão da IA. O que os relatos demonstram."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "As escolas disseram não à IA. O Google ameaçou o acesso à busca.",
+      "summary": "Los Angeles bloqueia temporariamente os resumos de IA. As escolas deveriam poder recusar a IA generativa sem perder a Pesquisa Google."
     }
   }
 }
