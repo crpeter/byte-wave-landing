@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Pamācība",
     "offline-editing-guide": "Bezsaistes rediģēšanas pamācība",
-    "privacy": "Privātums"
+    "privacy": "Privātums",
+    "roundup": "pārskats"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Privāts video redaktors: rediģē bez augšupielādes mākonī",
       "summary": "Rediģē lokāli ar ByteWave iPhone, iPad un Mac ierīcēs. Bez rediģēšanas konta, abonementa vai ūdenszīmes eksportā. Atbildes par bezsaistes darbu un augšupielādi."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Labākais bezmaksas video redaktors bez ūdenszīmes 2026. gadā",
+      "summary": "ByteWave pārskats ar atklātu komerciālo ieinteresētību par redaktoriem, kas parastam eksportam nepievieno savu ūdenszīmi, tostarp ByteWave, DaVinci Resolve un iMovie."
     }
   }
 }

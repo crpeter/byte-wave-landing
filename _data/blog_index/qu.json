@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Yachachiy",
     "offline-editing-guide": "Mana internetniyuq allichay yachachiy",
-    "privacy": "Sapanchasqa kay"
+    "privacy": "Sapanchasqa kay",
+    "roundup": "tupanachiy"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Sapanchasqa video allichaq: mana nube nisqaman apachispa allichay",
       "summary": "ByteWavewan iPhone, iPad, Mac nisqakunapi aparatupi videota allichay. Mana allichanapaq cuentayuq, mana suscripcionniyuq, mana yaku unanchayuq. Mana internetniyuq llamk'aymanta, wichaykachiykunamanta sut'i kutichiykuna."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "2026 watapi mana yakupa unanchanwan aswan allin mana qullqillapa video allichaq",
+      "summary": "ByteWavepa qhatuy munayninta willaspa ruwasqan tupanachiy: sapa kuti lluqsichisqapi mana kikin unanchanta yapaykuq allichaqkuna, ByteWave, DaVinci Resolve hinaspa iMovie hina."
     }
   }
 }

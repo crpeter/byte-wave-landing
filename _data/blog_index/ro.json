@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Ghid",
     "offline-editing-guide": "Ghid de editare offline",
-    "privacy": "Confidențialitate"
+    "privacy": "Confidențialitate",
+    "roundup": "selecție"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Editor video privat: editează fără încărcări în cloud",
       "summary": "Editează local cu ByteWave pe iPhone, iPad și Mac. Fără cont pentru editare, abonament sau filigran la export. Răspunsuri despre lucrul offline și încărcări."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Cel mai bun editor video gratuit fără filigran în 2026",
+      "summary": "O selecție realizată de ByteWave, cu interesul comercial declarat, de editori care nu adaugă propriul filigran la exporturile standard, inclusiv ByteWave, DaVinci Resolve și iMovie."
     }
   }
 }

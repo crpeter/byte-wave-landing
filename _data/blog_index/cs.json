@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Návod",
     "offline-editing-guide": "Návod na offline úpravy",
-    "privacy": "Soukromí"
+    "privacy": "Soukromí",
+    "roundup": "přehled"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Soukromý videoeditor: úpravy bez nahrávání do cloudu",
       "summary": "Upravujte videa místně v ByteWave na iPhonu, iPadu a Macu. Bez účtu pro střih, předplatného či vodoznaku při exportu. Jasné odpovědi o offline práci a nahrávání."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Nejlepší bezplatný videoeditor bez vodoznaku v roce 2026",
+      "summary": "Přehled od ByteWave s přiznaným obchodním zájmem: editory, které při běžném exportu nepřidávají vlastní vodoznak, včetně ByteWave, DaVinci Resolve a iMovie."
     }
   }
 }

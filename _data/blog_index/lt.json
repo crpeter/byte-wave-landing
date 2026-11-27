@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Vadovas",
     "offline-editing-guide": "Redagavimo be interneto vadovas",
-    "privacy": "Privatumas"
+    "privacy": "Privatumas",
+    "roundup": "apžvalga"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Privatus vaizdo redaktorius: redaguokite nekeldami į debesiją",
       "summary": "Redaguokite vietoje su ByteWave iPhone, iPad ir Mac. Be redagavimo paskyros, prenumeratos ar vandens ženklo eksportuojant. Atsakymai apie darbą be interneto ir įkėlimą."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Geriausia nemokama vaizdo redagavimo programa be vandens ženklo 2026 m.",
+      "summary": "„ByteWave“ apžvalga su atskleistu komerciniu interesu: programos, kurios įprastai eksportuojant neprideda savo vandens ženklo, įskaitant „ByteWave“, „DaVinci Resolve“ ir „iMovie“."
     }
   }
 }

@@ -8,7 +8,8 @@
   "tags": {
     "guide": "Vodič",
     "offline-editing-guide": "Vodič za uređivanje bez interneta",
-    "privacy": "Privatnost"
+    "privacy": "Privatnost",
+    "roundup": "pregled"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "Privatni uređivač videa: uređujte bez slanja u oblak",
       "summary": "Uređujte lokalno s ByteWaveom na iPhoneu, iPadu i Macu. Bez računa za uređivanje, pretplate ili vodenog žiga pri izvozu. Odgovori o radu bez interneta i slanju."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "Najbolji besplatni videoeditor bez vodenog žiga u 2026.",
+      "summary": "Pregled ByteWavea s navedenim komercijalnim interesom: editori koji ne dodaju svoj vodeni žig pri standardnom izvozu, uključujući ByteWave, DaVinci Resolve i iMovie."
     }
   }
 }

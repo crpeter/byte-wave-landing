@@ -8,7 +8,8 @@
   "tags": {
     "guide": "دليل",
     "offline-editing-guide": "دليل التحرير دون اتصال",
-    "privacy": "الخصوصية"
+    "privacy": "الخصوصية",
+    "roundup": "مقارنة"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "محرر فيديو يحافظ على الخصوصية: حرّر دون رفع إلى السحابة",
       "summary": "حرّر الفيديو محليًا باستخدام ByteWave على iPhone وiPad وMac. دون حساب للتحرير أو اشتراك أو علامة مائية عند التصدير. إجابات واضحة عن العمل دون اتصال ورفع الملفات."
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "أفضل محرر فيديو مجاني دون علامة مائية في 2026",
+      "summary": "مقارنة من ByteWave مع الإفصاح عن مصلحتها التجارية لمحررات لا تضيف علامة مائية إلى التصدير العادي، ومنها ByteWave وDaVinci Resolve وiMovie."
     }
   }
 }

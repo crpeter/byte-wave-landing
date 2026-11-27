@@ -8,7 +8,8 @@
   "tags": {
     "guide": "คู่มือ",
     "offline-editing-guide": "คู่มือตัดต่อแบบออฟไลน์",
-    "privacy": "ความเป็นส่วนตัว"
+    "privacy": "ความเป็นส่วนตัว",
+    "roundup": "รวมตัวเลือก"
   },
   "card_order": [
     {
@@ -23,6 +24,10 @@
       "href": "/blog/best-video-editor-privacy-no-upload.html",
       "tag": "privacy",
       "guide": true
+    },
+    {
+      "href": "/blog/best-free-video-editor-no-watermark.html",
+      "tag": "roundup"
     }
   ],
   "cards": {
@@ -37,6 +42,10 @@
     "/blog/best-video-editor-privacy-no-upload.html": {
       "title": "ตัวตัดต่อวิดีโอที่รักษาความเป็นส่วนตัว: ไม่ต้องอัปโหลดขึ้นคลาวด์",
       "summary": "ตัดต่อในเครื่องด้วย ByteWave บน iPhone, iPad และ Mac ไม่ต้องมีบัญชีตัดต่อ จ่ายค่าสมาชิก หรือมีลายน้ำเมื่อส่งออก พร้อมคำตอบเรื่องการใช้ออฟไลน์และการอัปโหลด"
+    },
+    "/blog/best-free-video-editor-no-watermark.html": {
+      "title": "แอปตัดต่อวิดีโอฟรีที่ดีที่สุดแบบไม่มีลายน้ำในปี 2026",
+      "summary": "บทเปรียบเทียบจาก ByteWave ที่เปิดเผยผลประโยชน์ทางการค้า ครอบคลุมแอปที่ไม่ใส่ลายน้ำของแอปในการส่งออกทั่วไป เช่น ByteWave, DaVinci Resolve และ iMovie"
     }
   }
 }

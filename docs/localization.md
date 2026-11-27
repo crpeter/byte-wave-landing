@@ -14,8 +14,12 @@ strings; existing locales retain their YAML files.
 Gallery, About, Press, Privacy Policy, and Free Expression / Appeals also cover
 all 40 locale variants. The 23 additional locales include the full source text,
 metadata, gallery descriptions, press copy controls, and policy/appeal details.
-Blog articles have not been translated into these additional languages; their
-links fall back to existing English destinations. Language menus and hreflang alternates list only real translations
+Each additional language has a partial blog index with four complete guides:
+editing without an account, the airplane-mode editing test, private editing without
+cloud uploads, and free video editors without watermarks. The indexes retain an
+explicit link to the full English archive. Links to available translations stay
+in the selected language; links to untranslated articles use labelled English
+destinations. Language menus and hreflang alternates list only real translations
 of the current page. The sitemap discovers the new pages automatically.
 
 The new translations are machine-assisted. Quechua in particular needs
@@ -46,3 +50,11 @@ The secondary-page translations are machine-assisted drafts. Native-speaker
 review, especially for Quechua and policy wording, remains necessary; structural
 checks do not certify linguistic or legal equivalence. Source policy and press
 fact dates are retained; page modification dates record the translation update.
+
+Run `python3 scripts/test_expanded_blog_guides.py` after building to check the
+23 partial blog indexes and 92 translated articles. It checks source-complete
+article structure, preserved source dates and product links, same-language
+navigation and related reading, labelled English fallbacks, reciprocal language
+alternates, and Arabic RTL. The localized secondary-page suite also runs it.
+Editorial source and update dates are retained rather than changed to the
+translation date; commercial-interest and AI-assistance disclosures remain visible.
