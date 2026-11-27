@@ -13,6 +13,7 @@
     "tutorial": "tutorial",
     "privacy-guide": "ghid de confidențialitate",
     "provenance-guide": "Ghid despre proveniență",
+    "ai-media": "AI și media",
     "platform-control-opinion": "Controlul platformelor și opinie"
   },
   "card_order": [
@@ -54,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -88,6 +93,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Eliminarea metadatelor elimină și etichetele AI?",
       "summary": "Eliminarea metadatelor poate afecta Content Credentials C2PA încorporate. Află diferența dintre metadatele fișierului, filigranele vizibile și etichetele AI ale platformelor."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Lipsa etichetei AI nu înseamnă că videoclipul este real.",
+      "summary": "Facebook a lăsat un deepfake online fără etichetă AI. Află de ce lipsa etichetelor și a Content Credentials nu poate dovedi că un videoclip este real."
     },
     "/blog/google-schools-ai-search-access.html": {
       "title": "Școlile au spus nu inteligenței artificiale. Google le-a amenințat accesul la căutare.",

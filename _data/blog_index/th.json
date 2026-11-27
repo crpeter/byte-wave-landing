@@ -13,6 +13,7 @@
     "tutorial": "บทสอน",
     "privacy-guide": "คู่มือความเป็นส่วนตัว",
     "provenance-guide": "คู่มือที่มาของเนื้อหา",
+    "ai-media": "AI และสื่อ",
     "platform-control-opinion": "อำนาจควบคุมของแพลตฟอร์มและความคิดเห็น"
   },
   "card_order": [
@@ -54,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -88,6 +93,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "ลบข้อมูลเมตาแล้ว ป้าย AI จะหายไปด้วยไหม?",
       "summary": "การลบข้อมูลเมตาอาจกระทบ Content Credentials แบบ C2PA ที่ฝังอยู่ในไฟล์ ทำความเข้าใจความต่างระหว่างข้อมูลเมตา ลายน้ำที่มองเห็น และป้าย AI ของแพลตฟอร์ม"
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "ไม่มีป้าย AI ไม่ได้แปลว่าวิดีโอเป็นของจริง",
+      "summary": "Facebook ปล่อยดีปเฟกไว้บนออนไลน์โดยไม่มีป้าย AI เรียนรู้ว่าทำไมการไม่มีป้ายและ Content Credentials จึงพิสูจน์ไม่ได้ว่าวิดีโอเป็นของจริง"
     },
     "/blog/google-schools-ai-search-access.html": {
       "title": "โรงเรียนปฏิเสธ AI แล้ว Google ก็ขู่จะตัดสิทธิ์การค้นหา",

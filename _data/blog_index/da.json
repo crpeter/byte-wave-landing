@@ -13,6 +13,7 @@
     "tutorial": "vejledning",
     "privacy-guide": "privatlivsguide",
     "provenance-guide": "Guide til indholdets oprindelse",
+    "ai-media": "AI og medier",
     "platform-control-opinion": "Platformskontrol og holdning"
   },
   "card_order": [
@@ -54,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -88,6 +93,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Fjerner sletning af metadata også AI-mærkninger?",
       "summary": "Fjernelse af metadata kan påvirke indlejrede C2PA Content Credentials. Forstå forskellen på filmetadata, synlige vandmærker og platformenes AI-mærkninger."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Ingen AI-mærkning betyder ikke, at videoen er ægte.",
+      "summary": "Facebook lod en deepfake blive online uden AI-mærkning. Læs, hvorfor manglende mærkning og manglende Content Credentials ikke kan bevise, at en video er ægte."
     },
     "/blog/google-schools-ai-search-access.html": {
       "title": "Skolerne sagde nej til AI. Google truede deres adgang til søgning.",

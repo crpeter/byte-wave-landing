@@ -13,6 +13,7 @@
     "tutorial": "leiðbeiningar",
     "privacy-guide": "persónuverndarleiðbeiningar",
     "provenance-guide": "Leiðarvísir um uppruna efnis",
+    "ai-media": "Gervigreind og miðlar",
     "platform-control-opinion": "Stjórn vettvanga og skoðun"
   },
   "card_order": [
@@ -54,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -88,6 +93,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Fjarlægir eyðing lýsigagna líka gervigreindarmerkingar?",
       "summary": "Eyðing lýsigagna getur haft áhrif á innfelld C2PA Content Credentials. Kynntu þér muninn á lýsigögnum skráa, sýnilegum vatnsmerkjum og gervigreindarmerkingum miðla."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Engin gervigreindarmerking þýðir ekki að myndbandið sé raunverulegt.",
+      "summary": "Facebook lét djúpfölsun vera á netinu án gervigreindarmerkingar. Lestu hvers vegna vöntun á merkingum og Content Credentials sannar ekki að myndband sé raunverulegt."
     },
     "/blog/google-schools-ai-search-access.html": {
       "title": "Skólar sögðu nei við gervigreind. Google hótaði að loka á leit þeirra.",

@@ -13,6 +13,7 @@
     "tutorial": "pamācība",
     "privacy-guide": "privātuma ceļvedis",
     "provenance-guide": "Satura izcelsmes ceļvedis",
+    "ai-media": "MI un mediji",
     "platform-control-opinion": "Platformu kontrole un viedoklis"
   },
   "card_order": [
@@ -54,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -88,6 +93,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Vai metadatu noņemšana noņem arī MI marķējumus?",
       "summary": "Metadatu noņemšana var ietekmēt iegultos C2PA Content Credentials. Izprotiet atšķirību starp faila metadatiem, redzamām ūdenszīmēm un platformu MI marķējumiem."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "MI marķējuma trūkums nenozīmē, ka video ir īsts.",
+      "summary": "Facebook atstāja dziļviltojumu internetā bez MI marķējuma. Uzziniet, kāpēc marķējuma un Content Credentials trūkums nevar pierādīt, ka video ir īsts."
     },
     "/blog/google-schools-ai-search-access.html": {
       "title": "Skolas teica mākslīgajam intelektam nē. Google draudēja liegt tām piekļuvi meklēšanai.",

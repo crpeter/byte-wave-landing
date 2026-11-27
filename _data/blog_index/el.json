@@ -13,6 +13,7 @@
     "tutorial": "οδηγός",
     "privacy-guide": "οδηγός απορρήτου",
     "provenance-guide": "Οδηγός προέλευσης περιεχομένου",
+    "ai-media": "AI και μέσα",
     "platform-control-opinion": "Έλεγχος πλατφορμών και άποψη"
   },
   "card_order": [
@@ -54,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -88,6 +93,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Η αφαίρεση μεταδεδομένων αφαιρεί και τις ετικέτες AI;",
       "summary": "Η αφαίρεση μεταδεδομένων μπορεί να επηρεάσει τα ενσωματωμένα Content Credentials του C2PA. Μάθετε τη διαφορά ανάμεσα σε μεταδεδομένα, ορατά υδατογραφήματα και ετικέτες AI των πλατφορμών."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Η απουσία ετικέτας AI δεν σημαίνει ότι το βίντεο είναι πραγματικό.",
+      "summary": "Το Facebook άφησε ένα deepfake στο διαδίκτυο χωρίς ετικέτα AI. Μάθετε γιατί η απουσία ετικετών και Content Credentials δεν αποδεικνύει ότι ένα βίντεο είναι πραγματικό."
     },
     "/blog/google-schools-ai-search-access.html": {
       "title": "Τα σχολεία είπαν όχι στην ΤΝ. Η Google απείλησε την πρόσβασή τους στην αναζήτηση.",

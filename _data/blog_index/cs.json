@@ -13,6 +13,7 @@
     "tutorial": "návod",
     "privacy-guide": "průvodce soukromím",
     "provenance-guide": "Průvodce původem obsahu",
+    "ai-media": "AI a média",
     "platform-control-opinion": "Kontrola platforem a názor"
   },
   "card_order": [
@@ -54,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -88,6 +93,10 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Odstraní se s metadaty i označení AI?",
       "summary": "Odstranění metadat může ovlivnit vložené Content Credentials podle C2PA. Poznejte rozdíl mezi metadaty souboru, viditelným vodoznakem a označením AI na platformě."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Chybějící označení AI neznamená, že je video skutečné.",
+      "summary": "Facebook ponechal deepfake online bez označení AI. Zjistěte, proč chybějící označení ani Content Credentials nemohou prokázat, že je video skutečné."
     },
     "/blog/google-schools-ai-search-access.html": {
       "title": "Školy řekly AI ne. Google jim pohrozil ztrátou přístupu k vyhledávání.",
