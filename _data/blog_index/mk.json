@@ -12,9 +12,17 @@
     "roundup": "преглед",
     "tutorial": "упатство",
     "privacy-guide": "водич за приватност",
-    "provenance-guide": "Водич за потеклото на содржината"
+    "provenance-guide": "Водич за потеклото на содржината",
+    "ai-media": "ВИ и медиуми",
+    "opinion": "Мислење"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Дали отстранувањето метаподатоци ги отстранува и ознаките за ВИ?",
       "summary": "Отстранувањето метаподатоци може да влијае врз вградените C2PA Content Credentials. Разберете ја разликата меѓу метаподатоци, видливи водени жигови и ознаки за ВИ на платформите."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Немањето ознака за ВИ не значи дека видеото е вистинско.",
+      "summary": "Facebook остави дипфејк на интернет без ознака за ВИ. Дознајте зошто недостигот на ознаки и Content Credentials не докажува дека видеото е вистинско."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Никој не го избрал вашиот машински бог.",
+      "summary": "Наводите на Макс Тегмарк за Anthropic, границите на јавните консултации и зошто ветувањата за безбедна ВИ не ја заменуваат демократската контрола."
     }
   }
 }

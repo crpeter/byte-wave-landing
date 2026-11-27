@@ -12,9 +12,17 @@
     "roundup": "pregled",
     "tutorial": "vodič",
     "privacy-guide": "vodič za zasebnost",
-    "provenance-guide": "Vodnik po izvoru vsebine"
+    "provenance-guide": "Vodnik po izvoru vsebine",
+    "ai-media": "UI in mediji",
+    "opinion": "Mnenje"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Ali odstranitev metapodatkov odstrani tudi oznake UI?",
       "summary": "Odstranjevanje metapodatkov lahko vpliva na vdelane C2PA Content Credentials. Spoznajte razliko med metapodatki datoteke, vidnimi vodnimi žigi in oznakami UI na platformah."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Brez oznake UI ne pomeni, da je video resničen.",
+      "summary": "Facebook je pustil globoki ponaredek na spletu brez oznake UI. Spoznajte, zakaj manjkajoče oznake in Content Credentials ne dokazujejo, da je video resničen."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Nihče ni izvolil vašega strojnega boga.",
+      "summary": "Navedbe Maxa Tegmarka o Anthropicu, meje javnega posvetovanja in zakaj obljube o varnosti umetne inteligence ne nadomestijo demokratičnega nadzora."
     }
   }
 }

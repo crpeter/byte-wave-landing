@@ -12,9 +12,17 @@
     "roundup": "pārskats",
     "tutorial": "pamācība",
     "privacy-guide": "privātuma ceļvedis",
-    "provenance-guide": "Satura izcelsmes ceļvedis"
+    "provenance-guide": "Satura izcelsmes ceļvedis",
+    "ai-media": "MI un mediji",
+    "opinion": "Viedoklis"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Vai metadatu noņemšana noņem arī MI marķējumus?",
       "summary": "Metadatu noņemšana var ietekmēt iegultos C2PA Content Credentials. Izprotiet atšķirību starp faila metadatiem, redzamām ūdenszīmēm un platformu MI marķējumiem."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "MI marķējuma trūkums nenozīmē, ka video ir īsts.",
+      "summary": "Facebook atstāja dziļviltojumu internetā bez MI marķējuma. Uzziniet, kāpēc marķējuma un Content Credentials trūkums nevar pierādīt, ka video ir īsts."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Neviens nav ievēlējis jūsu mašīnu dievu.",
+      "summary": "Maksa Tegmarka izteikumi par Anthropic, sabiedriskās apspriešanas robežas un kāpēc MI drošības solījumi neaizstāj demokrātisku kontroli."
     }
   }
 }

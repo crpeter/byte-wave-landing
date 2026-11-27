@@ -12,9 +12,17 @@
     "roundup": "bita",
     "tutorial": "koyarwa",
     "privacy-guide": "jagorar keɓantawa",
-    "provenance-guide": "Jagorar asalin abun ciki"
+    "provenance-guide": "Jagorar asalin abun ciki",
+    "ai-media": "AI da kafofin watsa labarai",
+    "opinion": "Ra’ayi"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Shin cire bayanan metadata yana cire alamomin AI ma?",
       "summary": "Cire metadata na iya shafar Content Credentials na C2PA da aka saka a fayil. Fahimci bambancin metadata na fayil, alamar ruwa mai bayyana da alamomin AI na dandamali."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Rashin alamar AI ba yana nufin bidiyon na gaske ba ne.",
+      "summary": "Facebook ya bar bidiyon deepfake a yanar gizo ba tare da alamar AI ba. Koyi dalilin da rashin alama ko Content Credentials ba zai tabbatar da cewa bidiyo na gaske ba ne."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Babu wanda ya zaɓi allahn na’urarku.",
+      "summary": "Zargin Max Tegmark game da Anthropic da aka ruwaito, iyakokin neman ra’ayin jama’a, da dalilin da alkawarin tsaron AI ba ya maye gurbin ikon dimokuraɗiyya."
     }
   }
 }

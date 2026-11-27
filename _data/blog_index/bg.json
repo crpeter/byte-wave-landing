@@ -12,9 +12,17 @@
     "roundup": "сравнение",
     "tutorial": "урок",
     "privacy-guide": "ръководство за поверителност",
-    "provenance-guide": "Ръководство за произхода"
+    "provenance-guide": "Ръководство за произхода",
+    "ai-media": "ИИ и медии",
+    "opinion": "Мнение"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Премахването на метаданни премахва ли и етикетите за ИИ?",
       "summary": "Премахването на метаданни може да засегне вградените Content Credentials по C2PA. Разберете разликата между метаданни, видими водни знаци и етикети за ИИ в платформите."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Липсата на етикет за ИИ не означава, че видеото е истинско.",
+      "summary": "Facebook остави дийпфейк онлайн без етикет за ИИ. Научете защо липсващи етикети и Content Credentials не могат да докажат, че видеото е истинско."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Никой не е избирал вашия машинен бог.",
+      "summary": "Твърденията на Макс Тегмарк за Anthropic, границите на обществените консултации и защо обещанията за безопасен ИИ не заменят демократичния контрол."
     }
   }
 }

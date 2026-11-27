@@ -12,9 +12,17 @@
     "roundup": "muhtasari",
     "tutorial": "mafunzo",
     "privacy-guide": "mwongozo wa faragha",
-    "provenance-guide": "Mwongozo wa asili ya maudhui"
+    "provenance-guide": "Mwongozo wa asili ya maudhui",
+    "ai-media": "AI na vyombo vya habari",
+    "opinion": "Maoni"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Je, kuondoa metadata huondoa pia lebo za AI?",
       "summary": "Kuondoa metadata kunaweza kuathiri Content Credentials za C2PA zilizopachikwa. Elewa tofauti kati ya metadata ya faili, alama za maji zinazoonekana na lebo za AI za majukwaa."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Kutokuwa na lebo ya AI hakumaanishi video ni halisi.",
+      "summary": "Facebook iliacha deepfake mtandaoni bila lebo ya AI. Jifunze kwa nini kukosekana kwa lebo na Content Credentials hakuwezi kuthibitisha video ni halisi."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Hakuna aliyemchagua mungu wenu wa mashine.",
+      "summary": "Madai yaliyoripotiwa ya Max Tegmark kuhusu Anthropic, mipaka ya mashauriano ya umma, na kwa nini ahadi za usalama wa AI hazichukui nafasi ya udhibiti wa kidemokrasia."
     }
   }
 }

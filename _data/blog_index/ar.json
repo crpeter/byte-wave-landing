@@ -12,9 +12,17 @@
     "roundup": "مقارنة",
     "tutorial": "دليل تعليمي",
     "privacy-guide": "دليل الخصوصية",
-    "provenance-guide": "دليل إثبات المصدر"
+    "provenance-guide": "دليل إثبات المصدر",
+    "ai-media": "وسائط الذكاء الاصطناعي",
+    "opinion": "رأي"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "هل تؤدي إزالة البيانات الوصفية إلى إزالة تسميات الذكاء الاصطناعي أيضًا؟",
       "summary": "قد تؤثر إزالة البيانات الوصفية في بيانات اعتماد المحتوى C2PA المضمّنة. تعرّف على الفرق بين بيانات الملف الوصفية والعلامات المائية المرئية وتسميات الذكاء الاصطناعي على المنصات."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "غياب تسمية الذكاء الاصطناعي لا يعني أن الفيديو حقيقي.",
+      "summary": "أبقى Facebook فيديو مزيفًا بتقنية التزييف العميق دون تسمية للذكاء الاصطناعي. تعرّف على سبب عدم اعتبار غياب التسميات وبيانات اعتماد المحتوى دليلًا على أن الفيديو حقيقي."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "لم ينتخب أحد إلهكم الآلي.",
+      "summary": "تصريحات ماكس تيغمارك المنقولة عن Anthropic، وحدود التشاور العام، ولماذا لا تحل وعود سلامة الذكاء الاصطناعي محل الرقابة الديمقراطية."
     }
   }
 }

@@ -12,9 +12,17 @@
     "roundup": "επισκόπηση",
     "tutorial": "οδηγός",
     "privacy-guide": "οδηγός απορρήτου",
-    "provenance-guide": "Οδηγός προέλευσης περιεχομένου"
+    "provenance-guide": "Οδηγός προέλευσης περιεχομένου",
+    "ai-media": "AI και μέσα",
+    "opinion": "Άποψη"
   },
   "card_order": [
+    {
+      "href": "/blog/anthropic-tegmark-democratic-control.html",
+      "tag": "opinion",
+      "brand": "Anthropic",
+      "image": "/assets/brands/anthropic.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -47,6 +55,10 @@
     {
       "href": "/blog/does-removing-metadata-remove-ai-labels.html",
       "tag": "provenance-guide"
+    },
+    {
+      "href": "/blog/no-ai-label-does-not-mean-real.html",
+      "tag": "ai-media"
     }
   ],
   "cards": {
@@ -81,6 +93,14 @@
     "/blog/does-removing-metadata-remove-ai-labels.html": {
       "title": "Η αφαίρεση μεταδεδομένων αφαιρεί και τις ετικέτες AI;",
       "summary": "Η αφαίρεση μεταδεδομένων μπορεί να επηρεάσει τα ενσωματωμένα Content Credentials του C2PA. Μάθετε τη διαφορά ανάμεσα σε μεταδεδομένα, ορατά υδατογραφήματα και ετικέτες AI των πλατφορμών."
+    },
+    "/blog/no-ai-label-does-not-mean-real.html": {
+      "title": "Η απουσία ετικέτας AI δεν σημαίνει ότι το βίντεο είναι πραγματικό.",
+      "summary": "Το Facebook άφησε ένα deepfake στο διαδίκτυο χωρίς ετικέτα AI. Μάθετε γιατί η απουσία ετικετών και Content Credentials δεν αποδεικνύει ότι ένα βίντεο είναι πραγματικό."
+    },
+    "/blog/anthropic-tegmark-democratic-control.html": {
+      "title": "Κανείς δεν εξέλεξε τον μηχανικό θεό σας.",
+      "summary": "Οι αναφερόμενοι ισχυρισμοί του Max Tegmark για την Anthropic, τα όρια της δημόσιας διαβούλευσης και γιατί οι υποσχέσεις ασφάλειας της ΤΝ δεν αντικαθιστούν τον δημοκρατικό έλεγχο."
     }
   }
 }
