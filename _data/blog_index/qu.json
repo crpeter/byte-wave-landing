@@ -10,7 +10,8 @@
     "offline-editing-guide": "Mana internetniyuq allichay yachachiy",
     "privacy": "Sapanchasqa kay",
     "roundup": "tupanachiy",
-    "tutorial": "yachachiy"
+    "tutorial": "yachachiy",
+    "privacy-guide": "sapanchasqa willakuypaq yachachiy"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "iPhonepi mana qullqillapa, mana yakupa unanchanwan allillamanta kuyuriq videokunata imayna ruway",
       "summary": "iPhonepi mana qullqillapa llampu allillamanta kuyuriq videokunata ruwanapaq, ñan ñan yachachiy. FRCwan aswan llampu kuyuriyta ruway."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "¿Pipas huk foto utaq videomanta wasiykipa direccionninta tarinmanchu?",
+      "summary": "Foto utaq videoqa maypi kasqaykita rikuchinman metadatoswan, rikuna detallekunawan utaq uyarinawan. Manaraq rakispa kimsantinta, chaymanta tukusqa archivota qhaway."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Content Credentialspa sapanchasqa kaynin: fotoyki imata rakin",
+      "summary": "Content Credentialsqa riqsichiyta, redes sociales cuentakunata, allichay historiyata hinaspa ñawpaq fotokunapa huch'uy rikch'ayninkunata apanman. Manaraq fotota rakispa yapasqaykita qhaway."
     }
   }
 }

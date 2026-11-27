@@ -10,7 +10,8 @@
     "offline-editing-guide": "Guide til offline redigering",
     "privacy": "Privatliv",
     "roundup": "oversigt",
-    "tutorial": "vejledning"
+    "tutorial": "vejledning",
+    "privacy-guide": "privatlivsguide"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Lav slowmotionvideoer gratis på iPhone uden vandmærke",
       "summary": "Trinvis guide til gratis, flydende slowmotionvideoer på iPhone. Gør slowmotion mere flydende med FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Kan nogen finde din adresse ud fra et foto eller en video?",
+      "summary": "Et foto eller en video kan afsløre din placering gennem metadata, synlige detaljer eller lyd. Tjek alle tre før deling, og kontrollér den færdige fil."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Privatliv i Content Credentials: hvad dit foto deler",
+      "summary": "Content Credentials kan indeholde identitet, sociale konti, redigeringshistorik og miniaturebilleder af kilder. Se, hvad du vedhæfter, før du deler et foto."
     }
   }
 }

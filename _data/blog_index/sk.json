@@ -10,7 +10,8 @@
     "offline-editing-guide": "Návod na úpravy offline",
     "privacy": "Súkromie",
     "roundup": "prehľad",
-    "tutorial": "návod"
+    "tutorial": "návod",
+    "privacy-guide": "sprievodca súkromím"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Ako zadarmo vytvoriť spomalené videá na iPhone bez vodoznaku",
       "summary": "Podrobný návod na plynulé spomalené videá na iPhone zadarmo. Zjemnite spomalené zábery pomocou FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Môže niekto zistiť vašu adresu z fotky alebo videa?",
+      "summary": "Fotka či video môžu prezradiť polohu metadátami, viditeľnými detailmi alebo zvukom. Pred zdieľaním skontrolujte všetky tri oblasti aj výsledný súbor."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Súkromie Content Credentials: čo zdieľa vaša fotka",
+      "summary": "Content Credentials môžu obsahovať identitu, sociálne účty, históriu úprav a náhľady zdrojov. Pred zdieľaním fotky skontrolujte, čo prikladáte."
     }
   }
 }

@@ -10,7 +10,8 @@
     "offline-editing-guide": "دليل التحرير دون اتصال",
     "privacy": "الخصوصية",
     "roundup": "مقارنة",
-    "tutorial": "دليل تعليمي"
+    "tutorial": "دليل تعليمي",
+    "privacy-guide": "دليل الخصوصية"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "كيفية إنشاء فيديوهات بالحركة البطيئة على iPhone مجانًا دون علامة مائية",
       "summary": "دليل خطوة بخطوة لإنشاء فيديوهات حركة بطيئة سلسة على iPhone مجانًا. اجعل الحركة البطيئة أكثر سلاسة باستخدام FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "هل يمكن لشخص معرفة عنوانك من صورة أو فيديو؟",
+      "summary": "قد تكشف صورة أو فيديو موقعك عبر البيانات الوصفية أو التفاصيل المرئية أو الصوت. افحص الثلاثة قبل المشاركة، ثم تحقق من الملف النهائي."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "خصوصية بيانات اعتماد المحتوى: ما الذي تشاركه صورتك؟",
+      "summary": "قد تتضمن بيانات اعتماد المحتوى الهوية والحسابات الاجتماعية وسجل التعديلات وصورًا مصغرة للمصادر. عاين ما ترفقه قبل مشاركة الصورة."
     }
   }
 }

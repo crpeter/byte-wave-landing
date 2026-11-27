@@ -10,7 +10,8 @@
     "offline-editing-guide": "Leiðbeiningar um vinnslu án nettengingar",
     "privacy": "Persónuvernd",
     "roundup": "yfirlit",
-    "tutorial": "leiðbeiningar"
+    "tutorial": "leiðbeiningar",
+    "privacy-guide": "persónuverndarleiðbeiningar"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Svona gerirðu ókeypis hægmynd á iPhone án vatnsmerkis",
       "summary": "Leiðbeiningar skref fyrir skref um að gera mjúka hægmynd á iPhone ókeypis. Gerðu hæga hreyfingu mýkri með FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Getur einhver fundið heimilisfangið þitt út frá mynd eða myndskeiði?",
+      "summary": "Mynd eða myndskeið getur afhjúpað staðsetningu með lýsigögnum, sýnilegum atriðum eða hljóði. Athugaðu allt þrennt og lokaskrána áður en þú deilir."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Persónuvernd Content Credentials: hvað myndin þín deilir",
+      "summary": "Content Credentials geta innihaldið auðkenni, samfélagsmiðlareikninga, breytingasögu og smámyndir heimilda. Skoðaðu það sem fylgir áður en þú deilir mynd."
     }
   }
 }

@@ -10,7 +10,8 @@
     "offline-editing-guide": "Võrguühenduseta töötluse juhend",
     "privacy": "Privaatsus",
     "roundup": "ülevaade",
-    "tutorial": "õpetus"
+    "tutorial": "õpetus",
+    "privacy-guide": "privaatsusjuhend"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Kuidas teha iPhone'is tasuta vesimärgita aegluubivideoid",
       "summary": "Samm-sammuline juhend sujuvate aegluubivideote tasuta tegemiseks iPhone'is. Muuda aegluup FRC abil sujuvamaks."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Kas keegi saab foto või video järgi sinu aadressi leida?",
+      "summary": "Foto või video võib asukoha paljastada metaandmete, nähtavate detailide või heli kaudu. Kontrolli enne jagamist kõiki kolme ja seejärel lõplikku faili."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Content Credentialsi privaatsus: mida sinu foto jagab",
+      "summary": "Content Credentials võib sisaldada identiteeti, sotsiaalmeediakontosid, muutmisajalugu ja lähtepiltide pisipilte. Vaata enne foto jagamist lisatav teave üle."
     }
   }
 }

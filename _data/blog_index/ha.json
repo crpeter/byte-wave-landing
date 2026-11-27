@@ -10,7 +10,8 @@
     "offline-editing-guide": "Jagorar gyara ba tare da intanet ba",
     "privacy": "Sirri",
     "roundup": "bita",
-    "tutorial": "koyarwa"
+    "tutorial": "koyarwa",
+    "privacy-guide": "jagorar keɓantawa"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Yadda ake yin bidiyon motsi a hankali a iPhone kyauta ba tare da alamar ruwa ba",
       "summary": "Jagora mataki-mataki don yin bidiyon motsi a hankali mai santsi a iPhone kyauta. Inganta santsin bidiyon da FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Shin wani zai iya gano adireshinka daga hoto ko bidiyo?",
+      "summary": "Hoto ko bidiyo na iya nuna wurinka ta metadata, abubuwan da ake gani ko sauti. Duba duka ukun kafin rabawa, sannan ka binciki fayil ɗin ƙarshe."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Keɓantawar Content Credentials: abin da hotonka yake rabawa",
+      "summary": "Content Credentials na iya ƙunsar suna da shaida, asusun sada zumunta, tarihin gyara da ƙananan hotunan tushe. Duba abin da kake haɗawa kafin raba hoto."
     }
   }
 }

@@ -14,12 +14,12 @@ strings; existing locales retain their YAML files.
 Gallery, About, Press, Privacy Policy, and Free Expression / Appeals also cover
 all 40 locale variants. The 23 additional locales include the full source text,
 metadata, gallery descriptions, press copy controls, and policy/appeal details.
-Each additional language has a partial blog index with five complete guides:
+Each additional language has a partial blog index with seven complete guides:
 editing without an account, the airplane-mode editing test, private editing without
-cloud uploads, free video editors without watermarks, and free slow-motion editing
-on iPhone. The indexes retain an explicit link to the full English archive.
-Links to available translations stay
-in the selected language; links to untranslated articles use labelled English
+cloud uploads, free video editors without watermarks, free slow-motion editing
+on iPhone, location clues in photos and videos, and Content Credentials privacy.
+The indexes retain an explicit link to the full English archive.
+Links to available translations stay in the selected language; links to untranslated articles use labelled English
 destinations. Language menus and hreflang alternates list only real translations
 of the current page. The sitemap discovers the new pages automatically.
 
@@ -53,11 +53,13 @@ checks do not certify linguistic or legal equivalence. Source policy and press
 fact dates are retained; page modification dates record the translation update.
 
 Run `python3 scripts/test_expanded_blog_guides.py` after building to check the
-23 partial blog indexes and 115 translated articles. It checks source-complete
+23 partial blog indexes and 161 translated articles. It checks source-complete
 article structure, preserved source dates and product links, same-language
 navigation and related reading, labelled English fallbacks, reciprocal language
 alternates, and Arabic RTL. Slow-motion checks also retain all five steps, frame-rate
 examples, and links to the localized FRC tutorial and watermark-free guide.
+Privacy checks preserve source citations, localized metadata/C2PA tutorial links,
+and incoming links from the private-editor guide and location-metadata tutorial.
 The localized secondary-page suite also runs it.
 Editorial source and update dates are retained rather than changed to the
 translation date; commercial-interest and AI-assistance disclosures remain visible.

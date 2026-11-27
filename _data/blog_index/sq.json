@@ -10,7 +10,8 @@
     "offline-editing-guide": "Udhëzues montazhi pa internet",
     "privacy": "Privatësia",
     "roundup": "përmbledhje",
-    "tutorial": "udhëzues"
+    "tutorial": "udhëzues",
+    "privacy-guide": "udhëzues privatësie"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Si të krijoni falas video me lëvizje të ngadaltë në iPhone pa shenjë uji",
       "summary": "Udhëzues hap pas hapi për video të rrjedhshme me lëvizje të ngadaltë në iPhone, falas. Përmirësoni rrjedhshmërinë me FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "A mund ta gjejë dikush adresën tuaj nga një foto ose video?",
+      "summary": "Një foto ose video mund të zbulojë vendndodhjen përmes metadatave, hollësive të dukshme ose zërit. Kontrolloni të tria para ndarjes dhe më pas skedarin përfundimtar."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Privatësia e Content Credentials: çfarë ndan fotoja juaj",
+      "summary": "Content Credentials mund të përfshijnë identitetin, llogaritë sociale, historinë e redaktimit dhe miniaturat e burimeve. Shikoni çfarë bashkëngjitni para se të ndani foton."
     }
   }
 }

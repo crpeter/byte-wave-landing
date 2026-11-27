@@ -15,6 +15,8 @@ SLUGS = (
     'offline-video-editor-airplane-mode-test',
     'best-free-video-editor-no-watermark',
     'slow-motion-video-iphone-free',
+    'can-photos-videos-reveal-your-address',
+    'content-credentials-privacy',
 )
 PRIVATE_SLUG = 'best-video-editor-privacy-no-upload'
 
@@ -72,7 +74,7 @@ def main():
         for slug in SLUGS:
             source = SOURCE / lang / 'blog' / f'{slug}.html'
             translated = Article(body(source))
-            for tag in ('p', 'h2', 'h3', 'li', 'ol', 'strong', 'a'):
+            for tag in ('p', 'h2', 'h3', 'li', 'ol', 'ul', 'strong', 'a'):
                 assert translated.counts[tag] == english[slug].counts[tag], (lang, slug, tag, 'incomplete body')
             assert translated.text != english[slug].text, (lang, slug, 'English body')
             raw = (SITE / lang / 'blog' / f'{slug}.html').read_text()
@@ -95,6 +97,20 @@ def main():
                     assert f'{field}: {match[1]}' in source.read_text(), (lang, slug, 'changed source date')
             if lang == 'ar':
                 assert 'dir="rtl"' in raw.split('<head>')[0], slug
+            if slug in ('can-photos-videos-reveal-your-address', 'content-credentials-privacy'):
+                assert {a['href'] for a in translated.links if a['href'].startswith('https://')} == {
+                    a['href'] for a in english[slug].links if a['href'].startswith('https://')
+                }, (lang, slug, 'changed source citation')
+                article_links = {a.get('href') for a in article.links}
+                assert f'/{lang}/tutorials/remove-location-metadata/' in article_links, (lang, slug, 'English metadata tutorial')
+                assert '/blog/does-removing-metadata-remove-ai-labels.html' in article_links, (lang, slug, 'missing origin-evidence caution')
+                if slug == 'content-credentials-privacy':
+                    assert f'/{lang}/tutorials/check-c2pa-content-credentials/' in article_links, (lang, 'English C2PA tutorial')
+                else:
+                    for relative in ('tutorials/remove-location-metadata/index.html', f'blog/{PRIVATE_SLUG}.html'):
+                        incoming = (SITE / lang / relative).read_text()
+                        assert f'href="/{lang}/blog/{slug}.html"' in incoming, (lang, relative, 'missing localized privacy article')
+                        assert f'href="/blog/{slug}.html"' not in incoming, (lang, relative, 'stale English privacy article')
             if slug == 'slow-motion-video-iphone-free':
                 assert len(re.findall(r'<div class="step">', body(source))) == 5, (lang, 'missing slow-motion step')
                 assert translated.counts['div'] == english[slug].counts['div'], (lang, 'incomplete step/callout structure')

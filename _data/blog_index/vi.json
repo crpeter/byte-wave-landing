@@ -10,7 +10,8 @@
     "offline-editing-guide": "Hướng dẫn chỉnh sửa ngoại tuyến",
     "privacy": "Quyền riêng tư",
     "roundup": "tổng hợp",
-    "tutorial": "hướng dẫn"
+    "tutorial": "hướng dẫn",
+    "privacy-guide": "hướng dẫn quyền riêng tư"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Cách tạo video quay chậm trên iPhone miễn phí, không có hình mờ",
       "summary": "Hướng dẫn từng bước tạo video quay chậm mượt mà trên iPhone miễn phí. Làm chuyển động chậm mượt hơn với FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Người khác có thể tìm ra địa chỉ của bạn từ ảnh hoặc video không?",
+      "summary": "Ảnh hoặc video có thể lộ vị trí qua siêu dữ liệu, chi tiết nhìn thấy hoặc âm thanh. Kiểm tra cả ba trước khi chia sẻ, rồi xem lại tệp cuối cùng."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Quyền riêng tư của Content Credentials: ảnh của bạn chia sẻ gì",
+      "summary": "Content Credentials có thể gồm danh tính, tài khoản xã hội, lịch sử chỉnh sửa và hình thu nhỏ của nguồn. Xem trước nội dung đính kèm trước khi chia sẻ ảnh."
     }
   }
 }

@@ -10,7 +10,8 @@
     "offline-editing-guide": "Οδηγός επεξεργασίας εκτός σύνδεσης",
     "privacy": "Απόρρητο",
     "roundup": "επισκόπηση",
-    "tutorial": "οδηγός"
+    "tutorial": "οδηγός",
+    "privacy-guide": "οδηγός απορρήτου"
   },
   "card_order": [
     {
@@ -33,6 +34,14 @@
     {
       "href": "/blog/slow-motion-video-iphone-free.html",
       "tag": "tutorial"
+    },
+    {
+      "href": "/blog/can-photos-videos-reveal-your-address.html",
+      "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/content-credentials-privacy.html",
+      "tag": "privacy-guide"
     }
   ],
   "cards": {
@@ -55,6 +64,14 @@
     "/blog/slow-motion-video-iphone-free.html": {
       "title": "Πώς να φτιάξετε δωρεάν βίντεο αργής κίνησης στο iPhone χωρίς υδατογράφημα",
       "summary": "Οδηγός βήμα προς βήμα για ομαλά βίντεο αργής κίνησης στο iPhone δωρεάν. Κάντε την αργή κίνηση πιο ομαλή με FRC."
+    },
+    "/blog/can-photos-videos-reveal-your-address.html": {
+      "title": "Μπορεί κάποιος να βρει τη διεύθυνσή σας από φωτογραφία ή βίντεο;",
+      "summary": "Μια φωτογραφία ή ένα βίντεο μπορεί να αποκαλύψει την τοποθεσία μέσω μεταδεδομένων, εικόνας ή ήχου. Ελέγξτε και τα τρία πριν κοινοποιήσετε το τελικό αρχείο."
+    },
+    "/blog/content-credentials-privacy.html": {
+      "title": "Απόρρητο Content Credentials: τι μοιράζεται η φωτογραφία σας",
+      "summary": "Τα Content Credentials μπορούν να περιλαμβάνουν ταυτότητα, κοινωνικούς λογαριασμούς, ιστορικό επεξεργασίας και μικρογραφίες πηγών. Δείτε τι επισυνάπτετε πριν κοινοποιήσετε."
     }
   }
 }
