@@ -43,6 +43,7 @@ const routes = [
  ['facebook-camera-roll-unposted-photos','blog/facebook-camera-roll-unposted-photos.html'],
  ['meta-ai-chats-feed-ads-personalization','blog/meta-ai-chats-feed-ads-personalization.html'],
  ['keep-ai-out-of-the-classroom','blog/keep-ai-out-of-the-classroom.html'],
+ ['google-schools-ai-search-access','blog/google-schools-ai-search-access.html'],
  ['the-ai-teacher-was-wrong','blog/the-ai-teacher-was-wrong.html'],
  ['offline-video-editor-airplane-mode-test','blog/offline-video-editor-airplane-mode-test.html'],
  ['adobe-venezuela-creative-cloud-access','blog/adobe-venezuela-creative-cloud-access.html'],

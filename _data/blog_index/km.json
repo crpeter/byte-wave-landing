@@ -14,6 +14,7 @@
     "privacy-guide": "ការណែនាំអំពីឯកជនភាព",
     "provenance-guide": "មគ្គុទ្ទេសក៍អំពីប្រភពមាតិកា",
     "ai-media": "AI និងប្រព័ន្ធផ្សព្វផ្សាយ",
+    "platform-control-opinion": "ការគ្រប់គ្រងរបស់វេទិកា និងមតិយោបល់",
     "opinion": "មតិ"
   },
   "card_order": [
@@ -22,6 +23,12 @@
       "tag": "opinion",
       "brand": "Anthropic",
       "image": "/assets/brands/anthropic.svg"
+    },
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
     },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
@@ -97,6 +104,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "គ្មានស្លាក AI មិនមានន័យថាវីដេអូជាការថតពិតទេ។",
       "summary": "Facebook បានទុកវីដេអូ deepfake លើអ៊ីនធឺណិតដោយគ្មានស្លាក AI។ ស្វែងយល់ថាហេតុអ្វីការគ្មានស្លាក និង Content Credentials មិនអាចបញ្ជាក់ថាវីដេអូជាការថតពិតបាន។"
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "សាលារៀនបាននិយាយថាទេចំពោះ AI។ Google បានគំរាមកាត់សិទ្ធិស្វែងរករបស់ពួកគេ។",
+      "summary": "ឡូសអេនជឺលេសបិទសេចក្តីសង្ខេប AI ជាបណ្តោះអាសន្ន។ សាលាគួរអាចបដិសេធ AI បង្កើតមាតិកា ដោយមិនបាត់បង់ Google Search។"
     },
     "/blog/anthropic-tegmark-democratic-control.html": {
       "title": "គ្មាននរណាបោះឆ្នោតជ្រើសរើសព្រះម៉ាស៊ីនរបស់អ្នកទេ។",

@@ -158,7 +158,7 @@ print("Verified 17 press kits, 68 copy blocks, source facts, asset links and loc
 
 catalog = json.loads((SOURCE / "_data/blog_sections.json").read_text())
 entries = [entry for section in catalog.values() for entry in section]
-assert len(entries) == 86 and len(catalog) == 5
+assert len(entries) == 87 and len(catalog) == 5
 assert catalog["platforms-creators"][0]["brand"] == "X / Twitter"
 for lang, slug in {"en": "", **LOCALES}.items():
     rendered = (RENDERED / slug / "blog/index.html").read_text()
@@ -330,7 +330,8 @@ article_counts = {
     "whatsapp-ai-support-hidden-instructions": (4, 14, 0),
     "facebook-camera-roll-unposted-photos": (2, 14, 0),
     "meta-ai-chats-feed-ads-personalization": (2, 13, 0),
-    "keep-ai-out-of-the-classroom": (0, 8, 0),
+    "keep-ai-out-of-the-classroom": (0, 9, 0),
+    "google-schools-ai-search-access": (0, 15, 0),
     "the-ai-teacher-was-wrong": (0, 7, 0),
     "meta-ray-ban-glasses-unwanted-recordings": (3, 11, 0),
     "tiktok-ai-avatars-product-ads": (2, 11, 3),

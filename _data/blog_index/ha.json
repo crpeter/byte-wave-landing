@@ -14,6 +14,7 @@
     "privacy-guide": "jagorar keɓantawa",
     "provenance-guide": "Jagorar asalin abun ciki",
     "ai-media": "AI da kafofin watsa labarai",
+    "platform-control-opinion": "Ikon dandamali da ra’ayi",
     "opinion": "Ra’ayi"
   },
   "card_order": [
@@ -22,6 +23,12 @@
       "tag": "opinion",
       "brand": "Anthropic",
       "image": "/assets/brands/anthropic.svg"
+    },
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
     },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
@@ -97,6 +104,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Rashin alamar AI ba yana nufin bidiyon na gaske ba ne.",
       "summary": "Facebook ya bar bidiyon deepfake a yanar gizo ba tare da alamar AI ba. Koyi dalilin da rashin alama ko Content Credentials ba zai tabbatar da cewa bidiyo na gaske ba ne."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Makarantu sun ce a’a ga AI. Google ya yi barazanar hana su amfani da bincike.",
+      "summary": "Los Angeles ta toshe taƙaitawar AI na ɗan lokaci. Ya kamata makarantu su iya ƙin AI mai samar da abun ciki ba tare da rasa Google Search ba."
     },
     "/blog/anthropic-tegmark-democratic-control.html": {
       "title": "Babu wanda ya zaɓi allahn na’urarku.",

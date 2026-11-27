@@ -14,6 +14,7 @@
     "privacy-guide": "hướng dẫn quyền riêng tư",
     "provenance-guide": "Hướng dẫn về nguồn gốc nội dung",
     "ai-media": "AI và truyền thông",
+    "platform-control-opinion": "Quyền kiểm soát của nền tảng và quan điểm",
     "opinion": "Quan điểm"
   },
   "card_order": [
@@ -22,6 +23,12 @@
       "tag": "opinion",
       "brand": "Anthropic",
       "image": "/assets/brands/anthropic.svg"
+    },
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
     },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
@@ -97,6 +104,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Không có nhãn AI không có nghĩa là video thật.",
       "summary": "Facebook đã để một deepfake trực tuyến mà không gắn nhãn AI. Tìm hiểu vì sao thiếu nhãn và Content Credentials không thể chứng minh video là thật."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Các trường nói không với AI. Google đe dọa cắt quyền tìm kiếm của họ.",
+      "summary": "Los Angeles tạm chặn phần tổng quan bằng AI. Trường học phải có quyền từ chối AI tạo sinh mà không mất Google Tìm kiếm."
     },
     "/blog/anthropic-tegmark-democratic-control.html": {
       "title": "Không ai bầu ra vị thần máy móc của các anh.",

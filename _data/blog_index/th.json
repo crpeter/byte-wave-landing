@@ -14,6 +14,7 @@
     "privacy-guide": "คู่มือความเป็นส่วนตัว",
     "provenance-guide": "คู่มือที่มาของเนื้อหา",
     "ai-media": "AI และสื่อ",
+    "platform-control-opinion": "อำนาจควบคุมของแพลตฟอร์มและความคิดเห็น",
     "opinion": "ความคิดเห็น"
   },
   "card_order": [
@@ -22,6 +23,12 @@
       "tag": "opinion",
       "brand": "Anthropic",
       "image": "/assets/brands/anthropic.svg"
+    },
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
     },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
@@ -97,6 +104,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "ไม่มีป้าย AI ไม่ได้แปลว่าวิดีโอเป็นของจริง",
       "summary": "Facebook ปล่อยดีปเฟกไว้บนออนไลน์โดยไม่มีป้าย AI เรียนรู้ว่าทำไมการไม่มีป้ายและ Content Credentials จึงพิสูจน์ไม่ได้ว่าวิดีโอเป็นของจริง"
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "โรงเรียนปฏิเสธ AI แล้ว Google ก็ขู่จะตัดสิทธิ์การค้นหา",
+      "summary": "ลอสแอนเจลิสปิดภาพรวมโดย AI ชั่วคราว โรงเรียนควรปฏิเสธ AI สร้างเนื้อหาได้โดยไม่เสียสิทธิ์ใช้ Google Search"
     },
     "/blog/anthropic-tegmark-democratic-control.html": {
       "title": "ไม่มีใครเลือกเทพจักรกลของพวกคุณมาปกครอง",

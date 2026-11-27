@@ -320,6 +320,12 @@
       "image": "/assets/brands/anthropic.svg"
     },
     {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
+    {
       "href": "/blog/california-openai-agent-testing-lawsuit.html",
       "tag": "platform-control-opinion",
       "brand": "OpenAI",

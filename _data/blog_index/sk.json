@@ -14,6 +14,7 @@
     "privacy-guide": "sprievodca súkromím",
     "provenance-guide": "Sprievodca pôvodom obsahu",
     "ai-media": "AI a médiá",
+    "platform-control-opinion": "Kontrola platforiem a názor",
     "opinion": "Názor"
   },
   "card_order": [
@@ -22,6 +23,12 @@
       "tag": "opinion",
       "brand": "Anthropic",
       "image": "/assets/brands/anthropic.svg"
+    },
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
     },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
@@ -97,6 +104,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Chýbajúce označenie AI neznamená, že je video skutočné.",
       "summary": "Facebook ponechal deepfake online bez označenia AI. Zistite, prečo chýbajúce označenia a Content Credentials nemôžu dokázať, že je video skutočné."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Školy povedali AI nie. Google im pohrozil stratou prístupu k vyhľadávaniu.",
+      "summary": "Los Angeles dočasne blokuje prehľady od AI. Školy by mali mať možnosť odmietnuť generatívnu AI bez straty vyhľadávania Google."
     },
     "/blog/anthropic-tegmark-democratic-control.html": {
       "title": "Vášho strojového boha nikto nezvolil.",
