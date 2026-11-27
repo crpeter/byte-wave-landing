@@ -13,9 +13,16 @@
     "tutorial": "упатство",
     "privacy-guide": "водич за приватност",
     "provenance-guide": "Водич за потеклото на содржината",
-    "ai-media": "ВИ и медиуми"
+    "ai-media": "ВИ и медиуми",
+    "platform-control-opinion": "Контрола на платформите и мислење"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Немањето ознака за ВИ не значи дека видеото е вистинско.",
       "summary": "Facebook остави дипфејк на интернет без ознака за ВИ. Дознајте зошто недостигот на ознаки и Content Credentials не докажува дека видеото е вистинско."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Училиштата рекоа не на ВИ. Google им се закани со губење на пристапот до пребарување.",
+      "summary": "Лос Анџелес привремено ги блокира резимеата со ВИ. Училиштата треба да можат да одбијат генеративна ВИ без да го изгубат Google Search."
     }
   }
 }

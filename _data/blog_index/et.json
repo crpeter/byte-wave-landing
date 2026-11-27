@@ -13,9 +13,16 @@
     "tutorial": "õpetus",
     "privacy-guide": "privaatsusjuhend",
     "provenance-guide": "Sisu päritolu juhend",
-    "ai-media": "Tehisintellekt ja meedia"
+    "ai-media": "Tehisintellekt ja meedia",
+    "platform-control-opinion": "Platvormide kontroll ja arvamus"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Tehisintellekti märgise puudumine ei tähenda, et video on päris.",
       "summary": "Facebook jättis süvavõltsingu veebi ilma tehisintellekti märgiseta. Loe, miks puuduvad märgised ja Content Credentialsi päritolutõendid ei tõesta video ehtsust."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Koolid ütlesid tehisarule ei. Google ähvardas nende otsingule ligipääsu sulgeda.",
+      "summary": "Los Angeles blokeerib ajutiselt tehisaru ülevaated. Koolid peaksid saama generatiivsest tehisarust keelduda Google’i otsingut kaotamata."
     }
   }
 }

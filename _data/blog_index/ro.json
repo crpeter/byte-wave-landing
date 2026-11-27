@@ -13,9 +13,16 @@
     "tutorial": "tutorial",
     "privacy-guide": "ghid de confidențialitate",
     "provenance-guide": "Ghid despre proveniență",
-    "ai-media": "AI și media"
+    "ai-media": "AI și media",
+    "platform-control-opinion": "Controlul platformelor și opinie"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Lipsa etichetei AI nu înseamnă că videoclipul este real.",
       "summary": "Facebook a lăsat un deepfake online fără etichetă AI. Află de ce lipsa etichetelor și a Content Credentials nu poate dovedi că un videoclip este real."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Școlile au spus nu inteligenței artificiale. Google le-a amenințat accesul la căutare.",
+      "summary": "Los Angeles blochează temporar rezumatele AI. Școlile ar trebui să poată refuza AI generativă fără să piardă Căutarea Google."
     }
   }
 }

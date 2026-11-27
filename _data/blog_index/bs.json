@@ -13,9 +13,16 @@
     "tutorial": "uputstvo",
     "privacy-guide": "vodič za privatnost",
     "provenance-guide": "Vodič za porijeklo sadržaja",
-    "ai-media": "AI i mediji"
+    "ai-media": "AI i mediji",
+    "platform-control-opinion": "Kontrola platformi i mišljenje"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Bez AI oznake ne znači da je video stvaran.",
       "summary": "Facebook je ostavio deepfake online bez AI oznake. Saznajte zašto nedostatak oznaka i Content Credentials ne može dokazati da je video stvaran."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Škole su rekle ne umjetnoj inteligenciji. Google im je zaprijetio ukidanjem pristupa pretrazi.",
+      "summary": "Los Angeles privremeno blokira AI sažetke. Škole bi trebale moći odbiti generativnu umjetnu inteligenciju bez gubitka Google pretrage."
     }
   }
 }

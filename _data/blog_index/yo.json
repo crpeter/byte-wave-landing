@@ -13,9 +13,16 @@
     "tutorial": "ìtọ́sọ́nà",
     "privacy-guide": "ìtọ́sọ́nà àṣírí",
     "provenance-guide": "Ìtọ́sọ́nà nípa orísun àkóónú",
-    "ai-media": "AI àti àwọn ilé iṣẹ́ ìròyìn"
+    "ai-media": "AI àti àwọn ilé iṣẹ́ ìròyìn",
+    "platform-control-opinion": "Ìṣàkóso àwọn pẹpẹ àti èrò"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Àìsí àmì AI kò túmọ̀ sí pé fídíò náà jẹ́ òtítọ́.",
       "summary": "Facebook fi deepfake sílẹ̀ lórí ayélujára láìsí àmì AI. Mọ ìdí tí àìsí àmì àti Content Credentials kò fi lè jẹ́ ẹ̀rí pé fídíò jẹ́ òtítọ́."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Àwọn ilé ẹ̀kọ́ sọ pé àwọn kò fẹ́ AI. Google sì halẹ̀ láti gé ọ̀nà ìwádìí wọn kúrò.",
+      "summary": "Los Angeles ti dá àkótán AI dúró fún ìgbà díẹ̀. Ilé ẹ̀kọ́ yẹ kí ó lè kọ AI tí ń dá àkóónú sílẹ̀ láì pàdánù Google Search."
     }
   }
 }

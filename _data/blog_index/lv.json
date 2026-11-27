@@ -13,9 +13,16 @@
     "tutorial": "pamācība",
     "privacy-guide": "privātuma ceļvedis",
     "provenance-guide": "Satura izcelsmes ceļvedis",
-    "ai-media": "MI un mediji"
+    "ai-media": "MI un mediji",
+    "platform-control-opinion": "Platformu kontrole un viedoklis"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "MI marķējuma trūkums nenozīmē, ka video ir īsts.",
       "summary": "Facebook atstāja dziļviltojumu internetā bez MI marķējuma. Uzziniet, kāpēc marķējuma un Content Credentials trūkums nevar pierādīt, ka video ir īsts."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Skolas teica mākslīgajam intelektam nē. Google draudēja liegt tām piekļuvi meklēšanai.",
+      "summary": "Losandželosa īslaicīgi bloķē MI kopsavilkumus. Skolām jāvar atteikties no ģeneratīvā MI, nezaudējot Google meklēšanu."
     }
   }
 }

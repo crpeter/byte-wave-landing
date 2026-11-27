@@ -13,9 +13,16 @@
     "tutorial": "udhëzues",
     "privacy-guide": "udhëzues privatësie",
     "provenance-guide": "Udhëzues për prejardhjen e përmbajtjes",
-    "ai-media": "AI dhe media"
+    "ai-media": "AI dhe media",
+    "platform-control-opinion": "Kontrolli i platformave dhe opinion"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Mungesa e etiketës AI nuk do të thotë se videoja është reale.",
       "summary": "Facebook la një deepfake në internet pa etiketë AI. Mësoni pse mungesa e etiketave dhe e Content Credentials nuk provon se një video është reale."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Shkollat i thanë jo AI-së. Google kërcënoi t’u hiqte qasjen në kërkim.",
+      "summary": "Los Angeles bllokon përkohësisht përmbledhjet me AI. Shkollat duhet të mund ta refuzojnë AI-në gjeneruese pa humbur Google Search."
     }
   }
 }

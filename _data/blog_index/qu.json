@@ -13,9 +13,16 @@
     "tutorial": "yachachiy",
     "privacy-guide": "sapanchasqa willakuypaq yachachiy",
     "provenance-guide": "Maymanta hamusqanmanta yachachiq",
-    "ai-media": "AI hinaspa willakuykuna"
+    "ai-media": "AI hinaspa willakuykuna",
+    "platform-control-opinion": "Plataformakunapa kamachiynin hinaspa yuyay"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "AI etiqueta mana kaptinpas, videoqa manam chiqaq kananpaqchu.",
       "summary": "Facebook huk deepfake videota internetpi saqirqan, AI etiquetayuq mana kaspa. Yachay imaraykuchus etiqueta utaq Content Credentials mana kasqanqa videopa chiqaq kasqanta mana rikuchinchu."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Yachaywasikuna AI-ta mana munarqankuchu. Google maskayta qichunankunawan mancharichirqan.",
+      "summary": "Los Angelesqa AI pisiyachisqa willakuykunata wak pachallapaq hark'an. Yachaywasikunaqa Google Searchta mana chinkachispa AI generativota mana chaskiyta atinan."
     }
   }
 }

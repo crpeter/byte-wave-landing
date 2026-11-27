@@ -13,9 +13,16 @@
     "tutorial": "pamoka",
     "privacy-guide": "privatumo vadovas",
     "provenance-guide": "Turinio kilmės vadovas",
-    "ai-media": "DI ir medijos"
+    "ai-media": "DI ir medijos",
+    "platform-control-opinion": "Platformų kontrolė ir nuomonė"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "DI žymos nebuvimas nereiškia, kad vaizdo įrašas tikras.",
       "summary": "Facebook paliko sintetinę vaizdo klastotę internete be DI žymos. Sužinokite, kodėl žymų ir Content Credentials nebuvimas neįrodo vaizdo įrašo tikrumo."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Mokyklos pasakė „ne“ dirbtiniam intelektui. „Google“ pagrasino atimti jų prieigą prie paieškos.",
+      "summary": "Los Andželas laikinai blokuoja DI apžvalgas. Mokyklos turėtų galėti atsisakyti generatyvinio DI neprarasdamos „Google“ paieškos."
     }
   }
 }

@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Hvem betaler hvis KI-boomen ikke lønner seg?",
       "summary": "Oracles finansiering, Feds bekymringer om KI-gjeld og hedgefondtap viser risikoene bak KI-utbyggingen. Hva rapportene dokumenterer."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Skolene sa nei til KI. Google truet med å stenge søketilgangen.",
+      "summary": "Los Angeles blokkerer KI-sammendrag midlertidig. Skoler bør kunne si nei til generativ KI uten å miste Google Søk."
     }
   }
 }

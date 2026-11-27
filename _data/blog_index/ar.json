@@ -13,9 +13,16 @@
     "tutorial": "دليل تعليمي",
     "privacy-guide": "دليل الخصوصية",
     "provenance-guide": "دليل إثبات المصدر",
-    "ai-media": "وسائط الذكاء الاصطناعي"
+    "ai-media": "وسائط الذكاء الاصطناعي",
+    "platform-control-opinion": "تحكّم المنصات ورأي"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "غياب تسمية الذكاء الاصطناعي لا يعني أن الفيديو حقيقي.",
       "summary": "أبقى Facebook فيديو مزيفًا بتقنية التزييف العميق دون تسمية للذكاء الاصطناعي. تعرّف على سبب عدم اعتبار غياب التسميات وبيانات اعتماد المحتوى دليلًا على أن الفيديو حقيقي."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "قالت المدارس لا للذكاء الاصطناعي. فهددت Google وصولها إلى البحث.",
+      "summary": "تعطّل لوس أنجلوس ملخصات الذكاء الاصطناعي مؤقتًا. يجب أن تتمكن المدارس من رفض الذكاء الاصطناعي التوليدي دون خسارة بحث Google."
     }
   }
 }

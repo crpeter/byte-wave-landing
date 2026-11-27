@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "AIブームが利益を生まなければ、誰が払うのか。",
       "summary": "Oracleの資金調達、FRBのAI債務への懸念、ヘッジファンドの損失。AIインフラ拡張の財務リスクについて報道が示すこと。"
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "学校はAIにノーと言った。Googleは検索へのアクセス停止を持ち出した。",
+      "summary": "ロサンゼルスの学校区がAIによる概要を一時的に無効化。学校はGoogle検索を失うことなく生成AIを断れるべきです。"
     }
   }
 }

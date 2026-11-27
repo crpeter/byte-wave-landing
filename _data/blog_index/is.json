@@ -13,9 +13,16 @@
     "tutorial": "leiðbeiningar",
     "privacy-guide": "persónuverndarleiðbeiningar",
     "provenance-guide": "Leiðarvísir um uppruna efnis",
-    "ai-media": "Gervigreind og miðlar"
+    "ai-media": "Gervigreind og miðlar",
+    "platform-control-opinion": "Stjórn vettvanga og skoðun"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Engin gervigreindarmerking þýðir ekki að myndbandið sé raunverulegt.",
       "summary": "Facebook lét djúpfölsun vera á netinu án gervigreindarmerkingar. Lestu hvers vegna vöntun á merkingum og Content Credentials sannar ekki að myndband sé raunverulegt."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Skólar sögðu nei við gervigreind. Google hótaði að loka á leit þeirra.",
+      "summary": "Los Angeles lokar tímabundið á samantektir gervigreindar. Skólar eiga að geta hafnað skapandi gervigreind án þess að missa Google-leit."
     }
   }
 }

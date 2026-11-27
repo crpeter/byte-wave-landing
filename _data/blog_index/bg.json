@@ -13,9 +13,16 @@
     "tutorial": "урок",
     "privacy-guide": "ръководство за поверителност",
     "provenance-guide": "Ръководство за произхода",
-    "ai-media": "ИИ и медии"
+    "ai-media": "ИИ и медии",
+    "platform-control-opinion": "Контрол на платформите и мнение"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Липсата на етикет за ИИ не означава, че видеото е истинско.",
       "summary": "Facebook остави дийпфейк онлайн без етикет за ИИ. Научете защо липсващи етикети и Content Credentials не могат да докажат, че видеото е истинско."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Училищата казаха „не“ на ИИ. Google заплаши достъпа им до търсене.",
+      "summary": "Лос Анджелис временно блокира обобщенията с ИИ. Училищата трябва да могат да отказват генеративен ИИ, без да губят Google Търсене."
     }
   }
 }

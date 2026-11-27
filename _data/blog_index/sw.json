@@ -13,9 +13,16 @@
     "tutorial": "mafunzo",
     "privacy-guide": "mwongozo wa faragha",
     "provenance-guide": "Mwongozo wa asili ya maudhui",
-    "ai-media": "AI na vyombo vya habari"
+    "ai-media": "AI na vyombo vya habari",
+    "platform-control-opinion": "Udhibiti wa majukwaa na maoni"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Kutokuwa na lebo ya AI hakumaanishi video ni halisi.",
       "summary": "Facebook iliacha deepfake mtandaoni bila lebo ya AI. Jifunze kwa nini kukosekana kwa lebo na Content Credentials hakuwezi kuthibitisha video ni halisi."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Shule zilikataa AI. Google ikatishia kuzinyima huduma ya utafutaji.",
+      "summary": "Los Angeles inazuia muhtasari wa AI kwa muda. Shule zinapaswa kuweza kukataa AI zalishi bila kupoteza Google Search."
     }
   }
 }

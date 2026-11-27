@@ -385,6 +385,10 @@
     "/blog/ai-investment-oracle-fed-hedge-fund-risk.html": {
       "title": "Kuka maksaa, jos tekoälybuumi ei kannata?",
       "summary": "Oraclen rahoitus, Fedin tekoälyvelkahuolet ja hedge-rahastojen tappiot kertovat tekoälyrakentamisen taloudellisista riskeistä."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Koulut sanoivat tekoälylle ei. Google uhkasi viedä hakupalvelun.",
+      "summary": "Los Angeles estää tekoälykoosteet väliaikaisesti. Koulujen pitäisi voida kieltäytyä generatiivisesta tekoälystä menettämättä Google-hakua."
     }
   }
 }

@@ -1,4 +1,4 @@
-/* Browser checks for the 115 additional company, policy, press and gallery pages. */
+/* Browser checks for additional company, policy, press, gallery and blog pages. */
 const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
@@ -6,7 +6,8 @@ const { chromium } = require('playwright');
 const root = path.resolve(__dirname, '..');
 const languages = JSON.parse(fs.readFileSync(path.join(root, '_data/expanded_languages.json'), 'utf8'));
 const base = process.env.SITE_URL || 'http://127.0.0.1:8765';
-const routes = ['about.html', 'privacy.html', 'free-expression.html', 'press.html', 'gallery/'];
+const footerRoutes = ['about.html', 'privacy.html', 'free-expression.html', 'press.html', 'gallery/'];
+const routes = [...footerRoutes, 'blog/google-schools-ai-search-access.html'];
 const mobileSamples = new Set(['ar', 'cs', 'km', 'th', 'vi']);
 const output = path.join(root, 'qa-secondary/expanded');
 fs.mkdirSync(output, { recursive: true });
@@ -41,7 +42,7 @@ fs.mkdirSync(output, { recursive: true });
           assert.equal(state.h1Count, 1, url);
           assert.ok(state.headings.every(Boolean), `${url}: empty heading`);
           assert.ok(languages.every(code => state.alternates.includes(code)), `${url}: alternates`);
-          for (const destination of routes) assert.ok(state.footer.includes(`/${lang}/${destination}`), `${url}: ${destination}`);
+          for (const destination of footerRoutes) assert.ok(state.footer.includes(`/${lang}/${destination}`), `${url}: ${destination}`);
           if (route === 'press.html') {
             assert.equal(await page.locator('button.copy').count(), 4, url);
             await page.locator('button.copy').first().click();
@@ -52,7 +53,7 @@ fs.mkdirSync(output, { recursive: true });
             assert.equal(await page.locator('main video[data-bw-labels]').count(), 13, url);
             assert.equal(await page.locator('main figcaption').count(), 13, url);
           }
-          if (width === 390 && ['press.html', 'gallery/'].includes(route)) {
+          if (width === 390 && ['press.html', 'gallery/', 'blog/google-schools-ai-search-access.html'].includes(route)) {
             await page.screenshot({ path: path.join(output, `${lang}-${route.replace(/[^a-z]/g, '-')}.png`), fullPage: true });
           }
           checked++;

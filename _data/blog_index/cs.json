@@ -13,9 +13,16 @@
     "tutorial": "návod",
     "privacy-guide": "průvodce soukromím",
     "provenance-guide": "Průvodce původem obsahu",
-    "ai-media": "AI a média"
+    "ai-media": "AI a média",
+    "platform-control-opinion": "Kontrola platforem a názor"
   },
   "card_order": [
+    {
+      "href": "/blog/google-schools-ai-search-access.html",
+      "tag": "platform-control-opinion",
+      "brand": "Google",
+      "image": "/assets/brands/google.svg"
+    },
     {
       "href": "/blog/edit-videos-no-account-iphone.html",
       "tag": "guide"
@@ -90,6 +97,10 @@
     "/blog/no-ai-label-does-not-mean-real.html": {
       "title": "Chybějící označení AI neznamená, že je video skutečné.",
       "summary": "Facebook ponechal deepfake online bez označení AI. Zjistěte, proč chybějící označení ani Content Credentials nemohou prokázat, že je video skutečné."
+    },
+    "/blog/google-schools-ai-search-access.html": {
+      "title": "Školy řekly AI ne. Google jim pohrozil ztrátou přístupu k vyhledávání.",
+      "summary": "Los Angeles dočasně blokuje přehledy od AI. Školy by měly mít možnost odmítnout generativní AI bez ztráty vyhledávání Google."
     }
   }
 }
