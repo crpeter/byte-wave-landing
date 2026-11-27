@@ -11,7 +11,8 @@
     "privacy": "ความเป็นส่วนตัว",
     "roundup": "รวมตัวเลือก",
     "tutorial": "บทสอน",
-    "privacy-guide": "คู่มือความเป็นส่วนตัว"
+    "privacy-guide": "คู่มือความเป็นส่วนตัว",
+    "provenance-guide": "คู่มือที่มาของเนื้อหา"
   },
   "card_order": [
     {
@@ -42,6 +43,10 @@
     {
       "href": "/blog/content-credentials-privacy.html",
       "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/does-removing-metadata-remove-ai-labels.html",
+      "tag": "provenance-guide"
     }
   ],
   "cards": {
@@ -72,6 +77,10 @@
     "/blog/content-credentials-privacy.html": {
       "title": "ความเป็นส่วนตัวของ Content Credentials: รูปของคุณแชร์อะไรบ้าง",
       "summary": "Content Credentials อาจมีตัวตน บัญชีโซเชียล ประวัติการแก้ไข และภาพย่อของต้นทาง ดูสิ่งที่แนบไว้ก่อนแชร์รูป"
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "ลบข้อมูลเมตาแล้ว ป้าย AI จะหายไปด้วยไหม?",
+      "summary": "การลบข้อมูลเมตาอาจกระทบ Content Credentials แบบ C2PA ที่ฝังอยู่ในไฟล์ ทำความเข้าใจความต่างระหว่างข้อมูลเมตา ลายน้ำที่มองเห็น และป้าย AI ของแพลตฟอร์ม"
     }
   }
 }

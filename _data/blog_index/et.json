@@ -11,7 +11,8 @@
     "privacy": "Privaatsus",
     "roundup": "ülevaade",
     "tutorial": "õpetus",
-    "privacy-guide": "privaatsusjuhend"
+    "privacy-guide": "privaatsusjuhend",
+    "provenance-guide": "Sisu päritolu juhend"
   },
   "card_order": [
     {
@@ -42,6 +43,10 @@
     {
       "href": "/blog/content-credentials-privacy.html",
       "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/does-removing-metadata-remove-ai-labels.html",
+      "tag": "provenance-guide"
     }
   ],
   "cards": {
@@ -72,6 +77,10 @@
     "/blog/content-credentials-privacy.html": {
       "title": "Content Credentialsi privaatsus: mida sinu foto jagab",
       "summary": "Content Credentials võib sisaldada identiteeti, sotsiaalmeediakontosid, muutmisajalugu ja lähtepiltide pisipilte. Vaata enne foto jagamist lisatav teave üle."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Kas metaandmete eemaldamine eemaldab ka tehisintellekti märgised?",
+      "summary": "Metaandmete eemaldamine võib mõjutada manustatud C2PA Content Credentialsi päritolutõendeid. Erista faili metaandmeid, nähtavaid vesimärke ja platvormide tehisintellekti märgiseid."
     }
   }
 }
