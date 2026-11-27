@@ -9,7 +9,8 @@
     "guide": "Juhend",
     "offline-editing-guide": "Võrguühenduseta töötluse juhend",
     "privacy": "Privaatsus",
-    "roundup": "ülevaade"
+    "roundup": "ülevaade",
+    "tutorial": "õpetus"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Parim tasuta vesimärgita videotöötlusprogramm 2026. aastal",
       "summary": "ByteWave'i ülevaade koos ärihuvi avalikustamisega: programmid, mis ei lisa tavalisel eksportimisel oma vesimärki, sealhulgas ByteWave, DaVinci Resolve ja iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Kuidas teha iPhone'is tasuta vesimärgita aegluubivideoid",
+      "summary": "Samm-sammuline juhend sujuvate aegluubivideote tasuta tegemiseks iPhone'is. Muuda aegluup FRC abil sujuvamaks."
     }
   }
 }

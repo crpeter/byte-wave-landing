@@ -9,7 +9,8 @@
     "guide": "មគ្គុទ្ទេសក៍",
     "offline-editing-guide": "មគ្គុទ្ទេសក៍កាត់តដោយគ្មានអ៊ីនធឺណិត",
     "privacy": "ឯកជនភាព",
-    "roundup": "ការប្រៀបធៀប"
+    "roundup": "ការប្រៀបធៀប",
+    "tutorial": "ការណែនាំ"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "កម្មវិធីកែវីដេអូឥតគិតថ្លៃល្អបំផុតដែលគ្មានសញ្ញាសម្គាល់នៅឆ្នាំ 2026",
       "summary": "ការប្រៀបធៀបរបស់ ByteWave ដែលបង្ហាញផលប្រយោជន៍ពាណិជ្ជកម្មរបស់ខ្លួន អំពីកម្មវិធីដែលមិនបន្ថែមសញ្ញាសម្គាល់លើការនាំចេញធម្មតា រួមមាន ByteWave, DaVinci Resolve និង iMovie។"
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "របៀបបង្កើតវីដេអូចលនាយឺតលើ iPhone ឥតគិតថ្លៃ ដោយគ្មានសញ្ញាសម្គាល់",
+      "summary": "ការណែនាំជាជំហានៗសម្រាប់បង្កើតវីដេអូចលនាយឺតរលូនលើ iPhone ឥតគិតថ្លៃ។ ធ្វើឱ្យចលនាយឺតរលូនជាងមុនដោយប្រើ FRC។"
     }
   }
 }

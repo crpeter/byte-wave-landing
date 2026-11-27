@@ -9,7 +9,8 @@
     "guide": "Jagora",
     "offline-editing-guide": "Jagorar gyara ba tare da intanet ba",
     "privacy": "Sirri",
-    "roundup": "bita"
+    "roundup": "bita",
+    "tutorial": "koyarwa"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Mafi kyawun manhajar gyaran bidiyo kyauta ba tare da alamar ruwa ba a 2026",
       "summary": "Kwatancen ByteWave da ya bayyana muradinsa na kasuwanci: manhajojin da ba sa ƙara alamarsu ga fitarwa ta yau da kullum, ciki har da ByteWave, DaVinci Resolve da iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Yadda ake yin bidiyon motsi a hankali a iPhone kyauta ba tare da alamar ruwa ba",
+      "summary": "Jagora mataki-mataki don yin bidiyon motsi a hankali mai santsi a iPhone kyauta. Inganta santsin bidiyon da FRC."
     }
   }
 }

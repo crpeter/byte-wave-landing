@@ -9,7 +9,8 @@
     "guide": "Návod",
     "offline-editing-guide": "Návod na úpravy offline",
     "privacy": "Súkromie",
-    "roundup": "prehľad"
+    "roundup": "prehľad",
+    "tutorial": "návod"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Najlepší bezplatný videoeditor bez vodoznaku v roku 2026",
       "summary": "Prehľad od ByteWave s priznaným obchodným záujmom: editory, ktoré pri bežnom exporte nepridávajú vlastný vodoznak, vrátane ByteWave, DaVinci Resolve a iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Ako zadarmo vytvoriť spomalené videá na iPhone bez vodoznaku",
+      "summary": "Podrobný návod na plynulé spomalené videá na iPhone zadarmo. Zjemnite spomalené zábery pomocou FRC."
     }
   }
 }

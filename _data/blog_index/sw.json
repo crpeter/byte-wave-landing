@@ -9,7 +9,8 @@
     "guide": "Mwongozo",
     "offline-editing-guide": "Mwongozo wa kuhariri bila intaneti",
     "privacy": "Faragha",
-    "roundup": "muhtasari"
+    "roundup": "muhtasari",
+    "tutorial": "mafunzo"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Kihariri bora cha video cha bure bila alama ya maji mwaka 2026",
       "summary": "Muhtasari wa ByteWave unaoweka wazi maslahi yake ya kibiashara kuhusu vihariri visivyoongeza alama zao kwenye video za kawaida zinazohamishwa, vikiwemo ByteWave, DaVinci Resolve na iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Jinsi ya kutengeneza video za mwendo wa polepole kwenye iPhone bure bila alama ya maji",
+      "summary": "Mwongozo wa hatua kwa hatua wa video laini za mwendo wa polepole kwenye iPhone bure. Boresha ulaini wa mwendo kwa FRC."
     }
   }
 }

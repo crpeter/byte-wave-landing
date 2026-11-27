@@ -9,7 +9,8 @@
     "guide": "دليل",
     "offline-editing-guide": "دليل التحرير دون اتصال",
     "privacy": "الخصوصية",
-    "roundup": "مقارنة"
+    "roundup": "مقارنة",
+    "tutorial": "دليل تعليمي"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "أفضل محرر فيديو مجاني دون علامة مائية في 2026",
       "summary": "مقارنة من ByteWave مع الإفصاح عن مصلحتها التجارية لمحررات لا تضيف علامة مائية إلى التصدير العادي، ومنها ByteWave وDaVinci Resolve وiMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "كيفية إنشاء فيديوهات بالحركة البطيئة على iPhone مجانًا دون علامة مائية",
+      "summary": "دليل خطوة بخطوة لإنشاء فيديوهات حركة بطيئة سلسة على iPhone مجانًا. اجعل الحركة البطيئة أكثر سلاسة باستخدام FRC."
     }
   }
 }

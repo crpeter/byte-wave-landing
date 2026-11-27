@@ -9,7 +9,8 @@
     "guide": "Ръководство",
     "offline-editing-guide": "Ръководство за офлайн редактиране",
     "privacy": "Поверителност",
-    "roundup": "сравнение"
+    "roundup": "сравнение",
+    "tutorial": "урок"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Най-добрият безплатен видеоредактор без воден знак през 2026 г.",
       "summary": "Сравнение от ByteWave с обявен търговски интерес на редактори, които не добавят свой воден знак при стандартен експорт, включително ByteWave, DaVinci Resolve и iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Как да правите забавени видеоклипове на iPhone безплатно и без воден знак",
+      "summary": "Ръководство стъпка по стъпка за плавни забавени видеоклипове на iPhone безплатно. Направете забавения каданс по-плавен с FRC."
     }
   }
 }

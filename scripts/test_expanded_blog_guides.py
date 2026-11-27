@@ -14,6 +14,7 @@ SLUGS = (
     'edit-videos-no-account-iphone',
     'offline-video-editor-airplane-mode-test',
     'best-free-video-editor-no-watermark',
+    'slow-motion-video-iphone-free',
 )
 PRIVATE_SLUG = 'best-video-editor-privacy-no-upload'
 
@@ -94,6 +95,15 @@ def main():
                     assert f'{field}: {match[1]}' in source.read_text(), (lang, slug, 'changed source date')
             if lang == 'ar':
                 assert 'dir="rtl"' in raw.split('<head>')[0], slug
+            if slug == 'slow-motion-video-iphone-free':
+                assert len(re.findall(r'<div class="step">', body(source))) == 5, (lang, 'missing slow-motion step')
+                assert translated.counts['div'] == english[slug].counts['div'], (lang, 'incomplete step/callout structure')
+                for value in ('120', '240', '30', '15', 'FRC'):
+                    assert value in ''.join(translated.text), (lang, 'missing frame-rate guidance', value)
+                article_links = {a.get('href') for a in article.links}
+                for target in ('tutorials/frame-rate-conversion/', 'blog/best-free-video-editor-no-watermark.html', '#download'):
+                    assert f'/{lang}/{target}' in article_links, (lang, 'English related destination', target)
+                assert '/blog/video-editing-app-comparison-2026.html' in article_links, (lang, 'missing comparison fallback')
             if slug == 'best-free-video-editor-no-watermark':
                 assert {a['href'] for a in translated.links if a['href'].startswith('https://')} == {
                     a['href'] for a in english[slug].links if a['href'].startswith('https://')

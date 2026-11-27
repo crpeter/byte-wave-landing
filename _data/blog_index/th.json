@@ -9,7 +9,8 @@
     "guide": "คู่มือ",
     "offline-editing-guide": "คู่มือตัดต่อแบบออฟไลน์",
     "privacy": "ความเป็นส่วนตัว",
-    "roundup": "รวมตัวเลือก"
+    "roundup": "รวมตัวเลือก",
+    "tutorial": "บทสอน"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "แอปตัดต่อวิดีโอฟรีที่ดีที่สุดแบบไม่มีลายน้ำในปี 2026",
       "summary": "บทเปรียบเทียบจาก ByteWave ที่เปิดเผยผลประโยชน์ทางการค้า ครอบคลุมแอปที่ไม่ใส่ลายน้ำของแอปในการส่งออกทั่วไป เช่น ByteWave, DaVinci Resolve และ iMovie"
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "วิธีทำวิดีโอสโลว์โมชันบน iPhone ฟรีโดยไม่มีลายน้ำ",
+      "summary": "คู่มือทีละขั้นตอนสำหรับสร้างวิดีโอสโลว์โมชันที่ลื่นไหลบน iPhone ฟรี เพิ่มความลื่นไหลของสโลว์โมชันด้วย FRC"
     }
   }
 }

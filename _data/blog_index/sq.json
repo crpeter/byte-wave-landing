@@ -9,7 +9,8 @@
     "guide": "Udhëzues",
     "offline-editing-guide": "Udhëzues montazhi pa internet",
     "privacy": "Privatësia",
-    "roundup": "përmbledhje"
+    "roundup": "përmbledhje",
+    "tutorial": "udhëzues"
   },
   "card_order": [
     {
@@ -28,6 +29,10 @@
     {
       "href": "/blog/best-free-video-editor-no-watermark.html",
       "tag": "roundup"
+    },
+    {
+      "href": "/blog/slow-motion-video-iphone-free.html",
+      "tag": "tutorial"
     }
   ],
   "cards": {
@@ -46,6 +51,10 @@
     "/blog/best-free-video-editor-no-watermark.html": {
       "title": "Redaktuesi më i mirë falas i videove pa shenjë uji në vitin 2026",
       "summary": "Një përmbledhje nga ByteWave me interesin tregtar të deklaruar: redaktues që nuk shtojnë shenjën e tyre në eksportet standarde, përfshirë ByteWave, DaVinci Resolve dhe iMovie."
+    },
+    "/blog/slow-motion-video-iphone-free.html": {
+      "title": "Si të krijoni falas video me lëvizje të ngadaltë në iPhone pa shenjë uji",
+      "summary": "Udhëzues hap pas hapi për video të rrjedhshme me lëvizje të ngadaltë në iPhone, falas. Përmirësoni rrjedhshmërinë me FRC."
     }
   }
 }
