@@ -11,7 +11,8 @@
     "privacy": "Privatnost",
     "roundup": "pregled",
     "tutorial": "vodič",
-    "privacy-guide": "vodič za privatnost"
+    "privacy-guide": "vodič za privatnost",
+    "provenance-guide": "Vodič za podrijetlo sadržaja"
   },
   "card_order": [
     {
@@ -42,6 +43,10 @@
     {
       "href": "/blog/content-credentials-privacy.html",
       "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/does-removing-metadata-remove-ai-labels.html",
+      "tag": "provenance-guide"
     }
   ],
   "cards": {
@@ -72,6 +77,10 @@
     "/blog/content-credentials-privacy.html": {
       "title": "Privatnost Content Credentials: što vaša fotografija dijeli",
       "summary": "Content Credentials mogu sadržavati identitet, društvene račune, povijest uređivanja i sličice izvora. Pregledajte što prilažete prije dijeljenja fotografije."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Uklanja li brisanje metapodataka i oznake umjetne inteligencije?",
+      "summary": "Uklanjanje metapodataka može utjecati na ugrađene C2PA Content Credentials. Saznajte razliku između metapodataka datoteke, vidljivih vodenih žigova i AI oznaka platformi."
     }
   }
 }

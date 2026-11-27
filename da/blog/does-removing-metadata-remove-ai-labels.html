@@ -1,0 +1,38 @@
+---
+layout: "localized-editorial"
+lang: "da"
+translation_key: "does-removing-metadata-remove-ai-labels"
+permalink: "/da/blog/does-removing-metadata-remove-ai-labels.html"
+published_on: "2026-10-01"
+updated_on: "2026-10-07"
+published_label: "Udgivet"
+display_date: "1. oktober 2026"
+publisher_note: "Udgivet af ByteWave, som udvikler den app, der omtales her."
+store_url: "https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&ct=seo_metadata_ai_labels&mt=8"
+seo_title: "Fjerner sletning af metadata også AI-mærkninger?"
+description: "Fjernelse af metadata kan påvirke indlejrede C2PA Content Credentials. Forstå forskellen på filmetadata, synlige vandmærker og platformenes AI-mærkninger."
+image_alt: "Fjern metadata. Mist beviserne? Privatliv og dokumentation af oprindelse kan trække i hver sin retning."
+source_updated_on: "2026-10-07"
+display_source_update: "7. oktober 2026"
+section_tag: "provenance-guide"
+show_article_cta: false
+updated_label: "Opdateret"
+article_title: "Fjerner sletning af metadata også AI-mærkninger?"
+---
+<p class="lead">Nogle gange. »AI-mærkning« kan betyde flere forskellige ting.</p>
+<h2>Hvilken slags mærkning?</h2>
+<ul>
+<li><strong>Indlejrede Content Credentials:</strong> signerede oplysninger om oprindelse inde i en fil. Omskrivning eller fjernelse af metadata kan slette dem eller gøre deres tilknytning til filen ugyldig.</li>
+<li><strong>Et synligt vandmærke:</strong> en del af billedet. Fjernelse af metadata sletter ikke de pixels.</li>
+<li><strong>En platformsmærkning:</strong> oplysninger, som tjenesten viser. Redigering af en lokal fil ændrer ikke nødvendigvis mærkningen på et eksisterende opslag.</li>
+</ul>
+<p>C2PA understøtter også måder at <a href="https://c2pa.org/faqs/">genfinde oplysninger om oprindelse efter fjernelse af metadata</a> på, for eksempel via digitale fingeraftryk eller usynlige vandmærker. Det afhænger af de anvendte værktøjer. En manglende indlejret registrering garanterer ikke, at alle beviser for oprindelsen er væk.</p>
+<h2>Hvad sker der, når en video bliver genopslået?</h2>
+<p>Kopien kan miste beviser. Et <a href="https://arxiv.org/abs/2609.38571">preprint fra 29. september 2026</a> undersøgte uploads til Instagram, TikTok, X og YouTube. Platformene mærkede 61% af uploads under kontrollerede forhold med standardsignaler om AI-oprindelse og fjernede ofte disse signaler efter upload. Disse forsøgsresultater er ikke en universel mærkningsrate; artiklen er endnu ikke fagfællebedømt.</p>
+<p>Bed om originalfilen, når du undersøger et genopslag. <a href="/blog/no-ai-label-does-not-mean-real.html" hreflang="en">En manglende mærkning kan ikke fastslå, at indholdet er ægte</a> <small lang="en">(English)</small>.</p>
+<h2>Behold originalen. Del en kontrolleret kopi.</h2>
+<p>Undersøg oplysningerne om oprindelse før redigering. Hvis du fjerner private lokalitetsfelter, skal du arbejde på en separat kopi og kontrollere den endelige eksport. Opbevar originalen privat, når du har brug for dens historik.</p>
+<p>ByteWaves <a href="/da/tutorials/remove-location-metadata/">metadatakontroller</a> fjerner redigerbare felter fra din arbejdskopi. Låste felter bevares under denne handling. Ved eksport fjerner ByteWave kildens metadata og tilføjer sit eget oprindelsesstempel. Din originalfil forbliver uændret.</p>
+<h2>Manglende beviser gør ikke en fil ægte.</h2>
+<p>Fjernelse af en AI-deklaration kan ikke forvandle genererede optagelser til kameraoptagelser. Bevar en ærlig oplysning om brug af AI, når du deler AI-genereret arbejde.</p>
+<p>Læs om, <a href="/da/blog/can-photos-videos-reveal-your-address.html">hvad en fil kan afsløre om din placering</a>, eller følg <a href="/da/tutorials/check-c2pa-content-credentials/">vejledningen til Content Credentials</a> for at undersøge beviserne først.</p>

@@ -11,7 +11,8 @@
     "privacy": "Sirri",
     "roundup": "bita",
     "tutorial": "koyarwa",
-    "privacy-guide": "jagorar keɓantawa"
+    "privacy-guide": "jagorar keɓantawa",
+    "provenance-guide": "Jagorar asalin abun ciki"
   },
   "card_order": [
     {
@@ -42,6 +43,10 @@
     {
       "href": "/blog/content-credentials-privacy.html",
       "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/does-removing-metadata-remove-ai-labels.html",
+      "tag": "provenance-guide"
     }
   ],
   "cards": {
@@ -72,6 +77,10 @@
     "/blog/content-credentials-privacy.html": {
       "title": "Keɓantawar Content Credentials: abin da hotonka yake rabawa",
       "summary": "Content Credentials na iya ƙunsar suna da shaida, asusun sada zumunta, tarihin gyara da ƙananan hotunan tushe. Duba abin da kake haɗawa kafin raba hoto."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Shin cire bayanan metadata yana cire alamomin AI ma?",
+      "summary": "Cire metadata na iya shafar Content Credentials na C2PA da aka saka a fayil. Fahimci bambancin metadata na fayil, alamar ruwa mai bayyana da alamomin AI na dandamali."
     }
   }
 }

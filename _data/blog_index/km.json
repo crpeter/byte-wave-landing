@@ -11,7 +11,8 @@
     "privacy": "ឯកជនភាព",
     "roundup": "ការប្រៀបធៀប",
     "tutorial": "ការណែនាំ",
-    "privacy-guide": "ការណែនាំអំពីឯកជនភាព"
+    "privacy-guide": "ការណែនាំអំពីឯកជនភាព",
+    "provenance-guide": "មគ្គុទ្ទេសក៍អំពីប្រភពមាតិកា"
   },
   "card_order": [
     {
@@ -42,6 +43,10 @@
     {
       "href": "/blog/content-credentials-privacy.html",
       "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/does-removing-metadata-remove-ai-labels.html",
+      "tag": "provenance-guide"
     }
   ],
   "cards": {
@@ -72,6 +77,10 @@
     "/blog/content-credentials-privacy.html": {
       "title": "ឯកជនភាព Content Credentials៖ អ្វីដែលរូបថតរបស់អ្នកចែករំលែក",
       "summary": "Content Credentials អាចមានអត្តសញ្ញាណ គណនីសង្គម ប្រវត្តិកែប្រែ និងរូបតូចៗនៃប្រភព។ ពិនិត្យអ្វីដែលអ្នកភ្ជាប់មុនចែករំលែករូបថត។"
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "តើការលុបទិន្នន័យមេតាក៏លុបស្លាក AI ដែរឬទេ?",
+      "summary": "ការលុបទិន្នន័យមេតាអាចប៉ះពាល់ដល់ Content Credentials របស់ C2PA ដែលបង្កប់ក្នុងឯកសារ។ ស្វែងយល់ពីភាពខុសគ្នារវាងទិន្នន័យមេតា ស្នាមទឹកដែលមើលឃើញ និងស្លាក AI របស់វេទិកា។"
     }
   }
 }

@@ -71,7 +71,7 @@ for lang in locales:
         if lang == 'ar': assert 'dir="rtl"' in raw.split('<head>')[0], rendered
         for href in page.links:
             local = urlparse(href).path
-            if local in {f'/{lang}/blog/', f'/{lang}/blog/best-video-editor-privacy-no-upload.html', f'/{lang}/blog/can-photos-videos-reveal-your-address.html'}:
+            if local in {f'/{lang}/blog/', f'/{lang}/blog/best-video-editor-privacy-no-upload.html', f'/{lang}/blog/can-photos-videos-reveal-your-address.html', f'/{lang}/blog/does-removing-metadata-remove-ai-labels.html'}:
                 target = local.lstrip('/') + ('index.html' if local.endswith('/') else '')
                 assert (ROOT / target).is_file(), (rendered, href)
                 continue

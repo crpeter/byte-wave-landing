@@ -11,7 +11,8 @@
     "privacy": "Soukromí",
     "roundup": "přehled",
     "tutorial": "návod",
-    "privacy-guide": "průvodce soukromím"
+    "privacy-guide": "průvodce soukromím",
+    "provenance-guide": "Průvodce původem obsahu"
   },
   "card_order": [
     {
@@ -42,6 +43,10 @@
     {
       "href": "/blog/content-credentials-privacy.html",
       "tag": "privacy-guide"
+    },
+    {
+      "href": "/blog/does-removing-metadata-remove-ai-labels.html",
+      "tag": "provenance-guide"
     }
   ],
   "cards": {
@@ -72,6 +77,10 @@
     "/blog/content-credentials-privacy.html": {
       "title": "Soukromí Content Credentials: co sdílí vaše fotka",
       "summary": "Content Credentials mohou obsahovat identitu, sociální účty, historii úprav a náhledy zdrojů. Před sdílením fotky zkontrolujte, co přikládáte."
+    },
+    "/blog/does-removing-metadata-remove-ai-labels.html": {
+      "title": "Odstraní se s metadaty i označení AI?",
+      "summary": "Odstranění metadat může ovlivnit vložené Content Credentials podle C2PA. Poznejte rozdíl mezi metadaty souboru, viditelným vodoznakem a označením AI na platformě."
     }
   }
 }
