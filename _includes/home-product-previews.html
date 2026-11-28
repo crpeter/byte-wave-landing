@@ -5,7 +5,7 @@
     </div>
     <div class="product-previews-grid">
         {% for preview in home_previews.items %}
-        <figure class="product-preview">
+        <figure class="product-preview" style="--preview-ratio: {{ preview.width }} / {{ preview.height }}; --preview-weight: {{ preview.width | times: 1.0 | divided_by: preview.height }}">
             {% if preview.video %}
             <div class="bw-player">
                 <div class="bw-media">

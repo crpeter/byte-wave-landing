@@ -12,9 +12,9 @@ items:
     height: 1920
   - id: music-wakes-the-light
     title: Music wakes the light.
-    video: /assets/landing/product-previews/en/music-wakes-the-light-full.mp4
-    stream: /assets/landing/product-previews/en/music-wakes-the-light-full/playlist.m3u8
-    poster: /assets/landing/product-previews/en/music-wakes-the-light-full.jpg
+    video: /assets/landing/product-previews/en/music-wakes-the-light-hable.mp4
+    stream: /assets/landing/product-previews/en/music-wakes-the-light-hable/playlist.m3u8
+    poster: /assets/landing/product-previews/en/music-wakes-the-light-hable.jpg
     width: 720
     height: 1280
   - id: code-your-own-effects
