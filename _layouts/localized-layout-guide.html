@@ -1,11 +1,12 @@
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign g = site.data.layout_guide[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
-{%- assign about = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
-{%- assign gallery = site.pages | where: "translation_key", "gallery" | where: "lang", page.lang | first -%}
-{%- assign captions = site.pages | where: "translation_key", "creation-animated-captions" | where: "lang", page.lang | first -%}
-{%- assign stickers = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
+{%- assign about = locale_pages | where: "translation_key", "about" | first -%}
+{%- assign gallery = locale_pages | where: "translation_key", "gallery" | first -%}
+{%- assign captions = locale_pages | where: "translation_key", "creation-animated-captions" | first -%}
+{%- assign stickers = locale_pages | where: "translation_key", "creation-animate-stickers" | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
@@ -170,7 +171,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main id="main">
 <article class="creation-guide layout-page">
     <p class="eyebrow">{{ t.home.showcase.layout | escape }}</p>
@@ -299,7 +300,7 @@ article{overflow-wrap:anywhere}h2[id]{scroll-margin-top:6rem}li+li{margin-top:.6
     <aside class="guide-related" aria-label="{{ g.related | escape }}"><ul><li><a href="{{ gallery.url | default: '/gallery/' | relative_url }}">{{ g.gallery | escape }}</a></li><li><a href="{{ captions.url | relative_url }}">{{ g.captions | escape }}</a></li><li><a href="{{ stickers.url | relative_url }}">{{ g.stickers | escape }}</a></li></ul></aside>
 </article>
 </main>
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 <script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
 <script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>

@@ -1,9 +1,10 @@
-{%- assign local_blog = site.pages | where: 'translation_key', 'blog-index' | where: 'lang', page.lang | first -%}
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
+{%- assign local_blog = locale_pages | where: 'translation_key', 'blog-index' | first -%}
 {%- if local_blog.blog_coverage == 'partial' -%}
   {%- assign local_blog = nil -%}
 {%- endif -%}
 {%- assign blog_base = local_blog.url | default: '/blog/' -%}
-{%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
+{%- assign layout_page = locale_pages | where: "translation_key", "layout-guide" | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign h = t.home -%}
 {%- assign home_previews = site.data.home_previews[page.lang] -%}
@@ -18,8 +19,8 @@
 {%- endif -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
 {%- assign home = page -%}
-{%- assign gallery = site.pages | where: 'translation_key', 'gallery' | where: 'lang', page.lang | first -%}
-{%- assign guide = site.pages | where: "translation_key", "private-editor" | where: "lang", page.lang | first -%}
+{%- assign gallery = locale_pages | where: 'translation_key', 'gallery' | first -%}
+{%- assign guide = locale_pages | where: "translation_key", "private-editor" | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
@@ -536,7 +537,7 @@
 {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-home">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main id="main">
 <section class="hero" aria-labelledby="hero-title">
     <picture class="hero-photo" aria-hidden="true">
@@ -752,7 +753,7 @@
 
 </main>
 
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 
 
 <script src="/assets/js/video-player.js?v=e1794e660a0a" defer></script>

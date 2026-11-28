@@ -1,7 +1,8 @@
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign p = site.data.privacy[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", "privacy-policy" | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
@@ -233,7 +234,7 @@
   </script>
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main id="main">
   <span class="tag">{{ p.tag | escape }}</span>
   <h1>{{ p.heading | escape }}</h1>
@@ -259,7 +260,7 @@
     <a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=privacy_{{ page.lang | replace: '-', '' }}&amp;mt=8">{{ p.download | escape }}</a>
   </div>
 </main>
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 <script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
 </body>
 </html>

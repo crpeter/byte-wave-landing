@@ -199,7 +199,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
     {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main class="container" id="main">
   <h1>{{ t.nav.blog | escape }}</h1>
   <p class="ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ b.disclosure | escape }}</p>
@@ -275,7 +275,7 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
   {% endif %}
 </main>
 
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 
 <script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>

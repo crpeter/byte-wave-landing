@@ -96,7 +96,7 @@ table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;ma
 {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=local_pages %}
 <main id="main">
 <article>
 <p class="eyebrow">{{ section | escape }}</p>
@@ -112,7 +112,7 @@ table.comparison{display:table;table-layout:fixed;width:100%;overflow:visible;ma
 {% endunless %}
 </article>
 </main>
-{% include localized-footer.html %}
+{% include localized-footer.html pages=local_pages %}
 <script src="/assets/js/site-nav.js?v=f805b8fba204" defer></script>
 </body>
 </html>
