@@ -1,0 +1,49 @@
+# Music wakes the light — source upload
+
+Drop the longer video with no text into this folder. Keep its original extension
+(MP4, MOV, M4V or WebM). A ZIP is also supported if that is what you have ready.
+Only this replacement video is needed.
+
+Video files and ZIPs in this folder are configured for Git LFS, which is required
+for the approximately 800 MB source. Upload through local Git or GitHub Desktop;
+GitHub's browser upload cannot accept a file this large.
+
+## Upload
+
+From your local `byte-wave-landing` checkout:
+
+```sh
+git fetch origin
+git switch --track origin/assets/music-wakes-the-light-source
+git lfs install
+```
+
+If `git lfs` is not installed, install Git LFS first. On a Mac with Homebrew:
+`brew install git-lfs`.
+
+Copy the video into `source-assets/music-wakes-the-light/`, then:
+
+```sh
+git add source-assets/music-wakes-the-light/
+git lfs ls-files
+git commit -m "Upload longer Music wakes the light source"
+git push origin assets/music-wakes-the-light-source
+```
+
+Confirm the video appears in `git lfs ls-files` before committing. GitHub Desktop
+can also commit and push the file after Git LFS is installed for this checkout.
+
+## Replacement and credit
+
+- Replace the English Music wakes the light preview with this longer video.
+- Keep the full supplied duration and do not add text over the video.
+- Show **Music by Helios** below the player. `credit.yml` records the credit;
+  optional track and link fields can be filled in before upload.
+- Preserve the source color and brightness when preparing the web versions.
+- Keep the video player's built-in sound controls, with no separate sound toggle.
+
+This folder is excluded from Jekyll output. The source is for preparing a
+web-sized MP4, HLS stream and poster under `assets/landing/product-previews/en/`;
+the website will not serve the Git LFS source directly. Ordinary CI checkouts do
+not fetch LFS media. The existing homepage preview stays in place until the new
+video is processed and the visible credit is added.
