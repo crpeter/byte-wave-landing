@@ -1,0 +1,43 @@
+<section class="product-previews" id="see-bytewave" aria-labelledby="showcase-title">
+    <div class="product-previews-intro">
+        <h2 id="showcase-title">{{ home_previews.title | escape }}</h2>
+        <p>{{ home_previews.intro | escape }}</p>
+    </div>
+    <div class="product-previews-grid">
+        {% for preview in home_previews.items %}
+        <figure class="product-preview">
+            {% if preview.video %}
+            <div class="bw-player">
+                <div class="bw-media">
+                    <video id="preview-{{ preview.id }}" data-bw-player data-bw-labels="{{ t.player | jsonify | escape }}"
+                           {% if preview.stream %}data-stream="{{ preview.stream | relative_url }}" data-compatible="{{ preview.video | relative_url }}"{% endif %}
+                           controls playsinline muted preload="none" poster="{{ preview.poster | relative_url }}"
+                           width="{{ preview.width }}" height="{{ preview.height }}"
+                           aria-labelledby="preview-{{ preview.id }}-title">
+                        {% if preview.stream %}<source src="{{ preview.stream | relative_url }}" type="application/vnd.apple.mpegurl">{% else %}<source src="{{ preview.video | relative_url }}" type="video/mp4">{% endif %}
+                    </video>
+                    <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="preview-{{ preview.id }}" hidden>
+                        <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+                    </button>
+                </div>
+                <div class="product-preview-controls">
+                    <button class="product-preview-sound" type="button" aria-controls="preview-{{ preview.id }}"
+                            data-sound-on="{{ home_previews.sound_on | escape }}" data-sound-off="{{ home_previews.sound_off | escape }}" hidden>{{ home_previews.sound_on | escape }}</button>
+                    <a href="{{ preview.video | relative_url }}" aria-label="{{ home_previews.open_video | escape }}: {{ preview.title | escape }}">{{ home_previews.open_video | escape }}</a>
+                </div>
+                <p class="bw-video-status" role="status"></p>
+            </div>
+            {% else %}
+            <div class="product-preview-image">
+                <img src="{{ preview.image | relative_url }}" width="{{ preview.width }}" height="{{ preview.height }}"
+                     loading="lazy" decoding="async" alt="{{ preview.alt | escape }}">
+            </div>
+            {% endif %}
+            <figcaption>
+                <h3 id="preview-{{ preview.id }}-title">{{ preview.title | escape }}</h3>
+            </figcaption>
+        </figure>
+        {% endfor %}
+    </div>
+    <a class="product-previews-gallery" href="{{ gallery.url | default: '/gallery/' | relative_url }}">{{ home_previews.gallery | escape }}</a>
+</section>
