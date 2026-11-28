@@ -5,12 +5,28 @@ These assets appear on the English homepage only. The other languages retain the
 | Source upload | Website asset | Use |
 | --- | --- | --- |
 | `2.mp4` | `edit-locally.mp4` | English Edit locally preview, supplied for the brightness-corrected version |
-| `03.mp4` | `music-wakes-the-light.mp4` | English Music wakes the light preview |
+| `source-assets/music-wakes-the-light/BBF59C2D-705B-43B1-A19D-05F31195F936-stamped.MOV` | `music-wakes-the-light-full.mp4` | Full 2:59 English Music wakes the light preview, including the supplied ending credit |
 | `06-code-your-own-effects.png` | `code-your-own-effects.png` | Original effects screenshot; no effects video supplied yet |
 
-The HLS versions in the matching subfolders retain the original H.264 video and AAC audio streams, 886 × 1920 resolution, frame rate, and Rec.709 color metadata. They were packaged with stream copy; no brightness or color adjustments were made. The 4-second fragmented-MP4 segments use `split_by_time` to fit the upload limit; segments are continuous and are not advertised as independent. The shared HLS player handles playback and seeking.
+## Edit locally
 
-The standalone MP4 files are smaller compatibility copies: 720 × 1560, H.264 CRF 20, maximum video rate 2400 kb/s, original AAC audio, Rec.709 metadata, and fast-start headers. No tone mapping or brightness adjustment is applied. The JPG posters are frames from the original uploads at 00:00:01. The PNG is unchanged.
+The HLS version retains the original H.264 video and AAC audio, 886 × 1920 resolution, frame rate and Rec.709 metadata. It was packaged with stream copy. Its 4-second fragmented-MP4 segments use `split_by_time` and are not advertised as independent.
+
+The standalone MP4 is 720 × 1560, H.264 CRF 20, maximum video rate 2400 kb/s, original AAC audio, Rec.709 metadata and fast-start headers. No tone mapping or brightness adjustment was applied. Its poster is the original frame at 00:00:01. The effects PNG is unchanged.
+
+## Music wakes the light
+
+The full uploaded source is 1080 × 1920, 10-bit HEVC HLG, with Display P3 primaries and BT.2020 non-constant-luminance matrix metadata. The primary HLS stream is **720 × 1280 H.264 SDR Rec.709**, 30 fps, CRF 20 with a 2400 kb/s ceiling. The compatibility-only MP4 is 360 × 640, 30 fps, CRF 23 with a 330 kb/s ceiling to fit the upload connector’s 16 MiB request limit. The MP4 has fast-start headers. Both copy the original AAC audio without changing its level. Duration is approximately 179.32 seconds. No crop or trim is applied; the supplied ending credit remains part of the video. The source is retained in Git LFS and excluded from the published site.
+
+HDR conversion uses the source color metadata, linearizes HLG, converts primaries, applies Mobius tone mapping, then encodes limited-range Rec.709. It does not merely relabel HDR pixels as SDR. The filter is:
+
+```text
+zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=mobius:param=0.3:desat=0,zscale=w=720:h=1280:t=bt709:m=bt709:r=limited,format=yuv420p,fps=30
+```
+
+The HLS stream packages the 2400 kb/s encode into 4-second fragmented-MP4 segments, with a keyframe at each segment boundary. Its playlist advertises independent segments. The poster comes from that encode at 00:00:05. The fallback MP4 is separately encoded from the original source with the same color conversion, resizing to 360 × 640 during the first zscale step. It is not re-encoded from the HLS copy. The primary stream retains its higher resolution and bitrate. New `music-wakes-the-light-full` filenames prevent mixing cached segments from the previous short preview with this version.
+
+The final five seconds credit **“Helios” by Scott Buckley, released under CC BY 4.0**, including the track and license URLs. See [track](https://www.scottbuckley.com.au/library/helios/), [license](https://creativecommons.org/licenses/by/4.0/) and `source-assets/music-wakes-the-light/credit.yml`. This web conversion copies the supplied audio unchanged; it does not assume the edits used in the earlier preview.
 
 The page initially loads posters, with video loading on play. Playback starts muted; sound and playback use the video player’s built-in controls. The open-video fallback link appears only if playback fails, or when JavaScript is unavailable. The existing shared video player pauses other videos when one starts playing.
 
