@@ -6,3 +6,6 @@ include:
 exclude:
   - assets/videos/layout/ocean-grid/*
   - assets/videos/layout/warped-sunset/*
+
+# Print template timings so slow includes stay visible in the build log.
+profile: true
