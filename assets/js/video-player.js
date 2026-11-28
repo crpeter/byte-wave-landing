@@ -16,6 +16,7 @@
     const shell = video.closest('.bw-player');
     const button = shell.querySelector('.bw-play');
     const status = shell.querySelector('[role="status"]');
+    const fallbackLink = shell.querySelector('[data-bw-fallback-link]');
     const source = video.querySelector('source');
     const original = video.dataset.stream || source.src;
     const fallbackSource = video.dataset.compatible;
@@ -35,6 +36,7 @@
       requested = false; initialized = false; switching = false; attempt++;
       clearTimer(); destroy(); video.pause(); video.controls = false;
       showButton(labels.retry || 'Retry video');
+      if (fallbackLink) fallbackLink.hidden = false;
       status.textContent = labels.failed || 'Could not load the video. Try again or open the video link below.';
     };
     const watch = () => {
@@ -67,6 +69,7 @@
     };
     const start = async () => {
       if (requested) return;
+      if (fallbackLink) fallbackLink.hidden = true;
       const current = initialized ? attempt : ++attempt;
       requested = true; lastTime = video.currentTime;
       video.controls = true; button.hidden = true; button.disabled = false;
@@ -98,6 +101,7 @@
     };
 
     video.controls = false; showButton();
+    if (fallbackLink) fallbackLink.hidden = true;
     button.addEventListener('click', start);
     video.addEventListener('error', recover);
     video.addEventListener('waiting', () => { if (!timer) watch(); });
