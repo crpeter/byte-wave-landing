@@ -1,6 +1,7 @@
 # Music wakes the light — source upload
 
-Drop the longer video with no text into this folder. Keep its original extension
+Drop the longer video into this folder, with a credit in its final five seconds
+and no text over the rest of the video. Keep its original extension
 (MP4, MOV, M4V or WebM). A ZIP is also supported if that is what you have ready.
 Only this replacement video is needed.
 
@@ -36,8 +37,9 @@ can also commit and push the file after Git LFS is installed for this checkout.
 ## Replacement and credit
 
 - Replace the English Music wakes the light preview with this longer video.
-- Keep the full supplied duration and do not add text over the video.
-- Show **Music by Helios** below the player. `credit.yml` records the credit;
+- Keep the full supplied duration, with the main footage text-free.
+- Hold **Music by Helios** on screen for the final five seconds. No separate
+  credit caption is needed below the player. `credit.yml` records the credit;
   optional track and link fields can be filled in before upload.
 - Preserve the source color and brightness when preparing the web versions.
 - Keep the video player's built-in sound controls, with no separate sound toggle.
@@ -46,4 +48,4 @@ This folder is excluded from Jekyll output. The source is for preparing a
 web-sized MP4, HLS stream and poster under `assets/landing/product-previews/en/`;
 the website will not serve the Git LFS source directly. Ordinary CI checkouts do
 not fetch LFS media. The existing homepage preview stays in place until the new
-video is processed and the visible credit is added.
+video is processed and its ending credit is checked.

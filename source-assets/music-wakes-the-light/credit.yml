@@ -1,5 +1,7 @@
 artist: Helios
 display_credit: Music by Helios
+placement: video_end
+duration_seconds: 5
 # Optional: fill these in if you want the track named or the artist linked.
 track_title: ""
 artist_url: ""
