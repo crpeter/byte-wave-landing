@@ -1,8 +1,6 @@
 title: Make something real.
-intro: Edit on your device. Audio-aware effects. Build your own effects.
+intro: Edit on your device. Audio-aware effects. Build your own filters.
 gallery: Watch videos made with ByteWave
-sound_on: Turn sound on
-sound_off: Turn sound off
 open_video: Open video
 items:
   - id: edit-locally
