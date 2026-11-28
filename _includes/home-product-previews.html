@@ -23,7 +23,7 @@
                 <div class="product-preview-controls">
                     <button class="product-preview-sound" type="button" aria-controls="preview-{{ preview.id }}"
                             data-sound-on="{{ home_previews.sound_on | escape }}" data-sound-off="{{ home_previews.sound_off | escape }}" hidden>{{ home_previews.sound_on | escape }}</button>
-                    <a href="{{ preview.video | relative_url }}" aria-label="{{ home_previews.open_video | escape }}: {{ preview.title | escape }}">{{ home_previews.open_video | escape }}</a>
+                    <a data-bw-fallback-link href="{{ preview.video | relative_url }}" aria-label="{{ home_previews.open_video | escape }}: {{ preview.title | escape }}">{{ home_previews.open_video | escape }}</a>
                 </div>
                 <p class="bw-video-status" role="status"></p>
             </div>

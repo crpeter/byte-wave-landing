@@ -11,6 +11,7 @@
 .product-preview-controls a, .product-preview-sound { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font: inherit; font-size: .875rem; text-decoration: underline; text-underline-offset: 4px; }
 .product-preview-sound { padding: 0; border: 0; background: none; cursor: pointer; }
 .product-preview-sound[hidden] { display: none; }
+.product-preview-controls a[hidden] { display: none; }
 .product-preview button:focus-visible { outline: 3px solid #f5bda7; outline-offset: 5px; }
 .product-previews .bw-video-status:empty { display: none; }
 .product-previews .bw-video-status { font-size: .875rem; }

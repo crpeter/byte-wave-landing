@@ -3,14 +3,15 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const source = fs.readFileSync('assets/js/video-player.js', 'utf8');
-function setup({native = true, blocked = false, compatible = true, mp4 = false, labels = {}} = {}) {
+function setup({native = true, blocked = false, compatible = true, mp4 = false, labels = {}, fallbackLink = false} = {}) {
   const timers = new Map(); let timerId = 0;
   const handlers = {}, attrs = {}, status = {};
+  const openVideo = fallbackLink ? {hidden: false} : null;
   const button = {addEventListener: (event, fn) => {button[event] = fn;}, setAttribute: (key, value) => {attrs[key] = value;}};
   const video = {
     dataset: {bwLabels: JSON.stringify(labels), stream: mp4 ? 'original.mp4' : 'original.m3u8', compatible: compatible ? 'compatible.mp4' : undefined},
     currentTime: 0, seeking: false, ended: false,
-    closest: () => ({querySelector: selector => selector === '.bw-play' ? button : status}),
+    closest: () => ({querySelector: selector => selector === '.bw-play' ? button : selector === '[data-bw-fallback-link]' ? openVideo : status}),
     querySelector: () => ({src: 'original.m3u8'}),
     addEventListener: (event, fn) => {handlers[event] = fn;},
     canPlayType: () => native ? 'probably' : '',
@@ -22,18 +23,22 @@ function setup({native = true, blocked = false, compatible = true, mp4 = false, 
   vm.runInNewContext(source, {document, window,
     setTimeout: fn => {const id = ++timerId; timers.set(id, fn); return id;},
     clearTimeout: id => timers.delete(id)});
-  return {video, button, status, attrs, handlers, timers, window, script: () => script,
+  return {video, button, status, openVideo, attrs, handlers, timers, window, script: () => script,
     expire() {const next = timers.entries().next().value; assert.ok(next, 'watchdog armed'); timers.delete(next[0]); next[1]();}};
 }
 (async () => {
-  const stalled = setup();
+  const stalled = setup({fallbackLink: true});
+  assert.equal(stalled.openVideo.hidden, true, 'open-video link hidden while the player is available');
   assert.equal(stalled.video.src, undefined, 'no eager media request');
   await stalled.button.click();
   assert.equal(stalled.video.src, 'original.m3u8', 'HQ first');
   assert.equal(stalled.button.hidden, true, 'native loading UI, no extra spinner');
   stalled.expire(); assert.equal(stalled.video.src, 'compatible.mp4');
+  assert.equal(stalled.openVideo.hidden, true, 'automatic recovery does not expose a redundant link');
   stalled.expire(); assert.equal(stalled.button.hidden, false); assert.equal(stalled.attrs['aria-label'], 'Retry video');
+  assert.equal(stalled.openVideo.hidden, false, 'open-video link is available when playback fails');
   await stalled.button.click(); assert.equal(stalled.video.src, 'compatible.mp4');
+  assert.equal(stalled.openVideo.hidden, true, 'retry hides the fallback link again');
 
   const spanish = setup({labels: {play: 'Reproducir video', loading: 'Cargando video…', retry: 'Reintentar'}});
   assert.equal(spanish.attrs['aria-label'], 'Reproducir video');

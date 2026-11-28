@@ -12,7 +12,7 @@ The HLS versions in the matching subfolders retain the original H.264 video and 
 
 The standalone MP4 files are smaller compatibility copies: 720 × 1560, H.264 CRF 20, maximum video rate 2400 kb/s, original AAC audio, Rec.709 metadata, and fast-start headers. No tone mapping or brightness adjustment is applied. The JPG posters are frames from the original uploads at 00:00:01. The PNG is unchanged.
 
-The page initially loads posters, with video loading on play. Playback starts muted; each video has an explicit sound toggle and an open-video fallback link. The existing shared video player pauses other videos when one starts playing.
+The page initially loads posters, with video loading on play. Playback starts muted; each video has an explicit sound toggle. The open-video fallback link appears only if playback fails, or when JavaScript is unavailable. The existing shared video player pauses other videos when one starts playing.
 
 ## Copy and layout
 
@@ -20,7 +20,7 @@ The approved introduction is:
 
 **Make something real.**
 
-Edit on your device. Make your music move the picture. Build your own effects.
+Edit on your device. Audio-aware effects. Build your own effects.
 
 Content and asset mappings live in `_data/home_previews/en.yml`, rendered by `_includes/home-product-previews.html`. Three columns are shown on desktop; the panels stack on mobile. To replace the effects still with a video later, add the video and poster, then replace its `image` field with `video` and `poster` fields in the data file.
 
