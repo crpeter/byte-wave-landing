@@ -1,39 +1,29 @@
 # English homepage product previews
 
-Place just the three English iPhone product-page preview videos in this folder. Copy the files here; keep the original renders in place. No ZIP or complete render folder is needed.
+These assets appear on the English homepage only. The other languages retain their existing showcase until localized product-page assets are ready.
 
-| Preview | Filename |
-| --- | --- |
-| Edit locally on-device — latest brightness-corrected render | `edit-locally.mp4` |
-| Music wakes the light | `music-wakes-the-light.mp4` |
-| Code your own effects | `code-your-own-effects.mp4` |
+| Source upload | Website asset | Use |
+| --- | --- | --- |
+| `2.mp4` | `edit-locally.mp4` | English Edit locally preview, supplied for the brightness-corrected version |
+| `03.mp4` | `music-wakes-the-light.mp4` | English Music wakes the light preview |
+| `06-code-your-own-effects.png` | `code-your-own-effects.png` | Original effects screenshot; no effects video supplied yet |
 
-If a source is a MOV, keep the `.mov` extension instead of renaming it to `.mp4`. Preserve the original audio. Poster images can be extracted from the videos during integration.
+The HLS versions in the matching subfolders retain the original H.264 video and AAC audio streams, 886 × 1920 resolution, frame rate, and Rec.709 color metadata. They were packaged with stream copy; no brightness or color adjustments were made. The 4-second fragmented-MP4 segments use `split_by_time` to fit the upload limit; segments are continuous and are not advertised as independent. The shared HLS player handles playback and seeking.
 
-The latest recorded brightness correction for Edit locally was rendered November 22, 2026 into:
+The standalone MP4 files are smaller compatibility copies: 720 × 1560, H.264 CRF 20, maximum video rate 2400 kb/s, original AAC audio, Rec.709 metadata, and fast-start headers. No tone mapping or brightness adjustment is applied. The JPG posters are frames from the original uploads at 00:00:01. The PNG is unchanged.
 
-```text
-/Users/petercody/Documents/Projects/bytewave-appstore/preview-refresh/output/brightness-proof/videos/iphone/
-```
+The page initially loads posters, with video loading on play. Playback starts muted; each video has an explicit sound toggle and an open-video fallback link. The existing shared video player pauses other videos when one starts playing.
 
-The expected English file is `en-US/2.mp4`; confirm the title and language by playing it before copying it. That exact English path has not been verified on this Mac.
+## Copy and layout
 
-## Approved section copy
+The approved introduction is:
 
 **Make something real.**
 
 Edit on your device. Make your music move the picture. Build your own effects.
 
-## Scope
+Content and asset mappings live in `_data/home_previews/en.yml`, rendered by `_includes/home-product-previews.html`. Three columns are shown on desktop; the panels stack on mobile. To replace the effects still with a video later, add the video and poster, then replace its `image` field with `video` and `poster` fields in the data file.
 
-Start with the English homepage only. Replace its existing feature list and two screenshots with these three playable product-page previews. Use matching posters, three columns on desktop and a stacked mobile layout, muted initial playback, and accessible sound/playback controls. This branch currently prepares the asset folder; the homepage implementation follows once the three videos are available.
+## Adding or replacing assets
 
-## Send the assets
-
-From the repository root, after copying the videos:
-
-```bash
-git add assets/landing/product-previews/en/
-git commit -m "Add English product-page previews"
-git push -u origin feat/english-product-previews
-```
+Copy only the needed English files into this folder. No complete render folder or ZIP is necessary. Preserve the source renders separately and keep MOV extensions if the sources are MOV files. Update the data mapping if a filename changes.

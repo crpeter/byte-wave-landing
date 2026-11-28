@@ -1,0 +1,30 @@
+title: Make something real.
+intro: Edit on your device. Make your music move the picture. Build your own effects.
+gallery: See what people are making
+sound_on: Turn sound on
+sound_off: Turn sound off
+open_video: Open video
+items:
+  - id: edit-locally
+    title: Edit locally.
+    description: Your device does the editing. No uploading your footage to a server just to work on it.
+    video: /assets/landing/product-previews/en/edit-locally.mp4
+    stream: /assets/landing/product-previews/en/edit-locally/playlist.m3u8
+    poster: /assets/landing/product-previews/en/edit-locally.jpg
+    width: 886
+    height: 1920
+  - id: music-wakes-the-light
+    title: Music wakes the light.
+    description: Make effects react to your music. Let the beat change what you see.
+    video: /assets/landing/product-previews/en/music-wakes-the-light.mp4
+    stream: /assets/landing/product-previews/en/music-wakes-the-light/playlist.m3u8
+    poster: /assets/landing/product-previews/en/music-wakes-the-light.jpg
+    width: 886
+    height: 1920
+  - id: code-your-own-effects
+    title: Code your own effects.
+    description: Write a shader. See it change your video. Keep tweaking until it looks how you want.
+    image: /assets/landing/product-previews/en/code-your-own-effects.png
+    alt: ByteWave’s shader editor on an iPad, with code beside a live effect combining sunset and beach footage
+    width: 942
+    height: 2048

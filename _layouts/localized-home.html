@@ -6,6 +6,7 @@
 {%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign h = t.home -%}
+{%- assign home_previews = site.data.home_previews[page.lang] -%}
 {%- assign emphasis_class = '' -%}
 {%- if site.data.expanded_languages contains page.lang -%}
   {%- assign emphasis_length = h.hero.emphasis | size -%}
@@ -531,6 +532,7 @@
     </style>
     <link rel="stylesheet" href="/assets/css/landing.css?v=8a481a485a93">
     <link rel="stylesheet" href="/assets/css/site.css?v=ce82222fd12b">
+    {% if home_previews %}<link rel="stylesheet" href="/assets/css/product-previews.css?v=8d30f7aebd68">{% endif %}
 {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-home">
@@ -553,6 +555,9 @@
     <p class="hero-note">{{ h.hero.no_watermarks | escape }}<br>{{ h.hero.devices | escape }}</p>
 </section>
 
+{% if home_previews %}
+{% include home-product-previews.html %}
+{% else %}
 <section class="showcase" id="see-bytewave" aria-labelledby="showcase-title">
     <div class="showcase-copy">
         <p class="eyebrow">{{ h.showcase.tag | escape }}</p>
@@ -571,6 +576,7 @@
     </div>
 </section>
 
+{% endif %}
 <section class="credentials-section" id="content-credentials" aria-labelledby="credentials-title">
     <p class="eyebrow">{{ h.credentials.tag | escape }}</p>
     <h2 id="credentials-title">{{ h.credentials.title | escape }}</h2>
@@ -750,6 +756,7 @@
 
 
 <script src="/assets/js/video-player.js?v=63dc3b20c11d" defer></script>
+{% if home_previews %}<script src="/assets/js/product-previews.js?v=20261128" defer></script>{% endif %}
 <script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
 </body>
 </html>
