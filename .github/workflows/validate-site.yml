@@ -3,45 +3,113 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: site-validation-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+      - name: Test CI check selection
+        run: python3 scripts/test_ci_scope.py
+      - name: Select expensive checks from changed files
+        id: scope
+        run: python3 scripts/ci_scope.py
       - name: Test sitemap validation rules
+        if: steps.scope.outputs.sitemap == 'true'
         run: python3 scripts/test_sitemap.py
       - name: Prepare sitemap template fixtures
+        if: steps.scope.outputs.sitemap == 'true'
         run: python3 scripts/test_sitemap.py --prepare-fixture
       - name: Render sitemap template fixtures
+        if: steps.scope.outputs.sitemap == 'true'
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./_sitemap-fixture
           destination: ./_sitemap-fixture/_site
       - name: Verify sitemap template and change its page inputs
+        if: steps.scope.outputs.sitemap == 'true'
         run: python3 scripts/test_sitemap.py --verify-fixture
       - name: Rebuild sitemap after page additions and changes
+        if: steps.scope.outputs.sitemap == 'true'
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./_sitemap-fixture
           destination: ./_sitemap-fixture/_site
       - name: Verify automatic sitemap updates
+        if: steps.scope.outputs.sitemap == 'true'
         run: python3 scripts/test_sitemap.py --verify-updated-fixture
+      # All subsequent checks reuse this output on the same runner. No second
+      # checkout/build of main and no multi-gigabyte site artifact transfer.
       - name: Render with the GitHub Pages builder
         uses: actions/jekyll-build-pages@v1
         with:
           verbose: false
       - name: Validate rendered links and metadata
         run: python3 scripts/validate_site.py
-      - name: Verify translated gallery and tutorial directory content
-        run: python3 scripts/test_localized_secondary_pages.py
-      - name: Verify expanded company, policy, press and gallery translations
-        run: python3 scripts/test_expanded_secondary_pages.py
+      - name: Verify rendered translations and tutorial content
+        run: |
+          python3 scripts/test_localized_secondary_pages.py
+          python3 scripts/test_expanded_secondary_pages.py
+          python3 scripts/test_creation_tutorials.py
+          python3 scripts/test_short_tutorial_translations.py
+          python3 scripts/test_technical_provenance_guides.py
+          python3 scripts/test_comparison_tutorial_translations.py
+          python3 scripts/test_expanded_languages.py
       - name: Test site validation rules
+        if: steps.scope.outputs.validator == 'true'
         run: python3 scripts/test_site_validation.py
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: Test video playback recovery
         run: node scripts/test_video_player.cjs
+      - name: Install browser test package
+        run: npm install --no-save --no-package-lock playwright@1.56.1
+      - name: Cache Chromium download
+        id: chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-${{ runner.arch }}-ubuntu-24.04-playwright-1.56.1
+      - name: Install Chromium
+        if: steps.chromium.outputs.cache-hit != 'true'
+        run: npx playwright install chromium
+      - name: Install Chromium system dependencies
+        run: npx playwright install-deps chromium
+      - name: Start rendered site server
+        run: |
+          python3 -m http.server 8765 --directory _site >/tmp/bytewave-browser-server.log 2>&1 &
+          for attempt in {1..20}; do
+            if curl --fail --silent http://127.0.0.1:8765/ >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/bytewave-browser-server.log
+          exit 1
+      - name: Check homepages and guides at desktop and mobile widths
+        env:
+          SITE_URL: http://127.0.0.1:8765
+          QA_SCOPE: ${{ steps.scope.outputs.home }}
+        run: node scripts/test_localized_layout.cjs
+      - name: Check all localized secondary pages
+        if: steps.scope.outputs.secondary == 'true'
+        env:
+          SITE_URL: http://127.0.0.1:8765
+        run: |
+          node scripts/test_secondary_browser.cjs
+          node scripts/test_expanded_secondary_browser.cjs
+      - name: Upload browser screenshots and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-browser-qa
+          path: |
+            qa-screenshots/
+            qa-secondary/
+          if-no-files-found: ignore
+          retention-days: 7
