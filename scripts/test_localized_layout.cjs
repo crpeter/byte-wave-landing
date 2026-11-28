@@ -1,5 +1,6 @@
 /* Browser QA for every localized homepage and its guide.
  * Run after the Jekyll build: SITE_URL=http://127.0.0.1:8765 node scripts/test_localized_layout.cjs
+ * Set QA_SCOPE=smoke for English, French and Japanese; defaults to the full suite.
  * Optionally set BEFORE_URL=https://bytewaveai.com to capture deployed baseline screenshots.
  */
 const fs = require('node:fs');
@@ -31,6 +32,11 @@ const locales = [
   ['ko', 'ko', 'ko/blog/private-video-editing-without-cloud.html'],
   ['zh-Hant', 'zh-hant', 'zh-hant/blog/private-video-editor-no-cloud.html']
 ];
+// Retain desktop and both mobile widths in the routine smoke test.
+if (process.env.QA_SCOPE === 'smoke') {
+  const sample = locales.filter(([lang]) => ['en', 'fr', 'ja'].includes(lang));
+  locales.splice(0, locales.length, ...sample);
+}
 const errors = [], results = [], warnings = [];
 const capture = (kind, name) => path.join(OUTPUT, kind, name + '.png');
 for (const kind of ['before', 'after']) fs.mkdirSync(path.join(OUTPUT, kind), {recursive: true});
@@ -136,6 +142,7 @@ async function screenshots(browser, base, kind) {
   if (!base) return;
   const page = await browser.newPage();
   for (const s of scenarios) {
+    if (process.env.QA_SCOPE === 'smoke' && !['/', '/ja/'].includes(s.path)) continue;
     try {
       await page.setViewportSize(s.size);
       await ready(page, base + s.path);
