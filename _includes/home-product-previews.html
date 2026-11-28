@@ -13,7 +13,7 @@
                            {% if preview.stream %}data-stream="{{ preview.stream | relative_url }}" data-compatible="{{ preview.video | relative_url }}"{% endif %}
                            controls playsinline muted preload="none" poster="{{ preview.poster | relative_url }}"
                            width="{{ preview.width }}" height="{{ preview.height }}"
-                           aria-labelledby="preview-{{ preview.id }}-title" aria-describedby="preview-{{ preview.id }}-description">
+                           aria-labelledby="preview-{{ preview.id }}-title">
                         {% if preview.stream %}<source src="{{ preview.stream | relative_url }}" type="application/vnd.apple.mpegurl">{% else %}<source src="{{ preview.video | relative_url }}" type="video/mp4">{% endif %}
                     </video>
                     <button class="bw-play" type="button" aria-label="{{ t.player.play | escape }}" aria-controls="preview-{{ preview.id }}" hidden>
@@ -35,7 +35,6 @@
             {% endif %}
             <figcaption>
                 <h3 id="preview-{{ preview.id }}-title">{{ preview.title | escape }}</h3>
-                <p id="preview-{{ preview.id }}-description">{{ preview.description | escape }}</p>
             </figcaption>
         </figure>
         {% endfor %}
