@@ -63,5 +63,7 @@ For a separate YouTube upload, Scott also requires the credit in its description
 This folder is excluded from Jekyll output. The source is for preparing a
 web-sized MP4, HLS stream and poster under `assets/landing/product-previews/en/`;
 the website will not serve the Git LFS source directly. Ordinary CI checkouts do
-not fetch LFS media. The existing homepage preview stays in place until the new
-video is processed and its ending credit is checked.
+not fetch LFS media. The uploaded `BBF59C2D-705B-43B1-A19D-05F31195F936-stamped.MOV` has been
+processed into the `music-wakes-the-light-full` assets. Its complete ending credit
+was checked, and the browser versions copy its AAC audio unchanged. Encoding and
+color-conversion details are recorded in the published asset folder’s README.
