@@ -1,9 +1,10 @@
-{%- assign feed_page = site.pages | where: "translation_key", "how-bytewave-feed-works-without-server-watch-history" | where: "lang", page.lang | first -%}
-{%- assign press_page = site.pages | where: "translation_key", "press" | where: "lang", page.lang | first -%}
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
+{%- assign feed_page = locale_pages | where: "translation_key", "how-bytewave-feed-works-without-server-watch-history" | first -%}
+{%- assign press_page = locale_pages | where: "translation_key", "press" | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign a = site.data.about[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", "about" | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
 {%- assign about_page = page -%}
 <!doctype html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
@@ -47,7 +48,7 @@
   {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main id="main"><article>
   <p class="eyebrow">{{ a.eyebrow | escape }}</p>
   <h1>{{ a.heading | escape }}</h1>
@@ -55,19 +56,19 @@
   <p>{{ a.technical | escape }}</p>
   <h2>{{ a.commitmentsHeading | escape }}</h2>
   <p>{{ a.commitments | escape }}</p>
-  {%- assign expression_page = site.pages | where: "translation_key", "free-expression" | where: "lang", page.lang | first -%}
+  {%- assign expression_page = locale_pages | where: "translation_key", "free-expression" | first -%}
   <p><strong>{{ a.expressionBold | escape }}</strong> <a href="{{ expression_page.url | default: '/free-expression.html' | relative_url }}">{{ a.expressionLink | escape }}</a></p>
   <h2>{{ a.sourcesHeading | escape }}</h2>
   <ul>
     <li><a href="https://apps.apple.com/app/apple-store/id6752225642?pt=126768479&amp;ct=about_{{ page.lang | replace: '-', '' }}&amp;mt=8">{{ a.appStore | escape }}</a></li>
-    {%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+    {%- assign privacy_page = locale_pages | where: "translation_key", "privacy-policy" | first -%}
     <li><a href="{{ privacy_page.url | default: '/privacy.html' | relative_url }}">{{ a.privacy | escape }}</a></li>
     <li><a href="{{ press_page.url | relative_url }}">{{ a.press | escape }}</a></li>
     <li><a href="{{ feed_page.url | default: '/blog/how-bytewave-feed-works-without-server-watch-history.html' | relative_url }}"{% unless feed_page %} hreflang="en"{% endunless %}>{{ a.feed | escape }}</a></li>
     <li><a href="/blog/provenance.html" hreflang="en">{{ a.provenance | escape }}</a></li>
   </ul>
 </article></main>
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 <script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
 </body>
 </html>

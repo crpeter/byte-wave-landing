@@ -1,19 +1,20 @@
-{%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
+{%- assign layout_page = locale_pages | where: "translation_key", "layout-guide" | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign h = site.data.tutorial_hub[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
-{%- assign animated_captions_page = site.pages | where: "translation_key", "creation-animated-captions" | where: "lang", page.lang | first -%}
-{%- assign animate_stickers_page = site.pages | where: "translation_key", "creation-animate-stickers" | where: "lang", page.lang | first -%}
-{%- assign caption_text_effects_page = site.pages | where: "translation_key", "creation-caption-text-effects" | where: "lang", page.lang | first -%}
-{%- assign import_custom_fonts_page = site.pages | where: "translation_key", "creation-import-custom-fonts" | where: "lang", page.lang | first -%}
-{%- assign c2pa_page = site.pages | where: "translation_key", "creation-check-c2pa-content-credentials" | where: "lang", page.lang | first -%}
-{%- assign metadata_page = site.pages | where: "translation_key", "creation-remove-location-metadata" | where: "lang", page.lang | first -%}
-{%- assign motion_page = site.pages | where: "translation_key", "creation-motion-blur" | where: "lang", page.lang | first -%}
-{%- assign frame_rate_page = site.pages | where: "translation_key", "creation-frame-rate-conversion" | where: "lang", page.lang | first -%}
-{%- assign noise_page = site.pages | where: "translation_key", "creation-temporal-noise-reduction" | where: "lang", page.lang | first -%}
-{%- assign translation_page = site.pages | where: "translation_key", "creation-translate-video-captions" | where: "lang", page.lang | first -%}
-{%- assign audio_effects_page = site.pages | where: "translation_key", "creation-audio-reactive-video-effects" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
+{%- assign animated_captions_page = locale_pages | where: "translation_key", "creation-animated-captions" | first -%}
+{%- assign animate_stickers_page = locale_pages | where: "translation_key", "creation-animate-stickers" | first -%}
+{%- assign caption_text_effects_page = locale_pages | where: "translation_key", "creation-caption-text-effects" | first -%}
+{%- assign import_custom_fonts_page = locale_pages | where: "translation_key", "creation-import-custom-fonts" | first -%}
+{%- assign c2pa_page = locale_pages | where: "translation_key", "creation-check-c2pa-content-credentials" | first -%}
+{%- assign metadata_page = locale_pages | where: "translation_key", "creation-remove-location-metadata" | first -%}
+{%- assign motion_page = locale_pages | where: "translation_key", "creation-motion-blur" | first -%}
+{%- assign frame_rate_page = locale_pages | where: "translation_key", "creation-frame-rate-conversion" | first -%}
+{%- assign noise_page = locale_pages | where: "translation_key", "creation-temporal-noise-reduction" | first -%}
+{%- assign translation_page = locale_pages | where: "translation_key", "creation-translate-video-captions" | first -%}
+{%- assign audio_effects_page = locale_pages | where: "translation_key", "creation-audio-reactive-video-effects" | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
@@ -137,7 +138,7 @@
 {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 
 
   <main id="main">
@@ -279,7 +280,7 @@
       </li>
     </ul>
   </main>
-  {% include localized-footer.html %}
+  {% include localized-footer.html pages=locale_pages %}
 <script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
 </body>
 </html>

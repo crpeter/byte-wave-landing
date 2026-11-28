@@ -1,7 +1,8 @@
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
-{%- assign blog = site.pages | where: "translation_key", "blog-index" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
+{%- assign blog = locale_pages | where: "translation_key", "blog-index" | first -%}
 {%- assign headline = page.title | append: " - ByteWave" -%}
 {%- assign page_url = page.url | absolute_url -%}
 <!DOCTYPE html>
@@ -116,7 +117,7 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
 {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main id="main"><article>
   <span class="tag">{{ page.category_label | escape }}</span>
   <h1>{{ page.title | escape }}</h1>
@@ -124,7 +125,7 @@ nav a:focus-visible{outline:3px solid #e2b8df;outline-offset:4px}
   <div class="llm-disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ t.disclosure.by | escape }} <a href="/about.html" hreflang="en">ByteWave</a>. {{ t.disclosure.review | escape }}</div>
   {{ content }}
 </article></main>
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 <script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
 </body>
 </html>

@@ -29,7 +29,12 @@ still installed on each runner. Update the cache key when changing Playwright.
 There is no automatic build of `main` for before screenshots. For a deliberate
 local comparison, the homepage browser script still accepts `BEFORE_URL`.
 
-The Jekyll renderer itself is unchanged: earlier logs showed about 12–17 minutes
-for one full build. This change removes redundant full builds and unnecessary
-check sweeps; it does not claim to fix that individual build time. Validation on
-`main` is retained so direct pushes are checked too.
+Localized layouts filter the page list by language once and reuse that list for
+navigation, footer and related-page links. The shared includes also support
+standalone pages that do not pass a list. Translation alternates still search
+across all languages. These are standard Liquid templates, with no custom plugin
+or generated route data to maintain.
+
+`profile: true` prints Jekyll's template timing table in each full build log.
+Use that table to find remaining expensive templates before adding more build
+machinery. Validation on `main` is retained so direct pushes are checked too.

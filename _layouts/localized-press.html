@@ -1,9 +1,10 @@
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign p = site.data.press[page.lang] -%}
 {%- assign a = site.data.about[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
-{%- assign privacy = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
+{%- assign privacy = locale_pages | where: "translation_key", "privacy-policy" | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
@@ -360,7 +361,7 @@ footer p { margin: 0 0 0.5rem; }
     {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <div id="scrub" aria-hidden="true"></div>
 
 
@@ -472,7 +473,7 @@ footer p { margin: 0 0 0.5rem; }
   </div>
 </main>
 
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 
 <div id="live" role="status" aria-live="polite"></div>
 

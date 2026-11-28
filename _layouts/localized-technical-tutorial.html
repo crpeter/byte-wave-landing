@@ -1,7 +1,8 @@
-{%- assign tutorials_page = site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | first -%}
-{%- assign local_blog = site.pages | where: 'translation_key', 'blog-index' | where: 'lang', page.lang | first -%}
-{%- assign location_article = site.pages | where: 'translation_key', 'can-photos-videos-reveal-your-address' | where: 'lang', page.lang | first -%}
-{%- assign evidence_article = site.pages | where: 'translation_key', 'does-removing-metadata-remove-ai-labels' | where: 'lang', page.lang | first -%}
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
+{%- assign tutorials_page = locale_pages | where: 'translation_key', 'tutorials' | first -%}
+{%- assign local_blog = locale_pages | where: 'translation_key', 'blog-index' | first -%}
+{%- assign location_article = locale_pages | where: 'translation_key', 'can-photos-videos-reveal-your-address' | first -%}
+{%- assign evidence_article = locale_pages | where: 'translation_key', 'does-removing-metadata-remove-ai-labels' | first -%}
 {%- if local_blog.blog_coverage == 'partial' -%}
   {%- assign local_blog = nil -%}
 {%- endif -%}
@@ -26,8 +27,8 @@
 {%- endif -%}
 {%- assign local_date = site.data.creation_tutorials[page.lang].common.updatedDate -%}
 {%- assign variants = site.pages | where: 'translation_key', page.translation_key | sort: 'lang' -%}
-{%- assign home = site.pages | where: 'translation_key', 'home' | where: 'lang', page.lang | first -%}
-{%- assign about_page = site.pages | where: 'translation_key', 'about' | where: 'lang', page.lang | first -%}
+{%- assign home = locale_pages | where: 'translation_key', 'home' | first -%}
+{%- assign about_page = locale_pages | where: 'translation_key', 'about' | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
@@ -92,7 +93,7 @@
   {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main id="main">
 <article>
   <p class="eyebrow">{{ t.nav.tutorials | escape }} · ByteWave</p>
@@ -145,7 +146,7 @@
   {% endif %}
 </article>
 </main>
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 <script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
 </body>
 </html>

@@ -1,14 +1,15 @@
-{%- assign tutorials_page = site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | first -%}
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
+{%- assign tutorials_page = locale_pages | where: 'translation_key', 'tutorials' | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign locale_data = site.data.comparison_tutorials[page.lang] -%}
 {%- assign c = locale_data.common -%}
 {%- assign g = locale_data[page.guide] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
-{%- assign about_page = site.pages | where: "translation_key", "about" | where: "lang", page.lang | first -%}
-{%- assign privacy_page = site.pages | where: "translation_key", "privacy-policy" | where: "lang", page.lang | first -%}
-{%- assign motion_page = site.pages | where: "translation_key", "creation-motion-blur" | where: "lang", page.lang | first -%}
-{%- assign frc_page = site.pages | where: "translation_key", "creation-frame-rate-conversion" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
+{%- assign about_page = locale_pages | where: "translation_key", "about" | first -%}
+{%- assign privacy_page = locale_pages | where: "translation_key", "privacy-policy" | first -%}
+{%- assign motion_page = locale_pages | where: "translation_key", "creation-motion-blur" | first -%}
+{%- assign frc_page = locale_pages | where: "translation_key", "creation-frame-rate-conversion" | first -%}
 {%- if page.guide == 'motionBlur' -%}
   {%- assign video_src = '/assets/videos/comparison.mp4' -%}
   {%- assign video_poster = '/assets/videos/motion-blur-comparison-poster.jpg' -%}
@@ -105,9 +106,9 @@
 {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 <main id="main"><article>
-  <p class="eyebrow"><a href="{{ site.pages | where: 'translation_key', 'tutorials' | where: 'lang', page.lang | map: 'url' | first | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a> / {{ g.title | escape }}</p>
+  <p class="eyebrow"><a href="{{ locale_pages | where: 'translation_key', 'tutorials' | map: 'url' | first | default: '/tutorials/' | relative_url }}">{{ t.nav.tutorials | escape }}</a> / {{ g.title | escape }}</p>
   <h1>{{ g.title | escape }}</h1>
   <p class="meta">{{ t.disclosure.by | escape }} <a href="{{ about_page.url | default: '/about.html' | relative_url }}">ByteWave</a> · {{ site.data.creation_tutorials[page.lang].common.updatedLabel | escape }} <time datetime="{{ page.updated_on }}">{{ site.data.creation_tutorials[page.lang].common.updatedDate | escape }}</time></p>
   <p class="disclosure ai-disclosure"><strong>{{ t.disclosure.label | escape }}</strong> {{ t.disclosure.text | escape }} {{ t.disclosure.review | escape }}</p>
@@ -164,7 +165,7 @@
     <a class="button" href="{{ page.store_url | escape }}">{{ c.download | escape }}</a>
   </div>
 </article></main>
-{% include localized-footer.html %}
+{% include localized-footer.html pages=locale_pages %}
 <script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
 <script src="/assets/js/site-nav.js?v=20261115i18n" defer></script>
 </body>

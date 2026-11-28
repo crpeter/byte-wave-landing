@@ -1,12 +1,13 @@
-{%- assign temporal_noise_reduction_page = site.pages | where: "translation_key", "creation-temporal-noise-reduction" | where: "lang", page.lang | first -%}
-{%- assign caption_text_effects_page = site.pages | where: "translation_key", "creation-caption-text-effects" | where: "lang", page.lang | first -%}
-{%- assign frame_rate_conversion_page = site.pages | where: "translation_key", "creation-frame-rate-conversion" | where: "lang", page.lang | first -%}
-{%- assign motion_blur_page = site.pages | where: "translation_key", "creation-motion-blur" | where: "lang", page.lang | first -%}
-{%- assign layout_page = site.pages | where: "translation_key", "layout-guide" | where: "lang", page.lang | first -%}
+{%- assign locale_pages = site.pages | where: "lang", page.lang -%}
+{%- assign temporal_noise_reduction_page = locale_pages | where: "translation_key", "creation-temporal-noise-reduction" | first -%}
+{%- assign caption_text_effects_page = locale_pages | where: "translation_key", "creation-caption-text-effects" | first -%}
+{%- assign frame_rate_conversion_page = locale_pages | where: "translation_key", "creation-frame-rate-conversion" | first -%}
+{%- assign motion_blur_page = locale_pages | where: "translation_key", "creation-motion-blur" | first -%}
+{%- assign layout_page = locale_pages | where: "translation_key", "layout-guide" | first -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign h = site.data.gallery_hub[page.lang] -%}
 {%- assign variants = site.pages | where: "translation_key", page.translation_key | sort: "lang" -%}
-{%- assign home = site.pages | where: "translation_key", "home" | where: "lang", page.lang | first -%}
+{%- assign home = locale_pages | where: "translation_key", "home" | first -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}"{% if page.lang == "ar" %} dir="rtl"{% endif %}>
 <head>
@@ -268,7 +269,7 @@
 {% include localized-nav-styles.html %}
 </head>
 <body class="site-page site-editorial">
-{% include localized-nav.html %}
+{% include localized-nav.html pages=locale_pages %}
 
 
   <main id="main">
@@ -553,7 +554,7 @@
     </ul>
     <div class="download"><a class="button" href="{{ page.store_url | escape }}">{{ h.download | escape }}</a></div>
   </main>
-  {% include localized-footer.html %}
+  {% include localized-footer.html pages=locale_pages %}
 
 
 <script src="/assets/js/video-player.js?v=318a65ba2cde" defer></script>
