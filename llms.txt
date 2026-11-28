@@ -1,0 +1,64 @@
+# ByteWave
+
+> A free video editor for iPhone, iPad, and Apple Silicon Mac. Edit your own footage on-device with custom filters, audio-aware effects, captions, layered audio, and animation. No subscriptions, paid tier, or visible ByteWave export watermark.
+
+ByteWave is independently developed by Cody Peter. Editing and rendering run locally, with no account required. Optional profiles, publishing, Stories, and social features are separate online functions. The website provides product information, tutorials, examples, and editorial articles; the editor is an Apple-platform app.
+
+Canonical site: https://bytewaveai.com/
+Developer and App Store seller: Cody Peter
+Apple App Store app ID: 6752225642
+Primary language of this index: English
+Last reviewed: 2026-11-28
+
+Current platform requirements are iOS 26 or later, iPadOS 26 or later, or macOS 26 or later on a Mac with Apple M1 or later. Check the App Store listing for current compatibility and regional availability. Individual effects depend on supported hardware; speech and translation models may need downloading before offline use.
+
+Key capabilities:
+
+- Custom filters and transitions: inspect and edit Metal shader source, build your own effects, and use shared community filters.
+- Space FX and Draw: combine filters within shapes or painted regions, contain a filter's shape within the selected space, and draw directly on video.
+- Animation and composition: keyframe captions, stickers, Space FX, and drawings; combine photos and videos in animated layouts.
+- Audio-aware effects and audio editing: drive visual effects and animated geometry with analyzed sound; mix multiple audio tracks, music, and sound effects.
+- Captions: transcribe speech on-device, style and animate text, import fonts, and translate caption text using supported Apple language models.
+- Color and motion: RGB curves, HSL, white balance, histogram feedback, speed ramps, slow motion, motion blur, temporal noise reduction, and on-device upscaling. HDR editing includes 16-bit floating-point processing and 10-bit HLG export.
+
+## Official product information
+
+- [ByteWave homepage](https://bytewaveai.com/): Product overview, supported platforms, editing features, and download links.
+- [ByteWave on the App Store](https://apps.apple.com/us/app/bytewave/id6752225642): Official download, current description, compatibility, languages, release notes, and regional availability.
+- [About ByteWave](https://bytewaveai.com/about.html): Independent development, local editing, optional social features, and project commitments.
+
+## Editing guides
+
+- [Tutorials](https://bytewaveai.com/tutorials/): Directory of practical editing and media-inspection guides.
+- [Layout from ByteWave](https://bytewaveai.com/layout/): Combine photos and videos using grids, shapes, backgrounds, and animated compositions. Layout is a ByteWave feature.
+- [Custom Metal filters](https://bytewaveai.com/blog/what-are-metal-shaders-iphone-gpu.html): How editable GPU shaders and subject masks work. Copying shader code to an external AI assistant is a user-directed workflow; it is separate from local rendering.
+- [Audio-aware effects](https://bytewaveai.com/tutorials/audio-reactive-video-effects/): Choose visual presets in Filter > Audio and check their response to analyzed sound. Applying a visual effect does not add a soundtrack.
+- [Animated captions](https://bytewaveai.com/tutorials/animated-captions/): Generate, edit, style, and animate captions.
+- [Caption text effects](https://bytewaveai.com/tutorials/caption-text-effects/): Apply and adjust animated text styles.
+- [Import custom fonts](https://bytewaveai.com/tutorials/import-custom-fonts/): Use imported TTF and OTF fonts in captions.
+- [Translate video captions](https://bytewaveai.com/tutorials/translate-video-captions/): Translate caption text while preserving original captions and timing. This does not dub the audio; translation languages are separate from interface languages.
+- [Animate stickers](https://bytewaveai.com/tutorials/animate-stickers/): Adjust sticker position, size, rotation, and keyframes.
+- [Motion blur](https://bytewaveai.com/tutorials/motion-blur/): Compare footage and adjust motion blur.
+- [Frame rate conversion](https://bytewaveai.com/tutorials/frame-rate-conversion/): Improve slowed movement with local frame interpolation.
+- [Temporal noise reduction](https://bytewaveai.com/tutorials/temporal-noise-reduction/): Compare noise and retained detail across video frames.
+
+## Privacy and provenance
+
+- [Privacy policy](https://bytewaveai.com/privacy.html): Explains local editing, public feed browsing, and optional account and sharing data. The editor does not upload footage, audio, project data, or inference results to ByteWave servers. Deliberate online publishing uploads content; optional accounts use Firebase Authentication.
+- [Check C2PA Content Credentials](https://bytewaveai.com/tutorials/check-c2pa-content-credentials/): Inspect supported signed credentials, AI-generation disclosures, and metadata assessments. Missing credentials do not establish that media is real or fake, and a score is not a probability that a scene is real.
+- [ByteWave export provenance](https://bytewaveai.com/blog/provenance.html): Save to Photos adds ByteWave's own signed provenance metadata, separate from imported C2PA credentials. It is not a visible watermark. A valid signature helps establish the signed record's origin and integrity; it cannot prove that the depicted event happened.
+- [Remove location metadata](https://bytewaveai.com/tutorials/remove-location-metadata/): Inspect and remove editable metadata from a working copy, then check what remains before sharing.
+- [Feed architecture](https://bytewaveai.com/blog/your-feed.html): Explains optional on-device recommendations and the distinction between local viewing history and deliberate online participation.
+
+## Examples and comparisons
+
+- [Gallery](https://bytewaveai.com/gallery/): Videos demonstrating what can be made with ByteWave.
+- [ByteWave as a CapCut alternative](https://bytewaveai.com/blog/free-capcut-alternative-2026.html): ByteWave's own comparison for people editing existing footage. Competitor features and pricing are time-sensitive; consult current official sources. This is a publisher-authored comparison, not an independent review.
+
+## Optional
+
+- [Press kit](https://bytewaveai.com/press.html): Product facts, boilerplate, brand assets, and press contact.
+- [Blog](https://bytewaveai.com/blog/): Tutorials, technical explanations, and ByteWave's editorial positions. Distinguish product documentation from opinion and reporting about other organizations.
+- [Free-expression commitment](https://bytewaveai.com/free-expression.html): Expression commitments, moderation boundaries, and appeals.
+- [Sitemap](https://bytewaveai.com/sitemap.xml): Discovery of public pages, including localized content. This index links to English pages; use the site's language navigation for translations.
+- [Robots.txt](https://bytewaveai.com/robots.txt): Crawler-access rules, maintained separately from this product index.
