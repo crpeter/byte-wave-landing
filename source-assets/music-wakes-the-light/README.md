@@ -38,11 +38,27 @@ can also commit and push the file after Git LFS is installed for this checkout.
 
 - Replace the English Music wakes the light preview with this longer video.
 - Keep the full supplied duration, with the main footage text-free.
-- Hold **Music by Helios** on screen for the final five seconds. No separate
-  credit caption is needed below the player. `credit.yml` records the credit;
-  optional track and link fields can be filled in before upload.
+- Hold the complete credit below on screen for the final five seconds.
+  **Helios is the track title; Scott Buckley is the artist.** `credit.yml`
+  records the artist, source and license links.
 - Preserve the source color and brightness when preparing the web versions.
 - Keep the video player's built-in sound controls, with no separate sound toggle.
+
+```text
+“Helios” by Scott Buckley
+Released under CC BY 4.0
+www.scottbuckley.com.au/library/helios/
+creativecommons.org/licenses/by/4.0/
+```
+
+Indicate any audio changes accurately. The earlier preview's credit said
+“Audio level adjusted and converted to AAC”; use that note only if it also
+describes this version. Do not assume the longer video uses the earlier excerpts
+or fades.
+
+Verified sources: [track and attribution format](https://www.scottbuckley.com.au/library/helios/)
+and [CC BY 4.0 attribution requirements](https://creativecommons.org/licenses/by/4.0/).
+For a separate YouTube upload, Scott also requires the credit in its description.
 
 This folder is excluded from Jekyll output. The source is for preparing a
 web-sized MP4, HLS stream and poster under `assets/landing/product-previews/en/`;
